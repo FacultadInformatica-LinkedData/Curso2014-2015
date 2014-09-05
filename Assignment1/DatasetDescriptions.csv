@@ -1,1 +1,23 @@
 Your name; Dataset name; Dataset URL; Dataset brief description
+
+Name: María del Mar Elorrieta 
+Dataset: ICPS Network
+Description: He elegido este tema ya que quería buscar algún dataset relacionado con Bioportal (Base de datos de ontologías
+relacionadas con la medicina).Concretamente hay tres recursos:
+
+1. El primer recurso se trata de una wiki de bioportal
+URL: http://www.bioontology.org/wiki/index.php/BioPortal_REST_services
+
+2. El segundo recurso es un SPARQL endpoint, que podríamos traducir como punto de encuentro SPARQL. Desde el podemos 
+realizar consultas SPARQL a las diferentes ontologías que se encuentran en Bioportal. Todas estas ontologías se encuentran 
+en formato RDF aunque originalmente estuvieran en otros formatos. Actualmente hay laboratorios de la Facultad que trabajan 
+realizando este tipo de consultas no solo a Bioportal si no también a otros repositorios con objetivos similares.
+URL: http://sparql.bioontology.org/
+
+3.El tercer y ultimo recurso que ofrecen es unicamente para usuarios con clave de Bioportal. obviamente yo carezco de esta 
+por lo que no e podido recopilar mucha informacion acerca de este recurso.
+http://rest.bioontology.org/bioportal/ontologies/download/46855?apikey=BP_API_KEY
+
+Espero que la información sea de vuestro interés, os animo a que una vez nos impartan la teoría se las SPARQL queries 
+os animéis a jugar un poco con el SPARQL endpoint de bioportal. Un saludo a Todos!
+
