@@ -1,0 +1,53 @@
+{
+  "http://assignment2.org/class#Measurement8401": {
+    "http://assignment2.org/property#hasTemperature": [
+      {
+        "type": "literal",
+        "value": "29",
+        "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+      }
+    ],
+    "http://assignment2.org/property#atTime": [
+      {
+        "type": "literal",
+        "value": "2010-06-12T12:00:12"
+      }
+    ]
+  },
+  "http://assignment2.org/class#Sensor09": {
+    "http://assignment2.org/property#hasMeasurement": [
+      {
+        "type": "uri",
+        "value": "http://assignment2.org/class#Measurement8401"
+      }
+    ]
+  },
+  "http://assignment2.org/class#User10A": {
+    "http://assignment2.org/property#hasName": [
+      {
+        "type": "literal",
+        "value": "Pedro"
+      }
+    ]
+  },
+  "http://assignment2.org/class#Computer101": {
+    "http://assignment2.org/property#hasOwner": [
+      {
+        "type": "uri",
+        "value": "http://assignment2.org/class#User10A"
+      }
+    ]
+  },
+  "http://assignment2.org/class#Class": {
+    "http://assignment2.org/property#includes": [
+      {
+        "type": "uri",
+        "value": "http://assignment2.org/class#Computer101"
+      },
+      {
+        "type": "uri",
+        "value": "http://assignment2.org/class#Sensor09"
+      }
+    ]
+  }
+}
