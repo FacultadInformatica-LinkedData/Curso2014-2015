@@ -1,0 +1,15 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vocab: <http://www.oeg-upm.net/ontologies/class#> .
+@prefix measu: <http://www.oeg-upm.net/ontologies/measurement#> .
+
+:Class01 voacb:includes :Sensor029 ;
+         voacb:includes :Computer101 .
+
+:Sensor029 measu:hasMeasurement :Measurement8401 .
+
+:Measurement8401 measu:hasTemperature "29" ;
+                 rdfs:atTime "2010-06-12T12:00:12" .
+
+:Computer101 vocab:hasOwner :User10A .
+
+:User 10A rdfs:hasName "Pedro" .
