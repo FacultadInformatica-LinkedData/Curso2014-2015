@@ -1,0 +1,15 @@
+@base <http://www.websemantica.com/instances/>.
+@prefix relation: <http://www.websemantica.com/properties#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Class01 relation:includes :Sensor029;
+			relation:includes :Computer101.
+
+:Sensor029 relation:hasMeasurement :Measurement8401.
+
+:Computer101 relation:hasOwner :User10A.
+
+:Measurement8401 relation:hasTemperature "29"^^<xsd:integer>;
+	relation:atTime "2010-06-12T12:00:12"^^<xsd:dateTime>.
+
+:User10A relation:hasName "Pedro"^^<xsd:string>.
