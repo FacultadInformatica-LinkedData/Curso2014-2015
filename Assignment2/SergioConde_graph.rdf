@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-	 xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:class="http://www.oeg-upm.net/wsld/assignment2/class#"
          xmlns:props="http://www.oeg-upm.net/wsld/assignment2/props#">
 
