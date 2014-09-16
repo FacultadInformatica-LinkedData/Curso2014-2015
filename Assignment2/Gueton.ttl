@@ -1,0 +1,23 @@
+@prefix class: <http://assignment2.org/class#> .
+@prefix property: <http://assignment2.org/property#> .
+
+class:Class01 property:includes class:Sensor029 ;
+		      property:includes class:Computer101
+		 
+.
+
+class:Sensor029 property:hasMeasurement class:Measurement8401 
+
+.
+
+class:Measurment8401 property:hasTemperature "29" ;
+                     property:atTime "2010-06-12T12:00:12"
+.
+
+class:Computer101 property:hasOwner class:User10A 
+
+.
+
+class:User10A property:hasName "Pedro"
+
+.
