@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:xsd="http://www.w3.org/2001/XMLSchemaresource#"
+         xmlns:resource="http://www.semanticweblinkeddata.com/ns/resources#"
+         xmlns="http://www.semanticweblinkeddata.com/ns/properties#">
+ 
+    <rdf:Description rdf:about="resource:Class01">
+        <includes rdf:resource="resource:Sensor029"/>
+        <includes rdf:resource="resource:Computer101"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="resource:Sensor029">
+        <hasMeasurement rdf:resource="resource:Measurement8401"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="resource:Computer101">
+        <hasOwner rdf:resource="resource:User10A"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="resource:Mesurement8401">
+        <hasTemperature rdf:datatype="xsd:integer">29</hasTemperature>
+        <atTime rdf:datatype="xsd:dateTime">2010-06-12T12:00:12</atTime>
+    </rdf:Description>
+        
+    <rdf:Description rdf:about="resource:User10A">
+        <hasName rdf:datatype="xsd:string">Pedro</hasName>
+    </rdf:Description>
+    
+</rdf:RDF>
