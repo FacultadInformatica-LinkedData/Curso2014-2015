@@ -1,4 +1,4 @@
-se <http://www.example.org/>
+@prefix : <http://www.example.org/>
 @prefix properties <http://www.example.org/properties#>
 @prefix xsd <http://www.w3.org/2001/XMLSchema#>
 
