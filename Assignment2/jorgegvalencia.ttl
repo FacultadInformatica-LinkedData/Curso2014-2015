@@ -2,8 +2,8 @@
 @prefix property: <http://wsld-assignment2.com/property#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-element:Measurement8401 property:atTime "2010-06-12T12:00:12"^^<xsd:dateTime> ; 
-property:hasTemperature "29"^^<xsd:integer> .
+element:Measurement8401 property:atTime "2010-06-12T12:00:12"^^xsd:dateTime ; 
+property:hasTemperature "29"^^xsd:integer .
 
 element:Sensor029 property:hasMeasurement element:Measurement8401 .
 
