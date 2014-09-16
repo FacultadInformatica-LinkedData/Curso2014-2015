@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:class="http://www.oeg-upm.net/wsld/assignment2/class#"
+         xmlns:props="http://www.oeg-upm.net/wsld/assignment2/props#">
+
+  <rdf:Description rdf:about="class:Measurement8401">
+    <props:atTime rdf:datatype='xsd:dateTime'>2010-06-12T12:00:12</props:atTime>
+    <props:hasTemperature rdf:datatype='xsd:integer'>29</props:hasTemperature>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="class:Sensor029">
+    <props:hasMeasurement rdf:resource="class:Measurement8401"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="class:User10A">
+    <props:hasName>Pedro</props:hasName>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="class:Computer101">
+    <props:hasOwner rdf:resource="class:User10A"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="class:Class01">
+    <props:includes rdf:resource="class:Sensor029"/>
+    <props:includes rdf:resource="class:Computer101"/>
+  </rdf:Description>
+</rdf:RDF>
