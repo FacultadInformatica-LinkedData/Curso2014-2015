@@ -9,9 +9,9 @@
 
 :Computer101 propiedades:hasOwner :User10A.
 
-:User10A propiedades:hasName :Pedro;
+:User10A propiedades:hasName "Pedro";
 .
 
-:Measurement8401 propiedades:hasTemperature :29;
-                                propiedades:atTime :2010-06-12;
+:Measurement8401 propiedades:hasTemperature "29"^^<xsd:integer>;
+                                propiedades:atTime "2010-06-12"^^<xsd:dateTime>;
 .
