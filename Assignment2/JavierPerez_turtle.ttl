@@ -1,0 +1,15 @@
+@base <https://moodle.upm.es/titulaciones/oficiales/pluginfile.php/644931/mod_resource/content/8/01_RDF%28S%29.pdf>
+@prefix class: <http://linkedData.es/clase> .
+@prefix property: <http://linkedData.es/propiedad> .
+
+clase:Class01 		propiedad:includes class:Sensor029 ;
+	      		propiedad:includes class:Computer101.
+
+clase:Sensor029 	propiedad:hasMeasurement class:Measurement8401. 
+
+clase:Measurment8401 	propiedad:hasTemperature "29" ;
+                     	propiedad:atTime "2010-06-12T12:00:12".
+
+clase:Computer101 	propiedad:hasOwner class:User10A. 
+
+clase:User10A 		propiedad:hasName "Pedro".
