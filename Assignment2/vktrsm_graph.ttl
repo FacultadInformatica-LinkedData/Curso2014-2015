@@ -1,0 +1,9 @@
+@prefix class: <http://assignment2.org/class#> .
+@prefix prop: <http://assignment2.org/prop#> .
+
+class:Measurement8401 prop:atTime "2010-06-12T12:00:12"; prop:hasTemperature "29" .
+class:Sensor029 prop:hasMeasurement class:Measurement8401 .
+class:User10A prop:hasName "Pedro" .
+class:Computer101 prop:hasOwner class:User10A .
+class:Class01 prop:includes class:Sensor029 ,
+class:Computer101 .
