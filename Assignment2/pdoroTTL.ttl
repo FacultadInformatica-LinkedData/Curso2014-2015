@@ -1,0 +1,13 @@
+@prefix : <http://www.semanticweblinkeddata.com/ns/properties#> .
+
+<resource:Class01> :includes <resource:Sensor029>,
+     <resource:Computer101> .
+
+<resource:Mesurement8401> :atTime "2010-06-12T12:00:12"^^<xsd:dateTime>;
+   :hasTemperature "29"^^<xsd:integer> .
+
+<resource:Computer101> :hasOwner <resource:User10A> .
+
+<resource:Sensor029> :hasMeasurement <resource:Measurement8401> .
+
+<resource:User10A> :hasName "Pedro"^^<xsd:string> .
