@@ -1,0 +1,17 @@
+@prefix : <http://www.w3.org/> .
+@prefix propiedades: <http://www.w3.org/propiedades#> .
+:Class01 propiedades:includes :Sensor029;
+               propiedades:includes :Computer101;
+.
+
+:Sensor029 propiedades:hasMeasurement :Measurement8401;
+.
+
+:Computer101 propiedades:hasOwner :User10A.
+
+:User10A propiedades:hasName "Pedro";
+.
+
+:Measurement8401 propiedades:hasTemperature "29"^^<xsd:integer>;
+                                propiedades:atTime "2010-06-12"^^<xsd:dateTime>;
+.

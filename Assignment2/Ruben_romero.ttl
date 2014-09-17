@@ -1,0 +1,17 @@
+@prefix prop: <https://www.Assignment2.com/> .
+@prefix : <https://www.Assignment2.com/> .
+
+
+:Class01
+prop:includes :Computer101 ;
+prop:includes :Sensor029 .
+		
+:Computer101 	prop:hasOwner :User10A .
+		
+:User10A prop:hasName "Pedro" .
+
+		
+:Sensor029 prop:hasMeasurement :Measurement8401 .
+		
+:Measurement8401 prop:hasTemperature  "29" ;
+prop:atTime "2010-06-12T12:00:12" .
