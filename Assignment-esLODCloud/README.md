@@ -1,0 +1,1 @@
+Folder where to add contents of the assignment for generating the LOD Cloud for Spanish datasets
