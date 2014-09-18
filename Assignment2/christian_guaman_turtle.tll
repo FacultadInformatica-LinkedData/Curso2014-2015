@@ -1,0 +1,14 @@
+@prefix : <http://www.example.org/>. 
+@prefix propiedad: <http://www.example.org/propiedad#>.
+
+:Class01 propiedad:includes :Sensor029;
+              propiedad:includes :Computer101.
+
+:Sensor029 propiedad:hasMeasurement :Measurement8401.
+
+:Computer101 propiedad:hasOwner :User10A.
+
+:Measurement8401 propiedad:hasTemperature 29;
+                               propiedad:atTime :2010-06-12.
+
+:User10A propiedad:hasName :Pedro.
