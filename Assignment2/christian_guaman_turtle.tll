@@ -1,4 +1,5 @@
 @prefix : <http://www.example.org/>. 
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix propiedad: <http://www.example.org/propiedad#>.
 
 :Class01 propiedad:includes :Sensor029;
@@ -9,6 +10,6 @@
 :Computer101 propiedad:hasOwner :User10A.
 
 :Measurement8401 propiedad:hasTemperature 29;
-                               propiedad:atTime :2010-06-12.
+                               propiedad:atTime :"2010-06-12T12:00:12"^^xsd:dateTime.
 
-:User10A propiedad:hasName :Pedro.
+:User10A propiedad:hasName :"Pedro".
