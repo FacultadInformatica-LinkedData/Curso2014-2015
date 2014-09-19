@@ -1,0 +1,24 @@
+Package id and name of datasets (22):
+
+49300af3-c75b-48d2-9299-fffb12c2888d - aragodbpedia
+a90d680b-7eaf-43bc-bc65-9712d12cf90b - 2001-spanish-census-to-rdf
+b1cdad40-7f55-4173-9699-e8ebf1ac79d2 - dbpedia-es
+2e6ad4ec-9ddf-4eed-8256-f3b58a71ec0b - didactalia
+c914d16d-91e2-4e0f-8f45-47c52302c38b - aemet
+6dc31e51-8738-4ecf-bc8b-0c6c55d4e54f - zaragoza-datosabiertos
+713c035b-8f58-4805-8b8d-d2934a8d6997 - zaragoza_turruta
+dce3e34a-aadc-4662-ab95-99c43c16ec6a - bioportal-icps
+97035ce3-a59b-4da1-8e6a-0f287c8298cb - geonames-semantic-web
+09e17244-0852-4509-bedc-9455acf07680 - dataturcyl-lod-for-tourists-in-castilla-y-leon-spain
+029bd1e6-2c8a-4113-8aa2-69602ffac487 - elviajero
+9341b0aa-a3bb-429d-aef2-39a20cefdc52 - deustotech
+78cd19c3-0f70-4f4b-a455-fdeeb95bf4fc - datos-bne-es
+9c23039d-211d-4581-8b02-7138c61976d2 - national-railway-stations
+888814d3-7697-4683-87fd-7192bb056b7b - museosespania-gnoss
+61579530-1083-4b82-bcf5-44da1d9b2c0e - upobudget
+3e885497-2938-4fb0-a17d-699acfdae588 - lotico
+80c5f770-34ac-4fd8-8fa7-72a603b4800d - geolinkeddata
+e3ae1b5e-77d4-45ad-9721-1719d8e1ed3b - euskadi-farmacias
+d20beef8-0ed6-4437-81d6-2a5bb0965b91 - mismuseos-gnoss
+1b221874-9b69-4e93-984c-ef0cc46e70c7 - crtm
+cf146bf4-261f-403e-ac3c-6b9696406137 - monumentos-zaragoza
