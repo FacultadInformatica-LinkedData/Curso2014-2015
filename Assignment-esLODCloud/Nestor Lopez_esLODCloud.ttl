@@ -4,34 +4,34 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix : <http://270a.info/void.ttl#> .
+@prefix : <http://datahub.io/> .
 #Datasets Assignment 1
-@prefix AragoDBPedia-dataset: <http://opendata.aragon.es/aragopedia/> .
-@prefix SpanishCensustoRDF-dataset:	<http://visualdataweb.infor.uva.es/censo/index_en.html> .
-@prefix DBpediaES-dataset:	<http://es.dbpedia.org/> .
-@prefix Didactalia-dataset:	<http://didactalia.net/comunidad/materialeducativo> .
-@prefix AEMET-dataset:	<http://aemet.linkeddata.es/>  .
-@prefix DatosAbiertosZaragoza-dataset:	<http://www.zaragoza.es/ciudad/risp/presentacion.htm> .
-@prefix ZaragozaTurruta-dataset:	<http://www.zaragoza.es/turruta/Turruta/index_Ruta> .
-@prefix ICPSNetwork-dataset:	<http://bioportal.bioontology.org/ontologies/ICPS> .
-@prefix GeoNames-dataset:	<http://www.geonames.org/ontology/> .
+@prefix AragoDBPedia-dataset: <http://datahub.io/dataset/aragodbpedia> .
+@prefix SpanishCensustoRDF-dataset:	<http://datahub.io/dataset/2001-spanish-census-to-rdf> .
+@prefix DBpediaES-dataset:	<http://datahub.io/dataset/dbpedia-es> .
+@prefix Didactalia-dataset:	<http://datahub.io/dataset/didactalia> .
+@prefix AEMET-dataset:	<http://datahub.io/dataset/aemet>  .
+@prefix DatosAbiertosZaragoza-dataset:	<http://datahub.io/dataset/zaragoza-datosabiertos> .
+@prefix ZaragozaTurruta-dataset:	<http://datahub.io/dataset/zaragoza_turruta> .
+@prefix ICPSNetwork-dataset:	<http://datahub.io/dataset/bioportal-icps> .
+@prefix GeoNames-dataset:	<http://datahub.io/dataset/geonames-semantic-web> .
 @prefix Dataturcyl-dataset:	<http://datahub.io/dataset/dataturcyl-lod-for-tourists-in-castilla-y-leon-spain> .
-@prefix ElViajeroTourism-dataset:	<http://webenemasuno.linkeddata.es/> .
-@prefix DeustoTech-dataset:	<http://deusto.gnoss.com/comunidad/DeustoTech> .
-@prefix OpenBibliographicLinkedData-dataset:	<http://datos.bne.es/sparql> .
-@prefix MuseosDeEspaña-dataset:	<http://www.bne.es/es/Inicio/Perfiles/Bibliotecarios/DatosEnlazados/index.html> .
-@prefix GeoLinkedData-dataset:	<http://geo.linkeddata.es/web/guest;jsessionid=8AE7ABE81D56A5F018DB1B7AD863C60D> .
-@prefix Lotico-dataset:	<http://datahub.io/es/dataset/lotico> .
-@prefix FarmaciasEnEuskadi-dataset:	<http://opendata.euskadi.net/w79-contdata/es/contenidos/ds_localizaciones/farmacias_de_euskadi/es_farmacia/farmacias.html> .
-@prefix MisMuseosGNOSS-dataset:	<http://mismuseos.net/comunidad/metamuseo> .
-@prefix CRTM-dataset:	<http://crtm.linkeddata.es/sparql> .
+@prefix ElViajeroTourism-dataset:	<http://datahub.io/es/dataset/elviajero> .
+@prefix DeustoTech-dataset:	<http://datahub.io/dataset/deustotech> .
+@prefix OpenBibliographicLinkedData-dataset:	<http://datahub.io/dataset/datos-bne-es> .
+@prefix MuseosDeEspaña-dataset:	<http://datahub.io/dataset/datos-bne-es> .
+@prefix GeoLinkedData-dataset:	<http://datahub.io/dataset/geolinkeddata> .
+@prefix Lotico-dataset:	<http://datahub.io/dataset/lotico> .
+@prefix FarmaciasEnEuskadi-dataset:	<http://datahub.io/dataset/euskadi-farmacias> .
+@prefix MisMuseosGNOSS-dataset:	<http://datahub.io/dataset/mismuseos-gnoss> .
+@prefix CRTM-dataset:	<http://datahub.io/dataset/crtm> .
 @prefix MonumentosZaragoza-dataset:	<http://datahub.io/dataset/monumentos-zaragoza> .
 
 <http://es.dbpedia.org/>
 	rdfs:label "esDBpedia"@es;
 	.
 	
-:Datasets
+:Datasets 
 	a void:Dataset ;
 	dcterms:title "The Datasets"@es ;
 	foaf:homepage <http://es.dbpedia.org/> ;
@@ -56,249 +56,293 @@
 	FarmaciasEnEuskadi-dataset:FarmaciasEnEuskadi,
 	MisMuseosGNOSS-dataset:MisMuseosGNOSS,
 	CRTM-dataset:CRTM,
-	MonumentosZaragoza-dataset:MonumentosZaragoza;
-	void:triples 0 ;
-    void:feature
-        <http://www.w3.org/ns/formats/RDF_XML> ,
-        <http://www.w3.org/ns/formats/Turtle> ;
-    .
+	MonumentosZaragoza-dataset:MonumentosZaragoza .
 
-AragoDBPedia-dataset:AragoDBPedia
+AragoDBPedia-dataset:AragoDBPedia 
 	a void:Dataset ;
 	dcterms:title "AragoDBPedia";
 	foaf:homepage <http://opendata.aragon.es/aragopedia/> ;
-	dcterms:subject
-	<http://opendata.aragon.es/catalogo/catalogo.html> ,
-	<http://opendata.aragon.es/portal/social-data> ;
+	void:subset 
+	DBpediaES-dataset:DBpediaES ;
 	dcterms:contributor
 	<http://opendata.aragon.es/catalogo/Aragon_Open_Data> ,
-	<http://opendata.aragon.es/catalogo/Aragon_Open_Data>;
+	<http://opendata.aragon.es/catalogo/Aragon_Open_Data> ;
+	# Dataset statistics
+	void:triples "768"^^xsd:nonNegativeInteger;
 	.
-
+    
 SpanishCensustoRDF-dataset:SpanishCensustoRDF
 	a void:Dataset ;
 	dcterms:title "2001 Spanish Census to RDF";
 	foaf:homepage <http://visualdataweb.infor.uva.es/censo/index_en.html> ;
-	dcterms:subject
-	<http://visualdataweb.infor.uva.es/censo/start.html> ,
-	<http://visualdataweb.infor.uva.es/censo/RDFData.html> ,
-	<http://visualdataweb.infor.uva.es/censo/sparql_en.html> ,
-	<http://visualdataweb.infor.uva.es/censo/visualization.html> ,
-	<http://visualdataweb.infor.uva.es/censo/news.html>;
+	void:subset
+	<http://linkeddatacatalog.dws.informatik.uni-mannheim.de/fa_IR/dataset/rdflicense> , 
+	GeoNames-dataset:GeoNames ;
 	dcterms:contributor
 	<http://visualdataweb.infor.uva.es/censo/Javier_D._Fernández> ,
 	<http://visualdataweb.infor.uva.es/censo/Miguel_A._Martínez-Prieto>;
+	# Dataset statistics
+	void:triples "93325760"^^xsd:nonNegativeInteger;
 	.
 	
 DBpediaES-dataset:DBpediaES
 	a void:Dataset ;
 	dcterms:title "DBpediaES";
-	foaf:homepage <http://es.dbpedia.org/> ;
-	dcterms:subject
-	<http://es.dbpedia.org/sparql> ,
-	<http://es.dbpedia.org/page/Madrid>;
+	foaf:page <http://datahub.io/dataset/dbpedia-es>  ;
+	void:sparqlEndpoint <http://es.dbpedia.org/sparql> ;
 	dcterms:contributor
 	<http://es.dbpedia.org/Mariano_Rico> ,
 	<http://es.dbpedia.org/Mariano_Rico>;
 	.
-
+	
 Didactalia-dataset:Didactalia
 	a void:Dataset ;
 	dcterms:title "Didactalia";
 	foaf:homepage <http://didactalia.net/comunidad/materialeducativo> ;
-	dcterms:subject
-	<http://didactalia.net/comunidad/materialeducativo/indice> ,
-	<http://didactalia.net/comunidad/materialeducativo/recursos> ,
-	<http://didactalia.net/comunidad/materialeducativo/lecciones>;
+	void:subset
+	<http://dbpedia.org/About> ,
+	<http://wiki.freebase.com/wiki/Main_Page> ,
+	GeoNames-dataset:GeoNames ,
+	<http://linkeddatacatalog.dws.informatik.uni-mannheim.de/dataset/green-competitiveness-gnoss> ,
+	<http://ineverycrea.net/comunidad/ineverycrea> ,
+	<http://mapasinteractivos.didactalia.net/comunidad/mapasflashinteractivos> ,
+	MisMuseosGNOSS-dataset:MisMuseosGNOSS ,
+	<http://data.nytimes.com/> ;
 	dcterms:contributor
 	<http://didactalia.net/comunidad/materialeducativo/GNOSS_Team> ,
 	<http://didactalia.net/comunidad/materialeducativo/GNOSS_Team>;
+	# Dataset statistics
+	void:triples "3494839"^^xsd:nonNegativeInteger;
 	.
 	
 AEMET-dataset:AEMET
 	a void:Dataset ;
 	dcterms:title "AEMET";
 	foaf:homepage <http://aemet.linkeddata.es/> ;
-	dcterms:suject
-	<http://aemet.linkeddata.es/datasources.html> ,
-	<http://aemet.linkeddata.es/models.html> ,
-	<http://aemet.linkeddata.es/sparql.html> ;
+	void:subset
+	<http://dbpedia.org/About> ,
+	GeoLinkedData-dataset:GeoLinkedData ;
 	dcterms:contributor
 	<http://aemet.linkeddata.es/Ontology_Engineering_Group,_Facultad_de_Informática,_Universidad_Politécnica_de_Madrid.> ,
 	<http://aemet.linkeddata.es/Daniel_Garijo,_Jose_Mora_and_Boris_Villazón-Terrazas>;
+	# Dataset statistics
+	void:triples "62932032"^^xsd:nonNegativeInteger;
 	.
 
 DatosAbiertosZaragoza-dataset:DatosAbiertosZaragoza
 	a void:Dataset ;
 	dcterms:title "Datos abiertos Zaragoza";
 	foaf:homepage <http://www.zaragoza.es/ciudad/risp/presentacion.htm> ;
-	dcterms:suject
-	<http://www.zaragoza.es/ciudad/risp/open311.htm> ;
 	dcterms:contributor
 	<http://www.zaragoza.es/ciudad/risp/Ayuntamiento_de_Zaragoza> ,
 	<http://www.zaragoza.es/ciudad/risp/maintainer>;
+	# Dataset statistics
+	void:triples "2744"^^xsd:nonNegativeInteger;
 	.
-
+	
 ZaragozaTurruta-dataset:ZaragozaTurruta
 	a void:Dataset ;
 	dcterms:title "Zaragoza Turruta" ;
 	foaf:homepage <http://www.zaragoza.es/turruta/resource/data/Edificio-historico/9200> ;
-	dcterms:suject
-	<http://www.zaragoza.es/turruta/resource/data/Edificio-historico/9200> ;
 	dcterms:contributor
 	<http://www.zaragoza.es/turruta/resource/data/Edificio-historico/9200/author> ,
 	<http://www.zaragoza.es/turruta/resource/data/Edificio-historico/9200/maintainer>;
 	.
-
+	
 ICPSNetwork-dataset:ICPSNetwork
 	a void:Dataset ;
 	dcterms:title "ICPS Network" ;
 	foaf:homepage <http://bioportal.bioontology.org/ontologies/ICPS> ;
-	dcterms:suject
-	<http://www.zaragoza.es/turruta/resource/data/Edificio-historico/9200> ;
+	void:sparqlEndpoint <http://sparql.bioontology.org> ;
+	void:subset
+	<http://bioportal.bioontology.org/ontologies/CANCO> ,
+	<https://bioportal.bioontology.org/ontologies/CPRO> ,
+	<http://bioportal.bioontology.org/ontologies/CRISP> ,
+	<http://bioportal.bioontology.org/ontologies/EFO> ,
+	<http://bioportal.bioontology.org/ontologies/GALEN> ,
+	<http://bioportal.bioontology.org/ontologies/GAZ> ,
+	<http://bioportal.bioontology.org/ontologies/HL7> ,
+	<http://bioportal.bioontology.org/ontologies/ICNP> ,
+	<http://bioportal.bioontology.org/ontologies/LOINC> ,
+	<http://bioportal.bioontology.org/ontologies/RH-MESH> ,
+	<http://bioportal.bioontology.org/ontologies/MESH> ,
+	<http://bioportal.bioontology.org/ontologies/NCIT> ,
+	<http://bioportal.bioontology.org/ontologies/RCD> ,
+	<http://bioportal.bioontology.org/ontologies/RADLEX> ,
+	<http://bioportal.bioontology.org/ontologies/SNOMEDCT> ,
+	<http://bioportal.bioontology.org/ontologies/SOPHARM> ;
 	dcterms:contributor
 	<http://bioportal.bioontology.org/ontologies/ICPS/Oscar_Corcho> ,
 	<http://bioportal.bioontology.org/ontologies/ICPS/BioPortal_project_on_behalf_of_ontology_owner>;
+	# Dataset statistics
+	void:triples "9468"^^xsd:nonNegativeInteger;
 	.
-	
+
 GeoNames-dataset:GeoNames
 	a void:Dataset ;
 	dcterms:title "GeoNames" ;
 	foaf:homepage <http://www.geonames.org/ontology/> ;
-	dcterms:suject
-	<http://www.geonames.org/> ;
 	dcterms:contributor
 	<http://www.geonames.org/Bernard_Vatant> ,
 	<http://www.geonames.org/maintainer>;
+	# Dataset statistics
+	void:triples "93896732"^^xsd:nonNegativeInteger;
 	.
+
 Dataturcyl-dataset:Dataturcyl
 	a void:Dataset ;
 	dcterms:title "Dataturcyl";
 	foaf:homepage <http://visualdataweb.infor.uva.es/> ;
-	dcterms:suject
-	<http://visualdataweb.infor.uva.es/endpoints> ,
-	<http://visualdataweb.infor.uva.es/maps> ,
-	<http://visualdataweb.infor.uva.es/contribs/new>;
+	void:subset
+	<http://dbpedia.org/About> ;
 	dcterms:contributor
 	<http://visualdataweb.infor.uva.es/Daniel_Revilla> ,
 	<http://visualdataweb.infor.uva.es/Javier_D._Fernández>;
+	# Dataset statistics
+	void:triples "332991"^^xsd:nonNegativeInteger;
 	.
 	
 ElViajeroTourism-dataset:ElViajeroTourism
 	a void:Dataset ;
 	dcterms:title "El Viajero's tourism dataset";
 	foaf:homepage <http://webenemasuno.linkeddata.es/>;
-	dcterms:suject
-	<http://webenemasuno.linkeddata.es/datasources.html> ,
-	<http://webenemasuno.linkeddata.es/sparql.html>;
+	void:subset
+	<http://dbpedia.org/About> ,
+	GeoLinkedData-dataset:GeoLinkedData ;
 	dcterms:contributor
 	<http://webenemasuno.linkeddata.es/Ontology_Engineering_Group,_Facultad_de_Informática,_Universidad_Politécnica_de_Madrid.> ,
 	<http://webenemasuno.linkeddata.es/Daniel_Garijo>;
+	# Dataset statistics
+	void:triples "9262184"^^xsd:nonNegativeInteger;
 	.
-
+	
 DeustoTech-dataset:DeustoTech
 	a void:Dataset ;
 	dcterms:title "DeustoTech";
 	foaf:homepage <http://deusto.gnoss.com/comunidad/DeustoTech> ;
-	dcterms:suject
-	<http://deusto.gnoss.com/comunidad/DeustoTech/Projects> ,
-	<http://deusto.gnoss.com/comunidad/DeustoTech/Researchers> ,
-	<http://deusto.gnoss.com/comunidad/DeustoTech/Publications>;
+	void:subset
+	<http://researchgroups.gnoss.com/> ,
+	<http://dbpedia.org/About> ,
+	<https://www.freebase.com/> ,
+	GeoLinkedData-dataset:GeoLinkedData ,
+	<http://www.gnoss.com/home> ,
+	<http://www.morelab.deusto.es/labman/> ,
+	<http://data.nytimes.com/> ;
 	dcterms:contributor
 	<http://deusto.gnoss.com/comunidad/DeustoTech/GNOSS_Team> ,
 	<http://deusto.gnoss.com/comunidad/DeustoTech/GNOSS_Team>;
+	# Dataset statistics
+	void:triples "55022"^^xsd:nonNegativeInteger;
 	.
 	
 MuseosDeEspaña-dataset:MuseosDeEspaña
 	a void:Dataset ;
 	dcterms:title "Open bibliographic linked data from the Spanish National Library";
 	foaf:homepage <http://datos.bne.es>;
-	dcterms:suject
-	<http://datos.bne.es/sparql> ;
+	void:subset
+	<http://dbpedia.org/About> ,
+	<http://d-nb.info/standards/elementset/gnd#> ,
+	<http://www.lexvo.org/> ,
+	<http://www.libris.es/> ,
+	<http://www.sudoc.abes.fr//DB=2.1/> ,
+	<http://viaf.org/> ;
 	dcterms:contributor
 	<http://datos.bne.es/Ontology_Engineering_Group,_Facultad_de_Informática,_Universidad_Politécnica_de_Madrid> ,
 	<http://datos.bne.es/Daniel_Vila-Suero_and_Boris_Villazón-Terrazas>;
+	# Dataset statistics
+	void:triples "58053215"^^xsd:nonNegativeInteger;
 	.
 	
 MisMuseosGNOSS-dataset:MisMuseosGNOSS
 	a void:Dataset ;
 	dcterms:title "Museos de España, colección de museos públicos y privados españoles (GNOSS)";
 	foaf:homepage <http://museos.gnoss.com/comunidad/mismuseos/>;
-	dcterms:suject
-	<http://museos.gnoss.com/comunidad/mismuseos/> ;
+	void:subset
+	<http://dbpedia.org/About> ,
+	<https://www.freebase.com/> ,
+	GeoLinkedData-dataset:GeoLinkedData ,
+	<http://www.gnoss.com/home> ,
+	<http://mismuseos.net/comunidad/metamuseo> ,
+	<http://data.nytimes.com/> ;
 	dcterms:contributor
 	<http://museos.gnoss.com/comunidad/mismuseos/GNOSS_Team> ,
 	<http://museos.gnoss.com/comunidad/mismuseos/GNOSS_Team>;
+	# Dataset statistics
+	void:triples "79065"^^xsd:nonNegativeInteger;
 	.
 	
 GeoLinkedData-dataset:GeoLinkedData
 	a void:Dataset ;
 	dcterms:title "GeoLinked Data" ;
 	foaf:homepage <http://geo.linkeddata.es/web/guest> ;
-	dcterms:suject
-	<http://geo.linkeddata.es/web/guest/fuentesdatos> ,
-	<http://geo.linkeddata.es/web/guest/modelos> ,
-	<http://geo.linkeddata.es/web/guest/tecnologia> ,
-	<http://geo.linkeddata.es/web/guest/endpoints> ,
-	<http://geo.linkeddata.es/web/guest/visualizacion-beta> ,
-	<http://geo.linkeddata.es/web/guest/publications> ,
-	<http://geo.linkeddata.es/web/guest/consultoria> ,
-	<http://geo.linkeddata.es/web/guest/contacto> ;
+	void:subset
+	<http://dbpedia.org/About> ;
 	dcterms:contributor
 	<http://geo.linkeddata.es/web/Ontology_Engineering_Group,_Facultad_de_Informática,_Universidad_Politécnica_de_Madrid> ,
 	<http://geo.linkeddata.es/web/GeoLinkedData_Team> ;
+	# Dataset statistics
+	void:triples "21564199"^^xsd:nonNegativeInteger ;
 	.
-
+	
 Lotico-dataset:Lotico
 	a void:Dataset ;
 	dcterms:title "Lotico";
 	foaf:homepage <http://www.lotico.com/index.php/Lotico> ;
-	dcterms:suject
-	<http://www.lotico.com/index.php/Special:SpecialPages> ;
+	void:subset
+	<http://dbpedia.org/About> ;
 	dcterms:contributor
 	<http://www.lotico.com/index.php/Marco_Neumann> ,
-	<http://www.lotico.com/index.php/maintainer> ,
+	<http://www.lotico.com/index.php/maintainer> ;
+	# Dataset statistics
+	void:triples "2066186"^^xsd:nonNegativeInteger ;
 	.
 	
 FarmaciasEnEuskadi-dataset:FarmaciasEnEuskadi
 	a void:Dataset ;
 	dcterms:title "Farmacias en Euskadi";
 	foaf:homepage <http://opendata.euskadi.net/w79-contdata/es/contenidos/ds_localizaciones/farmacias_de_euskadi/es_farmacia/farmacias.html> ;
-	dcterms:suject
+	void:subset
+	GeoLinkedData-dataset:GeoLinkedData ;
 	dcterms:contributor
 	<http://opendata.euskadi.net/w79-contdata/es/contenidos/ds_localizaciones/farmacias_de_euskadi/es_farmacia/farmacias.html/Departamento_de_Sanidad_y_Consumo._Gobierno_Vasco.> ,
-	<http://opendata.euskadi.net/w79-contdata/es/contenidos/ds_localizaciones/farmacias_de_euskadi/es_farmacia/farmacias.html/maintainer> ,
+	<http://opendata.euskadi.net/w79-contdata/es/contenidos/ds_localizaciones/farmacias_de_euskadi/es_farmacia/farmacias.html/maintainer> ;
+	# Dataset statistics
+	void:triples "35"^^xsd:nonNegativeInteger ;
 	.
-
+	
 MisMuseosGNOSS-dataset:MisMuseosGNOSS
 	a void:Dataset ;
 	dcterms:title "Mis Museos GNOSS";
 	foaf:homepage <http://mismuseos.net/comunidad/metamuseo> ;
-	dcterms:suject
-	<http://mismuseos.net/comunidad/metamuseo/Colecci%C3%B3n> ,
-	<http://mismuseos.net/comunidad/metamuseo/Artistas> ;
+	void:subset
+	<http://dbpedia.org/About> ,
+	Didactalia-dataset:Didactalia ,
+	<https://www.freebase.com/> ,
+	GeoLinkedData-dataset:GeoLinkedData ,
+	<http://www.gnoss.com/home> ,
+	<http://museos.gnoss.com/comunidad/mismuseos/> ,
+	<http://data.nytimes.com/> ;
 	dcterms:contributor
 	<http://mismuseos.net/comunidad/metamuseo/GNOSS_Team> ,
-	<http://mismuseos.net/comunidad/metamuseo/GNOSS_Team> ,
+	<http://mismuseos.net/comunidad/metamuseo/GNOSS_Team> ;
+	# Dataset statistics
+	void:triples "1235894"^^xsd:nonNegativeInteger ;
 	.
-
+	
 CRTM-dataset:CRTM
 	a void:Dataset ;
 	dcterms:title "CRTM";
 	foaf:homepage <http://crtm.linkeddata.es/sparql> ;
-	dcterms:suject
 	dcterms:contributor
 	<http://crtm.linkeddata.es/sparql/Oscar_Corcho> ,
-	<http://crtm.linkeddata.es/sparql/Oscar_Corcho> ,
+	<http://crtm.linkeddata.es/sparql/Oscar_Corcho> ;
 	.
-
+	
 MonumentosZaragoza-dataset:MonumentosZaragoza
 	a void:Dataset ;
 	dcterms:title "Monumentos Zaragoza";
 	foaf:homepage <http://www.zaragoza.es/ciudad/turismo/es/que-visitar/sitios-interes/monumentos.htm> ;
-	dcterms:suject
-	<http://www.zaragoza.es/ciudad/turismo/es/que-visitar/sitios-interes/monumentos.htm> ;
 	dcterms:contributor
 	<http://www.zaragoza.es/ciudad/turismo/es/que-visitar/sitios-interes/monumentos.htm/author> ,
-	<http://www.zaragoza.es/ciudad/turismo/es/que-visitar/sitios-interes/monumentos.htm/maintainer> ,
+	<http://www.zaragoza.es/ciudad/turismo/es/que-visitar/sitios-interes/monumentos.htm/maintainer> ;
 	.
