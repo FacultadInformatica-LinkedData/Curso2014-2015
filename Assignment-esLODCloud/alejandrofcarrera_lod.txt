@@ -22,3 +22,18 @@ e3ae1b5e-77d4-45ad-9721-1719d8e1ed3b - euskadi-farmacias
 d20beef8-0ed6-4437-81d6-2a5bb0965b91 - mismuseos-gnoss
 1b221874-9b69-4e93-984c-ef0cc46e70c7 - crtm
 cf146bf4-261f-403e-ac3c-6b9696406137 - monumentos-zaragoza
+
+Link found: aragodbpedia with dbpedia-es
+Link found: didactalia with mismuseos-gnoss
+Link found: didactalia with geonames-semantic-web
+Link found: aemet with geolinkeddata
+Link found: zaragoza_turruta with zaragoza-datosabiertos
+Link found: elviajero with geolinkeddata
+Link found: deustotech with geonames-semantic-web
+Link found: museosespania-gnoss with mismuseos-gnoss
+Link found: museosespania-gnoss with geonames-semantic-web
+Link found: geolinkeddata with geonames-semantic-web
+Link found: euskadi-farmacias with geonames-semantic-web
+Link found: mismuseos-gnoss with museosespania-gnoss
+Link found: mismuseos-gnoss with geonames-semantic-web
+Link found: mismuseos-gnoss with didactalia
