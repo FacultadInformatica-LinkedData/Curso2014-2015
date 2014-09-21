@@ -1,0 +1,127 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://datahub.io/> a void:Dataset;
+    dcterms:title "datahub.io";
+    void:subset
+        <http://datahub.io/dataset/aragodbpedia>,
+        <http://datahub.io/dataset/2001-spanish-census-to-rdf>,
+        <http://datahub.io/dataset/dbpedia-es>,
+        <http://datahub.io/dataset/didactalia>,
+        <http://datahub.io/dataset/aemet>,
+        <http://datahub.io/dataset/zaragoza-datosabiertos>,
+        <http://datahub.io/dataset/zaragoza_turruta>,
+        <http://datahub.io/dataset/bioportal-icps>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/dataturcyl-lod-for-tourists-in-castilla-y-leon-spain>,
+        <http://datahub.io/dataset/elviajero>,
+        <http://datahub.io/dataset/deustotech>,
+        <http://datahub.io/dataset/datos-bne-es>,
+        <http://datahub.io/dataset/national-railway-stations>,
+        <http://datahub.io/dataset/museosespania-gnoss>,
+        <http://datahub.io/dataset/upobudget>,
+        <http://datahub.io/dataset/lotico>,
+        <http://datahub.io/dataset/geolinkeddata>,
+        <http://datahub.io/dataset/euskadi-farmacias>,
+        <http://datahub.io/dataset/mismuseos-gnoss>,
+        <http://datahub.io/dataset/crtm>,
+        <http://datahub.io/dataset/monumentos-zaragoza> .
+
+<http://datahub.io/dataset/aragodbpedia> a void:Dataset;
+    dcterms:title "AragoDBPedia";
+    void:subset <http://datahub.io/dataset/dbpedia-es> .
+
+<http://datahub.io/dataset/2001-spanish-census-to-rdf> a void:Dataset;
+    dcterms:title "2001 Spanish Census to RDF";
+    void:triples 93325760 .
+
+<http://datahub.io/dataset/dbpedia-es> a void:Dataset;
+    dcterms:title "DBpedia in Spanish" .
+
+<http://datahub.io/dataset/didactalia> a void:Dataset;
+    dcterms:title "Didactalia, índice de recursos educativos para profesores, padres y alumnos (GNOSS)";
+    void:triples 3494839;
+    void:subset
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/mismuseos-gnoss> .
+
+<http://datahub.io/dataset/aemet> a void:Dataset;
+    dcterms:title "AEMET metereological dataset";
+    void:triples 62932032;
+    void:subset <http://datahub.io/dataset/geolinkeddata> .
+
+<http://datahub.io/dataset/zaragoza-datosabiertos> a void:Dataset;
+    dcterms:title "Datos Abiertos de Zaragoza";
+    void:triples 2744 .
+
+<http://datahub.io/dataset/zaragoza_turruta> a void:Dataset;
+    dcterms:title "zaragoza_turruta";
+    void:subset <http://datahub.io/dataset/zaragoza-datosabiertos> .
+
+<http://datahub.io/dataset/bioportal-icps> a void:Dataset;
+    dcterms:title "ICPS Network";
+    void:triples 9468 .
+
+<http://datahub.io/dataset/geonames-semantic-web> a void:Dataset;
+    dcterms:title "GeoNames Semantic Web";
+    void:triples 93896732 .
+
+<http://datahub.io/dataset/dataturcyl-lod-for-tourists-in-castilla-y-leon-spain> a void:Dataset;
+    dcterms:title "DATATURCYL - LOD for tourists in Castilla y León (Spain)";
+    void:triples 332991 .
+
+<http://datahub.io/dataset/elviajero> a void:Dataset;
+    dcterms:title "El Viajero's tourism dataset";
+    void:triples 9262184;
+    void:subset <http://datahub.io/dataset/geolinkeddata> .
+
+<http://datahub.io/dataset/deustotech> a void:Dataset;
+    dcterms:title "DeustoTech (Deusto Institute of Technology)";
+    void:triples 55022;
+    void:subset <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/datos-bne-es> a void:Dataset;
+    dcterms:title "datos.bne.es";
+    void:triples 58053215 .
+
+<http://datahub.io/dataset/national-railway-stations> a void:Dataset;
+    dcterms:title "Spain National Railway Stations" .
+
+<http://datahub.io/dataset/museosespania-gnoss> a void:Dataset;
+    dcterms:title "Museos de España, colección de museos públicos y privados españoles (GNOSS)";
+    void:triples 79065;
+    void:subset
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/mismuseos-gnoss> .
+
+<http://datahub.io/dataset/upobudget> a void:Dataset;
+    dcterms:title "Budget for the Universidad Pablo de Olavide (Spain) " .
+
+<http://datahub.io/dataset/lotico> a void:Dataset;
+    dcterms:title "Lotico";
+    void:triples 2066186 .
+
+<http://datahub.io/dataset/geolinkeddata> a void:Dataset;
+    dcterms:title "GeoLinkedData";
+    void:triples 21564199;
+    void:subset <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/euskadi-farmacias> a void:Dataset;
+    dcterms:title "Farmacias en Euskadi";
+    void:triples 35;
+    void:subset <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/mismuseos-gnoss> a void:Dataset;
+    dcterms:title "Mis Museos, índice semántico de museos, artistas y obras de arte (GNOSS)";
+    void:triples 1235894;
+    void:subset
+        <http://datahub.io/dataset/didactalia>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/museosespania-gnoss> .
+
+<http://datahub.io/dataset/crtm> a void:Dataset;
+    dcterms:title "CRTM" .
+
+<http://datahub.io/dataset/monumentos-zaragoza> a void:Dataset;
+    dcterms:title "Monumentos" .
