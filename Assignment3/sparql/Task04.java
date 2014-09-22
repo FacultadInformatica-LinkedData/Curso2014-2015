@@ -59,16 +59,16 @@ public class Task04
 		    System.out.println("Subject: "+subj.getURI());
 		}
 		
-		// ** TASK 3.1: List all the resources with the property "vcard:FN" and their full names **
+		// ** TASK 4.1: List all the resources with the property "vcard:FN" and their full names **
 		
 		
-		// ** TASK 3.2: Query all the resources with the family name "Smith" **
+		// ** TASK 4.2: Query all the resources with the family name "Smith" **
 		
 		
-		// ** TASK 3.3: Query all the resources with an email  **
+		// ** TASK 4.3: Query all the resources with an email  **
 		
 		
-		// ** TASK 3.4 (advanced): Query all the subjects knowing "Jane Smith" and list their given names  **
+		// ** TASK 4.4 (advanced): Query all the subjects knowing "Jane Smith" and list their given names  **
 		
 	}
 }
