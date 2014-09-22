@@ -1,0 +1,14 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix : <http://www.oeg-upm.net/wsld/assignment2/class#>.
+@prefix props: <http://www.oeg-upm.net/wsld/assignment2/props#>.
+
+:Measurement8401 props:atTime "2010-06-12T12:00:12"^^<xsd:dateTime>;
+                      props:hasTemperature "29"^^<xsd:integer>.
+
+:Sensor029 props:hasMeasurement :Measurement8401.
+
+:User10A props:hasName "Pedro".
+
+:Computer101 props:hasOwner :User10A.
+
+:Class01 props:includes :Sensor029, :Computer101.

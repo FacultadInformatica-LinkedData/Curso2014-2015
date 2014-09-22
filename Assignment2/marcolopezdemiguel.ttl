@@ -1,0 +1,11 @@
+@prefix : <http://www.assignment2.com/#> .
+@prefix propiedad: <http://www.assignment2.com/clase/propiedad#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Class01 propiedad:include :Sensor029;
+   			propiedad:include :Computer101.
+:Sensor029 propiedad:hasMeasurement :Measurement8401.
+:Measurement8401 propiedad:hasTemperature "29"^^xsd:integer;
+			propiedad:atTime "2010-06-12T12:00:12"^^xsd:date.
+:Computer101 propiedad:hasOwner :User10A.
+:User10A propiedad:hasName "Pedro".

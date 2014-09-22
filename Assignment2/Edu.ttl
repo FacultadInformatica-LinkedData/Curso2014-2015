@@ -1,0 +1,15 @@
+@prefix subject: <:> .
+@prefix predicate: <:> .
+
+subject:Class01 predicate:includes subject:Sensor029;
+      predicate:incldes subject:Computer101;
+.
+subject:Sensor029 predicate:hasMeasurement subject:Measurement8401;
+.
+subject:Measurement8401 predicate:hasTemperature "29";
+     predicate:atTime "2010-06-12T12:00:12";
+.
+subject:Computer101 predicate:hasOwner subject:User10A;
+.
+subject:User10A predicate:hasName "Pedro";
+.

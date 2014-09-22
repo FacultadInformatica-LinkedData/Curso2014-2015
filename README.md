@@ -29,3 +29,5 @@ As I have received several questions about the best way to work with GitHub (and
 * Make a pull request, so that we can check your changes and accept them into the master of the general repository. If everything is ok, your changes will be incorporated into the main repository. If not, you will receive a message of why not.
 
 **Assignment 1**. Please fill in a line with a dataset description at folder [Assignment 1](./Assignment1/DatasetDescriptions.csv) and make a pull request
+
+**Assignment 2**. Please add your RDF files in your preferred format (e.g., Turtle, RDF/XML, JSON-LD) at folder [Assignment 2](./Assignment2) in your personal forked repository and make a pull request

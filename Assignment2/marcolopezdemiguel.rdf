@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<rdf:RDF xml:base='' xmlns:ns0='http://www.assignment2.com/clase/propiedad#' xmlns:ns1='http://www.assignment2.com/clase/propiedad#' xmlns:ns2='http://www.assignment2.com/clase/propiedad#' xmlns:ns3='http://www.assignment2.com/clase/propiedad#' xmlns:ns4='http://www.assignment2.com/clase/propiedad#' xmlns:ns5='http://www.assignment2.com/clase/propiedad#' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:xml='http://www.w3.org/XML/1998/namespace'>
+  <http://www class='w3 org' http://www.w3.org/1999/02/22-rdf-syntax-ns#about='http://www.assignment2.com/#Class01' id='Description'>
+    <ns0:include>
+      <http://www class='w3 org' http://www.w3.org/1999/02/22-rdf-syntax-ns#about='http://www.assignment2.com/#Sensor029' id='Description'>
+        <ns1:hasMeasurement>
+          <http://www class='w3 org' http://www.w3.org/1999/02/22-rdf-syntax-ns#about='http://www.assignment2.com/#Measurement8401' id='Description'>
+            <ns3:atTime rdf:datatype='http://www.w3.org/2001/XMLSchema#date'>2010-06-12T12:00:12</ns3:atTime>
+            <ns2:hasTemperature rdf:datatype='http://www.w3.org/2001/XMLSchema#integer'>29</ns2:hasTemperature>
+          </http://www>
+        </ns1:hasMeasurement>
+      </http://www>
+    </ns0:include>
+     <ns0:include>
+      <http://www class='w3 org' http://www.w3.org/1999/02/22-rdf-syntax-ns#about='http://www.assignment2.com/#Computer101' id='Description'>
+        <ns4:hasOwner>
+          <http://www class='w3 org' http://www.w3.org/1999/02/22-rdf-syntax-ns#about='http://www.assignment2.com/#User10A' id='Description'>
+            <ns5:hasName>Pedro</ns5:hasName>
+          </http://www>
+        </ns4:hasOwner>
+      </http://www>
+    </ns0:include>
+  </http://www>
+</rdf:RDF>
