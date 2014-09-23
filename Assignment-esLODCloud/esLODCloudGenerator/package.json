@@ -1,0 +1,13 @@
+{
+  "name": "esLODCloudGenerator",
+  "main": "./eslodcloudgen.coffee",
+  "preferGlobal": true,
+  "description": "eslodcloud generator",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "coffee-script": "1.7.1"
+  },
+  "devDependencies": {
+  }
+}
