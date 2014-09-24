@@ -1,0 +1,16 @@
+@prefix subject: <http://www.turtlegraph.com/myturtle/> .
+@prefix predicate: <http://www.turtlegraph.com/myturtle#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+subject:Class01 predicate:includes subject:Sensor029;
+      predicate:includes subject:Computer101;
+.
+subject:Sensor029 predicate:hasMeasurement subject:Measurement8401;
+.
+subject:Measurement8401 predicate:hasTemperature "29"^^<xsd:integer>;
+     predicate:atTime "2010-06-12T12:00:12"^^<xsd:dateTime>;
+.
+subject:Computer101 predicate:hasOwner subject:User10A;
+.
+subject:User10A predicate:hasName "Pedro"^^<xsd:string>;
+.

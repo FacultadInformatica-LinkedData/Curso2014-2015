@@ -1,0 +1,10 @@
+@prefix objeto : <http://www.ejemplo.net/objeto#>.
+@prefix propiedad : <http://www.ejemplo.net/propiedad#>.
+
+objeto:Class01 		propiedad:includes 	objeto:Sensor029,
+                                      objeto:Computer101.
+objeto:Sensor029	propiedad:hasMeasurement objeto:Measurement8401.
+objeto:Measurement8401  propiedad:hasTemperature "29";
+                        propiedad:atTime	"2010-06-12T12:00:12".
+objeto:Computer101 	propiedad:hasOwner 	objeto:User10A.
+objeto:User10A		propiedad:hasName 	"Pedro".

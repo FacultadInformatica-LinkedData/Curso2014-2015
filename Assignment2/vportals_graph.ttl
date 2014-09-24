@@ -1,0 +1,10 @@
+@prefix ent: <http://ejemplo.com> .
+@prefix vocab: <http://ejemplo.com> .
+
+ent:Class01 vocab:includes ent:Sensor029; 
+         vocab:includes ent:Computer101.
+ent:Sensor029 vocab:hasMeasurement ent:Measurement8401.
+ent:Computer101 vocab:hasOwner ent:User10A.
+ent:User10A vocab:hasName "Pedro".
+ent:Measurement8401 vocab:hasTemperature "29"; 
+                 vocab:atTime "2010-06-12T12:00:12".
