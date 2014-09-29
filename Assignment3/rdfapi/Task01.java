@@ -1,58 +1,45 @@
 package rdfapi;
 
-import com.hp.hpl.jena.rdf.model.Model;
-import com.hp.hpl.jena.rdf.model.ModelFactory;
-import com.hp.hpl.jena.util.FileManager;
-
-import java.io.File;
 import java.io.InputStream;
+
+import com.hp.hpl.jena.rdf.model.*;
+import com.hp.hpl.jena.util.FileManager;
 
 /**
  * Task 01: Reading and writing RDF files
- *
+ * 
  * @author elozano
+ * 
  */
-public class Task01 {
-    /**
-     * @param args
-     */
-    public static void main(String args[]) {
-        String filename = "rdf examples" + File.separator + "example1.rdf";
+public class Task01
+{
+	/**
+	 * 
+	 * @param args
+	 */
+	public static void main(String args[])
+	{
+		String filename = "example1.rdf";
+		
+		// Create an empty model
+		Model model = ModelFactory.createDefaultModel();
+		
+		// Use the FileManager to find the input file
+		InputStream in = FileManager.get().open(filename);
 
-        // Create an empty model
-        Model model = ModelFactory.createDefaultModel();
+		if (in == null)
+			throw new IllegalArgumentException("File: "+filename+" not found");
 
-        // Use the FileManager to find the input file
-        InputStream in = FileManager.get().open(filename);
+		// Read the RDF/XML file
+		model.read(in, null);
 
-        if (in == null)
-            throw new IllegalArgumentException("File: " + filename + " not found");
+		// Write it to standard out
+		model.write(System.out);
 
-        // Read the RDF/XML file
-        //model.read(in, null);
-
-
-        // Write it to standard out
-        // model.write(System.out);
-
-        // ** TASK 1.1: Now write the model in Turtle form **
-        model.read(in, "TURTLE");
-
-
-        // ** TASK 1.2: Read a new model and merge it with the previous one **
-        String filename2 = "rdf examples" + File.separator + "example2.rdf";
-
-        // Use the FileManager to find the input file
-        InputStream in2 = FileManager.get().open(filename2);
-
-        if (in2 == null)
-            throw new IllegalArgumentException("File: " + filename + " not found");
-
-        // Read the RDF/XML file
-        model.read(in2, "TURTLE");
-
-        // Write it to standard out
-        model.write(System.out);
-
-    }
+		// ** TASK 1.1: Now write the model in Turtle form **
+		
+		
+		// ** TASK 1.2: Read a new model and merge it with the previous one **
+		String filename2 = "example2.rdf";
+	}
 }
