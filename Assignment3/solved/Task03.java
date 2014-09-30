@@ -4,7 +4,6 @@ import java.io.InputStream;
 
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
-import com.hp.hpl.jena.rdf.model.NodeIterator;
 import com.hp.hpl.jena.rdf.model.Property;
 import com.hp.hpl.jena.rdf.model.RDFNode;
 import com.hp.hpl.jena.rdf.model.ResIterator;
@@ -29,7 +28,7 @@ public class Task03
 	
 	public static void main(String args[])
 	{
-		String filename = "/Users/isantana/Dropbox/DOCTORADO/docencia/linkeddata2014/JenaTutorial/example3.rdf";
+		String filename = "example3.rdf";
 		
 		// Create an empty model
 		Model model = ModelFactory.createDefaultModel();
@@ -46,7 +45,6 @@ public class Task03
 		// List all the resources with the property "vcard:FN"
 		ResIterator rIter = model.listSubjectsWithProperty(VCARD.FN);
 		
-		
 		while (rIter.hasNext())
 		{
 		    Resource r = rIter.nextResource();
@@ -54,50 +52,44 @@ public class Task03
 		}
 		
 		// ** TASK 3.1: List all the resources with the property "vcard:FN" and their full names **
-		StmtIterator stIter = model.listStatements(null, VCARD.FN, (RDFNode)null);
+		rIter = model.listSubjectsWithProperty(VCARD.FN);
 		
-		while (stIter.hasNext())
+		while (rIter.hasNext())
 		{
-			Statement st = stIter.next();
-			Resource subj = st.getSubject();
-			RDFNode fn = st.getObject();
-			System.out.println(subj.getURI()+" "+VCARD.FN.getURI()+" "+fn.asLiteral().getString());
-		}
+		    Resource r = rIter.nextResource();
+		    System.out.println("Subject: "+ r.getURI() + " Name: " +r.getProperty(VCARD.FN));
+		}		
 		
 		// ** TASK 3.2: Query all the resources with the family name "Smith" **
+		rIter = model.listSubjectsWithProperty(FOAF.family_name);
 		
+		while (rIter.hasNext())
+		{
+		    Resource r = rIter.nextResource();
+		    if(r.toString().equals("Smith"))
+		    System.out.println("Subject: "+r.getURI());
+		}				
 		
 		// ** TASK 3.3: Query all the resources with an email  **
+		rIter = model.listSubjectsWithProperty(VCARD.EMAIL);
+		
+		while (rIter.hasNext())
+		{
+		    Resource r = rIter.nextResource();
+		    if (r!=null)
+		    System.out.println("Subject: "+r.getURI());
+		}
 		
 		
 		// ** TASK 3.4 (advanced): Query all the subjects knowing "Jane Smith" and list their given names  **
-		stIter = model.listStatements(null, VCARD.FN, "Jane Smith");
+		rIter = model.listSubjectsWithProperty(FOAF.knows);
 		
-		while (stIter.hasNext())
+		while (rIter.hasNext())
 		{
-			Statement st = stIter.next();
-			Resource janeSmith = st.getSubject();
+		    Resource r = rIter.nextResource();
+		    if(r.toString().equals("Jane Smith"))
+		    System.out.println("Subject: "+r.getURI() + " Name: " + r.getPropertyResourceValue(VCARD.FN));
+		}					
 			
-			Property foafKnows = model.getProperty(foafKnowsURI);
-			StmtIterator stIter2 = model.listStatements(null, foafKnows, janeSmith);
-			//stIter2 = model.listStatements(null, FOAF.knows, janeSmith);
-
-			while (stIter2.hasNext())
-			{
-				Statement st2 = stIter2.next();
-				Resource subj = st2.getSubject();
-				
-				StmtIterator stIter3 = model.listStatements(subj, VCARD.Given, (RDFNode)null);
-				
-				while (stIter3.hasNext())
-				{
-					Statement st3 = stIter3.next();
-					RDFNode given = st3.getObject();
-					System.out.println(">>" + subj.getURI()+" "+VCARD.Given.getURI()+" "+given.asLiteral());
-				}			
-															}		
-														}
-		
-		
 	}
 }
