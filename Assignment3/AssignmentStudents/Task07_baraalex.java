@@ -2,6 +2,8 @@ package ontologyapi;
 
 import com.hp.hpl.jena.ontology.*;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
+import com.hp.hpl.jena.reasoner.Reasoner;
+import com.hp.hpl.jena.reasoner.ReasonerRegistry;
 import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.util.iterator.ExtendedIterator;
 
@@ -12,7 +14,7 @@ import java.io.InputStream;
  *
  * @author elozano
  */
-public class Task07_Alejandro_Barahona {
+public class Task07_baraalex {
     public static String ns = "http://somewhere#";
 
     public static void main(String args[]) {
@@ -47,17 +49,32 @@ public class Task07_Alejandro_Barahona {
         }
 
 
-        // ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
+        // ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some iRnference... **
 
-        ExtendedIterator<OntClass> subclassIter = person.listSubClasses(false);
-        while (subclassIter.hasNext()) {
-            OntClass ontclass = subclassIter.next();
+        Reasoner reasoner = ReasonerRegistry.getRDFSReasoner();
+        reasoner = reasoner.bindSchema(model);
 
-            ExtendedIterator<? extends OntResource> invidIter = ontclass.listInstances(false);
-            while (invidIter.hasNext()) {
-                Individual individual = (Individual) invidIter.next();
-                System.out.println("Subclass: " + ontclass + " Has instance: " + individual);
-            }
+        OntModelSpec ontol = OntModelSpec.RDFS_MEM;
+        ontol.setReasoner(reasoner);
+
+        OntModel ontModel = ModelFactory.createOntologyModel(ontol, model);
+
+        OntClass infer = ontModel.getOntClass(ns + "Person");
+
+        System.out.println("Instances of person class: ");
+
+        ExtendedIterator<? extends OntResource> iter = infer.listInstances();
+
+        while (iter.hasNext()) {
+            System.out.println(iter.next());
+        }
+
+        ExtendedIterator<OntClass> iterPerson = infer.listSubClasses();
+
+        System.out.println("Subclasses of person: ");
+
+        while (iterPerson.hasNext()) {
+            System.out.println(iterPerson.next());
         }
 
     }

@@ -16,7 +16,7 @@ import java.io.InputStream;
  *
  * @author elozano
  */
-public class Task06_Alejandro_Barahona {
+public class Task06_baraalex {
     public static String ns = "http://somewhere#";
     public static String foafNS = "http://xmlns.com/foaf/0.1#";
     public static String foafEmailURI = foafNS + "email";
