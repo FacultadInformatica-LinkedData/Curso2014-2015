@@ -1,11 +1,11 @@
 package ontologyapi;
 
-import java.io.InputStream;
-
 import com.hp.hpl.jena.ontology.*;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.util.iterator.ExtendedIterator;
+
+import java.io.InputStream;
 
 /**
  * Task 07: Querying ontologies (RDFs)
@@ -49,11 +49,11 @@ public class Task07_Alejandro_Barahona {
 
         // ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
 
-        ExtendedIterator<OntClass> subclassIter = person.listSubClasses();
+        ExtendedIterator<OntClass> subclassIter = person.listSubClasses(false);
         while (subclassIter.hasNext()) {
             OntClass ontclass = subclassIter.next();
 
-            ExtendedIterator<? extends OntResource> invidIter = ontclass.listInstances();
+            ExtendedIterator<? extends OntResource> invidIter = ontclass.listInstances(false);
             while (invidIter.hasNext()) {
                 Individual individual = (Individual) invidIter.next();
                 System.out.println("Subclass: " + ontclass + " Has instance: " + individual);

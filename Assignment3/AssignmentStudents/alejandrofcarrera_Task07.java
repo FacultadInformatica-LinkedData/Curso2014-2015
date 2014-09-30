@@ -1,13 +1,19 @@
 import java.io.*;
 import com.hp.hpl.jena.ontology.*;
 import com.hp.hpl.jena.rdf.model.*;
+import com.hp.hpl.jena.reasoner.*;
+import com.hp.hpl.jena.reasoner.rulesys.*;
 import com.hp.hpl.jena.util.*;
 import com.hp.hpl.jena.util.iterator.*;
+import com.hp.hpl.jena.vocabulary.RDFS;
 
 /** @author alejandrofcarrera */
 
 public class alejandrofcarrera_Task07
 {
+	private static final Resource A = null;
+	private static final Property pr = null;
+	private static final RDFNode D = null;
 	private static String ns = "http://somewhere#";
 	private static String path = "docs/example6.rdf"; // fine for this Task
 	private static OntClass p;
@@ -35,6 +41,7 @@ public class alejandrofcarrera_Task07
 		{
 			printInstances(p, true);
 		}
+		System.out.println();
 		
 		// 7.2
 		System.out.println(" * TASK 7.2:");
@@ -58,21 +65,32 @@ public class alejandrofcarrera_Task07
 		}
 		else
 		{
-			printSubclassAndInstances(p, false);
+			printSubclassAndInstancesInference(model);
 		}
 		System.out.println();
 	}
 
-	private static void printSubclassAndInstances(OntClass o, boolean b) {
-		ExtendedIterator<OntClass> c = p.listSubClasses(b);
-		while(c.hasNext())
+	private static void printSubclassAndInstancesInference(OntModel m) {
+		String r = "[r1: (?B rdfs:subClassOf ?A), (?C rdf:type ?B) -> (?C rdf:type ?A)]"
+				+  "[r2: (?C rdfs:subClassOf ?B), (?B rdfs:subClassOf ?A) -> (?C rdfs:subClassOf ?A)]";
+		Reasoner re = new GenericRuleReasoner(Rule.parseRules(r));
+		InfModel i = ModelFactory.createInfModel(re, m);
+		StmtIterator it = i.listStatements(A, pr, D);
+		while(it.hasNext())
 		{
-			OntClass cl = c.next();
-			System.out.println("   s: " + cl);
-			printInstances((OntClass) cl, false);
-			cl = null;
+			Statement s = it.nextStatement();
+			if(s.getObject().asNode().hasURI(ns+"Person"))
+			{
+				if(s.getPredicate().hasURI(RDFS.subClassOf.getURI()))
+				{
+					System.out.println("   s: "+s.getSubject());
+				}
+				else
+				{
+					System.out.println("   i: "+s.getSubject());
+				}
+			}
 		}
-		c = null;
 	}
 
 	private static void printInstances(OntClass o, boolean b) {
@@ -81,7 +99,6 @@ public class alejandrofcarrera_Task07
 		{
 			System.out.println("   i: " + r.next());
 		}
-		System.out.println();
 		r = null;
 	}
 
