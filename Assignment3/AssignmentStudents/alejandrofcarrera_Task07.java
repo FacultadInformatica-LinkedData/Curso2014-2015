@@ -65,15 +65,14 @@ public class alejandrofcarrera_Task07
 		}
 		else
 		{
-			printSubclassAndInstances(p, false);
 			printSubclassAndInstancesInference(model);
 		}
 		System.out.println();
 	}
 
 	private static void printSubclassAndInstancesInference(OntModel m) {
-		System.out.println(" * Inference");
-		String r = "[r1: (?B rdfs:subClassOf ?A), (?C rdf:type ?B) -> (?C rdf:type ?A)]";
+		String r = "[r1: (?B rdfs:subClassOf ?A), (?C rdf:type ?B) -> (?C rdf:type ?A)]"
+				+  "[r2: (?C rdfs:subClassOf ?B), (?B rdfs:subClassOf ?A) -> (?C rdfs:subClassOf ?A)]";
 		Reasoner re = new GenericRuleReasoner(Rule.parseRules(r));
 		InfModel i = ModelFactory.createInfModel(re, m);
 		StmtIterator it = i.listStatements(A, pr, D);
@@ -92,20 +91,6 @@ public class alejandrofcarrera_Task07
 				}
 			}
 		}
-	}
-
-	private static void printSubclassAndInstances(OntClass o, boolean b) {
-		System.out.println(" * Subclass iterator");
-		ExtendedIterator<OntClass> c = p.listSubClasses(b);
-		while(c.hasNext())
-		{
-			OntClass cl = c.next();
-			System.out.println("   s: " + cl);
-			printInstances((OntClass) cl, false);
-			cl = null;
-		}
-		printInstances(o, false);
-		c = null;
 	}
 
 	private static void printInstances(OntClass o, boolean b) {
