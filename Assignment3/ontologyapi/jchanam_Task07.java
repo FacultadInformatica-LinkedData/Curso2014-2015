@@ -7,8 +7,12 @@ import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.ontology.OntModelSpec;
+import com.hp.hpl.jena.rdf.model.InfModel;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Resource;
+import com.hp.hpl.jena.reasoner.Reasoner;
+import com.hp.hpl.jena.reasoner.ReasonerFactory;
+import com.hp.hpl.jena.reasoner.ReasonerRegistry;
 import com.hp.hpl.jena.sparql.function.Function;
 import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.util.iterator.ExtendedIterator;
@@ -48,16 +52,21 @@ public class Task07
 		
 		// ** TASK 7.2: List all subclasses of "Person" **
 		OntClass personClass = model.getOntClass(ns+"Person");
-		ExtendedIterator<OntClass> clases = model.listClasses();
+		ExtendedIterator<OntClass> clases = personClass.listSubClasses();
 		while (clases.hasNext()){
 			OntClass clase = clases.next();
-			OntClass superclase = clase.getSuperClass();
-			if (superclase != null && superclase.getURI().equals(personClass.getURI())){
-				System.out.println(clase.getURI()+" es subclase de "+personClass.getURI());
-			}
+			System.out.println(clase.getURI()+" es subclase de "+personClass.getURI());
 		}
 		
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
-		
+		Reasoner razonador = ReasonerRegistry.getTransitiveReasoner();
+		InfModel inferencia = ModelFactory.createInfModel(razonador, model);
+		inferencia.prepare();
+		OntClass personClass2 = model.getOntClass(ns+"Person");
+		ExtendedIterator<OntClass> clases2 = personClass2.listSubClasses();
+		while (clases2.hasNext()){
+			OntClass clase = clases2.next();
+			System.out.println(clase.getURI()+" es subclase de "+personClass.getURI());
+		}
 	}
 }
