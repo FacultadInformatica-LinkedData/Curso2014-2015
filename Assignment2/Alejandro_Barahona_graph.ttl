@@ -9,7 +9,7 @@ class:Sensor029 relation:hasMeasurement class:Measurement8401.
 
 class:Computer101 relation:hasOwner class:User10A.
 
-class:Measurement8401 relation:hasTemperature "29"^^xsd:integer;
-	relation:atTime "2010-06-12T12:00:12"^^xsd:dateTime.
+class:Measurement8401 relation:hasTemperature "29"^^<xsd:integer>;
+	relation:atTime "2010-06-12T12:00:12"^^<xsd:dateTime>.
 
 class:User10A relation:hasName "Pedro".
