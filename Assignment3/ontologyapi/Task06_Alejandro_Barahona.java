@@ -1,7 +1,5 @@
 package ontologyapi;
 
-import java.io.InputStream;
-
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntModel;
@@ -10,6 +8,8 @@ import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Property;
 import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.vocabulary.VCARD;
+
+import java.io.InputStream;
 
 /**
  * Task 06: Modifying ontologies (RDFs)
@@ -64,7 +64,10 @@ public class Task06_Alejandro_Barahona {
         jane.addProperty(VCARD.Family, "Smith");
 
         // ** TASK 6.6: Add UPM as the university where John Smith works **
-        jane.addProperty(workIn, "UPM");
+        Individual upm = university.createIndividual(ns + "UPM");
+        Individual john = model.getIndividual(ns + "JohnSmith");
+
+        john.addProperty(workIn, upm);
 
         model.write(System.out, "RDF/XML-ABBREV");
     }
