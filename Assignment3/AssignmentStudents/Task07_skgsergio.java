@@ -58,7 +58,7 @@ public class Task07 {
         }
 
 	// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
-        Reasoner reasoner = ReasonerRegistry.getOWLReasoner();
+        Reasoner reasoner = ReasonerRegistry.getRDFSReasoner();
         reasoner = reasoner.bindSchema(model);
         
         OntModelSpec ontModelSpec = OntModelSpec.RDFS_MEM;
