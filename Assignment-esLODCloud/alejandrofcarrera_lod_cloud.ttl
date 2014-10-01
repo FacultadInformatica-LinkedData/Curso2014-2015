@@ -1,0 +1,2475 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+<http://datahub.io/> a void:Dataset;
+    dcterms:title "LOD Cloud";
+    void:subset
+        <http://datahub.io/dataset/uniprot>,
+        <http://datahub.io/dataset/fishes-of-texas>,
+        <http://datahub.io/dataset/john-goodwins-family-tree>,
+        <http://datahub.io/dataset/national-diet-library-authorities>,
+        <http://datahub.io/dataset/dbtropes>,
+        <http://datahub.io/dataset/rdf-book-mashup>,
+        <http://datahub.io/dataset/ecco-tcp-linked-data>,
+        <http://datahub.io/dataset/stitch-rameau>,
+        <http://datahub.io/dataset/data-incubator-metoffice>,
+        <http://datahub.io/dataset/lexvo>,
+        <http://datahub.io/dataset/data-gov>,
+        <http://datahub.io/dataset/open-library>,
+        <http://datahub.io/dataset/rkb-explorer-budapest>,
+        <http://datahub.io/dataset/brazilian-politicians>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/marc-codes>,
+        <http://datahub.io/dataset/reference-data-gov-uk>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/british-museum-collection>,
+        <http://datahub.io/dataset/idreffr>,
+        <http://datahub.io/dataset/semantictweet>,
+        <http://datahub.io/dataset/fu-berlin-sider>,
+        <http://datahub.io/dataset/geospecies>,
+        <http://datahub.io/dataset/rkb-explorer-irit>,
+        <http://datahub.io/dataset/japan-radioactivity-stat>,
+        <http://datahub.io/dataset/rkb-explorer-ulm>,
+        <http://datahub.io/dataset/ordnance-survey-linked-data>,
+        <http://datahub.io/dataset/nytimes-linked-open-data>,
+        <http://datahub.io/dataset/rkb-explorer-ft>,
+        <http://datahub.io/dataset/lcsh>,
+        <http://datahub.io/dataset/bio2rdf-chebi>,
+        <http://datahub.io/dataset/uniprot-unipathway>,
+        <http://datahub.io/dataset/austrian_ski_racers>,
+        <http://datahub.io/dataset/finnish-municipalities>,
+        <http://datahub.io/dataset/dbtune-musicbrainz>,
+        <http://datahub.io/dataset/linked-open-data-of-ecology>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/uk-legislation-api>,
+        <http://datahub.io/dataset/open-election-data-project>,
+        <http://datahub.io/dataset/libris>,
+        <http://datahub.io/dataset/data-incubator-climb>,
+        <http://datahub.io/dataset/jamendo-dbtune>,
+        <http://datahub.io/dataset/lak-dataset>,
+        <http://datahub.io/dataset/rkb-explorer-era>,
+        <http://datahub.io/dataset/scholarometer>,
+        <http://datahub.io/dataset/rkb-explorer-risks>,
+        <http://datahub.io/dataset/didactalia>,
+        <http://datahub.io/dataset/l3s-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-deploy>,
+        <http://datahub.io/dataset/rkb-explorer-deepblue>,
+        <http://datahub.io/dataset/rechtspraak>,
+        <http://datahub.io/dataset/my-experiment>,
+        <http://datahub.io/dataset/knoesis-linked-sensor-data>,
+        <http://datahub.io/dataset/sztaki-lod>,
+        <http://datahub.io/dataset/data-gov-uk-time-intervals>,
+        <http://datahub.io/dataset/archiveshub-linkeddata>,
+        <http://datahub.io/dataset/beneficiaries-of-the-european-commission>,
+        <http://datahub.io/dataset/education-data-gov-uk>,
+        <http://datahub.io/dataset/openlylocal>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/world-factbook-fu-berlin>,
+        <http://datahub.io/dataset/rdfize-lastfm>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/linked-crunchbase>,
+        <http://datahub.io/dataset/rkb-explorer-crime>,
+        <http://datahub.io/dataset/sears>,
+        <http://datahub.io/dataset/rkb-explorer-ecs>,
+        <http://datahub.io/dataset/opencalais>,
+        <http://datahub.io/dataset/lotico>,
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/meducator>,
+        <http://datahub.io/dataset/eu-institutions>,
+        <http://datahub.io/dataset/vivo-indiana-university>,
+        <http://datahub.io/dataset/enakting-nhs>,
+        <http://datahub.io/dataset/osm-semantic-network>,
+        <http://datahub.io/dataset/fu-berlin-drugbank>,
+        <http://datahub.io/dataset/enakting-co2emission>,
+        <http://datahub.io/dataset/opencyc>,
+        <http://datahub.io/dataset/event-media>,
+        <http://datahub.io/dataset/zitgist-musicbrainz>,
+        <http://datahub.io/dataset/prefix-cc>,
+        <http://datahub.io/dataset/nomenclator-asturias>,
+        <http://datahub.io/dataset/oceandrilling-janusamp>,
+        <http://datahub.io/dataset/dbtune-magnatune>,
+        <http://datahub.io/dataset/bbc-music>,
+        <http://datahub.io/dataset/geowordnet>,
+        <http://datahub.io/dataset/esd-standards>,
+        <http://datahub.io/dataset/eutc-productions>,
+        <http://datahub.io/dataset/2000-us-census-rdf>,
+        <http://datahub.io/dataset/w3c-wordnet>,
+        <http://datahub.io/dataset/hellenic-police>,
+        <http://datahub.io/dataset/manchester-university-reading-lists>,
+        <http://datahub.io/dataset/linked-edgar>,
+        <http://datahub.io/dataset/gnoss>,
+        <http://datahub.io/dataset/clean-energy-data-reegle>,
+        <http://datahub.io/dataset/dbpedia-pt>,
+        <http://datahub.io/dataset/fu-berlin-stitch>,
+        <http://datahub.io/dataset/bbc-programmes>,
+        <http://datahub.io/dataset/secold>,
+        <http://datahub.io/dataset/swedish-open-cultural-heritage>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/eumida-linked-data>,
+        <http://datahub.io/dataset/telegraphis>,
+        <http://datahub.io/dataset/semanticweb-org>,
+        <http://datahub.io/dataset/museums-in-italy>,
+        <http://datahub.io/dataset/taxonconcept>,
+        <http://datahub.io/dataset/university-sussex-reading-lists>,
+        <http://datahub.io/dataset/psh-subject-headings>,
+        <http://datahub.io/dataset/t4gm-info>,
+        <http://datahub.io/dataset/istat-immigration>,
+        <http://datahub.io/dataset/uniprot-databases>,
+        <http://datahub.io/dataset/data-cnr-it>,
+        <http://datahub.io/dataset/open-energy-info-wiki>,
+        <http://datahub.io/dataset/rkb-explorer-nsf>,
+        <http://datahub.io/dataset/patents-data-gov-uk>,
+        <http://datahub.io/dataset/enakting-population>,
+        <http://datahub.io/dataset/pokepedia-fr>,
+        <http://datahub.io/dataset/loius>,
+        <http://datahub.io/dataset/rkb-explorer-ibm>,
+        <http://datahub.io/dataset/dbpedia-lite>,
+        <http://datahub.io/dataset/my-family-lineage>,
+        <http://datahub.io/dataset/opencorporates>,
+        <http://datahub.io/dataset/deutsche-biographie>,
+        <http://datahub.io/dataset/rkb-explorer-eurecom>,
+        <http://datahub.io/dataset/grrp>,
+        <http://datahub.io/dataset/st-andrews-resource-lists>,
+        <http://datahub.io/dataset/rkb-explorer-roma>,
+        <http://datahub.io/dataset/semantic-xbrl>,
+        <http://datahub.io/dataset/educationalprograms_sisvu>,
+        <http://datahub.io/dataset/rkb-explorer-resex>,
+        <http://datahub.io/dataset/university-plymouth-reading-lists>,
+        <http://datahub.io/dataset/datos-bne-es>,
+        <http://datahub.io/dataset/lichfield-spending>,
+        <http://datahub.io/dataset/yovisto>,
+        <http://datahub.io/dataset/linkedct>,
+        <http://datahub.io/dataset/german-labor-law-thesaurus>,
+        <http://datahub.io/dataset/dbtune-artists-last-fm>,
+        <http://datahub.io/dataset/rkb-explorer-curriculum>,
+        <http://datahub.io/dataset/tcmgenedit_dataset>,
+        <http://datahub.io/dataset/uniprot-taxonomy>,
+        <http://datahub.io/dataset/geolinkeddata>,
+        <http://datahub.io/dataset/vivo-cornell-university>,
+        <http://datahub.io/dataset/chem2bio2rdf>,
+        <http://datahub.io/dataset/datos-bcn-cl>,
+        <http://datahub.io/dataset/thesaurus-w>,
+        <http://datahub.io/dataset/government-web-integration-for-linked-data>,
+        <http://datahub.io/dataset/tip>,
+        <http://datahub.io/dataset/dbpedia-el>,
+        <http://datahub.io/dataset/bibbase>,
+        <http://datahub.io/dataset/dbtune-john-peel-sessions>,
+        <http://datahub.io/dataset/fu-berlin-dblp>,
+        <http://datahub.io/dataset/research-data-gov-uk>,
+        <http://datahub.io/dataset/dbtune-myspace>,
+        <http://datahub.io/dataset/los_metar>,
+        <http://datahub.io/dataset/courts-thesaurus>,
+        <http://datahub.io/dataset/london-gazette>,
+        <http://datahub.io/dataset/linked-eurostat>,
+        <http://datahub.io/dataset/ub-mannheim-linked-data>,
+        <http://datahub.io/dataset/farmbio-chembl>,
+        <http://datahub.io/dataset/eea>,
+        <http://datahub.io/dataset/oxpoints>,
+        <http://datahub.io/dataset/farmers-markets-geographic-data-united-states>,
+        <http://datahub.io/dataset/flickr-wrappr>,
+        <http://datahub.io/dataset/linked-open-numbers>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/rkb-explorer-os>,
+        <http://datahub.io/dataset/schemapedia>,
+        <http://datahub.io/dataset/libver>,
+        <http://datahub.io/dataset/sec-rdfabout>,
+        <http://datahub.io/dataset/surge-radio>,
+        <http://datahub.io/dataset/enipedia>,
+        <http://datahub.io/dataset/fu-berlin-cordis>,
+        <http://datahub.io/dataset/uniprot-citations>,
+        <http://datahub.io/dataset/data-incubator-our-airports>,
+        <http://datahub.io/dataset/dewey_decimal_classification>,
+        <http://datahub.io/dataset/linked-user-feedback>,
+        <http://datahub.io/dataset/productontology>,
+        <http://datahub.io/dataset/enakting-crime>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/business-data-gov-uk>,
+        <http://datahub.io/dataset/printed-book-auction-catalogues>,
+        <http://datahub.io/dataset/rdfohloh>,
+        <http://datahub.io/dataset/fu-berlin-dailymed>,
+        <http://datahub.io/dataset/uberblic>,
+        <http://datahub.io/dataset/bbc-wildlife-finder>,
+        <http://datahub.io/dataset/uniprotkb>,
+        <http://datahub.io/dataset/the-view-from>,
+        <http://datahub.io/dataset/statistics-data-gov-uk>,
+        <http://datahub.io/dataset/southampton-ecs-eprints>,
+        <http://datahub.io/dataset/oclc-fast>,
+        <http://datahub.io/dataset/eunis>,
+        <http://datahub.io/dataset/fu-berlin-eures>,
+        <http://datahub.io/dataset/eurostat-rdf>,
+        <http://datahub.io/dataset/morelab>,
+        <http://datahub.io/dataset/socialsemweb-thesaurus>,
+        <http://datahub.io/dataset/yago>,
+        <http://datahub.io/dataset/transport-data-gov-uk>,
+        <http://datahub.io/dataset/uk-postcodes>,
+        <http://datahub.io/dataset/twarql>,
+        <http://datahub.io/dataset/uriburner>,
+        <http://datahub.io/dataset/googleart-wrapper>,
+        <http://datahub.io/dataset/rkb-explorer-cordis>,
+        <http://datahub.io/dataset/rkb-explorer-unlocode>,
+        <http://datahub.io/dataset/italian-public-schools-linkedopendata-it>,
+        <http://datahub.io/dataset/pleiades>,
+        <http://datahub.io/dataset/rkb-explorer-darmstadt>,
+        <http://datahub.io/dataset/dcs-sheffield>,
+        <http://datahub.io/dataset/linkedgeodata>,
+        <http://datahub.io/dataset/smartlink>,
+        <http://datahub.io/dataset/ecs>,
+        <http://datahub.io/dataset/temple-ov-thee-lemur-datasets>,
+        <http://datahub.io/dataset/hellenic-fire-brigade>,
+        <http://datahub.io/dataset/rkb-explorer-pisa>,
+        <http://datahub.io/dataset/gemet>,
+        <http://datahub.io/dataset/lista-encabezamientos-materia>,
+        <http://datahub.io/dataset/semantic-web-dog-food>,
+        <http://datahub.io/dataset/loc>,
+        <http://datahub.io/dataset/govtrack>,
+        <http://datahub.io/dataset/dbtune-classical>,
+        <http://datahub.io/dataset/linked-open-vocabularies-lov>,
+        <http://datahub.io/dataset/chronicling-america>,
+        <http://datahub.io/dataset/productdb>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/tags2con-delicious>,
+        <http://datahub.io/dataset/linkedlccn>,
+        <http://datahub.io/dataset/calames>,
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/rkb-explorer-courseware>,
+        <http://datahub.io/dataset/semsol-crunchbase>,
+        <http://datahub.io/dataset/oceandrilling-codices>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/rkb-explorer-jisc>,
+        <http://datahub.io/dataset/viaf>,
+        <http://datahub.io/dataset/fu-berlin-project-gutenberg>,
+        <http://datahub.io/dataset/geological-survey-of-austria-thesaurus>,
+        <http://datahub.io/dataset/nottingham-trent-university-resource-lists>,
+        <http://datahub.io/dataset/dbtune-audioscrobbler>,
+        <http://datahub.io/dataset/ogolod>,
+        <http://datahub.io/dataset/fu-berlin-medicare>,
+        <http://datahub.io/dataset/klappstuhlclub>,
+        <http://datahub.io/dataset/twc-logd>,
+        <http://datahub.io/dataset/linkedmdb>,
+        <http://datahub.io/dataset/data-incubator-smcjournals>,
+        <http://datahub.io/dataset/enakting-energy>,
+        <http://datahub.io/dataset/data-open-ac-uk>,
+        <http://datahub.io/dataset/near>,
+        <http://datahub.io/dataset/rkb-explorer-wiki>,
+        <http://datahub.io/dataset/agrovoc-skos>,
+        <http://datahub.io/dataset/fu-berlin-eurostat>,
+        <http://datahub.io/dataset/pscs-catalogue>,
+        <http://datahub.io/dataset/colinda>,
+        <http://datahub.io/dataset/uniref>,
+        <http://datahub.io/dataset/hungarian-national-library-catalog>,
+        <http://datahub.io/dataset/revyu>,
+        <http://datahub.io/dataset/slideshare2rdf>,
+        <http://datahub.io/dataset/enakting-mortality>,
+        <http://datahub.io/dataset/thesesfr>,
+        <http://datahub.io/dataset/sweto-dblp>,
+        <http://datahub.io/dataset/riese>,
+        <http://datahub.io/dataset/fu-berlin-diseasome>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/sudocfr>,
+        <http://datahub.io/dataset/uniprot-uniparc>,
+        <http://datahub.io/dataset/rkb-explorer-ieee> .
+
+<http://datahub.io/dataset/uniprot> a void:Dataset;
+    dcterms:title "UniProt";
+    void:triples 13081788247 .
+
+<http://datahub.io/dataset/fishes-of-texas> a void:Dataset;
+    dcterms:title "Fishes of Texas";
+    void:triples 528897;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/taxonconcept> .
+
+<http://datahub.io/dataset/john-goodwins-family-tree> a void:Dataset;
+    dcterms:title "John Goodwin's Family Tree";
+    void:triples 177867;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/national-diet-library-authorities> a void:Dataset;
+    dcterms:title "Web NDL Authorities - National Diet Library of Japan";
+    void:triples 15000000;
+    void:subset
+        <http://datahub.io/dataset/lcsh>,
+        <http://datahub.io/dataset/viaf> .
+
+<http://datahub.io/dataset/dbtropes> a void:Dataset;
+    dcterms:title "DBTropes";
+    void:triples 8000000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/linkedmdb> .
+
+<http://datahub.io/dataset/rdf-book-mashup> a void:Dataset;
+    dcterms:title "RDF Book Mashup";
+    void:triples 100000000;
+    void:subset
+        <http://datahub.io/dataset/fu-berlin-dblp>,
+        <http://datahub.io/dataset/revyu> .
+
+<http://datahub.io/dataset/ecco-tcp-linked-data> a void:Dataset;
+    dcterms:title "ECCO-TCP Eighteenth Century Texts Linked Data";
+    void:triples 35215;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/stitch-rameau> a void:Dataset;
+    dcterms:title "RAMEAU subject headings (STITCH)";
+    void:triples 1619918;
+    void:subset
+        <http://datahub.io/dataset/agrovoc-skos>,
+        <http://datahub.io/dataset/lcsh> .
+
+<http://datahub.io/dataset/data-incubator-metoffice> a void:Dataset;
+    dcterms:title "Metoffice Weather Forecasts";
+    void:triples 26000000;
+    void:subset
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/ordnance-survey-linked-data> .
+
+<http://datahub.io/dataset/lexvo> a void:Dataset;
+    dcterms:title "Lexvo";
+    void:triples 353815;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/yago> .
+
+<http://datahub.io/dataset/data-gov> a void:Dataset;
+    dcterms:title "Data.gov";
+    void:triples 6400000000 .
+
+<http://datahub.io/dataset/open-library> a void:Dataset;
+    dcterms:title "Open Library";
+    void:triples 400000000 .
+
+<http://datahub.io/dataset/rkb-explorer-budapest> a void:Dataset;
+    dcterms:title "Budapest University of Technology and Economics (RKBExplorer)";
+    void:triples 42378;
+    void:subset
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-cordis>,
+        <http://datahub.io/dataset/rkb-explorer-courseware>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-deploy>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-eurecom>,
+        <http://datahub.io/dataset/rkb-explorer-ft>,
+        <http://datahub.io/dataset/rkb-explorer-irit>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-pisa>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-resex>,
+        <http://datahub.io/dataset/rkb-explorer-roma>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-wiki> .
+
+<http://datahub.io/dataset/brazilian-politicians> a void:Dataset;
+    dcterms:title "Brazilian Politicians";
+    void:triples 1700000;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/rkb-explorer-dotac> a void:Dataset;
+    dcterms:title "dotAC (RKBExplorer)";
+    void:triples 21279220;
+    void:subset <http://datahub.io/dataset/southampton-ecs-eprints> .
+
+<http://datahub.io/dataset/marc-codes> a void:Dataset;
+    dcterms:title "MARC Codes List";
+    void:triples 8816;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/lcsh> .
+
+<http://datahub.io/dataset/reference-data-gov-uk> a void:Dataset;
+    dcterms:title "reference.data.gov.uk";
+    void:triples 45809;
+    void:subset
+        <http://datahub.io/dataset/data-gov-uk-time-intervals>,
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/london-gazette> .
+
+<http://datahub.io/dataset/rkb-explorer-rae2001> a void:Dataset;
+    dcterms:title "Research Assessment Exercise 2001 (RKBExplorer)";
+    void:triples 2718105;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-budapest>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-cordis>,
+        <http://datahub.io/dataset/rkb-explorer-courseware>,
+        <http://datahub.io/dataset/rkb-explorer-curriculum>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-deepblue>,
+        <http://datahub.io/dataset/rkb-explorer-deploy>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-ibm>,
+        <http://datahub.io/dataset/rkb-explorer-ieee>,
+        <http://datahub.io/dataset/rkb-explorer-irit>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-nsf>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-pisa>,
+        <http://datahub.io/dataset/rkb-explorer-resex>,
+        <http://datahub.io/dataset/rkb-explorer-risks>,
+        <http://datahub.io/dataset/rkb-explorer-roma>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-ulm>,
+        <http://datahub.io/dataset/southampton-ecs-eprints> .
+
+<http://datahub.io/dataset/british-museum-collection> a void:Dataset;
+    dcterms:title "British Museum Collection";
+    void:triples 105635648 .
+
+<http://datahub.io/dataset/idreffr> a void:Dataset;
+    dcterms:title "IdRef: Sudoc authority data";
+    void:triples 20000000;
+    void:subset
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/lexvo>,
+        <http://datahub.io/dataset/sudocfr> .
+
+<http://datahub.io/dataset/semantictweet> a void:Dataset;
+    dcterms:title "SemanticTweet";
+    void:triples 500000;
+    void:subset <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/fu-berlin-sider> a void:Dataset;
+    dcterms:title "SIDER: Side Effect Resource";
+    void:triples 192515;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/fu-berlin-dailymed>,
+        <http://datahub.io/dataset/fu-berlin-diseasome>,
+        <http://datahub.io/dataset/fu-berlin-drugbank>,
+        <http://datahub.io/dataset/fu-berlin-stitch>,
+        <http://datahub.io/dataset/tcmgenedit_dataset> .
+
+<http://datahub.io/dataset/geospecies> a void:Dataset;
+    dcterms:title "GeoSpecies Knowledge Base";
+    void:triples 2163922;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/opencyc> .
+
+<http://datahub.io/dataset/rkb-explorer-irit> a void:Dataset;
+    dcterms:title "Université Paul Sabatier - Toulouse 3 (RKB Explorer)";
+    void:triples 176542;
+    void:subset
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-budapest>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-cordis>,
+        <http://datahub.io/dataset/rkb-explorer-courseware>,
+        <http://datahub.io/dataset/rkb-explorer-curriculum>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-ft>,
+        <http://datahub.io/dataset/rkb-explorer-ibm>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-nsf>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-roma>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-wiki>,
+        <http://datahub.io/dataset/semantic-web-dog-food> .
+
+<http://datahub.io/dataset/japan-radioactivity-stat> a void:Dataset;
+    dcterms:title "National Radioactivity Stat as Linked Data";
+    void:triples 1648890;
+    void:subset <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/rkb-explorer-ulm> a void:Dataset;
+    dcterms:title "Universität Ulm (RKBExplorer)";
+    void:triples 40044;
+    void:subset
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-ieee>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-pisa>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-wiki> .
+
+<http://datahub.io/dataset/ordnance-survey-linked-data> a void:Dataset;
+    dcterms:title "Ordnance Survey Linked Data";
+    void:triples 2788872 .
+
+<http://datahub.io/dataset/nytimes-linked-open-data> a void:Dataset;
+    dcterms:title "New York Times - Linked Open Data";
+    void:triples 345889;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/rkb-explorer-ft> a void:Dataset;
+    dcterms:title "France Telecom Recherche et Développement (RKBExplorer)";
+    void:triples 39843;
+    void:subset
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-budapest>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-eurecom>,
+        <http://datahub.io/dataset/rkb-explorer-irit>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-roma>,
+        <http://datahub.io/dataset/rkb-explorer-wiki> .
+
+<http://datahub.io/dataset/lcsh> a void:Dataset;
+    dcterms:title "Library of Congress Subject Headings";
+    void:triples 7332816;
+    void:subset <http://datahub.io/dataset/stitch-rameau> .
+
+<http://datahub.io/dataset/bio2rdf-chebi> a void:Dataset;
+    dcterms:title "ChEBI" .
+
+<http://datahub.io/dataset/uniprot-unipathway> a void:Dataset;
+    dcterms:title "UniProt UniPathway" .
+
+<http://datahub.io/dataset/austrian_ski_racers> a void:Dataset;
+    dcterms:title "Alpine Ski Racers of Austria";
+    void:triples 4183;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase> .
+
+<http://datahub.io/dataset/finnish-municipalities> a void:Dataset;
+    dcterms:title "Finnish municipalities and regional classifications";
+    void:triples 11380;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/dbtune-musicbrainz> a void:Dataset;
+    dcterms:title "DBTune.org Musicbrainz D2R Server";
+    void:triples 36000000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/dbtune-myspace> .
+
+<http://datahub.io/dataset/linked-open-data-of-ecology> a void:Dataset;
+    dcterms:title "Linked Open Data of Ecology";
+    void:triples 23015257;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/geospecies>,
+        <http://datahub.io/dataset/nytimes-linked-open-data> .
+
+<http://datahub.io/dataset/rkb-explorer-oai> a void:Dataset;
+    dcterms:title "Open Archive Initiative Harvest over OAI-PMH (RKBExplorer)";
+    void:triples 24206591;
+    void:subset <http://datahub.io/dataset/southampton-ecs-eprints> .
+
+<http://datahub.io/dataset/uk-legislation-api> a void:Dataset;
+    dcterms:title "UK Legislation";
+    void:triples 1900000000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/ordnance-survey-linked-data> .
+
+<http://datahub.io/dataset/open-election-data-project> a void:Dataset;
+    dcterms:title "Open Election Data Project";
+    void:triples 16789;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/libris> a void:Dataset;
+    dcterms:title "LIBRIS";
+    void:triples 50000000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/lcsh>,
+        <http://datahub.io/dataset/viaf> .
+
+<http://datahub.io/dataset/data-incubator-climb> a void:Dataset;
+    dcterms:title "Climb Dataincubator";
+    void:triples 174120;
+    void:subset
+        <http://datahub.io/dataset/data-incubator-metoffice>,
+        <http://datahub.io/dataset/data-incubator-smcjournals>,
+        <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/jamendo-dbtune> a void:Dataset;
+    dcterms:title "DBTune.org Jamendo RDF Server";
+    void:triples 1100000;
+    void:subset
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/zitgist-musicbrainz> .
+
+<http://datahub.io/dataset/lak-dataset> a void:Dataset;
+    dcterms:title "Learning Analytics and Knowledge (LAK) Dataset";
+    void:triples 27843;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/rkb-explorer-era> a void:Dataset;
+    dcterms:title "ERA - Australian Research Council publication ratings (RKBExplorer)";
+    void:triples 157376;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/scholarometer> a void:Dataset;
+    dcterms:title "Scholarometer";
+    void:triples 900000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/fu-berlin-dblp>,
+        <http://datahub.io/dataset/l3s-dblp>,
+        <http://datahub.io/dataset/opencyc> .
+
+<http://datahub.io/dataset/rkb-explorer-risks> a void:Dataset;
+    dcterms:title "RISKS Digest (RKBExplorer)";
+    void:triples 322913;
+    void:subset
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-ieee>,
+        <http://datahub.io/dataset/rkb-explorer-jisc>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-wiki> .
+
+<http://datahub.io/dataset/didactalia> a void:Dataset;
+    dcterms:title "Didactalia, índice de recursos educativos para profesores, padres y alumnos (GNOSS)";
+    void:triples 3494839;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/gnoss>,
+        <http://datahub.io/dataset/nytimes-linked-open-data> .
+
+<http://datahub.io/dataset/l3s-dblp> a void:Dataset;
+    dcterms:title "DBLP in RDF (L3S)";
+    void:triples 57674239 .
+
+<http://datahub.io/dataset/rkb-explorer-deploy> a void:Dataset;
+    dcterms:title "DEPLOY (RKBExplorer)";
+    void:triples 41071;
+    void:subset
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-budapest>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-wiki> .
+
+<http://datahub.io/dataset/rkb-explorer-deepblue> a void:Dataset;
+    dcterms:title "Deep Blue (RKBExplorer)";
+    void:triples 39421;
+    void:subset
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-cordis>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-wiki> .
+
+<http://datahub.io/dataset/rechtspraak> a void:Dataset;
+    dcterms:title "Rechtspraak.nl";
+    void:triples 1931860;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/my-experiment> a void:Dataset;
+    dcterms:title "myExperiment";
+    void:triples 660342;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/l3s-dblp>,
+        <http://datahub.io/dataset/southampton-ecs-eprints> .
+
+<http://datahub.io/dataset/knoesis-linked-sensor-data> a void:Dataset;
+    dcterms:title "Linked Sensor Data (Kno.e.sis)";
+    void:triples 1730284735;
+    void:subset <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/sztaki-lod> a void:Dataset;
+    dcterms:title "National Digital Data Archive of Hungary (partial)";
+    void:triples 11000000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/hungarian-national-library-catalog>,
+        <http://datahub.io/dataset/lexvo>,
+        <http://datahub.io/dataset/viaf> .
+
+<http://datahub.io/dataset/data-gov-uk-time-intervals> a void:Dataset;
+    dcterms:title "data.gov.uk Time Intervals";
+    void:triples 1000000000 .
+
+<http://datahub.io/dataset/archiveshub-linkeddata> a void:Dataset;
+    dcterms:title "Archives Hub Linked Data";
+    void:triples 431088;
+    void:subset <http://datahub.io/dataset/uk-postcodes> .
+
+<http://datahub.io/dataset/beneficiaries-of-the-european-commission> a void:Dataset;
+    dcterms:title "EU: fintrans.publicdata.eu";
+    void:triples 1897840;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/education-data-gov-uk> a void:Dataset;
+    dcterms:title "education.data.gov.uk";
+    void:triples 6619847;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/research-data-gov-uk>,
+        <http://datahub.io/dataset/statistics-data-gov-uk> .
+
+<http://datahub.io/dataset/openlylocal> a void:Dataset;
+    dcterms:title "Openly Local :: Making Local Government More Transparent";
+    void:triples 10000000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/opencorporates>,
+        <http://datahub.io/dataset/ordnance-survey-linked-data>,
+        <http://datahub.io/dataset/statistics-data-gov-uk> .
+
+<http://datahub.io/dataset/rkb-explorer-southampton> a void:Dataset;
+    dcterms:title "School of Electronics and Computer Science, University of Southampton (RKBExplorer)";
+    void:triples 298067;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/ecs>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-budapest>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-cordis>,
+        <http://datahub.io/dataset/rkb-explorer-courseware>,
+        <http://datahub.io/dataset/rkb-explorer-curriculum>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-deploy>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-ibm>,
+        <http://datahub.io/dataset/rkb-explorer-ieee>,
+        <http://datahub.io/dataset/rkb-explorer-irit>,
+        <http://datahub.io/dataset/rkb-explorer-jisc>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-nsf>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-pisa>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-risks>,
+        <http://datahub.io/dataset/rkb-explorer-roma>,
+        <http://datahub.io/dataset/rkb-explorer-ulm>,
+        <http://datahub.io/dataset/rkb-explorer-wiki>,
+        <http://datahub.io/dataset/semantic-web-dog-food>,
+        <http://datahub.io/dataset/semantictweet>,
+        <http://datahub.io/dataset/southampton-ecs-eprints> .
+
+<http://datahub.io/dataset/world-factbook-fu-berlin> a void:Dataset;
+    dcterms:title "World Factbook (FU Berlin)";
+    void:triples 38640 .
+
+<http://datahub.io/dataset/rdfize-lastfm> a void:Dataset;
+    dcterms:title "Last.FM RDFization of Events, Artists, and Users";
+    void:triples 400000000;
+    void:subset
+        <http://datahub.io/dataset/bbc-music>,
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/dbtune-artists-last-fm> .
+
+<http://datahub.io/dataset/rkb-explorer-citeseer> a void:Dataset;
+    dcterms:title "CiteSeer (Research Index) (RKBExplorer)";
+    void:triples 8146852;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-budapest>,
+        <http://datahub.io/dataset/rkb-explorer-courseware>,
+        <http://datahub.io/dataset/rkb-explorer-curriculum>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-deploy>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-eurecom>,
+        <http://datahub.io/dataset/rkb-explorer-ibm>,
+        <http://datahub.io/dataset/rkb-explorer-ieee>,
+        <http://datahub.io/dataset/rkb-explorer-irit>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-nsf>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-pisa>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-resex>,
+        <http://datahub.io/dataset/rkb-explorer-risks>,
+        <http://datahub.io/dataset/rkb-explorer-roma>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-ulm>,
+        <http://datahub.io/dataset/rkb-explorer-wiki>,
+        <http://datahub.io/dataset/southampton-ecs-eprints> .
+
+<http://datahub.io/dataset/linked-crunchbase> a void:Dataset;
+    dcterms:title "Linked Crunchbase (OntologyCentral)";
+    void:triples 50000000;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/rkb-explorer-crime> a void:Dataset;
+    dcterms:title "Street level crime reports for England and Wales";
+    void:triples 7780271;
+    void:subset <http://datahub.io/dataset/ordnance-survey-linked-data> .
+
+<http://datahub.io/dataset/sears> a void:Dataset;
+    dcterms:title "sears.com";
+    void:triples 75000000;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/rkb-explorer-ecs> a void:Dataset;
+    dcterms:title "School of Electronics and Computer Science, University of Southampton";
+    void:subset
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-southampton> .
+
+<http://datahub.io/dataset/opencalais> a void:Dataset;
+    dcterms:title "OpenCalais";
+    void:triples 4500000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/linkedmdb> .
+
+<http://datahub.io/dataset/lotico> a void:Dataset;
+    dcterms:title "Lotico";
+    void:triples 2066186;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/rkb-explorer-acm> a void:Dataset;
+    dcterms:title "Association for Computing Machinery (ACM) (RKBExplorer)";
+    void:triples 12402336;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/rkb-explorer-budapest>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-cordis>,
+        <http://datahub.io/dataset/rkb-explorer-courseware>,
+        <http://datahub.io/dataset/rkb-explorer-curriculum>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-deepblue>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-eurecom>,
+        <http://datahub.io/dataset/rkb-explorer-ft>,
+        <http://datahub.io/dataset/rkb-explorer-ibm>,
+        <http://datahub.io/dataset/rkb-explorer-ieee>,
+        <http://datahub.io/dataset/rkb-explorer-irit>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-nsf>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-pisa>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-resex>,
+        <http://datahub.io/dataset/rkb-explorer-risks>,
+        <http://datahub.io/dataset/rkb-explorer-roma>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-ulm>,
+        <http://datahub.io/dataset/rkb-explorer-wiki>,
+        <http://datahub.io/dataset/semantic-web-dog-food>,
+        <http://datahub.io/dataset/southampton-ecs-eprints> .
+
+<http://datahub.io/dataset/rkb-explorer-dblp> a void:Dataset;
+    dcterms:title "DBLP Computer Science Bibliography (RKBExplorer)";
+    void:triples 24112294;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/john-goodwins-family-tree>,
+        <http://datahub.io/dataset/l3s-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-budapest>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-cordis>,
+        <http://datahub.io/dataset/rkb-explorer-courseware>,
+        <http://datahub.io/dataset/rkb-explorer-curriculum>,
+        <http://datahub.io/dataset/rkb-explorer-deepblue>,
+        <http://datahub.io/dataset/rkb-explorer-deploy>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-eurecom>,
+        <http://datahub.io/dataset/rkb-explorer-ft>,
+        <http://datahub.io/dataset/rkb-explorer-ibm>,
+        <http://datahub.io/dataset/rkb-explorer-ieee>,
+        <http://datahub.io/dataset/rkb-explorer-irit>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-nsf>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-pisa>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-resex>,
+        <http://datahub.io/dataset/rkb-explorer-risks>,
+        <http://datahub.io/dataset/rkb-explorer-roma>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-ulm>,
+        <http://datahub.io/dataset/rkb-explorer-wiki>,
+        <http://datahub.io/dataset/semantic-web-dog-food>,
+        <http://datahub.io/dataset/semanticweb-org>,
+        <http://datahub.io/dataset/southampton-ecs-eprints> .
+
+<http://datahub.io/dataset/meducator> a void:Dataset;
+    dcterms:title "mEducator: Linked Educational Resources";
+    void:triples 30294;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/eu-institutions> a void:Dataset;
+    dcterms:title "Institutions and Bodies of the European Union";
+    void:triples 643;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/vivo-indiana-university> a void:Dataset;
+    dcterms:title "VIVO Indiana";
+    void:triples 500000;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/enakting-nhs> a void:Dataset;
+    dcterms:title "EnAKTing NHS Dataset";
+    void:triples 23828953;
+    void:subset <http://datahub.io/dataset/ordnance-survey-linked-data> .
+
+<http://datahub.io/dataset/osm-semantic-network> a void:Dataset;
+    dcterms:title "OSM Semantic Network";
+    void:triples 126621;
+    void:subset <http://datahub.io/dataset/linkedgeodata> .
+
+<http://datahub.io/dataset/fu-berlin-drugbank> a void:Dataset;
+    dcterms:title "DrugBank";
+    void:triples 765936;
+    void:subset
+        <http://datahub.io/dataset/bio2rdf-chebi>,
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/fu-berlin-dailymed>,
+        <http://datahub.io/dataset/linkedct>,
+        <http://datahub.io/dataset/tcmgenedit_dataset> .
+
+<http://datahub.io/dataset/enakting-co2emission> a void:Dataset;
+    dcterms:title "EnAKTing CO2 Emission Dataset";
+    void:triples 2316868;
+    void:subset <http://datahub.io/dataset/ordnance-survey-linked-data> .
+
+<http://datahub.io/dataset/opencyc> a void:Dataset;
+    dcterms:title "OpenCyc";
+    void:triples 1600000 .
+
+<http://datahub.io/dataset/event-media> a void:Dataset;
+    dcterms:title "EventMedia";
+    void:triples 36274454;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/dbtune-musicbrainz>,
+        <http://datahub.io/dataset/flickr-wrappr>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/nytimes-linked-open-data>,
+        <http://datahub.io/dataset/uberblic> .
+
+<http://datahub.io/dataset/zitgist-musicbrainz> a void:Dataset;
+    dcterms:title "MusicBrainz (zitgist.com)";
+    void:triples 60000000 .
+
+<http://datahub.io/dataset/prefix-cc> a void:Dataset;
+    dcterms:title "prefix.cc";
+    void:triples 8000 .
+
+<http://datahub.io/dataset/nomenclator-asturias> a void:Dataset;
+    dcterms:title "Nomenclator Asturias";
+    void:triples 4508050;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/geolinkeddata>,
+        <http://datahub.io/dataset/reference-data-gov-uk> .
+
+<http://datahub.io/dataset/oceandrilling-janusamp> a void:Dataset;
+    dcterms:title "Ocean Drilling - Janus Age Models";
+    void:triples 24489366;
+    void:subset <http://datahub.io/dataset/oceandrilling-codices> .
+
+<http://datahub.io/dataset/dbtune-magnatune> a void:Dataset;
+    dcterms:title "DBTune.org Magnatune RDF server";
+    void:triples 322000;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/bbc-music> a void:Dataset;
+    dcterms:title "BBC Music";
+    void:triples 20000000;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/geowordnet> a void:Dataset;
+    dcterms:title "GeoWordNet";
+    void:triples 53390969;
+    void:subset <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/esd-standards> a void:Dataset;
+    dcterms:title "ESD Standards: Controlled lists for the UK public sector";
+    void:triples 234230;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/uk-legislation-api> .
+
+<http://datahub.io/dataset/eutc-productions> a void:Dataset;
+    dcterms:title "Edinburgh University Theatre Company Productions";
+    void:triples 31223;
+    void:subset
+        <http://datahub.io/dataset/bbc-programmes>,
+        <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/2000-us-census-rdf> a void:Dataset;
+    dcterms:title "2000 U.S. Census in RDF (rdfabout.com)";
+    void:triples 1002848918 .
+
+<http://datahub.io/dataset/w3c-wordnet> a void:Dataset;
+    dcterms:title "WordNet 2.0 (W3C)";
+    void:triples 710000 .
+
+<http://datahub.io/dataset/hellenic-police> a void:Dataset;
+    dcterms:title "Hellenic Police";
+    void:triples 145368;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/dbpedia-el>,
+        <http://datahub.io/dataset/enakting-crime>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/fu-berlin-eurostat>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/linked-eurostat> .
+
+<http://datahub.io/dataset/manchester-university-reading-lists> a void:Dataset;
+    dcterms:title "Manchester University Reading Lists";
+    void:triples 2383794 .
+
+<http://datahub.io/dataset/linked-edgar> a void:Dataset;
+    dcterms:title "Linked EDGAR (OntologyCentral)";
+    void:triples 32000000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/sec-rdfabout> .
+
+<http://datahub.io/dataset/gnoss> a void:Dataset;
+    dcterms:title "gnoss.com, a Linked Open Data knowledge network";
+    void:triples 4535606;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/nytimes-linked-open-data> .
+
+<http://datahub.io/dataset/clean-energy-data-reegle> a void:Dataset;
+    dcterms:title "Linked Clean Energy Data (reegle.info)";
+    void:triples 334049;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/open-energy-info-wiki> .
+
+<http://datahub.io/dataset/dbpedia-pt> a void:Dataset;
+    dcterms:title "DBpedia in Portuguese";
+    void:triples 24607332;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/fu-berlin-stitch> a void:Dataset;
+    dcterms:title "STITCH: Chemical-Protein Interactions";
+    void:triples 55099700;
+    void:subset
+        <http://datahub.io/dataset/bio2rdf-chebi>,
+        <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/bbc-programmes> a void:Dataset;
+    dcterms:title "BBC Programmes";
+    void:triples 60000000;
+    void:subset
+        <http://datahub.io/dataset/bbc-music>,
+        <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/secold> a void:Dataset;
+    dcterms:title "Source Code Ecosystem Linked Data";
+    void:triples 1500000000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/opencyc> .
+
+<http://datahub.io/dataset/swedish-open-cultural-heritage> a void:Dataset;
+    dcterms:title "Swedish Open Cultural Heritage";
+    void:triples 3400000 .
+
+<http://datahub.io/dataset/rkb-explorer-kisti> a void:Dataset;
+    dcterms:title "Korean Institute of Science Technology and Information (RKBExplorer)";
+    void:triples 12815726;
+    void:subset
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-budapest>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-cordis>,
+        <http://datahub.io/dataset/rkb-explorer-curriculum>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-eurecom>,
+        <http://datahub.io/dataset/rkb-explorer-ft>,
+        <http://datahub.io/dataset/rkb-explorer-ibm>,
+        <http://datahub.io/dataset/rkb-explorer-ieee>,
+        <http://datahub.io/dataset/rkb-explorer-irit>,
+        <http://datahub.io/dataset/rkb-explorer-jisc>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-pisa>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-resex>,
+        <http://datahub.io/dataset/rkb-explorer-roma>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-ulm>,
+        <http://datahub.io/dataset/rkb-explorer-wiki>,
+        <http://datahub.io/dataset/semantic-web-dog-food> .
+
+<http://datahub.io/dataset/eumida-linked-data> a void:Dataset;
+    dcterms:title "EUMIDA as Linked Data";
+    void:triples 133085 .
+
+<http://datahub.io/dataset/telegraphis> a void:Dataset;
+    dcterms:title "Telegraphis Linked Data";
+    void:triples 15257;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/world-factbook-fu-berlin> .
+
+<http://datahub.io/dataset/semanticweb-org> a void:Dataset;
+    dcterms:title "semanticweb.org";
+    void:triples 50000;
+    void:subset <http://datahub.io/dataset/revyu> .
+
+<http://datahub.io/dataset/museums-in-italy> a void:Dataset;
+    dcterms:title "Italian Museums";
+    void:triples 49897;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/taxonconcept> a void:Dataset;
+    dcterms:title "TaxonConcept Knowledge Base";
+    void:triples 34394994;
+    void:subset
+        <http://datahub.io/dataset/bbc-wildlife-finder>,
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/eunis>,
+        <http://datahub.io/dataset/fishes-of-texas>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/geospecies>,
+        <http://datahub.io/dataset/opencyc>,
+        <http://datahub.io/dataset/uniprot> .
+
+<http://datahub.io/dataset/university-sussex-reading-lists> a void:Dataset;
+    dcterms:title "University of Sussex Reading Lists";
+    void:triples 1762492 .
+
+<http://datahub.io/dataset/psh-subject-headings> a void:Dataset;
+    dcterms:title "Polythematic Structured Subject Heading System";
+    void:triples 100000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/lcsh> .
+
+<http://datahub.io/dataset/t4gm-info> a void:Dataset;
+    dcterms:title "Thesaurus for Graphic Materials (t4gm.info)";
+    void:triples 12057;
+    void:subset <http://datahub.io/dataset/lcsh> .
+
+<http://datahub.io/dataset/istat-immigration> a void:Dataset;
+    dcterms:title "ISTAT Immigration (LinkedOpenData.it)";
+    void:triples 3024396;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/reference-data-gov-uk> .
+
+<http://datahub.io/dataset/uniprot-databases> a void:Dataset;
+    dcterms:title "UniProt databases" .
+
+<http://datahub.io/dataset/data-cnr-it> a void:Dataset;
+    dcterms:title "Open Data from the Italian National Research Council";
+    void:triples 2762278;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/open-energy-info-wiki> a void:Dataset;
+    dcterms:title "OpenEI - Open Energy Info";
+    void:triples 16384698;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/rkb-explorer-nsf> a void:Dataset;
+    dcterms:title "National Science Foundation (RKBExplorer)";
+    void:triples 11822283;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-cordis>,
+        <http://datahub.io/dataset/rkb-explorer-curriculum>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-irit>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-wiki> .
+
+<http://datahub.io/dataset/patents-data-gov-uk> a void:Dataset;
+    dcterms:title "patents.data.gov.uk";
+    void:triples 11627;
+    void:subset <http://datahub.io/dataset/research-data-gov-uk> .
+
+<http://datahub.io/dataset/enakting-population> a void:Dataset;
+    dcterms:title "EnAKTing Population Dataset";
+    void:triples 2316831;
+    void:subset <http://datahub.io/dataset/ordnance-survey-linked-data> .
+
+<http://datahub.io/dataset/pokepedia-fr> a void:Dataset;
+    dcterms:title "Poképédia";
+    void:triples 115150;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/loius> a void:Dataset;
+    dcterms:title "Linking Italian University Statistics Project";
+    void:triples 586000000;
+    void:subset <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/rkb-explorer-ibm> a void:Dataset;
+    dcterms:title "IBM Research GmbH (RKBExplorer)";
+    void:triples 44721;
+    void:subset
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-ieee>,
+        <http://datahub.io/dataset/rkb-explorer-irit>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-pisa>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-resex>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-wiki> .
+
+<http://datahub.io/dataset/dbpedia-lite> a void:Dataset;
+    dcterms:title "dbpedia lite";
+    void:triples 200000000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase> .
+
+<http://datahub.io/dataset/my-family-lineage> a void:Dataset;
+    dcterms:title "My Family Lineage";
+    void:triples 3000000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/yago> .
+
+<http://datahub.io/dataset/opencorporates> a void:Dataset;
+    dcterms:title "OpenCorporates - The Open Database Of The Corporate World";
+    void:triples 750000000;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/deutsche-biographie> a void:Dataset;
+    dcterms:title "Deutsche Biographie";
+    void:triples 100000 .
+
+<http://datahub.io/dataset/rkb-explorer-eurecom> a void:Dataset;
+    dcterms:title "Institut Eurécom (RKBExplorer)";
+    void:triples 40863;
+    void:subset
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-budapest>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-ft>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-roma>,
+        <http://datahub.io/dataset/rkb-explorer-wiki> .
+
+<http://datahub.io/dataset/grrp> a void:Dataset;
+    dcterms:title "Accommodations in Piedmont (LinkedOpenData.it)";
+    void:triples 153935;
+    void:subset <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/st-andrews-resource-lists> a void:Dataset;
+    dcterms:title "St. Andrews University Resource Lists";
+    void:triples 1223619 .
+
+<http://datahub.io/dataset/rkb-explorer-roma> a void:Dataset;
+    dcterms:title "Università degli studi di Roma \"La Sapienza\" (RKBExplorer)";
+    void:triples 41313;
+    void:subset
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-budapest>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-eurecom>,
+        <http://datahub.io/dataset/rkb-explorer-ft>,
+        <http://datahub.io/dataset/rkb-explorer-ieee>,
+        <http://datahub.io/dataset/rkb-explorer-irit>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-wiki>,
+        <http://datahub.io/dataset/semantic-web-dog-food> .
+
+<http://datahub.io/dataset/semantic-xbrl> a void:Dataset;
+    dcterms:title "Semantic XBRL Financial Data";
+    void:triples 83820000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/sec-rdfabout> .
+
+<http://datahub.io/dataset/educationalprograms_sisvu> a void:Dataset;
+    dcterms:title "Educational programs - SISVU";
+    void:triples 2373863;
+    void:subset <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/rkb-explorer-resex> a void:Dataset;
+    dcterms:title "ReSIST Resilience Mechanisms (RKBExplorer.com)";
+    void:triples 55582;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-budapest>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-ibm>,
+        <http://datahub.io/dataset/rkb-explorer-ieee>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-pisa>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001> .
+
+<http://datahub.io/dataset/university-plymouth-reading-lists> a void:Dataset;
+    dcterms:title "University of Plymouth Reading Lists";
+    void:triples 441476 .
+
+<http://datahub.io/dataset/datos-bne-es> a void:Dataset;
+    dcterms:title "datos.bne.es";
+    void:triples 58053215;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/lexvo>,
+        <http://datahub.io/dataset/libris>,
+        <http://datahub.io/dataset/sudocfr>,
+        <http://datahub.io/dataset/viaf> .
+
+<http://datahub.io/dataset/lichfield-spending> a void:Dataset;
+    dcterms:title "Lichfield District Council - Spending";
+    void:triples 93839;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/opencorporates>,
+        <http://datahub.io/dataset/reference-data-gov-uk>,
+        <http://datahub.io/dataset/statistics-data-gov-uk> .
+
+<http://datahub.io/dataset/yovisto> a void:Dataset;
+    dcterms:title "Yovisto - academic video search";
+    void:triples 4932352;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/linkedct> a void:Dataset;
+    dcterms:title "LinkedCT";
+    void:triples 24653008;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/fu-berlin-dailymed>,
+        <http://datahub.io/dataset/fu-berlin-diseasome>,
+        <http://datahub.io/dataset/fu-berlin-drugbank>,
+        <http://datahub.io/dataset/tcmgenedit_dataset> .
+
+<http://datahub.io/dataset/german-labor-law-thesaurus> a void:Dataset;
+    dcterms:title "German labor law thesaurus";
+    void:triples 106891;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/dbtune-artists-last-fm> a void:Dataset;
+    dcterms:title "DBTune.org Artists: Last.fm";
+    void:triples 250000000;
+    void:subset
+        <http://datahub.io/dataset/bbc-music>,
+        <http://datahub.io/dataset/dbtune-musicbrainz> .
+
+<http://datahub.io/dataset/rkb-explorer-curriculum> a void:Dataset;
+    dcterms:title "ReSIST MSc in Resilient Computing Curriculum (RKBExplorer)";
+    void:triples 37789;
+    void:subset
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-cordis>,
+        <http://datahub.io/dataset/rkb-explorer-courseware>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-ieee>,
+        <http://datahub.io/dataset/rkb-explorer-irit>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-nsf>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-wiki> .
+
+<http://datahub.io/dataset/tcmgenedit_dataset> a void:Dataset;
+    dcterms:title "TCMGeneDIT Dataset";
+    void:triples 117643;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/fu-berlin-dailymed>,
+        <http://datahub.io/dataset/fu-berlin-diseasome>,
+        <http://datahub.io/dataset/fu-berlin-drugbank>,
+        <http://datahub.io/dataset/fu-berlin-sider>,
+        <http://datahub.io/dataset/linkedct> .
+
+<http://datahub.io/dataset/uniprot-taxonomy> a void:Dataset;
+    dcterms:title "UniProtKB Taxonomy" .
+
+<http://datahub.io/dataset/geolinkeddata> a void:Dataset;
+    dcterms:title "GeoLinkedData";
+    void:triples 21564199;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/vivo-cornell-university> a void:Dataset;
+    dcterms:title "VIVO Cornell";
+    void:triples 9796754;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/chem2bio2rdf> a void:Dataset;
+    dcterms:title "Chem2Bio2RDF";
+    void:triples 82925998 .
+
+<http://datahub.io/dataset/datos-bcn-cl> a void:Dataset;
+    dcterms:title "Datos.bcn.cl";
+    void:triples 8285886;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/thesaurus-w> a void:Dataset;
+    dcterms:title "Thesaurus W for Local Archives";
+    void:triples 11000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/stitch-rameau> .
+
+<http://datahub.io/dataset/government-web-integration-for-linked-data> a void:Dataset;
+    dcterms:title "GovWILD - Government Web Integration for Linked Data";
+    void:triples 42773056;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/nytimes-linked-open-data> .
+
+<http://datahub.io/dataset/tip> a void:Dataset;
+    dcterms:title "TIP";
+    void:triples 264034;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/linkedgeodata> .
+
+<http://datahub.io/dataset/dbpedia-el> a void:Dataset;
+    dcterms:title "DBpedia in Greek";
+    void:triples 4399898;
+    void:subset
+        <http://datahub.io/dataset/2000-us-census-rdf>,
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/dbtune-musicbrainz>,
+        <http://datahub.io/dataset/eunis>,
+        <http://datahub.io/dataset/flickr-wrappr>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/fu-berlin-dailymed>,
+        <http://datahub.io/dataset/fu-berlin-dblp>,
+        <http://datahub.io/dataset/fu-berlin-diseasome>,
+        <http://datahub.io/dataset/fu-berlin-drugbank>,
+        <http://datahub.io/dataset/fu-berlin-eurostat>,
+        <http://datahub.io/dataset/fu-berlin-project-gutenberg>,
+        <http://datahub.io/dataset/fu-berlin-sider>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/geospecies>,
+        <http://datahub.io/dataset/linkedgeodata>,
+        <http://datahub.io/dataset/linkedmdb>,
+        <http://datahub.io/dataset/nytimes-linked-open-data>,
+        <http://datahub.io/dataset/opencyc>,
+        <http://datahub.io/dataset/rdf-book-mashup>,
+        <http://datahub.io/dataset/revyu>,
+        <http://datahub.io/dataset/tcmgenedit_dataset>,
+        <http://datahub.io/dataset/w3c-wordnet>,
+        <http://datahub.io/dataset/world-factbook-fu-berlin>,
+        <http://datahub.io/dataset/yago> .
+
+<http://datahub.io/dataset/bibbase> a void:Dataset;
+    dcterms:title "BibBase";
+    void:triples 200000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/fu-berlin-dblp>,
+        <http://datahub.io/dataset/l3s-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-ieee>,
+        <http://datahub.io/dataset/semantic-web-dog-food> .
+
+<http://datahub.io/dataset/dbtune-john-peel-sessions> a void:Dataset;
+    dcterms:title "DBTune.org John Peel sessions RDF server";
+    void:triples 277000;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/fu-berlin-dblp> a void:Dataset;
+    dcterms:title "DBLP Bibliography Database in RDF (FU Berlin)";
+    void:triples 28000000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/l3s-dblp> .
+
+<http://datahub.io/dataset/research-data-gov-uk> a void:Dataset;
+    dcterms:title "research.data.gov.uk";
+    void:triples 43334;
+    void:subset
+        <http://datahub.io/dataset/business-data-gov-uk>,
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/education-data-gov-uk>,
+        <http://datahub.io/dataset/statistics-data-gov-uk> .
+
+<http://datahub.io/dataset/dbtune-myspace> a void:Dataset;
+    dcterms:title "DBTune.org MySpace RDF Service";
+    void:triples 660000000;
+    void:subset <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/los_metar> a void:Dataset;
+    dcterms:title "Weather Stations";
+    void:triples 75184;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/courts-thesaurus> a void:Dataset;
+    dcterms:title "Courts thesaurus";
+    void:triples 30387;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/london-gazette> a void:Dataset;
+    dcterms:title "The London Gazette - Gazettes Data";
+    void:triples 12000000 .
+
+<http://datahub.io/dataset/linked-eurostat> a void:Dataset;
+    dcterms:title "Linked Eurostat (OntologyCentral)";
+    void:triples 40000000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/eurostat-rdf> .
+
+<http://datahub.io/dataset/ub-mannheim-linked-data> a void:Dataset;
+    dcterms:title "Linked Data Service der Universitätsbibliothek Mannheim";
+    void:triples 53415605;
+    void:subset <http://datahub.io/dataset/rdf-book-mashup> .
+
+<http://datahub.io/dataset/farmbio-chembl> a void:Dataset;
+    dcterms:title "ChEMBL-RDF (@ Uppsala University)";
+    void:triples 25111377;
+    void:subset <http://datahub.io/dataset/bio2rdf-chebi> .
+
+<http://datahub.io/dataset/eea> a void:Dataset;
+    dcterms:title "European Environment Agency Published Products";
+    void:triples 1137236 .
+
+<http://datahub.io/dataset/oxpoints> a void:Dataset;
+    dcterms:title "OxPoints (University of Oxford)" .
+
+<http://datahub.io/dataset/farmers-markets-geographic-data-united-states> a void:Dataset;
+    dcterms:title "Farmers Markets Geographic Data (United States)";
+    void:triples 130005;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/govtrack> .
+
+<http://datahub.io/dataset/flickr-wrappr> a void:Dataset;
+    dcterms:title "flickr™ wrappr";
+    void:triples 56100000;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/linked-open-numbers> a void:Dataset;
+    dcterms:title "Linked Open Numbers";
+    void:triples 140000000;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/geonames-semantic-web> a void:Dataset;
+    dcterms:title "GeoNames Semantic Web";
+    void:triples 93896732 .
+
+<http://datahub.io/dataset/rkb-explorer-os> a void:Dataset;
+    dcterms:title "Ordnance Survey (RKBExplorer)";
+    void:triples 161227;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/opencyc>,
+        <http://datahub.io/dataset/rkb-explorer-unlocode> .
+
+<http://datahub.io/dataset/schemapedia> a void:Dataset;
+    dcterms:title "Schemapedia: RDF schema compendium";
+    void:triples 6000 .
+
+<http://datahub.io/dataset/libver> a void:Dataset;
+    dcterms:title "Public Library of Veroia";
+    void:triples 1285417;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/dbpedia-el> .
+
+<http://datahub.io/dataset/sec-rdfabout> a void:Dataset;
+    dcterms:title "U.S. Securities and Exchange Commission Corporate Ownership RDF Data (rdfabout)";
+    void:triples 1800000;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/surge-radio> a void:Dataset;
+    dcterms:title "Surge Radio";
+    void:triples 218000;
+    void:subset
+        <http://datahub.io/dataset/bbc-music>,
+        <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/enipedia> a void:Dataset;
+    dcterms:title "Enipedia - Energy Industry Data";
+    void:triples 4180734;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/open-energy-info-wiki>,
+        <http://datahub.io/dataset/world-factbook-fu-berlin> .
+
+<http://datahub.io/dataset/fu-berlin-cordis> a void:Dataset;
+    dcterms:title "Community Research and Development Information Service (CORDIS)";
+    void:triples 7107144;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/uniprot-citations> a void:Dataset;
+    dcterms:title "UniProt citations" .
+
+<http://datahub.io/dataset/data-incubator-our-airports> a void:Dataset;
+    dcterms:title "Airport data from Our Airports published as RDF";
+    void:triples 748363;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/dewey_decimal_classification> a void:Dataset;
+    dcterms:title "Dewey Decimal Classification (DDC)";
+    void:triples 402288 .
+
+<http://datahub.io/dataset/linked-user-feedback> a void:Dataset;
+    dcterms:title "Linked User Feedback";
+    void:triples 240000;
+    void:subset <http://datahub.io/dataset/linkedmdb> .
+
+<http://datahub.io/dataset/productontology> a void:Dataset;
+    dcterms:title "Product Types Ontology";
+    void:triples 18000000;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/enakting-crime> a void:Dataset;
+    dcterms:title "EnAKTing Crime Dataset";
+    void:triples 4988;
+    void:subset <http://datahub.io/dataset/ordnance-survey-linked-data> .
+
+<http://datahub.io/dataset/rkb-explorer-newcastle> a void:Dataset;
+    dcterms:title "University of Newcastle upon Tyne (RKBExplorer)";
+    void:triples 87505;
+    void:subset
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-budapest>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-cordis>,
+        <http://datahub.io/dataset/rkb-explorer-courseware>,
+        <http://datahub.io/dataset/rkb-explorer-curriculum>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-deploy>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-ibm>,
+        <http://datahub.io/dataset/rkb-explorer-ieee>,
+        <http://datahub.io/dataset/rkb-explorer-irit>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/rkb-explorer-nsf>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-pisa>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-resex>,
+        <http://datahub.io/dataset/rkb-explorer-roma>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-ulm>,
+        <http://datahub.io/dataset/rkb-explorer-wiki>,
+        <http://datahub.io/dataset/southampton-ecs-eprints> .
+
+<http://datahub.io/dataset/business-data-gov-uk> a void:Dataset;
+    dcterms:title "business.data.gov.uk";
+    void:triples 15237;
+    void:subset <http://datahub.io/dataset/research-data-gov-uk> .
+
+<http://datahub.io/dataset/printed-book-auction-catalogues> a void:Dataset;
+    dcterms:title "English Language Books listed in Printed Book Auction Catalogues from 17th Century Holland";
+    void:triples 55214;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/rdfohloh> a void:Dataset;
+    dcterms:title "RDFohloh";
+    void:triples 700000;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/fu-berlin-dailymed> a void:Dataset;
+    dcterms:title "DailyMed";
+    void:triples 164276;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/fu-berlin-diseasome>,
+        <http://datahub.io/dataset/fu-berlin-drugbank>,
+        <http://datahub.io/dataset/fu-berlin-sider>,
+        <http://datahub.io/dataset/linkedct>,
+        <http://datahub.io/dataset/tcmgenedit_dataset> .
+
+<http://datahub.io/dataset/uberblic> a void:Dataset;
+    dcterms:title "Uberblic.org";
+    void:triples 100000000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/bbc-wildlife-finder> a void:Dataset;
+    dcterms:title "BBC Wildlife Finder";
+    void:triples 23861;
+    void:subset
+        <http://datahub.io/dataset/bbc-programmes>,
+        <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/uniprotkb> a void:Dataset;
+    dcterms:title "UniProtKB";
+    void:triples 8439331521 .
+
+<http://datahub.io/dataset/the-view-from> a void:Dataset;
+    dcterms:title "The View From";
+    void:triples 368;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/statistics-data-gov-uk> a void:Dataset;
+    dcterms:title "statistics.data.gov.uk";
+    void:triples 343733;
+    void:subset <http://datahub.io/dataset/ordnance-survey-linked-data> .
+
+<http://datahub.io/dataset/southampton-ecs-eprints> a void:Dataset;
+    dcterms:title "ECS Southampton EPrints";
+    void:triples 1000000;
+    void:subset <http://datahub.io/dataset/ecs> .
+
+<http://datahub.io/dataset/oclc-fast> a void:Dataset;
+    dcterms:title "Faceted Application of Subject Terminology";
+    void:triples 30000000;
+    void:subset <http://datahub.io/dataset/lcsh> .
+
+<http://datahub.io/dataset/eunis> a void:Dataset;
+    dcterms:title "European Nature Information System";
+    void:triples 20229105;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/geospecies> .
+
+<http://datahub.io/dataset/fu-berlin-eures> a void:Dataset;
+    dcterms:title "European Employment Services (EURES)";
+    void:triples 7011899;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/lexvo> .
+
+<http://datahub.io/dataset/eurostat-rdf> a void:Dataset;
+    dcterms:title "Eurostat RDF datasets";
+    void:triples 68000;
+    void:subset
+        <http://datahub.io/dataset/fu-berlin-eurostat>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/telegraphis> .
+
+<http://datahub.io/dataset/morelab> a void:Dataset;
+    dcterms:title "morelab";
+    void:triples 3561;
+    void:subset
+        <http://datahub.io/dataset/data-incubator-our-airports>,
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/l3s-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-dblp> .
+
+<http://datahub.io/dataset/socialsemweb-thesaurus> a void:Dataset;
+    dcterms:title "Social Semantic Web Thesaurus";
+    void:triples 20000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/yago> a void:Dataset;
+    dcterms:title "YAGO";
+    void:triples 120000000;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/transport-data-gov-uk> a void:Dataset;
+    dcterms:title "transport.data.gov.uk";
+    void:triples 329527661;
+    void:subset
+        <http://datahub.io/dataset/data-gov-uk-time-intervals>,
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/statistics-data-gov-uk> .
+
+<http://datahub.io/dataset/uk-postcodes> a void:Dataset;
+    dcterms:title "UK Postcodes";
+    void:triples 27137408;
+    void:subset
+        <http://datahub.io/dataset/ordnance-survey-linked-data>,
+        <http://datahub.io/dataset/statistics-data-gov-uk> .
+
+<http://datahub.io/dataset/twarql> a void:Dataset;
+    dcterms:title "Twarql";
+    void:triples 4990776;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/uriburner> a void:Dataset;
+    dcterms:title "URIBurner";
+    void:triples 486089121;
+    void:subset
+        <http://datahub.io/dataset/bbc-music>,
+        <http://datahub.io/dataset/chronicling-america>,
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/nytimes-linked-open-data> .
+
+<http://datahub.io/dataset/googleart-wrapper> a void:Dataset;
+    dcterms:title "GoogleArt wrapper";
+    void:triples 37717;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/rkb-explorer-cordis> a void:Dataset;
+    dcterms:title "Community R&D Information Service (CORDIS) (RKBExplorer)";
+    void:triples 3519823;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-budapest>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-courseware>,
+        <http://datahub.io/dataset/rkb-explorer-curriculum>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-deepblue>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-irit>,
+        <http://datahub.io/dataset/rkb-explorer-jisc>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-nsf>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-wiki>,
+        <http://datahub.io/dataset/semantic-web-dog-food> .
+
+<http://datahub.io/dataset/rkb-explorer-unlocode> a void:Dataset;
+    dcterms:title "UN/LOCODE (RKBExplorer)";
+    void:triples 371549;
+    void:subset
+        <http://datahub.io/dataset/data-incubator-our-airports>,
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/dbtune-musicbrainz>,
+        <http://datahub.io/dataset/linkedmdb>,
+        <http://datahub.io/dataset/opencalais>,
+        <http://datahub.io/dataset/opencyc>,
+        <http://datahub.io/dataset/telegraphis> .
+
+<http://datahub.io/dataset/italian-public-schools-linkedopendata-it> a void:Dataset;
+    dcterms:title "Italian public schools (LinkedOpenData.it)";
+    void:triples 168638 .
+
+<http://datahub.io/dataset/pleiades> a void:Dataset;
+    dcterms:title "Pleiades";
+    void:triples 2600000;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/rkb-explorer-darmstadt> a void:Dataset;
+    dcterms:title "Technische Universität Darmstadt (RKBExplorer)";
+    void:triples 35325;
+    void:subset <http://datahub.io/dataset/rkb-explorer-wiki> .
+
+<http://datahub.io/dataset/dcs-sheffield> a void:Dataset;
+    dcterms:title "data.dcs";
+    void:triples 8596;
+    void:subset <http://datahub.io/dataset/fu-berlin-dblp> .
+
+<http://datahub.io/dataset/linkedgeodata> a void:Dataset;
+    dcterms:title "LinkedGeoData";
+    void:triples 3000000000;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/smartlink> a void:Dataset;
+    dcterms:title "SmartLink: Linked Services Non-Functional Properties";
+    void:triples 2829 .
+
+<http://datahub.io/dataset/ecs> a void:Dataset;
+    dcterms:title "School of Electronics and Computer Science, University of Southampton";
+    void:triples 50000 .
+
+<http://datahub.io/dataset/temple-ov-thee-lemur-datasets> a void:Dataset;
+    dcterms:title "Temple ov thee Lemur";
+    void:triples 10000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/semantictweet> .
+
+<http://datahub.io/dataset/hellenic-fire-brigade> a void:Dataset;
+    dcterms:title "Hellenic Fire Brigade";
+    void:triples 4134837;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/dbpedia-el>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/fu-berlin-eurostat>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/linked-eurostat> .
+
+<http://datahub.io/dataset/rkb-explorer-pisa> a void:Dataset;
+    dcterms:title "Università di Pisa (RKBExplorer)";
+    void:triples 43219;
+    void:subset
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-budapest>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-ibm>,
+        <http://datahub.io/dataset/rkb-explorer-ieee>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-resex>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-ulm>,
+        <http://datahub.io/dataset/rkb-explorer-wiki> .
+
+<http://datahub.io/dataset/gemet> a void:Dataset;
+    dcterms:title "GEneral Multilingual Environmental Thesaurus";
+    void:triples 20229105;
+    void:subset
+        <http://datahub.io/dataset/agrovoc-skos>,
+        <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/lista-encabezamientos-materia> a void:Dataset;
+    dcterms:title "Lista de  Encabezamientos de Materia as Linked Open Data";
+    void:triples 193865;
+    void:subset <http://datahub.io/dataset/lcsh> .
+
+<http://datahub.io/dataset/semantic-web-dog-food> a void:Dataset;
+    dcterms:title "Semantic Web Dog Food Corpus";
+    void:triples 191391;
+    void:subset
+        <http://datahub.io/dataset/revyu>,
+        <http://datahub.io/dataset/semanticweb-org> .
+
+<http://datahub.io/dataset/loc> a void:Dataset;
+    dcterms:title "Linked Open Colors";
+    void:triples 160000000;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/govtrack> a void:Dataset;
+    dcterms:title "GovTrack.us U.S Congress Legislative Data";
+    void:triples 13000000;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/dbtune-classical> a void:Dataset;
+    dcterms:title "DBTune.org/classical";
+    void:triples 390845;
+    void:subset
+        <http://datahub.io/dataset/bbc-music>,
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/dbtune-musicbrainz> .
+
+<http://datahub.io/dataset/linked-open-vocabularies-lov> a void:Dataset;
+    dcterms:title "Linked Open Vocabularies (LOV)";
+    void:triples 18659;
+    void:subset
+        <http://datahub.io/dataset/schemapedia>,
+        <http://datahub.io/dataset/semantic-web-dog-food> .
+
+<http://datahub.io/dataset/chronicling-america> a void:Dataset;
+    dcterms:title "Chronicling America";
+    void:triples 20000000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/productdb> a void:Dataset;
+    dcterms:title "ProductDB";
+    void:triples 575942;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/rkb-explorer-eprints> a void:Dataset;
+    dcterms:title "ePrints3 Institutional Archive Collection (RKBExplorer)";
+    void:triples 8417840;
+    void:subset
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-budapest>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-cordis>,
+        <http://datahub.io/dataset/rkb-explorer-courseware>,
+        <http://datahub.io/dataset/rkb-explorer-curriculum>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-deepblue>,
+        <http://datahub.io/dataset/rkb-explorer-deploy>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eurecom>,
+        <http://datahub.io/dataset/rkb-explorer-ft>,
+        <http://datahub.io/dataset/rkb-explorer-ibm>,
+        <http://datahub.io/dataset/rkb-explorer-ieee>,
+        <http://datahub.io/dataset/rkb-explorer-irit>,
+        <http://datahub.io/dataset/rkb-explorer-jisc>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-nsf>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-pisa>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-resex>,
+        <http://datahub.io/dataset/rkb-explorer-risks>,
+        <http://datahub.io/dataset/rkb-explorer-roma>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-ulm>,
+        <http://datahub.io/dataset/rkb-explorer-wiki>,
+        <http://datahub.io/dataset/semantic-web-dog-food>,
+        <http://datahub.io/dataset/southampton-ecs-eprints> .
+
+<http://datahub.io/dataset/tags2con-delicious> a void:Dataset;
+    dcterms:title "tags2con delicious";
+    void:triples 85908 .
+
+<http://datahub.io/dataset/linkedlccn> a void:Dataset;
+    dcterms:title "LinkedLCCN";
+    void:triples 1573663;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/dbtune-musicbrainz>,
+        <http://datahub.io/dataset/linkedmdb>,
+        <http://datahub.io/dataset/marc-codes>,
+        <http://datahub.io/dataset/viaf> .
+
+<http://datahub.io/dataset/calames> a void:Dataset;
+    dcterms:title "Calames";
+    void:triples 2000000;
+    void:subset <http://datahub.io/dataset/idreffr> .
+
+<http://datahub.io/dataset/dbpedia> a void:Dataset;
+    dcterms:title "DBpedia";
+    void:triples 1200000000;
+    void:subset
+        <http://datahub.io/dataset/2000-us-census-rdf>,
+        <http://datahub.io/dataset/dbtune-musicbrainz>,
+        <http://datahub.io/dataset/education-data-gov-uk>,
+        <http://datahub.io/dataset/eunis>,
+        <http://datahub.io/dataset/flickr-wrappr>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/fu-berlin-dailymed>,
+        <http://datahub.io/dataset/fu-berlin-dblp>,
+        <http://datahub.io/dataset/fu-berlin-diseasome>,
+        <http://datahub.io/dataset/fu-berlin-drugbank>,
+        <http://datahub.io/dataset/fu-berlin-eurostat>,
+        <http://datahub.io/dataset/fu-berlin-project-gutenberg>,
+        <http://datahub.io/dataset/fu-berlin-sider>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/geospecies>,
+        <http://datahub.io/dataset/italian-public-schools-linkedopendata-it>,
+        <http://datahub.io/dataset/linkedgeodata>,
+        <http://datahub.io/dataset/linkedmdb>,
+        <http://datahub.io/dataset/nytimes-linked-open-data>,
+        <http://datahub.io/dataset/opencyc>,
+        <http://datahub.io/dataset/rdf-book-mashup>,
+        <http://datahub.io/dataset/reference-data-gov-uk>,
+        <http://datahub.io/dataset/revyu>,
+        <http://datahub.io/dataset/tcmgenedit_dataset>,
+        <http://datahub.io/dataset/transport-data-gov-uk>,
+        <http://datahub.io/dataset/uk-legislation-api>,
+        <http://datahub.io/dataset/w3c-wordnet>,
+        <http://datahub.io/dataset/world-factbook-fu-berlin>,
+        <http://datahub.io/dataset/yago> .
+
+<http://datahub.io/dataset/rkb-explorer-courseware> a void:Dataset;
+    dcterms:title "Resilient Computing Courseware (RKBExplorer)";
+    void:triples 45780;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/opencyc>,
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-budapest>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-cordis>,
+        <http://datahub.io/dataset/rkb-explorer-curriculum>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-irit>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/southampton-ecs-eprints>,
+        <http://datahub.io/dataset/w3c-wordnet> .
+
+<http://datahub.io/dataset/semsol-crunchbase> a void:Dataset;
+    dcterms:title "Semantic CrunchBase";
+    void:triples 955676;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/oceandrilling-codices> a void:Dataset;
+    dcterms:title "Ocean Drilling - Codices";
+    void:triples 24489366;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase> .
+
+<http://datahub.io/dataset/freebase> a void:Dataset;
+    dcterms:title "Freebase";
+    void:triples 337203427;
+    void:subset
+        <http://datahub.io/dataset/bbc-music>,
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/geospecies>,
+        <http://datahub.io/dataset/nytimes-linked-open-data>,
+        <http://datahub.io/dataset/sec-rdfabout> .
+
+<http://datahub.io/dataset/rkb-explorer-jisc> a void:Dataset;
+    dcterms:title "UK JISC (RKBExplorer)";
+    void:triples 64672;
+    void:subset
+        <http://datahub.io/dataset/rkb-explorer-cordis>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-risks>,
+        <http://datahub.io/dataset/rkb-explorer-southampton> .
+
+<http://datahub.io/dataset/viaf> a void:Dataset;
+    dcterms:title "VIAF: The Virtual International Authority File";
+    void:triples 200000000;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/fu-berlin-project-gutenberg> a void:Dataset;
+    dcterms:title "Project Gutenberg in RDF (FU Berlin)";
+    void:triples 10000 .
+
+<http://datahub.io/dataset/geological-survey-of-austria-thesaurus> a void:Dataset;
+    dcterms:title "Geological Survey of Austria (GBA) - Thesaurus";
+    void:triples 40912;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/opencyc> .
+
+<http://datahub.io/dataset/nottingham-trent-university-resource-lists> a void:Dataset;
+    dcterms:title "Nottingham Trent University Resource Lists";
+    void:triples 726933 .
+
+<http://datahub.io/dataset/dbtune-audioscrobbler> a void:Dataset;
+    dcterms:title "DBTune.org AudioScrobbler RDF Service";
+    void:triples 600000000;
+    void:subset <http://datahub.io/dataset/zitgist-musicbrainz> .
+
+<http://datahub.io/dataset/ogolod> a void:Dataset;
+    dcterms:title "Orthology and Diseases Information - OGO";
+    void:triples 38035102;
+    void:subset <http://datahub.io/dataset/bio2rdf-chebi> .
+
+<http://datahub.io/dataset/fu-berlin-medicare> a void:Dataset;
+    dcterms:title "MediCare";
+    void:triples 44500;
+    void:subset
+        <http://datahub.io/dataset/fu-berlin-dailymed>,
+        <http://datahub.io/dataset/fu-berlin-drugbank> .
+
+<http://datahub.io/dataset/klappstuhlclub> a void:Dataset;
+    dcterms:title "Klappstuhlclub";
+    void:triples 1032;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/twc-logd> a void:Dataset;
+    dcterms:title "TWC: Linking Open Government Data";
+    void:triples 9803142573;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/govtrack> .
+
+<http://datahub.io/dataset/linkedmdb> a void:Dataset;
+    dcterms:title "Linked Movie DataBase";
+    void:triples 6148121;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/dbtune-musicbrainz>,
+        <http://datahub.io/dataset/flickr-wrappr>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/rdf-book-mashup>,
+        <http://datahub.io/dataset/yago> .
+
+<http://datahub.io/dataset/data-incubator-smcjournals> a void:Dataset;
+    dcterms:title "Scottish Mountaineering Council Journals Issues 1-36";
+    void:triples 15801;
+    void:subset
+        <http://datahub.io/dataset/data-incubator-climb>,
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/ordnance-survey-linked-data> .
+
+<http://datahub.io/dataset/enakting-energy> a void:Dataset;
+    dcterms:title "EnAKTing Energy Dataset";
+    void:triples 2316831;
+    void:subset <http://datahub.io/dataset/ordnance-survey-linked-data> .
+
+<http://datahub.io/dataset/data-open-ac-uk> a void:Dataset;
+    dcterms:title "data.open.ac.uk, Linked Data from the Open University";
+    void:triples 1600000;
+    void:subset
+        <http://datahub.io/dataset/geonames-semantic-web>,
+        <http://datahub.io/dataset/ordnance-survey-linked-data> .
+
+<http://datahub.io/dataset/near> a void:Dataset;
+    dcterms:title "Near";
+    void:triples 335022481;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/rkb-explorer-wiki> a void:Dataset;
+    dcterms:title "ReSIST Project Wiki (RKBExplorer)";
+    void:triples 44379;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/freebase>,
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-budapest>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-cordis>,
+        <http://datahub.io/dataset/rkb-explorer-curriculum>,
+        <http://datahub.io/dataset/rkb-explorer-darmstadt>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-deepblue>,
+        <http://datahub.io/dataset/rkb-explorer-deploy>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-eurecom>,
+        <http://datahub.io/dataset/rkb-explorer-ft>,
+        <http://datahub.io/dataset/rkb-explorer-ibm>,
+        <http://datahub.io/dataset/rkb-explorer-ieee>,
+        <http://datahub.io/dataset/rkb-explorer-irit>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-nsf>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-pisa>,
+        <http://datahub.io/dataset/rkb-explorer-risks>,
+        <http://datahub.io/dataset/rkb-explorer-roma>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-ulm>,
+        <http://datahub.io/dataset/southampton-ecs-eprints> .
+
+<http://datahub.io/dataset/agrovoc-skos> a void:Dataset;
+    dcterms:title "AGROVOC ";
+    void:triples 4830173;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/dewey_decimal_classification>,
+        <http://datahub.io/dataset/gemet>,
+        <http://datahub.io/dataset/lcsh>,
+        <http://datahub.io/dataset/stitch-rameau> .
+
+<http://datahub.io/dataset/fu-berlin-eurostat> a void:Dataset;
+    dcterms:title "Eurostat in RDF (FU Berlin)";
+    void:triples 8850;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/eurostat-rdf> .
+
+<http://datahub.io/dataset/pscs-catalogue> a void:Dataset;
+    dcterms:title "Product Scheme Classifications Catalogue";
+    void:triples 1842053;
+    void:subset <http://datahub.io/dataset/productontology> .
+
+<http://datahub.io/dataset/colinda> a void:Dataset;
+    dcterms:title "COLINDA - Conference Linked Data";
+    void:triples 149020 .
+
+<http://datahub.io/dataset/uniref> a void:Dataset;
+    dcterms:title "UniProt UniRef" .
+
+<http://datahub.io/dataset/hungarian-national-library-catalog> a void:Dataset;
+    dcterms:title "Hungarian National Library (NSZL) catalog";
+    void:triples 19300000;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/viaf> .
+
+<http://datahub.io/dataset/revyu> a void:Dataset;
+    dcterms:title "Revyu.com - Review Anything";
+    void:triples 20000;
+    void:subset <http://datahub.io/dataset/dbpedia> .
+
+<http://datahub.io/dataset/slideshare2rdf> a void:Dataset;
+    dcterms:title "Slideshare2RDF Server";
+    void:triples 10000000 .
+
+<http://datahub.io/dataset/enakting-mortality> a void:Dataset;
+    dcterms:title "EnAKTing Mortality Dataset";
+    void:triples 12933;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/ordnance-survey-linked-data> .
+
+<http://datahub.io/dataset/thesesfr> a void:Dataset;
+    dcterms:title "theses.fr";
+    void:triples 300000;
+    void:subset <http://datahub.io/dataset/idreffr> .
+
+<http://datahub.io/dataset/sweto-dblp> a void:Dataset;
+    dcterms:title "SwetoDblp";
+    void:triples 11000000 .
+
+<http://datahub.io/dataset/riese> a void:Dataset;
+    dcterms:title "RDFizing and Interlinking the EuroStat Data Set Effort";
+    void:triples 5000000;
+    void:subset <http://datahub.io/dataset/geonames-semantic-web> .
+
+<http://datahub.io/dataset/fu-berlin-diseasome> a void:Dataset;
+    dcterms:title "Diseasome";
+    void:triples 91182;
+    void:subset
+        <http://datahub.io/dataset/dbpedia>,
+        <http://datahub.io/dataset/fu-berlin-dailymed>,
+        <http://datahub.io/dataset/fu-berlin-drugbank>,
+        <http://datahub.io/dataset/fu-berlin-sider>,
+        <http://datahub.io/dataset/linkedct>,
+        <http://datahub.io/dataset/tcmgenedit_dataset> .
+
+<http://datahub.io/dataset/rkb-explorer-laas> a void:Dataset;
+    dcterms:title "LAAS-CNRS (RKBExplorer)";
+    void:triples 52312;
+    void:subset
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-budapest>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-cordis>,
+        <http://datahub.io/dataset/rkb-explorer-courseware>,
+        <http://datahub.io/dataset/rkb-explorer-curriculum>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-eurecom>,
+        <http://datahub.io/dataset/rkb-explorer-ibm>,
+        <http://datahub.io/dataset/rkb-explorer-ieee>,
+        <http://datahub.io/dataset/rkb-explorer-irit>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-pisa>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-resex>,
+        <http://datahub.io/dataset/rkb-explorer-roma>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-ulm>,
+        <http://datahub.io/dataset/rkb-explorer-wiki> .
+
+<http://datahub.io/dataset/sudocfr> a void:Dataset;
+    dcterms:title "Sudoc bibliographic data";
+    void:triples 350000000;
+    void:subset
+        <http://datahub.io/dataset/dewey_decimal_classification>,
+        <http://datahub.io/dataset/idreffr>,
+        <http://datahub.io/dataset/lexvo> .
+
+<http://datahub.io/dataset/uniprot-uniparc> a void:Dataset;
+    dcterms:title "UniProt UniParc" .
+
+<http://datahub.io/dataset/rkb-explorer-ieee> a void:Dataset;
+    dcterms:title "IEEE Papers (RKBExplorer)";
+    void:triples 91564;
+    void:subset
+        <http://datahub.io/dataset/rkb-explorer-acm>,
+        <http://datahub.io/dataset/rkb-explorer-citeseer>,
+        <http://datahub.io/dataset/rkb-explorer-curriculum>,
+        <http://datahub.io/dataset/rkb-explorer-dblp>,
+        <http://datahub.io/dataset/rkb-explorer-dotac>,
+        <http://datahub.io/dataset/rkb-explorer-eprints>,
+        <http://datahub.io/dataset/rkb-explorer-ibm>,
+        <http://datahub.io/dataset/rkb-explorer-kisti>,
+        <http://datahub.io/dataset/rkb-explorer-laas>,
+        <http://datahub.io/dataset/rkb-explorer-newcastle>,
+        <http://datahub.io/dataset/rkb-explorer-nsf>,
+        <http://datahub.io/dataset/rkb-explorer-oai>,
+        <http://datahub.io/dataset/rkb-explorer-pisa>,
+        <http://datahub.io/dataset/rkb-explorer-rae2001>,
+        <http://datahub.io/dataset/rkb-explorer-resex>,
+        <http://datahub.io/dataset/rkb-explorer-risks>,
+        <http://datahub.io/dataset/rkb-explorer-roma>,
+        <http://datahub.io/dataset/rkb-explorer-southampton>,
+        <http://datahub.io/dataset/rkb-explorer-ulm>,
+        <http://datahub.io/dataset/rkb-explorer-wiki> .
