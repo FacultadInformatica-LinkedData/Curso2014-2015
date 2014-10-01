@@ -1,0 +1,9 @@
+<rdf:RDF xmlns="http://www.class-exercise.com/place#"
+xml:base="http://www.class-exercise.com/place"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:place="http://www.class-exercise.com/place#">
+
+<rdfs:Property rdf:about="">
+    <rdfs: range rdf:>
+    </rdfs:Property>
