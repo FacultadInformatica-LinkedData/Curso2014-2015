@@ -7,6 +7,7 @@ import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntModel;
 import com.hp.hpl.jena.ontology.OntModelSpec;
+import com.hp.hpl.jena.ontology.impl.OntClassImpl;
 import com.hp.hpl.jena.rdf.model.InfModel;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Resource;
@@ -16,6 +17,8 @@ import com.hp.hpl.jena.reasoner.ReasonerRegistry;
 import com.hp.hpl.jena.sparql.function.Function;
 import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.util.iterator.ExtendedIterator;
+import com.hp.hpl.jena.vocabulary.RDF;
+import com.hp.hpl.jena.vocabulary.RDFS;
 
 /**
  * Task 07: Querying ontologies (RDFs)
@@ -62,10 +65,11 @@ public class Task07
 		Reasoner razonador = ReasonerRegistry.getTransitiveReasoner();
 		InfModel inferencia = ModelFactory.createInfModel(razonador, model);
 		inferencia.prepare();
-		OntClass personClass2 = model.getOntClass(ns+"Person");
-		ExtendedIterator<OntClass> clases2 = personClass2.listSubClasses();
+		ExtendedIterator<Resource> clases2 = inferencia.listSubjectsWithProperty(RDFS.subClassOf, ns+"Person");
+		//OntClass personClass2 = model.getOntClass(ns+"Person");
+		//ExtendedIterator<OntClass> clases2 = personClass2.listSubClasses();
 		while (clases2.hasNext()){
-			OntClass clase = clases2.next();
+			Resource clase = clases2.next();
 			System.out.println(clase.getURI()+" es subclase de "+personClass.getURI());
 		}
 	}
