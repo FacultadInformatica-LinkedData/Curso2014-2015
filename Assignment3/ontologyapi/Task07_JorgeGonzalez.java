@@ -13,7 +13,7 @@ import com.hp.hpl.jena.util.iterator.ExtendedIterator;
 
 /**
  * Task 07: Querying ontologies (RDFs)
- * @author elozano
+ * @author jorgegvalencia
  *
  */
 public class Task07
@@ -54,6 +54,7 @@ public class Task07
 		
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
 		
+		// not yet
 	
 	}
 }
