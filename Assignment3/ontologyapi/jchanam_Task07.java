@@ -14,6 +14,7 @@ import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.reasoner.Reasoner;
 import com.hp.hpl.jena.reasoner.ReasonerFactory;
 import com.hp.hpl.jena.reasoner.ReasonerRegistry;
+import com.hp.hpl.jena.reasoner.rulesys.RDFSRuleReasonerFactory;
 import com.hp.hpl.jena.sparql.function.Function;
 import com.hp.hpl.jena.util.FileManager;
 import com.hp.hpl.jena.util.iterator.ExtendedIterator;
@@ -62,14 +63,18 @@ public class Task07
 		}
 		
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
-		Reasoner razonador = ReasonerRegistry.getTransitiveReasoner();
-		InfModel inferencia = ModelFactory.createInfModel(razonador, model);
-		inferencia.prepare();
-		ExtendedIterator<Resource> clases2 = inferencia.listSubjectsWithProperty(RDFS.subClassOf, ns+"Person");
-		//OntClass personClass2 = model.getOntClass(ns+"Person");
-		//ExtendedIterator<OntClass> clases2 = personClass2.listSubClasses();
+		
+		// HECHO EN CLASE
+		model = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);
+		in = FileManager.get().open(filename);
+		if (in == null)
+			throw new IllegalArgumentException("File: "+filename+" not found");
+		model.read(in, null);
+		
+		OntClass personClass2 = model.getOntClass(ns+"Person");
+		ExtendedIterator<OntClass> clases2 = personClass2.listSubClasses();
 		while (clases2.hasNext()){
-			Resource clase = clases2.next();
+			OntClass clase = clases2.next();
 			System.out.println(clase.getURI()+" es subclase de "+personClass.getURI());
 		}
 	}
