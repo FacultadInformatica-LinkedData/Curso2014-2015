@@ -1,0 +1,17 @@
+@prefix : <http://www.oeg-upm.net/ontologies/local#> .
+@prefix person: <http://www.ontologies.org/ontologies/local#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+
+person:hasChild a rdf:Property .
+
+person:hasParent a rdf:Property .
+
+:carol xml:hasChild :carmen,
+     :jessie .
+
+:jessie xml:hasParent :steve .
+
+:steve xml:hasChild :carmen .
+
+:carmen xml:hasParent :carol .

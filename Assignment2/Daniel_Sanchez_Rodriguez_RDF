@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+	<rdf:RDF
+ 		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ 		xmlns:person="http://www.ontologies.org/ontologies/local#"
+ 		xmlns="http://www.oeg-upm.net/ontologies/local#"
+ 		xml:base="http://www.oeg-upm.net/ontologies/local">
+ 
+ 	<rdf:Property rdf:about="http://www.ontologies.org/ontologies/local#hasChild"/>
+	<rdf:Property rdf:about="http://www.ontologies.org/ontologies/local#hasParent"/>
+ 	
+	<rdf:Description rdf:about="#steve">
+ 		<local:hasChild rdf:resource="#carmen"/>
+ 	</rdf:Description>
+ 	<rdf:Description rdf:about="#carmen">
+ 		<local:hasParent rdf:resource="#carol"/>		
+ 	</rdf:Description>
+ 	<rdf:Description rdf:about="#carol">
+ 		<local:hasChild rdf:resource="#carmen"/>
+ 		<local:hasChild rdf:resource="#jessie"/>
+ 	</rdf:Description>
+ 	<rdf:Description rdf:about="#jessie">
+ 		<local:hasParent rdf:resource="#steve"/>
+ 	</rdf:Description>
+ 
+</rdf:RDF>
