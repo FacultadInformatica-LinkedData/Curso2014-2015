@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcat="http://vocab.deri.ie/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:cal="http://www.w3.org/2002/12/cal#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:geo="http://www.geonames.org/ontology#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+<geo:feature> <cal:location>40.48904179501775 -3.6513669165166895>
+</cal:location> <geo:name>1 ALVAREZ DE VILLAAMIL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.485452981863574 -3.6535386316482197>
+</cal:location> <geo:name>1 ANTONIO SAURA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.493674071528204 -3.6558486700744695>
+</cal:location> <geo:name>1 BLASCO IBAÑEZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48481204955866 -3.6632546867013684>
+</cal:location> <geo:name>1 FUENTE DE LA MORA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.50823629104764 -3.66932787372756>
+</cal:location> <geo:name>1 LAS TABLAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.497161236769024 -3.658891891081716>
+</cal:location> <geo:name>1 MARIA TUDOR</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.505432048198514 -3.665074706989077>
+</cal:location> <geo:name>1 PALAS DE REY</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48013377587404 -3.6668424410896368>
+</cal:location> <geo:name>1 PINAR DE CHAMARTIN</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48733851789946 -3.6609904907567925>
+</cal:location> <geo:name>1 VIRGEN DEL CORTIJO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43930083727808 -3.7930611009107316>
+</cal:location> <geo:name>2 AVENIDA DE EUROPA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43057890865037 -3.807553818113316>
+</cal:location> <geo:name>2 BELGICA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44486308857277 -3.791204405870805>
+</cal:location> <geo:name>2 BERNA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43337587213629 -3.79525513054887>
+</cal:location> <geo:name>2 CAMPUS DE SOMOSAGUAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40720671426678 -3.784411008124424>
+</cal:location> <geo:name>2 COLONIA DE LOS ANGELES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39697571967719 -3.774570891731054>
+</cal:location> <geo:name>2 COLONIA JARDIN</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43253008873702 -3.801623377956172>
+</cal:location> <geo:name>2 DOS CASTILLAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4483225811108 -3.7859147953752994>
+</cal:location> <geo:name>2 ESTACION DE ARAVACA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42306880990105 -3.804481628576368>
+</cal:location> <geo:name>2 POZUELO OESTE</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40229137248812 -3.781219298249051>
+</cal:location> <geo:name>2 PRADO DE LA VEGA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41046507293738 -3.787489583039874>
+</cal:location> <geo:name>2 PRADO DEL REY</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4193608465657 -3.7987441577370675>
+</cal:location> <geo:name>2 SOMOSAGUAS CENTRO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41535854915256 -3.7925323964149658>
+</cal:location> <geo:name>2 SOMOSAGUAS SUR</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40713093634462 -3.8800471903912226>
+</cal:location> <geo:name>3 BOADILLA CENTRO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39528502663989 -3.8643981145298136>
+</cal:location> <geo:name>3 CANTABRIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39708334989402 -3.783998919412633>
+</cal:location> <geo:name>3 CIUDAD DE LA IMAGEN</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.394544805059674 -3.795575774769704>
+</cal:location> <geo:name>3 CIUDAD DEL CINE</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39687488124612 -3.8038633974900193>
+</cal:location> <geo:name>3 COCHERAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39697611431255 -3.774511978872446>
+</cal:location> <geo:name>3 COLONIA JARDIN</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40195575759452 -3.879390574756271>
+</cal:location> <geo:name>3 FERIAL DE BOADILLA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.405943385382606 -3.8974145751993343>
+</cal:location> <geo:name>3 INFANTE DON LUIS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39525011444458 -3.7899399393523345>
+</cal:location> <geo:name>3 JOSE ISBERT</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39791864382318 -3.8358094207577422>
+</cal:location> <geo:name>3 MONTEPRINCIPE</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40563680956141 -3.885766992370484>
+</cal:location> <geo:name>3 NUEVO MUNDO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.395011924620896 -3.8477451086794083>
+</cal:location> <geo:name>3 PRADO DEL ESPINO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.407767585274755 -3.903791080679537>
+</cal:location> <geo:name>3 PUERTA DE BOADILLA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.398712483353385 -3.8167531226788824>
+</cal:location> <geo:name>3 RETAMARES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40512447171537 -3.892642623606615>
+</cal:location> <geo:name>3 SIGLO XXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39419920761245 -3.838120020545176>
+</cal:location> <geo:name>3 VENTORRO DEL CANO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.223424593837095 -3.760719745495282>
+</cal:location> <geo:name>4 AVENIDA SISTEMA SOLAR</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.234726214904676 -3.7723663991203362>
+</cal:location> <geo:name>4 BULEVAR SUR</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.23071315867877 -3.7538308042750295>
+</cal:location> <geo:name>4 ESTRELLA POLAR SUR</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.23770211661923 -3.7705898176961847>
+</cal:location> <geo:name>4 IGLESIA CENTRO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.231134822484066 -3.765084714008081>
+</cal:location> <geo:name>4 ISABEL II</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.23469553863154 -3.752405550534627>
+</cal:location> <geo:name>4 JAIME I SUR</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.245342651195344 -3.7623288846721823>
+</cal:location> <geo:name>4 JULIO ROMERO DE TORRES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.24598273320263 -3.7663570457305875>
+</cal:location> <geo:name>4 LA BALLENA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.240790258831254 -3.769543246100782>
+</cal:location> <geo:name>4 PARLA CENTRO - BULEVAR NORTE</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.22815850866993 -3.761477955649932>
+</cal:location> <geo:name>4 PARQUE PARLA ESTE</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.24409461492802 -3.7575650854384035>
+</cal:location> <geo:name>4 PLAZA DE TOROS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.23866331388882 -3.750450952340516>
+</cal:location> <geo:name>4 POLIGONO INDUSTRIAL CIUDAD DE PARLA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.23140853284671 -3.7700012711318576>
+</cal:location> <geo:name>4 REYES CATOLICOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.22254068214155 -3.7567490296953077>
+</cal:location> <geo:name>4 TIERRA SUR</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.22683008536884 -3.7552217357815336>
+</cal:location> <geo:name>4 VENUS SUR</geo:name>
+</geo:feature>
+</rdf:RDF>
