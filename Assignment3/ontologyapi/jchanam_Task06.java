@@ -53,10 +53,10 @@ public class Task06
 		model.getOntClass(ns+"Person").addSubClass(researcher);
 		
 		// ** TASK 6.3: Create a new property named "worksIn" **
-		Property worksIn = model.createProperty("WorksIn");
+		Property worksIn = model.createProperty(ns+"WorksIn");
 		
 		// ** TASK 6.4: Create a new individual of Researcher named "Jane Smith" **
-		Individual inJane = researcher.createIndividual();
+		Individual inJane = researcher.createIndividual(ns+"JaneSmith");
 		model.createIndividual(inJane);
 		
 		// ** TASK 6.5: Add to the individual JaneSmith the fullName, given and family names **
@@ -65,9 +65,10 @@ public class Task06
 		inJane.addLiteral(VCARD.Family, "Smith");
 		
 		// ** TASK 6.6: Add UPM as the university where John Smith works **
-		Individual UPM = university.createIndividual();
-		Resource john = model.getResource(ns+"John Smith");
+		Individual UPM = university.createIndividual(ns+"UPM");
+		Individual john = model.getIndividual(ns+"JohnSmith");
 		john.addProperty(worksIn, UPM);
+		
 		
 		model.write(System.out, "RDF/XML-ABBREV");
 	}
