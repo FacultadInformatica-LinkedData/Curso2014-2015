@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
-	xml:base="http://www.rdfpro.org/”
-	xmlns:class=“http://www.rdfpro.org/class#”
-	xmlns:property=“http://www.rdfpro.org/property#”
+	xml:base="http://www.rdfpro.org/"
+	xmlns:class="http://www.rdfpro.org/class#"
+	xmlns:property="http://www.rdfpro.org/property#"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema#”>
 
 
-	< rdf: Description rdf: about=“class:#User10A”>
+	<rdf: Description rdf: about=“class:#User10A”>
 			<property:hasName>Pedro</property:hasName>
-	< /rdf: Description>
+	</rdf: Description>
 
 	<rdf: Description ref: about =“class:#Measurement8401”>
 			<property:hasTemperature rdf:datatype=‘xsd:integer’>29</property:hasTemperature>
 			<property:atTime rdf:datatype=‘xsd:dateTime’>2010-06-12T12:00:12</property:atTime>
-	< /rdf: Description>
+	</rdf: Description>
 	
 	<rdf: Description ref: about =“class:#Computer101”>
 			<property:hasOwner rdf:resource =“class:#User10A”/>
-	< /rdf: Description>
+	</rdf: Description>
 
 	
 	<rdf: Description ref: about =“class:#Sensor029”>
