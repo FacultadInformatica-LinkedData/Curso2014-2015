@@ -64,10 +64,25 @@ public class Task07
 		
 		
 		// ** TASK 7.3: Make the necessary changes to get as well indirect instances and subclasses. TIP: you need some inference... **
+		/*
+		We can write some lines, and try to codify the inference. But another idea, is to change from 
+		ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM);
+		TO
+		ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);
+		I repeat some lines cause' I'd like to see the differences with the 2 Ontology Model Specifications
+		*/
 		System.out.println("\n\n----------TASK 7.3");
-		/*String inferenciaString = "[(?p rdfs:subClassOf ?o) -> ...]";
-		List<Rule> rules = Rule.parseRules(inferenciaString);
-		Reasoner reasoner = new GenericRuleReasoner(rules);	*/
-		//inconcluso
+		OntModel model2 = ModelFactory.createOntologyModel(OntModelSpec.RDFS_MEM_RDFS_INF);
+		InputStream in2 = FileManager.get().open(filename);	
+		if (in2 == null)
+			throw new IllegalArgumentException("File: "+filename+" not found");
+		model2.read(in2, null);
+		OntClass person2 = model2.createClass(ns + "Person");
+		Iterator iter2 = person2.listSubClasses();
+		while(iter2.hasNext())
+		{
+			OntClass subClase = (OntClass)iter2.next(); 
+			System.out.println(subClase.getURI() + " - " + subClase.getLocalName());
+		}
 	}
 }
