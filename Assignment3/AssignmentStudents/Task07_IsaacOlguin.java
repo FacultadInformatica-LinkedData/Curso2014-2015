@@ -84,5 +84,17 @@ public class Task07
 			OntClass subClase = (OntClass)iter2.next(); 
 			System.out.println(subClase.getURI() + " - " + subClase.getLocalName());
 		}
+		System.out.println("Instances");
+		extIter = model2.listIndividuals();
+		while(extIter.hasNext())
+		{
+			Individual ind = (Individual)extIter.next();
+			System.out.println(ind.getURI() + " - " +ind.getLocalName());
+		}
+		try {
+			in.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 }
