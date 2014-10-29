@@ -1,0 +1,4 @@
+Column					Type		Comments/Range									Poblems
+-------------------------------------------------------------------------------------------------------------------------------------
+fare_id					Integer		Not Unique, Not null
+route_id				Integer		Unique,Not Null
