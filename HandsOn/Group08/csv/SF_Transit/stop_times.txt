@@ -1,0 +1,7 @@
+Column					Type		Comments/Range									Poblems
+-------------------------------------------------------------------------------------------------------------------------------------
+trip_id								Not Unique,Not Null
+arrival_time			hora		Not Unique,Not Null								Formato HH:mm:SS
+departure_time			hora		Not Unique,Not Null								Formato HH:mm:SS
+stop_id					Integer		Not Unique,Not Null
+stop_sequence			Integer		Not Unique,Not Null
