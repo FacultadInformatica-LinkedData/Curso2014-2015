@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Application Requirements</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <style>
+	section {
+	  background-color:#fff;
+	  border:1px solid #ddd;
+	  border-radius:4px;
+	  padding:15px
+	}
+	form {
+	  margin-bottom:15px
+	}
+	</style>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+	  <div class="page-header">
+	    <h1>Application Requirements</h1>
+	  </div>
+	  <h2>Descripción</h2>
+	  <p class="text-justify">La aplicación permitirá al usuario encontrar instalaciones deportivas de la comunidad de Madrid. Se podrá usar como parámetro de entrada un barrio, un distrito o un código postal. Se obtendrá como resultado la lista de instalaciones que cumplen los criterios de búsqueda. De cada instalación se podrá obtener más información al hacer clic sobre ella.</p>
+	  <h2>Mockup</h2>
+	  <section>
+	    <form class="form-inline text-center" role="form">
+		  <div class="form-group">
+		    <select class="form-control">
+			  <option>Barrio</option>
+			  <option>Distrito</option>
+			  <option>Código Postal</option>
+			</select>
+		  </div>
+		  <div class="form-group">
+		    <div class="input-group">
+		      <input type="text" class="form-control">
+			  <span class="input-group-btn">
+			    <button class="btn btn-default" type="button">Buscar</button>
+			  </span>
+		    </div>
+		  </div>
+		</form>
+		<div class="panel panel-default">
+		  <div class="panel-heading">Instalación Deportiva Municipal Básica Abrantes - Colonia Velázquez<br><small>Avenida Abrantes, 297</small></div>
+		  <div class="panel-body">
+		    <dl>
+			  <dt>Equipamiento</dt>
+			  <dd>1 Campo de fútbol</dd>
+			  <dt>Transporte</dt>
+			  <dd>Metro: Pan Bendito, San Francisco. Bus: 47 , 108 , 118 , 121 , 131 , 155.</dd>
+			  <img src="http://maps.googleapis.com/maps/api/staticmap?size=400x400&maptype=roadmap\&markers=size:mid%7Ccolor:red%7C40.37480368698169+-3.734643175737238&sensor=false" class="img-responsive" />
+			</dl>
+		  </div>
+		  <ul class="list-group">
+		    <li class="list-group-item">Instalación Deportiva Municipal Básica Alameda de Osuna I<br><small>Calle Balandro, 1</small></li>
+		    <li class="list-group-item">Instalación Deportiva Municipal Básica Alas<br><small>Calle Alas, 2</small></li>
+		  </ul>
+		<div>
+	  </section>
+	</div>
+  </body>
+</html>
