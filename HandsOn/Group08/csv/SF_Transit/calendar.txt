@@ -1,0 +1,13 @@
+
+calendar
+
+service_id . Number
+monday . Boolean (1/0)
+tuesday . Boolean (1/0)
+wednesday . Boolean (1/0)
+thursday . Boolean (1/0)
+friday . Boolean (1/0)
+saturday . Boolean (1/0)
+sunday . Boolean (1/0)
+start_date . Date (yyyymmdd)
+end_date . Date (yyyymmdd)
