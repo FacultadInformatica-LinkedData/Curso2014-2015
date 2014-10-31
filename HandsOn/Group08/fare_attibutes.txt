@@ -1,0 +1,6 @@
+fare_id - number - unique, not empty
+price - decimal - unique, not empty
+currency-type - String - USD (always)
+payment_method - number (id)- not unique (possible values: 0,1)
+transfers - number (id) - (posibble values:0,1,2,empty)
+transfers_duration- number (seconds) - (possible values: number or empty)
