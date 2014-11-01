@@ -1,7 +1,0 @@
-| Column          | Type               | Comments / Range | Problems |
-|-----------------+--------------------+------------------+----------|
-| agency_id       | String             | Unique           |          |
-| agency_name     | String             |                  |          |
-| agency_url      | String (url)       |                  |          |
-| acency_timezone | String (tz)        | Not unique       |          |
-| agency_lang     | String (ISO 639-1) | Not unique       |          |

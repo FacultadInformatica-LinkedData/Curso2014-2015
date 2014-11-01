@@ -1,6 +1,0 @@
-| Column           | Type    | Comments / Range     | Problems |
-|------------------+---------+----------------------+----------|
-| route_id         | Integer | Unique. 1000 - 10400 |          |
-| agency_id        | String  | Not unique           |          |
-| route_short_name | String  | Unique               |          |
-| route_type       | Integer | Not unique           |          |

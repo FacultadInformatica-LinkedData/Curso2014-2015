@@ -1,6 +1,0 @@
-| Column    | Type    | Comments / Range   | Problems |
-|-----------+---------+--------------------+----------|
-| stop_id   | Integer | Unique. 300 - 7800 |          |
-| stop_name | String  | Not unique         |          |
-| stop_lat  | Double  | Latitude           |          |
-| stop_lon  | Double  | Longitude          |          |

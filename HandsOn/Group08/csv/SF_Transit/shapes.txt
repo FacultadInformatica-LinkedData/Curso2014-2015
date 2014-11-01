@@ -1,8 +1,0 @@
-
-shapes
-
-shape_id . String (Non unique)
-shape_pt_lon . Number (Longitude GPS)
-shape_pt_lat . Number (Latitude GPS)
-shape_pt_sequence . Number (Non unique)
-shape_dist_traveled . Number (Meters)

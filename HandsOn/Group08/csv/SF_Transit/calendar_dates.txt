@@ -1,6 +1,0 @@
-
-calendar_dates
-
-service_id . String
-date . Date
-exception_type . Number
