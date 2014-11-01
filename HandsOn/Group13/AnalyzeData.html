@@ -5,13 +5,76 @@
     <title>Hand-on assignment 2</title>
   </head>
     <body>
-    	<h1>Analyze Data Set</h1>
+    	<h1>Dataset Analysis</h1>
         
         Museums: Name, Schedule, Latitude, Longitude,  Accesibility, Address1, Locality, Telephone, Email<br>
         Monument: Name, Schedule, Latitude, Longitude, Accesibility, Address1, Locality, Telephone, Email<br>
         Turism Office: Name, Schedule, Latitude, Longitude, Accesibility, Address1, Locality, Telephone, Email<br>
         Tourist information Points: Name, Schedule, Latitude, Longitude, Accesibility, Address1, Locality, Telephone, Email<br>
         
+		<table border="5" style="width:100%">
++            <tr>
++                <th>Column</th>
++                <th>Type</th>
++                <th>Comments/Range</th>
++                <th>Problems</th>
++            </tr>
++            <tr>
++                <td>Name</td>
++                <td>String</td>
++                <td>Unique, not empty values</td>
++                <td></td>
++            </tr>
++            <tr>
++                <td>Schedule</td>
++                <td>String</td>
++                <td>Empty values</td>
++                <td></td>
++            </tr>
++            <tr>
++                <td>Latitude</td>
++                <td>Decimal</td>
++                <td>40.41:40.47</td>
++                <td></td>
++            </tr>
++            <tr>
++                <td>Longitude</td>
++                <td>Decimal</td>
++                <td>-3.72:-3.57</td>
++                <td></td>
++            </tr>
++            <tr>
++                <td>Accesibility</td>
++                <td>Integer</td>
++                <td>Not empty values</td>
++                <td></td>
++            </tr>
++            <tr>
++                <td>Address</td>
++                <td>String</td>
++                <td>Not unique</td>
++                <td>Non-descriptive address: -, --</td>
++            </tr>
++            <tr>
++                <td>Locality</td>
++                <td>String</td>
++                <td>Not unique</td>
++                <td></td>
++            </tr>
++            <tr>
++                <td>Telephone</td>
++                <td>String</td>
++                <td>Unique, empty values</td>
++                <td></td>
++            </tr>
++            <tr>
++                <td>Email</td>
++                <td>String</td>
++                <td>Empty values, not unique</td>
++                <td></td>
++            </tr>
++        </table> 
+		
         <h1>Analyse Licensing of the Data Source</h1>
         
         Museos de la comunidad de madrid - Última actualización: 12/03/2014 - <a target="_blank" href="http://goo.gl/StZ1iO">Fuente</a><br>
@@ -26,19 +89,12 @@
         
         Más detallado <a href="http://goo.gl/deYyeo"> Datos Abiertos Madrid</a>
         
-        <h1>Define Resource Naming Strategy</h1>
-        
-        
+        <h1>Define Resource Naming Strategy</h1>        
         
         <h3>URI form</h3>
-        Domain: http://example.org/
-        Ontological terms path:
-        
-        Individuals path:
-            http://example.org/ontology/museum
-            http://example.org/ontology/monument
-            http://example.org/ontology/tourist-office
-            http://example.org/ontology/tourist-information-points        
+        Domain: <br>
+        Ontological terms path:<br>
+        Individuals path: <br>
         
     </body>
 </html>
