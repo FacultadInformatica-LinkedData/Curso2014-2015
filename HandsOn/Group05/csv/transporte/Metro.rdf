@@ -1,0 +1,885 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcat="http://vocab.deri.ie/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:cal="http://www.w3.org/2002/12/cal#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:geo="http://www.geonames.org/ontology#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+<geo:feature> <cal:location>40.38976976218558 -3.6452252885953738>
+</cal:location> <geo:name>1 ALTO DEL ARENAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45033211451537 -3.7033178125635438>
+</cal:location> <geo:name>1 ALVARADO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.412464088048 -3.6993757471110227>
+</cal:location> <geo:name>1 ANTON MARTIN</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40884785306371 -3.69249088895368>
+</cal:location> <geo:name>1 ATOCHA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4065871509325 -3.689379999079354>
+</cal:location> <geo:name>1 ATOCHA RENFE</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47680811803293 -3.6763772815477234>
+</cal:location> <geo:name>1 BAMBU</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42905069586836 -3.7021883013519576>
+</cal:location> <geo:name>1 BILBAO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39155880753551 -3.6539143451038445>
+</cal:location> <geo:name>1 BUENOS AIRES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47202385189198 -3.6825932834610664>
+</cal:location> <geo:name>1 CHAMARTIN</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.37238217005932 -3.6188505889390794>
+</cal:location> <geo:name>1 CONGOSTO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44696773829664 -3.703978482140975>
+</cal:location> <geo:name>1 CUATRO CAMINOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4542798096964 -3.7030287548801475>
+</cal:location> <geo:name>1 ESTRECHO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42000791727693 -3.7018113693076806>
+</cal:location> <geo:name>1 GRAN VIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.434916971729535 -3.6989834588230206>
+</cal:location> <geo:name>1 IGLESIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.37018557467113 -3.61347110873574>
+</cal:location> <geo:name>1 LA GAVIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.363222521329554 -3.5995338929148137>
+</cal:location> <geo:name>1 LAS SUERTES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40444766175837 -3.680990950831421>
+</cal:location> <geo:name>1 MENENDEZ PELAYO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.387314991857345 -3.6395112303825465>
+</cal:location> <geo:name>1 MIGUEL HERNANDEZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39553656988687 -3.664145356963981>
+</cal:location> <geo:name>1 NUEVA NUMANCIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40125674145831 -3.675137368939774>
+</cal:location> <geo:name>1 PACIFICO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.480133980071855 -3.6668070489569375>
+</cal:location> <geo:name>1 PINAR DE CHAMARTIN</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46689468480269 -3.689182346052143>
+</cal:location> <geo:name>1 PLAZA DE CASTILLA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.392657866069065 -3.658685216624016>
+</cal:location> <geo:name>1 PORTAZGO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39819293417765 -3.669061708657388>
+</cal:location> <geo:name>1 PUENTE DE VALLECAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44191919420917 -3.7015911244457245>
+</cal:location> <geo:name>1 RIOS ROSAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38216152701732 -3.6247245215857298>
+</cal:location> <geo:name>1 SIERRA DE GUADALUPE</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4168729535334 -3.703263952716334>
+</cal:location> <geo:name>1 SOL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46055194922595 -3.698258347036883>
+</cal:location> <geo:name>1 TETUAN</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.412341872810984 -3.7046664800540814>
+</cal:location> <geo:name>1 TIRSO DE MOLINA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.426183365064986 -3.7011092950034614>
+</cal:location> <geo:name>1 TRIBUNAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46441801935108 -3.6950664719440036>
+</cal:location> <geo:name>1 VALDEACEDERAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.360066094786674 -3.593169841297621>
+</cal:location> <geo:name>1 VALDECARROS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.37959431567341 -3.621308020750173>
+</cal:location> <geo:name>1 VILLA DE VALLECAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42852689821103 -3.696441603597934>
+</cal:location> <geo:name>10A ALONSO MARTINEZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38363332651039 -3.7839254246933263>
+</cal:location> <geo:name>10A AVIACION ESPAÑOLA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.407856234953144 -3.753116589250486>
+</cal:location> <geo:name>10A BATAN</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48040991774922 -3.685851905815314>
+</cal:location> <geo:name>10A BEGOÑA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40320086887072 -3.761019286756125>
+</cal:location> <geo:name>10A CASA DE CAMPO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.472095919293594 -3.6825940132187314>
+</cal:location> <geo:name>10A CHAMARTIN</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.396975403947295 -3.774618022017095>
+</cal:location> <geo:name>10A COLONIA JARDIN</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.377698631654795 -3.791525485827724>
+</cal:location> <geo:name>10A CUATRO VIENTOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45842219033371 -3.6898623851105183>
+</cal:location> <geo:name>10A CUZCO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.495079868005874 -3.6928338450754943>
+</cal:location> <geo:name>10A FUENCARRAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.437530887144206 -3.6912759030333055>
+</cal:location> <geo:name>10A GREGORIO MARAÑON</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.34984226936704 -3.807202284716327>
+</cal:location> <geo:name>10A JOAQUIN VILUMBRALES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41641023588192 -3.7356377227797393>
+</cal:location> <geo:name>10A LAGO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.446578103714806 -3.6924180916734253>
+</cal:location> <geo:name>10A NUEVOS MINISTERIOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.466895247396884 -3.6890879860012036>
+</cal:location> <geo:name>10A PLAZA DE CASTILLA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42408586956348 -3.7097047167296044>
+</cal:location> <geo:name>10A PLAZA DE ESPAÑA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.421029166133174 -3.7203286715946082>
+</cal:location> <geo:name>10A PRINCIPE PIO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.345240249069484 -3.8121162393379575>
+</cal:location> <geo:name>10A PUERTA DEL SUR</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45158126575142 -3.690382074089246>
+</cal:location> <geo:name>10A SANTIAGO BERNABEU</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.5012006729737 -3.6952099548681736>
+</cal:location> <geo:name>10A TRES OLIVOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42598824984257 -3.7020857202682254>
+</cal:location> <geo:name>10A TRIBUNAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.5544196503943 -3.635133831173698>
+</cal:location> <geo:name>10B BAUNATAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.55976346809929 -3.611465763726152>
+</cal:location> <geo:name>10B HOSPITAL INFANTA SOFIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.52759499700287 -3.658599537222745>
+</cal:location> <geo:name>10B LA GRANJA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.53194913028556 -3.6355710093918283>
+</cal:location> <geo:name>10B LA MORALEJA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.508325691313956 -3.6694467924419247>
+</cal:location> <geo:name>10B LAS TABLAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.55048065335891 -3.6468833919727643>
+</cal:location> <geo:name>10B MANUEL DE FALLA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.54102004433109 -3.6373926197882787>
+</cal:location> <geo:name>10B MARQUES DE LA VALDAVIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.505251377338965 -3.695759283071379>
+</cal:location> <geo:name>10B MONTECARMELO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.55037550528663 -3.623403338680384>
+</cal:location> <geo:name>10B REYES CATOLICOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.515535221645685 -3.662778265647421>
+</cal:location> <geo:name>10B RONDA DE LA COMUNICACION</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.5012006729737 -3.6952099548681736>
+</cal:location> <geo:name>10B TRES OLIVOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38082829675677 -3.7279111645272467>
+</cal:location> <geo:name>11 ABRANTES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.37197192088226 -3.751915969142416>
+</cal:location> <geo:name>11 CARABANCHEL ALTO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.35795351445639 -3.7778337856292503>
+</cal:location> <geo:name>11 LA FORTUNA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.36421856882589 -3.7569060298081776>
+</cal:location> <geo:name>11 LA PESETA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.37586074559566 -3.7341716840943375>
+</cal:location> <geo:name>11 PAN BENDITO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38460041732617 -3.718255725562412>
+</cal:location> <geo:name>11 PLAZA ELIPTICA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.37359505652825 -3.739106228508547>
+</cal:location> <geo:name>11 SAN FRANCISCO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.35008253979741 -3.8317801756667986>
+</cal:location> <geo:name>12 ALCORCON CENTRAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.30080780607303 -3.736641509233372>
+</cal:location> <geo:name>12 ALONSO DE MENDOZA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.288740302237066 -3.756828055465867>
+</cal:location> <geo:name>12 ARROYO CULEBRO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.32659790646591 -3.75942842266733>
+</cal:location> <geo:name>12 CASA DEL RELOJ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.29324463564865 -3.7457717238868806>
+</cal:location> <geo:name>12 CONSERVATORIO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.329068971088006 -3.7296384824724718>
+</cal:location> <geo:name>12 EL BERCIAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.33663271563503 -3.7401861399196927>
+</cal:location> <geo:name>12 EL CARRASCAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.318624275975935 -3.7098585856755197>
+</cal:location> <geo:name>12 EL CASAR</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.28267346196854 -3.798909375207058>
+</cal:location> <geo:name>12 FUENLABRADA CENTRAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.30992367706035 -3.734033825917272>
+</cal:location> <geo:name>12 GETAFE CENTRAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.285749445263065 -3.816427072532433>
+</cal:location> <geo:name>12 HOSPITAL DE FUENLABRADA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.31652217091693 -3.8747150351383035>
+</cal:location> <geo:name>12 HOSPITAL DE MOSTOLES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.32176659998117 -3.7679784363645195>
+</cal:location> <geo:name>12 HOSPITAL SEVERO OCHOA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.311799686142244 -3.7222501553757494>
+</cal:location> <geo:name>12 JUAN DE LA CIERVA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.33474132707299 -3.7526680306408298>
+</cal:location> <geo:name>12 JULIAN BESTEIRO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.32897722527568 -3.771544569800793>
+</cal:location> <geo:name>12 LEGANES CENTRAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.296804866126685 -3.837691913936109>
+</cal:location> <geo:name>12 LORANCA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.32422152310413 -3.718203887331696>
+</cal:location> <geo:name>12 LOS ESPARTALES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.30902580533031 -3.86402699670702>
+</cal:location> <geo:name>12 MANUELA MALASAÑA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.32849814576706 -3.863545439544514>
+</cal:location> <geo:name>12 MOSTOLES CENTRAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.28683637867598 -3.786982314234991>
+</cal:location> <geo:name>12 PARQUE DE LOS ESTADOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.28517161548538 -3.806326592469152>
+</cal:location> <geo:name>12 PARQUE EUROPA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.34968065645224 -3.82120109523051>
+</cal:location> <geo:name>12 PARQUE LISBOA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.34589179085773 -3.849343417868749>
+</cal:location> <geo:name>12 PARQUE OESTE</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.32167716657807 -3.8648944963859337>
+</cal:location> <geo:name>12 PRADILLO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.34542677853863 -3.8124952599273105>
+</cal:location> <geo:name>12 PUERTA DEL SUR</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.3361555690427 -3.7758763425167072>
+</cal:location> <geo:name>12 SAN NICASIO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.33511805874597 -3.8721885540074115>
+</cal:location> <geo:name>12 UNIVERSIDAD REY JUAN CARLOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.418285507185765 -3.623514407657664>
+</cal:location> <geo:name>2 ALSACIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42239172554295 -3.6120708332680076>
+</cal:location> <geo:name>2 AVENIDA DE GUADALAJARA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41922043347424 -3.6949665000028693>
+</cal:location> <geo:name>2 BANCO DE ESPAÑA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.438407000568155 -3.7043372264788177>
+</cal:location> <geo:name>2 CANAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44696802552654 -3.7039313162009213>
+</cal:location> <geo:name>2 CUATRO CAMINOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42454062624169 -3.6759123812326258>
+</cal:location> <geo:name>2 GOYA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42361458294594 -3.639147589169747>
+</cal:location> <geo:name>2 LA ALMUDENA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.426614180295644 -3.6505285024367073>
+</cal:location> <geo:name>2 LA ELIPA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42374407461544 -3.603312660169485>
+</cal:location> <geo:name>2 LAS ROSAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.427903652767455 -3.66926173279445>
+</cal:location> <geo:name>2 MANUEL BECERRA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42483857792767 -3.7074256850643508>
+</cal:location> <geo:name>2 NOVICIADO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41808754185801 -3.7094295122270493>
+</cal:location> <geo:name>2 OPERA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42293931962459 -3.6801282615934703>
+</cal:location> <geo:name>2 PRINCIPE DE VERGARA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.433217779751516 -3.704342027104579>
+</cal:location> <geo:name>2 QUEVEDO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.420299503037164 -3.686254794252373>
+</cal:location> <geo:name>2 RETIRO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.430012017632926 -3.7055818211365636>
+</cal:location> <geo:name>2 SAN BERNARDO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.421312736951315 -3.7079663482786454>
+</cal:location> <geo:name>2 SANTO DOMINGO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41805041634745 -3.699256783373693>
+</cal:location> <geo:name>2 SEVILLA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.416845928117105 -3.7032636713195033>
+</cal:location> <geo:name>2 SOL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43088185592945 -3.6636676949825366>
+</cal:location> <geo:name>2 VENTAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.384066948658585 -3.6979745196405482>
+</cal:location> <geo:name>3 ALMENDRALES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43065983011964 -3.7159750373526372>
+</cal:location> <geo:name>3 ARGÜELLES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42012859170676 -3.7056671508823>
+</cal:location> <geo:name>3 CALLAO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.35957925666222 -3.693635296503236>
+</cal:location> <geo:name>3 CIUDAD DE LOS ANGELES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.399900598863226 -3.694202156550914>
+</cal:location> <geo:name>3 DELICIAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40511967929685 -3.7026819979669257>
+</cal:location> <geo:name>3 EMBAJADORES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.375025573938096 -3.6958551103632624>
+</cal:location> <geo:name>3 HOSPITAL 12 DE OCTUBRE</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.408508807234305 -3.700914061323349>
+</cal:location> <geo:name>3 LAVAPIES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39114723645119 -3.695125556785026>
+</cal:location> <geo:name>3 LEGAZPI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43501662344703 -3.719452180080623>
+</cal:location> <geo:name>3 MONCLOA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.403071595618144 -3.6942347314494355>
+</cal:location> <geo:name>3 PALOS DE LA FRONTERA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42340997260346 -3.711206491780546>
+</cal:location> <geo:name>3 PLAZA DE ESPAÑA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.341536594687376 -3.6931914383216857>
+</cal:location> <geo:name>3 SAN CRISTOBAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.36999055068376 -3.694177844478536>
+</cal:location> <geo:name>3 SAN FERMIN-ORCASUR</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41680989422852 -3.703263296124321>
+</cal:location> <geo:name>3 SOL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.427081061632386 -3.71341429173834>
+</cal:location> <geo:name>3 VENTURA RODRIGUEZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.341224196811964 -3.711990998942114>
+</cal:location> <geo:name>3 VILLAVERDE ALTO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.35089133294532 -3.692651337574659>
+</cal:location> <geo:name>3 VILLAVERDE BAJO CRUCE</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.448244779709626 -3.6679186579899956>
+</cal:location> <geo:name>4 ALFONSO XIII</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42771904662575 -3.6959499264843716>
+</cal:location> <geo:name>4 ALONSO MARTINEZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43059684414788 -3.715962579973822>
+</cal:location> <geo:name>4 ARGÜELLES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45582547206542 -3.6561881277156516>
+</cal:location> <geo:name>4 ARTURO SORIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.438031843253 -3.676648799468696>
+</cal:location> <geo:name>4 AVENIDA DE AMERICA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45353571190591 -3.6611898411345964>
+</cal:location> <geo:name>4 AVENIDA DE LA PAZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42884979760451 -3.7011487737245687>
+</cal:location> <geo:name>4 BILBAO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46380536350123 -3.635600584738448>
+</cal:location> <geo:name>4 CANILLAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42541533737568 -3.69101038799368>
+</cal:location> <geo:name>4 COLON</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43467231561307 -3.6749645070082146>
+</cal:location> <geo:name>4 DIEGO DE LEON</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45944241498234 -3.64582062640135>
+</cal:location> <geo:name>4 ESPERANZA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42480536443969 -3.6768581011593215>
+</cal:location> <geo:name>4 GOYA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47536836577263 -3.6525796426092887>
+</cal:location> <geo:name>4 HORTALEZA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42916516037262 -3.6754163781556333>
+</cal:location> <geo:name>4 LISTA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.476868155535264 -3.6629051638999885>
+</cal:location> <geo:name>4 MANOTERAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46942093123173 -3.6383312595599535>
+</cal:location> <geo:name>4 MAR DE CRISTAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47711223138429 -3.6452466668251837>
+</cal:location> <geo:name>4 PARQUE DE SANTA MARIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48013418425884 -3.666771656823872>
+</cal:location> <geo:name>4 PINAR DE CHAMARTIN</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.444186658327624 -3.6748238340971913>
+</cal:location> <geo:name>4 PROSPERIDAD</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42966004060878 -3.7056842453656524>
+</cal:location> <geo:name>4 SAN BERNARDO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.474468050879565 -3.639582355296153>
+</cal:location> <geo:name>4 SAN LORENZO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42543238545867 -3.686637037145088>
+</cal:location> <geo:name>4 SERRANO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.425030979720276 -3.6829196062285985>
+</cal:location> <geo:name>4 VELAZQUEZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.403870250308834 -3.706652236625238>
+</cal:location> <geo:name>5 ACACIAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.457789434241064 -3.5875298560645428>
+</cal:location> <geo:name>5 ALAMEDA DE OSUNA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.428283174141846 -3.6950244127053398>
+</cal:location> <geo:name>5 ALONSO MARTINEZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38562557538846 -3.7608096588055564>
+</cal:location> <geo:name>5 ALUCHE</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42008354939492 -3.7056666802311384>
+</cal:location> <geo:name>5 CALLAO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39480242011578 -3.7681359812057247>
+</cal:location> <geo:name>5 CAMPAMENTO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44942144215434 -3.608164961766647>
+</cal:location> <geo:name>5 CANILLEJAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.3878193811018 -3.744881666184908>
+</cal:location> <geo:name>5 CARABANCHEL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.403236902379156 -3.7610196925677366>
+</cal:location> <geo:name>5 CASA DE CAMPO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.422925175776896 -3.6976215707393187>
+</cal:location> <geo:name>5 CHUECA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.438043489632165 -3.6381640947720557>
+</cal:location> <geo:name>5 CIUDAD LINEAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43235204390378 -3.674269294153686>
+</cal:location> <geo:name>5 DIEGO DE LEON</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4534680040023 -3.594013972226353>
+</cal:location> <geo:name>5 EL CAPRICHO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.431889605558915 -3.6575823705144552>
+</cal:location> <geo:name>5 EL CARMEN</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.390568589226135 -3.7653543649538515>
+</cal:location> <geo:name>5 EMPALME</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38438197265499 -3.7512174782001138>
+</cal:location> <geo:name>5 EUGENIA DE MONTIJO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41998089186693 -3.7018110884609574>
+</cal:location> <geo:name>5 GRAN VIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.411275431706784 -3.7081675838043617>
+</cal:location> <geo:name>5 LA LATINA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.397353467438805 -3.7159638187452613>
+</cal:location> <geo:name>5 MARQUES DE VADILLO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43255430040624 -3.67972995771758>
+</cal:location> <geo:name>5 NUÑEZ DE BALBOA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.418087975777055 -3.7093587936603294>
+</cal:location> <geo:name>5 OPERA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.388464460996076 -3.7313276815409306>
+</cal:location> <geo:name>5 OPORTO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40259795902546 -3.711388079281904>
+</cal:location> <geo:name>5 PIRAMIDES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43569328401266 -3.6428344086472495>
+</cal:location> <geo:name>5 PUEBLO NUEVO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40703244851561 -3.7110576393307793>
+</cal:location> <geo:name>5 PUERTA DE TOLEDO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43357790585855 -3.647365171210328>
+</cal:location> <geo:name>5 QUINTANA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43315383183627 -3.6895451317420838>
+</cal:location> <geo:name>5 RUBEN DARIO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44084415226601 -3.626847452003059>
+</cal:location> <geo:name>5 SUANZES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44374395830959 -3.6170047347741927>
+</cal:location> <geo:name>5 TORRE ARIAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39335085291281 -3.7236156360295825>
+</cal:location> <geo:name>5 URGEL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.430882194294526 -3.6636087511113766>
+</cal:location> <geo:name>5 VENTAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.388842832017616 -3.7398266508291504>
+</cal:location> <geo:name>5 VISTA ALEGRE</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40992070260811 -3.738937778190442>
+</cal:location> <geo:name>6 ALTO DE EXTREMADURA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39309596001727 -3.688641470416205>
+</cal:location> <geo:name>6 ARGANZUELA-PLANETARIO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43052477674069 -3.715961815664065>
+</cal:location> <geo:name>6 ARGÜELLES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43803218828648 -3.676589849510356>
+</cal:location> <geo:name>6 AVENIDA DE AMERICA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39270021015217 -3.7410000091062043>
+</cal:location> <geo:name>6 CARPETANA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44355626984068 -3.7267950750797425>
+</cal:location> <geo:name>6 CIUDAD UNIVERSITARIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40696897461864 -3.6704096277412406>
+</cal:location> <geo:name>6 CONDE DE CASAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44696838453681 -3.7038723587748987>
+</cal:location> <geo:name>6 CUATRO CAMINOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.432945358819744 -3.672942973597095>
+</cal:location> <geo:name>6 DIEGO DE LEON</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.446358219515204 -3.712297363431821>
+</cal:location> <geo:name>6 GUZMAN EL BUENO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.399228600963696 -3.7443003669171224>
+</cal:location> <geo:name>6 LAGUNA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.391156669916555 -3.6950549588097577>
+</cal:location> <geo:name>6 LEGAZPI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40509578552482 -3.7453431392210117>
+</cal:location> <geo:name>6 LUCERO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42790392572708 -3.669214579831321>
+</cal:location> <geo:name>6 MANUEL BECERRA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39537424655571 -3.6781422516936098>
+</cal:location> <geo:name>6 MENDEZ ALVARO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.446431150760525 -3.719432375373863>
+</cal:location> <geo:name>6 METROPOLITANO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43496257297453 -3.7194516039643917>
+</cal:location> <geo:name>6 MONCLOA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44661413750054 -3.692418461471261>
+</cal:location> <geo:name>6 NUEVOS MINISTERIOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.422889451815756 -3.6685990565440196>
+</cal:location> <geo:name>6 O'DONNELL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.386903364839974 -3.723134267624081>
+</cal:location> <geo:name>6 OPAÑEL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38846483353539 -3.7312687755134606>
+</cal:location> <geo:name>6 OPORTO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40206599506193 -3.6738609535364106>
+</cal:location> <geo:name>6 PACIFICO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38459968553263 -3.7183735312226474>
+</cal:location> <geo:name>6 PLAZA ELIPTICA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42106519986175 -3.7203290559510442>
+</cal:location> <geo:name>6 PRINCIPE PIO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.413895775966544 -3.7272419612096934>
+</cal:location> <geo:name>6 PUERTA DEL ANGEL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44379000259904 -3.684064551057651>
+</cal:location> <geo:name>6 REPUBLICA ARGENTINA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41506424707161 -3.6695234608035796>
+</cal:location> <geo:name>6 SAINZ DE BARANDA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.387093833022185 -3.706901012764277>
+</cal:location> <geo:name>6 USERA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43837479022226 -3.6992550842523215>
+</cal:location> <geo:name>7A ALONSO CANO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47021657551088 -3.7177043711182876>
+</cal:location> <geo:name>7A ANTONIO MACHADO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43019861136028 -3.6410608433050236>
+</cal:location> <geo:name>7A ASCAO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48009500002723 -3.7184112647167886>
+</cal:location> <geo:name>7A AVDA. DE LA ILUSTRACION</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.438032533289885 -3.676530899551006>
+</cal:location> <geo:name>7A AVENIDA DE AMERICA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43909238459439 -3.6520047159864566>
+</cal:location> <geo:name>7A BARRIO DE LA CONCEPCION</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.438700901399365 -3.704894460792601>
+</cal:location> <geo:name>7A CANAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.439337323784756 -3.672157759763834>
+</cal:location> <geo:name>7A CARTAGENA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.433391179933935 -3.6001566507331892>
+</cal:location> <geo:name>7A ESTADIO OLIMPICO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45647472583504 -3.7123923977382236>
+</cal:location> <geo:name>7A FRANCOS RODRIGUEZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42842150201045 -3.6333103721205955>
+</cal:location> <geo:name>7A GARCIA NOBLEJAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43825029488139 -3.6914955044434783>
+</cal:location> <geo:name>7A GREGORIO MARAÑON</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44632218588149 -3.7122969830212873>
+</cal:location> <geo:name>7A GUZMAN EL BUENO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43906103202648 -3.7137413598671962>
+</cal:location> <geo:name>7A ISLAS FILIPINAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48501195658861 -3.7230534541332743>
+</cal:location> <geo:name>7A LACOMA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43298141874559 -3.6078871348400607>
+</cal:location> <geo:name>7A LAS MUSAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.439444413228046 -3.6629736889308107>
+</cal:location> <geo:name>7A PARQUE DE LAS AVENIDAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47592185478177 -3.7158303635103915>
+</cal:location> <geo:name>7A PEÑAGRANDE</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.495102127210394 -3.7258995124576386>
+</cal:location> <geo:name>7A PITIS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43565724979443 -3.642834065461776>
+</cal:location> <geo:name>7A PUEBLO NUEVO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.427986323585394 -3.6154696111204454>
+</cal:location> <geo:name>7A SAN BLAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42798532116267 -3.6257259881240316>
+</cal:location> <geo:name>7A SIMANCAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46482187020762 -3.715983800961631>
+</cal:location> <geo:name>7A VALDEZARZA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42249362802511 -3.5691987965666954>
+</cal:location> <geo:name>7B BARRIO DEL PUERTO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42373097112736 -3.5611932328329394>
+</cal:location> <geo:name>7B COSLADA CENTRAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.433391179933935 -3.6001566507331892>
+</cal:location> <geo:name>7B ESTADIO OLIMPICO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.417764870720255 -3.5271847602105475>
+</cal:location> <geo:name>7B HENARES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41760497755307 -3.5345387045961227>
+</cal:location> <geo:name>7B HOSPITAL DEL HENARES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42293472815007 -3.5255040558533493>
+</cal:location> <geo:name>7B JARAMA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42514594640941 -3.5479311684597126>
+</cal:location> <geo:name>7B LA RAMBLA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.424411776218186 -3.535417769337362>
+</cal:location> <geo:name>7B SAN FERNANDO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.468645233506194 -3.5695410720446614>
+</cal:location> <geo:name>8 AEROPUERTO T1 T2 T3</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4917601055005 -3.593254090068511>
+</cal:location> <geo:name>8 AEROPUERTO T4</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.475769670406116 -3.5825311306716694>
+</cal:location> <geo:name>8 BARAJAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.463892345701076 -3.616210056882399>
+</cal:location> <geo:name>8 CAMPO DE LAS NACIONES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45633706451893 -3.6768324073355148>
+</cal:location> <geo:name>8 COLOMBIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46938489719267 -3.638330918372557>
+</cal:location> <geo:name>8 MAR DE CRISTAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44655107837536 -3.692417814325485>
+</cal:location> <geo:name>8 NUEVOS MINISTERIOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46799398048667 -3.6486745798490077>
+</cal:location> <geo:name>8 PINAR DEL REY</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40522132054802 -3.641813751306118>
+</cal:location> <geo:name>9A ARTILLEROS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.438032878263236 -3.676471949590629>
+</cal:location> <geo:name>9A AVENIDA DE AMERICA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.476882449874864 -3.703170088449048>
+</cal:location> <geo:name>9A BARRIO DEL PILAR</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.457489525792404 -3.6769501193498826>
+</cal:location> <geo:name>9A COLOMBIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45144194562 -3.6773847353781695>
+</cal:location> <geo:name>9A CONCHA ESPINA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4442658780325 -3.678220656951523>
+</cal:location> <geo:name>9A CRUZ DEL RAYO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46762058495208 -3.6791750861644044>
+</cal:location> <geo:name>9A DUQUE DE PASTRANA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4114691025468 -3.661791538169238>
+</cal:location> <geo:name>9A ESTRELLA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48465763315051 -3.707522399369353>
+</cal:location> <geo:name>9A HERRERA ORIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41838980895368 -3.6785854635642874>
+</cal:location> <geo:name>9A IBIZA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.491417008731375 -3.7158651954710034>
+</cal:location> <geo:name>9A MIRASIERRA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43155470422416 -3.6796609448436803>
+</cal:location> <geo:name>9A NUÑEZ DE BALBOA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40051048036962 -3.635122750979477>
+</cal:location> <geo:name>9A PAVONES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46300073130351 -3.6758023487125158>
+</cal:location> <geo:name>9A PIO XII</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.466894966109415 -3.6891351660270066>
+</cal:location> <geo:name>9A PLAZA DE CASTILLA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.424172860731126 -3.6802467804402337>
+</cal:location> <geo:name>9A PRINCIPE DE VERGARA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40131344602211 -3.5959828631938597>
+</cal:location> <geo:name>9A PUERTA DE ARGANDA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41502821291708 -3.6695231036306226>
+</cal:location> <geo:name>9A SAINZ DE BARANDA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.403811726230394 -3.602404009705041>
+</cal:location> <geo:name>9A SAN CIPRIANO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40004360175914 -3.6215666819315797>
+</cal:location> <geo:name>9A VALDEBERNARDO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.469431089926225 -3.6958849055022736>
+</cal:location> <geo:name>9A VENTILLA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.404210317117695 -3.6088656365690928>
+</cal:location> <geo:name>9A VICALVARO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41024127184873 -3.6527397719478243>
+</cal:location> <geo:name>9A VINATEROS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.3036658577812 -3.4475260692511793>
+</cal:location> <geo:name>9B ARGANDA DEL REY</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.319015132480565 -3.4774526391285843>
+</cal:location> <geo:name>9B LA POVEDA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40131344602211 -3.5959828631938597>
+</cal:location> <geo:name>9B PUERTA DE ARGANDA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.341342100625035 -3.5247997631686228>
+</cal:location> <geo:name>9B RIVAS FUTURA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.36676993738754 -3.5472814834020223>
+</cal:location> <geo:name>9B RIVAS URBANIZACIONES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.32836977288053 -3.520602745225861>
+</cal:location> <geo:name>9B RIVAS VACIAMADRID</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41808840965286 -3.7092880750920783>
+</cal:location> <geo:name>R OPERA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.420993132404384 -3.7203282872388663>
+</cal:location> <geo:name>R PRINCIPE PIO</geo:name>
+</geo:feature>
+</rdf:RDF>

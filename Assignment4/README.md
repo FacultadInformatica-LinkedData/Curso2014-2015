@@ -1,0 +1,1 @@
+Add the files with SPARQL queries here if you want, for assignment 4.
