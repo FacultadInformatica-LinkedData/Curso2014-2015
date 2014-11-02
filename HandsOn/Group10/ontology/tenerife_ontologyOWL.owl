@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.tenerifetouristinformation.com/ontologies/lugares.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.tenerifetouristinformation.com/ontologies/lugares.owl">
+    <Prefix name="" IRI="http://www.tenerifetouristinformation.com/ontologies/lugares.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Actividad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CodigoPostal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ComoLlegar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Descripcion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dificultad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direccion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Email"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Georeferencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lugar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monumento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonumentoHistorico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonumentoNatural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Municipio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OficinaTurismo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Web"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zona"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#con_codigoPostal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#con_descripcion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esta_en"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#localizado_en"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pertenece_a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_actividad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_dificultad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_email"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_horario"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_web"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ubicado_en"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Monumento"/>
+        <Class IRI="#Lugar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonumentoHistorico"/>
+        <Class IRI="#Monumento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonumentoNatural"/>
+        <Class IRI="#Monumento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OficinaTurismo"/>
+        <Class IRI="#Lugar"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#MonumentoHistorico"/>
+        <Class IRI="#MonumentoNatural"/>
+    </DisjointClasses>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#con_codigoPostal"/>
+        <Class IRI="#Direccion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#con_descripcion"/>
+        <Class IRI="#Monumento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esta_en"/>
+        <Class IRI="#Municipio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#localizado_en"/>
+        <Class IRI="#Lugar"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pertenece_a"/>
+        <Class IRI="#Lugar"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_actividad"/>
+        <Class IRI="#Lugar"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_dificultad"/>
+        <Class IRI="#Monumento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_email"/>
+        <Class IRI="#Lugar"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_horario"/>
+        <Class IRI="#Lugar"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_web"/>
+        <Class IRI="#Lugar"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ubicado_en"/>
+        <Class IRI="#Lugar"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#con_codigoPostal"/>
+        <Class IRI="#CodigoPostal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#con_descripcion"/>
+        <Class IRI="#Descripcion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esta_en"/>
+        <Class IRI="#Zona"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#localizado_en"/>
+        <Class IRI="#Georeferencia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pertenece_a"/>
+        <Class IRI="#Municipio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene_actividad"/>
+        <Class IRI="#Actividad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene_dificultad"/>
+        <Class IRI="#Dificultad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene_email"/>
+        <Class IRI="#Email"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene_horario"/>
+        <Class IRI="#Horario"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene_web"/>
+        <Class IRI="#Web"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ubicado_en"/>
+        <Class IRI="#Direccion"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
