@@ -1,624 +1,411 @@
 <html>
+	<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+	<body>
+		<h2><u>An√°lisis de los datasets elegidos - <a href="https://github.com/alejandro2003/Curso2014-2015/tree/master/HandsOn/Group14">Grupo 14</a></u></h2>
+		<h3><u>Licencia de los datos</u></h3>
+			<p>
+					Extracto de las normas para el uso de los datos libre la Comunidad de Madrid. <a href="http://goo.gl/PUULlv">Condiciones de uso completas</a><br>
+				El publicador de los datos es el Ayuntamiento de Madrid, Espa√±a.<br><br>
+	
+				Condiciones generales para la reutilizaci√≥n<br>
+	
+				Son de aplicaci√≥n las siguientes condiciones generales para la reutilizaci√≥n de los documentos sometidos a ellas:<br>
+			</p>
+			<ul>
+				<li>Est√° prohibido desnaturalizar el sentido de la informaci√≥n.</li>
+					<li>Debe citarse la fuente de los documentos objeto de la reutilizaci√≥n. Esta cita podr√° realizarse de la siguiente manera "Origen de los datos: Ayuntamiento de Madrid (o, en su caso, √≥rgano administrativo, organismo o entidad de que se trate)"</li>
+					<li>Debe mencionarse la fecha de la √∫ltima actualizaci√≥n de los documentos objeto de la reutilizaci√≥n, siempre y cuando estuviera incluida en el documento original.</li>
+					<li>No se podr√° indicar, insinuar o sugerir que el Ayuntamiento de Madrid participa, patrocina o apoya la reutilizaci√≥n que se lleve a cabo con la informaci√≥n.</li>
+				<li>Deben conservarse, no alterarse ni suprimirse los metadatos sobre la fecha de actualizaci√≥n y las condiciones de reutilizaci√≥n aplicables incluidos, en su caso, en el documento puesto a disposici√≥n para su reutilizaci√≥n.</li>
+			</ul>
+		<br>
+		<hr size="5" color="#D1D1D1">
+		<h3><u>Estrategia de Nombrado de Recursos</u></h3>
+			<p><b>TODO</b></p>
+		<br>
+		<hr size="5" color="#D1D1D1">
 
-<head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
-<meta name=Generator content="Microsoft Word 14 (filtered)">
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
-@font-face
-	{font-family:Consolas;
-	panose-1:2 11 6 9 2 2 4 3 2 4;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:10.0pt;
-	margin-left:0cm;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
-	{mso-style-link:"“ÂÍÒÚ «Ì‡Í";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	font-size:10.5pt;
-	font-family:Consolas;}
-span.a
-	{mso-style-name:"“ÂÍÒÚ «Ì‡Í";
-	mso-style-link:“ÂÍÒÚ;
-	font-family:Consolas;}
-.MsoChpDefault
-	{font-family:"Calibri","sans-serif";}
-.MsoPapDefault
-	{margin-bottom:10.0pt;
-	line-height:115%;}
-@page WordSection1
-	{size:595.3pt 841.9pt;
-	margin:2.0cm 66.75pt 2.0cm 66.7pt;}
-div.WordSection1
-	{page:WordSection1;}
--->
-</style>
+		<h3><a href="http://goo.gl/9qMby3">Dataset de Bibliotecas y Bibliobuses de Madrid</a></h3>
+		<p>Relaci√≥n de todas la Bibliotecas P√∫blicas sitas en la ciudad de Madrid, de titularidad nacional, comunitaria o local. Incluye tambi√©n bibliobuses. Datos de direcci√≥n, horario, servicios y coordenadas para su georeferenciaci√≥n.</p>
+    <p>Caracteristicas:
+      <ul>
+          <li>Campos: 28</li>
+          <li>Filas: 60</li>
+          <li>Tama√±o: 73 KB</li>
+      </ul>
+    </p>
+    <br>
 
-</head>
+		<table border="2" bgcolor="#F0F0F0" cellpading="0" cellspacing="0">
+			<tr align="center" bgcolor="#FF9933">
+				<th width="150">Columna</th>
+				<th width="150">Tipo</th>
+				<th width="300">Comentarios. Rango</th>
+				<th width="150">Valores Nulos</th>
+				<th width="250">Problemas</th>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">PK</td>
+				<td>String</td>
+				<td>Unico</td>
+				<td>No</td>
+				<td>Clave Primaria</td>
+			</tr>
+			<tr align="center">
+				<td bgcolor="#B6ECFF">Nombre</td>
+				<td>String</td>
+				<td>UTF-8</td>
+				<td>No</td>
+				<td>Los biblobuses especifican la periodicidad del recorrido</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Descripcion Entidad</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>Solamente 2 campos tienen descripcion. Deberiamos borrarlo</td>
+			</tr>
+			<tr align="center">
+				<td bgcolor="#B6ECFF">Horarios</td>
+				<td>String</td>
+				<td>Horario de los dif. servicios</td>
+				<td>Si (3)</td>
+				<td>Mayoria de los campos estan llenos.</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Equipamientos</td>
+				<td>String</td>
+				<td>Servicios que presta la biblio</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Transporte</td>
+				<td>String</td>
+				<td>Metodos de transporte para llegar</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Descripcion</td>
+				<td>String</td>
+				<td>Datos relevante de la biblioteca</td>
+				<td>Si (10)</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Accesibilidad</td>
+				<td>Integer</td>
+				<td>1-Accesible 0-No Accesible</td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Content-URL</td>
+				<td>String</td>
+				<td>URL con la web de cada biblioteca</td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Nombre Via</td>
+				<td>String</td>
+				<td>Localizacion(calle) de la biblioteca</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Clase Via</td>
+				<td>String</td>
+				<td>Tipo de via</td>
+				<td>No</td>
+				<td>-</td>
+			</tr><tr align="center" >
+				<td bgcolor="#B6ECFF">Tipo Num</td>
+				<td>String</td>
+				<td>Valores: {V, NUM}</td>
+				<td>No</td>
+				<td>Bloque? Numero?</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Num</td>
+				<td>Integer</td>
+				<td>Valores:{0-260}. Nro donde esta la bibiloteca</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr><tr align="center" >
+				<td bgcolor="#B6ECFF">Planta</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>Esta vacio</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Puerta</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>Esta vacio</td>
+			</tr><tr align="center" >
+				<td bgcolor="#B6ECFF">Orientacion</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si(50)</td>
+				<td>Relacion respecto a lugar cercano de interes?</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Localidad</td>
+				<td>String</td>
+				<td>-</td>
+				<td>No</td>
+				<td>Todos son Madrid. Irrelevante</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Codigo Postal</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>Solo los bibliobuses tienen blanco</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Barrio</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>Solo los bibliobuses tienen blanco</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Distrito</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Coordenada X</td>
+				<td>Integer</td>
+				<td>Rango: 430000-450000</td>
+				<td>Si</td>
+				<td>Bibliobuses tienen cero</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Coordenada Y</td>
+				<td>Integer</td>
+				<td>Rango: 440000-450000</td>
+				<td>Si</td>
+				<td>Bibliobuses tienen cero</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Latitud</td>
+				<td>Integer</td>
+				<td>Rango: 40.44-40.499</td>
+				<td>Si</td>
+				<td>Los bibliobuses tienen blancos</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Longitud</td>
+				<td>Integer</td>
+				<td>Rango: -3.77-3.99</td>
+				<td>Si</td>
+				<td>Los bibliobuses tienen blancos</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Telefono</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Fax</td>
+				<td>Integer</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Email</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>Los bibliobuses tienen blancos</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Tipo</td>
+				<td>String</td>
+				<td>Rango: { BibliotecaPublica. Bibliobus} </td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+		</table>
+		<br><br>
+		<hr size="5" color="#D1D1D1">
 
-<body lang=RU>
+		<h3><a href="http://goo.gl/nh6khb">Dataset de las actividades gratuitas en Bibliotecas Municipales en los pr√≥ximos 60 d√≠as</a></h3>
+		<p>Relaci√≥n de actividades de car√°cter gratuito, para p√∫blico infantil y adulto, desarrolladas por las siguientes instituciones de titularidad municipal: la red de Bibliotecas P√∫blicas, la Biblioteca Hist√≥rica, la Biblioteca Musical V√≠ctor Espin√≥s, la Hemeroteca y la Imprenta. Se presentan las actividades de los pr√≥ximos 60 dias.</p>
+    <p>Caracteristicas:
+      <ul>
+          <li>Campos: 21</li>
+          <li>Filas: 190</li>
+          <li>Tama√±o: 167 KB</li>
+      </ul>
+    </p>
+    <br>
 
-<div class=WordSection1>
-
-<p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>††††††††††† ††††† ††††††††††† <br>
-††††††††††††††††††††††††††† †††††††††††† †††††††††††††††††††††††††††††††††††††††† †††<br>
-<br>
-††††††††††† ††††  †<br>
-<br>
-††††††††† † ††††† †<br>
-†††††††††††††††††††††††††††††††††††††††† † <br>
-†††††††††††††††††††††††††††††††††††††††† †† <br>
-†††††††††††††††††††††††††††††††††††††††† †† <br>
-</span></p>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><b><span lang=ES style='font-family:"Courier New"'>Nombre</span></b></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><b><span lang=ES style='font-family:"Courier New"'>Tipo</span></b></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><b><span lang=ES style='font-family:"Courier New"'>††† comentario</span></b></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><b><span lang=ES style='font-family:"Courier New"'>Problemas</span></b></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>ID-evento†† </span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>String</span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>posible
-  clave primaria†† </span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>no hay
-  problemas<br>
-    no hay repeticiones††††† </span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>Titulo</span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>String</span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>titulo
-  de la actividad† <br>
-    hay repeticiones<br>
-    &nbsp;</span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>Precio</span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>vacio††
-  </span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>Campos
-  vacios<br>
-    &nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>Gratuito†
-  </span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>num&eacute;rico†††††
-  </span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>rango
-  de 0-1†††††††††† </span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>todos a
-  1</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>Larga
-  Duraci&oacute;n† </span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>num&eacute;rico†††††
-  </span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>rango
-  0-1</span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>D&iacute;as
-  de la semana</span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>String</span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>L-D,
-  puede tener varios valores† </span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>Hay
-  blancos<br>
-    †††††††††††††† </span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>D&iacute;as
-  excluidos†† </span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>String</span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>contiene
-  fechas††††† </span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>Fecha† </span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>tipoFecha†††
-  </span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>rango
-  entre 29-09-2014 y 15-12-2014 <br>
-    &nbsp;</span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>Fecha
-  Fin†††††† </span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>tipoFecha††††
-  </span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>rango
-  hasta 25 de junio de 2005<br>
-    &nbsp;</span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>Hora</span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>String††††††††
-  <br>
-    &nbsp;</span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>Descripci&oacute;n††
-  </span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>String</span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>datos
-  de la actividad††† †</span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>no
-  especifica claramente †lo que contiene<br>
-    muchos blancos<br>
-    &nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>ContentURL</span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>String</span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&iquest;URL
-  del evento?† <br>
-    &nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>Titulo
-  de la actividad †</span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>String††
-  </span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&iquest;titulo
-  de la actividad?</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>URL
-  Actividad††† </span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>String</span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>URL de
-  la actividad††††† </span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&iquest;URL
-  del evento?<br>
-    &nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>URL
-  Instalaci&oacute;n† ††††† </span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>String</span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>Url de
-  la instalacion†† </span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>Nombre
-  Instalaci&oacute;n† </span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>String†
-  </span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>Nombre
-  del lugar del evento <br>
-    &nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>CoordenadaX†
-  </span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>num&eacute;rico†††††
-  </span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>rango
-  430000 - 450 000†††† <br>
-    &nbsp;</span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>CoordenadaY</span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>num&eacute;rico†††††
-  </span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>rango
-  4468000 - 4 482 000</span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>Latitud</span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>num&eacute;rico†††††
-  </span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>rango
-  40.37 - 40.48</span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>Longitud</span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>num&eacute;rico†††††
-  </span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>rando†
-  -3.77 - -3.59</span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>Tipo</span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>String†††††††††††††††††††††††††††††††††††††††††
-  </span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>††† URI,
-  hay blancos<br>
-    &nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=158 valign=top style='width:118.15pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
-  <td width=158 valign=top style='width:118.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
-  <td width=393 valign=top style='width:294.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
-  <td width=598 valign=top style='width:448.2pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>&nbsp;</span></p>
-  </td>
- </tr>
-</table>
-
-<p class=MsoPlainText><span lang=ES style='font-family:"Courier New"'>†††††
-<br>
-<br>
-†††††††††††††††††††††††††††††††††††††††† </span></p>
-
-</div>
-
-</body>
-
+		<table bgcolor="#F0F0F0" border="2" cellpading="0" cellspacing="0">
+			<tr align="center" bgcolor="#FF9933">
+				<th width="150">Columna</th>
+				<th width="150">Tipo</th>
+				<th width="300">Comentarios. Rango</th>
+				<th width="150">Valores Nulos</th>
+				<th width="250">Problemas</th>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">ID-Evento</td>
+				<td>String</td>
+				<td>Posible clave primaria. Sin repeticiones</td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+			<tr align="center">
+				<td bgcolor="#B6ECFF">Titulo</td>
+				<td>String</td>
+				<td>Titulo de la actividad. Hay repeticiones</td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Precio</td>
+				<td>-</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>Esta vacio. Campo irrelevante</td>
+			</tr>
+			<tr align="center">
+				<td bgcolor="#B6ECFF">Gratuito</td>
+				<td>Integer</td>
+				<td>Rango:0-1</td>
+				<td>No</td>
+				<td>Todos son 1. Campo irrelevante</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Larga Duracion</td>
+				<td>Integer</td>
+				<td>Rango:0-1</td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Dias de la Semana</td>
+				<td>String(Date)</td>
+				<td>L-D, puede tener varios valores</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Dias Excluidos</td>
+				<td>String(Date)</td>
+				<td>Similar a dias de la semana</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Fecha</td>
+				<td>String(Date)</td>
+				<td>Rango: {29-09-2014 y 15-12-201} </td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Fecha Fin</td>
+				<td>String(Date)</td>
+				<td>Rango hasta 25 de junio de 2005</td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Hora</td>
+				<td>String</td>
+				<td>-</td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Content-URL</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>URL donde puede obtener informaci√≥n adicional de la actividad y donde se especif√≠ca si se requiere inscripci√≥n y como realizarla</td>
+			</tr><tr align="center" >
+				<td bgcolor="#B6ECFF">Titulo de la actividad</td>
+				<td>String</td>
+				<td>-</td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">URL de la actividad</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr><tr align="center" >
+				<td bgcolor="#B6ECFF">URL de la instalacion</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>¬øWeb del lugar?</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Nombre de instalacion</td>
+				<td>String</td>
+				<td>Nombre del lugar del evento </td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Coordenada X</td>
+				<td>Integer</td>
+				<td>Rango: 430000-450000</td>
+				<td>Si</td>
+				<td>Bibliobuses tienen cero</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Coordenada Y</td>
+				<td>Integer</td>
+				<td>Rango: 446800-448200</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Latitud</td>
+				<td>Integer</td>
+				<td>Rango: 40.37-40.48</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Longitud</td>
+				<td>Integer</td>
+				<td>Rango: -3.77-3.59</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Tipo</td>
+				<td>Tipo</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>Contiene URIs</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Descripcion</td>
+				<td>String</td>
+				<td>Datos de la actividad</td>
+				<td>Si</td>
+				<td>No especifica claramente su contenido</td>
+			</tr>
+		</table>
+		<br><br>
+	</body>
 </html>
