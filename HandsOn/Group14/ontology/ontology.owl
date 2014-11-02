@@ -2,7 +2,7 @@
 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 xmlns:owl="http://www.w3.org/2002/07/owl#"
-xmlns:dc="http://purl.org/dc/elements/1.1/">
+xmlns:dc="http://purl.org/dc/elements/1.1/"
 xmlns:biblioteca="http://www.exmple.com/biblioteca#">
 
  
@@ -12,7 +12,6 @@ xmlns:biblioteca="http://www.exmple.com/biblioteca#">
 <rdfs:label>Biblioteca</rdfs:label>
 <rdfs:comment>Entidad de Biblioteca</rdfs:comment>
 </owl:Class>
-</rdf:RDF>
 
 
 
@@ -22,4 +21,28 @@ xmlns:biblioteca="http://www.exmple.com/biblioteca#">
 <rdfs:comment>Entidad eventos de biblioteca</rdfs:comment>
 </owl:Class>
 
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#id"/>
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#titulo"/>
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#precio"/>
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#gratuito"/>
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#larga_duracion"/>
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#dias_semana"/>
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#dias_excluidos"/>
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#fecha"/>
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#fecha_fin"/>
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#hora"/>
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#descripcion"/>
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#content-url"/>
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#titulo-actividad"/>
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#url-actividad"/>
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#url-instalacion"/>
 
+<owl:ObjectProperty rdf:about="http://www.exmple.com/biblioteca#nombre-instalacion"/>
+
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#coordenadax"/>
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#coordenaday"/>
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#latitud"/>
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#longitud"/>
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#tipo"/>
+
+</rdf:RDF>
