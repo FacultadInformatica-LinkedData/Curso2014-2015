@@ -10,15 +10,15 @@ http://www.semanticweb.org/group08/Crime/
 
 For GIS Mapping csv:
 
-http://www.semticweb.org/group08/Mapping
+http://www.semticweb.org/group08/Mapping/
 
 For Public Trasport csv:
 
-http://www.semanticweb.org/group08/PublicTransport
+http://www.semanticweb.org/group08/PublicTransport/
 
 For Public Buildings csv:
 
-http://www.semanticweb.org/group08/Building
+http://www.semanticweb.org/group08/Building/
 
 For Public Schools csv:
 
