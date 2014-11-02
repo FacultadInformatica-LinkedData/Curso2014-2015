@@ -1,0 +1,367 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/asus1/ontologies/2014/10/untitled-ontology-2"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/asus1/ontologies/2014/10/untitled-ontology-2">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#Barrio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClaseVia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Codigo_postal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoordenadaX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoordenadaY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direccion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direccion_GPS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direccion_Logica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Distrito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equipamiento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Latitud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Longitud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nombre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nombre_Via"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Numero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sitio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tipo_Num"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trasporte"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dirreccion_tiene"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#distrito_tiene"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_Nombre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_codigo_postal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_direccion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_distrito"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_equipamiento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_horario"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_trasporte"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#trasporte_por_bus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#trasporte_por_metro"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Numero"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#String"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Barrio"/>
+        <Class IRI="#Distrito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus"/>
+        <Class IRI="#Trasporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClaseVia"/>
+        <Class IRI="#Nombre_Via"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Codigo_postal"/>
+        <Class IRI="#Sitio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoordenadaX"/>
+        <Class IRI="#Direccion_GPS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoordenadaY"/>
+        <Class IRI="#Direccion_GPS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Direccion"/>
+        <Class IRI="#Sitio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Direccion_GPS"/>
+        <Class IRI="#Direccion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Direccion_Logica"/>
+        <Class IRI="#Direccion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Distrito"/>
+        <Class IRI="#Sitio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equipamiento"/>
+        <Class IRI="#Sitio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Horario"/>
+        <Class IRI="#Sitio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Latitud"/>
+        <Class IRI="#Direccion_GPS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Longitud"/>
+        <Class IRI="#Direccion_GPS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metro"/>
+        <Class IRI="#Trasporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nombre"/>
+        <Class IRI="#Sitio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nombre_Via"/>
+        <Class IRI="#Direccion_Logica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Numero"/>
+        <Class IRI="#Direccion_Logica"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tipo_Num"/>
+        <Class IRI="#Numero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trasporte"/>
+        <Class IRI="#Sitio"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Codigo_postal"/>
+        <Class IRI="#Direccion"/>
+        <Class IRI="#Distrito"/>
+        <Class IRI="#Equipamiento"/>
+        <Class IRI="#Horario"/>
+        <Class IRI="#Nombre"/>
+        <Class IRI="#Trasporte"/>
+    </DisjointClasses>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dirreccion_tiene"/>
+        <Class IRI="#Direccion_GPS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dirreccion_tiene"/>
+        <Class IRI="#Direccion_Logica"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#distrito_tiene"/>
+        <Class IRI="#Barrio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_Nombre"/>
+        <Class IRI="#Nombre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_codigo_postal"/>
+        <Class IRI="#Codigo_postal"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_direccion"/>
+        <Class IRI="#Direccion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_distrito"/>
+        <Class IRI="#Distrito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_equipamiento"/>
+        <Class IRI="#Equipamiento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_horario"/>
+        <Class IRI="#Horario"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_trasporte"/>
+        <Class IRI="#Trasporte"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#trasporte_por_bus"/>
+        <Class IRI="#Bus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#trasporte_por_metro"/>
+        <Class IRI="#Metro"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dirreccion_tiene"/>
+        <Class IRI="#Direccion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#distrito_tiene"/>
+        <Class IRI="#Distrito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene_Nombre"/>
+        <Class IRI="#Sitio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene_codigo_postal"/>
+        <Class IRI="#Sitio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene_direccion"/>
+        <Class IRI="#Sitio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene_distrito"/>
+        <Class IRI="#Sitio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene_equipamiento"/>
+        <Class IRI="#Sitio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene_horario"/>
+        <Class IRI="#Sitio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene_trasporte"/>
+        <Class IRI="#Sitio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#trasporte_por_bus"/>
+        <Class IRI="#Trasporte"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#trasporte_por_metro"/>
+        <Class IRI="#Trasporte"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Numero"/>
+        <Class IRI="#Codigo_postal"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Numero"/>
+        <Class IRI="#CoordenadaX"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Numero"/>
+        <Class IRI="#CoordenadaY"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Numero"/>
+        <Class IRI="#Latitud"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Numero"/>
+        <Class IRI="#Longitud"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Numero"/>
+        <Class IRI="#Numero"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#String"/>
+        <Class IRI="#Distrito"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#String"/>
+        <Class IRI="#Equipamiento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#String"/>
+        <Class IRI="#Horario"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#String"/>
+        <Class IRI="#Nombre"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#String"/>
+        <Class IRI="#Nombre_Via"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#String"/>
+        <Class IRI="#Trasporte"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Numero"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#String"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
