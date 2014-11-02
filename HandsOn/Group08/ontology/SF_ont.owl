@@ -1,0 +1,576 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://wwww.semanticweb.org/grupo08"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://wwww.semanticweb.org/grupo08">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Import>http://www.w3.org/2003/01/geo/wgs84_pos</Import>
+    <Import>http://www.opengis.net/ont/geosparql</Import>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sandra Saez Raspeño</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Alejandro Barahona Alvarez</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Alejandro Fernandez Carrera</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sergio Conde Gomez</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Group 8</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="/Building"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Crime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Mapping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/PublicTransport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ServiceRequest"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building#BuildId"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building#Category"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building#Department"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building#Geometry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/Fire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/Health"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/Other"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/PUC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/Park"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/Police"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/Port"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/PublicLibrary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/PublicWorks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/RealEstate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/Recreation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/School"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/PUC/CleanWaterProgram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/PUC/HetchHetchy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/PUC/WaterDepartement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/School/Private"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/School/Public"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/School/Private#Address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/School/Private#Children"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/School/Private#Latwgs84"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/School/Private#Lonwgs84"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/School/Private#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/School/Private#SchoolType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/School/Public#DeptPublic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/School/Public#Latwgs84"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/School/Public#Lonwgs84"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/School/Public#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Building/School/Public#SchoolType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Crime#Address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Crime#Category"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Crime#Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Crime#Description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Crime#District"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Crime#IncidentId"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Crime#Latwgs84"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Crime#Lonwgs84"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Crime#State"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Mapping#Geometry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Mapping#Media"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Mapping#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Mapping#Shparea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Mapping#Shplen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Mapping#ZoneId"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/PublicTransport#Latwgs84"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/PublicTransport#Lonwgs84"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/PublicTransport#Name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/PublicTransport#StopId"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ServiceRequest#Address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ServiceRequest#Agency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ServiceRequest#CaseId"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ServiceRequest#Category"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ServiceRequest#Close"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ServiceRequest#Latwsg84"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ServiceRequest#Lonwsg84"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ServiceRequest#Media"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ServiceRequest#Neighborhood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ServiceRequest#Open"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ServiceRequest#Request"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ServiceRequest#RequestDetails"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ServiceRequest#State"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="/Building#Department"/>
+        <Class IRI="/Building/School/Public#DeptPublic"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Building#Geometry"/>
+        <Class IRI="/Mapping#Geometry"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Building#Name"/>
+        <Class IRI="/Building/School/Public#Name"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Building/School/Private#Address"/>
+        <Class IRI="/ServiceRequest#Address"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Building/School/Private#Latwgs84"/>
+        <Class IRI="/PublicTransport#Latwgs84"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Building/School/Private#Lonwgs84"/>
+        <Class IRI="/ServiceRequest#Lonwsg84"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Building/School/Public#Latwgs84"/>
+        <Class IRI="/Crime#Latwgs84"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Building/School/Public#Latwgs84"/>
+        <Class IRI="/PublicTransport#Latwgs84"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Building/School/Public#Latwgs84"/>
+        <Class IRI="/ServiceRequest#Latwsg84"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Building/School/Public#Lonwgs84"/>
+        <Class IRI="/Crime#Lonwgs84"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Building/School/Public#Lonwgs84"/>
+        <Class IRI="/PublicTransport#Lonwgs84"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Crime#Address"/>
+        <Class IRI="/ServiceRequest#Address"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Crime#Lonwgs84"/>
+        <Class IRI="/ServiceRequest#Lonwsg84"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/PublicTransport#Lonwgs84"/>
+        <Class IRI="/ServiceRequest#Lonwsg84"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="/Building#BuildId"/>
+        <Class IRI="/Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building#Category"/>
+        <Class IRI="/Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building#Department"/>
+        <Class IRI="/Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building#Geometry"/>
+        <Class IRI="/Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building#Name"/>
+        <Class IRI="/Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/Fire"/>
+        <Class IRI="/Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/Health"/>
+        <Class IRI="/Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/Other"/>
+        <Class IRI="/Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/PUC"/>
+        <Class IRI="/Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/Park"/>
+        <Class IRI="/Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/Police"/>
+        <Class IRI="/Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/Port"/>
+        <Class IRI="/Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/PublicLibrary"/>
+        <Class IRI="/Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/PublicWorks"/>
+        <Class IRI="/Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/RealEstate"/>
+        <Class IRI="/Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/Recreation"/>
+        <Class IRI="/Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/School"/>
+        <Class IRI="/Building"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/PUC/CleanWaterProgram"/>
+        <Class IRI="/Building/PUC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/PUC/HetchHetchy"/>
+        <Class IRI="/Building/PUC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/PUC/WaterDepartement"/>
+        <Class IRI="/Building/PUC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/School/Private"/>
+        <Class IRI="/Building/School"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/School/Public"/>
+        <Class IRI="/Building/School"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/School/Private#Address"/>
+        <Class IRI="/Building/School/Private"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/School/Private#Children"/>
+        <Class IRI="/Building/School/Private"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/School/Private#Latwgs84"/>
+        <Class IRI="/Building/School/Private"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/School/Private#Lonwgs84"/>
+        <Class IRI="/Building/School/Private"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/School/Private#Name"/>
+        <Class IRI="/Building/School/Private"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/School/Private#SchoolType"/>
+        <Class IRI="/Building/School/Private"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/School/Public#DeptPublic"/>
+        <Class IRI="/Building/School/Public"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/School/Public#Latwgs84"/>
+        <Class IRI="/Building/School/Public"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/School/Public#Lonwgs84"/>
+        <Class IRI="/Building/School/Public"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/School/Public#Name"/>
+        <Class IRI="/Building/School/Public"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Building/School/Public#SchoolType"/>
+        <Class IRI="/Building/School/Public"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Crime#Address"/>
+        <Class IRI="/Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Crime#Category"/>
+        <Class IRI="/Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Crime#Date"/>
+        <Class IRI="/Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Crime#Description"/>
+        <Class IRI="/Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Crime#District"/>
+        <Class IRI="/Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Crime#IncidentId"/>
+        <Class IRI="/Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Crime#Latwgs84"/>
+        <Class IRI="/Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Crime#Lonwgs84"/>
+        <Class IRI="/Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Crime#State"/>
+        <Class IRI="/Crime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mapping#Geometry"/>
+        <Class IRI="/Mapping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mapping#Media"/>
+        <Class IRI="/Mapping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mapping#Name"/>
+        <Class IRI="/Mapping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mapping#Shparea"/>
+        <Class IRI="/Mapping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mapping#Shplen"/>
+        <Class IRI="/Mapping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mapping#ZoneId"/>
+        <Class IRI="/Mapping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/PublicTransport#Latwgs84"/>
+        <Class IRI="/PublicTransport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/PublicTransport#Lonwgs84"/>
+        <Class IRI="/PublicTransport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/PublicTransport#Name"/>
+        <Class IRI="/PublicTransport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/PublicTransport#StopId"/>
+        <Class IRI="/PublicTransport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ServiceRequest#Address"/>
+        <Class IRI="/ServiceRequest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ServiceRequest#Agency"/>
+        <Class IRI="/ServiceRequest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ServiceRequest#CaseId"/>
+        <Class IRI="/ServiceRequest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ServiceRequest#Category"/>
+        <Class IRI="/ServiceRequest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ServiceRequest#Close"/>
+        <Class IRI="/ServiceRequest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ServiceRequest#Latwsg84"/>
+        <Class IRI="/ServiceRequest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ServiceRequest#Lonwsg84"/>
+        <Class IRI="/ServiceRequest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ServiceRequest#Media"/>
+        <Class IRI="/ServiceRequest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ServiceRequest#Neighborhood"/>
+        <Class IRI="/ServiceRequest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ServiceRequest#Open"/>
+        <Class IRI="/ServiceRequest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ServiceRequest#Request"/>
+        <Class IRI="/ServiceRequest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ServiceRequest#RequestDetails"/>
+        <Class IRI="/ServiceRequest"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ServiceRequest#State"/>
+        <Class IRI="/ServiceRequest"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
