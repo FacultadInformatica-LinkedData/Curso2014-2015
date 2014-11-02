@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Analysis</title>
+        <style type="text/css">
+            table {
+                border-width: 1px;
+                border-spacing: 0px;
+                border-style: outset;
+                border-color: black;
+                border-collapse: collapse;
+                background-color: white;
+            }
+            table th {
+                border-width: 1px;
+                padding: 5px;
+                border-style: inset;
+                border-color: gray;
+                background-color: white;
+                -moz-border-radius: ;
+            }
+            table td {
+                border-width: 1px;
+                padding: 5px;
+                border-style: inset;
+                border-color: gray;
+                background-color: white;
+                -moz-border-radius: ;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Análisis de datos</h1>
+        <h2>Bibliobuses-Bibliotecas</h2>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Tipo</th>
+                <th>Usado</th>
+            </tr>
+            <tr><td>PK</td><td>Entero, único de Madrid</td><td>No</td></tr>
+            <tr><td>NOMBRE</td><td>Texto, identificador de la biblioteca</td><td>Si</td></tr>
+            <tr><td>DESCRIPCION-ENTIDAD</td><td>Texto</td><td>No</td></tr>
+            <tr><td>HORARIO</td><td>Texto</td><td>Si</td></tr>
+            <tr><td>EQUIPAMIENTO</td><td>Texto</td><td>Si</td></tr>
+            <tr><td>TRANSPORTE</td><td>Texto, metros y autobuses cercanos</td><td>Si</td></tr>
+            <tr><td>DESCRIPCION</td><td>Texto</td><td>Si</td></tr>
+            <tr><td>ACCESIBILIDAD</td><td>Entero</td><td>Si</td></tr>
+            <tr><td>CONTENT-URL</td><td>URL, única, define al recurso</td><td>Si</td></tr>
+            <tr><td>NOMBRE-VIA</td><td>Texto</td><td>Si</td></tr>
+            <tr><td>CLASE-VIAL</td><td>Texto, tipo de Via</td><td>Si</td></tr>
+            <tr><td>TIPO-NUM</td><td>Texto</td><td>No</td></tr>
+            <tr><td>NUM</td><td>Entero</td><td>Si</td></tr>
+            <tr><td>PLANTA</td><td>Null</td><td>No</td></tr>
+            <tr><td>PUERTA</td><td>Null</td><td>No</td></tr>
+            <tr><td>ESCALERAS</td><td>Null</td><td>No</td></tr>
+            <tr><td>ORIENTACION</td><td>Texto</td><td>No</td></tr>
+            <tr><td>LOCALIDAD</td><td>Texto</td><td>Si</td></tr>
+            <tr><td>PROVINCIA</td><td>Texto</td><td>Si</td></tr>
+            <tr><td>CODIGO-POSTAL</td><td>Entero</td><td>Si</td></tr>
+            <tr><td>BARRIO</td><td>Texto</td><td>Si</td></tr>
+            <tr><td>DISTRITO</td><td>Texto</td><td>Si</td></tr>
+            <tr><td>COORDENADA-X</td><td>Entero</td><td>No</td></tr>
+            <tr><td>COORDENADA-Y</td><td>Entero</td><td>No</td></tr>
+            <tr><td>LATITUD</td><td>Real</td><td>Si</td></tr>
+            <tr><td>LONGITUD</td><td>Real</td><td>Si</td></tr>
+            <tr><td>TELEFONO</td><td>Texto</td><td>Si</td></tr>
+            <tr><td>FAX</td><td>Texto</td><td>Si</td></tr>
+            <tr><td>EMAIL</td><td>Texto</td><td>Si</td></tr>
+            <tr><td>TIPO</td><td>Texto, uri interna Madrid</td><td>No</td></tr>
+        </table>
+        <h2>Eventos en Bibliotecas</h2>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Tipo</th>
+                <th>Usado</th>
+            </tr>
+            <tr><td>ID-EVENTO</td><td>Entero, identificador interno Madrid</td><td>No</td></tr>
+            <tr><td>TITULO</td><td>Texto</td><td>Si</td></tr>
+            <tr><td>PRECIO</td><td>Null</td><td>No</td></tr>
+            <tr><td>GRATUITO</td><td>Entero</td><td>Si</td></tr>
+            <tr><td>LARGA-DURACION</td><td>Entero</td><td>Si</td></tr>
+            <tr><td>DIAS-SEMANA</td><td>Texto</td><td>Si</td></tr>
+            <tr><td>DIAS-EXCLUIDOS</td><td>Texto</td><td>Si</td></tr>
+            <tr><td>FECHA</td><td>Timestamp</td><td>Si</td></tr>
+            <tr><td>FECHA-FIN</td><td>Timestamp</td><td>Si</td></tr>
+            <tr><td>HORA</td><td>Time</td><td>Si</td></tr>
+            <tr><td>DESCRIPCION</td><td>Texto</td><td>Si</td></tr>
+            <tr><td>CONTENT-URL</td><td>URL</td><td>Si</td></tr>
+            <tr><td>TITULO-ACTIVIDAD</td><td>Texto</td><td>Si</td></tr>
+            <tr><td>URL-ACTIVIDAD</td><td>URL</td><td>Si</td></tr>
+            <tr><td>URL-INSTALACION</td><td>URL</td><td>Si</td></tr>
+            <tr><td>NOMBRE-INSTALACION</td><td>Text</td><td>Si</td></tr>
+            <tr><td>COORDENADA-X</td><td>Entero</td><td>No</td></tr>
+            <tr><td>COORDENADA-Y</td><td>Entero</td><td>No</td></tr>
+            <tr><td>LATITUD</td><td>Real</td><td>Si</td></tr>
+            <tr><td>LONGITUD</td><td>Real</td><td>Si</td></tr>
+            <tr><td>TIPO</td><td>URI, interna de Madrid</td><td>No</td></tr>
+        </table>
+        <h1>Licencia de los datasets</h1>
+        <h2>Bibliobuses-Bibliotecas</h2>
+        La licencia permite la reutilización de los documentos para fines comerciales y no comerciales, por personas físicas o jurídicas, siempre que dicho uso no constituya una actividad administrativa pública.  Se permiten actividades como la copia, difusión, modificación, adaptación, extracción, reordenación y combinación de la información.</br>
+             La cesión de los datos es gratuita y no exclusiva de los derechos de propiedad intelectual. Se autorizan la realización de actividades de reproducción, distribución, comunicación pública o transformación, necesarias para desarrollar la actividad de reutilización autorizada, en cualquier modalidad y bajo cualquier formato, para todo el mundo y por el plazo máximo permitido por la Ley.
+        <h2>Eventos en Bibliotecas</h2>
+        La licencia permite la reutilización de los documentos para fines comerciales y no comerciales, por personas físicas o jurídicas, siempre que dicho uso no constituya una actividad administrativa pública.  Se permiten actividades como la copia, difusión, modificación, adaptación, extracción, reordenación y combinación de la información.</br>
+             La cesión de los datos es gratuita y no exclusiva de los derechos de propiedad intelectual. Se autorizan la realización de actividades de reproducción, distribución, comunicación pública o transformación, necesarias para desarrollar la actividad de reutilización autorizada, en cualquier modalidad y bajo cualquier formato, para todo el mundo y por el plazo máximo permitido por la Ley.
+    </body>
+</html>
