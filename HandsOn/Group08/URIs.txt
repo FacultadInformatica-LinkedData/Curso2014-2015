@@ -1,0 +1,29 @@
+http://www.semanticweb.org/group08/
+
+For 311 Service Request csv:
+
+http://www.semanticweb.org/group08/ServiceRequest/
+
+For Crime csv:
+
+http://www.semanticweb.org/group08/Crime/
+
+For GIS Mapping csv:
+
+http://www.semticweb.org/group08/Mapping
+
+For Public Trasport csv:
+
+http://www.semanticweb.org/group08/PublicTransport
+
+For Public Buildings csv:
+
+http://www.semanticweb.org/group08/Building
+
+For Public Schools csv:
+
+http://www.semanticweb.prg/group08/Building/School/Public/
+
+For Private Schools csv:
+
+http://www.semanticweb.org/group08/Building/School/Private/
