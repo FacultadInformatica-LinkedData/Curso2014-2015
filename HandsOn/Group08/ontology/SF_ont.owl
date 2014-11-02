@@ -11,24 +11,25 @@
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://wwww.semanticweb.org/grupo08"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://wwww.semanticweb.org/grupo08">
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Import>http://www.w3.org/2003/01/geo/wgs84_pos</Import>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://www.opengis.net/ont/geosparql</Import>
-    <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sandra Saez Raspeño</Literal>
-    </Annotation>
+    <Import>http://www.w3.org/2003/01/geo/wgs84_pos</Import>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Alejandro Barahona Alvarez</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Group 8</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
@@ -39,8 +40,8 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sergio Conde Gomez</Literal>
     </Annotation>
     <Annotation>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Group 8</Literal>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sandra Saez Raspeño</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="/Building"/>
@@ -568,6 +569,101 @@
         <Class IRI="/ServiceRequest#State"/>
         <Class IRI="/ServiceRequest"/>
     </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Building</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Public service building or school</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <IRI>/Crime</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Registered crime incident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <IRI>/PublicTransport</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Public transport stop</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/PublicTransport</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Public Transport</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/ServiceRequest</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">311 Service Request</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Building/Fire</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Fire Station</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Building/Other</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Other type of public building</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Building/PUC</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Public Utilities Commission</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Building/Police</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Police Departament</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Building/PublicLibrary</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Public Library</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Building/PublicWorks</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Public Works</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Building/RealEstate</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Real Estate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Building/PUC/CleanWaterProgram</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Clean Water Program</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Building/PUC/HetchHetchy</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Hetch Hetchy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Building/PUC/WaterDepartement</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Water Departement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Building/School/Private</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Private school</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Building/School/Public</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Public school</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <IRI>/Crime#State</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Status of the event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/description"/>
+        <IRI>/ServiceRequest#Media</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Image of the event</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
