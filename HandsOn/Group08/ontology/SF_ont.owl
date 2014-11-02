@@ -229,10 +229,10 @@
         <Class IRI="/ServiceRequest#Close"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/ServiceRequest#Latwsg84"/>
+        <Class IRI="/ServiceRequest#Latwgs84"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/ServiceRequest#Lonwsg84"/>
+        <Class IRI="/ServiceRequest#Lonwgs84"/>
     </Declaration>
     <Declaration>
         <Class IRI="/ServiceRequest#Media"/>
@@ -274,7 +274,7 @@
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="/Building/School/Private#Lonwgs84"/>
-        <Class IRI="/ServiceRequest#Lonwsg84"/>
+        <Class IRI="/ServiceRequest#Lonwgs84"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="/Building/School/Public#Latwgs84"/>
@@ -286,7 +286,7 @@
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="/Building/School/Public#Latwgs84"/>
-        <Class IRI="/ServiceRequest#Latwsg84"/>
+        <Class IRI="/ServiceRequest#Latwgs84"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="/Building/School/Public#Lonwgs84"/>
@@ -302,11 +302,11 @@
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="/Crime#Lonwgs84"/>
-        <Class IRI="/ServiceRequest#Lonwsg84"/>
+        <Class IRI="/ServiceRequest#Lonwgs84"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="/PublicTransport#Lonwgs84"/>
-        <Class IRI="/ServiceRequest#Lonwsg84"/>
+        <Class IRI="/ServiceRequest#Lonwgs84"/>
     </EquivalentClasses>
     <SubClassOf>
         <Class IRI="/Building#BuildId"/>
@@ -537,11 +537,11 @@
         <Class IRI="/ServiceRequest"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/ServiceRequest#Latwsg84"/>
+        <Class IRI="/ServiceRequest#Latwgs84"/>
         <Class IRI="/ServiceRequest"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/ServiceRequest#Lonwsg84"/>
+        <Class IRI="/ServiceRequest#Lonwgs84"/>
         <Class IRI="/ServiceRequest"/>
     </SubClassOf>
     <SubClassOf>
