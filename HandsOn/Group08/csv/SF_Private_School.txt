@@ -1,0 +1,9 @@
+Column					Type		Comments/Range									Poblems
+-------------------------------------------------------------------------------------------------------------------------------------
+name					String		Unique,Not Null
+grade					String		Not Unique,Not Null
+address					String 		Not Unique,Not Null
+phone					String		Not Unique,Not Null
+informatio				String		Not Unique 
+blklot					String		Not Unique,Not Null
+geometry				String		Unique??,Not Null								Coordenadas estan dentro de la ciudad?,Son unicos
