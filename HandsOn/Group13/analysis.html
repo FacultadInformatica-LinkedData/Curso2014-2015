@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Hand-on assignment 2</title>
+  </head>
+    <body>
+    	<h1>Dataset Analysis</h1>
+        
+        <a>Relevant information from the datasets:</a><br>
+        <br>
+        
+        <li>Museums: Name, Schedule, Latitude, Longitude,  Accessibility, Address, Locality, Telephone, Email<br></li>
+        <li>Monuments: Name, Schedule, Latitude, Longitude, Accessibility, Address, Locality, Telephone, Email<br></li>
+        <li>Tourism Office: Name, Schedule, Latitude, Longitude, Accessibility, Address, Locality, Telephone, Email<br></li>
+        <li>Tourist information Points: Name, Schedule, Latitude, Longitude, Accessibility, Address, Locality, Telephone, Email<br></li>
+        <br>
+        
+		<table border="5" style="width:100%">
+            <tr>
+                <th>Column</th>
+                <th>Type</th>
+                <th>Comments/Range</th>
+                <th>Problems</th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>String</td>
+                <td>Unique, not empty values</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Schedule</td>
+                <td>String</td>
+                <td>Empty values</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Latitude</td>
+                <td>Decimal</td>
+                <td>40.41:40.47</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Longitude</td>
+                <td>Decimal</td>
+                <td>-3.72:-3.57</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Accessibility</td>
+                <td>Integer</td>
+                <td>Not empty values</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>String</td>
+                <td>Not unique</td>
+            <td>Non-descriptive address: -, --</td>
+            </tr>
+            <tr>
+                <td>Locality</td>
+                <td>String</td>
+                <td>Not unique</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Telephone</td>
+                <td>String</td>
+                <td>Unique, empty values</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>String</td>
+                <td>Empty values, not unique</td>
+                <td></td>
+            </tr>
+        </table> 
+		
+        <h1>Analyse Licensing of the Data Source</h1>
+        
+        Museos de la comunidad de madrid - Última actualización: 12/03/2014 - <a target="_blank" href="http://goo.gl/StZ1iO">Fuente</a><br>
+        Monumentos y edificios artísticos - Última actualización: 24/09/2014 - <a target="_blank" href="http://goo.gl/3E4cbb">Fuente</a><br>
+        Oficinas de turismo en Madrid - Última actualización: 22/05/2014 - <a target="_blank" href="http://goo.gl/PDs0HH">Fuente</a><br>
+        Puntos de información turística - Última actualización: 12/03/2014- <a target="_blank" href="http://goo.gl/hH6b1N">Fuente</a><br>
+        <br>
+
+        Autorización de reutilización y cesión no exclusiva de derechos de propiedad intelectual.<br>
+        <br>
+        El dueño de los derechos y el publicador es la Comunidad de Madrid.
+        
+        Más detallado <a href="http://goo.gl/deYyeo"> Datos Abiertos Madrid</a>
+        
+        <h1>Define Resource Naming Strategy</h1>
+            <h3>URI form</h3>
+            <b>Domain:</b> 
+                http://example.org/ <br>
+            <b>Ontological terms path:</b>
+                http://example.org/ontology/TourismMadrid#<br>
+                Example: http://example.org/ontology/TourismMadrid#Museum<br>
+            <b>Individuals path:</b> 
+                http://example.org/resource/<br>
+                Example: http://example.org/resource/Museum/ReinaSofia
+				
+		
+		
+		
+    </body>
+</html>
