@@ -1,130 +1,130 @@
-description,name,grade,address,phone,informatio,blklot,geometry
-,Adda Clevenger Junior Preparatory,K - 8,180 Fair Oaks Street,415/824-2240,School for gifted children,3631014,"<Point><coordinates>-122.424465,37.753739</coordinates></Point>"
-,Brandeis Hillel Day School,K - 8,655 Brotherhood Way,415/406-1035,Jewish day school,7380039,"<Point><coordinates>-122.472212,37.712217</coordinates></Point>"
-,Childrens Day School,PK- 8,333 Dolores Street,415/861-5432,Expanding to 8th grade soon.,3567056,"<Point><coordinates>-122.425708,37.763858</coordinates></Point>"
-,Convent of Sacred Heart Elementary School,K - 8,2222 Broadway,415/563-2900,Catholic; girls school; part of Schools of the Sacred Heart,0564070,"<Point><coordinates>-122.43396,37.794865</coordinates></Point>"
-,Epiphany School,1 - 8,600 Italy Avenue,415/337-4030,Catholic,6353001,"<Point><coordinates>-122.434533,37.715723</coordinates></Point>"
-,Hamlin School,K - 8,2120 Broadway Street,415/922-0300,Girls school,0565024,"<Point><coordinates>-122.432554,37.795073</coordinates></Point>"
-,Lisa Hampner Hebrew Academy,PK - 12,645 14th Avenue,415/752-7333,Jewish day school,1630007,"<Point><coordinates>-122.472874,37.776097</coordinates></Point>"
-,Immaculate Conception Academy,9 - 12,3625 24th Street,415/824-2052,Catholic; all girls,6512027,"<Point><coordinates>-122.423347,37.751753</coordinates></Point>"
-,International Christian School,PK - 8,42 Waller Street,415/863-1691,First Baptist Church,0856003,"<Point><coordinates>-122.42423,37.772228</coordinates></Point>"
-,Laurel School,PK - 8,350 9th Avenue,415/752-3567,<Null>,1440011,"<Point><coordinates>-122.467013,37.781832</coordinates></Point>"
-,Live Oak School,K - 8,1555 Mariposa Street,415/861-8840,<Null>,4005006,"<Point><coordinates>-122.398929,37.763484</coordinates></Point>"
-,Meadows-Livingstone School,1 - 6,1499 Potrero Avenue,415/695-7735,<Null>,4277016,"<Point><coordinates>-122.404838,37.749628</coordinates></Point>"
-,Mission Dolores School,K - 8,3371 16th Street,415/861-7673,Catholic,3566055,"<Point><coordinates>-122.427713,37.76407</coordinates></Point>"
-,Our Lady of Visitacion School,K - 8,795 Sunnydale Ave,415/239-7840,Catholic,6309122,"<Point><coordinates>-122.409412,37.709763</coordinates></Point>"
-,Presidio Hill School,K - 8,3839 Washington Street,415/751-9318,<Null>,0992034,"<Point><coordinates>-122.45606,37.788584</coordinates></Point>"
-,St. Anthony-Immaculate Conception School,K - 8,299 Precita Avenue,415/648-2008,Catholic,5502003,"<Point><coordinates>-122.41425,37.747502</coordinates></Point>"
-,St. Brendan's School,K - 8,940 Laguna Honda Boulevard,415/731-2665,Catholic,2915001,"<Point><coordinates>-122.455924,37.742854</coordinates></Point>"
-,St. Cecilia School,K - 8,660 Vicente Street,415/731-8400,Catholic,2418004B,"<Point><coordinates>-122.47401,37.73995</coordinates></Point>"
-,St. Charles School,K - 8,3250 18th Street,415/861-7652,Catholic,3574085,"<Point><coordinates>-122.416443,37.762323</coordinates></Point>"
-,Stratford School,K - 2,301 De Montfort Avenue,415/333-3134,Catholic,6940001,"<Point><coordinates>-122.461561,37.723148</coordinates></Point>"
-,St. Gabriel School,K - 8,2550 41st Avenue,415/566-0314,Catholic,2441052,"<Point><coordinates>-122.498771,37.739532</coordinates></Point>"
-,St. James School,K - 8,321 Fair Oaks Street,415/647-8972,Catholic,6512030,"<Point><coordinates>-122.423768,37.751653</coordinates></Point>"
-,St. John's School,K - 8,925 Chenery Street,415/584-8383,Catholic,6736034,"<Point><coordinates>-122.437496,37.734789</coordinates></Point>"
-,St. Mary's Chinese Day School,K - 8,910 Broadway,415/929-4690,Catholic,0149009,"<Point><coordinates>-122.412375,37.797475</coordinates></Point>"
-,Kipp Bayview Academy,5 - 8,1060 Key Avenue,415/467-2522,Private?,4994002,"<Point><coordinates>-122.396219,37.719517</coordinates></Point>"
-,St. Peter's School,K - 8,1266 Florida Street,415/647-8662,Catholic,4269028,"<Point><coordinates>-122.41036,37.7517</coordinates></Point>"
-,St. Philip's School,K - 8,665 Elizabeth Street,415/824-8467,Catholic,2831024,"<Point><coordinates>-122.435538,37.751758</coordinates></Point>"
-,Sts. Peter and Paul Salesian School,K - 8,660 Filbert Street,415/421-5219,Catholic,0089016,"<Point><coordinates>-122.410437,37.801422</coordinates></Point>"
-,San Francisco Waldorf School,K - 12,2938 Washington Street,415/931-2750,<Null>,0980082,"<Point><coordinates>-122.441941,37.79091</coordinates></Point>"
-,Stuart Hall High School,9 - 12,1715 Octavia Street,415/563-2900,Opened in Fall 2000; Catholic boys school; part of Schools of the Sacred Heart,0663002,"<Point><coordinates>-122.427294,37.788251</coordinates></Point>"
-,Synergy School,K - 8,1387 Valencia Street,415/567-6177,Moved to new site in Fall 1999.,6515037,"<Point><coordinates>-122.4202,37.750874</coordinates></Point>"
-,West Portal Lutheran School (1-3),1 - 3,1711 37th Avenue,415/665-6330,1-3 campus,2012049,"<Point><coordinates>-122.496172,37.754918</coordinates></Point>"
-,Archbishop Riordan High School,9 - 12,175 Phelan Avenue,415/586-8200,Catholic,3180002,"<Point><coordinates>-122.454277,37.727921</coordinates></Point>"
-,Bethel Center,9 - 12,2557 Alemany Boulevard,415/586-4977,Special Ed Program,7045001A,"<Point><coordinates>-122.446511,37.714723</coordinates></Point>"
-,Cathedral School for Boys,K - 8,1275 Sacramento Street,415/771-6600,Episcopal Boys school,0246001,"<Point><coordinates>-122.413383,37.792008</coordinates></Point>"
-,Chinese American International School,PK - 8,150 Oak Street,415/865-6000,Bilingual curriculum taught in English and Mandarin Chinese,0833003,"<Point><coordinates>-122.421832,37.775381</coordinates></Point>"
-,Cornerstone Academy - Campus 1,PK - 4,801 Silver Avenue,415/587-7256,"(PK - 4 campus) Preschool and kindergarten instruction is offered in bilingual Cantonese, Chinese, English; Chinese is offered as a 2nd language.",5900A025,"<Point><coordinates>-122.418325,37.729583</coordinates></Point>"
-,Cornerstone Academy - Campus 2,5 - 10,501 Cambridge Street,415/585-5183,"(5 - 10 campus) Preschool and kindergarten instruction is offered in bilingual Cantonese, Chinese, English; Chinese is offered as a 2nd language.",5992A059,"<Point><coordinates>-122.416847,37.724953</coordinates></Point>"
-,Corpus Christi School,K - 8,75 Francis Street,415/587-7014,Catholic,6796052,"<Point><coordinates>-122.435264,37.727179</coordinates></Point>"
-,DeMarillac Middle School,6 - 8,135 Golden Gate Avenue,415/552-5220,"Opened in 2001, Catholic, serves underprivileged children in the Tenderloin",0349012,"<Point><coordinates>-122.413031,37.781666</coordinates></Point>"
-,Discovery Center School,K - 8,65 Ocean Avenue,415/333-6609,<Null>,6954018,"<Point><coordinates>-122.438326,37.723301</coordinates></Point>"
-,Drew College Preparatory School,9 - 12,2901 California Street,415/409-3739,<Null>,1029001,"<Point><coordinates>-122.442291,37.78756</coordinates></Point>"
-,Ecole Notre Dames des Victoires,K - 8,659 Pine Street,415/421-0069,Catholic,0271023,"<Point><coordinates>-122.406467,37.791117</coordinates></Point>"
-,Fellowship Academy,PK - 8,495 Cambridge Street,415/239-0511,<Null>,5992A060,"<Point><coordinates>-122.41732,37.725719</coordinates></Point>"
-,Freeman School,K - 8,862 28th Avenue,415/379-6949,formerly Shalom School,1670009,"<Point><coordinates>-122.486934,37.773382</coordinates></Point>"
-,Hillwood Academic Day School,K - 8,2521 Scott Street,415/931-0400,<Null>,0961002,"<Point><coordinates>-122.440119,37.793323</coordinates></Point>"
-,Holy Name School,K - 8,1560 40th Avenue,415/731-4077,,1885053,"<Point><coordinates>-122.498905,37.757697</coordinates></Point>"
-,Holy Trinity Orthodox School,K - 8,999 Brotherhood Way,415/581-8451,<Null>,7380016,"<Point><coordinates>-122.482003,37.713867</coordinates></Point>"
-,Katherine Delmar Burke School,K - 8,7070 California Street,415/751-0177,Girls school,1392037,"<Point><coordinates>-122.4934,37.784938</coordinates></Point>"
-,Katherine Michiels School,PK - 5,1335 Guerrero Street,415/821-1434,Offers program that emphasizes the arts and Spanish. Special program for kids with Dyslexia/Learning Disabilities.,6532026,"<Point><coordinates>-122.42231,37.749818</coordinates></Point>"
-,Kittredge School,1 - 8,2355 Lake Street,415/750-8390,,1384016,"<Point><coordinates>-122.484957,37.785507</coordinates></Point>"
-,Krouzian Armenian School,PK - 8,825 Brotherhood Way,415/586-8686,Christian bilingual school,7380026,"<Point><coordinates>-122.478318,37.713841</coordinates></Point>"
-,La Mel School,K - 12,1801 Bush Street,415/931-1972,Special ed school,0674001,"<Point><coordinates>-122.427216,37.787503</coordinates></Point>"
-,Lick Wilmerding High School,9 - 12,755 Ocean Avenue,415/333-4021,<Null>,6948023,"<Point><coordinates>-122.44898,37.722322</coordinates></Point>"
-,Lycee Francais La Perouse San Francisco,PK - 12,755 Ashbury Street,415/661-5232,French school,1254011,"<Point><coordinates>-122.446968,37.76797</coordinates></Point>"
-,Maria Montessori Elementary School,PK - 6,678 Portola Drive,415/731-8188,<Null>,2892004,"<Point><coordinates>-122.453427,37.745055</coordinates></Point>"
-,Mercy High School,9 - 12,3250 19th Avenue,415/334-0525,Catholic; all girls,7231003,"<Point><coordinates>-122.473589,37.7295</coordinates></Point>"
-,Rivendell School,K - 5,4501 Irving Street,415/566-7454,<Null>,1801052,"<Point><coordinates>-122.506305,37.762028</coordinates></Point>"
-,Mother Goose School,PK - 2,334 28th Avenue,415/221-6133,<Null>,1406035,"<Point><coordinates>-122.487839,37.783022</coordinates></Point>"
-,Russian-American International School,K - 4,1250 Quintara Street,415/837-0901,<Null>,2141008A,"<Point><coordinates>-122.479099,37.74876</coordinates></Point>"
-,Sacred Heart Cathedral Preparatory,9 - 12,1055 Ellis Street,415/775-6626,Catholic,0737001,"<Point><coordinates>-122.423188,37.783287</coordinates></Point>"
-,St. Anne School,K - 8,1320 14th Avenue,415/664-7977,Catholic; Chinese language classes offered,1768026,"<Point><coordinates>-122.471095,37.76341</coordinates></Point>"
-,St. Brigid School,K - 8,2250 Franklin Street,415/673-4523,Catholic,0595013,"<Point><coordinates>-122.422326,37.794657</coordinates></Point>"
-,St. Elizabeth School,K - 8,450 Somerset Street,415/468-3247,Catholic,6044007,"<Point><coordinates>-122.407667,37.725689</coordinates></Point>"
-,St. Finn Barr School,K - 8,419 Hearst Avenue,415/333-1800,Catholic,3121037,"<Point><coordinates>-122.447411,37.730445</coordinates></Point>"
-,St. Ignatius College Preparatory,9 - 12,2001 37th Avenue,415/731-7500,Catholic,2094006,"<Point><coordinates>-122.496384,37.746924</coordinates></Point>"
-,St. Monica School,K - 8,5920 Geary Boulevard,415/751-9564,Catholic,1455017,"<Point><coordinates>-122.483068,37.780498</coordinates></Point>"
-,St. Thomas the Apostle School,K - 8,3801 Balboa Street,415/221-2711,Catholic,1605001,"<Point><coordinates>-122.499773,37.775097</coordinates></Point>"
-,St. Vincent de Paul School,K - 8,2350 Green Street,415/346-5505,Catholic,0538007,"<Point><coordinates>-122.437854,37.796112</coordinates></Point>"
-,Sts. Cyril and Methodius High School,9  - 12,6200 Geary Boulevard,415/752-5122,"Offers program in Orthodox religion, Russian language, literature and history; classes on Tues & Thurs 4:10 - 6:00 pm, Sat 9:00 am - 1:30 pm",1458018,"<Point><coordinates>-122.486024,37.780342</coordinates></Point>"
-,San Francisco Adventist School,K - 10,66 Geneva Avenue,415/585-5550,<Null>,6976016,"<Point><coordinates>-122.45119,37.721714</coordinates></Point>"
-,San Francisco Chinese Parents Community,PK - 5,843 Stockton Street,415/391-5564,<Null>,0224002,"<Point><coordinates>-122.408182,37.793737</coordinates></Point>"
-,San Francisco Christian School,K - 12,25 Whittier Street,415/586-1117,<Null>,6474031,"<Point><coordinates>-122.447754,37.710037</coordinates></Point>"
-,San Francisco City Academy,K - 8,302 Eddy Street,415/673-2992,<Null>,0333006,"<Point><coordinates>-122.412942,37.78408</coordinates></Point>"
-,San Francisco Day School,K - 8,350 Masonic Avenue,415/931-2422,<Null>,1149029,"<Point><coordinates>-122.446283,37.778042</coordinates></Point>"
-,San Francisco Friends School,K - 8,117 Diamond Street,415/552-8500,Info: Accepting applications in K - 2 for 2003; growing to 8th grade,2694028,"<Point><coordinates>-122.436799,37.760124</coordinates></Point>"
-,San Francisco University High School,9 - 12,3065 Jackson Street,415/447-3100,<Null>,0982034,"<Point><coordinates>-122.44535,37.790655</coordinates></Point>"
-,Muhammad University of Islam,K - 12,5048 3rd Street,415/309-1524,Islamic,5338006,"<Point><coordinates>-122.391768,37.732795</coordinates></Point>"
-,Sand Paths Academy,6 - 12,1218 South Van Ness Avenue,415/826-2662,Specialize in education for emotionally disturbed children with learning differences,3762041,"<Point><coordinates>-122.41672,37.753465</coordinates></Point>"
-,S.R. Martin College Preparatory,9 - 12,2660 San Bruno Avenue,415/715-0102,<Null>,5982003A,"<Point><coordinates>-122.404095,37.727937</coordinates></Point>"
-,Sterne School,5 - 12,2690 Jackson Street,415/922-6081,Education for students with learning difficulties,0585012A,"<Point><coordinates>-122.439357,37.792057</coordinates></Point>"
-,The San Francisco School,PK - 8,300 Gaven Street,415/239-5065,<Null>,5847032,"<Point><coordinates>-122.411698,37.73278</coordinates></Point>"
-,Cal Fed Youth Chance High,9 - 12,220 Golden Gate Avenue,415/614-0900,,0345004,"<Point><coordinates>-122.414273,37.782099</coordinates></Point>"
-,Town School for Boys,K - 8,2750 Jackson Street,415/921-3747,Boys school,0978018,"<Point><coordinates>-122.440129,37.792034</coordinates></Point>"
-,Urban School of San Francisco,9 - 12,1563 Page Street,415/626-2919,<Null>,1232032,"<Point><coordinates>-122.446384,37.770749</coordinates></Point>"
-,Voice of Pentecost Academy,K - 12,1970 Ocean Avenue,415/334-0105,<Null>,3280018,"<Point><coordinates>-122.463974,37.726364</coordinates></Point>"
-,"West Portal Lutheran School (K,4-8)","K, 4 - 8",200 Sloat Boulevard,415/665-6330,"K, 4-8 campus",2540004B,"<Point><coordinates>-122.473452,37.735356</coordinates></Point>"
-,Woodside International School,6 - 12,1555 Irving Street,415/564-1063,<Null>,1771041,"<Point><coordinates>-122.474748,37.763432</coordinates></Point>"
-,Youth Chance High School,9 - 12,25 14th Street,415/861-1632,Info: Alternative high school program sponsored by the Downtown YMCA,3550012,"<Point><coordinates>-122.414142,37.768336</coordinates></Point>"
-,Zion Lutheran School,K - 8,495 09th Avenue,415/221-7500,<Null>,1535016,"<Point><coordinates>-122.467595,37.779218</coordinates></Point>"
-,Convent of the Sacred Heart High School,9-12,2222 Broadway,415/563-2900,Catholic; girls school; part of Schools of the Sacred Heart,0564070,"<Point><coordinates>-122.43396,37.794865</coordinates></Point>"
-,Open Book School,9 - 11,1832 Buchanan Street,415/563-6747,,0675051,"<Point><coordinates>-122.429854,37.786982</coordinates></Point>"
-,Montessori House Of Children,K - 2,1187 Franklin Street,415/441-7691,,0713034,"<Point><coordinates>-122.423414,37.785047</coordinates></Point>"
-,French-American International School,PK-12,150 Oak Street,415/558-2000,Offers programs of study in French and English; Shares campus with Chinese-American International School.,0833003,"<Point><coordinates>-122.421832,37.775381</coordinates></Point>"
-,Walden High Academy,8 - 12,214 Haight Street,415/252-7253,,0851029,"<Point><coordinates>-122.426145,37.77294</coordinates></Point>"
-,Cow Hollow Kindergarten,K,2521 Scott Street,415/931-0400,,0961002,"<Point><coordinates>-122.440119,37.793323</coordinates></Point>"
-,One Fifty Parker Avenue School,K,150 Parker Avenue,415/221-0294,,1065035,"<Point><coordinates>-122.454098,37.782818</coordinates></Point>"
-,Pacific Primary,K,1500 Grove Street,415/346-0906,,1184009,"<Point><coordinates>-122.441736,37.775657</coordinates></Point>"
-,Erikson School,,1155 Page Street,415/920-5020,,1236025,"<Point><coordinates>-122.439704,37.771605</coordinates></Point>"
-,Olympia Institute,7 - 12,950 Clement Street,415/221-1218,,1423022,"<Point><coordinates>-122.469526,37.782892</coordinates></Point>"
-,Star of the Sea Elementary,K - 8,360 9th Avenue,415/221-8558,Catholic,1440011,"<Point><coordinates>-122.467013,37.781832</coordinates></Point>"
-,Challenge To Learning,7 - 12,924 Balboa Street,415/221-9200,,1553019,"<Point><coordinates>-122.468844,37.777262</coordinates></Point>"
-,Oakes Children's Center,,1348 10th Avenue,415/564-2310,,1764031,"<Point><coordinates>-122.46699,37.763075</coordinates></Point>"
-,Sunset Bible,,1690 21st Avenue,415/564-3040,,1923019,"<Point><coordinates>-122.478584,37.756269</coordinates></Point>"
-,Parkside Preschool And Kindergarten,K,2425 19th Avenue,415/564-6250,,2406005,"<Point><coordinates>-122.475988,37.742514</coordinates></Point>"
-,Edgewood Center For Children and Families,,1801 Vicente Street,415/681-3211,,2468A003,"<Point><coordinates>-122.486256,37.737985</coordinates></Point>"
-,Eureka Learning Center,K,464 Diamond Street,415/648-0380,,2768011,"<Point><coordinates>-122.437008,37.754966</coordinates></Point>"
-,Holy Family Day Home,K,299 Dolores Street,415/565-504,,3556025,"<Point><coordinates>-122.425842,37.764926</coordinates></Point>"
-,Rise Institute,,1760 Cesar Chavez,415/641-1878,,4288006,"<Point><coordinates>-122.39495,37.750466</coordinates></Point>"
-,Joshua Marie Cameron Academy - Whitney,6 - 9,100 Whitney Yound Circle,415/642-1134,,4711006,"<Point><coordinates>-122.384213,37.73404</coordinates></Point>"
-,Joshua Marie Cameron Academy - Plaza Campus,9 -12,3801 Third Street,415/642-1134,,5235012,"<Point><coordinates>-122.387432,37.74194</coordinates></Point>"
-,Living Hope Christian,K - 12,1209 Geneva Avenue,415/586-4320,,6404017,"<Point><coordinates>-122.435828,37.714337</coordinates></Point>"
-,Lakeside Presbyterian Center For Children,PK-K,201 Eucalyptus Drive,415/564-5044,Early Childhood Program/Day Care Center,7295001,"<Point><coordinates>-122.47528,37.730674</coordinates></Point>"
-,St. Thomas More School,K-8,50 Thomas More Way,415/337-0100,Catholic,7380010,"<Point><coordinates>-122.473568,37.712567</coordinates></Point>"
-,St. Stephen's School,K-8,401 Eucalyptus Drive,415/664-8331,Catholic,7295011,"<Point><coordinates>-122.477721,37.730662</coordinates></Point>"
-,Sacred Heart/Saint Dominic School (5-8),5-8,735 Fell Street,415/621-8035,,0828022A,"<Point><coordinates>-122.430153,37.7747</coordinates></Point>"
-,Jewish Community High School for Boys,9 -12,1835 Ellis Street,415/345-9777,,0729046,"<Point><coordinates>-122.436552,37.781354</coordinates></Point>"
-,St. John of San Francisco Orthodox Academy,K-12,6210 Geary Boulevard,415/221-3484,Centered around Orthodox calendar and life,1458018,"<Point><coordinates>-122.486024,37.780342</coordinates></Point>"
-,Stuart Hall for Boys School,K - 8,2252 Broadway,415/563-2900,Catholic boys school; part of the Schools of the Sacred Heart,0564070,"<Point><coordinates>-122.43396,37.794865</coordinates></Point>"
-,The Scandanavian School,PK,20 Woodside Avenue,415/665-3276,Full time immersion preschool with language classes for children and adults.,2888A001,"<Point><coordinates>-122.457905,37.746575</coordinates></Point>"
-,The Bay School of San Francisco,9 - 12,35 Keyes Avenue,415/561-5800,"In the Presidio; Independent, co-ed, college preparatory school with a curricular emphasis on science and technology, ethics ...",1300001,"<Point><coordinates>-122.45574,37.800649</coordinates></Point>"
-,Hergl School,N/A,1570 Greenwich Street,415/474-0191,"Highly structured, developmentally based program for 10 children who require intensive teaching",0503011,"<Point><coordinates>-122.425722,37.800375</coordinates></Point>"
-,Alta Vista School,K - 12,245 Valencia Street,415/437-4700,,3532091,"<Point><coordinates>-122.421816,37.76894</coordinates></Point>"
-,Cornerstone Academy Kindergarten,K,1925 Lawton Street,415/665-9747,Babtist,1918048,"<Point><coordinates>-122.483662,37.757418</coordinates></Point>"
-,Fei Tian Academy of the Arts California,6 - 12,101 15th Street,415/431-3161,,3937001,"<Point><coordinates>-122.402129,37.767152</coordinates></Point>"
-,Megan Furth Academy,k - 8,2445 Pine Street,415/346-9500,Roman Catholic,658001,"<Point><coordinates>-122.435948,37.787471</coordinates></Point>"
-,Spectrum Center Inc,6 - 12,95 Gough Street,415/861-5806,,0853020,"<Point><coordinates>-122.422715,37.773784</coordinates></Point>"
-,St. Paul's,k - 8,1690 Church Street,415/648-2055,Roman Catholic,6619003,"<Point><coordinates>-122.427105,37.743916</coordinates></Point>"
-,Wen Jian Ying,K - 12,259 Judson Avenue,415/586-6987,,3181024,"<Point><coordinates>-122.447567,37.72802</coordinates></Point>"
+NAME,TYPE,CHILDREN,ADDRESS,LATWGS84,LONWGS84
+Adda Clevenger Junior Preparatory,GIFTED,K - 8,180 Fair Oaks Street,37.753739,-122.424465
+Brandeis Hillel Day School,JEWISH,K - 8,655 Brotherhood Way,37.712217,-122.472212
+Childrens Day School,PRESCHOOL,PK- 8,333 Dolores Street,37.763858,-122.425708
+Convent of Sacred Heart Elementary School,"GIRLS, CATHOLIC",K - 8,2222 Broadway,37.794865,-122.43396
+Epiphany School,CATHOLIC,1 - 8,600 Italy Avenue,37.715723,-122.434533
+Hamlin School,GIRLS,K - 8,2120 Broadway Street,37.795073,-122.432554
+Lisa Hampner Hebrew Academy,JEWISH,PK - 12,645 14th Avenue,37.776097,-122.472874
+Immaculate Conception Academy,"GIRLS, CATHOLIC",9 - 12,3625 24th Street,37.751753,-122.423347
+International Christian School,BAPTIST,PK - 8,42 Waller Street,37.772228,-122.42423
+Laurel School,,PK - 8,350 9th Avenue,37.781832,-122.467013
+Live Oak School,,K - 8,1555 Mariposa Street,37.763484,-122.398929
+Meadows-Livingstone School,,1 - 6,1499 Potrero Avenue,37.749628,-122.404838
+Mission Dolores School,CATHOLIC,K - 8,3371 16th Street,37.76407,-122.427713
+Our Lady of Visitacion School,CATHOLIC,K - 8,795 Sunnydale Ave,37.709763,-122.409412
+Presidio Hill School,,K - 8,3839 Washington Street,37.788584,-122.45606
+St. Anthony-Immaculate Conception School,CATHOLIC,K - 8,299 Precita Avenue,37.747502,-122.41425
+St. Brendan's School,CATHOLIC,K - 8,940 Laguna Honda Boulevard,37.742854,-122.455924
+St. Cecilia School,CATHOLIC,K - 8,660 Vicente Street,37.73995,-122.47401
+St. Charles School,CATHOLIC,K - 8,3250 18th Street,37.762323,-122.416443
+Stratford School,CATHOLIC,K - 2,301 De Montfort Avenue,37.723148,-122.461561
+St. Gabriel School,CATHOLIC,K - 8,2550 41st Avenue,37.739532,-122.498771
+St. James School,CATHOLIC,K - 8,321 Fair Oaks Street,37.751653,-122.423768
+St. John's School,CATHOLIC,K - 8,925 Chenery Street,37.734789,-122.437496
+St. Mary's Chinese Day School,CATHOLIC,K - 8,910 Broadway,37.797475,-122.412375
+Kipp Bayview Academy,,5 - 8,1060 Key Avenue,37.719517,-122.396219
+St. Peter's School,CATHOLIC,K - 8,1266 Florida Street,37.7517,-122.41036
+St. Philip's School,CATHOLIC,K - 8,665 Elizabeth Street,37.751758,-122.435538
+Sts. Peter and Paul Salesian School,CATHOLIC,K - 8,660 Filbert Street,37.801422,-122.410437
+San Francisco Waldorf School,,K - 12,2938 Washington Street,37.79091,-122.441941
+Stuart Hall High School,"BOYS, CATHOLIC",9 - 12,1715 Octavia Street,37.788251,-122.427294
+Synergy School,,K - 8,1387 Valencia Street,37.750874,-122.4202
+West Portal Lutheran School (1-3),PRESCHOOL,1 - 3,1711 37th Avenue,37.754918,-122.496172
+Archbishop Riordan High School,CATHOLIC,9 - 12,175 Phelan Avenue,37.727921,-122.454277
+Bethel Center,ED,9 - 12,2557 Alemany Boulevard,37.714723,-122.446511
+Cathedral School for Boys,"BOYS, EPISCOPAL",K - 8,1275 Sacramento Street,37.792008,-122.413383
+Chinese American International School,"BILINGUAL (ENGLISH, CHINESE)",PK - 8,150 Oak Street,37.775381,-122.421832
+Cornerstone Academy - Campus 1,"PRESCHOOL, BILINGUAL (ENGLISH, CANTONESE)",PK - 4,801 Silver Avenue,37.729583,-122.418325
+Cornerstone Academy - Campus 2,"BACKGROUND, BILINGUAL (ENGLISH, CANTONESE)",5 - 10,501 Cambridge Street,37.724953,-122.416847
+Corpus Christi School,CATHOLIC,K - 8,75 Francis Street,37.727179,-122.435264
+DeMarillac Middle School,"UNDERPRIVILEGED, CATHOLIC",6 - 8,135 Golden Gate Avenue,37.781666,-122.413031
+Discovery Center School,,K - 8,65 Ocean Avenue,37.723301,-122.438326
+Drew College Preparatory School,,9 - 12,2901 California Street,37.78756,-122.442291
+Ecole Notre Dames des Victoires,CATHOLIC,K - 8,659 Pine Street,37.791117,-122.406467
+Fellowship Academy,,PK - 8,495 Cambridge Street,37.725719,-122.41732
+Freeman School,SHALOM,K - 8,862 28th Avenue,37.773382,-122.486934
+Hillwood Academic Day School,,K - 8,2521 Scott Street,37.793323,-122.440119
+Holy Name School,,K - 8,1560 40th Avenue,37.757697,-122.498905
+Holy Trinity Orthodox School,,K - 8,999 Brotherhood Way,37.713867,-122.482003
+Katherine Delmar Burke School,GIRLS,K - 8,7070 California Street,37.784938,-122.4934
+Katherine Michiels School,"ART, SPANISH, DYSLEXIA",PK - 5,1335 Guerrero Street,37.749818,-122.42231
+Kittredge School,,1 - 8,2355 Lake Street,37.785507,-122.484957
+Krouzian Armenian School,CHRISTIAN,PK - 8,825 Brotherhood Way,37.713841,-122.478318
+La Mel School,ED,K - 12,1801 Bush Street,37.787503,-122.427216
+Lick Wilmerding High School,,9 - 12,755 Ocean Avenue,37.722322,-122.44898
+Lycee Francais La Perouse San Francisco,FRENCH,PK - 12,755 Ashbury Street,37.76797,-122.446968
+Maria Montessori Elementary School,,PK - 6,678 Portola Drive,37.745055,-122.453427
+Mercy High School,"GIRLS, CATHOLIC",9 - 12,3250 19th Avenue,37.7295,-122.473589
+Rivendell School,,K - 5,4501 Irving Street,37.762028,-122.506305
+Mother Goose School,,PK - 2,334 28th Avenue,37.783022,-122.487839
+Russian-American International School,,K - 4,1250 Quintara Street,37.74876,-122.479099
+Sacred Heart Cathedral Preparatory,CATHOLIC,9 - 12,1055 Ellis Street,37.783287,-122.423188
+St. Anne School,"CATHOLIC, BILINGUAL (ENGLISH, CHINESE)",K - 8,1320 14th Avenue,37.76341,-122.471095
+St. Brigid School,CATHOLIC,K - 8,2250 Franklin Street,37.794657,-122.422326
+St. Elizabeth School,CATHOLIC,K - 8,450 Somerset Street,37.725689,-122.407667
+St. Finn Barr School,CATHOLIC,K - 8,419 Hearst Avenue,37.730445,-122.447411
+St. Ignatius College Preparatory,CATHOLIC,9 - 12,2001 37th Avenue,37.746924,-122.496384
+St. Monica School,CATHOLIC,K - 8,5920 Geary Boulevard,37.780498,-122.483068
+St. Thomas the Apostle School,CATHOLIC,K - 8,3801 Balboa Street,37.775097,-122.499773
+St. Vincent de Paul School,CATHOLIC,K - 8,2350 Green Street,37.796112,-122.437854
+Sts. Cyril and Methodius High School,"ORTHODOX, BILINGUAL (ENGLISH, RUSSIAN)",9  - 12,6200 Geary Boulevard,37.780342,-122.486024
+San Francisco Adventist School,,K - 10,66 Geneva Avenue,37.721714,-122.45119
+San Francisco Chinese Parents Community,,PK - 5,843 Stockton Street,37.793737,-122.408182
+San Francisco Christian School,,K - 12,25 Whittier Street,37.710037,-122.447754
+San Francisco City Academy,,K - 8,302 Eddy Street,37.78408,-122.412942
+San Francisco Day School,,K - 8,350 Masonic Avenue,37.778042,-122.446283
+San Francisco Friends School,,K - 8,117 Diamond Street,37.760124,-122.436799
+San Francisco University High School,,9 - 12,3065 Jackson Street,37.790655,-122.44535
+Muhammad University of Islam,ISLAMIC,K - 12,5048 3rd Street,37.732795,-122.391768
+Sand Paths Academy,DISTURBED CHILDREN,6 - 12,1218 South Van Ness Avenue,37.753465,-122.41672
+S.R. Martin College Preparatory,,9 - 12,2660 San Bruno Avenue,37.727937,-122.404095
+Sterne School,LEARNING DIFFICULTIES,5 - 12,2690 Jackson Street,37.792057,-122.439357
+The San Francisco School,,PK - 8,300 Gaven Street,37.73278,-122.411698
+Cal Fed Youth Chance High,,9 - 12,220 Golden Gate Avenue,37.782099,-122.414273
+Town School for Boys,BOYS,K - 8,2750 Jackson Street,37.792034,-122.440129
+Urban School of San Francisco,,9 - 12,1563 Page Street,37.770749,-122.446384
+Voice of Pentecost Academy,,K - 12,1970 Ocean Avenue,37.726364,-122.463974
+"West Portal Lutheran School (K,4-8)",,"K, 4 - 8",200 Sloat Boulevard,37.735356,-122.473452
+Woodside International School,,6 - 12,1555 Irving Street,37.763432,-122.474748
+Youth Chance High School,,9 - 12,25 14th Street,37.768336,-122.414142
+Zion Lutheran School,,K - 8,495 09th Avenue,37.779218,-122.467595
+Convent of the Sacred Heart High School,"GIRLS, CATHOLIC",9-12,2222 Broadway,37.794865,-122.43396
+Open Book School,,9 - 11,1832 Buchanan Street,37.786982,-122.429854
+Montessori House Of Children,,K - 2,1187 Franklin Street,37.785047,-122.423414
+French-American International School,"BILINGUAL (ENGLISH, FRENCH)",PK-12,150 Oak Street,37.775381,-122.421832
+Walden High Academy,,8 - 12,214 Haight Street,37.77294,-122.426145
+Cow Hollow Kindergarten,,K,2521 Scott Street,37.793323,-122.440119
+One Fifty Parker Avenue School,,K,150 Parker Avenue,37.782818,-122.454098
+Pacific Primary,,K,1500 Grove Street,37.775657,-122.441736
+Erikson School,,,1155 Page Street,37.771605,-122.439704
+Olympia Institute,,7 - 12,950 Clement Street,37.782892,-122.469526
+Star of the Sea Elementary,CATHOLIC,K - 8,360 9th Avenue,37.781832,-122.467013
+Challenge To Learning,,7 - 12,924 Balboa Street,37.777262,-122.468844
+Oakes Children's Center,,,1348 10th Avenue,37.763075,-122.46699
+Sunset Bible,,,1690 21st Avenue,37.756269,-122.478584
+Parkside Preschool And Kindergarten,,K,2425 19th Avenue,37.742514,-122.475988
+Edgewood Center For Children and Families,,,1801 Vicente Street,37.737985,-122.486256
+Eureka Learning Center,,K,464 Diamond Street,37.754966,-122.437008
+Holy Family Day Home,,K,299 Dolores Street,37.764926,-122.425842
+Rise Institute,,,1760 Cesar Chavez,37.750466,-122.39495
+Joshua Marie Cameron Academy - Whitney,,6 - 9,100 Whitney Yound Circle,37.73404,-122.384213
+Joshua Marie Cameron Academy - Plaza Campus,,9 -12,3801 Third Street,37.74194,-122.387432
+Living Hope Christian,,K - 12,1209 Geneva Avenue,37.714337,-122.435828
+Lakeside Presbyterian Center For Children,,PK-K,201 Eucalyptus Drive,37.730674,-122.47528
+St. Thomas More School,CATHOLIC,K-8,50 Thomas More Way,37.712567,-122.473568
+St. Stephen's School,CATHOLIC,K-8,401 Eucalyptus Drive,37.730662,-122.477721
+Sacred Heart/Saint Dominic School (5-8),,5-8,735 Fell Street,37.7747,-122.430153
+Jewish Community High School for Boys,,9 -12,1835 Ellis Street,37.781354,-122.436552
+St. John of San Francisco Orthodox Academy,ORTHODOX,K-12,6210 Geary Boulevard,37.780342,-122.486024
+Stuart Hall for Boys School,"BOYS, CATHOLIC",K - 8,2252 Broadway,37.794865,-122.43396
+The Scandanavian School,,PK,20 Woodside Avenue,37.746575,-122.457905
+The Bay School of San Francisco,,9 - 12,35 Keyes Avenue,37.800649,-122.45574
+Hergl School,,N/A,1570 Greenwich Street,37.800375,-122.425722
+Alta Vista School,,K - 12,245 Valencia Street,37.76894,-122.421816
+Cornerstone Academy Kindergarten,BAPTIST,K,1925 Lawton Street,37.757418,-122.483662
+Fei Tian Academy of the Arts California,,6 - 12,101 15th Street,37.767152,-122.402129
+Megan Furth Academy,ROMAN CATHOLIC,k - 8,2445 Pine Street,37.787471,-122.435948
+Spectrum Center Inc,,6 - 12,95 Gough Street,37.773784,-122.422715
+St. Paul's,ROMAN CATHOLIC,k - 8,1690 Church Street,37.743916,-122.427105
+Wen Jian Ying,,K - 12,259 Judson Avenue,37.72802,-122.447567
