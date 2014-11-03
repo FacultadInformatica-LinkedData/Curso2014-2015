@@ -1,0 +1,1059 @@
+﻿<!DOCTYPE ENCODING="UTF-8">
+
+<HTML>
+	<HEAD>
+		<CENTER>
+			<TITLE>Analysis of the Data and License</TITLE>
+			<H1>Analysis of the Data and License</H1>
+			<H3>Group04</H3>
+		</CENTER>
+	</HEAD>
+
+	<BODY>
+
+		<HR>	
+		<H3>
+			The system "Search Tourism Madrid" is an application intended mainly for tourism and Madrileños people. This app will 
+			help to locate the most famous touristic places and cultural interest. Besides, if the user is looking for a museum, 
+			monument, embassy, consulate or building he will be able to use a filter to locate close places, and the application 
+			offers numerous possibilities of places to visit in the district or neighbourhood.
+		</H3>
+		<HR>
+
+
+		<BR>
+		<DIV ID="CONTENT">
+			<H2>Index</H2>
+			<DIV ID="INDEX">
+				<H3>
+				<UL>
+					<LI><A HREF="#analysisData">Analysis of the data structured</A></LI>
+						<UL>
+							<LI><A HREF="#callejero-viales">Callejero Viales de Madrid</A></LI>
+							<LI><A HREF="#callejero-distritos">Callejero Distritos de Madrid</A></LI>
+							<LI><A HREF="#callejero-barrios">Callejero Barrios de Madrid</A></LI>
+							<LI><A HREF="#embajadas-consulados">Embajadas y Consulados</A></LI>
+							<LI><A HREF="#monumentos">Monumentos</A></LI>
+							<LI><A HREF="#museos">Museos</A></LI>
+						</UL>
+					<LI><A HREF="#analysisLicense">Analysis of the License</A></LI>
+						<UL>
+							<LI><A HREF="#license">License</A></LI>
+						</UL>
+				</UL>
+				</H3>
+			</DIV>
+
+			<HR>
+			<DIV ID="analysisData">
+				<H2>Analyses of the Data Structured</H2>
+				<DIV ID="callejero-viales">
+					<BLOCKQUOTE><H3>Callejero Viales de Madrid</H3></BLOCKQUOTE>
+					<H4>
+						<BLOCKQUOTE><BLOCKQUOTE>This file contains the information of the streets, avenues, bridges and general information 
+									of Madrid City. Contains 24 properties; two of them contains the name of the "vial". This will 
+									be used to link the data with the touristic places in Madrid and will be taken, to show its 
+									localitation in the map.
+						<P></P>
+						<TABLE BORDER="1" FRAME="VSIDES">
+							<TR>
+								<TD><CENTER><B>Name</B></CENTER></TD>
+								<TD><CENTER><B>Entity</B></CENTER></TD>
+								<TD><CENTER><B>Type</B></CENTER></TD>
+								<TD><CENTER><B>Example</B></CENTER></TD>
+							</TR>
+
+							<TR>
+								<TD>Clase de la via</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>CALLE, PUENTE, AVENIDA</TD>
+							</TR>
+
+							<TR>
+								<TD>Particula de la via</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>DE, DE, DE LA, DE LOS, DEL</TD>
+							</TR>
+
+							<TR>
+								<TD>Nombre de la vía</TD>
+								<TD>si</TD>
+								<TD>String</TD>
+								<TD>ANDRES SEGOVIA</TD>
+							</TR>
+
+							<TR>
+								<TD>Código de vía</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>704 (0,32.000.000)</TD>
+							</TR>
+
+							<TR>
+								<TD>Cantidad de numeraciones en la via</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>45 (0, 650)</TD>
+							</TR>
+
+							<TR>
+								<TD>Distritos atravesados</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>18, 04-07</TD>
+							</TR>
+
+							<TR>
+								<TD>Códigos postales</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>28.100, varios</TD>
+							</TR>
+
+							<TR>
+								<TD>Campo que indica si tiene zonas en S R E</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>SI, NO</TD>
+							</TR>
+
+							<TR>
+								<TD>Aproximación poblacional de la via</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>000919, <=0050, nodisp</TD>
+							</TR>
+
+							<TR>
+								<TD>Coordenada X (Guia Urbana) cm (inicio)</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>44323970 (0, 46.000.000)</TD>
+							</TR>
+
+							<TR>
+								<TD>Coordenada Y (Guia Urbana) cm (inicio)</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>448539936 (0,450.000.000)</TD>
+							</TR>
+
+							<TR>
+								<TD>Coordenada X (Guia Urbana) cm (final)</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>44242445 (0, 46.000.000)</TD>
+							</TR>
+
+							<TR>
+								<TD>Coordenada Y (Guia Urbana) cm (final)</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>448471546 (0, 46.000.000)</TD>
+							</TR>
+
+							<TR>
+								<TD>Longitud en S R WGS84 (inicio)</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>3°40'16.77'' W</TD>
+							</TR>
+
+							<TR>
+								<TD>Latitud en S R WGS84 (inicio)</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>40°30'55.78'' N</TD>
+							</TR>
+
+							<TR>
+								<TD>Longitud en S R WGS84 (final)</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>3°40'51.17'' W</TD>
+							</TR>
+
+							<TR>
+								<TD>Latitud en S R WGS84 (final)</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>40°30'33.4'' N</TD>
+							</TR>
+
+							<TR>
+								<TD>Tipo de la via</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>[Red, Topónimo, Vía]</TD>
+							</TR>
+
+							<TR>
+								<TD>Situación de la via respecto al terreno</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>[Nivel, Subterránea, Volada]</TD>
+							</TR>
+
+							<TR>
+								<TD>Tipo de denominación de la vía</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>[Admon, Pleno]</TD>
+							</TR>
+
+							<TR>
+								<TD>Superficie aproximada m2(aceras-isletas)</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>11858 (0, 230.000)</TD>
+							</TR>
+
+							<TR>
+								<TD>Superficie aproximada m2 (calzada)</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>(0,2.600.00), 5-non-numeric</TD>
+							</TR>
+
+							<TR>
+								<TD>Literal Completo del vial</TD>
+								<TD>si</TD>
+								<TD>String</TD>
+								<TD>CALLE DE ISABEL COLBRAND</TD>
+							</TR>
+
+							<TR>
+								<TD>Código de vía I N E</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>11704 (0, 100.000)</TD>
+							</TR>
+						</TABLE>
+						</BLOCKQUOTE></BLOCKQUOTE>
+					</H4>
+				</DIV>
+
+				<DIV ID="callejero-distritos">
+					<BLOCKQUOTE><H3>Callejero Distritos de Madrid</H3></BLOCKQUOTE>
+					<H4>
+						<BLOCKQUOTE><BLOCKQUOTE>This file is contains the general information of the districts in Madrid City. Contains 
+									6 properties; two of them contains the name of the "district" (the difference is the acent). 
+									This data will be used to link the data with the touristic places in Madrid and will be 
+									taken, to show its localitation in the map.
+						<P></P>
+						<TABLE BORDER="1" FRAME="VSIDES">
+							<TR>
+								<TD><CENTER><B>Name</B></CENTER></TD>
+								<TD><CENTER><B>Entity</B></CENTER></TD>
+								<TD><CENTER><B>Type</B></CENTER></TD>
+								<TD><CENTER><B>Example</B></CENTER></TD>
+							</TR>
+
+							<TR>
+								<TD>Perimetro(m)</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>10304 (9.000, 95.000)</TD>
+							</TR>
+
+							<TR>
+								<TD>Codigo de distrito</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>2, 3, 10 [1,10]</TD>
+							</TR>
+
+							<TR>
+								<TD>Nombre de distrito</TD>
+								<TD>si</TD>
+								<TD>String</TD>
+								<TD>SALAMANCA, CHAMARTIN, TETUAN</TD>
+							</TR>
+
+							<TR>
+								<TD>Nombre acentuado</TD>
+								<TD>si</TD>
+								<TD>String</TD>
+								<TD>SALAMANCA, CHAMARTÍN, TETUÁN</TD>
+							</TR>
+
+							<TR>
+								<TD>Número de barrios</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>6, 7, 8</TD>
+							</TR>
+
+							<TR>
+								<TD>Superficie</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>523 12 64, 646 64 00, 237 810 357</TD>
+							</TR>
+						</TABLE>
+					</H4>
+					</BLOCKQUOTE></BLOCKQUOTE>
+				</DIV>
+
+				<DIV ID="callejero-barrios">
+					<BLOCKQUOTE><H3>Callejero Barrios de Madrid</H3></BLOCKQUOTE>
+					<H4>
+						<BLOCKQUOTE><BLOCKQUOTE>This is the database of the neighbourhoods in Madrid. The data which contains is the next:
+						<BR>
+						<TABLE BORDER="1" FRAME="VSIDES">
+							<TR>
+								<TD><CENTER><B>Name</B></CENTER></TD>
+								<TD><CENTER><B>Entity</B></CENTER></TD>
+								<TD><CENTER><B>Type</B></CENTER></TD>
+								<TD><CENTER><B>Example</B></CENTER></TD>
+							</TR>
+							
+							<TR>
+								<TD>Codigo de barrio</TD>
+								<TD>no(por el momento)</TD>
+								<TD>int</TD>
+								<TD>1</TD>
+							</TR>
+							
+							<TR>
+								<TD>Codigo de distrito</TD>
+								<TD>no(por el momento)</TD>
+								<TD>int</TD>
+								<TD>1</TD>
+							</TR>
+							
+							<TR>
+								<TD>Nombre de barrio</TD>
+								<TD>si</TD>
+								<TD>string</TD>
+								<TD>PALACIO</TD>
+							</TR>
+							
+							<TR>
+								<TD>Superficie</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>1 471 085</TD>
+							</TR>
+							
+							<TR>
+								<TD>Superficie</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>5754</TD>
+							</TR>
+							
+						</TABLE>
+						</BLOCKQUOTE></BLOCKQUOTE>
+					</H4>
+				</DIV>
+
+				<DIV ID="embajadas-consulados">
+					<BLOCKQUOTE><H3>Embajadas y Consulados</H3></BLOCKQUOTE>
+					<H4>
+						<BLOCKQUOTE><BLOCKQUOTE>This file contains the data of the embassys and consulates in Madrid City. Contains 
+									29 properties. The name, via's name, neighbourhood and districts will be used to link the data
+									of its localitation and with other touristic places in Madrid. Besides this data will be 
+									taken to show its localitation in the map.
+						<P></P>
+						<BR>
+						<TABLE BORDER="1" FRAME="VSIDES">
+							<TR>
+								<TD><CENTER><B>Name</B></CENTER></TD>
+								<TD><CENTER><B>Entity</B></CENTER></TD>
+								<TD><CENTER><B>Type</B></CENTER></TD>
+								<TD><CENTER><B>Example</B></CENTER></TD>
+							</TR>
+					
+							<TR>
+								<TD>PK</TD>
+								<TD>no(por el momento)</TD>
+								<TD>int</TD>
+								<TD>21.112, 7.048.490</TD>
+							</TR>
+
+							<TR>
+								<TD>Nombre</TD>
+								<TD>si</TD>
+								<TD>String</TD>
+								<TD>Consulado de México</TD>
+							</TR>
+
+							<TR>
+								<TD>Descripcion-entidad</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>empty</TD>
+							</TR>
+
+							<TR>
+								<TD>Horario</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>Mensaje muy largo</TD>
+							</TR>
+
+							<TR>
+								<TD>Equipamiento</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>empty</TD>
+							</TR>
+
+							<TR>
+								<TD>Transporte</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>Bus: 7, 11, 40, 52, 87</TD>
+							</TR>
+
+							<TR>
+								<TD>Descripcion</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>Mensaje muy largo</TD>
+							</TR>
+
+							<TR>
+								<TD>Accesibilidad</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>http://www.madrid.es/vgn</TD>
+							</TR>
+
+							<TR>
+								<TD>Nombre-via</TD>
+								<TD>si</TD>
+								<TD>String</TD>
+								<TD>SERRANO, GOYA</TD>
+							</TR>
+
+							<TR>
+								<TD>Clase-vial</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>CALLE, AVENIDA, PASEO, PLAZA, RONDA</TD>
+							</TR>
+
+							<TR>
+								<TD>Tipo-num</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>V [V]</TD>
+							</TR>
+
+							<TR>
+								<TD>Num</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>24, 11, 6a, 3o, empty</TD>
+							</TR>
+
+							<TR>
+								<TD>Puerta</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>Interior izquierda, empty</TD>
+							</TR>
+
+							<TR>
+								<TD>Escaleras</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>66-68, D, Izquierda, empty</TD>
+							</TR>
+
+							<TR>
+								<TD>Orientación</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>17-A, H, Pasaje Comercial, empty</TD>
+							</TR>
+
+							<TR>
+								<TD>Localidad</TD>
+								<TD>no (por el momento)</TD>
+								<TD>String</TD>
+								<TD>MADRID</TD>
+							</TR>
+
+							<TR>
+								<TD>Provincia</TD>
+								<TD>no (por el momento)</TD>
+								<TD>String</TD>
+								<TD>MADRID</TD>
+							</TR>
+
+							<TR>
+								<TD>Código Postal</TD>
+								<TD>no (por el momento)</TD>
+								<TD>int</TD>
+								<TD>28006 (28.000, 28.050)</TD>
+							</TR>
+
+							<TR>
+								<TD>Barrio</TD>
+								<TD>si</TD>
+								<TD>String</TD>
+								<TD>CASTELLANA, RECOLECTOS</TD>
+							</TR>
+
+							<TR>
+								<TD>Distrito</TD>
+								<TD>si</TD>
+								<TD>String</TD>
+								<TD>SALAMANCA, CHAMARTIN</TD>
+							</TR>
+
+							<TR>
+								<TD>Coordenada-X</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>441.876 (432.000, 447.000)</TD>
+							</TR>
+
+							<TR>
+								<TD>Coordenada-Y</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>4.477.296 (4.473.900, 4.482.800)</TD>
+							</TR>
+
+							<TR>
+								<TD>Latitud</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>(40.40, 40.50)</TD>
+							</TR>
+
+							<TR>
+								<TD>Longitud</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>(-3.80, 3.64)</TD>
+							</TR>
+
+							<TR>
+								<TD>Teléfono</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>914 025 115, 913 190 763 / 913 199 559</TD>
+							</TR>
+
+							<TR>
+								<TD>Fax</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>913 091 996</TD>
+							</TR>
+
+							<TR>
+								<TD>Email</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>consulado-madrid@portalargentino.net</TD>
+							</TR>
+
+							<TR>
+								<TD>Tipo</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>/contenido/entidades</TD>
+							</TR>
+						</TABLE>
+						</BLOCKQUOTE></BLOCKQUOTE>
+					</H4>
+				</DIV>
+				
+				<DIV ID="monumentos">
+					<BLOCKQUOTE><H3>Monumentos</H3></BLOCKQUOTE>
+					<H4>
+						<BLOCKQUOTE><BLOCKQUOTE>This is the database of the monuments in Madrid. The data which contains is the next:
+						<BR>
+						<TABLE BORDER="1" FRAME="VSIDES">
+							<TR>
+								<TD><CENTER><B>Name</B></CENTER></TD>
+								<TD><CENTER><B>Entity</B></CENTER></TD>
+								<TD><CENTER><B>Type</B></CENTER></TD>
+								<TD><CENTER><B>Example</B></CENTER></TD>
+							</TR>
+							
+							<TR>
+								<TD>pk</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>1744</TD>
+							</TR>
+							
+							<TR>
+								<TD>Nombre</TD>
+								<TD>si</TD>
+								<TD>string</TD>
+								<TD>Biblioteca Nacional de España</TD>
+							</TR>
+							
+							<TR>
+								<TD>Descripcion-entidad</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>Fundada por Felipe V en 1712 como Biblioteca Pública de Palacio. En 1836 dejó de ser propiedad de la Corona y pasó a depender del Ministerio de la Gobernación y recibió por primera vez el nombre de Biblioteca Nacional y en 1896 se abrió al público.   Horario     Salas de lectura y Servicios:    De lunes a viernes de 9 a 21 y sábados de 9 a 14 horas.  La petición de fondos en el Salón General y en la Sala de Prensa y Revistas es de 9:30 a 13:30 y de 15 a 19 horas.  La tramitación presencial de carnés es de lunes a viernes de 9 a 19 y sábados de 9 a 13:45 horas.     Exposiciones y Museo:    De martes a sábado de 10 a 21 horas.  Domingos y festivos de 10 a 14 horas.      Calendario cierre:    Exposiciones y museo: días 1, 6 de enero, 1 de mayo, 10 de noviembre y 8, 24, 25 y 31 de diciembre.   Biblioteca: 1, 6 y de 20 al 25 de enero, del 17 al 19 de abril, 1, 2 y 15 de mayo, 19 de junio, 15 de agosto, 1 y 10 de noviembre, 6, 8, 24, 25 y 31 de diciembre.    </TD>
+							</TR>
+							
+							<TR>
+								<TD>Horario</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>empty</TD>
+							</TR>
+							
+							<TR>
+								<TD>Equipamiento</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>empty</TD>
+							</TR>
+							
+							<TR>
+								<TD>Transporte</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>empty</TD>
+							</TR>
+							
+							<TR>
+								<TD>Description</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>Funciones Reunir, catalogar y conservar los fondos bibliográficos producidos en cualquier lengua española u otro idioma, al servicio de la investigación, la cultura y la información.  Fomentar la investigación mediante el estudio, préstamo y reproducción de su fondo bibliográfico.  Difundir la información sobre la producción bibliográfica española a partir de las entradas derivadas del depósito legal.  </TD>
+							</TR>
+							
+							<TR>
+								<TD>Accesibilidad</TD>
+								<TD>no</TD>
+								<TD>bool</TD>
+								<TD>0</TD>
+							</TR>
+							
+							<TR>
+								<TD>Content-URL</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2b8d995a8bf5d010VgnVCM2000000c205a0aRCRD</TD>
+							
+							<TR>
+								<TD>Nombre-vial</TD>
+								<TD>si</TD>
+								<TD>string</TD>
+								<TD>RECOLETOS</TD>
+							</TR>
+							
+							<TR>
+								<TD>Clase-vial</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>PASEO</TD>
+							</TR>
+							
+							<TR>
+								<TD>Tipo-num</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>V</TD>
+							</TR>
+							
+							<TR>
+								<TD>Num</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>20</TD>
+							</TR>
+							
+							<TR>
+								<TD>Planta</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>empty</TD>
+							</TR>
+						
+							<TR>
+								<TD>Puerta</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>string</TD>
+							</TR>
+							
+							
+							<TR>
+								<TD>Orientacion</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>empty</TD>
+							</TR>
+							
+							<TR>
+								<TD>Localidad</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>MADRID</TD>
+							</TR>
+							
+							<TR>
+								<TD>Provincia</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>MADRID</TD>
+							</TR>
+							
+							<TR>
+								<TD>Codigo-postal</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>28001</TD>
+							</TR>
+							
+							<TR>
+								<TD>Barrio</TD>
+								<TD>si</TD>
+								<TD>string</TD>
+								<TD>RECOLETOS</TD>
+							</TR>
+							
+							<TR>
+								<TD>Distrito</TD>
+								<TD>si</TD>
+								<TD>string</TD>
+								<TD>SALAMANCA</TD>
+							</TR>
+							
+							<TR>
+								<TD>Coordenada-x</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>441505</TD>
+							</TR>
+							
+							<TR>
+								<TD>Coordenada-y</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>4475144</TD>
+							</TR>
+							
+							<TR>
+								<TD>Latitud</TD>
+								<TD>no</TD>
+								<TD>float</TD>
+								<TD>'40.42299290045965</TD>
+							</TR>
+							
+							<TR>
+								<TD>Longitud</TD>
+								<TD>no</TD>
+								<TD>float</TD>
+								<TD>'-3.690844141741069</TD>
+							</TR>
+							
+							<TR>
+								<TD>Telefono</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>915 807 800</TD>
+							</TR>
+							
+							<TR>
+								<TD>Fax</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>empty</TD>
+							</TR>
+							
+							<TR>
+								<TD>Email</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>acceso@bne.es</TD>
+							</TR>
+							
+							<TR>
+								<TD>Tipo</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos</TD>
+							</TR>
+							
+						</TABLE>
+						</BLOCKQUOTE></BLOCKQUOTE>
+					</H4>
+				</DIV>
+		
+				<DIV ID="museos">
+					<BLOCKQUOTE><H3>Museos</H3></BLOCKQUOTE>
+					<H4>
+						<BLOCKQUOTE><BLOCKQUOTE>This is the database of the museums in Madrid. The data which contains is the next:
+						<BR>
+						<TABLE BORDER="1" FRAME="VSIDES">
+							<TR>
+								<TD><CENTER><B>Name</B></CENTER></TD>
+								<TD><CENTER><B>Entity</B></CENTER></TD>
+								<TD><CENTER><B>Type</B></CENTER></TD>
+								<TD><CENTER><B>Example</B></CENTER></TD>
+							</TR>
+							
+							<TR>
+								<TD>pk</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>2071</TD>
+							</TR>
+							
+							<TR>
+								<TD>Nombre</TD>
+								<TD>si</TD>
+								<TD>string</TD>
+								<TD>Arte Publico (Museo al Aire Libre de la Castellana)</TD>
+							</TR>
+							
+							<TR>
+								<TD>Descripcion-entidad</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>empty</TD>
+							</TR>
+							
+							<TR>
+								<TD>Horario</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>empty</TD>
+							</TR>
+							
+							<TR>
+								<TD>Equipamiento</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>empty</TD>
+							</TR>
+							
+							<TR>
+								<TD>Transporte</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD> Metro: Rubén Darío (línea 5)  Bus: 5, 14, 27, 45, 150 </TD>
+							</TR>
+							
+							<TR>
+								<TD>Description</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>empty</TD>
+							</TR>
+							
+							<TR>
+								<TD>Accesibilidad</TD>
+								<TD>no</TD>
+								<TD>bool</TD>
+								<TD>1</TD>
+							</TR>
+							
+							<TR>
+								<TD>Content-URL</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eca9ef4d7f71c010VgnVCM1000000b205a0aRCRD</TD>
+							
+							<TR>
+								<TD>Nombre-vial</TD>
+								<TD>si</TD>
+								<TD>string</TD>
+								<TD>CASTELLANA</TD>
+							</TR>
+							
+							<TR>
+								<TD>Clase-vial</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>PASEO</TD>
+							</TR>
+							
+							<TR>
+								<TD>Tipo-num</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>V</TD>
+							</TR>
+							
+							<TR>
+								<TD>Num</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>40</TD>
+							</TR>
+							
+							<TR>
+								<TD>Planta</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>empty</TD>
+							</TR>
+						
+							<TR>
+								<TD>Puerta</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>string</TD>
+							</TR>
+							
+							<TR>
+								<TD>Orientacion</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>empty</TD>
+							</TR>
+							
+							<TR>
+								<TD>Orientacion</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>empty</TD>
+							</TR>
+							
+							<TR>
+								<TD>Localidad</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>MADRID</TD>
+							</TR>
+							
+							<TR>
+								<TD>Provincia</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>MADRID</TD>
+							</TR>
+							
+							<TR>
+								<TD>Codigo-postal</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>28046</TD>
+							</TR>
+							
+							<TR>
+								<TD>Barrio</TD>
+								<TD>si</TD>
+								<TD>string</TD>
+								<TD>CASTELLANA</TD>
+							</TR>
+							
+							<TR>
+								<TD>Distrito</TD>
+								<TD>si</TD>
+								<TD>string</TD>
+								<TD>SALAMANCA</TD>
+							</TR>
+							
+							<TR>
+								<TD>Coordenada-x</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>441788</TD>
+							</TR>
+							
+							<TR>
+								<TD>Coordenada-y</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>4476277</TD>
+							</TR>
+							
+							<TR>
+								<TD>Latitud</TD>
+								<TD>no</TD>
+								<TD>float</TD>
+								<TD>'40.433219398671156</TD>
+							</TR>
+							
+							<TR>
+								<TD>Longitud</TD>
+								<TD>no</TD>
+								<TD>float</TD>
+								<TD>'-3.6876122680805956</TD>
+							</TR>
+							
+							<TR>
+								<TD>Telefono</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>917 011 863  / 915 782 722 (información en Museo de Historia)</TD>
+							</TR>
+							
+							<TR>
+								<TD>Fax</TD>
+								<TD>no</TD>
+								<TD>int</TD>
+								<TD>empty</TD>
+							</TR>
+							
+							<TR>
+								<TD>Email</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>smuseosm@madrid.es</TD>
+							</TR>
+							
+							<TR>
+								<TD>Tipo</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos</TD>
+							</TR>
+							
+							
+							
+						</TABLE>
+						</BLOCKQUOTE></BLOCKQUOTE>
+					</H4>
+				</DIV>
+			</DIV>
+
+			<HR>
+			<DIV ID="analysisLicense">
+				<H2>Analysis of the License</H2>
+				<DIV ID="license">
+					<BLOCKQUOTE><H3>Madrid Open Data License</H3></BLOCKQUOTE>
+					<H4>
+						<BLOCKQUOTE><BLOCKQUOTE>
+							The website of the <A HREF="http://datos.madrid.es/egob/catalogo/aviso-legal">License</A> allows us to use,
+							control, manage and update the data but at the same time gives us some 
+							conditions if we want to use its information. Besides, the data are free. These general conditions 
+							are the next:
+							<UL>
+								<LI>We could manage the information, but its prohibited to change the meaning of them</LI>
+								<LI>We must attribute the source of the documents by the next sentence: "Origen de los datos: 
+									Ayuntamiento de Madrid"</LI>
+								<LI>We must mention the date on which data was last refreshed, if it was written by the 
+									"Ayuntamiento de Madrid"</LI>
+								<LI>We may not indicate or suggest that "Ayuntamiento de Madrid" is participating in the modification
+									of the data</LI>
+								<LI>We should not delete, change or remove the metadata and the date of the updates and 
+									the conditions to use the information</LI>
+							</UL>
+						</BLOCKQUOTE></BLOCKQUOTE>
+					</H4>
+				</DIV>
+			</DIV>
+		</DIV>
+		
+		<HR>
+		<FOOTER>
+			<CENTER>
+				<P>Posted by: Isaac Olguin and Luigi Guida</P>
+				<P>Contact information: <a href="mailto:misael.olguin@gmail.com">Isaac Olguin</a> and 
+					<a href="mailto:guidaluigi@icloud.com">Luigi Guida</a></P>
+			</CENTER>
+		</FOOTER>
+
+	</BODY>
+</HTML>
