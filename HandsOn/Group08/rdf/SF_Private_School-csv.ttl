@@ -1,0 +1,839 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ont: <http://www.semanticweb.org/grupo08/Building/School/Private#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://www.semanticweb/grupo08/Building/School/Private/AddaClevengerJuniorPreparatory> ont:type "GIFTED" ;
+	ont:children "K - 8" ;
+	ont:address "180 Fair Oaks Street" ;
+	ont:latwgs84 "37.753739" ;
+	ont:lonwgs84 "-122.424465" ;
+	ont:name "Adda Clevenger Junior Preparatory" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/BrandeisHillelDaySchool> ont:type "JEWISH" ;
+	ont:children "K - 8" ;
+	ont:address "655 Brotherhood Way" ;
+	ont:latwgs84 "37.712217" ;
+	ont:lonwgs84 "-122.472212" ;
+	ont:name "Brandeis Hillel Day School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/ChildrensDaySchool> ont:type "PRESCHOOL" ;
+	ont:children "PK- 8" ;
+	ont:address "333 Dolores Street" ;
+	ont:latwgs84 "37.763858" ;
+	ont:lonwgs84 "-122.425708" ;
+	ont:name "Childrens Day School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/ConventofSacredHeartElementarySchool> ont:type "GIRLS, CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "2222 Broadway" ;
+	ont:latwgs84 "37.794865" ;
+	ont:lonwgs84 "-122.43396" ;
+	ont:name "Convent of Sacred Heart Elementary School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/EpiphanySchool> ont:type "CATHOLIC" ;
+	ont:children "1 - 8" ;
+	ont:address "600 Italy Avenue" ;
+	ont:latwgs84 "37.715723" ;
+	ont:lonwgs84 "-122.434533" ;
+	ont:name "Epiphany School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/HamlinSchool> ont:type "GIRLS" ;
+	ont:children "K - 8" ;
+	ont:address "2120 Broadway Street" ;
+	ont:latwgs84 "37.795073" ;
+	ont:lonwgs84 "-122.432554" ;
+	ont:name "Hamlin School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/LisaHampnerHebrewAcademy> ont:type "JEWISH" ;
+	ont:children "PK - 12" ;
+	ont:address "645 14th Avenue" ;
+	ont:latwgs84 "37.776097" ;
+	ont:lonwgs84 "-122.472874" ;
+	ont:name "Lisa Hampner Hebrew Academy" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/ImmaculateConceptionAcademy> ont:type "GIRLS, CATHOLIC" ;
+	ont:children "9 - 12" ;
+	ont:address "3625 24th Street" ;
+	ont:latwgs84 "37.751753" ;
+	ont:lonwgs84 "-122.423347" ;
+	ont:name "Immaculate Conception Academy" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/InternationalChristianSchool> ont:type "BAPTIST" ;
+	ont:children "PK - 8" ;
+	ont:address "42 Waller Street" ;
+	ont:latwgs84 "37.772228" ;
+	ont:lonwgs84 "-122.42423" ;
+	ont:name "International Christian School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/LaurelSchool> ont:children "PK - 8" ;
+	ont:address "350 9th Avenue" ;
+	ont:latwgs84 "37.781832" ;
+	ont:lonwgs84 "-122.467013" ;
+	ont:name "Laurel School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/LiveOakSchool> ont:children "K - 8" ;
+	ont:address "1555 Mariposa Street" ;
+	ont:latwgs84 "37.763484" ;
+	ont:lonwgs84 "-122.398929" ;
+	ont:name "Live Oak School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/Meadows-LivingstoneSchool> ont:children "1 - 6" ;
+	ont:address "1499 Potrero Avenue" ;
+	ont:latwgs84 "37.749628" ;
+	ont:lonwgs84 "-122.404838" ;
+	ont:name "Meadows-Livingstone School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/MissionDoloresSchool> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "3371 16th Street" ;
+	ont:latwgs84 "37.76407" ;
+	ont:lonwgs84 "-122.427713" ;
+	ont:name "Mission Dolores School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/OurLadyofVisitacionSchool> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "795 Sunnydale Ave" ;
+	ont:latwgs84 "37.709763" ;
+	ont:lonwgs84 "-122.409412" ;
+	ont:name "Our Lady of Visitacion School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/PresidioHillSchool> ont:children "K - 8" ;
+	ont:address "3839 Washington Street" ;
+	ont:latwgs84 "37.788584" ;
+	ont:lonwgs84 "-122.45606" ;
+	ont:name "Presidio Hill School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.Anthony-ImmaculateConceptionSchool> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "299 Precita Avenue" ;
+	ont:latwgs84 "37.747502" ;
+	ont:lonwgs84 "-122.41425" ;
+	ont:name "St. Anthony-Immaculate Conception School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.Brendan'sSchool> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "940 Laguna Honda Boulevard" ;
+	ont:latwgs84 "37.742854" ;
+	ont:lonwgs84 "-122.455924" ;
+	ont:name "St. Brendan's School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.CeciliaSchool> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "660 Vicente Street" ;
+	ont:latwgs84 "37.73995" ;
+	ont:lonwgs84 "-122.47401" ;
+	ont:name "St. Cecilia School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.CharlesSchool> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "3250 18th Street" ;
+	ont:latwgs84 "37.762323" ;
+	ont:lonwgs84 "-122.416443" ;
+	ont:name "St. Charles School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/StratfordSchool> ont:type "CATHOLIC" ;
+	ont:children "K - 2" ;
+	ont:address "301 De Montfort Avenue" ;
+	ont:latwgs84 "37.723148" ;
+	ont:lonwgs84 "-122.461561" ;
+	ont:name "Stratford School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.GabrielSchool> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "2550 41st Avenue" ;
+	ont:latwgs84 "37.739532" ;
+	ont:lonwgs84 "-122.498771" ;
+	ont:name "St. Gabriel School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.JamesSchool> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "321 Fair Oaks Street" ;
+	ont:latwgs84 "37.751653" ;
+	ont:lonwgs84 "-122.423768" ;
+	ont:name "St. James School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.John'sSchool> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "925 Chenery Street" ;
+	ont:latwgs84 "37.734789" ;
+	ont:lonwgs84 "-122.437496" ;
+	ont:name "St. John's School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.Mary'sChineseDaySchool> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "910 Broadway" ;
+	ont:latwgs84 "37.797475" ;
+	ont:lonwgs84 "-122.412375" ;
+	ont:name "St. Mary's Chinese Day School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/KippBayviewAcademy> ont:children "5 - 8" ;
+	ont:address "1060 Key Avenue" ;
+	ont:latwgs84 "37.719517" ;
+	ont:lonwgs84 "-122.396219" ;
+	ont:name "Kipp Bayview Academy" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.Peter'sSchool> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "1266 Florida Street" ;
+	ont:latwgs84 "37.7517" ;
+	ont:lonwgs84 "-122.41036" ;
+	ont:name "St. Peter's School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.Philip'sSchool> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "665 Elizabeth Street" ;
+	ont:latwgs84 "37.751758" ;
+	ont:lonwgs84 "-122.435538" ;
+	ont:name "St. Philip's School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/Sts.PeterandPaulSalesianSchool> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "660 Filbert Street" ;
+	ont:latwgs84 "37.801422" ;
+	ont:lonwgs84 "-122.410437" ;
+	ont:name "Sts. Peter and Paul Salesian School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/SanFranciscoWaldorfSchool> ont:children "K - 12" ;
+	ont:address "2938 Washington Street" ;
+	ont:latwgs84 "37.79091" ;
+	ont:lonwgs84 "-122.441941" ;
+	ont:name "San Francisco Waldorf School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/StuartHallHighSchool> ont:type "BOYS, CATHOLIC" ;
+	ont:children "9 - 12" ;
+	ont:address "1715 Octavia Street" ;
+	ont:latwgs84 "37.788251" ;
+	ont:lonwgs84 "-122.427294" ;
+	ont:name "Stuart Hall High School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/SynergySchool> ont:children "K - 8" ;
+	ont:address "1387 Valencia Street" ;
+	ont:latwgs84 "37.750874" ;
+	ont:lonwgs84 "-122.4202" ;
+	ont:name "Synergy School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/WestPortalLutheranSchool(1-3)> ont:type "PRESCHOOL" ;
+	ont:children "1 - 3" ;
+	ont:address "1711 37th Avenue" ;
+	ont:latwgs84 "37.754918" ;
+	ont:lonwgs84 "-122.496172" ;
+	ont:name "West Portal Lutheran School (1-3)" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/ArchbishopRiordanHighSchool> ont:type "CATHOLIC" ;
+	ont:children "9 - 12" ;
+	ont:address "175 Phelan Avenue" ;
+	ont:latwgs84 "37.727921" ;
+	ont:lonwgs84 "-122.454277" ;
+	ont:name "Archbishop Riordan High School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/BethelCenter> ont:type "ED" ;
+	ont:children "9 - 12" ;
+	ont:address "2557 Alemany Boulevard" ;
+	ont:latwgs84 "37.714723" ;
+	ont:lonwgs84 "-122.446511" ;
+	ont:name "Bethel Center" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/CathedralSchoolforBoys> ont:type "BOYS, EPISCOPAL" ;
+	ont:children "K - 8" ;
+	ont:address "1275 Sacramento Street" ;
+	ont:latwgs84 "37.792008" ;
+	ont:lonwgs84 "-122.413383" ;
+	ont:name "Cathedral School for Boys" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/ChineseAmericanInternationalSchool> ont:type "BILINGUAL (ENGLISH, CHINESE)" ;
+	ont:children "PK - 8" ;
+	ont:address "150 Oak Street" ;
+	ont:latwgs84 "37.775381" ;
+	ont:lonwgs84 "-122.421832" ;
+	ont:name "Chinese American International School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/CornerstoneAcademy-Campus1> ont:type "PRESCHOOL, BILINGUAL (ENGLISH, CANTONESE)" ;
+	ont:children "PK - 4" ;
+	ont:address "801 Silver Avenue" ;
+	ont:latwgs84 "37.729583" ;
+	ont:lonwgs84 "-122.418325" ;
+	ont:name "Cornerstone Academy - Campus 1" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/CornerstoneAcademy-Campus2> ont:type "BACKGROUND, BILINGUAL (ENGLISH, CANTONESE)" ;
+	ont:children "5 - 10" ;
+	ont:address "501 Cambridge Street" ;
+	ont:latwgs84 "37.724953" ;
+	ont:lonwgs84 "-122.416847" ;
+	ont:name "Cornerstone Academy - Campus 2" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/CorpusChristiSchool> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "75 Francis Street" ;
+	ont:latwgs84 "37.727179" ;
+	ont:lonwgs84 "-122.435264" ;
+	ont:name "Corpus Christi School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/DeMarillacMiddleSchool> ont:type "UNDERPRIVILEGED, CATHOLIC" ;
+	ont:children "6 - 8" ;
+	ont:address "135 Golden Gate Avenue" ;
+	ont:latwgs84 "37.781666" ;
+	ont:lonwgs84 "-122.413031" ;
+	ont:name "DeMarillac Middle School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/DiscoveryCenterSchool> ont:children "K - 8" ;
+	ont:address "65 Ocean Avenue" ;
+	ont:latwgs84 "37.723301" ;
+	ont:lonwgs84 "-122.438326" ;
+	ont:name "Discovery Center School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/DrewCollegePreparatorySchool> ont:children "9 - 12" ;
+	ont:address "2901 California Street" ;
+	ont:latwgs84 "37.78756" ;
+	ont:lonwgs84 "-122.442291" ;
+	ont:name "Drew College Preparatory School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/EcoleNotreDamesdesVictoires> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "659 Pine Street" ;
+	ont:latwgs84 "37.791117" ;
+	ont:lonwgs84 "-122.406467" ;
+	ont:name "Ecole Notre Dames des Victoires" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/FellowshipAcademy> ont:children "PK - 8" ;
+	ont:address "495 Cambridge Street" ;
+	ont:latwgs84 "37.725719" ;
+	ont:lonwgs84 "-122.41732" ;
+	ont:name "Fellowship Academy" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/FreemanSchool> ont:type "SHALOM" ;
+	ont:children "K - 8" ;
+	ont:address "862 28th Avenue" ;
+	ont:latwgs84 "37.773382" ;
+	ont:lonwgs84 "-122.486934" ;
+	ont:name "Freeman School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/HillwoodAcademicDaySchool> ont:children "K - 8" ;
+	ont:address "2521 Scott Street" ;
+	ont:latwgs84 "37.793323" ;
+	ont:lonwgs84 "-122.440119" ;
+	ont:name "Hillwood Academic Day School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/HolyNameSchool> ont:children "K - 8" ;
+	ont:address "1560 40th Avenue" ;
+	ont:latwgs84 "37.757697" ;
+	ont:lonwgs84 "-122.498905" ;
+	ont:name "Holy Name School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/HolyTrinityOrthodoxSchool> ont:children "K - 8" ;
+	ont:address "999 Brotherhood Way" ;
+	ont:latwgs84 "37.713867" ;
+	ont:lonwgs84 "-122.482003" ;
+	ont:name "Holy Trinity Orthodox School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/KatherineDelmarBurkeSchool> ont:type "GIRLS" ;
+	ont:children "K - 8" ;
+	ont:address "7070 California Street" ;
+	ont:latwgs84 "37.784938" ;
+	ont:lonwgs84 "-122.4934" ;
+	ont:name "Katherine Delmar Burke School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/KatherineMichielsSchool> ont:type "ART, SPANISH, DYSLEXIA" ;
+	ont:children "PK - 5" ;
+	ont:address "1335 Guerrero Street" ;
+	ont:latwgs84 "37.749818" ;
+	ont:lonwgs84 "-122.42231" ;
+	ont:name "Katherine Michiels School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/KittredgeSchool> ont:children "1 - 8" ;
+	ont:address "2355 Lake Street" ;
+	ont:latwgs84 "37.785507" ;
+	ont:lonwgs84 "-122.484957" ;
+	ont:name "Kittredge School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/KrouzianArmenianSchool> ont:type "CHRISTIAN" ;
+	ont:children "PK - 8" ;
+	ont:address "825 Brotherhood Way" ;
+	ont:latwgs84 "37.713841" ;
+	ont:lonwgs84 "-122.478318" ;
+	ont:name "Krouzian Armenian School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/LaMelSchool> ont:type "ED" ;
+	ont:children "K - 12" ;
+	ont:address "1801 Bush Street" ;
+	ont:latwgs84 "37.787503" ;
+	ont:lonwgs84 "-122.427216" ;
+	ont:name "La Mel School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/LickWilmerdingHighSchool> ont:children "9 - 12" ;
+	ont:address "755 Ocean Avenue" ;
+	ont:latwgs84 "37.722322" ;
+	ont:lonwgs84 "-122.44898" ;
+	ont:name "Lick Wilmerding High School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/LyceeFrancaisLaPerouseSanFrancisco> ont:type "FRENCH" ;
+	ont:children "PK - 12" ;
+	ont:address "755 Ashbury Street" ;
+	ont:latwgs84 "37.76797" ;
+	ont:lonwgs84 "-122.446968" ;
+	ont:name "Lycee Francais La Perouse San Francisco" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/MariaMontessoriElementarySchool> ont:children "PK - 6" ;
+	ont:address "678 Portola Drive" ;
+	ont:latwgs84 "37.745055" ;
+	ont:lonwgs84 "-122.453427" ;
+	ont:name "Maria Montessori Elementary School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/MercyHighSchool> ont:type "GIRLS, CATHOLIC" ;
+	ont:children "9 - 12" ;
+	ont:address "3250 19th Avenue" ;
+	ont:latwgs84 "37.7295" ;
+	ont:lonwgs84 "-122.473589" ;
+	ont:name "Mercy High School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/RivendellSchool> ont:children "K - 5" ;
+	ont:address "4501 Irving Street" ;
+	ont:latwgs84 "37.762028" ;
+	ont:lonwgs84 "-122.506305" ;
+	ont:name "Rivendell School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/MotherGooseSchool> ont:children "PK - 2" ;
+	ont:address "334 28th Avenue" ;
+	ont:latwgs84 "37.783022" ;
+	ont:lonwgs84 "-122.487839" ;
+	ont:name "Mother Goose School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/Russian-AmericanInternationalSchool> ont:children "K - 4" ;
+	ont:address "1250 Quintara Street" ;
+	ont:latwgs84 "37.74876" ;
+	ont:lonwgs84 "-122.479099" ;
+	ont:name "Russian-American International School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/SacredHeartCathedralPreparatory> ont:type "CATHOLIC" ;
+	ont:children "9 - 12" ;
+	ont:address "1055 Ellis Street" ;
+	ont:latwgs84 "37.783287" ;
+	ont:lonwgs84 "-122.423188" ;
+	ont:name "Sacred Heart Cathedral Preparatory" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.AnneSchool> ont:type "CATHOLIC, BILINGUAL (ENGLISH, CHINESE)" ;
+	ont:children "K - 8" ;
+	ont:address "1320 14th Avenue" ;
+	ont:latwgs84 "37.76341" ;
+	ont:lonwgs84 "-122.471095" ;
+	ont:name "St. Anne School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.BrigidSchool> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "2250 Franklin Street" ;
+	ont:latwgs84 "37.794657" ;
+	ont:lonwgs84 "-122.422326" ;
+	ont:name "St. Brigid School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.ElizabethSchool> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "450 Somerset Street" ;
+	ont:latwgs84 "37.725689" ;
+	ont:lonwgs84 "-122.407667" ;
+	ont:name "St. Elizabeth School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.FinnBarrSchool> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "419 Hearst Avenue" ;
+	ont:latwgs84 "37.730445" ;
+	ont:lonwgs84 "-122.447411" ;
+	ont:name "St. Finn Barr School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.IgnatiusCollegePreparatory> ont:type "CATHOLIC" ;
+	ont:children "9 - 12" ;
+	ont:address "2001 37th Avenue" ;
+	ont:latwgs84 "37.746924" ;
+	ont:lonwgs84 "-122.496384" ;
+	ont:name "St. Ignatius College Preparatory" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.MonicaSchool> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "5920 Geary Boulevard" ;
+	ont:latwgs84 "37.780498" ;
+	ont:lonwgs84 "-122.483068" ;
+	ont:name "St. Monica School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.ThomastheApostleSchool> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "3801 Balboa Street" ;
+	ont:latwgs84 "37.775097" ;
+	ont:lonwgs84 "-122.499773" ;
+	ont:name "St. Thomas the Apostle School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.VincentdePaulSchool> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "2350 Green Street" ;
+	ont:latwgs84 "37.796112" ;
+	ont:lonwgs84 "-122.437854" ;
+	ont:name "St. Vincent de Paul School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/Sts.CyrilandMethodiusHighSchool> ont:type "ORTHODOX, BILINGUAL (ENGLISH, RUSSIAN)" ;
+	ont:children "9  - 12" ;
+	ont:address "6200 Geary Boulevard" ;
+	ont:latwgs84 "37.780342" ;
+	ont:lonwgs84 "-122.486024" ;
+	ont:name "Sts. Cyril and Methodius High School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/SanFranciscoAdventistSchool> ont:children "K - 10" ;
+	ont:address "66 Geneva Avenue" ;
+	ont:latwgs84 "37.721714" ;
+	ont:lonwgs84 "-122.45119" ;
+	ont:name "San Francisco Adventist School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/SanFranciscoChineseParentsCommunity> ont:children "PK - 5" ;
+	ont:address "843 Stockton Street" ;
+	ont:latwgs84 "37.793737" ;
+	ont:lonwgs84 "-122.408182" ;
+	ont:name "San Francisco Chinese Parents Community" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/SanFranciscoChristianSchool> ont:children "K - 12" ;
+	ont:address "25 Whittier Street" ;
+	ont:latwgs84 "37.710037" ;
+	ont:lonwgs84 "-122.447754" ;
+	ont:name "San Francisco Christian School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/SanFranciscoCityAcademy> ont:children "K - 8" ;
+	ont:address "302 Eddy Street" ;
+	ont:latwgs84 "37.78408" ;
+	ont:lonwgs84 "-122.412942" ;
+	ont:name "San Francisco City Academy" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/SanFranciscoDaySchool> ont:children "K - 8" ;
+	ont:address "350 Masonic Avenue" ;
+	ont:latwgs84 "37.778042" ;
+	ont:lonwgs84 "-122.446283" ;
+	ont:name "San Francisco Day School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/SanFranciscoFriendsSchool> ont:children "K - 8" ;
+	ont:address "117 Diamond Street" ;
+	ont:latwgs84 "37.760124" ;
+	ont:lonwgs84 "-122.436799" ;
+	ont:name "San Francisco Friends School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/SanFranciscoUniversityHighSchool> ont:children "9 - 12" ;
+	ont:address "3065 Jackson Street" ;
+	ont:latwgs84 "37.790655" ;
+	ont:lonwgs84 "-122.44535" ;
+	ont:name "San Francisco University High School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/MuhammadUniversityofIslam> ont:type "ISLAMIC" ;
+	ont:children "K - 12" ;
+	ont:address "5048 3rd Street" ;
+	ont:latwgs84 "37.732795" ;
+	ont:lonwgs84 "-122.391768" ;
+	ont:name "Muhammad University of Islam" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/SandPathsAcademy> ont:type "DISTURBED CHILDREN" ;
+	ont:children "6 - 12" ;
+	ont:address "1218 South Van Ness Avenue" ;
+	ont:latwgs84 "37.753465" ;
+	ont:lonwgs84 "-122.41672" ;
+	ont:name "Sand Paths Academy" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/S.R.MartinCollegePreparatory> ont:children "9 - 12" ;
+	ont:address "2660 San Bruno Avenue" ;
+	ont:latwgs84 "37.727937" ;
+	ont:lonwgs84 "-122.404095" ;
+	ont:name "S.R. Martin College Preparatory" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/SterneSchool> ont:type "LEARNING DIFFICULTIES" ;
+	ont:children "5 - 12" ;
+	ont:address "2690 Jackson Street" ;
+	ont:latwgs84 "37.792057" ;
+	ont:lonwgs84 "-122.439357" ;
+	ont:name "Sterne School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/TheSanFranciscoSchool> ont:children "PK - 8" ;
+	ont:address "300 Gaven Street" ;
+	ont:latwgs84 "37.73278" ;
+	ont:lonwgs84 "-122.411698" ;
+	ont:name "The San Francisco School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/CalFedYouthChanceHigh> ont:children "9 - 12" ;
+	ont:address "220 Golden Gate Avenue" ;
+	ont:latwgs84 "37.782099" ;
+	ont:lonwgs84 "-122.414273" ;
+	ont:name "Cal Fed Youth Chance High" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/TownSchoolforBoys> ont:type "BOYS" ;
+	ont:children "K - 8" ;
+	ont:address "2750 Jackson Street" ;
+	ont:latwgs84 "37.792034" ;
+	ont:lonwgs84 "-122.440129" ;
+	ont:name "Town School for Boys" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/UrbanSchoolofSanFrancisco> ont:children "9 - 12" ;
+	ont:address "1563 Page Street" ;
+	ont:latwgs84 "37.770749" ;
+	ont:lonwgs84 "-122.446384" ;
+	ont:name "Urban School of San Francisco" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/VoiceofPentecostAcademy> ont:children "K - 12" ;
+	ont:address "1970 Ocean Avenue" ;
+	ont:latwgs84 "37.726364" ;
+	ont:lonwgs84 "-122.463974" ;
+	ont:name "Voice of Pentecost Academy" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/WestPortalLutheranSchool(K,4-8)> ont:children "K, 4 - 8" ;
+	ont:address "200 Sloat Boulevard" ;
+	ont:latwgs84 "37.735356" ;
+	ont:lonwgs84 "-122.473452" ;
+	ont:name "West Portal Lutheran School (K,4-8)" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/WoodsideInternationalSchool> ont:children "6 - 12" ;
+	ont:address "1555 Irving Street" ;
+	ont:latwgs84 "37.763432" ;
+	ont:lonwgs84 "-122.474748" ;
+	ont:name "Woodside International School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/YouthChanceHighSchool> ont:children "9 - 12" ;
+	ont:address "25 14th Street" ;
+	ont:latwgs84 "37.768336" ;
+	ont:lonwgs84 "-122.414142" ;
+	ont:name "Youth Chance High School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/ZionLutheranSchool> ont:children "K - 8" ;
+	ont:address "495 09th Avenue" ;
+	ont:latwgs84 "37.779218" ;
+	ont:lonwgs84 "-122.467595" ;
+	ont:name "Zion Lutheran School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/ConventoftheSacredHeartHighSchool> ont:type "GIRLS, CATHOLIC" ;
+	ont:children "9-12" ;
+	ont:address "2222 Broadway" ;
+	ont:latwgs84 "37.794865" ;
+	ont:lonwgs84 "-122.43396" ;
+	ont:name "Convent of the Sacred Heart High School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/OpenBookSchool> ont:children "9 - 11" ;
+	ont:address "1832 Buchanan Street" ;
+	ont:latwgs84 "37.786982" ;
+	ont:lonwgs84 "-122.429854" ;
+	ont:name "Open Book School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/MontessoriHouseOfChildren> ont:children "K - 2" ;
+	ont:address "1187 Franklin Street" ;
+	ont:latwgs84 "37.785047" ;
+	ont:lonwgs84 "-122.423414" ;
+	ont:name "Montessori House Of Children" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/French-AmericanInternationalSchool> ont:type "BILINGUAL (ENGLISH, FRENCH)" ;
+	ont:children "PK-12" ;
+	ont:address "150 Oak Street" ;
+	ont:latwgs84 "37.775381" ;
+	ont:lonwgs84 "-122.421832" ;
+	ont:name "French-American International School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/WaldenHighAcademy> ont:children "8 - 12" ;
+	ont:address "214 Haight Street" ;
+	ont:latwgs84 "37.77294" ;
+	ont:lonwgs84 "-122.426145" ;
+	ont:name "Walden High Academy" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/CowHollowKindergarten> ont:children "K" ;
+	ont:address "2521 Scott Street" ;
+	ont:latwgs84 "37.793323" ;
+	ont:lonwgs84 "-122.440119" ;
+	ont:name "Cow Hollow Kindergarten" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/OneFiftyParkerAvenueSchool> ont:children "K" ;
+	ont:address "150 Parker Avenue" ;
+	ont:latwgs84 "37.782818" ;
+	ont:lonwgs84 "-122.454098" ;
+	ont:name "One Fifty Parker Avenue School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/PacificPrimary> ont:children "K" ;
+	ont:address "1500 Grove Street" ;
+	ont:latwgs84 "37.775657" ;
+	ont:lonwgs84 "-122.441736" ;
+	ont:name "Pacific Primary" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/EriksonSchool> ont:address "1155 Page Street" ;
+	ont:latwgs84 "37.771605" ;
+	ont:lonwgs84 "-122.439704" ;
+	ont:name "Erikson School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/OlympiaInstitute> ont:children "7 - 12" ;
+	ont:address "950 Clement Street" ;
+	ont:latwgs84 "37.782892" ;
+	ont:lonwgs84 "-122.469526" ;
+	ont:name "Olympia Institute" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/StaroftheSeaElementary> ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "360 9th Avenue" ;
+	ont:latwgs84 "37.781832" ;
+	ont:lonwgs84 "-122.467013" ;
+	ont:name "Star of the Sea Elementary" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/ChallengeToLearning> ont:children "7 - 12" ;
+	ont:address "924 Balboa Street" ;
+	ont:latwgs84 "37.777262" ;
+	ont:lonwgs84 "-122.468844" ;
+	ont:name "Challenge To Learning" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/OakesChildren'sCenter> ont:address "1348 10th Avenue" ;
+	ont:latwgs84 "37.763075" ;
+	ont:lonwgs84 "-122.46699" ;
+	ont:name "Oakes Children's Center" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/SunsetBible> ont:address "1690 21st Avenue" ;
+	ont:latwgs84 "37.756269" ;
+	ont:lonwgs84 "-122.478584" ;
+	ont:name "Sunset Bible" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/ParksidePreschoolAndKindergarten> ont:children "K" ;
+	ont:address "2425 19th Avenue" ;
+	ont:latwgs84 "37.742514" ;
+	ont:lonwgs84 "-122.475988" ;
+	ont:name "Parkside Preschool And Kindergarten" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/EdgewoodCenterForChildrenandFamilies> ont:address "1801 Vicente Street" ;
+	ont:latwgs84 "37.737985" ;
+	ont:lonwgs84 "-122.486256" ;
+	ont:name "Edgewood Center For Children and Families" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/EurekaLearningCenter> ont:children "K" ;
+	ont:address "464 Diamond Street" ;
+	ont:latwgs84 "37.754966" ;
+	ont:lonwgs84 "-122.437008" ;
+	ont:name "Eureka Learning Center" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/HolyFamilyDayHome> ont:children "K" ;
+	ont:address "299 Dolores Street" ;
+	ont:latwgs84 "37.764926" ;
+	ont:lonwgs84 "-122.425842" ;
+	ont:name "Holy Family Day Home" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/RiseInstitute> ont:address "1760 Cesar Chavez" ;
+	ont:latwgs84 "37.750466" ;
+	ont:lonwgs84 "-122.39495" ;
+	ont:name "Rise Institute" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/JoshuaMarieCameronAcademy-Whitney> ont:children "6 - 9" ;
+	ont:address "100 Whitney Yound Circle" ;
+	ont:latwgs84 "37.73404" ;
+	ont:lonwgs84 "-122.384213" ;
+	ont:name "Joshua Marie Cameron Academy - Whitney" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/JoshuaMarieCameronAcademy-PlazaCampus> ont:children "9 -12" ;
+	ont:address "3801 Third Street" ;
+	ont:latwgs84 "37.74194" ;
+	ont:lonwgs84 "-122.387432" ;
+	ont:name "Joshua Marie Cameron Academy - Plaza Campus" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/LivingHopeChristian> ont:children "K - 12" ;
+	ont:address "1209 Geneva Avenue" ;
+	ont:latwgs84 "37.714337" ;
+	ont:lonwgs84 "-122.435828" ;
+	ont:name "Living Hope Christian" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/LakesidePresbyterianCenterForChildren> ont:children "PK-K" ;
+	ont:address "201 Eucalyptus Drive" ;
+	ont:latwgs84 "37.730674" ;
+	ont:lonwgs84 "-122.47528" ;
+	ont:name "Lakeside Presbyterian Center For Children" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.ThomasMoreSchool> ont:type "CATHOLIC" ;
+	ont:children "K-8" ;
+	ont:address "50 Thomas More Way" ;
+	ont:latwgs84 "37.712567" ;
+	ont:lonwgs84 "-122.473568" ;
+	ont:name "St. Thomas More School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.Stephen'sSchool> ont:type "CATHOLIC" ;
+	ont:children "K-8" ;
+	ont:address "401 Eucalyptus Drive" ;
+	ont:latwgs84 "37.730662" ;
+	ont:lonwgs84 "-122.477721" ;
+	ont:name "St. Stephen's School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/SacredHeart/SaintDominicSchool(5-8)> ont:children "5-8" ;
+	ont:address "735 Fell Street" ;
+	ont:latwgs84 "37.7747" ;
+	ont:lonwgs84 "-122.430153" ;
+	ont:name "Sacred Heart/Saint Dominic School (5-8)" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/JewishCommunityHighSchoolforBoys> ont:children "9 -12" ;
+	ont:address "1835 Ellis Street" ;
+	ont:latwgs84 "37.781354" ;
+	ont:lonwgs84 "-122.436552" ;
+	ont:name "Jewish Community High School for Boys" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.JohnofSanFranciscoOrthodoxAcademy> ont:type "ORTHODOX" ;
+	ont:children "K-12" ;
+	ont:address "6210 Geary Boulevard" ;
+	ont:latwgs84 "37.780342" ;
+	ont:lonwgs84 "-122.486024" ;
+	ont:name "St. John of San Francisco Orthodox Academy" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/StuartHallforBoysSchool> ont:type "BOYS, CATHOLIC" ;
+	ont:children "K - 8" ;
+	ont:address "2252 Broadway" ;
+	ont:latwgs84 "37.794865" ;
+	ont:lonwgs84 "-122.43396" ;
+	ont:name "Stuart Hall for Boys School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/TheScandanavianSchool> ont:children "PK" ;
+	ont:address "20 Woodside Avenue" ;
+	ont:latwgs84 "37.746575" ;
+	ont:lonwgs84 "-122.457905" ;
+	ont:name "The Scandanavian School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/TheBaySchoolofSanFrancisco> ont:children "9 - 12" ;
+	ont:address "35 Keyes Avenue" ;
+	ont:latwgs84 "37.800649" ;
+	ont:lonwgs84 "-122.45574" ;
+	ont:name "The Bay School of San Francisco" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/HerglSchool> ont:children "N/A" ;
+	ont:address "1570 Greenwich Street" ;
+	ont:latwgs84 "37.800375" ;
+	ont:lonwgs84 "-122.425722" ;
+	ont:name "Hergl School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/AltaVistaSchool> ont:children "K - 12" ;
+	ont:address "245 Valencia Street" ;
+	ont:latwgs84 "37.76894" ;
+	ont:lonwgs84 "-122.421816" ;
+	ont:name "Alta Vista School" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/CornerstoneAcademyKindergarten> ont:type "BAPTIST" ;
+	ont:children "K" ;
+	ont:address "1925 Lawton Street" ;
+	ont:latwgs84 "37.757418" ;
+	ont:lonwgs84 "-122.483662" ;
+	ont:name "Cornerstone Academy Kindergarten" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/FeiTianAcademyoftheArtsCalifornia> ont:children "6 - 12" ;
+	ont:address "101 15th Street" ;
+	ont:latwgs84 "37.767152" ;
+	ont:lonwgs84 "-122.402129" ;
+	ont:name "Fei Tian Academy of the Arts California" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/MeganFurthAcademy> ont:type "ROMAN CATHOLIC" ;
+	ont:children "k - 8" ;
+	ont:address "2445 Pine Street" ;
+	ont:latwgs84 "37.787471" ;
+	ont:lonwgs84 "-122.435948" ;
+	ont:name "Megan Furth Academy" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/SpectrumCenterInc> ont:children "6 - 12" ;
+	ont:address "95 Gough Street" ;
+	ont:latwgs84 "37.773784" ;
+	ont:lonwgs84 "-122.422715" ;
+	ont:name "Spectrum Center Inc" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/St.Paul's> ont:type "ROMAN CATHOLIC" ;
+	ont:children "k - 8" ;
+	ont:address "1690 Church Street" ;
+	ont:latwgs84 "37.743916" ;
+	ont:lonwgs84 "-122.427105" ;
+	ont:name "St. Paul's" .
+
+<http://www.semanticweb/grupo08/Building/School/Private/WenJianYing> ont:children "K - 12" ;
+	ont:address "259 Judson Avenue" ;
+	ont:latwgs84 "37.72802" ;
+	ont:lonwgs84 "-122.447567" ;
+	ont:name "Wen Jian Ying" .
