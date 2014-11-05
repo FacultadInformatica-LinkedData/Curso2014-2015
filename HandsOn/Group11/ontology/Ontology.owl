@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.estudiayaprende.bibliotecas.grupo11/ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.estudiayaprende.bibliotecas.grupo11/ontology">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#Accesibilidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barrio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bibliobus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biblioteca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clase_via"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Codigo_Postal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Content-URL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Descripción"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Descripción_evento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Distrito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Días_excluidos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Días_semana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Email"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equipamiento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Evento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fecha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fecha_fin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gratuito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Larga_duración"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Latitud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Latitud_biblioteca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Localidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Longitud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Longitud_biblioteca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nombre-via"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nombre_Bibliobus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nombre_biblioteca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nombre_evento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Numero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provincia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Telefono"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Titulo_actividad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transporte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#URL_evento"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Accesibilidad"/>
+        <Class IRI="#Bibliobus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barrio"/>
+        <Class IRI="#Bibliobus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clase_via"/>
+        <Class IRI="#Bibliobus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Codigo_Postal"/>
+        <Class IRI="#Bibliobus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Content-URL"/>
+        <Class IRI="#Bibliobus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Descripción"/>
+        <Class IRI="#Bibliobus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Descripción_evento"/>
+        <Class IRI="#Evento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Distrito"/>
+        <Class IRI="#Bibliobus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Días_excluidos"/>
+        <Class IRI="#Evento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Días_semana"/>
+        <Class IRI="#Evento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Email"/>
+        <Class IRI="#Bibliobus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equipamiento"/>
+        <Class IRI="#Bibliobus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Evento"/>
+        <Class IRI="#Biblioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fax"/>
+        <Class IRI="#Bibliobus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fecha"/>
+        <Class IRI="#Evento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fecha_fin"/>
+        <Class IRI="#Evento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gratuito"/>
+        <Class IRI="#Evento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hora"/>
+        <Class IRI="#Evento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Horario"/>
+        <Class IRI="#Bibliobus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Larga_duración"/>
+        <Class IRI="#Evento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Latitud"/>
+        <Class IRI="#Bibliobus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Latitud_biblioteca"/>
+        <Class IRI="#Biblioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Localidad"/>
+        <Class IRI="#Bibliobus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Longitud"/>
+        <Class IRI="#Bibliobus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Longitud_biblioteca"/>
+        <Class IRI="#Biblioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nombre-via"/>
+        <Class IRI="#Bibliobus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nombre_Bibliobus"/>
+        <Class IRI="#Bibliobus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nombre_biblioteca"/>
+        <Class IRI="#Biblioteca"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nombre_evento"/>
+        <Class IRI="#Evento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Numero"/>
+        <Class IRI="#Bibliobus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Provincia"/>
+        <Class IRI="#Bibliobus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Telefono"/>
+        <Class IRI="#Bibliobus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Titulo_actividad"/>
+        <Class IRI="#Evento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transporte"/>
+        <Class IRI="#Bibliobus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#URL_evento"/>
+        <Class IRI="#Evento"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,420 @@
+<html>
+	<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+	<body>
+		<h2><u>Análisis de los datasets elegidos - <a href="https://github.com/alejandro2003/Curso2014-2015/tree/master/HandsOn/Group14">Grupo 14</a></u></h2>
+		<h3><u>Licencia de los datos</u></h3>
+			<p>
+					Extracto de las normas para el uso de los datos libre la Comunidad de Madrid. <a href="http://goo.gl/PUULlv">Condiciones de uso completas</a><br>
+				El publicador de los datos es el Ayuntamiento de Madrid, España.<br><br>
+	
+				Condiciones generales para la reutilización<br>
+	
+				Son de aplicación las siguientes condiciones generales para la reutilización de los documentos sometidos a ellas:<br>
+			</p>
+			<ul>
+				<li>Está prohibido desnaturalizar el sentido de la información.</li>
+					<li>Debe citarse la fuente de los documentos objeto de la reutilización. Esta cita podrá realizarse de la siguiente manera "Origen de los datos: Ayuntamiento de Madrid (o, en su caso, órgano administrativo, organismo o entidad de que se trate)"</li>
+					<li>Debe mencionarse la fecha de la última actualización de los documentos objeto de la reutilización, siempre y cuando estuviera incluida en el documento original.</li>
+					<li>No se podrá indicar, insinuar o sugerir que el Ayuntamiento de Madrid participa, patrocina o apoya la reutilización que se lleve a cabo con la información.</li>
+				<li>Deben conservarse, no alterarse ni suprimirse los metadatos sobre la fecha de actualización y las condiciones de reutilización aplicables incluidos, en su caso, en el documento puesto a disposición para su reutilización.</li>
+			</ul>
+		<br>
+		<hr size="5" color="#D1D1D1">
+		<h3><u>Estrategia de Nombrado de Recursos</u></h3>
+		<ul>
+			<li>Hash para terminos ontologicos y barras para URIs de individuos<br></li>
+				<li><b>Dominio:</b> http://www.exmple.com<br></li>
+				<li><b>Ruta terminos ontologicos:</b> <ul><li>http://www.exmple.com/biblioteca#<br></li></ul></li>
+				<li><b>Ruta a individuos:</b> <ul><li>http://www.exmple.com/biblioteca/<br></li></ul></li>
+				<li><b>Patron para terminos ontologicos:</b> <ul><li>http://www.exmple.com/biblioteca#<nombre_termino><br></li>
+				<li>Example: http://www.exmple.com/biblioteca#hora</li></ul></li>
+				<li><b>Patron para individuos:</b> <ul><li>http://www.exmple.com/biblioteca/<nombre_recurso><br></li>
+				<li>Example: http://www.exmple.com/biblioteca/BBPM_Ivan_Vargas_C</li></ul></li>
+		</ul>
+		<br>
+		<hr size="5" color="#D1D1D1">
+
+		<h3><a href="http://goo.gl/9qMby3">Dataset de Bibliotecas y Bibliobuses de Madrid</a></h3>
+		<p>Relación de todas la Bibliotecas Públicas sitas en la ciudad de Madrid, de titularidad nacional, comunitaria o local. Incluye también bibliobuses. Datos de dirección, horario, servicios y coordenadas para su georeferenciación.</p>
+    <p>Caracteristicas:
+      <ul>
+          <li>Campos: 28</li>
+          <li>Filas: 60</li>
+          <li>Tamaño: 73 KB</li>
+      </ul>
+    </p>
+    <br>
+
+		<table border="2" bgcolor="#F0F0F0" cellpading="0" cellspacing="0">
+			<tr align="center" bgcolor="#FF9933">
+				<th width="150">Columna</th>
+				<th width="150">Tipo</th>
+				<th width="300">Comentarios. Rango</th>
+				<th width="150">Valores Nulos</th>
+				<th width="250">Problemas</th>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">PK</td>
+				<td>String</td>
+				<td>Unico</td>
+				<td>No</td>
+				<td>Clave Primaria</td>
+			</tr>
+			<tr align="center">
+				<td bgcolor="#B6ECFF">Nombre</td>
+				<td>String</td>
+				<td>UTF-8</td>
+				<td>No</td>
+				<td>Los biblobuses especifican la periodicidad del recorrido</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Descripcion Entidad</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>Solamente 2 campos tienen descripcion. Deberiamos borrarlo</td>
+			</tr>
+			<tr align="center">
+				<td bgcolor="#B6ECFF">Horarios</td>
+				<td>String</td>
+				<td>Horario de los dif. servicios</td>
+				<td>Si (3)</td>
+				<td>Mayoria de los campos estan llenos.</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Equipamientos</td>
+				<td>String</td>
+				<td>Servicios que presta la biblio</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Transporte</td>
+				<td>String</td>
+				<td>Metodos de transporte para llegar</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Descripcion</td>
+				<td>String</td>
+				<td>Datos relevante de la biblioteca</td>
+				<td>Si (10)</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Accesibilidad</td>
+				<td>Integer</td>
+				<td>1-Accesible 0-No Accesible</td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Content-URL</td>
+				<td>String</td>
+				<td>URL con la web de cada biblioteca</td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Nombre Via</td>
+				<td>String</td>
+				<td>Localizacion(calle) de la biblioteca</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Clase Via</td>
+				<td>String</td>
+				<td>Tipo de via</td>
+				<td>No</td>
+				<td>-</td>
+			</tr><tr align="center" >
+				<td bgcolor="#B6ECFF">Tipo Num</td>
+				<td>String</td>
+				<td>Valores: {V, NUM}</td>
+				<td>No</td>
+				<td>Bloque? Numero?</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Num</td>
+				<td>Integer</td>
+				<td>Valores:{0-260}. Nro donde esta la bibiloteca</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr><tr align="center" >
+				<td bgcolor="#B6ECFF">Planta</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>Esta vacio</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Puerta</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>Esta vacio</td>
+			</tr><tr align="center" >
+				<td bgcolor="#B6ECFF">Orientacion</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si(50)</td>
+				<td>Relacion respecto a lugar cercano de interes?</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Localidad</td>
+				<td>String</td>
+				<td>-</td>
+				<td>No</td>
+				<td>Todos son Madrid. Irrelevante</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Codigo Postal</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>Solo los bibliobuses tienen blanco</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Barrio</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>Solo los bibliobuses tienen blanco</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Distrito</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Coordenada X</td>
+				<td>Integer</td>
+				<td>Rango: 430000-450000</td>
+				<td>Si</td>
+				<td>Bibliobuses tienen cero</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Coordenada Y</td>
+				<td>Integer</td>
+				<td>Rango: 440000-450000</td>
+				<td>Si</td>
+				<td>Bibliobuses tienen cero</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Latitud</td>
+				<td>Integer</td>
+				<td>Rango: 40.44-40.499</td>
+				<td>Si</td>
+				<td>Los bibliobuses tienen blancos</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Longitud</td>
+				<td>Integer</td>
+				<td>Rango: -3.77-3.99</td>
+				<td>Si</td>
+				<td>Los bibliobuses tienen blancos</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Telefono</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Fax</td>
+				<td>Integer</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Email</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>Los bibliobuses tienen blancos</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Tipo</td>
+				<td>String</td>
+				<td>Rango: { BibliotecaPublica. Bibliobus} </td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+		</table>
+		<br><br>
+		<hr size="5" color="#D1D1D1">
+
+		<h3><a href="http://goo.gl/nh6khb">Dataset de las actividades gratuitas en Bibliotecas Municipales en los próximos 60 días</a></h3>
+		<p>Relación de actividades de carácter gratuito, para público infantil y adulto, desarrolladas por las siguientes instituciones de titularidad municipal: la red de Bibliotecas Públicas, la Biblioteca Histórica, la Biblioteca Musical Víctor Espinós, la Hemeroteca y la Imprenta. Se presentan las actividades de los próximos 60 dias.</p>
+    <p>Caracteristicas:
+      <ul>
+          <li>Campos: 21</li>
+          <li>Filas: 190</li>
+          <li>Tamaño: 167 KB</li>
+      </ul>
+    </p>
+    <br>
+
+		<table bgcolor="#F0F0F0" border="2" cellpading="0" cellspacing="0">
+			<tr align="center" bgcolor="#FF9933">
+				<th width="150">Columna</th>
+				<th width="150">Tipo</th>
+				<th width="300">Comentarios. Rango</th>
+				<th width="150">Valores Nulos</th>
+				<th width="250">Problemas</th>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">ID-Evento</td>
+				<td>String</td>
+				<td>Posible clave primaria. Sin repeticiones</td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+			<tr align="center">
+				<td bgcolor="#B6ECFF">Titulo</td>
+				<td>String</td>
+				<td>Titulo de la actividad. Hay repeticiones</td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Precio</td>
+				<td>-</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>Esta vacio. Campo irrelevante</td>
+			</tr>
+			<tr align="center">
+				<td bgcolor="#B6ECFF">Gratuito</td>
+				<td>Integer</td>
+				<td>Rango:0-1</td>
+				<td>No</td>
+				<td>Todos son 1. Campo irrelevante</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Larga Duracion</td>
+				<td>Integer</td>
+				<td>Rango:0-1</td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Dias de la Semana</td>
+				<td>String(Date)</td>
+				<td>L-D, puede tener varios valores</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Dias Excluidos</td>
+				<td>String(Date)</td>
+				<td>Similar a dias de la semana</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Fecha</td>
+				<td>String(Date)</td>
+				<td>Rango: {29-09-2014 y 15-12-201} </td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Fecha Fin</td>
+				<td>String(Date)</td>
+				<td>Rango hasta 25 de junio de 2005</td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Hora</td>
+				<td>String</td>
+				<td>-</td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Content-URL</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>URL donde puede obtener información adicional de la actividad y donde se especifíca si se requiere inscripción y como realizarla</td>
+			</tr><tr align="center" >
+				<td bgcolor="#B6ECFF">Titulo de la actividad</td>
+				<td>String</td>
+				<td>-</td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">URL de la actividad</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr><tr align="center" >
+				<td bgcolor="#B6ECFF">URL de la instalacion</td>
+				<td>String</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>¿Web del lugar?</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Nombre de instalacion</td>
+				<td>String</td>
+				<td>Nombre del lugar del evento </td>
+				<td>No</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Coordenada X</td>
+				<td>Integer</td>
+				<td>Rango: 430000-450000</td>
+				<td>Si</td>
+				<td>Bibliobuses tienen cero</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Coordenada Y</td>
+				<td>Integer</td>
+				<td>Rango: 446800-448200</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Latitud</td>
+				<td>Integer</td>
+				<td>Rango: 40.37-40.48</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Longitud</td>
+				<td>Integer</td>
+				<td>Rango: -3.77-3.59</td>
+				<td>Si</td>
+				<td>-</td>
+			</tr>
+			<tr align="center" bgcolor="#D1D1D1">
+				<td bgcolor="#70C6FF">Tipo</td>
+				<td>Tipo</td>
+				<td>-</td>
+				<td>Si</td>
+				<td>Contiene URIs</td>
+			</tr>
+			<tr align="center" >
+				<td bgcolor="#B6ECFF">Descripcion</td>
+				<td>String</td>
+				<td>Datos de la actividad</td>
+				<td>Si</td>
+				<td>No especifica claramente su contenido</td>
+			</tr>
+		</table>
+		<br><br>
+	</body>
+</html>
