@@ -1,60 +1,99 @@
 <html>
-  <head>
-    <title>Análisis del censo de locales</title>
-  </head>
-  <h3>Censo de locales y sus actividades</h3>
-  <ul>
-    <li>Nombre del fichero: CLA_locales201409.csv</li>
-    <li>Fecha de última actualización: 22/10/2014 (Trimestral)</li>
-    <li>Descripción: Dataset con el censo de locales, con información de ubicación, tipo de acceso, agrupación y rótulo</li>
-    <li>Origen de los datos: Ayuntamiento de Madrid</li>
-    <li><a href="http://datos.madrid.es/egob/catalogo/aviso-legal">Licencia</a></li>
-    <li><a href="http://datos.madrid.es/FWProjects/egob/contenidos/datasets/ficheros/Comercio_CensoLocalesActividades/ConceptosFundamentalesCLA.pdf">Conceptos de los datos</a></li>
-  </ul>
   <body>
-    <table border="1">
-      <tr><th>Column</th><th>Type</th><th>Comments/Range</th><th>Problems</th></tr>
-      <tr><td class="column">desc_distrito_local</td><td>String</td><td>Not unique, 21 districts</td><td></td></tr>
-      <tr><td class="column">id_barrio_local</td><td>Decimal</td><td>10-220</td><td>14 blank</td></tr>
-      <tr><td class="column">desc_barrio_local</td><td>String</td><td>Not unique, 128 neighborhoods</td><td>14 blank</td></tr>
-      <tr><td class="column">desc_seccion_censal_local</td><td>Decimal</td><td>0-230</td><td>requires district data for unequivocal identification </td></tr>
-      <tr><td class="column">coordenada_x_local</td><td>Decimal</td><td></td><td></td></tr>
-      <tr><td class="column">coordenada_y_local</td><td>Decimal</td><td></td><td></td></tr>
-      <tr><td class="column">desc_tipo_acceso_local</td><td>String</td><td></td><td>Not unique, 3 values</td></tr>
-      <tr><td class="column">id_situacion_local</td><td>-</td><td>Empty</td><td>Empty</td></tr>
-      <tr><td class="column">desc_situacion_local</td><td>String</td><td>Not unique, 6 values</td><td></td></tr>
-      <tr><td class="column">id_ndp_edificio</td><td>Decimal</td><td>Not unique, 1,000,000.00 — 32,000,000.00 </td><td>-</td></tr>
-      <tr><td class="column">clase_vial_edificio</td><td>String</td><td>Not unique, 26 values</td><td>12 blank</td></tr>
-      <tr><td class="column">desc_vial_edificio</td><td>String</td><td>Not unique, 5923 values</td><td>12 blank</td></tr>
-      <tr><td class="column">nom_edificio</td><td>String</td><td>Not unique, 3 values</td><td>12 blank</td></tr>
-      <tr><td class="column">num_edificio</td><td>Decimal</td><td>0-21.000 Numeros superiores a 1000 anomalías o puntos kilométricos </td><td>12 blank. En barrio Pinar del Rey, mucho locales en número altos y calles inexistentes</td></tr>
-      <tr><td class="column">cal_edificio</td><td>String</td><td>Not unique, 28 values</td><td>134788 blank.</td></tr>
-      <tr><td class="column">secuencia_local_PC</td><td>Decimal</td><td>0-2.200</td><td>La mayoría (~98%) 0-100</td></tr>
-      <tr><td class="column">secuencia_local_PC</td><td>Decimal</td><td>0-2.200</td><td>La mayoría (~98%) 0-100</td></tr>
-      <tr><td class="column">id_ndp_acceso</td><td>Decimal</td><td>Not unique, 1,000,000.00 — 32,000,000.00 </td><td>-</td></tr>
-      <tr><td class="column">clase_vial_acceso</td><td>String</td><td>Not unique, 26 values</td><td>12 blank</td></tr>
-      <tr><td class="column">desc_vial_acceso</td><td>String</td><td>Not unique, 5923 values</td><td>12 blank</td></tr>
-      <tr><td class="column">nom_acceso</td><td>String</td><td>Not unique, 3 values</td><td>12 blank</td></tr>
-      <tr><td class="column">num_acceso</td><td>Decimal</td><td>0-21.000 Numeros superiores a 1000 anomalías o puntos kilométricos </td><td>12 blank. En barrio Pinar del Rey, mucho locales en número altos y calles inexistentes</td></tr>
-      <tr><td class="column">cal_acceso</td><td>String</td><td>Not unique, 28 values</td><td>134788 blank.</td></tr>
-      <tr><td class="column">coordenada_x_acceso</td><td>Decimal</td><td></td><td></td></tr>
-      <tr><td class="column">coordenada_y_acceso</td><td>Decimal</td><td></td><td></td></tr>
-      <tr><td class="column">id_agrupacion</td><td>Decimal</td><td>0-100.000.000</td><td></td></tr>
-      <tr><td class="column">nombre_agrupacion</td><td>String</td><td>Not unique, 338 values. Empty values</td><td></td></tr>
-      <tr><td class="column">id_tipo_agrupacion</td><td>String</td><td>Not unique, 12 values. Empty values</td><td></td></tr>
-      <tr><td class="column">desc_tipo_agrupacion</td><td>String</td><td>Not unique, 13 values, empty values</td><td></td></tr>
-      <tr><td class="column">id_planta_agrupado</td><td>String</td><td>Not unique, 73 values, empty values</td><td></td></tr>
-      <tr><td class="column">id_local_agrupado</td><td>String</td><td>Not unique, 1742 values, empty values</td><td></td></tr>
-      <tr><td class="column">rotulo</td><td>String</td><td></td><td>47007 blank</td></tr>
-      
-      
+    <h3>Censo de locales y sus actividades</h3>
+    <ul>
+      <li><b>Nombre del fichero:</b> CLA_locales201409.csv</li>
+      <li><b>Fecha de última actualización:</b> 22/10/2014 (Trimestral)</li>
+      <li><b>Descripción:</b> Dataset con el censo de locales, con información de ubicación, tipo de acceso, agrupación y rótulo</li>
+      <li><b>Origen de los datos:</b> Ayuntamiento de Madrid</li>
+      <li><a href="http://datos.madrid.es/egob/catalogo/aviso-legal">Licencia</a></li>
+      <li><a href="http://datos.madrid.es/FWProjects/egob/contenidos/datasets/ficheros/Comercio_CensoLocalesActividades/ConceptosFundamentalesCLA.pdf">Conceptos de los datos</a></li>
+    </ul>
+    <table style="width:100%; text-align:left;">
+      <tr  bgcolor="#8ca6fd"><th>Column</th><th>Type</th><th>Comments/Range</th><th>Problems</th></tr>
+      <tr bgcolor="#e5e5e5"><td>desc_distrito_local</td><td>String</td><td>Not unique, 21 districts</td><td></td></tr>
+      <tr><td>id_barrio_local</td><td>Decimal</td><td>10-220</td><td>14 blank</td></tr>
+      <tr bgcolor="#e5e5e5"><td>desc_barrio_local</td><td>String</td><td>Not unique, 128 neighborhoods</td><td>14 blank</td></tr>
+      <tr><td>desc_seccion_censal_local</td><td>Decimal</td><td>0-230</td><td>requires district data for unequivocal identification </td></tr>
+      <tr bgcolor="#e5e5e5"><td>coordenada_x_local</td><td>Decimal</td><td></td><td></td></tr>
+      <tr><td>coordenada_y_local</td><td>Decimal</td><td></td><td></td></tr>
+      <tr bgcolor="#e5e5e5"><td>desc_tipo_acceso_local</td><td>String</td><td></td><td>Not unique, 3 values</td></tr>
+      <tr><td>id_situacion_local</td><td>-</td><td>Empty</td><td>Empty</td></tr>
+      <tr bgcolor="#e5e5e5"><td>desc_situacion_local</td><td>String</td><td>Not unique, 6 values</td><td></td></tr>
+      <tr><td>id_ndp_edificio</td><td>Decimal</td><td>Not unique, 1,000,000.00 — 32,000,000.00 </td><td>-</td></tr>
+      <tr bgcolor="#e5e5e5"><td>clase_vial_edificio</td><td>String</td><td>Not unique, 26 values</td><td>12 blank</td></tr>
+      <tr><td>desc_vial_edificio</td><td>String</td><td>Not unique, 5923 values</td><td>12 blank</td></tr>
+      <tr bgcolor="#e5e5e5"><td>nom_edificio</td><td>String</td><td>Not unique, 3 values</td><td>12 blank</td></tr>
+      <tr><td>num_edificio</td><td>Decimal</td><td>0-21.000 Numeros superiores a 1000 anomalías o puntos kilométricos </td><td>12 blank. En barrio Pinar del Rey, mucho locales en número altos y calles inexistentes</td></tr>
+      <tr bgcolor="#e5e5e5"><td>cal_edificio</td><td>String</td><td>Not unique, 28 values</td><td>134788 blank.</td></tr>
+      <tr><td>secuencia_local_PC</td><td>Decimal</td><td>0-2.200</td><td>La mayoría (~98%) 0-100</td></tr>
+      <tr bgcolor="#e5e5e5"><td>secuencia_local_PC</td><td>Decimal</td><td>0-2.200</td><td>La mayoría (~98%) 0-100</td></tr>
+      <tr><td>id_ndp_acceso</td><td>Decimal</td><td>Not unique, 1,000,000.00 — 32,000,000.00 </td><td>-</td></tr>
+      <tr bgcolor="#e5e5e5"><td>clase_vial_acceso</td><td>String</td><td>Not unique, 26 values</td><td>12 blank</td></tr>
+      <tr><td>desc_vial_acceso</td><td>String</td><td>Not unique, 5923 values</td><td>12 blank</td></tr>
+      <tr bgcolor="#e5e5e5"><td>nom_acceso</td><td>String</td><td>Not unique, 3 values</td><td>12 blank</td></tr>
+      <tr><td>num_acceso</td><td>Decimal</td><td>0-21.000 Numeros superiores a 1000 anomalías o puntos kilométricos </td><td>12 blank. En barrio Pinar del Rey, mucho locales en número altos y calles inexistentes</td></tr>
+      <tr bgcolor="#e5e5e5"><td>cal_acceso</td><td>String</td><td>Not unique, 28 values</td><td>134788 blank.</td></tr>
+      <tr><td>coordenada_x_acceso</td><td>Decimal</td><td></td><td></td></tr>
+      <tr bgcolor="#e5e5e5"><td>coordenada_y_acceso</td><td>Decimal</td><td></td><td></td></tr>
+      <tr><td>id_agrupacion</td><td>Decimal</td><td>0-100.000.000</td><td></td></tr>
+      <tr bgcolor="#e5e5e5"><td>nombre_agrupacion</td><td>String</td><td>Not unique, 338 values. Empty values</td><td></td></tr>
+      <tr><td>id_tipo_agrupacion</td><td>String</td><td>Not unique, 12 values. Empty values</td><td></td></tr>
+      <tr bgcolor="#e5e5e5"><td>desc_tipo_agrupacion</td><td>String</td><td>Not unique, 13 values, empty values</td><td></td></tr>
+      <tr><td>id_planta_agrupado</td><td>String</td><td>Not unique, 73 values, empty values</td><td></td></tr>
+      <tr bgcolor="#e5e5e5"><td>id_local_agrupado</td><td>String</td><td>Not unique, 1742 values, empty values</td><td></td></tr>
+      <tr><td>rotulo</td><td>String</td><td></td><td>47007 blank</td></tr>
+
+
     </table>
+
+    <h3>Bibliotecas y bibliobuses en la ciudad de Madrid</h3>
+    <ul>
+      <li><b>Nombre del fichero:</b> Bibliobuses y bibliotecas.csv</li>
+      <li><b>Fecha de última actualización:</b> Tiempo real</li>
+      <li><b>Descripción:</b> Relación de todas la Bibliotecas Públicas sitas en la ciudad de Madrid, de titularidad nacional, comunitaria o local. Incluye también bibliobuses. Datos de dirección, horario, servicios y coordenadas para su georeferenciación.</li>
+      <li><b>Origen de los datos:</b> Ayuntamiento de Madrid</li>
+      <li><a href="http://datos.madrid.es/egob/catalogo/aviso-legal">Licencia</a></li>
+      <li><a href="http://datos.madrid.es/egob/catalogo/201747-0-bibliobuses-bibliotecas.csv">Conceptos de los datos</a></li>
+    </ul>
+
+    <table style="width:100%; text-align:left;">
+      <tr bgcolor="#8ca6fd">
+        <th>Column</th>
+        <th>Type</th>
+        <th>Range</th>
+        <th>Comments</th>
+        <th>Problems</th>
+      </tr>
+      <tr bgcolor="#e5e5e5"><td>PK</td><td>Decimal</td><td>0.00 — 7,200,000.00</td><td>Unique</td><td></td></tr>
+      <tr><td>NOMBRE</td><td>String</td><td></td><td>All filled</td><td></td></tr>
+      <tr bgcolor="#e5e5e5"><td>DESCRIPCION-ENTIDAD</td><td>String</td><td></td><td></td><td>58 blanks</td></tr>
+      <tr><td>HORARIO</td><td>String</td><td></td><td>Not common format</td><td>3 blanks</td></tr>
+      <tr bgcolor="#e5e5e5"><td>EQUIPAMIENTO</td><td>String</td><td></td><td>Not common format</td><td>9 blanks</td></tr>
+      <tr><td>TRANSPORTE</td><td>String</td><td></td><td>Not common format</td><td>8 blanks</td></tr>
+      <tr bgcolor="#e5e5e5"><td>DESCRIPCION</td><td>String</td><td></td><td></td><td>10 blanks</td></tr>
+      <tr><td>ACCESIBILIDAD</td><td>Decimal</td><td>0-1</td><td></td><td></td></tr>
+      <tr bgcolor="#e5e5e5"><td>CONTENT-URL</td><td>String</td><td>URL</td><td></td><td></td></tr>
+      <tr><td>NOMBRE-VIA</td><td>String</td><td></td><td></td><td>8 blanks</td></tr>
+      <tr bgcolor="#e5e5e5"><td>CLASE-VIAL</td><td>String</td><td></td><td></td><td></td></tr>
+      <tr><td>TIPO-NUM</td><td>String</td><td></td><td></td><td>8 blanks</td></tr>
+      <tr bgcolor="#e5e5e5"><td>NUM</td><td>Decimal</td><td></td><td></td><td>8 blanks</td></tr>
+      <tr><td>PLANTA</td><td>Undefined</td><td></td><td></td><td>All empty</td></tr>
+      <tr bgcolor="#e5e5e5"><td>PUERTA</td><td>Undefined</td><td></td><td></td><td>All empty</td></tr>
+      <tr><td>ORIENTACION</td><td>String</td><td></td><td></td><td>51 blanks</td></tr>
+      <tr bgcolor="#e5e5e5"><td>LOCALIDAD</td><td>String</td><td></td><td>All values are MADRID</td><td></td></tr>
+      <tr><td>PROVINCIA</td><td>String</td><td></td><td>All values are MADRID</td><td></td></tr>
+      <tr bgcolor="#e5e5e5"><td>CODIGO-POSTAL</td><td>Decimal</td><td>28,002.00 — 28,054.00</td><td></td><td>8 blanks</td></tr>
+      <tr><td>BARRIO</td><td>String</td><td></td><td></td><td>8 blanks</td></tr>
+      <tr bgcolor="#e5e5e5"><td>DISTRITO</td><td>String</td><td></td><td></td><td>8 blanks</td></tr>
+      <tr><td>COORDENADA-X</td><td>Decimal</td><td>0.00 — 450,000.00</td><td></td><td></td></tr>
+      <tr bgcolor="#e5e5e5"><td>COORDENADA-Y</td><td>Decimal</td><td>0.00 — 4,500,000.00</td><td></td><td></td></tr>
+      <tr><td>LATITUD</td><td>Decimal</td><td>40.34 — 40.49</td><td></td><td>8 blanks</td></tr>
+      <tr bgcolor="#e5e5e5"><td>LONGITUD</td><td>-3.77 — -3.59</td><td></td><td></td><td>8 blanks</td></tr>
+      <tr><td>TELEFONO</td><td>String</td><td></td><td></td><td>Not common format</td></tr>
+      <tr bgcolor="#e5e5e5"><td>FAX</td><td>String</td><td></td><td></td><td>42 blanks</td></tr>
+      <tr><td>EMAIL</td><td>String</td><td></td><td></td><td>8 blanks</td></tr>
+      <tr bgcolor="#e5e5e5"><td>TIPO</td><td>String</td><td></td><td></td><td></td></tr>
+    </table> 
   </body>
 </html>
-
-<style>
-  .column{
-   font-weight: bold;
-  }
-
-</style>
