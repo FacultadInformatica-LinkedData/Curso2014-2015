@@ -6,345 +6,245 @@
 <h2 align="center"> <FONT FACE="arial">Data characteristics and schema </FONT></h2>
 <h2 align="center"> <FONT FACE="arial">Centro Deportivo de Madrid </FONT></h2>
 
+<li>Sector: Deporte.</li>
+<li>Fecha de incorporación al catálogo: 12/03/2014.</li>
+<h1> </h1>
+
 <table align="center" BORDER=1 WIDTH=700 bgcolor= "#CCFFCC">
-<tr>
-<td WIDTH=400> Column </td>
-<td WIDTH=200> Types </td>
-<td WIDTH=400> Comments/Range(rounded) </td>
-<td WIDTH=400> Problems </td>
-</tr>
-<tr>
-<td WIDTH=400> <strong>PK </strong></td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Unique, Not null </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> NOMBRE </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Unique, Not null </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> DESCRIPCIÓN-ENTIDAD </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Empty values </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> HORARIO </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Empty values </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> EQUIPAMIENTO </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not unique, Empty values </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> TRANSPORTE </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Empty values </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> ACCESIBILIDAD </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not unique </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> CONTENT-URL </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Unique </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> NOMBRE-VÍA </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not unique </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> CLASE-VIAL </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not unique </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> TIPO-NUM </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not unique </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> NUM </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not unique </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> NUM </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not unique </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> PLANTA </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Empty values </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> PUERTA </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Empty values </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> ESCALERAS </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Empty values </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> ORIENTACIÓN </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Empty values </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> LOCALIDAD </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not unique, Not null </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> PROVINCIA </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not unique, Not null </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> CÓDIGO-POSTAL </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not unique, Not null </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> BARRIO </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not unique, Not null </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> DISTRITO </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not unique, Not null </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> COORDENADA-X </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not unique, Not null </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> COORDENADA-Y </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not unique, Not null </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> LATITUD </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Unique, Not null </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> LONGITUD </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Unique, Not null </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> TELÉFONO </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Unique, Not null </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> FAX </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Unique, Empty values </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> EMAIL </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Empty values </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> TIPO </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not unique </td>
-<td WIDTH=400> </td>
-</tr>
-</table>
-<h2 align="center"> <FONT FACE="arial">Cultura y Ocio de Madrid</FONT> </h2>
-<table align="center" BORDER=1 WIDTH=700 bgcolor= "#CCFFCC">
-<tr>
-<td WIDTH=400> Column </td>
-<td WIDTH=200> Types </td>
-<td WIDTH=400> Comments/Range(rounded) </td>
-<td WIDTH=400> Problems </td>
-</tr>
-<tr>
-<td WIDTH=400> <strong>ID-EVENTO </strong></td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Unique, Not null </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> TÍTULO </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not null, Not unique </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> PRECIO </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not unique, Empty values </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> GRATUITO </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not null, Not unique, 0-1 </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> LARGA-DURACIÓN </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not null, Not unique, 0-1 </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> DÍAS-SEMANA </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not null, Not unique </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> DÍAS-EXCLUIDOS </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not null, Not unique </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> FECHA </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not null, Not unique </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> FECHA-FIN </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not null, Not unique </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> HORA </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not null, Not unique </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> DESCRIPCIÓN </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not unique, Empty values </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> CONTENT-URL </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Unique </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> TÍTULO-ACTIVIDAD </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not unique, Empty values </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> URL-ACTIVIDAD </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not Unique, Empty values </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> URL-INSTALACIÓN </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not Unique, Empty values </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> NOMBRE-INSTALACIÓN </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not Unique, Empty values </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> COORDENADA-X </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not Unique, Empty values </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> COORDENADA-Y </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not Unique, Empty values </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> LATITUD </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not Unique, Empty values </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> LONGITUD </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not Unique, Empty values </td>
-<td WIDTH=400> </td>
-</tr>
-<tr>
-<td WIDTH=400> TIPO </td>
-<td WIDTH=200> String </td>
-<td WIDTH=400> Not Unique, Empty values </td>
-<td WIDTH=400> </td>
-</tr>
+  <tr bgcolor="#FFFF00">
+    <td WIDTH=400> Column </td>
+    <td WIDTH=200> Types </td>
+    <td WIDTH=400> Comments/Range(rounded) </td>
+    <td WIDTH=600> Problems </td>
+  </tr>
 
-</table>
-
-
-
-<h2 align="center"> <FONT FACE="arial">Centro Salud de Madrid <FONT FACE="arial"> </h2>
-
-
-
-  <table align="center" BORDER=1 WIDTH=700 bgcolor= "#CCFFCC">
   <tr>
+    <td WIDTH=400> <strong>PK </strong></td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Unique, Not null </td>
+    <td WIDTH=400> </td>
+  </tr>
 
+  <tr>
+    <td WIDTH=400> NOMBRE </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Unique, Not null </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> DESCRIPCIÓN-ENTIDAD </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Empty values </td>
+    <td WIDTH=600> 65 entradas en blanco</td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> HORARIO </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Empty values </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> EQUIPAMIENTO </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not unique, Empty values </td>
+    <td WIDTH=400> 45 entradas en blanco</td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> TRANSPORTE </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Empty values </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> ACCESIBILIDAD </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not unique </td>
+    <td WIDTH=600> hay 2 posibles valores 0 y 1, sería un boolean </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> CONTENT-URL </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Unique </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> NOMBRE-VÍA </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not unique </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> CLASE-VIAL </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not unique </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> TIPO-NUM </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not unique </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> NUM </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not unique </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> NUM </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not unique, Rang0: 0-380 </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> PLANTA </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Empty values </td>
+    <td WIDTH=400> 65 entradas en blanco</td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> PUERTA </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Empty values </td>
+    <td WIDTH=400> 65 entradas en blanco</td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> ESCALERAS </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Empty values </td>
+    <td WIDTH=400> 65 entradas en blanco</td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> ORIENTACIÓN </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Empty values </td>
+    <td WIDTH=400> 62 entradas en blanco</td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> LOCALIDAD </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not unique, Not null </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> PROVINCIA </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not unique, Not null </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> CÓDIGO-POSTAL </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not unique, Not null ,Range: 28002-28055</td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> BARRIO </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not unique, Not null </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> DISTRITO </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not unique, Not null </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> COORDENADA-X </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not unique, Not null,Rango: 433000-451000</td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> COORDENADA-Y </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not unique, Not null,Rango: 433000-451000</td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> LATITUD </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Unique, Not null,Rango: 40.34-40.50 ; </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> LONGITUD </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Unique, Not null, Rango: -3.78-3,59</td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> TELÉFONO </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Unique, Not null </td>
+    <td WIDTH=400> </td>
+  </tr> 
+  
+  <tr>
+    <td WIDTH=400> FAX </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Unique, Empty values </td>
+    <td WIDTH=400> 47 entradas en blanco</td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> EMAIL </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Empty values </td>
+    <td WIDTH=400> 65 entradas en blanco</td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> TIPO </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not unique </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+</table>
+
+
+<h2 align="center"> <FONT FACE="arial">Cultura y Ocio de Madrid</FONT> </h2>
+<h1> </h1>
+<li>Sector: Salud</li>
+<li>Fecha de incorporación al catálogo: 12/03/2014.</li>
+<h1>    </h1>
+
+<table align="center" BORDER=1 WIDTH=700 bgcolor= "#CCFFCC">
+  <tr bgcolor="#FFFF00">
     <td WIDTH=400> Column </td>
     <td WIDTH=200> Types </td>
     <td WIDTH=400> Comments/Range(rounded) </td>
     <td WIDTH=400> Problems </td>
   </tr>
+
 
   <tr>
     <td WIDTH=400> <strong>PK </strong></td>
@@ -364,7 +264,7 @@
     <td WIDTH=400> DESCRIPCIÓN-ENTIDAD </td>
     <td WIDTH=200> String </td>
     <td WIDTH=400> Empty values </td>
-    <td WIDTH=400>  </td>
+    <td WIDTH=400>  33 entradas en blanco</td>
   </tr>
 
   <tr>
@@ -378,7 +278,7 @@
     <td WIDTH=400> EQUIPAMIENTO </td>
     <td WIDTH=200> String </td>
     <td WIDTH=400> Empty values </td>
-    <td WIDTH=400>  </td>
+    <td WIDTH=400> 18 entradas en blanco </td>
   </tr>
 
 
@@ -389,6 +289,13 @@
     <td WIDTH=400>  </td>
   </tr>
 
+  <tr>
+    <td WIDTH=400> Descripcion </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not unique, Empty values </td>
+    <td WIDTH=400>  7 entradas en blanco</td>
+  </tr>
+  
   <tr>
     <td WIDTH=400> ACCESIBILIDAD </td>
     <td WIDTH=200> String </td>
@@ -427,7 +334,7 @@
   <tr>
     <td WIDTH=400> NUM </td>
     <td WIDTH=200> String </td>
-    <td WIDTH=400> Not unique </td>
+    <td WIDTH=400> Not unique , Range : 0-530</td>
     <td WIDTH=400>  </td>
   </tr>
 
@@ -436,28 +343,28 @@
     <td WIDTH=400> PLANTA </td>
     <td WIDTH=200> String </td>
     <td WIDTH=400> Empty values </td>
-    <td WIDTH=400>  </td>
+    <td WIDTH=400> 35 entradas en blanco </td>
   </tr>
 
   <tr>
     <td WIDTH=400> PUERTA </td>
     <td WIDTH=200> String </td>
     <td WIDTH=400> Empty values </td>
-    <td WIDTH=400>  </td>
+    <td WIDTH=400>  35 entradas en blanco</td>
   </tr>
 
   <tr>
     <td WIDTH=400> ESCALERAS </td>
     <td WIDTH=200> String </td>
     <td WIDTH=400> Empty values </td>
-    <td WIDTH=400>  </td>
+    <td WIDTH=400>  35 entradas en blanco</td>
   </tr>
 
   <tr>
     <td WIDTH=400> ORIENTACIÓN </td>
     <td WIDTH=200> String </td>
     <td WIDTH=400> Empty values </td>
-    <td WIDTH=400>  </td>
+    <td WIDTH=400>  31 entradas en blanco</td>
   </tr>
 
 
@@ -478,10 +385,10 @@
   <tr>
     <td WIDTH=400> CÓDIGO-POSTAL </td>
     <td WIDTH=200> String </td>
-    <td WIDTH=400> Not unique, Not null </td>
+    <td WIDTH=400> Not unique, Not null , Rango: 28002-28055</td>
     <td WIDTH=400>  </td>
   </tr>
-
+ 
   <tr>
     <td WIDTH=400> BARRIO </td>
     <td WIDTH=200> String </td>
@@ -499,14 +406,14 @@
   <tr>
     <td WIDTH=400> COORDENADA-X </td>
     <td WIDTH=200> String </td>
-    <td WIDTH=400> Not unique, Not null </td>
+    <td WIDTH=400> Not unique, Not null ,Rango: 434000-449000</td>
     <td WIDTH=400>  </td>
   </tr>
 
   <tr>
     <td WIDTH=400> COORDENADA-Y </td>
     <td WIDTH=200> String </td>
-    <td WIDTH=400> Not unique, Not null </td>
+    <td WIDTH=400> Not unique, Not null,Rango: 446700-448200</td>
     <td WIDTH=400>  </td>
   </tr>
 
@@ -514,14 +421,14 @@
   <tr>
     <td WIDTH=400> LATITUD </td>
     <td WIDTH=200> String </td>
-    <td WIDTH=400> Unique, Not null </td>
+    <td WIDTH=400> Unique, Not null, Range: 40.35-40.48</td>
     <td WIDTH=400>  </td>
   </tr>
 
   <tr>
     <td WIDTH=400> LONGITUD </td>
     <td WIDTH=200> String </td>
-    <td WIDTH=400> Unique, Not null </td>
+    <td WIDTH=400> Unique, Not null, Rango: -3.78-3.81</td>
     <td WIDTH=400>  </td>
   </tr>
 
@@ -536,7 +443,7 @@
     <td WIDTH=400> FAX </td>
     <td WIDTH=200> String </td>
     <td WIDTH=400> Unique, Empty values </td>
-    <td WIDTH=400>  </td>
+    <td WIDTH=400> 34 entradas en blanco</td>
   </tr>
 
   <tr>
@@ -553,8 +460,189 @@
     <td WIDTH=400>  </td>
   </tr>
 
+  
   </table>
 
+<h2 align="center"> <FONT FACE="arial">Centro Salud de Madrid <FONT FACE="arial"> </h2>
+
+<li>Sector: Cultura y ocio.</li>
+<li>Fecha de incorporación al catálogo: 12/03/2014.</li>
+<h1>    </h1>
+
+  <table align="center" BORDER=1 WIDTH=700 bgcolor= "#CCFFCC">
+  <tr bgcolor="#FFFF00">
+  
+    <td WIDTH=400> Column </td>
+    <td WIDTH=200> Types </td>
+    <td WIDTH=400> Comments/Range(rounded) </td>
+    <td WIDTH=400> Problems </td>
+  </tr>
+  
+    <tr>
+    <td WIDTH=400> <strong>ID-EVENTO </strong></td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Unique, Not null </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> TÍTULO </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not null, Not unique </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> PRECIO </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not unique, Empty values </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> GRATUITO </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not null, Not unique, 0-1 </td>
+    <td WIDTH=400> hay 2 posibles valores 0 y 1, sería un boolean </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> LARGA-DURACIÓN </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not null, Not unique, 0-1 </td>
+    <td WIDTH=400> hay 2 posibles valores 0 y 1, sería un boolean </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> DÍAS-SEMANA </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not null, Not unique </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> DÍAS-EXCLUIDOS </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not null, Not unique </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> FECHA INI</td>
+    <td WIDTH=200> Date </td>
+    <td WIDTH=400> Not null, Not unique </td>
+    <td WIDTH=400> Valor de Fecha Final(23:59:00)</td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> FECHA-FIN </td>
+    <td WIDTH=200> Date </td>
+    <td WIDTH=400> Not null, Not unique </td>
+    <td WIDTH=400> Valor de Fecha Inicial(00:00:00)</td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> HORA </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not null, Not unique </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> DESCRIPCIÓN </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not unique, Empty values </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> CONTENT-URL </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Unique </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> TÍTULO-ACTIVIDAD </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not unique, Empty values </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> URL-ACTIVIDAD </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not Unique, Empty values </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> URL-INSTALACIÓN </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not Unique, Empty values </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> NOMBRE-INSTALACIÓN </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not Unique, Empty values </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> COORDENADA-X </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not Unique, Empty values, Rango: 433000-452000</td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> COORDENADA-Y </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not Unique, Empty values, Rango: 446600-448600 </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> LATITUD </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not Unique, Empty values , Rango: 40.34-40.52</td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> LONGITUD </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not Unique, Empty values, Rango: -3.79-3.57</td>
+    <td WIDTH=400> </td>
+  </tr>
+
+  <tr>
+    <td WIDTH=400> TIPO </td>
+    <td WIDTH=200> String </td>
+    <td WIDTH=400> Not Unique, Empty values </td>
+    <td WIDTH=400> </td>
+  </tr>
+
+
+
+
+
+  </table>
+
+<dt><b>Publicación de datos</b></dt>
+  <ul>
+    <li>Frecuencia de actualización: Tiempo real.</li>
+    <li>Editor: Ayuntamiento de Madrid.</li>
+    <li>Lugar: Madrid</li>
+  </ul>
+
+  <dt><b>Licencia</b></dt>
+  <ul>
+    <li>Origen de los datos: Ayuntamiento de Madrid.</li>
+    <li><a href="http://datos.madrid.es/egob/catalogo/aviso-legal" style="text-decoration:none">Detalles de la Licencia</a>
+  </ul>
 
 </body>
 </html>
