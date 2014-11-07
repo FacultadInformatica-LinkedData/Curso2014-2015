@@ -1,0 +1,25 @@
+[
+  {
+    "op": "core/column-addition",
+    "description": "Create column asWKT at index 8 based on column LATWGS84 using expression grel:\"POINT(\"+cells[\"LONWGS84\"].value+\" \"+value+\")\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "asWKT",
+    "columnInsertIndex": 8,
+    "baseColumnName": "LATWGS84",
+    "expression": "grel:\"POINT(\"+cells[\"LONWGS84\"].value+\" \"+value+\")\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LATWGS84",
+    "columnName": "LATWGS84"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LONWGS84",
+    "columnName": "LONWGS84"
+  }
+]
