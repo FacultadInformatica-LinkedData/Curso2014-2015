@@ -23,9 +23,9 @@
     </tr>
 
     <tr>
-      <td WIDTH=400> <strong>PK </strong>
+      <td WIDTH=400> <strong>ID-DEPORTES</strong>
       </td>
-      <td WIDTH=200>String</td>
+      <td WIDTH=200>Integer</td>
       <td WIDTH=400>Unique, Not null</td>
       <td WIDTH=400 align="center">-----------</td>
     </tr>
@@ -99,14 +99,7 @@
       <td WIDTH=400>Not unique</td>
       <td WIDTH=400 align="center">-----------</td>
     </tr>
-
-    <tr>
-      <td WIDTH=400>NUM</td>
-      <td WIDTH=200>String</td>
-      <td WIDTH=400>Not unique</td>
-      <td WIDTH=400 align="center">-----------</td>
-    </tr>
-
+    
     <tr>
       <td WIDTH=400>NUM</td>
       <td WIDTH=200>String</td>
@@ -158,7 +151,7 @@
 
     <tr>
       <td WIDTH=400>CÓDIGO-POSTAL</td>
-      <td WIDTH=200>String</td>
+      <td WIDTH=200>Integer</td>
       <td WIDTH=400>Not unique, Not null ,Range: 28002-28055</td>
       <td WIDTH=400 align="center">-----------</td>
     </tr>
@@ -179,28 +172,28 @@
 
     <tr>
       <td WIDTH=400>COORDENADA-X</td>
-      <td WIDTH=200>String</td>
+      <td WIDTH=200>Double</td>
       <td WIDTH=400>Not unique, Not null,Rango: 433000-451000</td>
       <td WIDTH=400 align="center">-----------</td>
     </tr>
 
     <tr>
       <td WIDTH=400>COORDENADA-Y</td>
-      <td WIDTH=200>String</td>
+      <td WIDTH=200>Double</td>
       <td WIDTH=400>Not unique, Not null,Rango: 433000-451000</td>
       <td WIDTH=400 align="center">-----------</td>
     </tr>
 
     <tr>
       <td WIDTH=400>LATITUD</td>
-      <td WIDTH=200>String</td>
+      <td WIDTH=200>Double</td>
       <td WIDTH=400>Unique, Not null,Rango: 40.34-40.50 ;</td>
       <td WIDTH=400 align="center">-----------</td>
     </tr>
 
     <tr>
       <td WIDTH=400>LONGITUD</td>
-      <td WIDTH=200>String</td>
+      <td WIDTH=200>Double</td>
       <td WIDTH=400>Unique, Not null, Rango: -3.78-3,59</td>
       <td WIDTH=400 align="center">-----------</td>
     </tr>
@@ -236,7 +229,7 @@
   </table>
 
 
-  <h2 align="center"> <FONT FACE="arial">Cultura y Ocio de Madrid</FONT> </h2>
+  <h2 align="center"> <FONT FACE="arial">Centro Salud de Madrid</FONT> </h2>
   <h1> </h1>
   <li>Sector: Salud</li>
   <li>Fecha de incorporación al catálogo: 12/03/2014.</li>
@@ -252,9 +245,9 @@
 
 
     <tr>
-      <td WIDTH=400> <strong>PK </strong>
+      <td WIDTH=400> <strong>ID-SALUD</strong>
       </td>
-      <td WIDTH=200>String</td>
+      <td WIDTH=200>Integer</td>
       <td WIDTH=400>Unique, Not null</td>
       <td WIDTH=400 align="center">-----------</td>
     </tr>
@@ -304,7 +297,7 @@
 
     <tr>
       <td WIDTH=400>ACCESIBILIDAD</td>
-      <td WIDTH=200>String</td>
+      <td WIDTH=200>Boolean</td>
       <td WIDTH=400>Not unique</td>
       <td WIDTH=400 align="center">-----------</td>
     </tr>
@@ -411,14 +404,14 @@
 
     <tr>
       <td WIDTH=400>COORDENADA-X</td>
-      <td WIDTH=200>String</td>
+      <td WIDTH=200>Double</td>
       <td WIDTH=400>Not unique, Not null ,Rango: 434000-449000</td>
       <td WIDTH=400 align="center">-----------</td>
     </tr>
 
     <tr>
       <td WIDTH=400>COORDENADA-Y</td>
-      <td WIDTH=200>String</td>
+      <td WIDTH=200>Double</td>
       <td WIDTH=400>Not unique, Not null,Rango: 446700-448200</td>
       <td WIDTH=400 align="center">-----------</td>
     </tr>
@@ -426,14 +419,14 @@
 
     <tr>
       <td WIDTH=400>LATITUD</td>
-      <td WIDTH=200>String</td>
+      <td WIDTH=200>Double</td>
       <td WIDTH=400>Unique, Not null, Range: 40.35-40.48</td>
       <td WIDTH=400 align="center">-----------</td>
     </tr>
 
     <tr>
       <td WIDTH=400>LONGITUD</td>
-      <td WIDTH=200>String</td>
+      <td WIDTH=200>Double</td>
       <td WIDTH=400>Unique, Not null, Rango: -3.78-3.81</td>
       <td WIDTH=400 align="center">-----------</td>
     </tr>
@@ -469,7 +462,7 @@
 
   </table>
 
-  <h2 align="center"> <FONT FACE="arial">Centro Salud de Madrid <FONT FACE="arial"> </h2>
+  <h2 align="center"> <FONT FACE="arial">Cultura y Ocio de Madrid<FONT FACE="arial"> </h2>
 
   <li>Sector: Cultura y ocio.</li>
   <li>Fecha de incorporación al catálogo: 12/03/2014.</li>
@@ -487,7 +480,7 @@
     <tr>
       <td WIDTH=400> <strong>ID-EVENTO </strong>
       </td>
-      <td WIDTH=200>String</td>
+      <td WIDTH=200>Integer</td>
       <td WIDTH=400>Unique, Not null</td>
       <td WIDTH=400 align="center">-----------</td>
     </tr>
@@ -508,7 +501,7 @@
 
     <tr>
       <td WIDTH=400>GRATUITO</td>
-      <td WIDTH=200>String</td>
+      <td WIDTH=200>Boolean</td>
       <td WIDTH=400>Not null, Not unique, 0-1</td>
       <td WIDTH=400>hay 2 posibles valores 0 y 1, sería un boolean</td>
     </tr>
@@ -599,28 +592,28 @@
 
     <tr>
       <td WIDTH=400>COORDENADA-X</td>
-      <td WIDTH=200>String</td>
+      <td WIDTH=200>Double</td>
       <td WIDTH=400>Not Unique, Empty values, Rango: 433000-452000</td>
       <td WIDTH=400 align="center">-----------</td>
     </tr>
 
     <tr>
       <td WIDTH=400>COORDENADA-Y</td>
-      <td WIDTH=200>String</td>
+      <td WIDTH=200>Double</td>
       <td WIDTH=400>Not Unique, Empty values, Rango: 446600-448600</td>
       <td WIDTH=400 align="center">-----------</td>
     </tr>
 
     <tr>
       <td WIDTH=400>LATITUD</td>
-      <td WIDTH=200>String</td>
+      <td WIDTH=200>Double</td>
       <td WIDTH=400>Not Unique, Empty values , Rango: 40.34-40.52</td>
       <td WIDTH=400 align="center">-----------</td>
     </tr>
 
     <tr>
       <td WIDTH=400>LONGITUD</td>
-      <td WIDTH=200>String</td>
+      <td WIDTH=200>Double</td>
       <td WIDTH=400>Not Unique, Empty values, Rango: -3.79-3.57</td>
       <td WIDTH=400 align="center">-----------</td>
     </tr>
