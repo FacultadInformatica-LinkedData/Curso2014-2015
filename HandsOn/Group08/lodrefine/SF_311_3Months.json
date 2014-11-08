@@ -1,0 +1,28 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column OPEN using expression grel:value.toDate().toString(\"YYYY-MM-dd\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "OPEN",
+    "expression": "grel:value.toDate().toString(\"YYYY-MM-dd\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CLOSE using expression grel:value.toDate().toString(\"YYYY-MM-dd\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CLOSE",
+    "expression": "grel:value.toDate().toString(\"YYYY-MM-dd\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  }
+]
