@@ -22,8 +22,11 @@
       .tg  { border-collapse:collapse;border-spacing:0;border-color:#ccc; }
       .tg td{ font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff; }
       .tg th{ font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0; }
-      .tg .tg-s6z2{ text-align:center }
-      .tg .tg-0ord{ text-align:center }
+      .tg .tg-header{ text-align:center }
+      .tg .tg-greenl { text-align: left; color: green;}
+      .tg .tg-green { text-align: center; color: green;}
+      .tg .tg-redl { text-align: left; color: red;}
+      .tg .tg-red{ text-align: center; color: red;}
     </style>
   </head>
   <body>
@@ -56,851 +59,534 @@
         <p>GTFS Public transport dataset changed its files from eight csv to essential one csv.</p>
         <p>Others dataset have changed their columns due to blanks or unknown information.</p>
         <ul>
+          <br>
           <li id="sec-0-0">311 Service Requests
             <p>Final CSV representation: <a href="./csv/SF_311_3Months.csv">[Link to Download]</a></p>
-            <p>Original data source:</p>
-            <table class="tg" style="undefined;table-layout: fixed; width: 630px">
+            <p>Evolution data source:</p>
+            <table class="tg" style="undefined;table-layout: fixed; width: 830px">
               <colgroup>
                 <col style="width: 150px">
                 <col style="width: 80px">
                 <col style="width: 200px">
                 <col style="width: 200px">
-              </colgroup>
-              <tr>
-                <th class="tg-s6z2">Column</th>
-                <th class="tg-s6z2">Type</th>
-                <th class="tg-s6z2">Range</th>
-                <th class="tg-s6z2">Problems</th>
-              </tr>
-              <tr>
-                <td class="tg-031e">CaseID</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">3.8M - 4.2M</td>
-                <td class="tg-s6z2">Non unique (1 repetition)</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Opened</td>
-                <td class="tg-s6z2">Date</td>
-                <td class="tg-s6z2">17/07/2014 - 16/10/2014</td>
-                <td class="tg-s6z2">Format and incorrect dates</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Closed</td>
-                <td class="tg-s6z2">Date</td>
-                <td class="tg-s6z2">17/07/2014 - 16/10/2014</td>
-                <td class="tg-s6z2">Format and incorrect dates</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Updated</td>
-                <td class="tg-s6z2">Date</td>
-                <td class="tg-s6z2">17/07/2014 - 16/10/2014</td>
-                <td class="tg-s6z2">Format and incorrect dates</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Status</td>
-                <td class="tg-s6z2">Boolean</td>
-                <td class="tg-s6z2">Open - Closed</td>
-                <td class="tg-0ord"></td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Responsable Agency</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-031e"></td>
-                <td class="tg-s6z2">Bad format</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Category</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-031e"></td>
-                <td class="tg-031e"></td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Request Type</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-031e"></td>
-                <td class="tg-s6z2">Bad format</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Request Details</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-031e"></td>
-                <td class="tg-s6z2">Bad format</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Address</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-031e"></td>
-                <td class="tg-s6z2">Too many formats</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Supervisor District</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">0 - 12</td>
-                <td class="tg-s6z2">Number mean</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Neighborhood</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-031e"></td>
-                <td class="tg-031e"></td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Point</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-031e"></td>
-                <td class="tg-s6z2">WGS84 Format ?</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Source</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-031e"></td>
-                <td class="tg-s6z2">Irrelevant information</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Media</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-031e"></td>
-                <td class="tg-s6z2">Careful: URLs</td>
-              </tr>
-            </table>
-            <p>Final data source:</p>
-            <table class="tg" style="undefined;table-layout: fixed; width: 500px">
-              <colgroup>
-                <col style="width: 150px">
-                <col style="width: 150px">
+                <col style="width: 200px">
                 <col style="width: 200px">
               </colgroup>
               <tr>
-                <th class="tg-s6z2">Column</th>
-                <th class="tg-s6z2">Type</th>
-                <th class="tg-s6z2">Range</th>
+                <th class="tg-header">Final Column</th>
+                <th class="tg-header">Type</th>
+                <th class="tg-header">Range</th>
+                <th class="tg-header">Problems</th>
+                <th class="tg-header">Cleanup I - HandsOn II</th>
+                <th class="tg-header">Cleanup II - HandsOn III</th>
               </tr>
               <tr>
-                <td class="tg-031e">CASEID</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">3.8M - 4.2M</td>
+                <td class="tg-greenl">CASEID</td>
+                <td class="tg-green">Number</td>
+                <td class="tg-green">3.8M - 4.2M</td>
+                <td class="tg-green">Non unique (1 repetition)</td>
+                <td class="tg-green">Fixed repetitions</td>
               </tr>
               <tr>
-                <td class="tg-031e">OPEN</td>
-                <td class="tg-s6z2">Date (dd-MM-yyyy)</td>
-                <td class="tg-s6z2">01/08/2014 - 30/09/2014</td>
+                <td class="tg-greenl">OPEN</td>
+                <td class="tg-green">Date</td>
+                <td class="tg-green">17/07/2014 - 16/10/2014</td>
+                <td class="tg-green">Format and incorrect dates</td>
+                <td class="tg-green">Date format</br></br>01/08/2014 - 30/09/2014</td>
+                <td class="tg-green">XSD:Date format</br></br>2014/08/01 - 2014/09/30</td>
               </tr>
               <tr>
-                <td class="tg-031e">CLOSE</td>
-                <td class="tg-s6z2">Date (dd-MM-yyyy)</td>
-                <td class="tg-s6z2">01/08/2014 - 30/09/2014</td>
+                <td class="tg-greenl">CLOSE</td>
+                <td class="tg-green">Date</td>
+                <td class="tg-green">17/07/2014 - 16/10/2014</td>
+                <td class="tg-green">Format and incorrect dates</td>
+                <td class="tg-green">Date format</br></br>01/08/2014 - 30/09/2014</td>
+                <td class="tg-green">XSD:Date format</br></br>2014/08/01 - 2014/09/30</td>
               </tr>
               <tr>
-                <td class="tg-031e">STATE</td>
-                <td class="tg-s6z2">Boolean</td>
-                <td class="tg-s6z2">1 - 0 (open - closed)</td>
+                <td class="tg-redl">Updated</td>
+                <td class="tg-red">Date</td>
+                <td class="tg-red">17/07/2014 - 16/10/2014</td>
+                <td class="tg-red">Format and incorrect dates</td>
+                <td class="tg-red">Removed Column</td>
               </tr>
               <tr>
-                <td class="tg-031e">AGENCY</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-031e"></td>
+                <td class="tg-greenl">STATE</td>
+                <td class="tg-green">Boolean</td>
+                <td class="tg-green">Open - Closed</td>
+                <td class="tg-0ord"></td>
+                <td class="tg-green">Range 1 - 0</td>
               </tr>
               <tr>
-                <td class="tg-031e">CATEGORY</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-031e"></td>
+                <td class="tg-greenl">AGENCY</td>
+                <td class="tg-green">String</td>
               </tr>
               <tr>
-                <td class="tg-031e">REQUEST</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-031e"></td>
+                <td class="tg-greenl">CATEGORY</td>
+                <td class="tg-green">String</td>
               </tr>
               <tr>
-                <td class="tg-031e">REQUEST DETAILS</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-031e"></td>
+                <td class="tg-greenl">REQUEST</td>
+                <td class="tg-green">String</td>
               </tr>
               <tr>
-                <td class="tg-031e">ADDRESS</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-031e"></td>
+                <td class="tg-greenl">REQUEST DETAILS</td>
+                <td class="tg-green">String</td>
               </tr>
               <tr>
-                <td class="tg-031e">NEIGHBORHOOD</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-031e"></td>
+                <td class="tg-greenl">ADDRESS</td>
+                <td class="tg-green">String</td>
               </tr>
               <tr>
-                <td class="tg-031e">LATWGS84</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">WGS84 Latitude range</td>
+                <td class="tg-redl">Supervisor District</td>
+                <td class="tg-red">Number</td>
+                <td class="tg-red">0 - 12</td>
+                <td class="tg-red">Number mean</td>
+                <td class="tg-red">Removed Column</td>
               </tr>
               <tr>
-                <td class="tg-031e">LONWGS84</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">WGS84 Longitude range</td>
+                <td class="tg-greenl">NEIGHBORHOOD</td>
+                <td class="tg-green">String</td>
               </tr>
               <tr>
-                <td class="tg-031e">MEDIA</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-031e"></td>
+                <td class="tg-greenl">asWKT</td>
+                <td class="tg-green">String</td>
+                <td class="tg-green"></td>
+                <td class="tg-green">WGS84 Format ?</td>
+                <td class="tg-green">Latitude and Longitude</br></br>LAT/LON WGS84</td>
+                <td class="tg-green">GeoSPARQL WKT</td>
+              </tr>
+              <tr>
+                <td class="tg-redl">Source</td>
+                <td class="tg-red">String</td>
+                <td class="tg-red"></td>
+                <td class="tg-red">Irrelevant information</td>
+                <td class="tg-red">Removed Column</td>
+              </tr>
+              <tr>
+                <td class="tg-greenl">MEDIA</td>
+                <td class="tg-green">String</td>
               </tr>
             </table>
           </li>
-          <br/>
-          ------------------------------------------------------------------------------------------------------------------------
-          <br/>
+          <br>
           <li id="sec-0-1">Crime data
             <p>Final CSV representation: <a href="./csv/SF_Crime_3Months.csv">[Link to Download]</a></p>
-            <p>Original data source:</p>
-            <table class="tg" style="undefined;table-layout: fixed; width: 630px">
+            <p>Evolution data source:</p>
+            <table class="tg" style="undefined;table-layout: fixed; width: 830px">
               <colgroup>
                 <col style="width: 150px">
                 <col style="width: 80px">
                 <col style="width: 200px">
                 <col style="width: 200px">
-              </colgroup>
-              <tr>
-                <th class="tg-s6z2">Column</th>
-                <th class="tg-s6z2">Type</th>
-                <th class="tg-s6z2">Range</th>
-                <th class="tg-s6z2">Problems</th>
-              </tr>
-              <tr>
-                <td class="tg-031e">incidntNum</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">10M - 990M</td>
-                <td class="tg-s6z2">Non unique (more than 1)</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Category</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2">Bad format</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Descript</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2"></td>
-              </tr>
-              <tr>
-                <td class="tg-031e">DayofWeek</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2">Monday - Sunday</td>
-                <td class="tg-s6z2">Irrelevant information</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Date</td>
-                <td class="tg-s6z2">Date</td>
-                <td class="tg-s6z2">01/07/2014 - 30/09/2014</td>
-                <td class="tg-s6z2">Format MM/dd/yyyy</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Time</td>
-                <td class="tg-s6z2">Date</td>
-                <td class="tg-s6z2">00:00 - 23:59</td>
-                <td class="tg-s6z2">Format HH:mm</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">PdDistrict</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2"></td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Resolution</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2"></td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Address</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2"></td>
-              </tr>
-              <tr>
-                <td class="tg-031e">X</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2">WGS84 Format ?</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Y</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2">WGS84 Format ?</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">Location</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2">WGS84 Format ?</td>
-              </tr>
-            </table>
-            <p>Final data source:</p>
-            <table class="tg" style="undefined;table-layout: fixed; width: 700px">
-              <colgroup>
-                <col style="width: 150px">
-                <col style="width: 150px">
                 <col style="width: 200px">
                 <col style="width: 200px">
               </colgroup>
               <tr>
-                <th class="tg-s6z2">Column</th>
-                <th class="tg-s6z2">Type</th>
-                <th class="tg-s6z2">Range</th>
-                <th class="tg-s6z2">Problems</th>
+                <th class="tg-header">Final Column</th>
+                <th class="tg-header">Type</th>
+                <th class="tg-header">Range</th>
+                <th class="tg-header">Problems</th>
+                <th class="tg-header">Cleanup I - HandsOn II</th>
+                <th class="tg-header">Cleanup II - HandsOn III</th>
               </tr>
               <tr>
-                <td class="tg-031e">INCIDENTID</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">10M - 990M</td>
-                <td class="tg-s6z2">Non unique (more than 1)</td>
+                <td class="tg-greenl">INCIDENTID</td>
+                <td class="tg-green">Number</td>
+                <td class="tg-green">10M - 990M</td>
+                <td class="tg-green">Non unique (more than 1)</td>
               </tr>
               <tr>
-                <td class="tg-031e">CATEGORY</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2"></td>
+                <td class="tg-greenl">CATEGORY</td>
+                <td class="tg-green">String</td>
               </tr>
               <tr>
-                <td class="tg-031e">DESCRIPTION</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2"></td>
+                <td class="tg-greenl">DESCRIPTION</td>
+                <td class="tg-green">String</td>
               </tr>
               <tr>
-                <td class="tg-031e">DATE</td>
-                <td class="tg-s6z2">Date (dd-MM-yyyy)</td>
-                <td class="tg-s6z2">01/08/2014 - 30/09/2014</td>
-                <td class="tg-s6z2"></td>
+                <td class="tg-redl">DayofWeek</td>
+                <td class="tg-red">String</td>
+                <td class="tg-red">Monday - Sunday</td>
+                <td class="tg-red">Irrelevant information</td>
+                <td class="tg-red">Removed Column</td>
               </tr>
               <tr>
-                <td class="tg-031e">DISTRICT</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2"></td>
+                <td class="tg-greenl">Date</td>
+                <td class="tg-green">Date</td>
+                <td class="tg-green">01/07/2014 - 30/09/2014</td>
+                <td class="tg-green">Format and incorrect dates</td>
+                <td class="tg-green">Date format</br></br>01/08/2014 - 30/09/2014</td>
+                <td class="tg-green">XSD:Date format</br></br>2014/08/01 - 2014/09/30</td>
               </tr>
               <tr>
-                <td class="tg-031e">STATE</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2"></td>
+                <td class="tg-redl">Time</td>
+                <td class="tg-red">Date</td>
+                <td class="tg-red">00:00 - 23:59</td>
+                <td class="tg-red">Format HH:mm</td>
+                <td class="tg-red">Removed Column</td>
               </tr>
               <tr>
-                <td class="tg-031e">ADDRESS</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2"></td>
+                <td class="tg-greenl">DISTRICT</td>
+                <td class="tg-green">String</td>
               </tr>
               <tr>
-                <td class="tg-031e">LATWGS84</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">WGS84 Latitude range</td>
-                <td class="tg-s6z2"></td>
+                <td class="tg-greenl">STATE</td>
+                <td class="tg-green">String</td>
               </tr>
               <tr>
-                <td class="tg-031e">LONWGS84</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">WGS84 Longitude range</td>
-                <td class="tg-s6z2"></td>
+                <td class="tg-greenl">ADDRESS</td>
+                <td class="tg-green">String</td>
+              </tr>
+              <tr>
+                <td class="tg-redl">X</td>
+                <td class="tg-red">Number</td>
+                <td class="tg-red"></td>
+                <td class="tg-red">WGS84 Format ?</td>
+                <td class="tg-red">Removed Column</td>
+              </tr>
+              <tr>
+                <td class="tg-redl">Y</td>
+                <td class="tg-red">Number</td>
+                <td class="tg-red"></td>
+                <td class="tg-red">WGS84 Format ?</td>
+                <td class="tg-red">Removed Column</td>
+              </tr>
+              <tr>
+                <td class="tg-greenl">asWKT</td>
+                <td class="tg-green">String</td>
+                <td class="tg-green"></td>
+                <td class="tg-green">WGS84 Format ?</td>
+                <td class="tg-green">Latitude and Longitude</br></br>LAT/LON WGS84</td>
+                <td class="tg-green">GeoSPARQL WKT</td>
               </tr>
             </table>
           </li>
-          <br/>
-          ------------------------------------------------------------------------------------------------------------------------
-          <br/>
+          <br>
           <li id="sec-0-2">GIS Mapping
             <p>Final CSV representation: <a href="./csv/SF_GIS.csv">[Link to Download]</a></p>
-            <p>Original data source:</p>
-            <table class="tg" style="undefined;table-layout: fixed; width: 630px">
+            <p>Evolution data source:</p>
+            <table class="tg" style="undefined;table-layout: fixed; width: 830px">
               <colgroup>
                 <col style="width: 150px">
                 <col style="width: 80px">
                 <col style="width: 200px">
                 <col style="width: 200px">
-              </colgroup>
-              <tr>
-                <th class="tg-s6z2">Column</th>
-                <th class="tg-s6z2">Type</th>
-                <th class="tg-s6z2">Range</th>
-                <th class="tg-s6z2">Problems</th>
-              </tr>
-              <tr>
-                <td class="tg-031e">ZONE_TYPE</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2">Non unique (more than 1)</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">ZONE_NAME</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2">Non unique (more than 1)</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">URL</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2"></td>
-              </tr>
-              <tr>
-                <td class="tg-031e">SHAPE_AREA</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">0 - 10M</td>
-                <td class="tg-s6z2"></td>
-              </tr>
-              <tr>
-                <td class="tg-031e">SHAPE_LEN</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">0 - 28k</td>
-                <td class="tg-s6z2"></td>
-              </tr>
-              <tr>
-                <td class="tg-031e">geometry</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2">SHP Format ?</td>
-              </tr>
-            </table>
-            <p>Final data source:</p>
-            <table class="tg" style="undefined;table-layout: fixed; width: 634px">
-              <colgroup>
-                <col style="width: 150px">
-                <col style="width: 80px">
                 <col style="width: 200px">
                 <col style="width: 200px">
               </colgroup>
               <tr>
-                <th class="tg-s6z2">Column</th>
-                <th class="tg-s6z2">Type</th>
-                <th class="tg-s6z2">Range</th>
-                <th class="tg-s6z2">Problems</th>
+                <th class="tg-header">Final Column</th>
+                <th class="tg-header">Type</th>
+                <th class="tg-header">Range</th>
+                <th class="tg-header">Problems</th>
+                <th class="tg-header">Cleanup I - HandsOn II</th>
+                <th class="tg-header">Cleanup II - HandsOn III</th>
               </tr>
               <tr>
-                <td class="tg-031e">ZONEID</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2">Non unique (more than 1)</td>
+                <td class="tg-greenl">ZONEID</td>
+                <td class="tg-green">String</td>
+                <td class="tg-green"></td>
+                <td class="tg-green">Non unique (more than 1)</td>
               </tr>
               <tr>
-                <td class="tg-031e">NAME</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2">Non unique (more than 1)</td>
+                <td class="tg-greenl">NAME</td>
+                <td class="tg-green">String</td>
+                <td class="tg-green"></td>
+                <td class="tg-green">Non unique (more than 1)</td>
               </tr>
               <tr>
-                <td class="tg-031e">SHPAREA</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">0 - 10M</td>
-                <td class="tg-s6z2"></td>
+                <td class="tg-greenl">MEDIA</td>
+                <td class="tg-green">String</td>
               </tr>
               <tr>
-                <td class="tg-031e">SHPLEN</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">0 - 28k</td>
-                <td class="tg-s6z2"></td>
+                <td class="tg-greenl">SHPAREA</td>
+                <td class="tg-green">Number</td>
+                <td class="tg-green">0 - 10M</td>
               </tr>
               <tr>
-                <td class="tg-031e">geometry</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2">KML Polygon range</td>
-                <td class="tg-s6z2"></td>
+                <td class="tg-greenl">SHPLEN</td>
+                <td class="tg-green">Number</td>
+                <td class="tg-green">0 - 28k</td>
               </tr>
               <tr>
-                <td class="tg-031e">MEDIA</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2"></td>
+                <td class="tg-greenl">asWKT</td>
+                <td class="tg-green">String</td>
+                <td class="tg-green"></td>
+                <td class="tg-green">SHP Format ?</td>
+                <td class="tg-green">KML Polygon</td>
+                <td class="tg-green">GeoSPARQL WKT</td>
               </tr>
             </table>
           </li>
-          <br/>
-          ------------------------------------------------------------------------------------------------------------------------
-          <br/>
+          <br>
           <li id="sec-0-3">GTFS Public Transport
             <p>Final CSV representation: <a href="./csv/SF_Transit_Stops.csv">[Link to Download]</a></p>
-            <p>Original data source:</p>
-            <table class="tg" style="undefined;table-layout: fixed; width: 430px">
+            <p>Evolution data source:</p>
+            <table class="tg" style="undefined;table-layout: fixed; width: 830px">
               <colgroup>
                 <col style="width: 150px">
                 <col style="width: 80px">
                 <col style="width: 200px">
-              </colgroup>
-              <tr>
-                <th class="tg-s6z2">Column</th>
-                <th class="tg-s6z2">Type</th>
-                <th class="tg-s6z2">Range</th>
-              </tr>
-              <tr>
-                <td class="tg-031e">stop_id</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">300 - 7800</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">stop_name</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-              </tr>
-              <tr>
-                <td class="tg-031e">stop_lat</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">WGS84 Latitude range</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">stop_lon</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">WGS84 Longitude range</td>
-              </tr>
-            </table>
-            <p>Final data source:</p>
-            <table class="tg" style="undefined;table-layout: fixed; width: 430px">
-              <colgroup>
-                <col style="width: 150px">
-                <col style="width: 80px">
+                <col style="width: 200px">
+                <col style="width: 200px">
                 <col style="width: 200px">
               </colgroup>
               <tr>
-                <th class="tg-s6z2">Column</th>
-                <th class="tg-s6z2">Type</th>
-                <th class="tg-s6z2">Range</th>
+                <th class="tg-header">Final Column</th>
+                <th class="tg-header">Type</th>
+                <th class="tg-header">Range</th>
+                <th class="tg-header">Problems</th>
+                <th class="tg-header">Cleanup I - HandsOn II</th>
+                <th class="tg-header">Cleanup II - HandsOn III</th>
               </tr>
               <tr>
-                <td class="tg-031e">STOPID</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">300 - 7800</td>
+                <td class="tg-greenl">STOPID</td>
+                <td class="tg-green">Number</td>
+                <td class="tg-green">300 - 7800</td>
               </tr>
               <tr>
-                <td class="tg-031e">NAME</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
+                <td class="tg-greenl">NAME</td>
+                <td class="tg-green">String</td>
               </tr>
               <tr>
-                <td class="tg-031e">LATWGS84</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">WGS84 Latitude range</td>
+                <td class="tg-redl">stop_lat</td>
+                <td class="tg-red">Number</td>
+                <td class="tg-red">WGS84 Latitude range</td>
+                <td class="tg-red"></td>
+                <td class="tg-red">Removed Column</td>
               </tr>
               <tr>
-                <td class="tg-031e">LONWGS84</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">WGS84 Longitude range</td>
+                <td class="tg-redl">stop_lon</td>
+                <td class="tg-red">Number</td>
+                <td class="tg-red">WGS84 Longitude range</td>
+                <td class="tg-red"></td>
+                <td class="tg-red">Removed Column</td>
+              </tr>
+              <tr>
+                <td class="tg-greenl">asWKT</td>
+                <td class="tg-green">String</td>
+                <td class="tg-green"></td>
+                <td class="tg-green">WGS84 Format ?</td>
+                <td class="tg-green">Latitude and Longitude</br></br>LAT/LON WGS84</td>
+                <td class="tg-green">GeoSPARQL WKT</td>
               </tr>
             </table>
           </li>
-          <br/>
-          ------------------------------------------------------------------------------------------------------------------------
-          <br/>
+          <br>
           <li id="sec-0-4">Public Buildings
             <p>Final CSV representation: <a href="./csv/SF_Public_Buildings.csv">[Link to Download]</a></p>
-            <p>Original data source:</p>
-            <table class="tg" style="undefined;table-layout: fixed; width: 650px">
+            <p>Evolution data source:</p>
+            <table class="tg" style="undefined;table-layout: fixed; width: 830px">
               <colgroup>
                 <col style="width: 150px">
                 <col style="width: 80px">
                 <col style="width: 200px">
-                <col style="width: 220px">
-              </colgroup>
-              <tr>
-                <th class="tg-s6z2">Column</th>
-                <th class="tg-s6z2">Type</th>
-                <th class="tg-s6z2">Range</th>
-                <th class="tg-s6z2">Problems</th>
-              </tr>
-              <tr>
-                <td class="tg-031e">description</td>
-                <td class="tg-s6z2">Unknown</td>
-                <td class="tg-s6z2">None</td>
-                <td class="tg-s6z2">Blank</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">name</td>
-                <td class="tg-s6z2">Unknown</td>
-                <td class="tg-s6z2">None</td>
-                <td class="tg-s6z2">Blank</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">land_id</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2">Non unique (1 repetition)</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">land_name</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2">Non unique (more than 1)</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">category</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2">Enumeration (14)</td>
-                <td class="tg-s6z2"></td>
-              </tr>
-              <tr>
-                <td class="tg-031e">dept</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">0 - 370</td>
-                <td class="tg-s6z2">Mean, Non unique (more than 1)</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">geometry</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-031e"></td>
-                <td class="tg-s6z2">SHP Format ?</td>
-              </tr>
-            </table>
-            <p>Final data source:</p>
-            <table class="tg" style="undefined;table-layout: fixed; width: 430px">
-              <colgroup>
-                <col style="width: 150px">
-                <col style="width: 80px">
+                <col style="width: 200px">
+                <col style="width: 200px">
                 <col style="width: 200px">
               </colgroup>
               <tr>
-                <th class="tg-s6z2">Column</th>
-                <th class="tg-s6z2">Type</th>
-                <th class="tg-s6z2">Range</th>
+                <th class="tg-header">Final Column</th>
+                <th class="tg-header">Type</th>
+                <th class="tg-header">Range</th>
+                <th class="tg-header">Problems</th>
+                <th class="tg-header">Cleanup I - HandsOn II</th>
+                <th class="tg-header">Cleanup II - HandsOn III</th>
               </tr>
               <tr>
-                <td class="tg-031e">BUILDID</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
+                <td class="tg-redl">description</td>
+                <td class="tg-red">Unknown</td>
+                <td class="tg-red">None</td>
+                <td class="tg-red">Blank</td>
+                <td class="tg-red">Removed Column</td>
               </tr>
               <tr>
-                <td class="tg-031e">NAME</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
+                <td class="tg-redl">name</td>
+                <td class="tg-red">Unknown</td>
+                <td class="tg-red">None</td>
+                <td class="tg-red">Blank</td>
+                <td class="tg-red">Removed Column</td>
               </tr>
               <tr>
-                <td class="tg-031e">CATEGORY</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2">Enumeration (14)</td>
+                <td class="tg-greenl">BUILDID</td>
+                <td class="tg-green">String</td>
+                <td class="tg-green"></td>
+                <td class="tg-green">Non unique (1 repetition)</td>
+                <td class="tg-green">Fixed repetitions</td>
               </tr>
               <tr>
-                <td class="tg-031e">DEPARTMENT</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">0 - 370</td>
+                <td class="tg-greenl">NAME</td>
+                <td class="tg-green">String</td>
+                <td class="tg-green"></td>
+                <td class="tg-green">Non unique (more than 1)</td>
               </tr>
               <tr>
-                <td class="tg-031e">geometry</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2">KML Polygon range</td>
+                <td class="tg-greenl">CATEGORY</td>
+                <td class="tg-green">String</td>
+                <td class="tg-green">Enumeration (14)</td>
+              </tr>
+              <tr>
+                <td class="tg-greenl">DEPARTMENT</td>
+                <td class="tg-green">Number</td>
+                <td class="tg-green">0 - 370</td>
+                <td class="tg-green">Mean, Non unique > 1</td>
+                <td class="tg-green">Buildings code table</td>
+              </tr>
+              <tr>
+                <td class="tg-greenl">asWKT</td>
+                <td class="tg-green">String</td>
+                <td class="tg-green"></td>
+                <td class="tg-green">SHP Format ?</td>
+                <td class="tg-green">KML Polygon</td>
+                <td class="tg-green">GeoSPARQL WKT</td>
               </tr>
             </table>
           </li>
-          <br/>
-          ------------------------------------------------------------------------------------------------------------------------
-          <br/>
+          <br>
           <li id="sec-0-5">Public Schools
             <p>Final CSV representation: <a href="./csv/SF_Public_School.csv">[Link to Download]</a></p>
-            <p>Original data source:</p>
-            <table class="tg" style="undefined;table-layout: fixed; width: 630px">
+            <p>Evolution data source:</p>
+            <table class="tg" style="undefined;table-layout: fixed; width: 830px">
               <colgroup>
                 <col style="width: 150px">
                 <col style="width: 80px">
                 <col style="width: 200px">
                 <col style="width: 200px">
-              </colgroup>
-              <tr>
-                <th class="tg-s6z2">Column</th>
-                <th class="tg-s6z2">Type</th>
-                <th class="tg-s6z2">Range</th>
-                <th class="tg-s6z2">Problems</th>
-              </tr>
-              <tr>
-                <td class="tg-031e">description</td>
-                <td class="tg-s6z2">Unknown</td>
-                <td class="tg-s6z2">None</td>
-                <td class="tg-s6z2">Blank</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">name</td>
-                <td class="tg-s6z2">Unknown</td>
-                <td class="tg-s6z2">None</td>
-                <td class="tg-s6z2">Blank</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">FACILITY_I</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2"></td>
-              </tr>
-              <tr>
-                <td class="tg-031e">FACILITY_N</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2"></td>
-              </tr>
-              <tr>
-                <td class="tg-031e">DEPTNAME</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2">SFUSD</td>
-                <td class="tg-s6z2">Irrelevant information</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">DEPT</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">7</td>
-                <td class="tg-s6z2"></td>
-              </tr>
-              <tr>
-                <td class="tg-031e">SCHOOL_TYP</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2">Enumeration (6)</td>
-                <td class="tg-s6z2"></td>
-              </tr>
-              <tr>
-                <td class="tg-031e">geometry</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2">SHP Format ?</td>
-              </tr>
-            </table>
-            <p>Final data source:</p>
-            <table class="tg" style="undefined;table-layout: fixed; width: 430px">
-              <colgroup>
-                <col style="width: 150px">
-                <col style="width: 80px">
+                <col style="width: 200px">
                 <col style="width: 200px">
               </colgroup>
               <tr>
-                <th class="tg-s6z2">Column</th>
-                <th class="tg-s6z2">Type</th>
-                <th class="tg-s6z2">Range</th>
+                <th class="tg-header">Final Column</th>
+                <th class="tg-header">Type</th>
+                <th class="tg-header">Range</th>
+                <th class="tg-header">Problems</th>
+                <th class="tg-header">Cleanup I - HandsOn II</th>
+                <th class="tg-header">Cleanup II - HandsOn III</th>
               </tr>
               <tr>
-                <td class="tg-031e">NAME</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
+                <td class="tg-redl">description</td>
+                <td class="tg-red">Unknown</td>
+                <td class="tg-red">None</td>
+                <td class="tg-red">Blank</td>
+                <td class="tg-red">Removed Column</td>
               </tr>
               <tr>
-                <td class="tg-031e">TYPE</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2">Enumeration (6)</td>
+                <td class="tg-redl">name</td>
+                <td class="tg-red">Unknown</td>
+                <td class="tg-red">None</td>
+                <td class="tg-red">Blank</td>
+                <td class="tg-red">Removed Column</td>
               </tr>
               <tr>
-                <td class="tg-031e">DEPTPUBLIC</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">7</td>
+                <td class="tg-redl">FACILITY_I</td>
+                <td class="tg-red">String</td>
+                <td class="tg-red"></td>
+                <td class="tg-red">Irrelevant information</td>
+                <td class="tg-red">Removed Column</td>
               </tr>
               <tr>
-                <td class="tg-031e">LATWGS84</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">WGS84 Latitude range</td>
+                <td class="tg-greenl">NAME</td>
+                <td class="tg-green">String</td>
               </tr>
               <tr>
-                <td class="tg-031e">LONWGS84</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2">WGS84 Longitude range</td>
+                <td class="tg-redl">DEPTNAME</td>
+                <td class="tg-red">String</td>
+                <td class="tg-red">SFUSD</td>
+                <td class="tg-red">Irrelevant information</td>
+                <td class="tg-red">Removed Column</td>
+              </tr>
+              <tr>
+                <td class="tg-greenl">DEPTPUBLIC</td>
+                <td class="tg-green">Number</td>
+                <td class="tg-green">7</td>
+              </tr>
+              <tr>
+                <td class="tg-greenl">TYPE</td>
+                <td class="tg-green">String</td>
+                <td class="tg-green">Enumeration (6)</td>
+              </tr>
+              <tr>
+                <td class="tg-greenl">asWKT</td>
+                <td class="tg-green">String</td>
+                <td class="tg-green"></td>
+                <td class="tg-green">WGS84 Format ?</td>
+                <td class="tg-green">Latitude and Longitude</br></br>LAT/LON WGS84</td>
+                <td class="tg-green">GeoSPARQL WKT</td>
               </tr>
             </table>
           </li>
-          <br/>
-          ------------------------------------------------------------------------------------------------------------------------
-          <br/>
+          <br>
           <li id="sec-0-6">Private Schools
             <p>Final CSV representation: <a href="./csv/SF_Private_School.csv">[Link to Download]</a></p>
-            <p>Original data source:</p>
-            <table class="tg" style="undefined;table-layout: fixed; width: 630px">
+            <p>Evolution data source:</p>
+            <table class="tg" style="undefined;table-layout: fixed; width: 830px">
               <colgroup>
                 <col style="width: 150px">
                 <col style="width: 80px">
                 <col style="width: 200px">
                 <col style="width: 200px">
-              </colgroup>
-              <tr>
-                <th class="tg-s6z2">Column</th>
-                <th class="tg-s6z2">Type</th>
-                <th class="tg-s6z2">Range</th>
-                <th class="tg-s6z2">Problems</th>
-              </tr>
-              <tr>
-                <td class="tg-031e">description</td>
-                <td class="tg-s6z2">Unknown</td>
-                <td class="tg-s6z2">None</td>
-                <td class="tg-s6z2">Blank</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">name</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2"></td>
-              </tr>
-              <tr>
-                <td class="tg-031e">grade</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2">Unknown</td>
-                <td class="tg-s6z2">String mean, Non unique</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">address</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2"></td>
-              </tr>
-              <tr>
-                <td class="tg-031e">phone</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2">Irrelevant information</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">informatio</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2">Mean, Null value == blank ?</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">blklot</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
-                <td class="tg-s6z2">Mean</td>
-              </tr>
-              <tr>
-                <td class="tg-031e">geometry</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-031e"></td>
-                <td class="tg-s6z2">SHP Format ?</td>
-              </tr>
-            </table>
-            <p>Final data source:</p>
-            <table class="tg" style="undefined;table-layout: fixed; width: 430px">
-              <colgroup>
-                <col style="width: 150px">
-                <col style="width: 80px">
+                <col style="width: 200px">
                 <col style="width: 200px">
               </colgroup>
               <tr>
-                <th class="tg-s6z2">Column</th>
-                <th class="tg-s6z2">Type</th>
-                <th class="tg-s6z2">Range</th>
+                <th class="tg-header">Final Column</th>
+                <th class="tg-header">Type</th>
+                <th class="tg-header">Range</th>
+                <th class="tg-header">Problems</th>
+                <th class="tg-header">Cleanup I - HandsOn II</th>
+                <th class="tg-header">Cleanup II - HandsOn III</th>
               </tr>
               <tr>
-                <td class="tg-031e">NAME</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
+                <td class="tg-redl">description</td>
+                <td class="tg-red">Unknown</td>
+                <td class="tg-red">None</td>
+                <td class="tg-red">Blank</td>
+                <td class="tg-red">Removed Column</td>
               </tr>
               <tr>
-                <td class="tg-031e">TYPE</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2">Kind of School</td>
+                <td class="tg-greenl">NAME</td>
+                <td class="tg-green">String</td>
               </tr>
               <tr>
-                <td class="tg-031e">CHILDREN</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2">1 - 12 years</td>
+                <td class="tg-greenl">CHILDREN</td>
+                <td class="tg-green">String</td>
+                <td class="tg-green">Unknown</td>
+                <td class="tg-green">String mean, Non unique</td>
+                <td class="tg-green">Convert to years range</td>
               </tr>
               <tr>
-                <td class="tg-031e">ADDRESS</td>
-                <td class="tg-s6z2">String</td>
-                <td class="tg-s6z2"></td>
+                <td class="tg-greenl">ADDRESS</td>
+                <td class="tg-green">String</td>
               </tr>
               <tr>
-                <td class="tg-031e">LATWGS84</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">WGS84 Latitude range</td>
+                <td class="tg-redl">phone</td>
+                <td class="tg-red">String</td>
+                <td class="tg-red"></td>
+                <td class="tg-red">Irrelevant information</td>
+                <td class="tg-red">Removed Column</td>
               </tr>
               <tr>
-                <td class="tg-031e">LONWGS84</td>
-                <td class="tg-s6z2">Number</td>
-                <td class="tg-s6z2">WGS84 Longitude range</td>
+                <td class="tg-greenl">TYPE</td>
+                <td class="tg-green">String</td>
+                <td class="tg-green"></td>
+                <td class="tg-green">Mean, Null value == blank ?</td>
+                <td class="tg-green">Convert to school kind</td>
+              </tr>
+              <tr>
+                <td class="tg-redl">blklot</td>
+                <td class="tg-red">String</td>
+                <td class="tg-red"></td>
+                <td class="tg-red">Mean</td>
+                <td class="tg-red">Removed Column</td>
+              </tr>
+              <tr>
+                <td class="tg-greenl">asWKT</td>
+                <td class="tg-green">String</td>
+                <td class="tg-green"></td>
+                <td class="tg-green">WGS84 Format ?</td>
+                <td class="tg-green">Latitude and Longitude</br></br>LAT/LON WGS84</td>
+                <td class="tg-green">GeoSPARQL WKT</td>
               </tr>
             </table>
         </ul>
@@ -914,136 +600,73 @@
       </div>
       <div id="sec-2">
         <h2>2. Resource naming strategy</h2>
-		<p>We have chosen "http://www.semanticweb.org/grupo08/" as main URI</p>
+		<p>We have chosen "http://www.semanticweb.org/group08/" as main URI</p>
 		<table class="tg" style="undefined;table-layout: fixed; width: 680px">
           <colgroup>
             <col style="width: 200px">
             <col style="width: 480px">
           </colgroup>
           <tr>
-            <th class="tg-s6z2">Name</th>
-            <th class="tg-s6z2">IRI</th>
+            <th class="tg-header">Name</th>
+            <th class="tg-header">IRI</th>
           </tr>
           <tr>
             <td class="tg-031e">311 Service Requests</td>
-            <td class="tg-031e">http://www.semanticweb.org/grupo08/ServiceRequest/</td>
+            <td class="tg-031e">http://www.semanticweb.org/group08/ServiceRequest/</td>
           </tr>
           <tr>
             <td class="tg-031e">Crime data</td>
-            <td class="tg-031e">http://www.semanticweb.org/grupo08/Crime/</td>
+            <td class="tg-031e">http://www.semanticweb.org/group08/Crime/</td>
           </tr>
           <tr>
             <td class="tg-031e">GIS Mapping</td>
-            <td class="tg-031e">http://www.semanticweb.org/grupo08/Mapping/</td>
+            <td class="tg-031e">http://www.semanticweb.org/group08/Mapping/</td>
           </tr>
           <tr>
             <td class="tg-031e">GTFS Public Transport</td>
-            <td class="tg-031e">http://www.semanticweb.org/grupo08/PublicTransport/</td>
+            <td class="tg-031e">http://www.semanticweb.org/group08/PublicTransport/</td>
           </tr>
           <tr>
-            <td class="tg-031e">Public Buildings</td>
-            <td class="tg-031e">http://www.semanticweb.org/grupo08/Building/</td>
+            <td class="tg-031e">Building</td>
+            <td class="tg-031e">http://www.semanticweb.org/group08/Building/</td>
+          </tr>
+          <tr>
+            <td class="tg-031e">PublicOrganization</td>
+            <td class="tg-031e">http://www.semanticweb.org/group08/PublicOrganization/</td>
+          </tr>
+          <tr>
+            <td class="tg-031e">PrivateOrganization</td>
+            <td class="tg-031e">http://www.semanticweb.org/group08/PrivateOrganization/</td>
           </tr>
         </table>
-		<p>IRI's inside Public Buildings domain</p>
+		<p>IRI's inside Public Organization domain</p>
 		<table class="tg" style="undefined;table-layout: fixed; width: 680px">
           <colgroup>
             <col style="width: 200px">
             <col style="width: 480px">
           </colgroup>
           <tr>
-            <th class="tg-s6z2">Name</th>
-            <th class="tg-s6z2">IRI (Public Buildings)</th>
+            <th class="tg-header">Name</th>
+            <th class="tg-header">IRI</th>
           </tr>
           <tr>
-            <td class="tg-031e">Fire</td>
-            <td class="tg-031e">http://www.semanticweb.org/group08/Building/Fire/</td>
-          </tr>
-          <tr>
-            <td class="tg-031e">Health</td>
-            <td class="tg-031e">http://www.semanticweb.org/group08/Building/Health/</td>
-          </tr>
-          <tr>
-            <td class="tg-031e">Police</td>
-            <td class="tg-031e">http://www.semanticweb.org/group08/Building/Police/</td>
-          </tr>
-          <tr>
-            <td class="tg-031e">Port</td>
-            <td class="tg-031e">http://www.semanticweb.org/group08/Building/Port/</td>
-          </tr>
-          <tr>
-            <td class="tg-031e">Public Libraries</td>
-            <td class="tg-031e">http://www.semanticweb.org/group08/Building/PublicLibrary/</td>
-          </tr>
-          <tr>
-            <td class="tg-031e">Public Works</td>
-            <td class="tg-031e">http://www.semanticweb.org/group08/Building/PublicWorks/</td>
-          </tr>
-          <tr>
-            <td class="tg-031e">Real Estate</td>
-            <td class="tg-031e">http://www.semanticweb.org/group08/Building/RealEstate/</td>
-          </tr>
-          <tr>
-            <td class="tg-031e">Recreation</td>
-            <td class="tg-031e">http://www.semanticweb.org/group08/Building/Recreation/</td>
-          </tr>
-          <tr>
-            <td class="tg-031e">Park</td>
-            <td class="tg-031e">http://www.semanticweb.org/group08/Building/Park/</td>
-          </tr>
-          <tr>
-            <td class="tg-031e">Public Utilities Commission</td>
-            <td class="tg-031e">http://www.semanticweb.org/group08/Building/PUC/</td>
-          </tr>
-          <tr>
-            <td class="tg-031e">Schools</td>
-            <td class="tg-031e">http://www.semanticweb.org/group08/Building/School/</td>
-          </tr>
-          <tr>
-            <td class="tg-031e">Other Buildings</td>
-            <td class="tg-031e">http://www.semanticweb.org/group08/Building/Other/</td>
+            <td class="tg-031e">School</td>
+            <td class="tg-031e">http://www.semanticweb.org/group08/PublicOrganization/School/</td>
           </tr>
         </table>
-        <p>IRI's inside Public Buildings PUC domain</p>
-        <table class="tg" style="undefined;table-layout: fixed; width: 680px">
+        <p>IRI's inside Private Organization domain</p>
+		<table class="tg" style="undefined;table-layout: fixed; width: 680px">
           <colgroup>
             <col style="width: 200px">
             <col style="width: 480px">
           </colgroup>
           <tr>
-            <th class="tg-s6z2">Name</th>
-            <th class="tg-s6z2">IRI (Public Utilities Commission)</th>
+            <th class="tg-header">Name</th>
+            <th class="tg-header">IRI</th>
           </tr>
           <tr>
-            <td class="tg-031e">Clean Water Program</td>
-            <td class="tg-031e">http://www.semanticweb.org/group08/Building/PUC/CleanWaterProgram/</td>
-          </tr>
-          <tr>
-            <td class="tg-031e">Hetch Hetchy</td>
-            <td class="tg-031e">http://www.semanticweb.org/group08/Building/PUC/HetchHetchy/</td>
-          </tr>
-          <tr>
-            <td class="tg-031e">Water Department</td>
-            <td class="tg-031e">http://www.semanticweb.org/group08/Building/PUC/WaterDepartment/</td>
-          </tr>
-        </table>
-        <p>IRI's inside Public Buildings Schools domain</p>
-        <table class="tg" style="undefined;table-layout: fixed; width: 680px">
-          <colgroup>
-            <col style="width: 200px">
-            <col style="width: 480px">
-          </colgroup>
-          <tr>
-            <th class="tg-s6z2">Name</th>
-            <th class="tg-s6z2">IRI (Schools)</th>
-          </tr>
-          <tr>
-            <td class="tg-031e">Public Schools</td>
-            <td class="tg-031e">http://www.semanticweb.org/grupo08/Building/School/Public/</td>
-          </tr>
-          <tr>
-            <td class="tg-031e">Private Schools</td>
-            <td class="tg-031e">http://www.semanticweb.org/grupo08/Building/School/Private/</td>
+            <td class="tg-031e">School</td>
+            <td class="tg-031e">http://www.semanticweb.org/group08/PrivateOrganization/School/</td>
           </tr>
         </table>
       </div>
