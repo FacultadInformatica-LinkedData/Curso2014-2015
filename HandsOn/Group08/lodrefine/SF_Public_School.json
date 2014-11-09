@@ -38,7 +38,7 @@
         },
         {
           "name": "ont",
-          "uri": "http://www.semanticweb.org/grupo08/Building/School/Public#"
+          "uri": "http://www.semanticweb.org/group08/Building/School/Public#"
         },
         {
           "name": "xsd",
@@ -66,7 +66,7 @@
           "rdfTypes": [],
           "links": [
             {
-              "uri": "http://www.semanticweb.org/grupo08/Building/School/Public#name",
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#name",
               "curie": "ont:name",
               "target": {
                 "nodeType": "cell-as-literal",
@@ -76,7 +76,7 @@
               }
             },
             {
-              "uri": "http://www.semanticweb.org/grupo08/Building/School/Public#type",
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#type",
               "curie": "ont:type",
               "target": {
                 "nodeType": "cell-as-literal",
@@ -86,7 +86,7 @@
               }
             },
             {
-              "uri": "http://www.semanticweb.org/grupo08/Building/School/Public#deptpublic",
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#deptpublic",
               "curie": "ont:deptpublic",
               "target": {
                 "nodeType": "cell-as-literal",
@@ -97,7 +97,7 @@
               }
             },
             {
-              "uri": "http://www.semanticweb.org/grupo08/Building/School/Public#hasBuilding",
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#hasBuilding",
               "curie": "ont:hasBuilding",
               "target": {
                 "nodeType": "cell-as-resource",

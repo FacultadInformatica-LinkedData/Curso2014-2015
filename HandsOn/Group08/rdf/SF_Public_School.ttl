@@ -6,7 +6,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix geosp: <http://www.opengis.net/ont/geosparql#> .
 
-
 <http://www.semanticweb.org/group08/School/Public/UlloaElementarySchool> ont:name "Ulloa Elementary School" ;
 	ont:type "Elementary" ;
 	ont:deptpublic "7"^^xsd:int .

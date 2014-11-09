@@ -101,7 +101,7 @@
     "op": "rdf-extension/save-rdf-schema",
     "description": "Save RDF schema skeleton",
     "schema": {
-      "baseUri": "http://www.semanticweb.org/grupo08/",
+      "baseUri": "http://www.semanticweb.org/group08/",
       "prefixes": [
         {
           "name": "rdfs",
@@ -113,7 +113,7 @@
         },
         {
           "name": "ont",
-          "uri": "http://www.semanticweb.org/grupo08/Building#"
+          "uri": "http://www.semanticweb.org/group08/Building#"
         },
         {
           "name": "xsd",
@@ -141,7 +141,7 @@
           "rdfTypes": [],
           "links": [
             {
-              "uri": "http://www.semanticweb.org/grupo08/Building#buildid",
+              "uri": "http://www.semanticweb.org/group08/Building#buildid",
               "curie": "ont:buildid",
               "target": {
                 "nodeType": "cell-as-literal",
@@ -152,7 +152,7 @@
               }
             },
             {
-              "uri": "http://www.semanticweb.org/grupo08/Building#name",
+              "uri": "http://www.semanticweb.org/group08/Building#name",
               "curie": "ont:name",
               "target": {
                 "nodeType": "cell-as-literal",
@@ -162,7 +162,7 @@
               }
             },
             {
-              "uri": "http://www.semanticweb.org/grupo08/Building#category",
+              "uri": "http://www.semanticweb.org/group08/Building#category",
               "curie": "ont:category",
               "target": {
                 "nodeType": "cell-as-literal",
@@ -172,7 +172,7 @@
               }
             },
             {
-              "uri": "http://www.semanticweb.org/grupo08/Building#department",
+              "uri": "http://www.semanticweb.org/group08/Building#department",
               "curie": "ont:department",
               "target": {
                 "nodeType": "cell-as-literal",
@@ -183,7 +183,7 @@
               }
             },
             {
-              "uri": "http://www.semanticweb.org/grupo08/Building#hasBuilding",
+              "uri": "http://www.semanticweb.org/group08/Building#hasBuilding",
               "curie": "ont:hasBuilding",
               "target": {
                 "nodeType": "cell-as-resource",
