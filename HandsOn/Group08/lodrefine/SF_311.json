@@ -390,32 +390,6 @@
     "newColumnName": "asWKT"
   },
   {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column OPEN using expression grel:value.toDate(\"dd/MM/yyyy\").toString(\"YYYY/MM/dd\")",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "OPEN",
-    "expression": "grel:value.toDate(\"dd/MM/yyyy\").toString(\"YYYY/MM/dd\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
-    "op": "core/text-transform",
-    "description": "Text transform on cells in column CLOSE using expression grel:value.toDate(\"dd/MM/yyyy\").toString(\"YYYY/MM/dd\")",
-    "engineConfig": {
-      "facets": [],
-      "mode": "row-based"
-    },
-    "columnName": "CLOSE",
-    "expression": "grel:value.toDate(\"dd/MM/yyyy\").toString(\"YYYY/MM/dd\")",
-    "onError": "keep-original",
-    "repeat": false,
-    "repeatCount": 10
-  },
-  {
     "op": "rdf-extension/save-rdf-schema",
     "description": "Save RDF schema skeleton",
     "schema": {
@@ -430,12 +404,12 @@
           "uri": "http://www.semanticweb.org/group08/ServiceRequest#"
         },
         {
-          "name": "xsd",
-          "uri": "http://www.w3.org/2001/XMLSchema#"
-        },
-        {
           "name": "owl",
           "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
         },
         {
           "name": "rdf",
@@ -594,5 +568,31 @@
         }
       ]
     }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column OPEN using expression grel:value.toDate(\"yyyy/MM/dd\").toString(\"YYYY-MM-dd\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "OPEN",
+    "expression": "grel:value.toDate(\"yyyy/MM/dd\").toString(\"YYYY-MM-dd\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CLOSE using expression grel:value.toDate(\"yyyy/MM/dd\").toString(\"YYYY-MM-dd\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CLOSE",
+    "expression": "grel:value.toDate(\"yyyy/MM/dd\").toString(\"YYYY-MM-dd\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   }
 ]
