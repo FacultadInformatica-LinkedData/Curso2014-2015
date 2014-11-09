@@ -1,0 +1,598 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Opened using expression value.toDate()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Opened",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "to": 1415447074000,
+          "selectError": true,
+          "selectTime": false,
+          "name": "Opened",
+          "selectBlank": true,
+          "selectNonTime": false,
+          "columnName": "Opened",
+          "from": 1214870160000,
+          "type": "timerange"
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Opened using expression grel:value.toDate(\"MM/dd/yyyy hh:mm:ss a\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Opened",
+    "expression": "grel:value.toDate(\"MM/dd/yyyy hh:mm:ss a\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "to": 1391779360000,
+          "expression": "value",
+          "selectError": true,
+          "selectTime": true,
+          "selectBlank": true,
+          "name": "Opened",
+          "selectNonTime": true,
+          "columnName": "Opened",
+          "from": 1214870160000,
+          "type": "timerange"
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "to": 1405770274000,
+          "expression": "value",
+          "selectError": true,
+          "selectTime": true,
+          "selectBlank": true,
+          "name": "Opened",
+          "selectNonTime": true,
+          "columnName": "Opened",
+          "from": 1391779560000,
+          "type": "timerange"
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "to": 1415447074000,
+          "expression": "value",
+          "selectError": true,
+          "selectTime": true,
+          "selectBlank": true,
+          "name": "Opened",
+          "selectNonTime": true,
+          "columnName": "Opened",
+          "from": 1412423151000,
+          "type": "timerange"
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "to": 1406807118000,
+          "expression": "value",
+          "selectError": true,
+          "selectTime": true,
+          "selectBlank": true,
+          "name": "Opened",
+          "selectNonTime": true,
+          "columnName": "Opened",
+          "from": 1405770351000,
+          "type": "timerange"
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "to": 1412423118000,
+          "expression": "value",
+          "selectError": true,
+          "selectTime": true,
+          "selectBlank": true,
+          "name": "Opened",
+          "selectNonTime": true,
+          "columnName": "Opened",
+          "from": 1412163948000,
+          "type": "timerange"
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CaseID to CASEID",
+    "oldColumnName": "CaseID",
+    "newColumnName": "CASEID"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Opened using expression grel:value.toDate().toString(\"dd/MM/yyyy\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Opened",
+    "expression": "grel:value.toDate().toString(\"dd/MM/yyyy\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Opened to OPEN",
+    "oldColumnName": "Opened",
+    "newColumnName": "OPEN"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Closed using expression value.toDate()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Closed",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Closed using expression grel:value.toDate(\"MM/dd/yyyy hh:mm:ss a\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Closed",
+    "expression": "grel:value.toDate(\"MM/dd/yyyy hh:mm:ss a\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Closed using expression grel:value.toDate().toString(\"dd/MM/yyyy\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Closed",
+    "expression": "grel:value.toDate().toString(\"dd/MM/yyyy\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Closed to CLOSE",
+    "oldColumnName": "Closed",
+    "newColumnName": "CLOSE"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Updated",
+    "columnName": "Updated"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Status to STATE",
+    "oldColumnName": "Status",
+    "newColumnName": "STATE"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column STATE using expression grel:replace(replace(value,\"Open\",\"1\"),\"Closed\",\"0\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "STATE",
+    "expression": "grel:replace(replace(value,\"Open\",\"1\"),\"Closed\",\"0\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Responsible Agency to AGENCY",
+    "oldColumnName": "Responsible Agency",
+    "newColumnName": "AGENCY"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Category to CATEGORY",
+    "oldColumnName": "Category",
+    "newColumnName": "CATEGORY"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column OPEN using expression grel:value.toDate(\"dd/MM/yyyy\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "OPEN",
+    "expression": "grel:value.toDate(\"dd/MM/yyyy\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "to": 1412114400000,
+          "expression": "value",
+          "selectError": true,
+          "selectTime": true,
+          "selectBlank": true,
+          "name": "OPEN",
+          "selectNonTime": true,
+          "columnName": "OPEN",
+          "from": 1412114400000,
+          "type": "timerange"
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column OPEN using expression grel:value.toDate().toString(\"dd/MM/yyyy\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "OPEN",
+    "expression": "grel:value.toDate().toString(\"dd/MM/yyyy\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Request Type to REQUEST",
+    "oldColumnName": "Request Type",
+    "newColumnName": "REQUEST"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column REQUEST using expression grel:replace(value,\"_\",\" \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "REQUEST",
+    "expression": "grel:replace(value,\"_\",\" \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Request Details using expression grel:replace(value,\"_\",\" \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Request Details",
+    "expression": "grel:replace(value,\"_\",\" \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Request Details to REQUEST_DETAILS",
+    "oldColumnName": "Request Details",
+    "newColumnName": "REQUEST_DETAILS"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Address to ADDRESS",
+    "oldColumnName": "Address",
+    "newColumnName": "ADDRESS"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Supervisor District",
+    "columnName": "Supervisor District"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Neighborhood to NEIGHBORHOOD",
+    "oldColumnName": "Neighborhood",
+    "newColumnName": "NEIGHBORHOOD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Source",
+    "columnName": "Source"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Media URL to MEDIA",
+    "oldColumnName": "Media URL",
+    "newColumnName": "MEDIA"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Point using expression grel:\"POINT\"+replace(value,\",\",\" \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Point",
+    "expression": "grel:\"POINT\"+replace(value,\",\",\" \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Point to asWKT",
+    "oldColumnName": "Point",
+    "newColumnName": "asWKT"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column OPEN using expression grel:value.toDate(\"dd/MM/yyyy\").toString(\"YYYY/MM/dd\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "OPEN",
+    "expression": "grel:value.toDate(\"dd/MM/yyyy\").toString(\"YYYY/MM/dd\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CLOSE using expression grel:value.toDate(\"dd/MM/yyyy\").toString(\"YYYY/MM/dd\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CLOSE",
+    "expression": "grel:value.toDate(\"dd/MM/yyyy\").toString(\"YYYY/MM/dd\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/ServiceRequest/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/ServiceRequest#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#caseid",
+              "curie": "ont:caseid",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CASEID"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#open",
+              "curie": "ont:open",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "OPEN"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#close",
+              "curie": "ont:close",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "CLOSE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#state",
+              "curie": "ont:state",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "STATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#agency",
+              "curie": "ont:agency",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "AGENCY"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#category",
+              "curie": "ont:category",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CATEGORY"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#request",
+              "curie": "ont:request",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "REQUEST"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#request_details",
+              "curie": "ont:request_details",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "REQUEST_DETAILS"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#address",
+              "curie": "ont:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#neighborhood",
+              "curie": "ont:neighborhood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHBORHOOD"
+              }
+            },
+            {
+              "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+              "curie": "geosp:hasGeometry",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value+\"/geometry\"",
+                "isRowNumberCell": false,
+                "columnName": "CASEID",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "curie": "geosp:asWKT",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "asWKT"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#media",
+              "curie": "ont:media",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "MEDIA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
