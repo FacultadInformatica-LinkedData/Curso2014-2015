@@ -1,9 +1,107 @@
 [
   {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "CATEGORY",
+          "omitBlank": false,
+          "columnName": "CATEGORY",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Unified School District",
+                "l": "Unified School District"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column asWKT at index 5 based on column geometry using expression grel:replace(replace(replace(value, \"<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>\", \"POLYGON ((\"), \"</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>\", \"),(\"), \"</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>\", \"))\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "asWKT",
+    "columnInsertIndex": 5,
+    "baseColumnName": "geometry",
+    "expression": "grel:replace(replace(replace(value, \"<MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>\", \"POLYGON ((\"), \"</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>\", \"),(\"), \"</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>\", \"))\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column asWKT using expression grel:replace(replace(value, \"<Polygon><outerBoundaryIs><LinearRing><coordinates>\", \"POLYGON(( \"), \"</coordinates></LinearRing></outerBoundaryIs></Polygon>\", \"))\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "asWKT",
+    "expression": "grel:replace(replace(value, \"<Polygon><outerBoundaryIs><LinearRing><coordinates>\", \"POLYGON(( \"), \"</coordinates></LinearRing></outerBoundaryIs></Polygon>\", \"))\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column geometry",
+    "columnName": "geometry"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column asWKT using expression grel:replace(replace(value, \",3\", \" 3\"), \",0.0\", \",\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "asWKT",
+    "expression": "grel:replace(replace(value, \",3\", \" 3\"), \",0.0\", \",\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column asWKT using expression grel:replace(value, \",))\", \"))\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "asWKT",
+    "expression": "grel:replace(value, \",))\", \"))\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column asWKT using expression grel:replace(value, \",),(\", \"),(\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "asWKT",
+    "expression": "grel:replace(value, \",),(\", \"),(\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+    {
     "op": "rdf-extension/save-rdf-schema",
     "description": "Save RDF schema skeleton",
     "schema": {
-      "baseUri": "http://www.semanticweb.org/grupo08/Building/",
+      "baseUri": "http://www.semanticweb.org/group08/",
       "prefixes": [
         {
           "name": "rdfs",
@@ -15,7 +113,11 @@
         },
         {
           "name": "ont",
-          "uri": "http://www.semanticweb.org/grupo08/Building#"
+          "uri": "http://www.semanticweb.org/group08/Building#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
         },
         {
           "name": "owl",
@@ -33,23 +135,24 @@
       "rootNodes": [
         {
           "nodeType": "cell-as-resource",
-          "expression": "if(contains(cells[\"CATEGORY\"].value,\"Fire\"),\"fire/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Healt\"),\"health/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Police\"),\"police/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Port\"),\"port/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Library\"),\"publiclibrary/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Works\"),\"publicworks/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Real\"),\"realestate/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Park\"),\"park/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Other\"),\"other/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Clean\"),\"PUC/cleanwaterprogram/\",\nif(contains(cells[\"CATEGORY\"].value,\"Water\"),\"PUC/WaterDepartment/\",\"\"))+\nif(contains(cells[\"CATEGORY\"].value,\"Hetch\"),\"PUC/hetchhetchy/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"MTA\"),\"other/\",\"\")\n+value",
+          "expression": "if(contains(cells[\"CATEGORY\"].value,\"Fire\"),\"Fire/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Healt\"),\"Health/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Police\"),\"Police/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Port\"),\"Port/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Library\"),\"Library/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Works\"),\"Works/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Real\"),\"RealState/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Park\"),\"RecreationPark/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Other\"),\"Other/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Clean\"),\"PUC/CleanWaterProgram/\",\nif(contains(cells[\"CATEGORY\"].value,\"Water\"),\"PUC/WaterDepartment/\",\"\"))+\nif(contains(cells[\"CATEGORY\"].value,\"Hetch\"),\"PUC/HetchHetchy/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"MTA\"),\"Other/\",\"\")\n+value",
           "isRowNumberCell": false,
           "columnName": "BUILDID",
           "rdfTypes": [],
           "links": [
             {
-              "uri": "http://www.semanticweb.org/grupo08/Building#buildid",
+              "uri": "http://www.semanticweb.org/group08/Building#buildid",
               "curie": "ont:buildid",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
                 "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
                 "columnName": "BUILDID"
               }
             },
             {
-              "uri": "http://www.semanticweb.org/grupo08/Building#name",
+              "uri": "http://www.semanticweb.org/group08/Building#name",
               "curie": "ont:name",
               "target": {
                 "nodeType": "cell-as-literal",
@@ -59,7 +162,7 @@
               }
             },
             {
-              "uri": "http://www.semanticweb.org/grupo08/Building#category",
+              "uri": "http://www.semanticweb.org/group08/Building#category",
               "curie": "ont:category",
               "target": {
                 "nodeType": "cell-as-literal",
@@ -69,33 +172,47 @@
               }
             },
             {
-              "uri": "http://www.semanticweb.org/grupo08/Building#department",
+              "uri": "http://www.semanticweb.org/group08/Building#department",
               "curie": "ont:department",
               "target": {
                 "nodeType": "cell-as-literal",
                 "expression": "value",
                 "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
                 "columnName": "DEPARTMENT"
               }
             },
             {
-              "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
-              "curie": "geosp:hasGeometry",
+              "uri": "http://www.semanticweb.org/group08/Building#hasBuilding",
+              "curie": "ont:hasBuilding",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "if(contains(cells[\"CATEGORY\"].value,\"Fire\"),\"fire/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Healt\"),\"health/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Police\"),\"police/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Port\"),\"port/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Library\"),\"publiclibrary/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Works\"),\"publicworks/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Real\"),\"realestate/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Park\"),\"park/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Other\"),\"other/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Clean\"),\"PUC/cleanwaterprogram/\",\nif(contains(cells[\"CATEGORY\"].value,\"Water\"),\"PUC/WaterDepartment/\",\"\"))+\nif(contains(cells[\"CATEGORY\"].value,\"Hetch\"),\"PUC/hetchhetchy/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"MTA\"),\"other/\",\"\")\n+value+\"/geometry\"",
+                "expression": "if(contains(cells[\"CATEGORY\"].value,\"Fire\"),\"Fire/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Healt\"),\"Health/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Police\"),\"Police/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Port\"),\"Port/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Library\"),\"Library/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Works\"),\"Works/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Real\"),\"RealState/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Park\"),\"RecreationPark/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Other\"),\"Other/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Clean\"),\"PUC/CleanWaterProgram/\",\nif(contains(cells[\"CATEGORY\"].value,\"Water\"),\"PUC/WaterDepartment/\",\"\"))+\nif(contains(cells[\"CATEGORY\"].value,\"Hetch\"),\"PUC/HetchHetchy/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"MTA\"),\"Other/\",\"\")\n+value+\"/Building\"",
                 "isRowNumberCell": false,
                 "columnName": "BUILDID",
                 "rdfTypes": [],
                 "links": [
                   {
-                    "uri": "http://www.opengis.net/ont/geosparql#asWKT",
-                    "curie": "geosp:asWKT",
+                    "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "curie": "geosp:hasGeometry",
                     "target": {
-                      "nodeType": "cell-as-literal",
-                      "expression": "value",
+                      "nodeType": "cell-as-resource",
+                      "expression": "if(contains(cells[\"CATEGORY\"].value,\"Fire\"),\"Fire/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Healt\"),\"Health/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Police\"),\"Police/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Port\"),\"Port/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Library\"),\"Library/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Works\"),\"Works/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Real\"),\"RealState/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Park\"),\"RecreationPark/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Other\"),\"Other/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Clean\"),\"PUC/CleanWaterProgram/\",\nif(contains(cells[\"CATEGORY\"].value,\"Water\"),\"PUC/WaterDepartment/\",\"\"))+\nif(contains(cells[\"CATEGORY\"].value,\"Hetch\"),\"PUC/HetchHetchy/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"MTA\"),\"Other/\",\"\")\n+value+\"/Building/geometry\"",
                       "isRowNumberCell": false,
-                      "columnName": "asWKT"
+                      "columnName": "BUILDID",
+                      "rdfTypes": [],
+                      "links": [
+                        {
+                          "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                          "curie": "geosp:asWKT",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "columnName": "asWKT"
+                          }
+                        }
+                      ]
                     }
                   }
                 ]
