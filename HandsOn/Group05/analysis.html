@@ -11,39 +11,27 @@
     </ul>
     <table style="width:100%; text-align:left;">
       <tr  bgcolor="#8ca6fd"><th>Column</th><th>Type</th><th>Comments/Range</th><th>Problems</th></tr>
+      <tr bgcolor="#e5e5e5"><td>id_local</td><td>Decimal</td><td>0-300.000.000</td><td></td></tr>
+      <tr><td>id_distrito_local</td><td>Decimal</td><td>1-21</td><td></td></tr>
       <tr bgcolor="#e5e5e5"><td>desc_distrito_local</td><td>String</td><td>Not unique, 21 districts</td><td></td></tr>
       <tr><td>id_barrio_local</td><td>Decimal</td><td>10-220</td><td>14 blank</td></tr>
       <tr bgcolor="#e5e5e5"><td>desc_barrio_local</td><td>String</td><td>Not unique, 128 neighborhoods</td><td>14 blank</td></tr>
       <tr><td>desc_seccion_censal_local</td><td>Decimal</td><td>0-230</td><td>requires district data for unequivocal identification </td></tr>
-      <tr bgcolor="#e5e5e5"><td>coordenada_x_local</td><td>Decimal</td><td></td><td></td></tr>
-      <tr><td>coordenada_y_local</td><td>Decimal</td><td></td><td></td></tr>
       <tr bgcolor="#e5e5e5"><td>desc_tipo_acceso_local</td><td>String</td><td></td><td>Not unique, 3 values</td></tr>
-      <tr><td>id_situacion_local</td><td>-</td><td>Empty</td><td>Empty</td></tr>
-      <tr bgcolor="#e5e5e5"><td>desc_situacion_local</td><td>String</td><td>Not unique, 6 values</td><td></td></tr>
-      <tr><td>id_ndp_edificio</td><td>Decimal</td><td>Not unique, 1,000,000.00 — 32,000,000.00 </td><td>-</td></tr>
-      <tr bgcolor="#e5e5e5"><td>clase_vial_edificio</td><td>String</td><td>Not unique, 26 values</td><td>12 blank</td></tr>
-      <tr><td>desc_vial_edificio</td><td>String</td><td>Not unique, 5923 values</td><td>12 blank</td></tr>
-      <tr bgcolor="#e5e5e5"><td>nom_edificio</td><td>String</td><td>Not unique, 3 values</td><td>12 blank</td></tr>
-      <tr><td>num_edificio</td><td>Decimal</td><td>0-21.000 Numeros superiores a 1000 anomalías o puntos kilométricos </td><td>12 blank. En barrio Pinar del Rey, mucho locales en número altos y calles inexistentes</td></tr>
-      <tr bgcolor="#e5e5e5"><td>cal_edificio</td><td>String</td><td>Not unique, 28 values</td><td>134788 blank.</td></tr>
-      <tr><td>secuencia_local_PC</td><td>Decimal</td><td>0-2.200</td><td>La mayoría (~98%) 0-100</td></tr>
-      <tr bgcolor="#e5e5e5"><td>secuencia_local_PC</td><td>Decimal</td><td>0-2.200</td><td>La mayoría (~98%) 0-100</td></tr>
+      <tr><td>desc_situacion_local</td><td>String</td><td>Not unique, 6 values</td><td></td></tr>
+      <tr bgcolor="#e5e5e5"><td>secuencial_local_PC</td><td>Decimal</td><td>0-2.200</td><td>La mayoría (~98%) 0-100</td></tr>
       <tr><td>id_ndp_acceso</td><td>Decimal</td><td>Not unique, 1,000,000.00 — 32,000,000.00 </td><td>-</td></tr>
       <tr bgcolor="#e5e5e5"><td>clase_vial_acceso</td><td>String</td><td>Not unique, 26 values</td><td>12 blank</td></tr>
       <tr><td>desc_vial_acceso</td><td>String</td><td>Not unique, 5923 values</td><td>12 blank</td></tr>
       <tr bgcolor="#e5e5e5"><td>nom_acceso</td><td>String</td><td>Not unique, 3 values</td><td>12 blank</td></tr>
       <tr><td>num_acceso</td><td>Decimal</td><td>0-21.000 Numeros superiores a 1000 anomalías o puntos kilométricos </td><td>12 blank. En barrio Pinar del Rey, mucho locales en número altos y calles inexistentes</td></tr>
-      <tr bgcolor="#e5e5e5"><td>cal_acceso</td><td>String</td><td>Not unique, 28 values</td><td>134788 blank.</td></tr>
-      <tr><td>coordenada_x_acceso</td><td>Decimal</td><td></td><td></td></tr>
-      <tr bgcolor="#e5e5e5"><td>coordenada_y_acceso</td><td>Decimal</td><td></td><td></td></tr>
-      <tr><td>id_agrupacion</td><td>Decimal</td><td>0-100.000.000</td><td></td></tr>
-      <tr bgcolor="#e5e5e5"><td>nombre_agrupacion</td><td>String</td><td>Not unique, 338 values. Empty values</td><td></td></tr>
-      <tr><td>id_tipo_agrupacion</td><td>String</td><td>Not unique, 12 values. Empty values</td><td></td></tr>
-      <tr bgcolor="#e5e5e5"><td>desc_tipo_agrupacion</td><td>String</td><td>Not unique, 13 values, empty values</td><td></td></tr>
-      <tr><td>id_planta_agrupado</td><td>String</td><td>Not unique, 73 values, empty values</td><td></td></tr>
-      <tr bgcolor="#e5e5e5"><td>id_local_agrupado</td><td>String</td><td>Not unique, 1742 values, empty values</td><td></td></tr>
-      <tr><td>rotulo</td><td>String</td><td></td><td>47007 blank</td></tr>
-
+      <tr bgcolor="#e5e5e5"><td>rotulo</td><td>String</td><td></td><td>47007 blank</td></tr>
+      <tr><td>id_seccion</td><td>String</td><td>Not unique, 21 values</td><td>47000 blank</td></tr>
+      <tr bgcolor="#e5e5e5"><td>desc_seccion</td><td>String</td><td>Not unique, 21 values. Related to id_seccion</td><td>47000 blank</td></tr>
+      <tr><td>id_division</td><td>Decimal</td><td>1-99</td><td>47227 blank</td></tr>
+      <tr bgcolor="#e5e5e5"><td>desc_division</td><td>String</td><td>Not unique, 80 values. Related to id_division</td><td>47227 blank</td></tr>
+      <tr><td>id_epigrafe</td><td>Decimal</td><td>0-48.000.000.</td><td>~100% 0-1.000.000</td></tr>
+      <tr bgcolor="#e5e5e5"><td>desc_epigrafe</td><td>String</td><td>Not unique, 419 values. Related to id_epigrafe</td><td>47000 blank</td></tr>
 
     </table>
 
@@ -94,7 +82,7 @@
       <tr bgcolor="#e5e5e5"><td>FAX</td><td>String</td><td></td><td></td><td>42 blanks</td></tr>
       <tr><td>EMAIL</td><td>String</td><td></td><td></td><td>8 blanks</td></tr>
       <tr bgcolor="#e5e5e5"><td>TIPO</td><td>String</td><td></td><td></td><td></td></tr>
-    </table> 
+    </table>
     <h3>Metro de Madrid</h3>
     <ul>
       <li><b>Nombre del fichero:</b> Metro.rdf</li>
@@ -143,7 +131,7 @@
         <tr><td>Telefono</td><td>String</td><td></td><td></td></tr>
         <tr bgcolor="#e5e5e5"><td>Fax</td><td>String</td><td>Empty values</td><td></td></tr>
         <tr><td>Tipo</td><td>String</td><td>Organization</td><td></td></tr>
-      </table>    
+      </table>
 
     </body>
     </html>
