@@ -1,0 +1,402 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://example.org/resources/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "passim",
+          "uri": "http://data.lirmm.fr/ontologies/passim#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "pext",
+          "uri": "http://www.ontotext.com/proton/protonext#"
+        },
+        {
+          "name": "gndo",
+          "uri": "http://d-nb.info/standards/elementset/gnd#"
+        },
+        {
+          "name": "transit",
+          "uri": "http://vocab.org/transit/terms/"
+        },
+        {
+          "name": "vivo",
+          "uri": "http://vivoweb.org/ontology/core#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"PuntoInformacionTuristica/\"+replaceChars(value,\" -()._\",\"\")",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "resource",
+                "value": "PuntoInformacionTuristica",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://example.org/resources/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "passim",
+          "uri": "http://data.lirmm.fr/ontologies/passim#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "pext",
+          "uri": "http://www.ontotext.com/proton/protonext#"
+        },
+        {
+          "name": "gndo",
+          "uri": "http://d-nb.info/standards/elementset/gnd#"
+        },
+        {
+          "name": "transit",
+          "uri": "http://vocab.org/transit/terms/"
+        },
+        {
+          "name": "vivo",
+          "uri": "http://vivoweb.org/ontology/core#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"PuntoInformacionTuristica/\"+replaceChars(value,\" -()._\",\"\")",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "resource",
+                "value": "PuntoInformacionTuristica",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/TouristInformationCenter",
+                    "curie": "schema:TouristInformationCenter"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NAME"
+              }
+            },
+            {
+              "uri": "http://d-nb.info/standards/elementset/gnd#coordinates",
+              "curie": "gndo:coordinates",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDINATES"
+              }
+            },
+            {
+              "uri": "http://vocab.org/transit/terms/schedule",
+              "curie": "transit:schedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "SCHEDULE"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasLocality",
+              "curie": "vcard:hasLocality",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALITY"
+              }
+            },
+            {
+              "uri": "http://data.lirmm.fr/ontologies/passim#postalCode",
+              "curie": "passim:postalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "POSTALCODE"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasTelephone",
+              "curie": "vcard:hasTelephone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEPHONE"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasEmail",
+              "curie": "vcard:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson",
+              "curie": "passim:isAccessibilityForDisabledPerson",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ACCESSIBILITY"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://example.org/resources/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "passim",
+          "uri": "http://data.lirmm.fr/ontologies/passim#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "pext",
+          "uri": "http://www.ontotext.com/proton/protonext#"
+        },
+        {
+          "name": "gndo",
+          "uri": "http://d-nb.info/standards/elementset/gnd#"
+        },
+        {
+          "name": "transit",
+          "uri": "http://vocab.org/transit/terms/"
+        },
+        {
+          "name": "vivo",
+          "uri": "http://vivoweb.org/ontology/core#"
+        },
+        {
+          "name": "vcard",
+          "uri": "http://www.w3.org/2006/vcard/ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"PuntoInformacionTuristica/\"+replaceChars(value,\" -()._\",\"\")",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+              "curie": "rdf:type",
+              "target": {
+                "nodeType": "resource",
+                "value": "PuntoInformacionTuristica",
+                "rdfTypes": [
+                  {
+                    "uri": "http://schema.org/TouristInformationCenter",
+                    "curie": "schema:TouristInformationCenter"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NAME"
+              }
+            },
+            {
+              "uri": "http://d-nb.info/standards/elementset/gnd#coordinates",
+              "curie": "gndo:coordinates",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "COORDINATES"
+              }
+            },
+            {
+              "uri": "http://vocab.org/transit/terms/schedule",
+              "curie": "transit:schedule",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "SCHEDULE"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasAddress",
+              "curie": "vcard:hasAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasLocality",
+              "curie": "vcard:hasLocality",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALITY"
+              }
+            },
+            {
+              "uri": "http://data.lirmm.fr/ontologies/passim#postalCode",
+              "curie": "passim:postalCode",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "POSTALCODE"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasTelephone",
+              "curie": "vcard:hasTelephone",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEPHONE"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2006/vcard/ns#hasEmail",
+              "curie": "vcard:hasEmail",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://data.lirmm.fr/ontologies/passim#isAccessibilityForDisabledPerson",
+              "curie": "passim:isAccessibilityForDisabledPerson",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ACCESSIBILITY"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
