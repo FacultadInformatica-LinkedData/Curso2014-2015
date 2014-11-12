@@ -83,7 +83,7 @@
     </Declaration>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#esta_en"/>
-        <Class IRI="#Lugar"/>
+        <Class IRI="#Municipio"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#pertenece_a"/>
