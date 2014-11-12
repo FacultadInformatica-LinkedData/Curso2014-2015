@@ -1,0 +1,99 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Descripción",
+    "columnName": "Descripción"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Dirección",
+    "columnName": "Dirección"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Calle to Direccion",
+    "oldColumnName": "Calle",
+    "newColumnName": "Direccion"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Localidad2",
+    "columnName": "Localidad2"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column SoloClasificar",
+    "columnName": "SoloClasificar"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Telefax oficial",
+    "columnName": "Telefax oficial"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Fax",
+    "columnName": "Fax"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Posicion to Coordenadas",
+    "oldColumnName": "Posicion",
+    "newColumnName": "Coordenadas"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Enlace al contenido to Sitio Web",
+    "oldColumnName": "Enlace al contenido",
+    "newColumnName": "Sitio Web"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FechaModificacion",
+    "columnName": "FechaModificacion"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Identificador",
+    "columnName": "Identificador"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Identificador Directorio Superior",
+    "columnName": "Identificador Directorio Superior"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Páginas de internet",
+    "columnName": "Páginas de internet"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column e-mail to Email",
+    "oldColumnName": "e-mail",
+    "newColumnName": "Email"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Información Adicional",
+    "columnName": "Información Adicional"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Directorio Superior to Provincia",
+    "oldColumnName": "Directorio Superior",
+    "newColumnName": "Provincia"
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column Sitio Web to position 8",
+    "columnName": "Sitio Web",
+    "index": 8
+  },
+  {
+    "op": "core/column-move",
+    "description": "Move column Sitio Web to position 7",
+    "columnName": "Sitio Web",
+    "index": 7
+  }
+]

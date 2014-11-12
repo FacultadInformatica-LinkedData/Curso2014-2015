@@ -1,0 +1,137 @@
+[
+  {
+    "op": "core/column-addition",
+    "description": "Create column asWKT at index 5 based on column geometry using expression grel:replace(replace(value, \"<Polygon><outerBoundaryIs><LinearRing><coordinates>\", \"POLYGON ((\"), \"</coordinates></LinearRing></outerBoundaryIs></Polygon>\", \"))\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "asWKT",
+    "columnInsertIndex": 5,
+    "baseColumnName": "geometry",
+    "expression": "grel:replace(replace(value, \"<Polygon><outerBoundaryIs><LinearRing><coordinates>\", \"POLYGON ((\"), \"</coordinates></LinearRing></outerBoundaryIs></Polygon>\", \"))\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column geometry",
+    "columnName": "geometry"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/Mapping/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/Mapping#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/Mapping#zoneid",
+              "curie": "ont:zoneid",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ZONEID"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Mapping#name",
+              "curie": "ont:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NAME"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Mapping#shparea",
+              "curie": "ont:shparea",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "SHPAREA"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Mapping#shplen",
+              "curie": "ont:shplen",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "SHPLEN"
+              }
+            },
+            {
+              "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+              "curie": "geosp:hasGeometry",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value+\"/geometry\"",
+                "isRowNumberCell": true,
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "curie": "geosp:asWKT",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "asWKT"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Mapping#media",
+              "curie": "ont:media",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "MEDIA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

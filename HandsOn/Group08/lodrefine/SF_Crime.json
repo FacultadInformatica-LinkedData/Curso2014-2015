@@ -1,0 +1,857 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Time",
+    "columnName": "Time"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Date using expression grel:value.toDate(\"MM/dd/yyyy\").toString(\"dd/MM/yyyy\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Date",
+    "expression": "grel:value.toDate(\"MM/dd/yyyy\").toString(\"dd/MM/yyyy\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column IncidntNum to INCIDENTID",
+    "oldColumnName": "IncidntNum",
+    "newColumnName": "INCIDENTID"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Category to CATEGORY",
+    "oldColumnName": "Category",
+    "newColumnName": "CATEGORY"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CATEGORY using expression grel:replace(value,\"-\",\" \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "CATEGORY",
+    "expression": "grel:replace(value,\"-\",\" \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DayOfWeek",
+    "columnName": "DayOfWeek"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Descript to DESCRIPTION",
+    "oldColumnName": "Descript",
+    "newColumnName": "DESCRIPTION"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column PdDistrict to DISTRICT",
+    "oldColumnName": "PdDistrict",
+    "newColumnName": "DISTRICT"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Resolution to STATE",
+    "oldColumnName": "Resolution",
+    "newColumnName": "STATE"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Address to ADDRESS",
+    "oldColumnName": "Address",
+    "newColumnName": "ADDRESS"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column X",
+    "columnName": "X"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Y",
+    "columnName": "Y"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Date using expression grel:value.toDate(\"dd/MM/yyyy\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Date",
+    "expression": "grel:value.toDate(\"dd/MM/yyyy\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "to": 1414710000000,
+          "expression": "value",
+          "selectError": true,
+          "selectTime": true,
+          "selectBlank": true,
+          "name": "Date",
+          "selectNonTime": true,
+          "columnName": "Date",
+          "from": 1412114400000,
+          "type": "timerange"
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Date using expression grel:value.toDate().toString(\"YYYY/MM/dd\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Date",
+    "expression": "grel:value.toDate().toString(\"YYYY/MM/dd\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Location using expression grel:\"POINT\"+replace(value,\",\",\" \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Location",
+    "expression": "grel:\"POINT\"+replace(value,\",\",\" \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/Crime/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/Crime#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "INCIDENTID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#incidentid",
+              "curie": "ont:incidentid",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INCIDENTID"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#category",
+              "curie": "ont:category",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CATEGORY"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#description",
+              "curie": "ont:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPTION"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#date",
+              "curie": "ont:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "DATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#district",
+              "curie": "ont:district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRICT"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#state",
+              "curie": "ont:state",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "STATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#address",
+              "curie": "ont:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+              "curie": "geosp:hasGeometry",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": true,
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "curie": "geosp:asWKT",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value+\"/geometry\"",
+                      "isRowNumberCell": false,
+                      "columnName": "asWKT"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/Crime/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/Crime#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "INCIDENTID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#incidentid",
+              "curie": "ont:incidentid",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INCIDENTID"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#category",
+              "curie": "ont:category",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CATEGORY"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#description",
+              "curie": "ont:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPTION"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#date",
+              "curie": "ont:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "DATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#district",
+              "curie": "ont:district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRICT"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#state",
+              "curie": "ont:state",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "STATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#address",
+              "curie": "ont:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+              "curie": "geosp:hasGeometry",
+              "target": {
+                "nodeType": "resource",
+                "value": "geometry",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "curie": "geosp:asWKT",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value+\"/geometry\"",
+                      "isRowNumberCell": false,
+                      "columnName": "asWKT"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Date using expression grel:value.toDate(\"YYYY/MM/dd\").toString(\"YYYY-MM-dd\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Date",
+    "expression": "grel:value.toDate(\"YYYY/MM/dd\").toString(\"YYYY-MM-dd\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/Crime/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/Crime#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "INCIDENTID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#incidentid",
+              "curie": "ont:incidentid",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INCIDENTID"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#category",
+              "curie": "ont:category",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CATEGORY"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#description",
+              "curie": "ont:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPTION"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#date",
+              "curie": "ont:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "DATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#district",
+              "curie": "ont:district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRICT"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#state",
+              "curie": "ont:state",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "STATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#address",
+              "curie": "ont:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+              "curie": "geosp:hasGeometry",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value+\"/geometry\"",
+                "isRowNumberCell": false,
+                "columnName": "INCIDENTID",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "curie": "geosp:asWKT",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Location"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Location to asWKT",
+    "oldColumnName": "Location",
+    "newColumnName": "asWKT"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column asWKT using expression grel:replace(value,\"  \", \" \")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "asWKT",
+    "expression": "grel:replace(value,\"  \", \" \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/Crime/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/Crime#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "INCIDENTID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#incidentid",
+              "curie": "ont:incidentid",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INCIDENTID"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#category",
+              "curie": "ont:category",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CATEGORY"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#description",
+              "curie": "ont:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPTION"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#date",
+              "curie": "ont:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "Date"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#district",
+              "curie": "ont:district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRICT"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#state",
+              "curie": "ont:state",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "STATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#address",
+              "curie": "ont:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+              "curie": "geosp:hasGeometry",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value+\"/geometry\"",
+                "isRowNumberCell": false,
+                "columnName": "INCIDENTID",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "curie": "geosp:asWKT",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "asWKT"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column Date to DATE",
+    "oldColumnName": "Date",
+    "newColumnName": "DATE"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/Crime/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/Crime#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "INCIDENTID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#incidentid",
+              "curie": "ont:incidentid",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INCIDENTID"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#category",
+              "curie": "ont:category",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CATEGORY"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#description",
+              "curie": "ont:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPTION"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#date",
+              "curie": "ont:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "DATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#district",
+              "curie": "ont:district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRICT"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#state",
+              "curie": "ont:state",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "STATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#address",
+              "curie": "ont:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+              "curie": "geosp:hasGeometry",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value+\"/geometry\"",
+                "isRowNumberCell": false,
+                "columnName": "INCIDENTID",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "curie": "geosp:asWKT",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "asWKT"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
