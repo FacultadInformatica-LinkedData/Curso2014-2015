@@ -16,7 +16,6 @@ xmlns:biblioteca="http://www.exmple.com/biblioteca#">
 
 
 <owl:Class rdf:about="http://www.exmple.com/biblioteca#eventos">
-<rdfs:subClassOf rdf:resource="http://www.exmple.com/biblioteca#biblioinstancia"/>
 <rdfs:label>Evento de Biblioteca</rdfs:label>
 <rdfs:comment>Entidad eventos de biblioteca</rdfs:comment>
 </owl:Class>
