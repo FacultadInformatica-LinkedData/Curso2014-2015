@@ -33,7 +33,7 @@
 							<LI><A HREF="#callejero-distritos">Callejero Distritos de Madrid</A></LI>
 							<LI><A HREF="#callejero-barrios">Callejero Barrios de Madrid</A></LI>
 							<LI><A HREF="#embajadas-consulados">Embajadas y Consulados</A></LI>
-							<LI><A HREF="#monumentos">Monumentos</A></LI>
+							<LI><A HREF="#monumentos-edificios">Monumentos y Edificios</A></LI>
 							<LI><A HREF="#museos">Museos</A></LI>
 						</UL>
 					<LI><A HREF="#analysisLicense">Analysis of the License</A></LI>
@@ -75,13 +75,6 @@
 							</TR>
 
 							<TR>
-								<TD>Particula de la via</TD>
-								<TD>no</TD>
-								<TD>String</TD>
-								<TD>DE, DE, DE LA, DE LOS, DEL</TD>
-							</TR>
-
-							<TR>
 								<TD>Nombre de la vía</TD>
 								<TD>si</TD>
 								<TD>String</TD>
@@ -96,38 +89,10 @@
 							</TR>
 
 							<TR>
-								<TD>Cantidad de numeraciones en la via</TD>
-								<TD>no</TD>
-								<TD>int</TD>
-								<TD>45 (0, 650)</TD>
-							</TR>
-
-							<TR>
-								<TD>Distritos atravesados</TD>
-								<TD>no</TD>
-								<TD>String</TD>
-								<TD>18, 04-07</TD>
-							</TR>
-
-							<TR>
 								<TD>Códigos postales</TD>
 								<TD>no</TD>
 								<TD>String</TD>
 								<TD>28.100, varios</TD>
-							</TR>
-
-							<TR>
-								<TD>Campo que indica si tiene zonas en S R E</TD>
-								<TD>no</TD>
-								<TD>String</TD>
-								<TD>SI, NO</TD>
-							</TR>
-
-							<TR>
-								<TD>Aproximación poblacional de la via</TD>
-								<TD>no</TD>
-								<TD>String</TD>
-								<TD>000919, <=0050, nodisp</TD>
 							</TR>
 
 							<TR>
@@ -185,54 +150,11 @@
 								<TD>String</TD>
 								<TD>40°30'33.4'' N</TD>
 							</TR>
-
-							<TR>
-								<TD>Tipo de la via</TD>
-								<TD>no</TD>
-								<TD>String</TD>
-								<TD>[Red, Topónimo, Vía]</TD>
-							</TR>
-
 							<TR>
 								<TD>Situación de la via respecto al terreno</TD>
 								<TD>no</TD>
 								<TD>String</TD>
 								<TD>[Nivel, Subterránea, Volada]</TD>
-							</TR>
-
-							<TR>
-								<TD>Tipo de denominación de la vía</TD>
-								<TD>no</TD>
-								<TD>String</TD>
-								<TD>[Admon, Pleno]</TD>
-							</TR>
-
-							<TR>
-								<TD>Superficie aproximada m2(aceras-isletas)</TD>
-								<TD>no</TD>
-								<TD>int</TD>
-								<TD>11858 (0, 230.000)</TD>
-							</TR>
-
-							<TR>
-								<TD>Superficie aproximada m2 (calzada)</TD>
-								<TD>no</TD>
-								<TD>String</TD>
-								<TD>(0,2.600.00), 5-non-numeric</TD>
-							</TR>
-
-							<TR>
-								<TD>Literal Completo del vial</TD>
-								<TD>si</TD>
-								<TD>String</TD>
-								<TD>CALLE DE ISABEL COLBRAND</TD>
-							</TR>
-
-							<TR>
-								<TD>Código de vía I N E</TD>
-								<TD>no</TD>
-								<TD>int</TD>
-								<TD>11704 (0, 100.000)</TD>
 							</TR>
 						</TABLE>
 						</BLOCKQUOTE></BLOCKQUOTE>
@@ -264,7 +186,7 @@
 
 							<TR>
 								<TD>Codigo de distrito</TD>
-								<TD>no</TD>
+								<TD>si</TD>
 								<TD>int</TD>
 								<TD>2, 3, 10 [1,10]</TD>
 							</TR>
@@ -274,13 +196,6 @@
 								<TD>si</TD>
 								<TD>String</TD>
 								<TD>SALAMANCA, CHAMARTIN, TETUAN</TD>
-							</TR>
-
-							<TR>
-								<TD>Nombre acentuado</TD>
-								<TD>si</TD>
-								<TD>String</TD>
-								<TD>SALAMANCA, CHAMARTÍN, TETUÁN</TD>
 							</TR>
 
 							<TR>
@@ -316,14 +231,14 @@
 							
 							<TR>
 								<TD>Codigo de barrio</TD>
-								<TD>no(por el momento)</TD>
+								<TD>si</TD>
 								<TD>int</TD>
 								<TD>1</TD>
 							</TR>
 							
 							<TR>
 								<TD>Codigo de distrito</TD>
-								<TD>no(por el momento)</TD>
+								<TD>si</TD>
 								<TD>int</TD>
 								<TD>1</TD>
 							</TR>
@@ -336,14 +251,14 @@
 							</TR>
 							
 							<TR>
-								<TD>Superficie</TD>
+								<TD>Superficie m2</TD>
 								<TD>no</TD>
 								<TD>int</TD>
 								<TD>1 471 085</TD>
 							</TR>
 							
 							<TR>
-								<TD>Superficie</TD>
+								<TD>Perímetro</TD>
 								<TD>no</TD>
 								<TD>int</TD>
 								<TD>5754</TD>
@@ -373,7 +288,7 @@
 					
 							<TR>
 								<TD>PK</TD>
-								<TD>no(por el momento)</TD>
+								<TD>si</TD>
 								<TD>int</TD>
 								<TD>21.112, 7.048.490</TD>
 							</TR>
@@ -386,24 +301,10 @@
 							</TR>
 
 							<TR>
-								<TD>Descripcion-entidad</TD>
-								<TD>no</TD>
-								<TD>String</TD>
-								<TD>empty</TD>
-							</TR>
-
-							<TR>
 								<TD>Horario</TD>
 								<TD>no</TD>
 								<TD>String</TD>
 								<TD>Mensaje muy largo</TD>
-							</TR>
-
-							<TR>
-								<TD>Equipamiento</TD>
-								<TD>no</TD>
-								<TD>String</TD>
-								<TD>empty</TD>
 							</TR>
 
 							<TR>
@@ -424,7 +325,7 @@
 								<TD>Accesibilidad</TD>
 								<TD>no</TD>
 								<TD>int</TD>
-								<TD>http://www.madrid.es/vgn</TD>
+								<TD>1</TD>
 							</TR>
 
 							<TR>
@@ -442,38 +343,10 @@
 							</TR>
 
 							<TR>
-								<TD>Tipo-num</TD>
-								<TD>no</TD>
-								<TD>String</TD>
-								<TD>V [V]</TD>
-							</TR>
-
-							<TR>
 								<TD>Num</TD>
 								<TD>no</TD>
 								<TD>String</TD>
 								<TD>24, 11, 6a, 3o, empty</TD>
-							</TR>
-
-							<TR>
-								<TD>Puerta</TD>
-								<TD>no</TD>
-								<TD>String</TD>
-								<TD>Interior izquierda, empty</TD>
-							</TR>
-
-							<TR>
-								<TD>Escaleras</TD>
-								<TD>no</TD>
-								<TD>String</TD>
-								<TD>66-68, D, Izquierda, empty</TD>
-							</TR>
-
-							<TR>
-								<TD>Orientación</TD>
-								<TD>no</TD>
-								<TD>String</TD>
-								<TD>17-A, H, Pasaje Comercial, empty</TD>
 							</TR>
 
 							<TR>
@@ -540,20 +413,6 @@
 							</TR>
 
 							<TR>
-								<TD>Teléfono</TD>
-								<TD>no</TD>
-								<TD>String</TD>
-								<TD>914 025 115, 913 190 763 / 913 199 559</TD>
-							</TR>
-
-							<TR>
-								<TD>Fax</TD>
-								<TD>no</TD>
-								<TD>String</TD>
-								<TD>913 091 996</TD>
-							</TR>
-
-							<TR>
 								<TD>Email</TD>
 								<TD>no</TD>
 								<TD>String</TD>
@@ -566,15 +425,22 @@
 								<TD>String</TD>
 								<TD>/contenido/entidades</TD>
 							</TR>
+
+							<TR>
+								<TD>EntityType</TD>
+								<TD>no</TD>
+								<TD>String</TD>
+								<TD>OrganismosInternacionales/EmbajadasConsulados</TD>
+							</TR>
 						</TABLE>
 						</BLOCKQUOTE></BLOCKQUOTE>
 					</H4>
 				</DIV>
 				
-				<DIV ID="monumentos">
-					<BLOCKQUOTE><H3>Monumentos</H3></BLOCKQUOTE>
+				<DIV ID="monumentos-edificios">
+					<BLOCKQUOTE><H3>Monumentos y Edificios</H3></BLOCKQUOTE>
 					<H4>
-						<BLOCKQUOTE><BLOCKQUOTE>This is the database of the monuments in Madrid. The data which contains is the next:
+						<BLOCKQUOTE><BLOCKQUOTE>This is the database of the monuments and buildings in Madrid. The data which contains is the next:
 						<BR>
 						<TABLE BORDER="1" FRAME="VSIDES">
 							<TR>
@@ -613,13 +479,6 @@
 							</TR>
 							
 							<TR>
-								<TD>Equipamiento</TD>
-								<TD>no</TD>
-								<TD>string</TD>
-								<TD>empty</TD>
-							</TR>
-							
-							<TR>
 								<TD>Transporte</TD>
 								<TD>no</TD>
 								<TD>string</TD>
@@ -641,12 +500,6 @@
 							</TR>
 							
 							<TR>
-								<TD>Content-URL</TD>
-								<TD>no</TD>
-								<TD>string</TD>
-								<TD>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2b8d995a8bf5d010VgnVCM2000000c205a0aRCRD</TD>
-							
-							<TR>
 								<TD>Nombre-vial</TD>
 								<TD>si</TD>
 								<TD>string</TD>
@@ -661,39 +514,10 @@
 							</TR>
 							
 							<TR>
-								<TD>Tipo-num</TD>
-								<TD>no</TD>
-								<TD>string</TD>
-								<TD>V</TD>
-							</TR>
-							
-							<TR>
 								<TD>Num</TD>
 								<TD>no</TD>
 								<TD>int</TD>
 								<TD>20</TD>
-							</TR>
-							
-							<TR>
-								<TD>Planta</TD>
-								<TD>no</TD>
-								<TD>int</TD>
-								<TD>empty</TD>
-							</TR>
-						
-							<TR>
-								<TD>Puerta</TD>
-								<TD>no</TD>
-								<TD>int</TD>
-								<TD>string</TD>
-							</TR>
-							
-							
-							<TR>
-								<TD>Orientacion</TD>
-								<TD>no</TD>
-								<TD>string</TD>
-								<TD>empty</TD>
 							</TR>
 							
 							<TR>
@@ -760,20 +584,6 @@
 							</TR>
 							
 							<TR>
-								<TD>Telefono</TD>
-								<TD>no</TD>
-								<TD>int</TD>
-								<TD>915 807 800</TD>
-							</TR>
-							
-							<TR>
-								<TD>Fax</TD>
-								<TD>no</TD>
-								<TD>int</TD>
-								<TD>empty</TD>
-							</TR>
-							
-							<TR>
 								<TD>Email</TD>
 								<TD>no</TD>
 								<TD>string</TD>
@@ -787,6 +597,12 @@
 								<TD>/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos</TD>
 							</TR>
 							
+							<TR>
+								<TD>EntityType</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>MonumentosEdificiosArtisticos</TD>
+							</TR>
 						</TABLE>
 						</BLOCKQUOTE></BLOCKQUOTE>
 					</H4>
@@ -834,13 +650,6 @@
 							</TR>
 							
 							<TR>
-								<TD>Equipamiento</TD>
-								<TD>no</TD>
-								<TD>string</TD>
-								<TD>empty</TD>
-							</TR>
-							
-							<TR>
 								<TD>Transporte</TD>
 								<TD>no</TD>
 								<TD>string</TD>
@@ -860,13 +669,7 @@
 								<TD>bool</TD>
 								<TD>1</TD>
 							</TR>
-							
-							<TR>
-								<TD>Content-URL</TD>
-								<TD>no</TD>
-								<TD>string</TD>
-								<TD>http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eca9ef4d7f71c010VgnVCM1000000b205a0aRCRD</TD>
-							
+
 							<TR>
 								<TD>Nombre-vial</TD>
 								<TD>si</TD>
@@ -882,45 +685,10 @@
 							</TR>
 							
 							<TR>
-								<TD>Tipo-num</TD>
-								<TD>no</TD>
-								<TD>string</TD>
-								<TD>V</TD>
-							</TR>
-							
-							<TR>
 								<TD>Num</TD>
 								<TD>no</TD>
 								<TD>int</TD>
 								<TD>40</TD>
-							</TR>
-							
-							<TR>
-								<TD>Planta</TD>
-								<TD>no</TD>
-								<TD>int</TD>
-								<TD>empty</TD>
-							</TR>
-						
-							<TR>
-								<TD>Puerta</TD>
-								<TD>no</TD>
-								<TD>int</TD>
-								<TD>string</TD>
-							</TR>
-							
-							<TR>
-								<TD>Orientacion</TD>
-								<TD>no</TD>
-								<TD>string</TD>
-								<TD>empty</TD>
-							</TR>
-							
-							<TR>
-								<TD>Orientacion</TD>
-								<TD>no</TD>
-								<TD>string</TD>
-								<TD>empty</TD>
 							</TR>
 							
 							<TR>
@@ -987,20 +755,6 @@
 							</TR>
 							
 							<TR>
-								<TD>Telefono</TD>
-								<TD>no</TD>
-								<TD>int</TD>
-								<TD>917 011 863  / 915 782 722 (información en Museo de Historia)</TD>
-							</TR>
-							
-							<TR>
-								<TD>Fax</TD>
-								<TD>no</TD>
-								<TD>int</TD>
-								<TD>empty</TD>
-							</TR>
-							
-							<TR>
 								<TD>Email</TD>
 								<TD>no</TD>
 								<TD>string</TD>
@@ -1013,9 +767,13 @@
 								<TD>string</TD>
 								<TD>/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos</TD>
 							</TR>
-							
-							
-							
+
+							<TR>
+								<TD>EntityType</TD>
+								<TD>no</TD>
+								<TD>string</TD>
+								<TD>MonumentosEdificiosArtisticos</TD>
+							</TR>
 						</TABLE>
 						</BLOCKQUOTE></BLOCKQUOTE>
 					</H4>
@@ -1056,23 +814,29 @@
 					<BLOCKQUOTE><H3>Resource Naming Strategy</H3></BLOCKQUOTE>
 					<H4>
 						<BLOCKQUOTE><BLOCKQUOTE>
-							We've chosen as main URI: <A HREF="www.wsld.com/group04/
-">www.wsld.com/group04/</A>
+							We've chosen as main URI: <A HREF="www.st-madrid.es/">www.st-madrid.es/</A>
 							<P>
-							So the next resources are defined by:
+							The following URI's, were selected to describe the entities
 							<UL>
-								<LI><A HREF="www.wsld.com/group04/viales/nombreVia/">www.wsld.com/group04/viales/nombreVia/</A></LI>
-								<LI><A HREF="www.wsld.com/group04/distritos/nombreDistrito/">www.wsld.com/group04/distritos/nombreDistrito/</A></LI>
-								<LI><A HREF="www.wsld.com/group04/barrios/nombreBarrio/">www.wsld.com/group04/barrios/nombreBarrio/</A></LI>
-								<LI><A HREF="www.wsld.com/group04/embajada-consulado/nombreEmbCon/">www.wsld.com/group04/embajada-consulado/nombreEmbCon/</A></LI>
-								<LI><A HREF="www.wsld.com/group04/monumento/nombreMonumento/">www.wsld.com/group04/monumento/nombreMonumento/</A></LI>
-								<LI><A HREF="www.wsld.com/group04/museos/nombreMuseo">www.wsld.com/group04/museos/nombreMuseo</A></LI>
+								<LI>Entities and Organisms <A HREF="www.st-madrid.es/EntidadesOrganismos">www.st-madrid.es/EntidadesOrganismos/</A></LI>
+									<UL>
+										<LI>International Organizations <A HREF="www.st-madrid.es/OrganismosInternacionales/">www.st-madrid.es/OrganismosInternacionales/</A></LI>
+											<UL>
+												<LI>Embassys and Consulates <A HREF="www.st-madrid.es/EmbajadasConsulados/">www.st-madrid.es/EmbajadasConsulados/</A></LI>
+											</UL>
+										<LI>Monuments and artistic buildings <A HREF="www.st-madrid.es/MonumentosEdificiosArtisticos/">www.st-madrid.es/MonumentosEdificiosArtisticos/</A></LI>
+										<LI>Museums <A HREF="www.st-madrid.es/EntidadesOrganismos/Museos/">www.st-madrid.es/Museos/</A></LI>
+										<LI>Cultural Foundations <A HREF="www.st-madrid.es/EntidadesOrganismos/FundacionesCulturales/">www.st-madrid.es/EntidadesOrganismos/FundacionesCulturales/</A></LI>
+										<LI>Planetaries <A HREF="www.st-madrid.es/Planetarios/">www.st-madrid.es/Planetarios/</A></LI>
+										<LI>Consortiums <A HREF="www.st-madrid.es/Consorcios/">www.st-madrid.es/Consorcios/</A></LI>
+									</UL>
+								<LI>Districts <A HREF="www.st-madrid.es/Distritos/">www.st-madrid.es/Distritos/</A></LI>
+								<LI>Neighborhoods: <A HREF="www.st-madrid.es/Barrios/">www.st-madrid.es/Barrios/</A></LI>
 							</UL>
 						</BLOCKQUOTE></BLOCKQUOTE>
 					</H4>
 				</DIV>
 			</DIV>
-
 		</DIV>
 
 
