@@ -1,0 +1,1564 @@
+[
+  {
+    "op": "core/column-split",
+    "description": "Split column ows_Georeferencia by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ows_Georeferencia",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ",-",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "ows_LinkTitle",
+      "ows_Zona",
+      "ows_Georeferencia 1",
+      "ows_CodigoPostal",
+      "ows_Direccion",
+      "ows_Telefono",
+      "ows_Fax",
+      "ows_Web",
+      "ows_Situacion",
+      "ows_DescripcionEspanol",
+      "ows_TipoActividad",
+      "ows_ObservacionesSituacion",
+      "ows_Actividad",
+      "ows_Email",
+      "ows_Municipio",
+      "ows_Image",
+      "ows_Recomendado",
+      "ows_DescripcionRuso",
+      "ows_DescripcionItaliano",
+      "ows_Dificultad",
+      "ows_Peligrosidad",
+      "ows_ComoLlegarEspanol",
+      "ows_Accesibilidad",
+      "ows_Horarios",
+      "ows_Activo"
+    ]
+  },
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "ows_LinkTitle",
+      "ows_Zona",
+      "ows_Georeferencia 1",
+      "ows_CodigoPostal",
+      "ows_Direccion",
+      "ows_Telefono",
+      "ows_Web",
+      "ows_DescripcionEspanol",
+      "ows_TipoActividad",
+      "ows_ObservacionesSituacion",
+      "ows_Actividad",
+      "ows_Email",
+      "ows_Municipio",
+      "ows_Image",
+      "ows_Recomendado",
+      "ows_DescripcionRuso",
+      "ows_DescripcionItaliano",
+      "ows_Dificultad",
+      "ows_Peligrosidad",
+      "ows_ComoLlegarEspanol",
+      "ows_Accesibilidad",
+      "ows_Horarios",
+      "ows_Activo"
+    ]
+  },
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "ows_LinkTitle",
+      "ows_Zona",
+      "ows_Georeferencia 1",
+      "ows_CodigoPostal",
+      "ows_Direccion",
+      "ows_Telefono",
+      "ows_Web",
+      "ows_DescripcionEspanol",
+      "ows_TipoActividad",
+      "ows_Actividad",
+      "ows_Email",
+      "ows_Municipio",
+      "ows_Image",
+      "ows_Recomendado",
+      "ows_DescripcionRuso",
+      "ows_DescripcionItaliano",
+      "ows_Dificultad",
+      "ows_Peligrosidad",
+      "ows_ComoLlegarEspanol",
+      "ows_Accesibilidad",
+      "ows_Horarios",
+      "ows_Activo"
+    ]
+  },
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "ows_LinkTitle",
+      "ows_Zona",
+      "ows_Georeferencia 1",
+      "ows_CodigoPostal",
+      "ows_Direccion",
+      "ows_Telefono",
+      "ows_Web",
+      "ows_DescripcionEspanol",
+      "ows_TipoActividad",
+      "ows_Actividad",
+      "ows_Email",
+      "ows_Municipio",
+      "ows_Image",
+      "ows_Dificultad",
+      "ows_Peligrosidad",
+      "ows_ComoLlegarEspanol",
+      "ows_Accesibilidad",
+      "ows_Horarios",
+      "ows_Activo"
+    ]
+  },
+  {
+    "op": "core/column-reorder",
+    "description": "Reorder columns",
+    "columnNames": [
+      "ows_LinkTitle",
+      "ows_Zona",
+      "ows_Georeferencia 1",
+      "ows_CodigoPostal",
+      "ows_Direccion",
+      "ows_Telefono",
+      "ows_Web",
+      "ows_DescripcionEspanol",
+      "ows_TipoActividad",
+      "ows_Actividad",
+      "ows_Email",
+      "ows_Municipio",
+      "ows_Dificultad",
+      "ows_ComoLlegarEspanol",
+      "ows_Horarios"
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ows_Georeferencia 1 using expression grel:substring(value, 1, length(value) - 1)",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ows_Georeferencia 1",
+    "expression": "grel:substring(value, 1, length(value) - 1)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column ows_Georeferencia 1 by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ows_Georeferencia 1",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": ", ",
+    "regex": false,
+    "maxColumns": 2
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column ows_Georeferencia 1 1 to ows_GeoreferenciaX",
+    "oldColumnName": "ows_Georeferencia 1 1",
+    "newColumnName": "ows_GeoreferenciaX"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column ows_Georeferencia 1 2 to ows_GeoreferenciaY",
+    "oldColumnName": "ows_Georeferencia 1 2",
+    "newColumnName": "ows_GeoreferenciaY"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column Name at index 1 based on column ows_LinkTitle using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "Name",
+    "columnInsertIndex": 1,
+    "baseColumnName": "ows_LinkTitle",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ows_LinkTitle using expression grel:value.urlify()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "ows_LinkTitle",
+    "expression": "grel:value.urlify()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.tenerifetouristinformation.com/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ows_LinkTitle",
+          "rdfTypes": [
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresLugar",
+              "curie": "ont:Lugar"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarespertenece_a",
+              "curie": "ont:pertenece_a",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Municipio"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Name"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarestiene_actividad",
+              "curie": "ont:tiene_actividad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Actividad"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarescoordenadaX",
+              "curie": "ont:coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "ows_GeoreferenciaX"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarescoordenadaY",
+              "curie": "ont:coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "ows_GeoreferenciaY"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresemail",
+              "curie": "ont:email",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Email"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugareshorario",
+              "curie": "ont:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Horarios"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresweb",
+              "curie": "ont:web",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Web"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.tenerifetouristinformation.com/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ows_LinkTitle",
+          "rdfTypes": [
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresLugar",
+              "curie": "ont:Lugar"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarespertenece_a",
+              "curie": "ont:pertenece_a",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Municipio",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresMunicipio",
+                    "curie": "ont:Municipio"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Name"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarestiene_actividad",
+              "curie": "ont:tiene_actividad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Actividad"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarescoordenadaX",
+              "curie": "ont:coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "ows_GeoreferenciaX"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarescoordenadaY",
+              "curie": "ont:coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "ows_GeoreferenciaY"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresemail",
+              "curie": "ont:email",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Email"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugareshorario",
+              "curie": "ont:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Horarios"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarestiene_actividad",
+              "curie": "ont:tiene_actividad",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Actividad",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresActividad",
+                    "curie": "ont:Actividad"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresesta_en",
+              "curie": "ont:esta_en",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Zona",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresZona",
+                    "curie": "ont:Zona"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarestiene_direccion",
+              "curie": "ont:tiene_direccion",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Direccion",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarescodigoPostal",
+                    "curie": "ont:codigoPostal",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "ows_CodigoPostal"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresdescripcion",
+              "curie": "ont:descripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_DescripcionEspanol"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.tenerifetouristinformation.com/resource/",
+      "prefixes": [
+        {
+          "name": "ont:",
+          "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ows_LinkTitle",
+          "rdfTypes": [
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresLugar",
+              "curie": "ont:Lugar"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarespertenece_a",
+              "curie": "ont:pertenece_a",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Municipio",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresMunicipio",
+                    "curie": "ont:Municipio"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Name"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarestiene_actividad",
+              "curie": "ont:tiene_actividad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Actividad"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarescoordenadaX",
+              "curie": "ont:coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "ows_GeoreferenciaX"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarescoordenadaY",
+              "curie": "ont:coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "ows_GeoreferenciaY"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresemail",
+              "curie": "ont:email",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Email"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugareshorario",
+              "curie": "ont:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Horarios"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarestiene_actividad",
+              "curie": "ont:tiene_actividad",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Actividad",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresActividad",
+                    "curie": "ont:Actividad"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresesta_en",
+              "curie": "ont:esta_en",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Zona",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresZona",
+                    "curie": "ont:Zona"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarestiene_direccion",
+              "curie": "ont:tiene_direccion",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Direccion",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarescodigoPostal",
+                    "curie": "ont:codigoPostal",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "ows_CodigoPostal"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresdescripcion",
+              "curie": "ont:descripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_DescripcionEspanol"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.tenerifetouristinformation.com/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ows_LinkTitle",
+          "rdfTypes": [
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresLugar",
+              "curie": "ont:Lugar"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarespertenece_a",
+              "curie": "ont:pertenece_a",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Municipio",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresMunicipio",
+                    "curie": "ont:Municipio"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Name"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarestiene_actividad",
+              "curie": "ont:tiene_actividad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Actividad"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarescoordenadaX",
+              "curie": "ont:coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "ows_GeoreferenciaX"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarescoordenadaY",
+              "curie": "ont:coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "ows_GeoreferenciaY"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresemail",
+              "curie": "ont:email",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Email"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugareshorario",
+              "curie": "ont:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Horarios"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarestiene_actividad",
+              "curie": "ont:tiene_actividad",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Actividad",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresActividad",
+                    "curie": "ont:Actividad"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresesta_en",
+              "curie": "ont:esta_en",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Zona",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresZona",
+                    "curie": "ont:Zona"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarestiene_direccion",
+              "curie": "ont:tiene_direccion",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Direccion",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugarescodigoPostal",
+                    "curie": "ont:codigoPostal",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "ows_CodigoPostal"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugaresdescripcion",
+              "curie": "ont:descripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_DescripcionEspanol"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.tenerifetouristinformation.com/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ows_LinkTitle",
+          "rdfTypes": [
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#Lugar",
+              "curie": "ont:Lugar"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#pertenece_a",
+              "curie": "ont:pertenece_a",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Municipio",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#Municipio",
+                    "curie": "ont:Municipio"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Name"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#tiene_activity",
+              "curie": "ont:tiene_activity",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Actividad",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#Actividad",
+                    "curie": "ont:Actividad"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#coordenadaX",
+              "curie": "ont:coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "ows_GeoreferenciaX"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#coordenadaY",
+              "curie": "ont:coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "ows_GeoreferenciaY"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#email",
+              "curie": "ont:email",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Email"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#horario",
+              "curie": "ont:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Horarios"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#tiene_actividad",
+              "curie": "ont:tiene_actividad",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Actividad",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#Actividad",
+                    "curie": "ont:Actividad"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#esta_en",
+              "curie": "ont:esta_en",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Zona",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#Zona",
+                    "curie": "ont:Zona"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#tiene_direccion",
+              "curie": "ont:tiene_direccion",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Direccion",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#Direccion",
+                    "curie": "ont:Direccion"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#codigoPostal",
+                    "curie": "ont:codigoPostal",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "ows_CodigoPostal"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#descripcion",
+              "curie": "ont:descripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_DescripcionEspanol"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.tenerifetouristinformation.com/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ows_LinkTitle",
+          "rdfTypes": [
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#Lugar",
+              "curie": "ont:Lugar"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#pertenece_a",
+              "curie": "ont:pertenece_a",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Municipio",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#Municipio",
+                    "curie": "ont:Municipio"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Name"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#tiene_activity",
+              "curie": "ont:tiene_activity",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Actividad",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#Actividad",
+                    "curie": "ont:Actividad"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#coordenadaX",
+              "curie": "ont:coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "ows_GeoreferenciaX"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#coordenadaY",
+              "curie": "ont:coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "ows_GeoreferenciaY"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#email",
+              "curie": "ont:email",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Email"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#horario",
+              "curie": "ont:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Horarios"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#tiene_actividad",
+              "curie": "ont:tiene_actividad",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Actividad",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#Actividad",
+                    "curie": "ont:Actividad"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#esta_en",
+              "curie": "ont:esta_en",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Zona",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#Zona",
+                    "curie": "ont:Zona"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#tiene_direccion",
+              "curie": "ont:tiene_direccion",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Direccion",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#Direccion",
+                    "curie": "ont:Direccion"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#codigoPostal",
+                    "curie": "ont:codigoPostal",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "ows_CodigoPostal"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#descripcion",
+              "curie": "ont:descripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_DescripcionEspanol"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.tenerifetouristinformation.com/resource/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ows_LinkTitle",
+          "rdfTypes": [
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#Lugar",
+              "curie": "ont:Lugar"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#pertenece_a",
+              "curie": "ont:pertenece_a",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Municipio",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#Municipio",
+                    "curie": "ont:Municipio"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Name"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#tiene_activity",
+              "curie": "ont:tiene_activity",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Actividad",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#Actividad",
+                    "curie": "ont:Actividad"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#coordenadaX",
+              "curie": "ont:coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "ows_GeoreferenciaX"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#coordenadaY",
+              "curie": "ont:coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "ows_GeoreferenciaY"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#email",
+              "curie": "ont:email",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Email"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#horario",
+              "curie": "ont:horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Horarios"
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#tiene_actividad",
+              "curie": "ont:tiene_actividad",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Actividad",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#Actividad",
+                    "curie": "ont:Actividad"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#esta_en",
+              "curie": "ont:esta_en",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Zona",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#Zona",
+                    "curie": "ont:Zona"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#tiene_direccion",
+              "curie": "ont:tiene_direccion",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_Direccion",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#Direccion",
+                    "curie": "ont:Direccion"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#codigoPostal",
+                    "curie": "ont:codigoPostal",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "ows_CodigoPostal"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.tenerifetouristinformation.com/ontologies/lugares#descripcion",
+              "curie": "ont:descripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ows_DescripcionEspanol"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  }
+]

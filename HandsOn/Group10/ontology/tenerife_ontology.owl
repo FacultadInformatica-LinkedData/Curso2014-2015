@@ -37,28 +37,13 @@
         <Class IRI="#Lugar"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Monumento"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#MonumentoHistorico"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#MonumentoNatural"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Municipio"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OficinaTurismo"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Zona"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#esta_en"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#localizado_en"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#pertenece_a"/>
@@ -68,6 +53,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#tiene_dificultad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_direccion"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#codigoPostal"/>
@@ -93,36 +81,8 @@
     <Declaration>
         <NamedIndividual IRI="#Basílica_Ntra._Sra._de_Candelaria"/>
     </Declaration>
-    <SubClassOf>
-        <Class IRI="#Monumento"/>
-        <Class IRI="#Lugar"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#MonumentoHistorico"/>
-        <Class IRI="#Monumento"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#MonumentoNatural"/>
-        <Class IRI="#Monumento"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OficinaTurismo"/>
-        <Class IRI="#Lugar"/>
-    </SubClassOf>
-    <DisjointClasses>
-        <Class IRI="#MonumentoHistorico"/>
-        <Class IRI="#MonumentoNatural"/>
-    </DisjointClasses>
-    <ClassAssertion>
-        <Class IRI="#MonumentoHistorico"/>
-        <NamedIndividual IRI="#Basílica_Ntra._Sra._de_Candelaria"/>
-    </ClassAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#esta_en"/>
-        <Class IRI="#Municipio"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#localizado_en"/>
         <Class IRI="#Lugar"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -135,7 +95,11 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#tiene_dificultad"/>
-        <Class IRI="#Monumento"/>
+        <Class IRI="#Lugar"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_direccion"/>
+        <Class IRI="#Lugar"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#esta_en"/>
@@ -153,6 +117,10 @@
         <ObjectProperty IRI="#tiene_dificultad"/>
         <Class IRI="#Dificultad"/>
     </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene_direccion"/>
+        <Class IRI="#Direccion"/>
+    </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="#codigoPostal"/>
         <Class IRI="#Direccion"/>
@@ -167,7 +135,7 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#descripcion"/>
-        <Class IRI="#Monumento"/>
+        <Class IRI="#Lugar"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#email"/>
