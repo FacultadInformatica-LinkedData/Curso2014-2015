@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title>Assignment 05</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta name="title" content="Assignment 05"/>
+    <meta name="author" content="Alejandro F. Carrera"/>
+    <meta name="description" content="R2RML Assignment"/>
+    <meta name="keywords" content=""/>
+    <style type="text/css">
+      html { font-size: 12pt; }
+      .title  { text-align: center; }
+      .todo   { color: red; }
+      .done   { color: green; }
+      .tag    { background-color: #add8e6; font-weight:normal }
+      .timestamp { color: #bebebe; }
+      .timestamp-kwd { color: #5f9ea0; }
+      .right  { margin-left:auto; margin-right:0px;  text-align:right; }
+      .left   { margin-left:0px;  margin-right:auto; text-align:left; }
+      .center { margin-left:auto; margin-right:auto; text-align:center; }
+      .tg  { border-collapse:collapse;border-spacing:0;border-color:#ccc; }
+      .tg td{ font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff; }
+      .tg th{ font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0; }
+      .tg .tg-header{ text-align:center }
+      .tg .tg-greyl { text-align: left; color: grey;}
+      .tg .tg-grey { text-align: center; color: grey;}
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      <h1 class="title">Assignment 05 - Alejandro F. Carrera</h1>
+      <div id="sec-0">
+        <h2>Resource Naming Strategy - MySQL World Database</h2>
+        <p>Original SQL: <a href="./requirements/datasetRequirements.html#sec-0">[Link to Website]</a></p>
+        <p>Using @base http://world.linkeddata.es </p>
+        <h3>City</h3>
+        <ul>
+          <li>Class Naming: http://world.linkeddata.es/City</li>
+          <li>Instance Naming: http://world.linkeddata.es/resources/City/{ID}</li>
+          <li>Properties Naming</li>
+          <ul>  
+            <li>http://world.linkeddata.es/City#label ~ {Name}</li>
+            <li>http://world.linkeddata.es/City#inCountry ~ http://world.linkeddata.es/resources/Country/{CountryCode}</li>
+            <li>http://world.linkeddata.es/City#inDistrict ~ {District}</li>
+            <li>http://world.linkeddata.es/City#hasPopulation ~ {Population}</li>
+          </ul>
+        </ul>
+        <table class="tg" style="undefined;table-layout: fixed; width: 700px">
+          <colgroup>
+            <col style="width: 100px">
+            <col style="width: 60px">
+            <col style="width: 90px">
+            <col style="width: 80px">
+            <col style="width: 80px">
+            <col style="width: 80px">
+          </colgroup>
+          <tr>
+            <th class="tg-header">Field</th>
+            <th class="tg-header">Type</th>
+            <th class="tg-header">Null</th>
+            <th class="tg-header">Key</th>
+            <th class="tg-header">Default</th>
+            <th class="tg-header">Extra</th>
+          </tr>
+          <tr>
+            <td class="tg-greyl">ID</td>
+            <td class="tg-grey">int(11)</td>
+            <td class="tg-grey">NO</td>
+            <td class="tg-grey">X</td>
+            <td class="tg-grey">NULL</td>
+            <td class="tg-grey">auto_increment</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">Name</td>
+            <td class="tg-grey">char(35)</td>
+            <td class="tg-grey">NO</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">CountryCode</td>
+            <td class="tg-grey">char(3)</td>
+            <td class="tg-grey">NO</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">District</td>
+            <td class="tg-grey">char(20)</td>
+            <td class="tg-grey">NO</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">Population</td>
+            <td class="tg-grey">int(11)</td>
+            <td class="tg-grey">NO</td>
+            <td class="tg-grey"></td>
+            <td class="tg-grey">0</td>
+          </tr>
+        </table>
+        <h3>Country</h3>
+        <ul>
+          <li>Class Naming: http://world.linkeddata.es/Country</li>
+          <li>Instance Naming: http://world.linkeddata.es/resources/Country/{Code}</li>
+          <li>Properties Naming</li>
+          <ul>  
+            <li>http://world.linkeddata.es/Country#label ~ {Name}</li>
+            <li>http://world.linkeddata.es/Country#inContinent ~ {Continent}</li>
+            <li>http://world.linkeddata.es/Country#region ~ {Region}</li>
+            <li>http://world.linkeddata.es/Country#hasSurface ~ {SurfaceArea}</li>
+            <li>http://world.linkeddata.es/Country#independentAt ~ {IndepYear}</li>
+            <li>http://world.linkeddata.es/Country#hasPopulation ~ {Population}</li>
+            <li>http://world.linkeddata.es/Country#lifeExpectancy ~ {LifeExpectancy}</li>
+            <li>http://world.linkeddata.es/Country#hasGnp ~ {GNP}</li>
+            <li>http://world.linkeddata.es/Country#hadGnpOld ~ {GNPOld}</li>
+            <li>http://world.linkeddata.es/Country#name ~ {LocalName}</li>
+            <li>http://world.linkeddata.es/Country#governedBy ~ {GovernmentForm}</li>
+            <li>http://world.linkeddata.es/Country#directedBy ~ {HeadOfState}</li>
+            <li>http://world.linkeddata.es/Country#capital ~ http://world.linkeddata.es/resources/City/{Capital}</li>
+            <li>http://world.linkeddata.es/Country#hasAnotherCode ~ {Code2}</li>
+            <li>http://world.linkeddata.es/Country#hasLanguage ~ http://world.linkeddata.es/resources/CountryLanguage/{Code}</li>
+          </ul>
+        </ul>
+        <table class="tg" style="undefined;table-layout: fixed; width: 700px">
+          <colgroup>
+            <col style="width: 100px">
+            <col style="width: 60px">
+            <col style="width: 90px">
+            <col style="width: 80px">
+            <col style="width: 80px">
+            <col style="width: 80px">
+          </colgroup>
+          <tr>
+            <th class="tg-header">Field</th>
+            <th class="tg-header">Type</th>
+            <th class="tg-header">Null</th>
+            <th class="tg-header">Key</th>
+            <th class="tg-header">Default</th>
+            <th class="tg-header">Extra</th>
+          </tr>
+          <tr>
+            <td class="tg-greyl">Code</td>
+            <td class="tg-grey">char(3)</td>
+            <td class="tg-grey">NO</td>
+            <td class="tg-grey">X</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">Name</td>
+            <td class="tg-grey">char(52)</td>
+            <td class="tg-grey">NO</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">Continent</td>
+            <td class="tg-grey">enum(...)</td>
+            <td class="tg-grey">NO</td>
+            <td class="tg-grey"></td>
+            <td class="tg-grey">Asia</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">Region</td>
+            <td class="tg-grey">char(26)</td>
+            <td class="tg-grey">NO</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">SurfaceArea</td>
+            <td class="tg-grey">float(10, 2)</td>
+            <td class="tg-grey">NO</td>
+            <td class="tg-grey"></td>
+            <td class="tg-grey">0.00</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">IndepYear</td>
+            <td class="tg-grey">smallint(6)</td>
+            <td class="tg-grey">YES</td>
+            <td class="tg-grey"></td>
+            <td class="tg-grey">NULL</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">Population</td>
+            <td class="tg-grey">int(11)</td>
+            <td class="tg-grey">NO</td>
+            <td class="tg-grey"></td>
+            <td class="tg-grey">0</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">LifeExpectancy</td>
+            <td class="tg-grey">float(3, 1)</td>
+            <td class="tg-grey">YES</td>
+            <td class="tg-grey"></td>
+            <td class="tg-grey">NULL</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">GNP</td>
+            <td class="tg-grey">float(10, 2)</td>
+            <td class="tg-grey">YES</td>
+            <td class="tg-grey"></td>
+            <td class="tg-grey">NULL</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">GNPOld</td>
+            <td class="tg-grey">float(10, 2)</td>
+            <td class="tg-grey">YES</td>
+            <td class="tg-grey"></td>
+            <td class="tg-grey">NULL</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">LocalName</td>
+            <td class="tg-grey">char(45)</td>
+            <td class="tg-grey">NO</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">GovernmentFrom</td>
+            <td class="tg-grey">char(45)</td>
+            <td class="tg-grey">NO</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">HeadOfState</td>
+            <td class="tg-grey">char(60)</td>
+            <td class="tg-grey">YES</td>
+            <td class="tg-grey"></td>
+            <td class="tg-grey">NULL</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">Capital</td>
+            <td class="tg-grey">int(11)</td>
+            <td class="tg-grey">YES</td>
+            <td class="tg-grey"></td>
+            <td class="tg-grey">NULL</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">Code2</td>
+            <td class="tg-grey">char(2)</td>
+            <td class="tg-grey">NO</td>
+          </tr>
+        </table>
+        <h3>CountryLanguage</h3>
+        <ul>
+          <li>Class Naming: http://world.linkeddata.es/Language</li>
+          <li>Instance Naming: http://world.linkeddata.es/resources/CountryLanguage/{CountryCode}/{Language}</li>
+          <li>Properties Naming</li>
+          <ul>  
+            <li>http://world.linkeddata.es/Language#isOfficial ~ {IsOfficial}</li>
+            <li>http://world.linkeddata.es/Language#hasPercentage ~ {Percentage}</li>
+          </ul>
+          <br>
+          <li>Class Naming: http://world.linkeddata.es/CountryLanguage</li>
+          <li>Instance Naming: http://world.linkeddata.es/resources/CountryLanguage/{CountryCode}</li>
+          <li>Properties Naming</li>
+          <ul>  
+            <li>http://world.linkeddata.es/CountryLanguage#hasLanguage ~ http://world.linkeddata.es/resources/<br>CountryLanguage/{CountryCode}/{Language}</li>
+          </ul>
+        </ul>
+        <table class="tg" style="undefined;table-layout: fixed; width: 700px">
+          <colgroup>
+            <col style="width: 100px">
+            <col style="width: 60px">
+            <col style="width: 90px">
+            <col style="width: 80px">
+            <col style="width: 80px">
+            <col style="width: 80px">
+          </colgroup>
+          <tr>
+            <th class="tg-header">Field</th>
+            <th class="tg-header">Type</th>
+            <th class="tg-header">Null</th>
+            <th class="tg-header">Key</th>
+            <th class="tg-header">Default</th>
+            <th class="tg-header">Extra</th>
+          </tr>
+          <tr>
+            <td class="tg-greyl">CountryCode</td>
+            <td class="tg-grey">char(3)</td>
+            <td class="tg-grey">NO</td>
+            <td class="tg-grey">X</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">Language</td>
+            <td class="tg-grey">char(30)</td>
+            <td class="tg-grey">NO</td>
+            <td class="tg-grey">X</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">IsOfficial</td>
+            <td class="tg-grey">enum('T','F')</td>
+            <td class="tg-grey">NO</td>
+            <td class="tg-grey"></td>
+            <td class="tg-grey">F</td>
+          </tr>
+          <tr>
+            <td class="tg-greyl">Percentage</td>
+            <td class="tg-grey">float(4, 1)</td>
+            <td class="tg-grey">NO</td>
+            <td class="tg-grey"></td>
+            <td class="tg-grey">0.0</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="postamble">
+      <p class="timestamp">Date: 2014-11-16</p>
+    </div>
+  </body>
+</html>
