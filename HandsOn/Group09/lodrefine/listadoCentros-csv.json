@@ -1,0 +1,308 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CURSO ACADÉMICO",
+    "columnName": "CURSO ACADÉMICO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CÓDIGO",
+    "columnName": "CÓDIGO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column C.SITUACIÓN",
+    "columnName": "C.SITUACIÓN"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column SITUACIÓN",
+    "columnName": "SITUACIÓN"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column C.NATURALEZA",
+    "columnName": "C.NATURALEZA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column C.DENOMINACIÓN GENÉRICA",
+    "columnName": "C.DENOMINACIÓN GENÉRICA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DENOMINACIÓN GENÉRICA BREVE",
+    "columnName": "DENOMINACIÓN GENÉRICA BREVE"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column C.VÍA",
+    "columnName": "C.VÍA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NÚMERO(EXT)",
+    "columnName": "NÚMERO(EXT)"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PISO",
+    "columnName": "PISO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PISO(EXT)",
+    "columnName": "PISO(EXT)"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ESCALERA",
+    "columnName": "ESCALERA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LETRA",
+    "columnName": "LETRA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column C.PROV",
+    "columnName": "C.PROV"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column C.MUNI",
+    "columnName": "C.MUNI"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column C.LOCA",
+    "columnName": "C.LOCA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column MUNICIPIO",
+    "columnName": "MUNICIPIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FAX",
+    "columnName": "FAX"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LETRA2",
+    "columnName": "LETRA2"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column",
+    "columnName": "Column"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column C.R.A",
+    "columnName": "C.R.A"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column DENOMINACIÓN GENÉRICA to DENOMINACIÓN_GENÉRICA",
+    "oldColumnName": "DENOMINACIÓN GENÉRICA",
+    "newColumnName": "DENOMINACIÓN_GENÉRICA"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column DENOMINACIÓN ESPECÍFICA to DENOMINACIÓN_ESPECÍFICA",
+    "oldColumnName": "DENOMINACIÓN ESPECÍFICA",
+    "newColumnName": "DENOMINACIÓN_ESPECÍFICA"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column NOMBRE DE LA VÍA to NOMBRE_VIA",
+    "oldColumnName": "NOMBRE DE LA VÍA",
+    "newColumnName": "NOMBRE_VIA"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CORREO ELECTRÓNICO to EMAIL",
+    "oldColumnName": "CORREO ELECTRÓNICO",
+    "newColumnName": "EMAIL"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column COORD. LONGITUD to COORD_LONGITUD",
+    "oldColumnName": "COORD. LONGITUD",
+    "newColumnName": "COORD_LONGITUD"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column COORD. LATITUD to COORD_LATITUD",
+    "oldColumnName": "COORD. LATITUD",
+    "newColumnName": "COORD_LATITUD"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column DIRECCION SIN NUMERO at index 4 based on column VÍA using expression grel:value + \" \" + cells.NOMBRE_VIA.value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "DIRECCION SIN NUMERO",
+    "columnInsertIndex": 4,
+    "baseColumnName": "VÍA",
+    "expression": "grel:value + \" \" + cells.NOMBRE_VIA.value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column VÍA",
+    "columnName": "VÍA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE_VIA",
+    "columnName": "NOMBRE_VIA"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column DIRECCION at index 4 based on column DIRECCION SIN NUMERO using expression grel:value + \",\" + cells.NÚMERO.value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "DIRECCION",
+    "columnInsertIndex": 4,
+    "baseColumnName": "DIRECCION SIN NUMERO",
+    "expression": "grel:value + \",\" + cells.NÚMERO.value",
+    "onError": "keep-original"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NÚMERO",
+    "columnName": "NÚMERO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DIRECCION SIN NUMERO",
+    "columnName": "DIRECCION SIN NUMERO"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column COORDENADAS at index 12 based on column COORD_LATITUD using expression grel:value + \" \" + \"-\" + \" \" + cells.COORD_LONGITUD.value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "COORDENADAS",
+    "columnInsertIndex": 12,
+    "baseColumnName": "COORD_LATITUD",
+    "expression": "grel:value + \" \" + \"-\" + \" \" + cells.COORD_LONGITUD.value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORD_LONGITUD",
+    "columnName": "COORD_LONGITUD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORD_LATITUD",
+    "columnName": "COORD_LATITUD"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column INTERNO at index 12 based on column INTERNADO using expression grel:if(value == \"S\",\"Internado\",\"No es internado\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "INTERNO",
+    "columnInsertIndex": 12,
+    "baseColumnName": "INTERNADO",
+    "expression": "grel:if(value == \"S\",\"Internado\",\"No es internado\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column INTERNADO",
+    "columnName": "INTERNADO"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column INTERNO to INTERNADO",
+    "oldColumnName": "INTERNO",
+    "newColumnName": "INTERNADO"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column CONCERTADO at index 13 based on column CONCIERTO using expression grel:if(value == \"S\",\"Concertado\",\"No es concertado\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "CONCERTADO",
+    "columnInsertIndex": 13,
+    "baseColumnName": "CONCIERTO",
+    "expression": "grel:if(value == \"S\",\"Concertado\",\"No es concertado\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CONCIERTO",
+    "columnName": "CONCIERTO"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column HORARIO at index 14 based on column JORNADA CONTINUA using expression grel:if(value == \"S\",\"Mañana y tarde\",\"Solo Mañana\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "HORARIO",
+    "columnInsertIndex": 14,
+    "baseColumnName": "JORNADA CONTINUA",
+    "expression": "grel:if(value == \"S\",\"Mañana y tarde\",\"Solo Mañana\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column JORNADA CONTINUA",
+    "columnName": "JORNADA CONTINUA"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column COMEDOR ESCOLAR at index 15 based on column COMEDOR using expression grel:if(value == \"S\",\"Tiene comedor\",\"No tiene comedor\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "COMEDOR ESCOLAR",
+    "columnInsertIndex": 15,
+    "baseColumnName": "COMEDOR",
+    "expression": "grel:if(value == \"S\",\"Tiene comedor\",\"No tiene comedor\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COMEDOR",
+    "columnName": "COMEDOR"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column RUTA at index 16 based on column TRANSPORTE using expression grel:if(value == \"S\",\"Tiene Ruta\",\"No tiene ruta\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "RUTA",
+    "columnInsertIndex": 16,
+    "baseColumnName": "TRANSPORTE",
+    "expression": "grel:if(value == \"S\",\"Tiene Ruta\",\"No tiene ruta\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TRANSPORTE",
+    "columnName": "TRANSPORTE"
+  }
+]

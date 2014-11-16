@@ -1,0 +1,1350 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ont: <http://www.tenerifetouristinformation.com/ontologies/lugares#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://www.tenerifetouristinformation.com/resource/baslica-ntra-sra-de-candelaria> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/Candelaria> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/baslica-ntra-sra-de-candelaria> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Candelaria> ;
+	rdfs:label "Basílica Ntra. Sra. de Candelaria" .
+
+<http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> a ont:Actividad .
+
+<http://www.tenerifetouristinformation.com/resource/baslica-ntra-sra-de-candelaria> ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.3517301"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.3703481"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> .
+
+<http://www.tenerifetouristinformation.com/resource/Sur> a ont:Zona .
+
+<http://www.tenerifetouristinformation.com/resource/baslica-ntra-sra-de-candelaria> ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Plaza+de+la+Patrona+de+Canarias> a ont:Direccion ;
+	ont:codigoPostal "38530" .
+
+<http://www.tenerifetouristinformation.com/resource/baslica-ntra-sra-de-candelaria> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Plaza+de+la+Patrona+de+Canarias> ;
+	ont:descripcion "Características: inaugurada el 1 de febrero de 1959. Declarada Bien de Interés Cultural por el Gobierno Canario; desde el 24 de enero del 2011 este templo fue elevado a la dignidad de Basílica Menor por el Papa Benedicto XVI.  Historia: la Basílica que hoy vemos ha sido construida en el mismo emplazamiento que tuvo la antigua. El primer templo data de 1672 aunque fue destruido en 1789 debido al fuerte incendio que se produjo en el convento contiguo. Sólo 170 años después pudo hacerse realidad el sueño de construir una nueva Basílica.  Descripción exterior: moderno, de estilo regionalista y con una mezcla ecléctica  de todos los estilos sucedidos en Canarias, desde el gótico hasta nuestros días. Con una capacidad para unas 5.000 personas, el proyecto fue redactado por el arquitecto Enrique Marrero Regalado. Cuenta con dos torres en la fachada principal de 35 metros y una lateral, a la altura del crucero, de 50 metros que remata un balcón canario. Posee dos puertas de acceso: la principal da al risco de la Magdalena, junto a la “Fuente de los Peregrinos”, y la lateral está paralela a la actual “Plaza de la Patrona de Canarias”.  Descripción interior: Su decoración interior es de orden dórico con una policromía simbólica que alude a los tonos de la vestimenta clásica de la Virgen. El cimborrio o cúpula destaca en este edificio de planta basilical. Posee 26 metros de altura y aporta gran luminosidad. Destaca porque en él se encuentran representados los escudos de las siete islas Canarias por el patronazgo que la Virgen posee sobre todo el Archipiélago. Situado en el centro del cimborrio sobresale el escudo del Obispo Pérez Cáceres, quién gracias a sus esfuerzos, consiguió hacer realidad la construcción de la Basílica de Candelaria.  Los murales del pintor gomero José Aguiar presiden junto con la Virgen de Candelaria el altar mayor. A su vez, el mismo autor decora el fondo de las naves laterales con los representantes religiosos más importantes de la isla: el Hermano Pedro (puerta acceso a la Sacristía) y José Anchieta (puerta acceso camarín). La imagen de la Virgen de Candelaria, de estilo neoclásico, es obra del escultor canario Fernando Estévez. Terminada en 1827, constituye una de las obras más relevantes para el artista por la trascendencia que tuvo en la sociedad isleña. El fondo de las dos naves laterales está decorado con los óleos del pintor isorano: Manuel Martín González: “Tierra de Chinguaro” y “Playa de Chimisay”.  " .
+
+<http://www.tenerifetouristinformation.com/resource/conjunto-escultrico-los-menceyes> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Candelaria> ;
+	rdfs:label "Conjunto Escultórico Los Menceyes" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.3517301"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.3703481"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> ;
+	ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Plaza+de+la+Patrona+de+Canarias> ;
+	ont:descripcion "Características: esculturas realizadas en bronce por el escultor José Abad y colocadas en la plaza en 1993. Representan a los reyes o “Menceyes” de los antiguos pobladores de Tenerife, los guanches. Fueron colocadas en memoria de la historia de este lugar y su relación con la Virgen de Candelaria. Historia: los guanches eran los primitivos habitantes de Tenerife. Su denominación proviene de la palabra compuesta Guan-Achinech que se puede traducir como “el hombre de la isla”. Los primeros colonizadores del Archipiélago eran bereberes provenientes del Norte de Africa. Por el momento, se ha datado el siglo IV a.C. la fecha más antigua del primer poblamiento de las islas.  Se sabe que en un período cercano a la Conquista, Tenerife se dividía en nueve territorios o menceyatos: Anaga, Tegueste, Tacoronte, Taoro, Icode, Daute, Adeje, Abona y Güímar. El mencey Bencomo, jefe de Taoro (actual Valle de la Orotava) y Añaterve, jefe de Güímar (actual municipio de Fasnia, Arafo, Candelaria, el Rosario, parte de Santa Cruz y Güímar) tuvieron un gran protagonismo en la isla.  " .
+
+<http://www.tenerifetouristinformation.com/resource/cueva-de-achbinic-> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Candelaria> ;
+	rdfs:label "Cueva de Achbinicó " ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.3504396"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.36913900000002"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Calle+de+San+Blas> a ont:Direccion ;
+	ont:codigoPostal "38530" .
+
+<http://www.tenerifetouristinformation.com/resource/cueva-de-achbinic-> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Calle+de+San+Blas> ;
+	ont:descripcion "Características: cueva natural orientada al sol naciente que posee importancia arqueológica e histórica. Situada  en la calle de San Blas, anexa a la ermita. El topónimo aborigen “achbinicó” ha sido traducido por el filólogo J. Álvarez Delgado como “lugar del esquilo o del transquilo”. Sin embargo, otros especialistas como Ignacio Reyes han transcrito “he aquí el derrame”. Historia: fue usada por los aborígenes para el ordeño de las cabras aunque tras las últimas excavaciones arqueológicas, se descubrió que también la usaban para la realización de algún tipo de culto. La cueva fue el lugar elegido por los guanches para la adoración a la imagen de la Candelaria. Después de la conquista, el 2 de febrero de 1497, el adelantado Alonso Fernández de Lugo celebró aquí la primera fiesta de la Purificación o de las Candelas. Desde esa fecha, la cueva se abrió al culto católico como primer templo del Valle. " .
+
+<http://www.tenerifetouristinformation.com/resource/ermita-de-san-blas> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Candelaria> ;
+	rdfs:label "Ermita de San Blas" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.3527556"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.3701274"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Calle+de+San+Blas%2C+Candelaria> a ont:Direccion ;
+	ont:codigoPostal "38530" .
+
+<http://www.tenerifetouristinformation.com/resource/ermita-de-san-blas> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Calle+de+San+Blas%2C+Candelaria> .
+
+<http://www.tenerifetouristinformation.com/resource/convento-de-los-padres-dominicos> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Candelaria> ;
+	rdfs:label "Convento de los Padres Dominicos" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.3527556"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.3701274"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Plaza+de+la+Patrona+s%2Fn+Candelaria> a ont:Direccion ;
+	ont:codigoPostal "38530" .
+
+<http://www.tenerifetouristinformation.com/resource/convento-de-los-padres-dominicos> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Plaza+de+la+Patrona+s%2Fn+Candelaria> ;
+	ont:descripcion "Características: este convento, construido después de catorce años del incendio que lo destruyó, fue restaurado hacia 1950 y cuenta con dos fachadas: una hacia la Plaza de la Patrona de Canarias cuyo estilo es neoclásico y otra, hacia el mar. Ésta última fachada posee tres plantas y un amplio balcón corrido. Historia: lugar de residencia de los Padres Dominicos, religiosos que desde 1530 están a cargo del cuidado de la Virgen de Candelaria.  " .
+
+<http://www.tenerifetouristinformation.com/resource/antiguo-ayuntamiento-de-candelaria> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Candelaria> ;
+	rdfs:label "Antiguo Ayuntamiento de Candelaria" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.3527556"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.3701274"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Calle+Ant%C3%B3n+Guanche+s%2Fn+Candelaria> a ont:Direccion ;
+	ont:codigoPostal "38530" .
+
+<http://www.tenerifetouristinformation.com/resource/antiguo-ayuntamiento-de-candelaria> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Calle+Ant%C3%B3n+Guanche+s%2Fn+Candelaria> ;
+	ont:descripcion "Características: edificio contiguo a la Basílica. Se accede por la calle Antón Guanche aunque su fachada principal decorada con el balcón canario se observa desde la plaza. La construcción inicial ha sufrido remodelaciones y ha tenido diferentes usos a lo largo del tiempo: escuela de enseñanza, juzgado, ayuntamiento, etc. Actualmente se usa como sala de exposiciones temporales. Historia: construido en el siglo XVII como residencia temporal de los regidores de la isla durante las fiestas en honor a la Virgen.   " .
+
+<http://www.tenerifetouristinformation.com/resource/iglesia-de-santa-ana> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Candelaria> ;
+	rdfs:label "Iglesia de Santa Ana" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.35208227322787"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.37114050980017"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Calle+Santa+Ana%2C+s%2Fn+Candelaria> a ont:Direccion ;
+	ont:codigoPostal "38530" .
+
+<http://www.tenerifetouristinformation.com/resource/iglesia-de-santa-ana> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Calle+Santa+Ana%2C+s%2Fn+Candelaria> ;
+	ont:descripcion "Características: en su interior posee un rico patrimonio artístico como la imagen de Santa Ana, patrona del municipio, el Cristo Crucificado del siglo XVII o la Virgen del Carmen, protectora de los pescadores.  Historia: fundada por los vecinos del lugar en 1575, ha sufrido varias modificaciones y ampliaciones. Considerada la iglesia matriz de las parroquias del sureste de Tenerife.  " .
+
+<http://www.tenerifetouristinformation.com/resource/iglesia-de-san-fernando-rey> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/Santiago+del+Teide> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/iglesia-de-san-fernando-rey> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Santiago+del+Teide> ;
+	rdfs:label "Iglesia de San Fernando Rey" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:email "turismo@santiagodelteide.es" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Calle+la+Iglesia%2C+Santiago+del+Teide> a ont:Direccion ;
+	ont:codigoPostal "38690" .
+
+<http://www.tenerifetouristinformation.com/resource/iglesia-de-san-fernando-rey> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Calle+la+Iglesia%2C+Santiago+del+Teide> ;
+	ont:descripcion "Situada en el casco de Santiago del Teide, fue construida por el Señor del Valle, Don Fernando del Hoyo en 1679, es uno de los edificios de mayor valor arquitectónico del municipio. Destacan sus bóvedas de media naranja y las obras de arte que contiene en su interior, destacando varias imágenes del s XVIII." .
+
+<http://www.tenerifetouristinformation.com/resource/casa-del-patio> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Santiago+del+Teide> ;
+	rdfs:label "Casa del Patio" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.2961444"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.814611300000024"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "turismo@santiagodelteide.es" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> ;
+	ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Calle+la+Iglesia%2C+Santiago+del+Teide> ;
+	ont:descripcion "Situada en el casco de Santiago del Teide, es una vivienda señorial canaria construida entre 1665 y 1668 por el señor del valle santiago. Fué el edificio en torno al cual se basó la actividada del señorio. Destacan en ella sus lagares, el granero, la bodega y la cocina fiel reflejo de la época y estilo de vida del s XVII en el municipio. Abierta al público en noviembre de 2009, acoge un centro de interpretación del volcán chinyero, asi como servicios de restauración y ocio que hacen de este tesoro arquitectónico una visita obligada para el visitante." .
+
+<http://www.tenerifetouristinformation.com/resource/centro-alfarero-y-museo-etnogrfico-cha-domitila> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Santiago+del+Teide> ;
+	rdfs:label "Centro Alfarero y Museo Etnográfico Cha Domitila" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.2677553"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.807752700000037"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "turismo@santiagodelteide.es" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Carretera+General+de+Arguayo%2C+Arguayo> a ont:Direccion ;
+	ont:codigoPostal "38690" .
+
+<http://www.tenerifetouristinformation.com/resource/centro-alfarero-y-museo-etnogrfico-cha-domitila> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Carretera+General+de+Arguayo%2C+Arguayo> ;
+	ont:descripcion "Se encuentra situado en Arguayo, un pueblo fundado a partir de un asentamiento aborigen . El centro ocupa una vivienda de arquitectura tradicional canaria con planta en forma de L que rodea un patio central con fuente. El museo y taller  Cha Domitìla fue diseñado por Luis Ibáñez, asiduo colaborador del artista canario César Manrique. Don Luis Ibáñez de forma desinteresada convirtió una vivienda canaria en ruinas en un centro de visitantes que constituye un referente en cuanto a alfarería tradicional canaria. El centro abrió sus puertas en 1986 y en él se puede estudiar la evolución de la alfarería guanche a  la popular que se produjo en Arguayo. Lo aislado del lugar permitió conservar una tipología fiel a la tradición aborigen. Estas circunstancias convierten al centro alfarero en heredero directo de la alfarería tradicional y en un elemento clave para el estudio de la evolución de la alfareria aborigen, de procedencia bereber, hasta llegar a la alfarería popular canaria. En el centro se producen distintas piezas realizadas a mano, siguiendo estrictamente la técnica tradicional , utilizando como materias primas barro, agua, arena de volcán, almagre y aceite. El proceso culmina con la cocción de las piezas en un horno de leña de una cámara." .
+
+<http://www.tenerifetouristinformation.com/resource/iglesia-de-la-pea-de-francia> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/Puerto+de+la+Cruz+%28El%29> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/iglesia-de-la-pea-de-francia> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Puerto+de+la+Cruz+%28El%29> ;
+	rdfs:label "Iglesia de la Peña de Francia" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.4168774"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.548535600000037"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> .
+
+<http://www.tenerifetouristinformation.com/resource/Norte> a ont:Zona .
+
+<http://www.tenerifetouristinformation.com/resource/iglesia-de-la-pea-de-francia> ont:esta_en <http://www.tenerifetouristinformation.com/resource/Norte> .
+
+<http://www.tenerifetouristinformation.com/resource/Plaza+de+la+Iglesia+s%2Fn> a ont:Direccion ;
+	ont:codigoPostal "38400" .
+
+<http://www.tenerifetouristinformation.com/resource/iglesia-de-la-pea-de-francia> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Plaza+de+la+Iglesia+s%2Fn> ;
+	ont:descripcion "Dentro de la iglesia, y presidiendo el retablo mayor,  se encuentra la imagen de la Virgen Nuestra Señora de la Peña de Francia, co-patrona de la ciudad. En 1684 comienzan las obras de remodelación de la antigua ermita. La torre es un añadido porterior (1898). En su interior está la imágen del Señor del Gran Poder de Dios (Siglo XVII-XVIII), y las pinturas de este retablo y del púlpito, obra de los pintores portuenses Luis de la Cruz y Ríos y Manuel de la Cruz respectivamente. La importancia de la presencia de las familias irlandesas que arribaron al Puerto de la Cruz queda patente en la capilla de San Patricio, de la verde Eire, que se conserva en su interior." .
+
+<http://www.tenerifetouristinformation.com/resource/casa-de-la-real-aduana> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Puerto+de+la+Cruz+%28El%29> ;
+	rdfs:label "Casa de la Real Aduana" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.4178854"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.54997019999996"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Norte> .
+
+<http://www.tenerifetouristinformation.com/resource/C%2F+Las+Lonjas+s%2Fn> a ont:Direccion ;
+	ont:codigoPostal "38400" .
+
+<http://www.tenerifetouristinformation.com/resource/casa-de-la-real-aduana> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/C%2F+Las+Lonjas+s%2Fn> ;
+	ont:descripcion "Fundada en 1620 y arrendada por la Real Hacienda para acomodar en ella tanto las dependencias de la aduana, como la residencia de los almojarifes o administradores hasta 1833, año en que pasa a Santa Cruz de Tenerife. Junto a ella se encontraba la batería de Santa Bárbara, de la que hoy se conserva la escalerilla para bajar al mar (construida en 1741). Estaba artillada con cuatro cañones para la defensa de los barcos que fondeaban en el Limpio de las Carabelas, cerca de la punta del muelle viejo. Este edificio alberga a la Oficina de Turismo, una tienda de artesanía y un museo de arte contemporaneo, en la planta alta." .
+
+<http://www.tenerifetouristinformation.com/resource/castillo-de-san-juan> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/Santa+Cruz+de+Tenerife> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/castillo-de-san-juan> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Santa+Cruz+de+Tenerife> ;
+	rdfs:label "Castillo de San Juan" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.455542995317327"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.252598762512207"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> .
+
+<http://www.tenerifetouristinformation.com/resource/Metropolitana> a ont:Zona .
+
+<http://www.tenerifetouristinformation.com/resource/castillo-de-san-juan> ont:esta_en <http://www.tenerifetouristinformation.com/resource/Metropolitana> .
+
+<http://www.tenerifetouristinformation.com/resource/Avda.+de+la+Constituci%C3%B3n+junto+al+Auditorio+de+Tenerife> a ont:Direccion ;
+	ont:codigoPostal "38003" .
+
+<http://www.tenerifetouristinformation.com/resource/castillo-de-san-juan> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Avda.+de+la+Constituci%C3%B3n+junto+al+Auditorio+de+Tenerife> ;
+	ont:descripcion "El flanco sur de la ciudad estuvo durante siglos resguardado y defendido por el Castillo de San Juan Bautista. Se situa en el lugar conocido en la época como La Caleta de Negros.  Más de tres siglos y medio después, el 'Castillo Negro' -como se conoce popularmente- es una de las escasas fortificaciones que se convservan en Santa Cruz y, por tanto, uno visita turísitca obligada." .
+
+<http://www.tenerifetouristinformation.com/resource/casa-de-la-plvora> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Santa+Cruz+de+Tenerife> ;
+	rdfs:label "Casa de la Pólvora" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.45530717870163"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.253725290298462"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Metropolitana> ;
+	ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Avda.+de+la+Constituci%C3%B3n+junto+al+Auditorio+de+Tenerife> ;
+	ont:descripcion "Se trata de otra de las construcciones defensivas con las que cuenta Santa Cruz. Construida entre 1756 y 1758 en las proximidades del Castillo de San Juan." .
+
+<http://www.tenerifetouristinformation.com/resource/hornos-de-cal> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Puerto+de+la+Cruz+%28El%29> ;
+	rdfs:label "Hornos de cal" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.41243641705573"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.55067801475525"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> .
+
+<http://www.tenerifetouristinformation.com/resource/Las+Cabezas> a ont:Direccion ;
+	ont:codigoPostal "38400" .
+
+<http://www.tenerifetouristinformation.com/resource/hornos-de-cal> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Las+Cabezas> ;
+	ont:descripcion " Este conjunto arquitectónico restaurado y convertido en parque público en la actualidad, data de finales del siglo XIX. Consiste en tres edificaciones abovedadas de uso industrial que en su época sirvieron para la obtención de yeso y cal, materiales que eran básicos para la construcción. Los hornos están conformados por piedra y ladrillo macizo. El conjunto se completa con las tanquillas que portaban el agua, el cuarto de la caldera donde se llevaba la cal una vez cocinada, el cuarto del carbón y la casa del yeso. Las piedras de cal se traían en barco hasta el muelle del Puerto de la Cruz desde la isla de Fuerteventura. " .
+
+<http://www.tenerifetouristinformation.com/resource/chorro-las-maretas> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Puerto+de+la+Cruz+%28El%29> ;
+	rdfs:label "Chorro Las Maretas" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.41654357294663"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.55449479818344"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Norte> .
+
+<http://www.tenerifetouristinformation.com/resource/C%2F+Las+Maretas%2C+s%2Fn> a ont:Direccion ;
+	ont:codigoPostal "38400" .
+
+<http://www.tenerifetouristinformation.com/resource/chorro-las-maretas> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/C%2F+Las+Maretas%2C+s%2Fn> ;
+	ont:descripcion "El Puerto de la Cruz aún conserva un importante patrimonio arquitectónico vinculado al agua: los chorros públicos. Estos jugaron un papel fundamental en el abastecimiento a los vecinos de la ciudad desde el siglo XVIII hasta bien entrado el siglo XX. No hay que olvidar que muchos de los chorros y lavaderos han estado en funcionamiento hasta épocas casi recientes, y todavía nuestros mayores nos cuentan vivencias y recuerdos en torno a ellos. En un tiempo, distribuidos por todo el municipio; en la actualidad, los escasos supervivientes, se concentran en el casco del municipio. Hoy, se hace necesario su restauración y conservación para las generaciones futuras." .
+
+<http://www.tenerifetouristinformation.com/resource/plaza-de-los-remedios> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/Buenavista+del+Norte> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/plaza-de-los-remedios> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Buenavista+del+Norte> ;
+	rdfs:label "Plaza de los Remedios" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.372097149903322"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.85149848461151"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> .
+
+<http://www.tenerifetouristinformation.com/resource/Isla+Baja> a ont:Zona .
+
+<http://www.tenerifetouristinformation.com/resource/plaza-de-los-remedios> ont:esta_en <http://www.tenerifetouristinformation.com/resource/Isla+Baja> .
+
+<http://www.tenerifetouristinformation.com/resource/Calle+La+Alh%C3%B3ndiga> a ont:Direccion ;
+	ont:codigoPostal "38480" .
+
+<http://www.tenerifetouristinformation.com/resource/plaza-de-los-remedios> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Calle+La+Alh%C3%B3ndiga> ;
+	ont:descripcion "En pleno corazón del casco histórico de Buenavista del Norte se localiza la Plaza de los Remedios, punto de encuentro social por excelencia y uno de los principales  rincones de reconocible valor y belleza en el municipio. Esta emblemática plaza, se encuentra rodeada de abundantes muestras de arquitectura tradicional canaria y de las instituciones más importantes del municipio, destacando el Ayuntamiento. La plaza fue pavimentada a mediados del siglo XX, con lo que las calles situadas al norte de la misma quedaron por debajo de la rasante de ésta. La estética de la plaza y de su entorno presenta un estilo ecléctico propio de las Islas Canarias. Asimismo, se observa un templete central en el que se realizan las principales actuaciones musicales que otorgan un carácter festivo al lugar. En la actualidad, la Plaza de Buenavista es un lugar vivo, protagonizado por el ambiente y el carácter afable de las personas que frecuentan el lugar. " .
+
+<http://www.tenerifetouristinformation.com/resource/iglesia-de-los-remedios> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Buenavista+del+Norte> ;
+	rdfs:label "Iglesia de los Remedios" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.372554993246478"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.85125708580017"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Isla+Baja> ;
+	ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Calle+La+Alh%C3%B3ndiga> ;
+	ont:descripcion "La Iglesia de Nuestra Señora de los Remedios, patrona del municipio, comienza su historia en el año 1513 cuando era colocada la primera piedra.  De su historia más reciente destaca el incendio que sufrióel 22 de junio de 1996. Sin lugar a dudas, se trata de uno de los lugares más emblemáticos de Buenavista del Norte, que introducen al visitante en la importancia del patrimonio histórico-artístico de la localidad." .
+
+<http://www.tenerifetouristinformation.com/resource/ex-convento-de-san-francisco> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Buenavista+del+Norte> ;
+	rdfs:label "Ex- Convento de San Francisco" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.370700007487162"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.849551558407256"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Isla+Baja> .
+
+<http://www.tenerifetouristinformation.com/resource/Calle+los+Claveles+s%2Fn> a ont:Direccion ;
+	ont:codigoPostal "38480" .
+
+<http://www.tenerifetouristinformation.com/resource/ex-convento-de-san-francisco> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Calle+los+Claveles+s%2Fn> ;
+	ont:descripcion "En el casco histórico de Buenavista del Norte, se localiza el ex convento de San Francisco. Relevante muestra de las edificaciones de la Orden Franciscana en las Islas Canarias. Nada más acercarse al lugar, percibimos  un ambiente misterioso y enigmático que nos adentra en el mundo de la religiosidad y el recogimiento, propio de la Orden. Los terrenos adquiridos por los franciscanos procedían de donaciones que hacían grandes terratenientes de la época, que también entregaban dinero, contribuyendo así a su subsistencia. Originariamente, con unas dependencias más amplias, el conjunto albergaba una Iglesia, una plazoleta con cipreses y una huerta, además de las dependencias monacales. De su arquitectura destacan las columnas que flanquean la portada, pertenecientes a la Iglesia, que descansan sobre plinto con rosetón labrado, mostrando en su fuste decoración en zig-zag. Por otro lado, al entablamento lo remata un decoroso frontón triangular con el emblema franciscano. En este solemne Convento, desarrollaba su vida una comunidad de frailes, quienes se encargaban de los oficios religiosos y de la enseñanza del pueblo. Todo ello, siguiendo los ideales promulgados desde los orígenes, en Italia,   por Francisco de Asís, fundador de la Orden.  Posteriormente, tras la desaparición de la Orden que lo mantenía, las instalaciones fueron reconvertidas en cementerio. Más tarde, dejó de tener esa función y en la actualidad el lugar es testimonio vivo de la importancia que en otros tiempos tuvo este Convento. " .
+
+<http://www.tenerifetouristinformation.com/resource/lavaderos-del-barranco-de-triana> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Buenavista+del+Norte> ;
+	rdfs:label "Lavaderos del Barranco de Triana" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.371382060728784"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.852603644110786"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Isla+Baja> .
+
+<http://www.tenerifetouristinformation.com/resource/Calle+El+Chorro+s%2Fn> a ont:Direccion ;
+	ont:codigoPostal "38480" .
+
+<http://www.tenerifetouristinformation.com/resource/lavaderos-del-barranco-de-triana> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Calle+El+Chorro+s%2Fn> ;
+	ont:descripcion "Fruto de la riqueza y del valor paisajístico de Buenavista del Norte se localiza el  Barranco de Triana, el verdadero pulmón natural del casco histórico del municipio. Su acceso desde la Plaza de Los Remedios, a través de la Calle El Chorro, o desde el Barrio de Triana, partiendo desde el colegio con el mismo nombre, acerca al visitante a un espléndido lugar en el que predomina un ambiente natural y tranquilo en este emblemático rincón de la localidad.  El Barranco de Triana posee un gran valor histórico que se remonta a  los orígenes del pueblo. Sus primeros conquistadores, muchos de origen andaluz, encontraron en este barranco tal similitud con el Río Guadalquivir, que decidieron llamar el lugar “de Triana”, dejando a un lado del Barranco el Barrio de Triana y al otro el centro de Buenavista; igual que ocurre en la ciudad de Sevilla. Gracias a la presencia del agua durante siglos, destacan los “Lavaderos del Barranco de Triana”, que en el pasado sirvieron como zona de abrevadero para el ganado y lugar en el que las mujeres lavaban la ropa. Un importante punto de encuentro social en el pasado, que se pretende recuperar con el área recreativa ubicada en sus proximidades. Sin lugar a dudas, un lugar que bien merece una visita en Buenavista del Norte. " .
+
+<http://www.tenerifetouristinformation.com/resource/ermita-de-san-sebastin> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Buenavista+del+Norte> ;
+	rdfs:label "Ermita de San Sebastián" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.37019527060729"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.850023627193877"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Isla+Baja> .
+
+<http://www.tenerifetouristinformation.com/resource/Avenida+Juan+M%C3%A9ndez+El+Viejo+s%2Fn> a ont:Direccion ;
+	ont:codigoPostal "38480" .
+
+<http://www.tenerifetouristinformation.com/resource/ermita-de-san-sebastin> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Avenida+Juan+M%C3%A9ndez+El+Viejo+s%2Fn> ;
+	ont:descripcion "   En un privilegiado lugar del casco histórico de Buenavista del Norte se emplaza la Ermita de San Sebastián, testigo de lo que fue un oratorio vecinal en sus orígenes y, siendo uno de los lugares más emblemáticos del lugar.  Construida en el siglo XVI por el vecindario, adoptó como imagen titular a San Sebastián, que se encontraba en la Iglesia de Nuestra Señora de los Remedios. Siendo uno de los oratorios más importantes del pueblo, llego a estar en un estado de  considerable deterioro.  Lo más destacado de la historia que rodea a la Ermita fue el intento de derribo , que nunca llegó a realizarse , y es que era una de las ermitas más antiguas del lugar en la que se celebraban desde tiempos inmemorables las fiestas de San Sebastián. Sin embargo, la imagen se trasladó a la Iglesia Parroquial y la edificación fue destinada a capilla mortuoria, entre otros usos.   Esta Ermita construida originariamente por los vecinos, fue reedificada nuevamente por los mismos a mediados del siglo XIX, de una forma sencilla, no respetando las primitivas características constructivas, pero recuperando uno de los lugares religiosos más importantes para el pueblo.  De su humilde arquitectura cabe destacar  que está formada por una sola nave a la que se accede por un arco de medio punto de cantería. Su techumbre es a dos aguas con una sencilla espadaña. Frente al templo, se abre paso la plaza de San Sebastián que se caracteriza por una fuente con ñamera, propia de algunas plazas de la Isla. " .
+
+<http://www.tenerifetouristinformation.com/resource/hacienda-de-la-fuente> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Buenavista+del+Norte> ;
+	rdfs:label "Hacienda de la Fuente" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.369695209992134"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.860141925508287"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Isla+Baja> .
+
+<http://www.tenerifetouristinformation.com/resource/Calle+Casablanca+s%2Fn> a ont:Direccion ;
+	ont:codigoPostal "38480" .
+
+<http://www.tenerifetouristinformation.com/resource/hacienda-de-la-fuente> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Calle+Casablanca+s%2Fn> ;
+	ont:descripcion "A las afueras del casco histórico de Buenavista del Norte, se encuentra la Hacienda de La Fuente. Esta es, sin duda, una de las mejores muestras de las edificaciones señoriales en las Islas Canarias.  Propiedad de Juan Méndez “El Viejo”, personaje muy distinguido en la Conquista de la Isla de Tenerife, tiene su origen en los primeros repartimientos de datas. Extendiéndose de mar a cumbre en un exuberante enclave,  esta Hacienda inicialmente dedicada al cultivo de la caña de azúcar, posteriormente albergó  el cultivo de la vid de malvasía, fruto de la evolución económica de Canarias. Además, el actual ordenamiento urbano de Buenavista, tiene su origen en la Hacienda de La Fuente, quedando reflejado en la configuración del municipio. De su fascinante arquitectura, destacan las torres almenadas, símbolo de conquista, territorio de fronteras y sociedad estamental. Junto a esta majestuosa hacienda, se encuentra la Ermita de Santa Isabel, también erigida por Juan Méndez, y muestra de la sobria belleza y riqueza patrimonial del conjunto. Allí yacen los restos de Juan Méndez y de su mujer, Isabel Ramírez. Además, también se encuentra enterrado allí Don Ildefonso Salazar de Frías, Conde de Sietefuentes, quien fuese el último propietario de la Hacienda y  perteneciente al último linaje del Rey Carlos II. " .
+
+<http://www.tenerifetouristinformation.com/resource/casa-de-la-viuda> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Buenavista+del+Norte> ;
+	rdfs:label "Casa de la Viuda" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.374570424469265"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.85348868370056"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Isla+Baja> .
+
+<http://www.tenerifetouristinformation.com/resource/Calle+El+Puerto+s%2Fn> a ont:Direccion ;
+	ont:codigoPostal "38480" .
+
+<http://www.tenerifetouristinformation.com/resource/casa-de-la-viuda> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Calle+El+Puerto+s%2Fn> ;
+	ont:descripcion " En el casco histórico de Buenavista del Norte se encuentra La Casa de “La Viuda”, una relevante muestra de la arquitectura doméstica canaria de la segunda mitad del siglo XVII. Esta espléndida casa canaria, posee dos plantas y cuenta con corredores de madera con un sencillo artesonado, numerosas estancias,  un patio central y un antiguo zaguán. El suelo del zaguán está recubierto  por losas de piedra y desemboca a un patio central abierto. Desde él, se accede a la segunda planta por una escalera de madera. Toda la edificación se caracteriza por tener sus suelos de madera, así como por aleros salientes, gárgolas de madera y asientos de madera individuales tras las ventanas. Su exterior es el típico de las casas tradicionales de las Islas Canarias, destacando  su techumbre a cuatro aguas recubierta de tejas árabes. Además, la edificación se caracterizó por la “piedra vista” , que se puede observar en las esquinas de la edificación y que se integran esmeradamente en el inmueble dándole un ambiente rústico a la vez que sutil. En la actualidad, esta magnífica casa, alberga espacios destinados a la cultura, el arte y la sociedad. Sin lugar a dudas, esta representativa edificación es una buena muestra de los trabajos en madera que le otorgan esplendor y elegancia. " .
+
+<http://www.tenerifetouristinformation.com/resource/hacienda-san-juan-de-taco> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Buenavista+del+Norte> ;
+	rdfs:label "Hacienda San Juan de Taco" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.365564406994316"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.838897466659546"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Isla+Baja> .
+
+<http://www.tenerifetouristinformation.com/resource/Camino+San+Juan+de+Taco+1> a ont:Direccion ;
+	ont:codigoPostal "38480" .
+
+<http://www.tenerifetouristinformation.com/resource/hacienda-san-juan-de-taco> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Camino+San+Juan+de+Taco+1> ;
+	ont:descripcion "A las afueras del casco histórico de Buenavista del Norte, se encuentra la Hacienda de La Fuente. Esta es, sin duda, una de las mejores muestras de las edificaciones señoriales en las Islas Canarias.  Propiedad de Juan Méndez “El Viejo”, personaje muy distinguido en la Conquista de la Isla de Tenerife, tiene su origen en los primeros repartimientos de datas. Extendiéndose de mar a cumbre en un exuberante enclave,  esta Hacienda inicialmente dedicada al cultivo de la caña de azúcar, posteriormente albergó  el cultivo de la vid de malvasía, fruto de la evolución económica de Canarias. Además, el actual ordenamiento urbano de Buenavista, tiene su origen en la Hacienda de La Fuente, quedando reflejado en la configuración del municipio. De su fascinante arquitectura, destacan las torres almenadas, símbolo de conquista, territorio de fronteras y sociedad estamental. Junto a esta majestuosa hacienda, se encuentra la Ermita de Santa Isabel, también erigida por Juan Méndez, y muestra de la sobria belleza y riqueza patrimonial del conjunto. Allí yacen los restos de Juan Méndez y de su mujer, Isabel Ramírez. Además, también se encuentra enterrado allí Don Ildefonso Salazar de Frías, Conde de Sietefuentes, quien fuese el último propietario de la Hacienda y  perteneciente al último linaje del Rey Carlos II. " .
+
+<http://www.tenerifetouristinformation.com/resource/bosque-de-agua-garca-tacoronte> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/Tacoronte> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/bosque-de-agua-garca-tacoronte> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Tacoronte> ;
+	rdfs:label "Bosque de Agua García - TACORONTE" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.45435447421923"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.399240493774414"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "of_turismotacoronte@hotmail.com" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Norte> .
+
+<http://www.tenerifetouristinformation.com/resource/Agua+Garc%C3%ADa> a ont:Direccion ;
+	ont:codigoPostal "38350" .
+
+<http://www.tenerifetouristinformation.com/resource/bosque-de-agua-garca-tacoronte> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Agua+Garc%C3%ADa> ;
+	ont:descripcion "- Bosque Reserva de Laurisilva, incluido dentro del Paisaje Protegido de Las Lagunetas." .
+
+<http://www.tenerifetouristinformation.com/resource/volcn-chinyero> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Santiago+del+Teide> ;
+	rdfs:label "Volcán Chinyero" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:email "turismo@santiagodelteide.es" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Pueblo+del+Valle+de+Arriba> a ont:Direccion ;
+	ont:codigoPostal "38684" .
+
+<http://www.tenerifetouristinformation.com/resource/volcn-chinyero> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Pueblo+del+Valle+de+Arriba> ;
+	ont:descripcion "La erupación del Chinyero es la más reciente de las acaecidas en Tenerife y, por ello, la más estudiada y de la que más datos se tienen. Comenzó el 18 de noviembre de 1909 y duró diez días, avistándose la columna de piroclastos incandescentes y gases eyectados desde la isla de la Palma. Es la erupción que menor volumen de lava ha emitido de las erupciones históricas que se han producido en Canarias. Este volcán se alza a 1560m sobre el nivel del mar. Está situado al noroeste del pico viejo y al este de Valle Santiago. El área de influencia del volcán constituye la Reserva Especial del Chinyero" .
+
+<http://www.tenerifetouristinformation.com/resource/reserva-natural-malpas-de-rasca-> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/Arona> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/reserva-natural-malpas-de-rasca-> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Arona> ;
+	rdfs:label "Reserva Natural Malpaís de Rasca " ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> ;
+	ont:descripcion "Comprende una superficie de 315,4 hectáreas. Este espacio comprende un valioso paisaje geológico integrado por varios conos volcánicos y sus correspondientes coladas basálticas que se extienden hasta el mar. La vista más completa de la Reserva se obtiene desde la cima de la Montaña Grande (154 metros de altitud) que junto con Montaña Aguzada y Montaña La Caraba constituyen los principales edificios volcánicos de la Reserva.     El malpaís contiguo a los mismos, y sus 3km de costa constituyen también un elemento geomorfológico y paisajísticamente destacados.    Los principales factores que han influido en la configuración de su paisaje vegetal son, además de las condiciones climáticas de la zona (escasas precipitaciones y altas temperaturas), que se trata de una franja ceñida al litoral con la presencia de agua salada en el ambiente. La existencia histórica del hombre en la zona se manifiesta por la cantidad de terrazas de cultivo y de vías de comunicación, que ha favorecido la instalación de endemismos que se han adaptado a este medio.       Así mismo, hay que destacar que todo el sector del Malpaís del espacio protegido y la extensión existente entre el mismo y la urbanización Palm-Mar, tiene un valor cultural y patrimonial excepcional. En el área está contrastada una importante presencia guanche, hasta el punto de ser considerada una de las principales joyas de la arqueología de Tenerife.   También destaca la presencia, dentro de la Reserva, del Faro, que data del año 1898, en el que se pretende albergar infraestructuras ligadas al espacio natural y a la zona arqueológica que actualmente se está tramitando para su declaración como Bien de Interés Cultural. El viejo Faro apenas se ve desde tierra, dado que la linterna sobrepasa un poco la altura de la azotea. El nuevo faro fue terminado en 1978, y su torre es un elemento visual característico del malpaís con sus franjas de colores blanco y rojo. " .
+
+<http://www.tenerifetouristinformation.com/resource/monumento-natural-roque-de-jama> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Arona> ;
+	rdfs:label "Monumento Natural Roque de Jama" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> ;
+	ont:descripcion "   El monumento Natural de Roque de Jama, comprende 94,1 hectáreas que afectan a los términos municipales de Arona y San Miguel.  Está constituido por un peñasco de 781 metros de altura y se compone de materiales muy antiguos, por lo que algunos estudiosos lo han considerado, junto con el Roque de Vento y el Macizo de Adeje, como los restos de una paleoisla que afloraba sobre el mar en esta zona. Por tanto, se muestra como una huella de los paisajes más antiguos de la Isla de Tenerife.    El Roque de Jama es un pitón monolítico de altura considerable, con una forma de gran belleza y singularidad en su cúspide, que ha quedado al descubierto por la erosión. Ésta lo ha desmantelado en parte, mostrando su compleja estructura interna. Es el mayor de los roques de Valle San Lorenzo y puede ser visto desde cualquier punto de este valle.    La vegetación que alberga es un cardonal-tabaibal acompañado de especies como los balos y los cornicales, aunque en las paredes más abruptas y rocosas existen restos de vegetación termófila, con presencia de sabinas, acebuches, espineros, bicácaros, retama gris y cardones.    Dentro de la fauna que alberga el Monumento Natural destacan algunos vertebrados que buscan hábitats rocosos, cuevas y grietas, como lugar de cría o refugio. Encontramos la presencia de la paloma bravía, del cernícalo vulgar, de la lechuza común, del halcón tagorote, del mirlo, así como varias especies de murciélagos siendo el murciélago rabudo (Tadarida teniotis) el más relevante.    Entre los reptiles encontramos al lagarto Tizón, a la lisa común, al perenquén y en pequeños cursos de agua y embalses a la ranita meridional.    Es una zona apta para el vuelo con parapente, encontrándonos con un área de despegue y aterrizaje muy cerca al Monumento Natural. Se ha constatado también la realización de la actividad del salto del pastor por lo escarpado del terreno y de escalada en las paredes del domo.    Se han practicado diversas prospecciones y estudios arqueológicos, y dentro de este espacio se han localizado dos tipos de yacimientos, predominando los fondos de cabaña en donde se ha encontrado el material tradicional para este tipo de enclaves, como es cerámica e industria lítica, tanto en obsidiana como en basalto.    Sin embargo, lo que le confiere una especial entidad a los valores arqueológicos es la presencia de estaciones de grabados. Éstos, que llegan a concentrarse en este Espacio en siete paneles, presentan una importante diversidad de técnicas en su realización (picado discontinuo, abrasión, rayados, incisiones, etc.) así como una abundancia en los motivos (reticulados, ajedrezado, cruciformes, líneas paralelas, etc.) Es notorio señalar cómo este tipo de enclaves están protegidos por la Ley de Patrimonio Histórico del Gobierno de Canarias, otorgándoles la categoría de Bien de Interés Cultural.    " .
+
+<http://www.tenerifetouristinformation.com/resource/monumento-natural-montaa-de-guaza> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Arona> ;
+	rdfs:label "Monumento Natural Montaña de Guaza" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> ;
+	ont:descripcion "  Básicamente está constituida por un cono volcánico, la Montaña de Guaza, que alcanza una altura máxima de 428 m, y las coladas lávicas derivadas de su erupción, que constituyen las llamadas Mesas de Guaza, llegando hasta el mar, donde la erosión ha labrado un acantilado de gran altura. Por tanto, el conjunto formado por la Montaña de Guaza y las Mesas de Guaza corresponde a un único fenómeno eruptivo.   Por su rica avifauna, la Montaña de Guaza está considerada como Área de Importancia para las Aves (IBA) y propuesta para su designación como Zona de Especial Protección para las Aves (ZEPA).    El Monumento Natural Montaña de Guaza comprende 725.7 hectáreas.     Los acantilados costeros albergan comunidades de plantas muy resistentes a la sal, tales como el tomillo marino (Frankenia laevis), la siempreviva (Limonium pectinatum) o la corregüela (Convolvulus fruticulosus). En las Mesas de Guaza aún persisten restos del cardonal-tabaibal y otras especies propias de las zonas bajas.  En la parte superior de la montaña y en los abruptos acantilados de su vertiente norte, se localizan varias especies raras, como el cerrajón (Sonchus canariensis) o el arbusto parolina intermedia.     En este espacio nidifican algunas aves marinas, como la gaviota patiamarilla, o la pardela cenicienta. Otras especies que pueden observarse son la Terrera marismeña, el camachuelo trompetero, o el alcaraván.    Entre la fauna, junto con las aves, destaca la presencia del Lagarto Moteado, especie protegida ya que está considerada en peligro de extinción.    La Montaña de Guaza también posee un alto valor desde el punto de vista del patrimonio histórico. En las Mesas de Guaza se han localizado algunos enterramientos prehispánicos y varias canteras cuyo origen se remonta aproximadamente a finales del Siglo XVII. De ellas se extraía loza chasnera para las iglesias y casas señoriales de Tenerife y La Gomera, así como para exportarla a algunas zonas del Caribe, como Cuba. " .
+
+<http://www.tenerifetouristinformation.com/resource/mirador-de-cherfe> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Santiago+del+Teide> ;
+	rdfs:label "Mirador de Cherfe" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:email "turismo@santiagodelteide.es" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Carretera+de+Santiago+del+Teide+a+Masca> a ont:Direccion ;
+	ont:codigoPostal "38690" .
+
+<http://www.tenerifetouristinformation.com/resource/mirador-de-cherfe> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Carretera+de+Santiago+del+Teide+a+Masca> ;
+	ont:descripcion "Mirador situado en la degollada entre los núcleos poblacionales de Santiago del Teide y Masca, a 1100 mts de altitud. Desde él se tienen unas vistas fenomenales del Valle Santiago, el Teide y los farallones rocosos de Masca." .
+
+<http://www.tenerifetouristinformation.com/resource/acantilado-de-los-gigantes> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Santiago+del+Teide> ;
+	rdfs:label "Acantilado de los Gigantes" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.2439908"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.84139140000002"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "turismo@santiagodelteide.es" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Muelle+de+los+Gigantes> a ont:Direccion ;
+	ont:codigoPostal "38683" .
+
+<http://www.tenerifetouristinformation.com/resource/acantilado-de-los-gigantes> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Muelle+de+los+Gigantes> ;
+	ont:descripcion "En la costa del municipio se encuentra el impresionante acantilado, cayendo sobre el océano atlántico desde 500 mts de altitud. El núcleo turístico de los gigantes cuenta con un puerto deportivo que permite disfrutar de la pesca, el submarinismo y diferentes deportes náuticos así como el avistamiento de cetáceos, ya que es un lugar de interés comunitario dentro de la red natura 2000. El descubrimiento turístico del acantilado y el paisaje que le rodea fue fruto de una visita de un grupo de personas entre las que se encontraba Juan Manuel Capdevielle en 1960." .
+
+<http://www.tenerifetouristinformation.com/resource/avistamiento-de-cetceos> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Santiago+del+Teide> ;
+	rdfs:label "Avistamiento de cetáceos" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.2293797"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.840908600000034"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "turismo@santiagodelteide.es" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Playa+la+Arena%2C+Puerto+Santiago%2C+los+Gigantes> a ont:Direccion ;
+	ont:codigoPostal "38683" .
+
+<http://www.tenerifetouristinformation.com/resource/avistamiento-de-cetceos> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Playa+la+Arena%2C+Puerto+Santiago%2C+los+Gigantes> ;
+	ont:descripcion "Litoral muy rico reconocido como lugar de interés comunitario dentro de la red natura 2000 de la unión europea y que en breve será declarado parque natural de ballenas." .
+
+<http://www.tenerifetouristinformation.com/resource/cueva-del-diablo> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/Guancha+%28La%29> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/cueva-del-diablo> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Guancha+%28La%29> ;
+	rdfs:label "Cueva del Diablo" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.397554015160214"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.673299312242307"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Norte> .
+
+<http://www.tenerifetouristinformation.com/resource/Costa+de+Santa+Catalina> a ont:Direccion .
+
+<http://www.tenerifetouristinformation.com/resource/cueva-del-diablo> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Costa+de+Santa+Catalina> .
+
+<http://www.tenerifetouristinformation.com/resource/montaa-amarilla> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/San+Miguel+de+Abona> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/montaa-amarilla> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/San+Miguel+de+Abona> ;
+	rdfs:label "Montaña Amarilla" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.011225019660124"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.636219024658203"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/San+Miguel+de+Abona.+L%C3%ADmite+con+Costa+del+Silencio.+Arona.> a ont:Direccion .
+
+<http://www.tenerifetouristinformation.com/resource/montaa-amarilla> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/San+Miguel+de+Abona.+L%C3%ADmite+con+Costa+del+Silencio.+Arona.> ;
+	ont:descripcion "Montaña Amarilla es un Monumento Natural. Se trata de un cono volcánico cuyo origen está en un conjunto de procesos submarinos no frecuentes en la isla. En una de sus laderas existe una duna fósil que la erosión ha descubierto. Todo el conjunto es de enorme valor geológico, natural y paisajístico. Una  pequeña porción de este espacio natural se encuentra en el término municipal de Arona el resto pertenece al vecino Municipio de San Miguel. Localización: Se encuentra ubicada entre Costa del Silencio y Los Abrigos. Forma parte de una serie de conos volcánicos alineados que va en dirección SO que reciben el nombre de alineamiento de Guargacho. Montaña Amarilla es el cono más meridional.  Origen: Costa del Silencio (Arona) Destino: Montaña Amarilla - Playa Colmenares (San Miguel) Longitud: 5 km Duración: 3 horas Dificultad: Baja " .
+
+<http://www.tenerifetouristinformation.com/resource/almcigo-de-arona-rbol-monumento> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Arona> ;
+	rdfs:label "Almácigo de Arona, árbol monumento" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.0976602"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.680789799999957"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Camino+Morro+Las+Acebedas%2C+Arona+Casco> a ont:Direccion ;
+	ont:codigoPostal "38640" .
+
+<http://www.tenerifetouristinformation.com/resource/almcigo-de-arona-rbol-monumento> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Camino+Morro+Las+Acebedas%2C+Arona+Casco> ;
+	ont:descripcion "Un árbol monumental es aquel ejemplar que, bien por su tamaño, edad, belleza, especie o singularidad es considerado sobresaliente.  En Arona, en pleno casco histórico, podemos encontrar un ejemplar de almácigo centenario y una altura de 9 metros y está incluido en el Libro de Árboles Monumentales de Tenerife, elaborado por el Cabildo Insular de Tenerife. Ha quedado representado como uno de los elementos del escudo heráldico del municipio, lo que nos da una idea del vínculo que hay entre esta especie y la región que lo ha integrado en su patrimonio cultural " .
+
+<http://www.tenerifetouristinformation.com/resource/barranco-de-chijas> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Arona> ;
+	rdfs:label "Barranco de Chijas" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Valle+San+Lorenzo+-+Arona+> a ont:Direccion .
+
+<http://www.tenerifetouristinformation.com/resource/barranco-de-chijas> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Valle+San+Lorenzo+-+Arona+> ;
+	ont:descripcion "La ruta comienza en Valle San Lorenzo, por el acceso al barrio de La Tosca. Una vez allí se inicia el ascenso al barranco de Chija por el cauce abrupto del mismo. Al final nos encontraremos con un salto que nos impide el paso y donde se localiza la galería del Salto del Chopo. Es en este punto donde comenzamos el camino de regreso sobre nuestros pasos a Valle San Lorenzo, después de 3 Km. " .
+
+<http://www.tenerifetouristinformation.com/resource/hijuela-del-botnico> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/Orotava+%28La%29> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/hijuela-del-botnico> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Orotava+%28La%29> ;
+	rdfs:label "Hijuela del Botánico" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> .
+
+<http://www.tenerifetouristinformation.com/resource/C%2F+Tom%C3%A1s+P%C3%A9rez%2C+1+-> a ont:Direccion ;
+	ont:codigoPostal "38300" .
+
+<http://www.tenerifetouristinformation.com/resource/hijuela-del-botnico> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/C%2F+Tom%C3%A1s+P%C3%A9rez%2C+1+-> .
+
+<http://www.tenerifetouristinformation.com/resource/jardin-victoria> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Orotava+%28La%29> ;
+	rdfs:label "Jardin Victoria" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> .
+
+<http://www.tenerifetouristinformation.com/resource/Plaza+de+la+Constituci%C3%B3n.s%2Fn.> a ont:Direccion ;
+	ont:codigoPostal "38300" .
+
+<http://www.tenerifetouristinformation.com/resource/jardin-victoria> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Plaza+de+la+Constituci%C3%B3n.s%2Fn.> .
+
+<http://www.tenerifetouristinformation.com/resource/pueblo-chico> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Orotava+%28La%29> ;
+	rdfs:label "Pueblo Chico" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> .
+
+<http://www.tenerifetouristinformation.com/resource/+Camino+cruz+de+los+martillos%2C+62> a ont:Direccion ;
+	ont:codigoPostal "38300" .
+
+<http://www.tenerifetouristinformation.com/resource/pueblo-chico> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/+Camino+cruz+de+los+martillos%2C+62> .
+
+<http://www.tenerifetouristinformation.com/resource/parque-natural-corona-forestal> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Orotava+%28La%29> ;
+	rdfs:label "Parque Natural Corona Forestal" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> .
+
+<http://www.tenerifetouristinformation.com/resource/acantilados-de-la-isorana> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/Gu%C3%ADa+de+Isora> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/acantilados-de-la-isorana> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Gu%C3%ADa+de+Isora> ;
+	rdfs:label "Acantilados de la Isorana" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.1574425"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.793377599999985"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Playa+San+Juan> a ont:Direccion ;
+	ont:codigoPostal "38680" .
+
+<http://www.tenerifetouristinformation.com/resource/acantilados-de-la-isorana> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Playa+San+Juan> .
+
+<http://www.tenerifetouristinformation.com/resource/montaa-de-tejina> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Gu%C3%ADa+de+Isora> ;
+	rdfs:label "Montaña de Tejina" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.1867158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.76509740000006"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Tejina> a ont:Direccion ;
+	ont:codigoPostal "38685" .
+
+<http://www.tenerifetouristinformation.com/resource/montaa-de-tejina> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Tejina> .
+
+<http://www.tenerifetouristinformation.com/resource/paisaje-protegido-barranco-de-erques> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Gu%C3%ADa+de+Isora> ;
+	rdfs:label "Paisaje protegido Barranco de Erques" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.1746896"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.743741999999997"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Vera+de+Erques> a ont:Direccion ;
+	ont:codigoPostal "38680" .
+
+<http://www.tenerifetouristinformation.com/resource/paisaje-protegido-barranco-de-erques> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Vera+de+Erques> .
+
+<http://www.tenerifetouristinformation.com/resource/mirador-de-la-cruz-de-hilda> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Buenavista+del+Norte> ;
+	rdfs:label "Mirador de la Cruz de Hilda" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:coordenadaX "28.313032966248542"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.845731735229492"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Naturaleza+y+Monumentos> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Isla+Baja> .
+
+<http://www.tenerifetouristinformation.com/resource/Carretera+de+Masca+TF-436+KM+14%2C500> a ont:Direccion ;
+	ont:codigoPostal "38480" .
+
+<http://www.tenerifetouristinformation.com/resource/mirador-de-la-cruz-de-hilda> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Carretera+de+Masca+TF-436+KM+14%2C500> ;
+	ont:descripcion "Se trata de un mirador cercano al Caserío de Masca desde el que se observa una parte del caserío y numerosos aspectos geológicos y de flora y fauna." .
+
+<http://www.tenerifetouristinformation.com/resource/centro-de-visitantes-cruz-del-carmen> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/San+Crist%C3%B3bal+de+la+Laguna> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/centro-de-visitantes-cruz-del-carmen> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/San+Crist%C3%B3bal+de+la+Laguna> ;
+	rdfs:label "Centro de Visitantes Cruz del Carmen" .
+
+<http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> a ont:Actividad .
+
+<http://www.tenerifetouristinformation.com/resource/centro-de-visitantes-cruz-del-carmen> ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.531297762237124"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.28023624420166"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "cvisitantes@cabtfe.es" ;
+	ont:horario "Lun.- Dom.: 9:30 - 16:00 " ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Metropolitana> .
+
+<http://www.tenerifetouristinformation.com/resource/Ctra.+Las+Mercedes%2C+km.6> a ont:Direccion ;
+	ont:codigoPostal "38294" .
+
+<http://www.tenerifetouristinformation.com/resource/centro-de-visitantes-cruz-del-carmen> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Ctra.+Las+Mercedes%2C+km.6> .
+
+<http://www.tenerifetouristinformation.com/resource/arico> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/Arico> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/arico> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Arico> ;
+	rdfs:label "Arico" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.1666549"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.501374800000008"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "turismo@ayuntamientodearico.com" ;
+	ont:horario "Lun-Vie. : 09:00 - 14:30" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/C%2F+Ben%C3%ADtez+de+Lugo%2C+1+> a ont:Direccion ;
+	ont:codigoPostal "38580" .
+
+<http://www.tenerifetouristinformation.com/resource/arico> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/C%2F+Ben%C3%ADtez+de+Lugo%2C+1+> .
+
+<http://www.tenerifetouristinformation.com/resource/candelaria-oit> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Candelaria> ;
+	rdfs:label "Candelaria (OIT)" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.3574725"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.36918289999994"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "oit@candelaria.es" ;
+	ont:horario "De lunes a jueves 9:00 a 14:00 y de 15:00 a 17:00 Viernes y sábados de 9:00 a 13:00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Avda.+de+la+Constituci%C3%B3n%2C+s%2Fn%2C+Candelaria> a ont:Direccion ;
+	ont:codigoPostal "38530" .
+
+<http://www.tenerifetouristinformation.com/resource/candelaria-oit> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Avda.+de+la+Constituci%C3%B3n%2C+s%2Fn%2C+Candelaria> .
+
+<http://www.tenerifetouristinformation.com/resource/adeje-playa-de-faab> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/Adeje> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/adeje-playa-de-faab> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Adeje> ;
+	rdfs:label "Adeje - Playa de Fañabé" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.08609883027464"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.736991084180772"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "turismo@adeje.es" ;
+	ont:horario "Lunes-Viernes: 10:00h a 17:00h." ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Avda.+Litoral%2C+s%2Fn.+Playa+de+Fa%C3%B1ab%C3%A9> a ont:Direccion ;
+	ont:codigoPostal "38660" .
+
+<http://www.tenerifetouristinformation.com/resource/adeje-playa-de-faab> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Avda.+Litoral%2C+s%2Fn.+Playa+de+Fa%C3%B1ab%C3%A9> .
+
+<http://www.tenerifetouristinformation.com/resource/garachico> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/Garachico> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/garachico> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Garachico> ;
+	rdfs:label "Garachico" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.3721891"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.7669707"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:horario "Lun-viernes. : 10:00 - 17:00       Sáb-dom: 10:00/15:00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Isla+Baja> .
+
+<http://www.tenerifetouristinformation.com/resource/Avda+Republica+de+Venezuela> a ont:Direccion ;
+	ont:codigoPostal "38450" .
+
+<http://www.tenerifetouristinformation.com/resource/garachico> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Avda+Republica+de+Venezuela> .
+
+<http://www.tenerifetouristinformation.com/resource/la-orotava> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Orotava+%28La%29> ;
+	rdfs:label "La Orotava" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.3916415"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.522502300000042"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:horario "Lun-Vie. : 08:30 - 18:00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Norte> .
+
+<http://www.tenerifetouristinformation.com/resource/C%2F+Calvario%2C+4> a ont:Direccion ;
+	ont:codigoPostal "38300" .
+
+<http://www.tenerifetouristinformation.com/resource/la-orotava> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/C%2F+Calvario%2C+4> .
+
+<http://www.tenerifetouristinformation.com/resource/los-realejos> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/Realejos+%28Los%29> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/los-realejos> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Realejos+%28Los%29> ;
+	rdfs:label "Los Realejos" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.3806049"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.585461200000054"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "info@losrealejos.travel" ;
+	ont:horario "Lun-Vie. : 09:30 - 13:30" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Norte> .
+
+<http://www.tenerifetouristinformation.com/resource/Plaza+de+la+Uni%C3%B3n%2C+s%2Fn> a ont:Direccion ;
+	ont:codigoPostal "38410" .
+
+<http://www.tenerifetouristinformation.com/resource/los-realejos> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Plaza+de+la+Uni%C3%B3n%2C+s%2Fn> .
+
+<http://www.tenerifetouristinformation.com/resource/arona-playa-de-las-amricas> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Arona> ;
+	rdfs:label "Arona - Playa de las Américas" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.0596063"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.733153799999968"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "info-americas@arona.travel" ;
+	ont:horario "Lunes a Viernes 8:30-18:00 horas. Fines de semana 8:30-16:00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/+Plza.+del+City+Center.+Avda.+Rafael+Puig%2C+19+> a ont:Direccion ;
+	ont:codigoPostal "38660" .
+
+<http://www.tenerifetouristinformation.com/resource/arona-playa-de-las-amricas> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/+Plza.+del+City+Center.+Avda.+Rafael+Puig%2C+19+> .
+
+<http://www.tenerifetouristinformation.com/resource/puerto-de-la-cruz-cit> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Puerto+de+la+Cruz+%28El%29> ;
+	rdfs:label "Puerto de la Cruz (C.I.T)" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.415654213815642"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.55336022377014"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:horario "De Lun. a Vie. : 09:00-13:00 -- 16:30-19:00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Norte> .
+
+<http://www.tenerifetouristinformation.com/resource/+C%2F+Puerto+Viejo%2C+13+> a ont:Direccion ;
+	ont:codigoPostal "38400" .
+
+<http://www.tenerifetouristinformation.com/resource/puerto-de-la-cruz-cit> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/+C%2F+Puerto+Viejo%2C+13+> .
+
+<http://www.tenerifetouristinformation.com/resource/la-laguna-casa-alvarado-bracamonte> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/San+Crist%C3%B3bal+de+la+Laguna> ;
+	rdfs:label "La Laguna - Casa Alvarado Bracamonte" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.4874009"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.315906100000007"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "turismo.laguna.@cabtfe.es" ;
+	ont:horario "Lun.-Dom. : 09:00 - 17:00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Metropolitana> .
+
+<http://www.tenerifetouristinformation.com/resource/C%2F+La+Carrera%2C+7%2C+Bajo.+Casa+Alvarado+Bracamonte+%28Capitanes+Generales%29+> a ont:Direccion ;
+	ont:codigoPostal "38201" .
+
+<http://www.tenerifetouristinformation.com/resource/la-laguna-casa-alvarado-bracamonte> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/C%2F+La+Carrera%2C+7%2C+Bajo.+Casa+Alvarado+Bracamonte+%28Capitanes+Generales%29+> .
+
+<http://www.tenerifetouristinformation.com/resource/la-laguna-aeropuerto-tfe-norte-los-rodeos-> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/San+Crist%C3%B3bal+de+la+Laguna> ;
+	rdfs:label "La Laguna -  Aeropuerto Tfe. Norte Los Rodeos " ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.482573524849567"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.342849731445312"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "turismo.laguna@cabtfe.es" ;
+	ont:horario "Lun.-Dom. : 09:00 - 17:00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Metropolitana> .
+
+<http://www.tenerifetouristinformation.com/resource/Aeropuerto+Tenerife+Norte+-+Los+Rodeos> a ont:Direccion ;
+	ont:codigoPostal "38297" .
+
+<http://www.tenerifetouristinformation.com/resource/la-laguna-aeropuerto-tfe-norte-los-rodeos-> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Aeropuerto+Tenerife+Norte+-+Los+Rodeos> .
+
+<http://www.tenerifetouristinformation.com/resource/san-miguel-de-abona> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/San+Miguel+de+Abona> ;
+	rdfs:label "San Miguel de Abona" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.03933428449891"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.612915992736816"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "costasanmiguel@sanmigueldeabona.org" ;
+	ont:horario "Lun-Vie. : 08:30 - 14:30" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Avda.+Galv%C3%A1n+Bello%2C+s%2Fn+> a ont:Direccion ;
+	ont:codigoPostal "38620" .
+
+<http://www.tenerifetouristinformation.com/resource/san-miguel-de-abona> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Avda.+Galv%C3%A1n+Bello%2C+s%2Fn+> .
+
+<http://www.tenerifetouristinformation.com/resource/santa-cruz-cabildo> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Santa+Cruz+de+Tenerife> ;
+	rdfs:label "Santa Cruz (Cabildo)" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.467172818038"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.24768763780594"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:horario "De Lun. a Vie.: 09.00-18.00. Sáb., Dom. y día festivo: 09.30-13.30" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Metropolitana> .
+
+<http://www.tenerifetouristinformation.com/resource/Plaza+de+Espa%C3%B1a%2C+s%2Fn> a ont:Direccion ;
+	ont:codigoPostal "38003" .
+
+<http://www.tenerifetouristinformation.com/resource/santa-cruz-cabildo> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Plaza+de+Espa%C3%B1a%2C+s%2Fn> .
+
+<http://www.tenerifetouristinformation.com/resource/santa-cruz-de-tenerife-cit> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Santa+Cruz+de+Tenerife> ;
+	rdfs:label "Santa Cruz de Tenerife (C.I.T.)" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.479786537494075"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.242114544438664"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "infocit@telefonica.net" ;
+	ont:horario "Lun-Vie. : 09:00 - 16:00 y Sáb.: 09:00 -13:00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Metropolitana> .
+
+<http://www.tenerifetouristinformation.com/resource/Avda.+de+Anaga%2C+s%2Fn.++> a ont:Direccion ;
+	ont:codigoPostal "38001" .
+
+<http://www.tenerifetouristinformation.com/resource/santa-cruz-de-tenerife-cit> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Avda.+de+Anaga%2C+s%2Fn.++> .
+
+<http://www.tenerifetouristinformation.com/resource/santa-cruz-intercambiador-> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Santa+Cruz+de+Tenerife> ;
+	rdfs:label "Santa Cruz - Intercambiador " ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.459221371653598"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.253522615879774"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "cityexpertinter@gmail.com" ;
+	ont:horario "Lun-Vie. : 09:00 - 17.:00. Sab-Dom.: 09:00-14:00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Metropolitana> .
+
+<http://www.tenerifetouristinformation.com/resource/Intercambiador+TITSA+C%2F+Fomento%2C+s%2Fn+%28zona+guaguas+interurbanas%29> a ont:Direccion ;
+	ont:codigoPostal "38005" .
+
+<http://www.tenerifetouristinformation.com/resource/santa-cruz-intercambiador-> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Intercambiador+TITSA+C%2F+Fomento%2C+s%2Fn+%28zona+guaguas+interurbanas%29> .
+
+<http://www.tenerifetouristinformation.com/resource/santa-cruz-de-tenerife-calle-castillo> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Santa+Cruz+de+Tenerife> ;
+	rdfs:label "Santa Cruz de Tenerife - Calle Castillo" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.4660559"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.24919729999999"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "cityexpertcastillo@gmail.com" ;
+	ont:horario "Lun-Vie. : 09:00 - 17.:00. Sab-Dom.: 09:00-14:00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Metropolitana> .
+
+<http://www.tenerifetouristinformation.com/resource/C%2F+Castillo%2C+1.+%28C%2FCastillo+con+C%2FCruz+Verde%29> a ont:Direccion .
+
+<http://www.tenerifetouristinformation.com/resource/santa-cruz-de-tenerife-calle-castillo> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/C%2F+Castillo%2C+1.+%28C%2FCastillo+con+C%2FCruz+Verde%29> .
+
+<http://www.tenerifetouristinformation.com/resource/santiago-del-teide-playa-la-arena> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Santiago+del+Teide> ;
+	rdfs:label "Santiago del Teide - Playa La Arena" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.2293797"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.840908600000034"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "turismo@santiagodelteide.es" ;
+	ont:horario "Lun-Vie. : 7:30 - 15:00h" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Ctro.+Com.+Seguro+de+Sol%2C+Avda.+Mar%C3%ADtima%2C+Local+34.+Playa+la+Arena> a ont:Direccion ;
+	ont:codigoPostal "38683" .
+
+<http://www.tenerifetouristinformation.com/resource/santiago-del-teide-playa-la-arena> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Ctro.+Com.+Seguro+de+Sol%2C+Avda.+Mar%C3%ADtima%2C+Local+34.+Playa+la+Arena> .
+
+<http://www.tenerifetouristinformation.com/resource/aeropuerto-tenerife-norte-los-rodeos> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/San+Crist%C3%B3bal+de+la+Laguna> ;
+	rdfs:label "Aeropuerto Tenerife Norte Los Rodeos" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.486802589139625"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.34782934153918"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "info@webtenerife.com" ;
+	ont:horario "Lun-Dom. : 09:00 - 21:00 h." ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Metropolitana> .
+
+<http://www.tenerifetouristinformation.com/resource/Zona+de+Llegadas+%28recogida+de+equipajes%29+en+Aeropuerto+Tenerife+Norte.++> a ont:Direccion ;
+	ont:codigoPostal "38297" .
+
+<http://www.tenerifetouristinformation.com/resource/aeropuerto-tenerife-norte-los-rodeos> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Zona+de+Llegadas+%28recogida+de+equipajes%29+en+Aeropuerto+Tenerife+Norte.++> .
+
+<http://www.tenerifetouristinformation.com/resource/sur-cit> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Adeje> ;
+	rdfs:label "Sur (C.I.T)" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.0726101"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.731365900000014"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "info@citsur.com" ;
+	ont:horario "De Lun. a Vie. 09.00 - 13.00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Avda.+Rafael+Puig%2C+17+> a ont:Direccion ;
+	ont:codigoPostal "38660" .
+
+<http://www.tenerifetouristinformation.com/resource/sur-cit> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Avda.+Rafael+Puig%2C+17+> .
+
+<http://www.tenerifetouristinformation.com/resource/granadilla-el-mdano> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/Granadilla+de+Abona> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/granadilla-el-mdano> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Granadilla+de+Abona> ;
+	rdfs:label "Granadilla - El Médano" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.043950586126744"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.538506150245667"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "turismo@granadilladeabona.org" ;
+	ont:horario "Lun.-Vie.: 09:00 - 15:00 y Sáb.: 09:00 - 14:00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Plaza+de+los+Pr%C3%ADncipes+de+Espa%C3%B1a%2C+s%2Fn> a ont:Direccion ;
+	ont:codigoPostal "38612" .
+
+<http://www.tenerifetouristinformation.com/resource/granadilla-el-mdano> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Plaza+de+los+Pr%C3%ADncipes+de+Espa%C3%B1a%2C+s%2Fn> .
+
+<http://www.tenerifetouristinformation.com/resource/arona-playa-de-las-vistas> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Arona> ;
+	rdfs:label "Arona - Playa de Las Vistas" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.050445"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.717322700000068"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "info-vistas@arona.travel" ;
+	ont:horario "Lunes a Viernes 8:30-18:00 horas /   Sábado y Domingo: 8:30-16:00 horas" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/P.%C2%BA+Mar%C3%ADtimo+Playa+de+Las+Vistas.+Los+Cristianos> a ont:Direccion ;
+	ont:codigoPostal "38650" .
+
+<http://www.tenerifetouristinformation.com/resource/arona-playa-de-las-vistas> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/P.%C2%BA+Mar%C3%ADtimo+Playa+de+Las+Vistas.+Los+Cristianos> .
+
+<http://www.tenerifetouristinformation.com/resource/aeropuerto-tenerife-sur-reina-sofa> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Granadilla+de+Abona> ;
+	rdfs:label "Aeropuerto Tenerife Sur Reina Sofía" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.0464178"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.577046300000006"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "huete@cabtfe.es" ;
+	ont:horario "Oct.- Jun.:  de Lun. a Vie. 09.00-21.00; Sab. y Dom. 09.00-17.00;  Jul.- Sep.: de  Lun. a Vie. 09.00-19.00; Sab. y Dom. 09.00-17.00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Aeropuerto+Tenerife+Sur> a ont:Direccion ;
+	ont:codigoPostal "38610" .
+
+<http://www.tenerifetouristinformation.com/resource/aeropuerto-tenerife-sur-reina-sofa> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Aeropuerto+Tenerife+Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/arona-playa-de-las-galletas-> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Arona> ;
+	rdfs:label "Arona - Playa de Las Galletas " ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.0064055"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.655876499999977"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "info-galletas@arona.travel" ;
+	ont:horario "Lunes a Viernes 8:00-15:30 horas." ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/P.%C2%BA+Mar%C3%ADtimo+Dionisio+Glez.+Delgado%2C+1.+Las+Galletas> a ont:Direccion ;
+	ont:codigoPostal "38631" .
+
+<http://www.tenerifetouristinformation.com/resource/arona-playa-de-las-galletas-> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/P.%C2%BA+Mar%C3%ADtimo+Dionisio+Glez.+Delgado%2C+1.+Las+Galletas> .
+
+<http://www.tenerifetouristinformation.com/resource/puerto-de-la-cruz> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Puerto+de+la+Cruz+%28El%29> ;
+	rdfs:label "Puerto de la Cruz" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.418084010213544"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.550034284591675"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "manuelp@tenerife.es" ;
+	ont:horario "De Lun. a Vie.: 09:00-20:00; Sáb. y Dom.: 09:00-17:00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Norte> .
+
+<http://www.tenerifetouristinformation.com/resource/Casa+de+la+Aduana+-+C%2F+Las+Lonjas%2C+s%2Fn> a ont:Direccion ;
+	ont:codigoPostal "38400" .
+
+<http://www.tenerifetouristinformation.com/resource/puerto-de-la-cruz> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Casa+de+la+Aduana+-+C%2F+Las+Lonjas%2C+s%2Fn> .
+
+<http://www.tenerifetouristinformation.com/resource/buenavista-del-norte> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Buenavista+del+Norte> ;
+	rdfs:label "Buenavista del Norte" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.371797426644616"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.85162991285324"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "turismo@buenavistadelnorte.com" ;
+	ont:horario "De octubre a marzo: lunes a viernes de 09.00 a 15.00 horas - sábados de 09.00 a 13.00 horas. De abril a septiembre: lunes a viernes de 09.00 a 16.00 horas - sábados (cerrado)" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Isla+Baja> .
+
+<http://www.tenerifetouristinformation.com/resource/Plza.+de+Los+Remedios%2C+s%2Fn+-+Casa+Matula> a ont:Direccion ;
+	ont:codigoPostal "38480" .
+
+<http://www.tenerifetouristinformation.com/resource/buenavista-del-norte> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Plza.+de+Los+Remedios%2C+s%2Fn+-+Casa+Matula> .
+
+<http://www.tenerifetouristinformation.com/resource/centro-de-visitantes-parque-rural-de-teno> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Buenavista+del+Norte> ;
+	rdfs:label "Centro de Visitantes Parque Rural de Teno" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.345941"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.8460149"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "tenoparque@tenerife.es" ;
+	ont:horario "De lunes a viernes 08.00-15.00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Isla+Baja> .
+
+<http://www.tenerifetouristinformation.com/resource/Finca+Los+Pedregales%2C+s%2Fn-El+Palmar> a ont:Direccion ;
+	ont:codigoPostal "38480" .
+
+<http://www.tenerifetouristinformation.com/resource/centro-de-visitantes-parque-rural-de-teno> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Finca+Los+Pedregales%2C+s%2Fn-El+Palmar> .
+
+<http://www.tenerifetouristinformation.com/resource/tacoronte> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Tacoronte> ;
+	rdfs:label "Tacoronte" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.476990674415823"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.41533374786377"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "turismo@aytotacoronte.org" ;
+	ont:horario "De Lunes a Viernes 9:00 a 13:00 horas" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Norte> .
+
+<http://www.tenerifetouristinformation.com/resource/Ctra.+Tacoronte-Tejina%2C+s%2Fn> a ont:Direccion ;
+	ont:codigoPostal "38350" .
+
+<http://www.tenerifetouristinformation.com/resource/tacoronte> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Ctra.+Tacoronte-Tejina%2C+s%2Fn> .
+
+<http://www.tenerifetouristinformation.com/resource/adeje-playa-de-troya> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Adeje> ;
+	rdfs:label "Adeje - Playa de Troya" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.067213656409855"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.73244473990053"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "turismo@adeje.es" ;
+	ont:horario "Lunes-Domingo 10:00h a 17:00h." ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Avda.+Rafael+Puig+Lluvina%2C+n%C2%BA1+-+Costa+Adeje> a ont:Direccion ;
+	ont:codigoPostal "38660" .
+
+<http://www.tenerifetouristinformation.com/resource/adeje-playa-de-troya> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Avda.+Rafael+Puig+Lluvina%2C+n%C2%BA1+-+Costa+Adeje> .
+
+<http://www.tenerifetouristinformation.com/resource/candelaria-caletillas-cit> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Candelaria> ;
+	rdfs:label "Candelaria - Caletillas (C.I.T)" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.37522177344538"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.36263370513916"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "info@citcandelaria.com" ;
+	ont:horario "De lunes a viernes: 10 a 14 horas" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Avda.+Marit%C3%ADma%2C+176+d++Plaza+del+C.I.T.> a ont:Direccion ;
+	ont:codigoPostal "38520" .
+
+<http://www.tenerifetouristinformation.com/resource/candelaria-caletillas-cit> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Avda.+Marit%C3%ADma%2C+176+d++Plaza+del+C.I.T.> .
+
+<http://www.tenerifetouristinformation.com/resource/arona-los-cristianos> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Arona> ;
+	rdfs:label "Arona - Los Cristianos" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.050445"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.717322700000068"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "info-cristianos@arona.travel" ;
+	ont:horario "Lunes a Viernes 8:30-16:00 horas. " ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Avda.+Juan+Carlos+I.+Estaci%C3%B3n+de+Guaguas++Los+Cristianos> a ont:Direccion ;
+	ont:codigoPostal "38650" .
+
+<http://www.tenerifetouristinformation.com/resource/arona-los-cristianos> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Avda.+Juan+Carlos+I.+Estaci%C3%B3n+de+Guaguas++Los+Cristianos> .
+
+<http://www.tenerifetouristinformation.com/resource/icod-de-los-vinos-cit> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/Icod+de+los+Vinos> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/icod-de-los-vinos-cit> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Icod+de+los+Vinos> ;
+	rdfs:label "Icod de los Vinos (C.I.T)" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.366429792118662"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.714221958536655"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "citicod@telefonica.net" ;
+	ont:horario "Lun-Vie. : 09:00 - 13:00 y de 15:00 - 19:00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Norte> .
+
+<http://www.tenerifetouristinformation.com/resource/C%2F+San+Sebasti%C3%A1n%2C+6> a ont:Direccion ;
+	ont:codigoPostal "38430" .
+
+<http://www.tenerifetouristinformation.com/resource/icod-de-los-vinos-cit> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/C%2F+San+Sebasti%C3%A1n%2C+6> .
+
+<http://www.tenerifetouristinformation.com/resource/nordeste-punta-del-hidalgo-cit> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/San+Crist%C3%B3bal+de+la+Laguna> ;
+	rdfs:label "Nordeste Punta del Hidalgo (C.I.T)" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.571260653490352"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.31791591644287"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "citnordeste@gmail.com" ;
+	ont:horario "9:00 - 15:00 horas" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Metropolitana> .
+
+<http://www.tenerifetouristinformation.com/resource/Plaza+Sebasti%C3%A1n+Ramos%2C+s%2Fn> a ont:Direccion ;
+	ont:codigoPostal "38240" .
+
+<http://www.tenerifetouristinformation.com/resource/nordeste-punta-del-hidalgo-cit> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Plaza+Sebasti%C3%A1n+Ramos%2C+s%2Fn> .
+
+<http://www.tenerifetouristinformation.com/resource/arona-patronato-municipal-de-turismo> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Arona> ;
+	rdfs:label "Arona - Patronato Municipal de Turismo" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.1006319"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.68012939999994"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "turismo@arona.travel" ;
+	ont:horario "Lunes a Viernes de 8:00 a 15:00 horas" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Calle+El+Calvario%2C+5.+Arona+Casco+> a ont:Direccion ;
+	ont:codigoPostal "38640" .
+
+<http://www.tenerifetouristinformation.com/resource/arona-patronato-municipal-de-turismo> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Calle+El+Calvario%2C+5.+Arona+Casco+> .
+
+<http://www.tenerifetouristinformation.com/resource/guia-de-isora-playa-de-san-juan> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Gu%C3%ADa+de+Isora> ;
+	rdfs:label "Guia de Isora - Playa de San Juan" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.1820934"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.81385260000002"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "info.playasanjuan@guiadeisora.org" ;
+	ont:horario "10:00 - 16.00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Av.+Juan+Carlos+I+s%2Fn> a ont:Direccion ;
+	ont:codigoPostal "38687" .
+
+<http://www.tenerifetouristinformation.com/resource/guia-de-isora-playa-de-san-juan> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Av.+Juan+Carlos+I+s%2Fn> .
+
+<http://www.tenerifetouristinformation.com/resource/gua-de-isora-alcal> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Gu%C3%ADa+de+Isora> ;
+	rdfs:label "Guía de Isora - Alcalá" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.2027105"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.829325100000005"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "info.alcala@guiadeisora.org" ;
+	ont:horario "9:00 - 15:00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Paseo+la+Jaquita+s%2Fn+> a ont:Direccion ;
+	ont:codigoPostal "38687" .
+
+<http://www.tenerifetouristinformation.com/resource/gua-de-isora-alcal> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Paseo+la+Jaquita+s%2Fn+> .
+
+<http://www.tenerifetouristinformation.com/resource/gua-de-isora-> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Gu%C3%ADa+de+Isora> ;
+	rdfs:label "Guía de Isora " ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.2097804"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.780933900000036"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "info.guia@guiadeisora.org" ;
+	ont:horario "8:00 - 14:00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Av.+Isora+s%2Fn> a ont:Direccion ;
+	ont:codigoPostal "38680" .
+
+<http://www.tenerifetouristinformation.com/resource/gua-de-isora-> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Av.+Isora+s%2Fn> .
+
+<http://www.tenerifetouristinformation.com/resource/centro-de-visitantes-los-silos> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/Silos+%28Los%29> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/centro-de-visitantes-los-silos> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Silos+%28Los%29> ;
+	rdfs:label "Centro de Visitantes Los Silos" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.365392114617155"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.81771078703605"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "cipa@lossilos.es" ;
+	ont:horario "De lunes a viernes de 9 a 13 h.  Sábados de 9 a 14h" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Isla+Baja> .
+
+<http://www.tenerifetouristinformation.com/resource/Plaza+Ntra+Sra+de+La+Luz+n%C2%BA9> a ont:Direccion ;
+	ont:codigoPostal "38470" .
+
+<http://www.tenerifetouristinformation.com/resource/centro-de-visitantes-los-silos> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Plaza+Ntra+Sra+de+La+Luz+n%C2%BA9> .
+
+<http://www.tenerifetouristinformation.com/resource/santiago-del-teide-acantilado-de-los-gigantes> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Santiago+del+Teide> ;
+	rdfs:label "Santiago del Teide - Acantilado de Los Gigantes" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.2434289"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.839847700000064"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "turismolosgigantes@santiagodelteide.es" ;
+	ont:horario "MARTES A SÁBADO- 09:00-16:00hrs" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Avda.+Jos%C3%A9+Gonz%C3%A1lez+Forte> a ont:Direccion ;
+	ont:codigoPostal "38683" .
+
+<http://www.tenerifetouristinformation.com/resource/santiago-del-teide-acantilado-de-los-gigantes> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Avda.+Jos%C3%A9+Gonz%C3%A1lez+Forte> .
+
+<http://www.tenerifetouristinformation.com/resource/santiago-del-teide-santiago-del-teide> a ont:Lugar ;
+	ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Santiago+del+Teide> ;
+	rdfs:label "Santiago del Teide - Santiago del Teide" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.2961444"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.814611300000024"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "santiago.turismo@santiagodelteide.es" ;
+	ont:horario "martes a sábado 9:00-14:00h" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Av+la+Iglesia%2C+64+Santiago+del+Teide> a ont:Direccion ;
+	ont:codigoPostal "38690" .
+
+<http://www.tenerifetouristinformation.com/resource/santiago-del-teide-santiago-del-teide> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Av+la+Iglesia%2C+64+Santiago+del+Teide> .
+
+<http://www.tenerifetouristinformation.com/resource/tegueste> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/Tegueste> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/tegueste> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Tegueste> ;
+	rdfs:label "Tegueste" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.5230539"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.33629350000001"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "turismo@tegueste.org" ;
+	ont:horario "martes a sábado 7:30-15:00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Norte> .
+
+<http://www.tenerifetouristinformation.com/resource/Plaza+San+Marcos%2C+20> a ont:Direccion ;
+	ont:codigoPostal "38230" .
+
+<http://www.tenerifetouristinformation.com/resource/tegueste> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Plaza+San+Marcos%2C+20> .
+
+<http://www.tenerifetouristinformation.com/resource/el-tanque> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/Tanque+%28El%29> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/el-tanque> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Tanque+%28El%29> ;
+	rdfs:label "El Tanque" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.356326308828926"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.777705550193787"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "Oficinadeturismoeltanque@gmail.com" ;
+	ont:horario "Lun. Mie. Vie de 8:00 a 14:30. Mar y Jue de 8:00 a 13:00" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Isla+Baja> .
+
+<http://www.tenerifetouristinformation.com/resource/Avda.+Pr%C3%ADncipes+de+Espa%C3%B1a+N%C2%BA22> a ont:Direccion ;
+	ont:codigoPostal "38435" .
+
+<http://www.tenerifetouristinformation.com/resource/el-tanque> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Avda.+Pr%C3%ADncipes+de+Espa%C3%B1a+N%C2%BA22> .
+
+<http://www.tenerifetouristinformation.com/resource/centro-de-iniciativas-y-turismo-de-gmar> a ont:Lugar .
+
+<http://www.tenerifetouristinformation.com/resource/Güímar> a ont:Municipio .
+
+<http://www.tenerifetouristinformation.com/resource/centro-de-iniciativas-y-turismo-de-gmar> ont:pertenece_a <http://www.tenerifetouristinformation.com/resource/Güímar> ;
+	rdfs:label "Centro de iniciativas y turismo de Güímar" ;
+	ont:tiene_activity <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:coordenadaX "28.3097545"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:coordenadaY "-16.416087800000014"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	ont:email "citguimar@hotmail.com" ;
+	ont:horario "8.30-14.30" ;
+	ont:tiene_actividad <http://www.tenerifetouristinformation.com/resource/Oficinas+de+informaci%C3%B3n+Tur%C3%ADstica> ;
+	ont:esta_en <http://www.tenerifetouristinformation.com/resource/Sur> .
+
+<http://www.tenerifetouristinformation.com/resource/Avda.+Obispo+P%C3%A9rez+C%C3%A1ceres+n%C2%BA18+G%C3%BC%C3%ADmar+Tenerife> a ont:Direccion ;
+	ont:codigoPostal "38500" .
+
+<http://www.tenerifetouristinformation.com/resource/centro-de-iniciativas-y-turismo-de-gmar> ont:tiene_direccion <http://www.tenerifetouristinformation.com/resource/Avda.+Obispo+P%C3%A9rez+C%C3%A1ceres+n%C2%BA18+G%C3%BC%C3%ADmar+Tenerife> .
