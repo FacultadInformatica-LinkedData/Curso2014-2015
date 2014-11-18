@@ -37,7 +37,13 @@
         <Class IRI="#Lugar"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Monumento"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Municipio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oficina"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Zona"/>
@@ -81,9 +87,17 @@
     <Declaration>
         <NamedIndividual IRI="#Basílica_Ntra._Sra._de_Candelaria"/>
     </Declaration>
+    <SubClassOf>
+        <Class IRI="#Monumento"/>
+        <Class IRI="#Lugar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oficina"/>
+        <Class IRI="#Lugar"/>
+    </SubClassOf>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#esta_en"/>
-        <Class IRI="#Lugar"/>
+        <Class IRI="#Municipio"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#pertenece_a"/>
