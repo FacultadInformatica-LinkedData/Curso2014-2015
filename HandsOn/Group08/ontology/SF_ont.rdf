@@ -535,7 +535,7 @@
 
     <!-- Public Building - PUC Class -->
 
-    <owl:Class rdf:about="&ont;/PUC">
+    <owl:Class rdf:about="&ont;/PUC"/>
 
     <!-- Public Building - PUC - Clean Water Program Class -->
 
