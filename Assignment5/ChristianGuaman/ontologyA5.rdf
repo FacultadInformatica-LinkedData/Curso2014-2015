@@ -1,0 +1,398 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY my_instances "http://example.linkeddata.es/instances/" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY my_vocabulary "http://example.linkeddata.es/my_vocabulary#" >
+]>
+
+
+<rdf:RDF xmlns="http://example.linkeddata.es/instances/"
+     xml:base="http://example.linkeddata.es/instances/"
+     xmlns:my_instances="http://example.linkeddata.es/instances/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:my_vocabulary="http://example.linkeddata.es/my_vocabulary#">
+    <owl:Ontology rdf:about="http://example.linkeddata.es/instances/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.linkeddata.es/instances/governmentForm -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;governmentForm">
+        <rdfs:domain rdf:resource="&my_instances;Country"/>
+        <rdfs:range rdf:resource="&my_instances;GovernmentForm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/hasCapital -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;hasCapital">
+        <rdfs:range rdf:resource="&my_instances;Capital"/>
+        <rdfs:domain rdf:resource="&my_instances;Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/hasCode2 -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;hasCode2">
+        <rdfs:range rdf:resource="&my_instances;Code2"/>
+        <rdfs:domain rdf:resource="&my_instances;Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/hasCountryCode -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;hasCountryCode">
+        <rdfs:range rdf:resource="&my_instances;CountryCode"/>
+        <rdfs:domain rdf:resource="&my_instances;CountryLanguage"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/christian/ontologies/2014/10/untitled-ontology-29#City"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/hasDistrict -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;hasDistrict">
+        <rdfs:range rdf:resource="&my_instances;District"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/christian/ontologies/2014/10/untitled-ontology-29#City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/hasGNP -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;hasGNP">
+        <rdfs:domain rdf:resource="&my_instances;Country"/>
+        <rdfs:range rdf:resource="&my_instances;GNP"/>
+        <owl:equivalentProperty rdf:resource="&my_instances;hasGNPOLD"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/hasGNPOLD -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;hasGNPOLD">
+        <rdfs:domain rdf:resource="&my_instances;Country"/>
+        <rdfs:range rdf:resource="&my_instances;GNPOLD"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/hasHeadOfState -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;hasHeadOfState">
+        <rdfs:domain rdf:resource="&my_instances;Country"/>
+        <rdfs:range rdf:resource="&my_instances;HeadOfState"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/hasLanguage -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;hasLanguage">
+        <rdfs:domain rdf:resource="&my_instances;Country"/>
+        <rdfs:range rdf:resource="&my_instances;CountryLanguage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/hasLocalName -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;hasLocalName">
+        <rdfs:domain rdf:resource="&my_instances;Country"/>
+        <rdfs:range rdf:resource="&my_instances;LocalName"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/hasName -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;hasName">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:domain rdf:resource="&my_instances;Country"/>
+        <rdfs:range rdf:resource="&my_instances;Name"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/christian/ontologies/2014/10/untitled-ontology-29#City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/hasPercentage -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;hasPercentage">
+        <rdfs:domain rdf:resource="&my_instances;CountryLanguage"/>
+        <rdfs:range rdf:resource="&my_instances;Percentage"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/hasPopulation -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;hasPopulation">
+        <rdfs:domain rdf:resource="&my_instances;Country"/>
+        <rdfs:range rdf:resource="&my_instances;Population"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/christian/ontologies/2014/10/untitled-ontology-29#City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/indepYear -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;indepYear">
+        <rdfs:domain rdf:resource="&my_instances;Country"/>
+        <rdfs:range rdf:resource="&my_instances;IndepYear"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/isInContinent -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;isInContinent">
+        <rdfs:range rdf:resource="&my_instances;Continent"/>
+        <rdfs:domain rdf:resource="&my_instances;Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/isInCountry -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;isInCountry">
+        <rdfs:range rdf:resource="&my_instances;Country"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/christian/ontologies/2014/10/untitled-ontology-29#City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/isInRegion -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;isInRegion">
+        <rdfs:domain rdf:resource="&my_instances;Country"/>
+        <rdfs:range rdf:resource="&my_instances;Region"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/isOfficial -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;isOfficial">
+        <rdfs:domain rdf:resource="&my_instances;CountryLanguage"/>
+        <rdfs:range rdf:resource="&my_instances;IsOfficial"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/lifeExpectancy -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;lifeExpectancy">
+        <rdfs:domain rdf:resource="&my_instances;Country"/>
+        <rdfs:range rdf:resource="&my_instances;LifeExpectancy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/nameLanguage -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;nameLanguage">
+        <rdfs:domain rdf:resource="&my_instances;CountryLanguage"/>
+        <rdfs:range rdf:resource="&my_instances;Language"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/surfaceArea -->
+
+    <owl:ObjectProperty rdf:about="&my_instances;surfaceArea">
+        <rdfs:domain rdf:resource="&my_instances;Country"/>
+        <rdfs:range rdf:resource="&my_instances;SurfaceArea"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.linkeddata.es/instances/Percentage -->
+
+    <owl:DatatypeProperty rdf:about="&my_instances;Percentage">
+        <rdfs:domain rdf:resource="&my_instances;Percentage"/>
+        <rdfs:range rdf:resource="&xsd;double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.linkeddata.es/instances/Capital -->
+
+    <owl:Class rdf:about="&my_instances;Capital"/>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/Code2 -->
+
+    <owl:Class rdf:about="&my_instances;Code2"/>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/Continent -->
+
+    <owl:Class rdf:about="&my_instances;Continent"/>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/Country -->
+
+    <owl:Class rdf:about="&my_instances;Country"/>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/CountryCode -->
+
+    <owl:Class rdf:about="&my_instances;CountryCode"/>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/CountryLanguage -->
+
+    <owl:Class rdf:about="&my_instances;CountryLanguage"/>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/District -->
+
+    <owl:Class rdf:about="&my_instances;District"/>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/GNP -->
+
+    <owl:Class rdf:about="&my_instances;GNP"/>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/GNPOLD -->
+
+    <owl:Class rdf:about="&my_instances;GNPOLD"/>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/GovernmentForm -->
+
+    <owl:Class rdf:about="&my_instances;GovernmentForm"/>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/HeadOfState -->
+
+    <owl:Class rdf:about="&my_instances;HeadOfState"/>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/IndepYear -->
+
+    <owl:Class rdf:about="&my_instances;IndepYear"/>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/IsOfficial -->
+
+    <owl:Class rdf:about="&my_instances;IsOfficial"/>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/Language -->
+
+    <owl:Class rdf:about="&my_instances;Language"/>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/LifeExpectancy -->
+
+    <owl:Class rdf:about="&my_instances;LifeExpectancy"/>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/LocalName -->
+
+    <owl:Class rdf:about="&my_instances;LocalName"/>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/Name -->
+
+    <owl:Class rdf:about="&my_instances;Name"/>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/Percentage -->
+
+    <owl:Class rdf:about="&my_instances;Percentage"/>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/Population -->
+
+    <owl:Class rdf:about="&my_instances;Population"/>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/Region -->
+
+    <owl:Class rdf:about="&my_instances;Region"/>
+    
+
+
+    <!-- http://example.linkeddata.es/instances/SurfaceArea -->
+
+    <owl:Class rdf:about="&my_instances;SurfaceArea"/>
+    
+
+
+    <!-- http://www.semanticweb.org/christian/ontologies/2014/10/untitled-ontology-29#City -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/christian/ontologies/2014/10/untitled-ontology-29#City"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
