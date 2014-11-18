@@ -100,12 +100,12 @@
     "engineConfig": {
       "facets": [
         {
-          "to": 1414710000000,
           "expression": "value",
+          "to": 1414710000000,
           "selectError": true,
           "selectTime": true,
-          "selectBlank": true,
           "name": "Date",
+          "selectBlank": true,
           "selectNonTime": true,
           "columnName": "Date",
           "from": 1412114400000,
@@ -587,12 +587,12 @@
           "uri": "http://www.semanticweb.org/group08/Crime#"
         },
         {
-          "name": "xsd",
-          "uri": "http://www.w3.org/2001/XMLSchema#"
-        },
-        {
           "name": "owl",
           "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
         },
         {
           "name": "rdf",
@@ -731,12 +731,12 @@
           "uri": "http://www.semanticweb.org/group08/Crime#"
         },
         {
-          "name": "xsd",
-          "uri": "http://www.w3.org/2001/XMLSchema#"
-        },
-        {
           "name": "owl",
           "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
         },
         {
           "name": "rdf",
@@ -832,6 +832,550 @@
               "target": {
                 "nodeType": "cell-as-resource",
                 "expression": "value+\"/geometry\"",
+                "isRowNumberCell": false,
+                "columnName": "INCIDENTID",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "curie": "geosp:asWKT",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "asWKT"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CATEGORY to TYPE",
+    "oldColumnName": "CATEGORY",
+    "newColumnName": "TYPE"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/Crime/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/Crime#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "INCIDENTID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#incidentid",
+              "curie": "ont:incidentid",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INCIDENTID"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#description",
+              "curie": "ont:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPTION"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#date",
+              "curie": "ont:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "DATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#district",
+              "curie": "ont:district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRICT"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#state",
+              "curie": "ont:state",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "STATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#address",
+              "curie": "ont:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+              "curie": "geosp:hasGeometry",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value+\"/geometry\"",
+                "isRowNumberCell": false,
+                "columnName": "INCIDENTID",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "curie": "geosp:asWKT",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "asWKT"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TYPE using expression grel:if(contains(value,\"VANDALISM\"),\"Vandalism\",\"\")+\nif(contains(value,\"SUSPICIOUS OCC\"), \"Suspicious\", \"\")+\nif(contains(value,\"ASSAULT\"), \"Assault\", \"\")+\nif(contains(value,\"OTHER OFFENSES\"), \"Other\", \"\")+\nif(contains(value,\"LARCENY/THEFT\"), \"Theft\", \"\")+\nif(contains(value,\"DRUG/NARCOTIC\"), \"Narcotics\", \"\")+\nif(contains(value,\"ARSON\"), \"Arson\", \"\")+\nif(contains(value,\"NON CRIMINAL\"), \"Non_criminal\", \"\")+\nif(contains(value,\"BAD CHECKS\"), \"Bad_checks\", \"\")+\nif(contains(value,\"BURGLARY\"), \"Burglary\", \"\")+\nif(contains(value,\"DISORDERLY CONDUCT\"), \"Disorderly_conduct\", \"\")+\nif(contains(value,\"DRIVING UNDER THE INFLUENCE\"), \"Driving\", \"\")+\nif(contains(value,\"DRUNKENNESS\"), \"Drunk\", \"\")+\nif(contains(value,\"EMBEZZLEMENT\"), \"Embezzlement\", \"\")+\nif(contains(value,\"EXTORTION\"), \"Extortion\", \"\")+\nif(contains(value,\"FAMILY OFFENSES\"), \"Family_offenses\", \"\")+\nif(contains(value,\"FORGERY/COUNTERFEITING\"), \"Forgery\", \"\")+\nif(contains(value,\"FRAUD\"), \"Fraud\", \"\")+\nif(contains(value,\"GAMBLING\"), \"Gambling\", \"\")+\nif(contains(value,\"KIDNAPPING\"), \"Kidnapping\", \"\")+\nif(contains(value,\"LIQUOR LAWS\"), \"Liquor\", \"\")+\nif(contains(value,\"LOITERING\"), \"Loitering\", \"\")+\nif(contains(value,\"MISSING PERSON\"), \"Missing\", \"\")+\nif(contains(value,\"PORNOGRAPHY/OBSCENE MAT\"), \"Obscene\", \"\")+\nif(contains(value,\"PROSTITUTION\"), \"Prostitution\", \"\")+\nif(contains(value,\"ROBBERY\"), \"Robbery\", \"\")+\nif(contains(value,\"RUNAWAY\"), \"Runaway\", \"\")+\nif(contains(value,\"SEX OFFENSES, FORCIBLE\"), \"Sex_forcible\", \"\")+\nif(contains(value,\"SEX OFFENSES, NON FORCIBLE\"), \"Sex_nonforcible\", \"\")+\nif(contains(value,\"STOLEN PROPERTY\"), \"Stolen\", \"\")+\nif(contains(value,\"SUICIDE\"), \"Suicide\", \"\")+\nif(contains(value,\"TRESPASS\"), \"Trespass\", \"\")+\nif(contains(value,\"VANDALISM\"), \"Vandalism\", \"\")+\nif(contains(value,\"VEHICLE THEFT\"), \"Theft_vehicle\", \"\")+\nif(contains(value,\"WARRANTS\"), \"Warrants\", \"\")+\nif(contains(value,\"WEAPON LAWS\"), \"Weapons\", \"\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TYPE",
+    "expression": "grel:if(contains(value,\"VANDALISM\"),\"Vandalism\",\"\")+\nif(contains(value,\"SUSPICIOUS OCC\"), \"Suspicious\", \"\")+\nif(contains(value,\"ASSAULT\"), \"Assault\", \"\")+\nif(contains(value,\"OTHER OFFENSES\"), \"Other\", \"\")+\nif(contains(value,\"LARCENY/THEFT\"), \"Theft\", \"\")+\nif(contains(value,\"DRUG/NARCOTIC\"), \"Narcotics\", \"\")+\nif(contains(value,\"ARSON\"), \"Arson\", \"\")+\nif(contains(value,\"NON CRIMINAL\"), \"Non_criminal\", \"\")+\nif(contains(value,\"BAD CHECKS\"), \"Bad_checks\", \"\")+\nif(contains(value,\"BURGLARY\"), \"Burglary\", \"\")+\nif(contains(value,\"DISORDERLY CONDUCT\"), \"Disorderly_conduct\", \"\")+\nif(contains(value,\"DRIVING UNDER THE INFLUENCE\"), \"Driving\", \"\")+\nif(contains(value,\"DRUNKENNESS\"), \"Drunk\", \"\")+\nif(contains(value,\"EMBEZZLEMENT\"), \"Embezzlement\", \"\")+\nif(contains(value,\"EXTORTION\"), \"Extortion\", \"\")+\nif(contains(value,\"FAMILY OFFENSES\"), \"Family_offenses\", \"\")+\nif(contains(value,\"FORGERY/COUNTERFEITING\"), \"Forgery\", \"\")+\nif(contains(value,\"FRAUD\"), \"Fraud\", \"\")+\nif(contains(value,\"GAMBLING\"), \"Gambling\", \"\")+\nif(contains(value,\"KIDNAPPING\"), \"Kidnapping\", \"\")+\nif(contains(value,\"LIQUOR LAWS\"), \"Liquor\", \"\")+\nif(contains(value,\"LOITERING\"), \"Loitering\", \"\")+\nif(contains(value,\"MISSING PERSON\"), \"Missing\", \"\")+\nif(contains(value,\"PORNOGRAPHY/OBSCENE MAT\"), \"Obscene\", \"\")+\nif(contains(value,\"PROSTITUTION\"), \"Prostitution\", \"\")+\nif(contains(value,\"ROBBERY\"), \"Robbery\", \"\")+\nif(contains(value,\"RUNAWAY\"), \"Runaway\", \"\")+\nif(contains(value,\"SEX OFFENSES, FORCIBLE\"), \"Sex_forcible\", \"\")+\nif(contains(value,\"SEX OFFENSES, NON FORCIBLE\"), \"Sex_nonforcible\", \"\")+\nif(contains(value,\"STOLEN PROPERTY\"), \"Stolen\", \"\")+\nif(contains(value,\"SUICIDE\"), \"Suicide\", \"\")+\nif(contains(value,\"TRESPASS\"), \"Trespass\", \"\")+\nif(contains(value,\"VANDALISM\"), \"Vandalism\", \"\")+\nif(contains(value,\"VEHICLE THEFT\"), \"Theft_vehicle\", \"\")+\nif(contains(value,\"WARRANTS\"), \"Warrants\", \"\")+\nif(contains(value,\"WEAPON LAWS\"), \"Weapons\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TYPE using expression grel:replace(value, \"VandalismVandalism\", \"Vandalism\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TYPE",
+    "expression": "grel:replace(value, \"VandalismVandalism\", \"Vandalism\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/Crime/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/Crime#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "cells[\"TYPE\"].value+\"/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "INCIDENTID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#incidentid",
+              "curie": "ont:incidentid",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INCIDENTID"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#description",
+              "curie": "ont:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPTION"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#date",
+              "curie": "ont:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "DATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#district",
+              "curie": "ont:district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRICT"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#state",
+              "curie": "ont:state",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "STATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#address",
+              "curie": "ont:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+              "curie": "geosp:hasGeometry",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value+\"/geometry\"",
+                "isRowNumberCell": false,
+                "columnName": "INCIDENTID",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "curie": "geosp:asWKT",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "asWKT"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/Crime/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/Crime#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "cells[\"TYPE\"].value+\"/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "INCIDENTID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#incidentid",
+              "curie": "ont:incidentid",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INCIDENTID"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#description",
+              "curie": "ont:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPTION"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#date",
+              "curie": "ont:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "DATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#district",
+              "curie": "ont:district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRICT"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#state",
+              "curie": "ont:state",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "STATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#address",
+              "curie": "ont:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+              "curie": "geosp:hasGeometry",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value+\"/geometry\"",
+                "isRowNumberCell": false,
+                "columnName": "INCIDENTID",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "curie": "geosp:asWKT",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "asWKT"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/Crime/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/Crime#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "cells[\"TYPE\"].value+\"/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "INCIDENTID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#incidentid",
+              "curie": "ont:incidentid",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "INCIDENTID"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#description",
+              "curie": "ont:description",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPTION"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#date",
+              "curie": "ont:date",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "DATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#district",
+              "curie": "ont:district",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRICT"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#state",
+              "curie": "ont:state",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "STATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Crime#address",
+              "curie": "ont:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+              "curie": "geosp:hasGeometry",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "cells[\"TYPE\"].value+\"/\"+value+\"/geometry\"",
                 "isRowNumberCell": false,
                 "columnName": "INCIDENTID",
                 "rdfTypes": [],
