@@ -1,0 +1,412 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.example.com#"
+     xml:base="http://www.example.com"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://sandbox.linkeddata.es/onto/Group07"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#containsAddress -->
+
+    <owl:ObjectProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#containsAddress">
+        <rdfs:comment rdf:datatype="&xsd;string">Define the property that a neighborhood contains an address.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Barrio"/>
+        <rdfs:range rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Direccion"/>
+        <owl:inverseOf rdf:resource="http://sandbox.linkeddata.es/onto/Group07#isInNeighborhood"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#containsDistrict -->
+
+    <owl:ObjectProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#containsDistrict">
+        <rdfs:comment rdf:datatype="&xsd;string">Defines the property that a locality contains a district.</rdfs:comment>
+        <rdfs:range rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Distrito"/>
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Localidad"/>
+        <owl:inverseOf rdf:resource="http://sandbox.linkeddata.es/onto/Group07#isInLocality"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#containsLocality -->
+
+    <owl:ObjectProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#containsLocality">
+        <rdfs:comment rdf:datatype="&xsd;string">Defines the property that a province contains a locality.</rdfs:comment>
+        <rdfs:range rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Localidad"/>
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Provincia"/>
+        <owl:inverseOf rdf:resource="http://sandbox.linkeddata.es/onto/Group07#isInProvince"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#containsNeighborhood -->
+
+    <owl:ObjectProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#containsNeighborhood">
+        <rdfs:comment rdf:datatype="&xsd;string">Defines the property that a district contains a Neighborhood.</rdfs:comment>
+        <rdfs:range rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Barrio"/>
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Distrito"/>
+        <owl:inverseOf rdf:resource="http://sandbox.linkeddata.es/onto/Group07#isInDistrict"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#contaisPlace -->
+
+    <owl:ObjectProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#contaisPlace">
+        <rdfs:comment rdf:datatype="&xsd;string">Defines the property that a address contains a place</rdfs:comment>
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Direccion"/>
+        <rdfs:range rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Lugar_Interes"/>
+        <owl:inverseOf rdf:resource="http://sandbox.linkeddata.es/onto/Group07#hasAddress"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#hasAddress -->
+
+    <owl:ObjectProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#hasAddress">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Define the property thar a place has an address.</rdfs:comment>
+        <rdfs:range rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Direccion"/>
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Lugar_Interes"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#hasInfo -->
+
+    <owl:ObjectProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#hasInfo">
+        <rdfs:comment rdf:datatype="&xsd;string">Defines the property that a place has info.</rdfs:comment>
+        <rdfs:range rdf:resource="http://sandbox.linkeddata.es/onto/Group07#InformacionExtra"/>
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Lugar_Interes"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#isInDistrict -->
+
+    <owl:ObjectProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#isInDistrict">
+        <rdfs:comment rdf:datatype="&xsd;string">Defines the property that a neighborhood is in district.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Barrio"/>
+        <rdfs:range rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Distrito"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#isInLocality -->
+
+    <owl:ObjectProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#isInLocality">
+        <rdfs:comment rdf:datatype="&xsd;string">Defines the property that a district is in a locality.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Distrito"/>
+        <rdfs:range rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Localidad"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#isInNeighborhood -->
+
+    <owl:ObjectProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#isInNeighborhood">
+        <rdfs:comment rdf:datatype="&xsd;string">Defines the property that an address is in a neighbordhood.</rdfs:comment>
+        <rdfs:range rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Barrio"/>
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Direccion"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#isInProvince -->
+
+    <owl:ObjectProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#isInProvince">
+        <rdfs:comment rdf:datatype="&xsd;string">Defines the property that a locality is in a Province.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Localidad"/>
+        <rdfs:range rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Provincia"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#isInfo -->
+
+    <owl:ObjectProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#isInfo">
+        <rdfs:comment rdf:datatype="&xsd;string">Defines the property that an info is of a specific place.</rdfs:comment>
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#InformacionExtra"/>
+        <rdfs:range rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Lugar_Interes"/>
+        <owl:inverseOf rdf:resource="http://sandbox.linkeddata.es/onto/Group07#hasInfo"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="&owl;topObjectProperty">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#CodigoPostal -->
+
+    <owl:DatatypeProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#CodigoPostal">
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Direccion"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#Descripcion -->
+
+    <owl:DatatypeProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#Descripcion">
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#InformacionExtra"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#Email -->
+
+    <owl:DatatypeProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#Email">
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#InformacionExtra"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#Fax -->
+
+    <owl:DatatypeProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#Fax">
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#InformacionExtra"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#Horario -->
+
+    <owl:DatatypeProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#Horario">
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#InformacionExtra"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#Latitud -->
+
+    <owl:DatatypeProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#Latitud">
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Lugar_Interes"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#Localidad -->
+
+    <owl:DatatypeProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#Localidad">
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Barrio"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#Longitud -->
+
+    <owl:DatatypeProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#Longitud">
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Lugar_Interes"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#Nombre -->
+
+    <owl:DatatypeProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#Nombre">
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Barrio"/>
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Distrito"/>
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Localidad"/>
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Lugar_Interes"/>
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Provincia"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#NombreVia -->
+
+    <owl:DatatypeProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#NombreVia">
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Direccion"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#Numero -->
+
+    <owl:DatatypeProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#Numero">
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Direccion"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#PK -->
+
+    <owl:DatatypeProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#PK">
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Lugar_Interes"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#Telefono -->
+
+    <owl:DatatypeProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#Telefono">
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#InformacionExtra"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#TipoDeVia -->
+
+    <owl:DatatypeProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#TipoDeVia">
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Direccion"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#TransportePublico -->
+
+    <owl:DatatypeProperty rdf:about="http://sandbox.linkeddata.es/onto/Group07#TransportePublico">
+        <rdfs:domain rdf:resource="http://sandbox.linkeddata.es/onto/Group07#InformacionExtra"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#Barrio -->
+
+    <owl:Class rdf:about="http://sandbox.linkeddata.es/onto/Group07#Barrio"/>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#CentrosCulturales -->
+
+    <owl:Class rdf:about="http://sandbox.linkeddata.es/onto/Group07#CentrosCulturales">
+        <rdfs:subClassOf rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Lugar_Interes"/>
+        <owl:disjointWith rdf:resource="http://sandbox.linkeddata.es/onto/Group07#CentrosDeportivos"/>
+        <owl:disjointWith rdf:resource="http://sandbox.linkeddata.es/onto/Group07#CentrosSalud"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#CentrosDeportivos -->
+
+    <owl:Class rdf:about="http://sandbox.linkeddata.es/onto/Group07#CentrosDeportivos">
+        <rdfs:subClassOf rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Lugar_Interes"/>
+        <owl:disjointWith rdf:resource="http://sandbox.linkeddata.es/onto/Group07#CentrosSalud"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#CentrosSalud -->
+
+    <owl:Class rdf:about="http://sandbox.linkeddata.es/onto/Group07#CentrosSalud">
+        <rdfs:subClassOf rdf:resource="http://sandbox.linkeddata.es/onto/Group07#Lugar_Interes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#Direccion -->
+
+    <owl:Class rdf:about="http://sandbox.linkeddata.es/onto/Group07#Direccion"/>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#Distrito -->
+
+    <owl:Class rdf:about="http://sandbox.linkeddata.es/onto/Group07#Distrito"/>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#InformacionExtra -->
+
+    <owl:Class rdf:about="http://sandbox.linkeddata.es/onto/Group07#InformacionExtra"/>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#Localidad -->
+
+    <owl:Class rdf:about="http://sandbox.linkeddata.es/onto/Group07#Localidad"/>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#Lugar_Interes -->
+
+    <owl:Class rdf:about="http://sandbox.linkeddata.es/onto/Group07#Lugar_Interes"/>
+    
+
+
+    <!-- http://sandbox.linkeddata.es/onto/Group07#Provincia -->
+
+    <owl:Class rdf:about="http://sandbox.linkeddata.es/onto/Group07#Provincia"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

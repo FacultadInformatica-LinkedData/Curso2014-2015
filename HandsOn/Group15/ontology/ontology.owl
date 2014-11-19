@@ -1,0 +1,385 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/asus1/ontologies/2014/10/untitled-ontology-2"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/asus1/ontologies/2014/10/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Barrio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direccion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direccion_GPS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Direccion_Logica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Distrito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Horario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Renfe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sitio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trasporte"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#barrio_tiene"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#distrito_tiene"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_Nombre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_barrio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_direccion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_distrito"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_equipamiento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_horario"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_trasporte"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CoordenadaX"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CoordenadaY"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Latitud"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Longitud"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Barrio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Bus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Horario"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Metro"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Numero"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_distrito"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_equipamiento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_nombre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_nombre_via"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_renfe"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_type_via"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#postalcode"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Bus"/>
+        <Class IRI="#Trasporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Direccion"/>
+        <Class IRI="#Sitio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Direccion_GPS"/>
+        <Class IRI="#Direccion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Direccion_Logica"/>
+        <Class IRI="#Direccion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metro"/>
+        <Class IRI="#Trasporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Renfe"/>
+        <Class IRI="#Trasporte"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Barrio"/>
+        <Class IRI="#Distrito"/>
+        <Class IRI="#Horario"/>
+        <Class IRI="#Sitio"/>
+        <Class IRI="#Trasporte"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bus"/>
+        <Class IRI="#Metro"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Direccion_GPS"/>
+        <Class IRI="#Direccion_Logica"/>
+    </DisjointClasses>
+    <DisjointUnion>
+        <Class IRI="#Direccion"/>
+        <Class IRI="#Direccion_GPS"/>
+        <Class IRI="#Direccion_Logica"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Sitio"/>
+        <Class IRI="#Barrio"/>
+        <Class IRI="#Distrito"/>
+        <Class IRI="#Horario"/>
+        <Class IRI="#Trasporte"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Trasporte"/>
+        <Class IRI="#Bus"/>
+        <Class IRI="#Metro"/>
+        <Class IRI="#Renfe"/>
+    </DisjointUnion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#barrio_tiene"/>
+        <Class IRI="#Barrio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#distrito_tiene"/>
+        <Class IRI="#Distrito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_Nombre"/>
+        <Class IRI="#Sitio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_barrio"/>
+        <Class IRI="#Sitio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_direccion"/>
+        <Class IRI="#Sitio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_distrito"/>
+        <Class IRI="#Sitio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_equipamiento"/>
+        <Class IRI="#Sitio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_horario"/>
+        <Class IRI="#Sitio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_trasporte"/>
+        <Class IRI="#Sitio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#barrio_tiene"/>
+        <Class IRI="#Distrito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#distrito_tiene"/>
+        <Class IRI="#Barrio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene_barrio"/>
+        <Class IRI="#Barrio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene_direccion"/>
+        <Class IRI="#Direccion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene_distrito"/>
+        <Class IRI="#Distrito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene_horario"/>
+        <Class IRI="#Horario"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene_trasporte"/>
+        <Class IRI="#Trasporte"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CoordenadaX"/>
+        <Class IRI="#Direccion_GPS"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CoordenadaY"/>
+        <Class IRI="#Direccion_GPS"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Latitud"/>
+        <Class IRI="#Direccion_GPS"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Longitud"/>
+        <Class IRI="#Direccion_GPS"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Barrio"/>
+        <Class IRI="#Barrio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Bus"/>
+        <Class IRI="#Bus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Horario"/>
+        <Class IRI="#Horario"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Metro"/>
+        <Class IRI="#Metro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Numero"/>
+        <Class IRI="#Direccion_Logica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_distrito"/>
+        <Class IRI="#Distrito"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_equipamiento"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_nombre"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_nombre_via"/>
+        <Class IRI="#Direccion_Logica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_renfe"/>
+        <Class IRI="#Renfe"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_type_via"/>
+        <Class IRI="#Direccion_Logica"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#postalcode"/>
+        <Class IRI="#Sitio"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#CoordenadaX"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CoordenadaY"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Latitud"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Longitud"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Barrio"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Bus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Horario"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Metro"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Numero"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_distrito"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_equipamiento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_nombre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_nombre_via"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_renfe"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_type_via"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#postalcode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->

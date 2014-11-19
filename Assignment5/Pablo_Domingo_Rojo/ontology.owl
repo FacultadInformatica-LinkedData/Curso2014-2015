@@ -1,0 +1,96 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:world="http://example.linkeddata.es/world_ont#">
+
+    <!-- OWL Header -->
+    <owl:Ontology rdf:about="http://example.linkeddata.es/world_ont">
+        <dc:title>Ontology for R2RML Assignment</dc:title>
+        <dc:description>Lightweight ontology that includes the classes and properties (with their domains and ranges) to be used for representing the data into RDF for the world RDB ported to RDF by Morph</dc:description>
+    </owl:Ontology>
+
+    <!-- OWL Class Definition - City Type -->
+    <owl:Class rdf:about="http://www.example.com/world#city">
+        <rdfs:label>The city type</rdfs:label>
+        <rdfs:comment>The class for all the cities</rdfs:comment>
+    </owl:Class>
+
+    <!-- City Class Properties -->
+    <owl:ObjectProperty owl:name="hasName">
+        <owl:domain owl:class="City" />
+        <owl:range owl:datatype="&xsd;positiveInteger" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty owl:name="hasDistrict">
+        <owl:domain owl:class="City" />
+        <owl:range owl:datatype="&xsd;String" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty owl:name="hasCountryCode">
+        <owl:domain owl:class="City" />
+        <owl:range owl:datatype="&xsd;positiveInteger" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty owl:name="hasPopulation">
+        <owl:domain owl:class="City" />
+        <owl:range owl:datatype="&xsd;positiveInteger" />
+    </owl:ObjectProperty>
+
+    <!-- ###################################################### -->
+    <!-- OWL Class Definition - Country Type -->
+    <owl:Class rdf:about="http://www.example.com/world#country">
+        <rdfs:label>The plant type</rdfs:label>
+        <rdfs:comment>The class for all the countries</rdfs:comment>
+    </owl:Class>
+
+    <!-- Country Class Properties -->
+    <owl:ObjectProperty owl:name="hasName">
+        <owl:domain owl:class="Country" />
+        <owl:range owl:datatype="&xsd;String" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty owl:name="hasContinent">
+        <owl:domain owl:class="Country" />
+        <owl:range owl:datatype="&xsd;String" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty owl:name="hasRegion">
+        <owl:domain owl:class="Country" />
+        <owl:range owl:datatype="&xsd;String" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty owl:name="hasSurfaceArea">
+        <owl:domain owl:class="Country" />
+        <owl:range owl:datatype="&xsd;positiveInteger" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty owl:name="hasIndepYear">
+        <owl:domain owl:class="Country" />
+        <owl:range owl:datatype="&xsd;positiveInteger" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty owl:name="hasPopulation">
+        <owl:domain owl:class="Country" />
+        <owl:range owl:datatype="&xsd;positiveInteger" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty owl:name="hasLifeExpectancy">
+        <owl:domain owl:class="Country" />
+        <owl:range owl:datatype="&xsd;positiveInteger" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty owl:name="hasGNP">
+        <owl:domain owl:class="Country" />
+        <owl:range owl:datatype="&xsd;positiveInteger" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty owl:name="hasGNPOld">
+        <owl:domain owl:class="Country" />
+        <owl:range owl:datatype="&xsd;positiveInteger" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty owl:name="hasGovernmentForm">
+        <owl:domain owl:class="Country" />
+        <owl:range owl:datatype="&xsd;String" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty owl:name="hasHeadOfState">
+        <owl:domain owl:class="Country" />
+        <owl:range owl:datatype="&xsd;String" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty owl:name="hasCapital">
+        <owl:domain owl:class="Country" />
+        <owl:range owl:datatype="&xsd;String" />
+    </owl:ObjectProperty>
+    <owl:ObjectProperty owl:name="hasCode2">
+        <owl:domain owl:class="Country" />
+        <owl:range owl:datatype="&xsd;positiveInteger" />
+    </owl:ObjectProperty>
+
+    <!-- ###################################################### -
+
+</rdf:RDF>
