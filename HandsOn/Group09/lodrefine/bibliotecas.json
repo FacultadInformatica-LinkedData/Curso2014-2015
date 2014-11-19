@@ -95,5 +95,10 @@
     "description": "Move column Sitio Web to position 7",
     "columnName": "Sitio Web",
     "index": 7
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DatosPersonales",
+    "columnName": "DatosPersonales"
   }
 ]
