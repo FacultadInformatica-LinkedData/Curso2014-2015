@@ -1,0 +1,45 @@
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT SUM(?x) WHERE {
+?obs a qb:Observation ;
+ mv:numberOfAccidents ?x .
+}
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT ?x xsd:integer(?y) WHERE {
+?obs a qb:Observation ;
+ mv:relatedDistrict "USERA" ;
+ mv:hasAccidentType ?x ;
+ mv:numberOfAccidents ?y .
+}
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT ?x xsd:integer(?y) WHERE {
+?obs a qb:Observation ;
+ mv:relatedDistrict ?x ;
+ mv:hasAccidentType mv:MultipleCollision ;
+ mv:numberOfAccidents ?y .
+}
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT ?x WHERE {
+?obs a qb:Observation ;
+ mv:relatedDistrict ?x ;
+ mv:hasAccidentType mv:BicycleFall ;
+ mv:numberOfAccidents ?y .
+} ORDER BY DESC(?y) LIMIT 1
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT ?x ?z WHERE {
+ {
+  SELECT ?x SUM(xsd:integer(?y)) AS ?z WHERE {
+   ?obs a qb:Observation ;
+   mv:relatedDistrict ?x ;
+   mv:numberOfAccidents ?y .
+  }
+ } FILTER (?z > 500)
+}
