@@ -1,0 +1,397 @@
+format-version: 1.2
+date: 13:11:2014 07:51
+saved-by: Marita
+auto-generated-by: The OWL API (version 3.4.2)
+id_space: rdfs http://www.w3.org/2000/01/rdf-schema#
+id_space: owl http://www.w3.org/2002/07/owl#
+id_space: rdf http://www.w3.org/1999/02/22-rdf-syntax-ns#
+id_space: OntologyGroup12 http://www.semanticweb.org/OntologyGroup12#
+id_space: xsd http://www.w3.org/2001/XMLSchema#
+remark: Ontología de la aplicación del GRUPO doce
+versionInfo: 0.3
+
+
+
+! ----------------------  CLASSES  -------------------------
+
+[Term]
+id: Acceso
+name: Acceso
+is_a: Thing
+
+[Term]
+id: Autobus
+name: Autobus
+is_a: Thing
+
+[Term]
+id: Bibliobus
+name: Bibliobus
+is_a: Autobus
+
+[Term]
+id: Biblioteca
+name: Biblioteca
+is_a: Edificio
+
+[Term]
+id: Centro_cultural
+name: Centro_cultural
+is_a: Edificio
+
+[Term]
+id: Codigo_Postal
+name: Codigo_Postal
+is_a: Direccion
+
+[Term]
+id: Dias_semana
+name: Dias_semana
+is_a: Thing
+
+[Term]
+id: Direccion
+name: Direccion
+is_a: Thing
+
+[Term]
+id: Distrito
+name: Distrito
+is_a: Thing
+
+[Term]
+id: Edificio
+name: Edificio
+is_a: Thing
+
+[Term]
+id: Email
+name: Email
+is_a: Thing
+
+[Term]
+id: Equipamiento
+name: Equipamiento
+is_a: Thing
+
+[Term]
+id: Evento
+name: Evento
+is_a: Thing
+
+[Term]
+id: Fecha
+name: Fecha
+is_a: Thing
+
+[Term]
+id: Geolocalizacion
+name: Geolocalizacion
+is_a: Thing
+
+[Term]
+id: Gratuito
+name: Gratuito
+is_a: Thing
+
+[Term]
+id: Hora
+name: Hora
+is_a: Thing
+
+[Term]
+id: Horario
+name: Horario
+is_a: Thing
+
+[Term]
+id: Identificador
+name: Identificador
+is_a: Thing
+
+[Term]
+id: Larga_duracion
+name: Larga_duracion
+is_a: Thing
+
+[Term]
+id: Nombre
+name: Nombre
+is_a: Thing
+
+[Term]
+id: Numero
+name: Numero
+is_a: Thing
+
+[Term]
+id: Parking
+name: Parking
+is_a: Thing
+
+[Term]
+id: Telefono
+name: Telefono
+is_a: Thing
+
+[Term]
+id: Titulo
+name: Titulo
+is_a: Thing
+
+[Term]
+id: Transporte
+name: Transporte
+is_a: Thing
+
+[Term]
+id: Via
+name: Via
+is_a: Direccion
+
+
+! ----------------------  PROPERTIES  -------------------------
+
+[Typedef]
+id: cercano
+name: cercano
+is_transitive: true
+is_metadata_tag: false
+
+[Typedef]
+id: durante
+name: durante
+is_transitive: true
+is_metadata_tag: false
+
+[Typedef]
+id: en
+name: en
+is_transitive: true
+is_metadata_tag: false
+
+[Typedef]
+id: es
+name: es
+is_transitive: true
+is_metadata_tag: false
+
+[Typedef]
+id: no_tiene
+name: no_tiene
+inverse: tiene
+is_metadata_tag: false
+
+[Typedef]
+id: tiene
+name: tiene
+inverse: no_tiene
+is_metadata_tag: false
+
+
+! ----------------------  INSTANCES  -------------------------
+
+[Instance]
+id: Acceso_a_Minuvalidos
+name: Acceso_a_Minuvalidos
+instance_of: Acceso
+property_value: tiene Edificio
+property_value: tiene Autobus
+property_value: tiene Metro
+
+[Instance]
+id: Autobus
+name: Autobus
+instance_of: Bibliobus
+instance_of: Transporte
+property_value: tiene Cocina
+property_value: no_tiene prestamo_libros
+property_value: tiene sala_de_estudio
+property_value: tiene internet
+property_value: no_tiene Baños
+property_value: tiene prestamo_libros
+property_value: cercano Fiesta_patronal
+property_value: no_tiene Cocina
+property_value: cercano Biblioteca_Manuel_Alvar
+property_value: tiene Baños
+property_value: cercano Parking_de_Goya
+property_value: no_tiene internet
+property_value: no_tiene sala_de_estudio
+
+[Instance]
+id: Baños
+name: Baños
+instance_of: Equipamiento
+property_value: tiene Acceso_a_Minuvalidos
+property_value: no_tiene Acceso_a_Minuvalidos
+
+[Instance]
+id: Biblioteca_Manuel_Alvar
+name: Biblioteca_Manuel_Alvar
+instance_of: Nombre
+property_value: tiene Longitud
+property_value: en Distrito_de_Goya
+property_value: tiene Latitud
+property_value: es Edificio
+
+[Instance]
+id: Coche
+name: Coche
+instance_of: Transporte
+property_value: es Longitud
+property_value: es Latitud
+
+[Instance]
+id: Cocina
+name: Cocina
+instance_of: Equipamiento
+
+[Instance]
+id: Distrito_de_Goya
+name: Distrito_de_Goya
+instance_of: Distrito
+
+[Instance]
+id: Edificio
+name: Edificio
+instance_of: Centro_cultural
+instance_of: Evento
+instance_of: Biblioteca
+instance_of: Parking
+property_value: tiene NombreParking
+property_value: tiene Numero_Calle
+property_value: es Biblioteca_Manuel_Alvar
+property_value: tiene Longitud
+property_value: no_tiene Acceso_a_Minuvalidos
+property_value: tiene TipoVia
+property_value: tiene NombreCalle
+property_value: tiene Acceso_a_Minuvalidos
+property_value: tiene NombreDistrito
+property_value: tiene Latitud
+
+[Instance]
+id: Fiesta_patronal
+name: Fiesta_patronal
+instance_of: Evento
+instance_of: Titulo
+property_value: durante Lunes
+property_value: tiene internet
+property_value: no_tiene Baños
+property_value: durante Jueves
+property_value: no_tiene Acceso_a_Minuvalidos
+property_value: tiene Numero_de_telefono
+property_value: tiene Latitud
+property_value: durante Viernes
+property_value: durante Martes
+property_value: tiene Baños
+property_value: tiene Longitud
+property_value: tiene NombreCalle
+property_value: tiene Acceso_a_Minuvalidos
+property_value: no_tiene NombreCalle
+property_value: no_tiene internet
+property_value: durante Miercoles
+property_value: no_tiene Numero_de_telefono
+
+[Instance]
+id: Jueves
+name: Jueves
+instance_of: Larga_duracion
+instance_of: Dias_semana
+
+[Instance]
+id: Latitud
+name: Latitud
+instance_of: Geolocalizacion
+
+[Instance]
+id: Longitud
+name: Longitud
+instance_of: Geolocalizacion
+
+[Instance]
+id: Lunes
+name: Lunes
+instance_of: Dias_semana
+
+[Instance]
+id: Martes
+name: Martes
+instance_of: Dias_semana
+
+[Instance]
+id: Metro
+name: Metro
+instance_of: Transporte
+
+[Instance]
+id: Miercoles
+name: Miercoles
+instance_of: Dias_semana
+
+[Instance]
+id: NombreCalle
+name: NombreCalle
+instance_of: Via
+
+[Instance]
+id: NombreDistrito
+name: NombreDistrito
+instance_of: Distrito
+
+[Instance]
+id: NombreParking
+name: NombreParking
+instance_of: Parking
+
+[Instance]
+id: Numero_Calle
+name: Numero_Calle
+instance_of: Numero
+
+[Instance]
+id: Numero_de_telefono
+name: Numero_de_telefono
+instance_of: Telefono
+
+[Instance]
+id: Parking_de_Goya
+name: Parking_de_Goya
+instance_of: Parking
+property_value: tiene Acceso_a_Minuvalidos
+property_value: es Edificio
+property_value: no_tiene Acceso_a_Minuvalidos
+
+[Instance]
+id: TipoVia
+name: TipoVia
+instance_of: Via
+
+[Instance]
+id: Viernes
+name: Viernes
+instance_of: Dias_semana
+
+[Instance]
+id: internet
+name: internet
+instance_of: Equipamiento
+
+[Instance]
+id: numeroDias
+name: numeroDias
+instance_of: Larga_duracion
+property_value: durante Viernes
+property_value: durante Jueves
+property_value: durante Lunes
+property_value: durante Martes
+property_value: durante Miercoles
+
+[Instance]
+id: prestamo_libros
+name: prestamo_libros
+instance_of: Equipamiento
+
+[Instance]
+id: sala_de_estudio
+name: sala_de_estudio
+instance_of: Equipamiento
