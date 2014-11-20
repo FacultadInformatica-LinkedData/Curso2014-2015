@@ -1,0 +1,60 @@
+Oscarf - s100048
+
+SPARQL endpoint:http://sandbox.linkeddata.es/sparql
+Graph: http://sandbox.linkeddata.es/graph/accidentes
+
+1. How many accidents were in Madrid in 2013?
+
+PREFIX property: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT (SUM(?x) AS ?total) WHERE {
+    ?obs a qb:Observation ;
+	property:numberOfAccidents ?x .
+}
+
+2. Give me the number of accidents in Usera for each type of accident
+
+PREFIX property: <http://example.org/myVocabulary#>
+SELECT * WHERE {
+	?tipo <http://example.org/myVocabulary#relatedDistrict> 'USERA' ;
+	property:numberOfAccidents ?numero .
+}
+
+3. Give me the number of multiple collisions for each district
+
+PREFIX property: <http://example.org/myVocabulary#>
+SELECT ?district ?numberAccidents WHERE {
+	?a property:numberOfAccidents ?numberAccidents ;
+	property:hasAccidentType property:MultipleCollision ;
+	property:relatedDistrict ?district 
+} ORDER BY ASC(?numberAccidents)
+
+4. Which is the district were the number of bicycle falls was higher in 2013?
+
+PREFIX property: <http://example.org/myVocabulary#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT ?district ?numAccidents WHERE{
+	?obs a qb:Observation ;
+	property:numberOfAccidents ?numAccidents ;
+	property:hasAccidentType property:BicycleFall ;
+	property:relatedDistrict ?district . 
+	{
+		SELECT (MAX(?x) AS ?numAccidents) WHERE {
+			?obss a qb:Observation ;
+			property:numberOfAccidents ?x ;
+			property:relatedDistrict ?distr ;
+			property:hasAccidentType property:BicycleFall .
+		} 
+	}
+}
+
+5. Give me the districts with more than 500 accidents in 2013
+
+PREFIX property: <http://example.org/myVocabulary#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT SUM(xsd:int(?accidents)) ?district WHERE {
+	?obs a qb:Observation ;
+	property:numberOfAccidents ?accidents ;
+	property:relatedDistrict ?district .
+	FILTER(?accidents>500)
+} GROUP BY (?district)
