@@ -1,0 +1,2112 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcat="http://vocab.deri.ie/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:cal="http://www.w3.org/2002/12/cal#"
+    xmlns:dc="http://purl.org/dc/terms/"
+    xmlns:geo="http://www.geonames.org/ontology#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+<geo:feature> <cal:location>40.46458698876553 -3.5703914446288065>
+</cal:location> <geo:name>AEROPUERTO DE BARAJAS T1</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46818962463558 -3.5705870667268464>
+</cal:location> <geo:name>AEROPUERTO DE BARAJAS T2-T3</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.49130484523965 -3.595940488395933>
+</cal:location> <geo:name>AEROPUERTO DE BARAJAS T4</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43888698549595 -3.6736860830619475>
+</cal:location> <geo:name>AV/ AMERICA , 24-26 ESQ. C/ CARTAGENA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.440758999712386 -3.6693538318891292>
+</cal:location> <geo:name>AV/ AMERICA , 41 (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43765348668097 -3.6766450062005926>
+</cal:location> <geo:name>AV/ AMERICA , 4-6</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.456547221042385 -3.6184191763943794>
+</cal:location> <geo:name>AV/ ANDES SEMIESQ. C/ MANUEL AZAÑA (HIPERCOR)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47142652816348 -3.7128924813581596>
+</cal:location> <geo:name>AV/ BETANZOS ESQ. C/ CELANOVA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.474986144455436 -3.7112549360845595>
+</cal:location> <geo:name>AV/ BETANZOS ESQ. C/ MELCHOR F. ALMAGRO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43847827036885 -3.663353293467882>
+</cal:location> <geo:name>AV/ BRUSELAS , 51 ESQ. C/ BREMEN</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47379332949615 -3.6758279636588065>
+</cal:location> <geo:name>AV/ BURGOS , 12</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.461956071538836 -3.616086209032884>
+</cal:location> <geo:name>AV/ CAPITAL DE ESPAÑA - MADRID</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.491298374166405 -3.6894437518175085>
+</cal:location> <geo:name>AV/ CARDENAL HERRERA ORIA , 78</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.376516880196384 -3.6965536892553628>
+</cal:location> <geo:name>AV/ DE ANDALUCIA (Hospital 12 de Octubre)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.37538129376693 -3.6981204810692154>
+</cal:location> <geo:name>AV/ DE ANDALUCIA (Maternidad H. 12 de Octubre)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.3620544527026 -3.754443902016745>
+</cal:location> <geo:name>AV/ DE LA PESETA ESQ. AV/ CARABANCHEL ALTO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44372765314229 -3.7152057184079337>
+</cal:location> <geo:name>AV/ DEL VALLE ESQ. C/ GENERAL AMPUDIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45901165043115 -3.785260923258576>
+</cal:location> <geo:name>AV/ GALAXIA ESQ. AV/ OSA MAYOR</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45205117020253 -3.691648747929217>
+</cal:location> <geo:name>AV/ GENERAL PERON ESQ. PZ/ LIMA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.418899112930085 -3.6216576692274196>
+</cal:location> <geo:name>AV/ GUADALAJARA (C.C. - LAS ROSAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42462649201747 -3.6068452665325>
+</cal:location> <geo:name>AV/ GUADALAJARA SESQ. PO/ DE GINEBRA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42791902077072 -3.6145730381526175>
+</cal:location> <geo:name>AV/ HELLIN FTE. NUM 59</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46954029390455 -3.581568991136272>
+</cal:location> <geo:name>AV/ LOGROÑO (HOTEL BARAJAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38588636229707 -3.7622499421474194>
+</cal:location> <geo:name>AV/ LOS POBLADOS (METRO ALUCHE)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.422971247040145 -3.655892339209597>
+</cal:location> <geo:name>AV/ MARQUES DE CORBERA SESQ. C/ RICARDO ORTIZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38616374388559 -3.6074071189482146>
+</cal:location> <geo:name>AV/ MEDITERRANEO ESQ. C/ VIRGEN DE LA VIÑA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47712657629826 -3.711855601750918>
+</cal:location> <geo:name>AV/ MONFORTE DE LEMOS , 133 SESQ. AV/ BETANZOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.479347370176534 -3.7037503080627125>
+</cal:location> <geo:name>AV/ MONFORTE DE LEMOS ESQ. C/ GINZO DE LIMIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40547885804233 -3.6521398679162727>
+</cal:location> <geo:name>AV/ MORATALAZ ESQ. PZ/ DEL ENCUENTRO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42972444798985 -3.6070679272211734>
+</cal:location> <geo:name>AV/ NIZA ESQ. C/ JULIA GARCIA BOUTAN</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.385340622733644 -3.723800879784201>
+</cal:location> <geo:name>AV/ OPORTO ESQ. C/ PORTALEGRE</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38642085388757 -3.7282423465542465>
+</cal:location> <geo:name>AV/ OPORTO ESQ. CNO/ VIEJO DE LEGANES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38191069761453 -3.663292885203941>
+</cal:location> <geo:name>AV/ PABLO NERUDA (Asamblea de Madrid)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39529568864086 -3.768471515985466>
+</cal:location> <geo:name>AV/ PADRE PIQUER SESQ. C/ SESEÑA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46347587645457 -3.616595491092244>
+</cal:location> <geo:name>AV/ PARTENON ESQ. AV/ CAPITAL DE ESPAÑA - MADRID</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41131484730771 -3.737880502282408>
+</cal:location> <geo:name>AV/ PORTUGAL , 155 (AMBULATORIO)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38792405887165 -3.6401532167738306>
+</cal:location> <geo:name>AV/ RAFAEL ALBERTI (C.S. Federica Montseny)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.37916636320617 -3.770290877117415>
+</cal:location> <geo:name>AV/ RAFAEL FINAT ESQ. C/ JOSE CADALSO , 64</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47123510628124 -3.657022298199162>
+</cal:location> <geo:name>AV/ SAN LUIS FTE. NUMERO 25 (UNIDAD EDITORIAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.3846680050823 -3.605732505786794>
+</cal:location> <geo:name>AV/ SANTA EUGENIA ESQ. C/ PUENTELARRA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.433278206349186 -3.7337347184256506>
+</cal:location> <geo:name>AV/ VALLADOLID (CLINICA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.49393993530965 -3.7172490599081116>
+</cal:location> <geo:name>AV/ VENTISQUERO DE LA CONDESA (CLINICA CEMTRO)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48700659536956 -3.716679675551383>
+</cal:location> <geo:name>AV/ VENTISQUERO DE LA CONDESA ESQ. C/ C. MINGUETE</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.36054398188985 -3.695011335122104>
+</cal:location> <geo:name>AV/ VERBENA DE LA PALOMA , 5 SESQ. C/ PAN Y TOROS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39774512924858 -3.6217812172485964>
+</cal:location> <geo:name>BULEVAR DE JOSE PRAT , 21</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39977156826878 -3.6218941327427556>
+</cal:location> <geo:name>BULEVAR INDALECIO PRIETO , 26 (CENTRO DE SALUD)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47076547438589 -3.685152157693412>
+</cal:location> <geo:name>C/ AGUSTIN DE FOXA ESQ. C/ JOSE DE VASCONCELOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.429152542616876 -3.714968766293233>
+</cal:location> <geo:name>C/ ALBERTO AGUILERA (Hotel Princesa Plaza)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44881463878175 -3.6087727066106794>
+</cal:location> <geo:name>C/ ALCAL , 634 ESQ. C/ CARTAGO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43127626786133 -3.6640134681810888>
+</cal:location> <geo:name>C/ ALCALA (PLAZA DE TOROS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43201281372549 -3.656510713504391>
+</cal:location> <geo:name>C/ ALCALA , 269 (HOTEL RAFAEL HOTELES)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43221922705125 -3.6550625907838183>
+</cal:location> <geo:name>C/ ALCALA , 279 ESQ. C/ ALCALDE LOPEZ CASERO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.433669509440406 -3.647094881268362>
+</cal:location> <geo:name>C/ ALCALA , 341 ESQ. C/ VIRGEN DEL SAGRARIO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43529192178223 -3.6437266426859822>
+</cal:location> <geo:name>C/ ALCALA , 375 ESQ. C/ HERMANOS DE PABLO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.438018546054906 -3.6377865566533947>
+</cal:location> <geo:name>C/ ALCALA , 419 ESQ. C/ ARTURO SORIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.439511402569735 -3.631704739296966>
+</cal:location> <geo:name>C/ ALCALA , 476 (HOTEL VELADA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4451609832152 -3.614824389158087>
+</cal:location> <geo:name>C/ ALCALA , 581 ESQ. C/ EDUARDO TERAN</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.462635630534066 -3.7184139406913337>
+</cal:location> <geo:name>C/ ALCALDE MARTIN DE ALZAGA ESQ. C/ ARTAJONA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.416896922111704 -3.6766020367247587>
+</cal:location> <geo:name>C/ ALCALDE SAINZ DE BARANDA , 16 ESQ. C/ NARVAEZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48664307008991 -3.7040034959506882>
+</cal:location> <geo:name>C/ ALFREDO MARQUERIE , 43 (HOTEL S. MIRASIERRA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4495276256738 -3.7096538877589404>
+</cal:location> <geo:name>C/ ALMANSA , 68</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4248590000111 -3.6207458869348224>
+</cal:location> <geo:name>C/ AMPOSTA SESQ. C/ POBLADURA DEL VALLE</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47046422658905 -3.648356254041059>
+</cal:location> <geo:name>C/ ANGEL LUIS DE LA HERRAN ESQ. C/ TORREGROSA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41346577727071 -3.728286319002401>
+</cal:location> <geo:name>C/ ANTILLON , 1 ESQ. PO/ EXTREMADURA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39407982081132 -3.707728176904313>
+</cal:location> <geo:name>C/ ANTONIO LOPEZ (Hotel Praga)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.388406674551895 -3.6999044414075213>
+</cal:location> <geo:name>C/ ANTONIO LOPEZ ESQ. GTA DE CADIZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.467502627031344 -3.719515627553716>
+</cal:location> <geo:name>C/ ANTONIO MACHADO SESQ. C/ VALDERREY</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41705441950051 -3.7000833494521053>
+</cal:location> <geo:name>C/ ARLABAN ESQ. C/ SEVILLA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.474897417563234 -3.742551733503709>
+</cal:location> <geo:name>C/ ARROYOFRESNO (FTE. HOTEL MONTE REAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45353719693155 -3.654597344647989>
+</cal:location> <geo:name>C/ ARTURO SORIA , 143 ESQ C/ SORZANO (TRAFICO)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47746360467525 -3.6690103714756024>
+</cal:location> <geo:name>C/ ARTURO SORIA , 301 ESQ. C/ CALERUEGA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47990208525786 -3.686413041613164>
+</cal:location> <geo:name>C/ ARZOBISPO MORCILLO , 2 ESQ PO/ CASTELLANA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47990208525786 -3.686413041613164>
+</cal:location> <geo:name>C/ ARZOBISPO MORCILLO SESQ. PS/ CASTELLANA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.409893934913455 -3.693821617020787>
+</cal:location> <geo:name>C/ ATOCHA , 123 (Hotel Husa Po del Arte)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42637290017976 -3.7010523199279457>
+</cal:location> <geo:name>C/ BARCELO , 1</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46995389720975 -3.669914931267785>
+</cal:location> <geo:name>C/ BAUSA (HOTEL NUEVO MADRID)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44826695064767 -3.5767864969925105>
+</cal:location> <geo:name>C/ BELFAST ESQ. C/ MIJANCAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43562765386538 -3.6640091126763936>
+</cal:location> <geo:name>C/ BIARRITZ , 2 (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.446462261111535 -3.7041382980888278>
+</cal:location> <geo:name>C/ BRAVO MURILLO , 97 ESQ. GTA/ CUATRO CAMINOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.436136012132366 -3.7044550115019192>
+</cal:location> <geo:name>C/ BRAVO MURILLO ,27 ESQ. C/ DONOSO CORTES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.434000436795515 -3.7045270432813338>
+</cal:location> <geo:name>C/ BRAVO MURILLO ESQ. GTA/ QUEVEDO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40718759363795 -3.6131705376418797>
+</cal:location> <geo:name>C/ CALAHORRA (FTE. 17)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40907017571093 -3.647919917308845>
+</cal:location> <geo:name>C/ CAMINO DE LOS VINATEROS , 103</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44631854164797 -3.5826659240179453>
+</cal:location> <geo:name>C/ CAMPEZO , 8 (KRIS HOTELES)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40150074484728 -3.687242287639651>
+</cal:location> <geo:name>C/ CANARIAS ESQ. C/ MENDEZ ALVARO (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46415899393393 -3.691690361840293>
+</cal:location> <geo:name>C/ CAPITAN HAYA , 57</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.461500168173956 -3.6918871899122174>
+</cal:location> <geo:name>C/ CAPITAN HAYA ESQ. C/ FRANCISCO GERVAS (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.37483050730028 -3.6923309878792825>
+</cal:location> <geo:name>C/ CARABELOS ESQ. C/ ESTAFETA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43798419795924 -3.6724626318348044>
+</cal:location> <geo:name>C/ CARTAGENA , 83 (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40615263928107 -3.6759994596218997>
+</cal:location> <geo:name>C/ CAVANILLES , 21 ESQ. C/ JUAN DE URBIETA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.438779239571886 -3.7082910299959644>
+</cal:location> <geo:name>C/ CEA BERMUDEZ ESQ. C/ VALLEHERMOSO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43890555892462 -3.714117021901794>
+</cal:location> <geo:name>C/ CEA BERMUDEZ SESQ. C/ ANDRES MELLADO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.404681474766456 -3.745326784264356>
+</cal:location> <geo:name>C/ CEBREROS ESQ. C/ HIGUERAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.372529705543684 -3.7136514359373773>
+</cal:location> <geo:name>C/ CESTONA (Ambulatorio de Orcasitas)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.442820921300665 -3.669551157172243>
+</cal:location> <geo:name>C/ CLARA DEL REY ESQ. C/ CARDENAL SILICEO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.435475391785964 -3.685465847109959>
+</cal:location> <geo:name>C/ CLAUDIO COELLO , 139 (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41081449973899 -3.6549257094284853>
+</cal:location> <geo:name>C/ CNO DE LOS VINATEROS ESQ. C/ A. MEDIA LEGUA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45023680791013 -3.698234119144722>
+</cal:location> <geo:name>C/ COMANDANTE ZORITA ESQ. C/ REINA MERCEDES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.398573828098925 -3.7225403112755107>
+</cal:location> <geo:name>C/ COMUNEROS DE CASTILLA (Tanatorio P.S.Isidro)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.479844553432834 -3.6701194231390377>
+</cal:location> <geo:name>C/ CONDADO DE TREVIÑO SESQ. C/ CALERUEGA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.444046222241425 -3.655389643933005>
+</cal:location> <geo:name>C/ CONDESA DE VENADITO , 67</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.49479368808579 -3.7014453444536635>
+</cal:location> <geo:name>C/ COSTA BRAVA , 13</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47473930324993 -3.661810689572205>
+</cal:location> <geo:name>C/ CUEVAS DE ALMANZORA , 177 ESQ. C/ SOMONTIN</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38781264884834 -3.744528135254258>
+</cal:location> <geo:name>C/ DE LA OCA ESQ. PO/ MUÑOZ GRANDES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39481452393872 -3.6752615499288774>
+</cal:location> <geo:name>C/ DE LA RETAMA (CENTRO COMERCIAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.434472063132354 -3.6753162064393368>
+</cal:location> <geo:name>C/ DIEGO DE LEON , 62 (HOSPITAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.420130561743186 -3.6720726474914764>
+</cal:location> <geo:name>C/ DOCTOR CASTELO (CONSULTAS HOSPITAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.417650174836105 -3.669466584493935>
+</cal:location> <geo:name>C/ DOCTOR ESQUERDO ESQ. C/IBIZA (HOSPITAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.460622556568296 -3.6879859586662866>
+</cal:location> <geo:name>C/ DOCTOR FLEMING ESQ. C/ JUAN HURTADO DE MENDOZA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40874630028055 -3.6364847951938457>
+</cal:location> <geo:name>C/ DOCTOR GARCIA TAPIA , 139</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42358304026507 -3.668617712141261>
+</cal:location> <geo:name>C/ DR. ESQUERDO , 45 (AMBULATORIO)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43959202453132 -3.718192160067816>
+</cal:location> <geo:name>C/ DR. JIMENEZ DIAZ ESQ. PZ/ CRISTO REY (CLINICA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.462816121722526 -3.670374790351682>
+</cal:location> <geo:name>C/ DRACENA ESQ. C/ SANTA MARIA MAGDALENA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41556582837061 -3.695954343958608>
+</cal:location> <geo:name>C/ DUQUE DE MEDINACELI (Fte - Hotel Palace)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4222898656751 -3.6725656546349192>
+</cal:location> <geo:name>C/ DUQUE DE SESTO , 54</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.404880673279564 -3.70198420421093>
+</cal:location> <geo:name>C/ EMBAJADORES ESQ. GTA/ EMBAJADORES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43188908223524 -3.641642798229049>
+</cal:location> <geo:name>C/ EMILIO FERRARI , 49</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44784288364384 -3.6547071868457386>
+</cal:location> <geo:name>C/ EMILIO VARGAS (HOTEL ATRIUM)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39851844667054 -3.638580252516997>
+</cal:location> <geo:name>C/ ENCOMIENDA DE PALACIOS (CUARTEL POLICIA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43110837797564 -3.7220749437827814>
+</cal:location> <geo:name>C/ FERRAZ , 100 ESQ. C/ ROMERO ROBLEDO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47455057095484 -3.702933414073893>
+</cal:location> <geo:name>C/ FERROL , 1</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42935390333754 -3.7026983887616285>
+</cal:location> <geo:name>C/ FUENCARRAL , 111 ESQ. GTA/ BILBAO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43146543999885 -3.703616371907218>
+</cal:location> <geo:name>C/ FUENCARRAL , 131</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40744801628444 -3.631734849947797>
+</cal:location> <geo:name>C/ FUENTE CARRANTONA , 30</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38389576671645 -3.783751749309247>
+</cal:location> <geo:name>C/ FUENTE DE LIMA , 1 ESQ. PO/ EXTREMADURA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42581366669887 -3.67079710530088>
+</cal:location> <geo:name>C/ FUENTE DEL BERRO ESQ. C/ HERMOSILLA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45878205117428 -3.5818654237145866>
+</cal:location> <geo:name>C/ GALEON ESQ. C/ BERGANTIN (HOTEL DIANA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.431807872235254 -3.6931625769597933>
+</cal:location> <geo:name>C/ GENERAL ARRANDO , 17</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.37780871060614 -3.7725843214456303>
+</cal:location> <geo:name>C/ GENERAL ROMERO BASART ESQ. AV/ RAFAEL FINAT</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42713987778817 -3.694882966901151>
+</cal:location> <geo:name>C/ GENOVA ESQ. C/ CAMPOAMOR</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42517112185339 -3.691172926754464>
+</cal:location> <geo:name>C/ GENOVA ESQ. PZ/ COLON</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48413644823046 -3.7073045494489483>
+</cal:location> <geo:name>C/ GINZO DE LIMIA ESQ. C/ FERMIN CABALLERO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.341619474520456 -3.6883649985899036>
+</cal:location> <geo:name>C/ GODELLA ESQ. C/ ROCAFORT</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.424633618920794 -3.670773593857419>
+</cal:location> <geo:name>C/ GOYA , 127 ESQ. C/ FUENTE DEL BERRO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.425446269731346 -3.6873326987222206>
+</cal:location> <geo:name>C/ GOYA , 15 ESQ. C/ SERRANO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.425397891432844 -3.6863773399661013>
+</cal:location> <geo:name>C/ GOYA , 21 ESQ. C/ CLAUDIO COELLO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42525997493169 -3.6838060560493244>
+</cal:location> <geo:name>C/ GOYA , 35 ESQ. C/ VELAZQUEZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.425204368766224 -3.6825441297946293>
+</cal:location> <geo:name>C/ GOYA , 47 ESQ. C/ NUÑEZ DE BALBOA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42566673130264 -3.689645492649193>
+</cal:location> <geo:name>C/ GOYA , 5</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42516655741272 -3.6813177504153716>
+</cal:location> <geo:name>C/ GOYA , 55 ESQ. C/ CASTELLO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.425067268073505 -3.679819619538516>
+</cal:location> <geo:name>C/ GOYA , 65</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42501217178558 -3.6784633978577235>
+</cal:location> <geo:name>C/ GOYA , 77 ESQ. C/ GENERAL PARDIÑAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.424888717791994 -3.6764699199082167>
+</cal:location> <geo:name>C/ GOYA , 89 ESQ. C/ GENERAL DIAZ PORLIER</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4248176296274 -3.6747598932242216>
+</cal:location> <geo:name>C/ GOYA ESQ. C/ FERNAN GONZALEZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.37249716186994 -3.7473279108394113>
+</cal:location> <geo:name>C/ GUAYABA (Ambulatorio Aguacate)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.369048614018155 -3.7156877552912952>
+</cal:location> <geo:name>C/ GUETARIA ESQ. C/ REGIL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44616061574444 -3.7122009406004213>
+</cal:location> <geo:name>C/ GUZMAN EL BUENO ESQ. AV/ REINA VICTORIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40004310570571 -3.633280043998961>
+</cal:location> <geo:name>C/ HACIENDA DE PAVONES (AMBULATORIO)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.424941419543835 -3.628833498391863>
+</cal:location> <geo:name>C/ HERMANOS GARCIA NOBLEJAS (AMBULATORIO)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.429923765328574 -3.6320748003357366>
+</cal:location> <geo:name>C/ HERMANOS GARCIA NOBLEJAS , 49</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42657736160039 -3.689525118445982>
+</cal:location> <geo:name>C/ HERMOSILLA , 2 ESQ. PO/ CASTELLANA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40290628651368 -3.7453896958058333>
+</cal:location> <geo:name>C/ HIGUERAS ESQ. C/ LUIS PANDO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45798348208481 -3.698408666717809>
+</cal:location> <geo:name>C/ HUESCA , 21 SESQ. C/ LAZAGA (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41835087934556 -3.676003665497831>
+</cal:location> <geo:name>C/ IBIZA , 21 ESQ. C/ NARVAEZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39550513660836 -3.7640551884467364>
+</cal:location> <geo:name>C/ ILLESCAS , 59 ESQ. C/ ESCALONA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.392071164486175 -3.756063100928254>
+</cal:location> <geo:name>C/ ILLESCAS ESQ. C/ CAMARENA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.434861803014755 -3.718271518616515>
+</cal:location> <geo:name>C/ ISAAC PERAL , 2</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.514457425734996 -3.6715734857349798>
+</cal:location> <geo:name>C/ ISABEL COLBRAND , 4 ESQ. C/ MARIA TUBAU</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42206027053641 -3.7094712461664034>
+</cal:location> <geo:name>C/ ISABEL LA CATOLICA ESQ. C/ RECODO (H.Mayorazgo)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.480422887357314 -3.716385490139753>
+</cal:location> <geo:name>C/ ISLAS CIES ESQ. C/ ISLA DE AROSA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.492439177876406 -3.6869773863036888>
+</cal:location> <geo:name>C/ ISLAS JARVI , 1 ESQ. AV/ N.S. DE VALVERDE</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.398022643710924 -3.697871162906501>
+</cal:location> <geo:name>C/ JAIME EL CONQUISTADOR ESQ. C/ EMBAJADORES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45291236142291 -3.70861630748401>
+</cal:location> <geo:name>C/ JERONIMA LLORENTE ESQ. C/ LEÑEROS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.37220393435737 -3.759150957109781>
+</cal:location> <geo:name>C/ JOAQUIN TURINA FTE. C/ NAVALMORALES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43834583901106 -3.6950926565472373>
+</cal:location> <geo:name>C/ JOSE ABASCAL , 47 (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.467534669215546 -3.6722972445840125>
+</cal:location> <geo:name>C/ JOSE BARDASANO BAOS , 9 FTE. EDIF. GORBEA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43034362253863 -3.683374182938778>
+</cal:location> <geo:name>C/ JOSE ORTEGA Y GASSET , 29 ESQ. C/ VELAZQUEZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43261062545967 -3.677808797986783>
+</cal:location> <geo:name>C/ JUAN BRAVO , 39 ESQ. C/ GENERAL PARDIÑAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43256465332718 -3.6764289381867012>
+</cal:location> <geo:name>C/ JUAN BRAVO ESQ. C/ GENERAL DIAZ PORLIER</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44771805475125 -3.628503285996735>
+</cal:location> <geo:name>C/ JUAN IGNACIO LUCA DE TENA , 36 (HOTEL MELIA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.3517397168865 -3.6878673348299307>
+</cal:location> <geo:name>C/ JUAN JOSE MARTINEZ SECO ESQ. C/ LEONOR GONGORA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.351639757862294 -3.6910339600359725>
+</cal:location> <geo:name>C/ JUAN JOSE MARTINEZ SECO, 1</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.447482272740615 -3.6370151674112465>
+</cal:location> <geo:name>C/ JUAN RIZI (HOTEL PUERTA DE MADRID)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43383142535088 -3.6324886685096347>
+</cal:location> <geo:name>C/ JULIAN CAMARILLO , 9</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48267726045228 -3.6938861557698845>
+</cal:location> <geo:name>C/ JULIO PALACIOS , 23</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48960732672817 -3.7142294072455275>
+</cal:location> <geo:name>C/ LA MASO , 83 (FTE. HOSPITAL RUBER INT.)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42123796901683 -3.709875177918537>
+</cal:location> <geo:name>C/ LEGANITOS (Hotel El Coloso)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.436366048108916 -3.6887054587380095>
+</cal:location> <geo:name>C/ LOPEZ DE HOYOS , 2</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44363638360877 -3.6749480392406806>
+</cal:location> <geo:name>C/ LOPEZ DE HOYOS , 73</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47020421849125 -3.651338222208843>
+</cal:location> <geo:name>C/ LOPEZ DE HOYOS ESQ. C/ BORJAS BLANCAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46771443426066 -3.6535199982225963>
+</cal:location> <geo:name>C/ LOPEZ DE HOYOS ESQ. C/ GUISONA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45284587888228 -3.613090052645388>
+</cal:location> <geo:name>C/ LUIS DE LA MATA (HOTEL OSUNA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.51436755807065 -3.66059482213862>
+</cal:location> <geo:name>C/ MAESTRO MATEO (TELEFONICA C - NORTE)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41916082120081 -3.673064925352979>
+</cal:location> <geo:name>C/ MAIQUEZ , 34 (HOSPITAL GREGORIO MARAÑON)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.51258490018647 -3.675981204009659>
+</cal:location> <geo:name>C/ MARIA TUBAU , 16 (HOTEL NUEVA CASTELLANA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.388708333554106 -3.6640311483709596>
+</cal:location> <geo:name>C/ MARTINEZ DE LA RIVA ESQ. CARLOS MARTIN ALVAREZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.416464375722185 -3.7052634725678706>
+</cal:location> <geo:name>C/ MAYOR , 4-6</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41390312507481 -3.677078866737827>
+</cal:location> <geo:name>C/ MENENDEZ PELAYO , 65 (HOSPITAL NIÑO JESUS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.467747261268286 -3.663570411404952>
+</cal:location> <geo:name>C/ MESENA ESQ. C/ AÑASTRO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.486737899250784 -3.6927834521615894>
+</cal:location> <geo:name>C/ MODESTO (VISITAS HOSPITAL R.Y.CAJAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43695108706091 -3.6963162934216522>
+</cal:location> <geo:name>C/ MODESTO LA FUENTE , 14 (SANATORIO)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45714972160672 -3.6449966778591767>
+</cal:location> <geo:name>C/ MOSCATELAR ESQ. PZ/ LICEO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46480624467073 -3.6321539728333345>
+</cal:location> <geo:name>C/ MOTA DEL CUERVO , 11 (Villa Rosa)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4669611295328 -3.801796699503659>
+</cal:location> <geo:name>C/ MUSGO (FTE. A FINCA Nº 1)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42129728536849 -3.67592706896819>
+</cal:location> <geo:name>C/ NARVAEZ , 29 ESQ. C/ O'DONNELL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44467435852708 -3.6446179900635105>
+</cal:location> <geo:name>C/ NATALIA DE SILVA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45088028954154 -3.5944275255681513>
+</cal:location> <geo:name>C/ OBENQUE ESQ. C/ CATAMARAN</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.468917944467584 -3.8182400417549953>
+</cal:location> <geo:name>C/ OCHANDIANO ESQ. C/ MARTIN PESCADOR</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.421274987017014 -3.6720250978970514>
+</cal:location> <geo:name>C/ O'DONNELL (MATERNIDAD HOSPITAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46249787512714 -3.708622667844158>
+</cal:location> <geo:name>C/ OFELIA NIETO SESQ. C/ VILLAAMIL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48838967377438 -3.6677619160084114>
+</cal:location> <geo:name>C/ OÑA FTE. NUMERO 15</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44694606883127 -3.695652940186939>
+</cal:location> <geo:name>C/ ORENSE , 1 ESQ. C/ RAIMUNDO FDEZ. VILLAVERDE</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44826236520034 -3.695489625490369>
+</cal:location> <geo:name>C/ ORENSE , 11 ESQ. C/ HERNANI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.449398137697585 -3.695383407499051>
+</cal:location> <geo:name>C/ ORENSE , 17 ESQ. C/ BASILICA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45118301364896 -3.6952013253772478>
+</cal:location> <geo:name>C/ ORENSE , 25 ESQ. C/ REINA MERCEDES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4582681759167 -3.6945195245634572>
+</cal:location> <geo:name>C/ ORENSE , 69 ESQ. C/ SOR ANGELA DE LA CRUZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45969242790008 -3.6943808639300535>
+</cal:location> <geo:name>C/ ORENSE , 81 ESQ. C/ SOR ANGELA DE LA CRUZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45238887740128 -3.686380655497352>
+</cal:location> <geo:name>C/ PADRE DAMIAN , 57 (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45517892321874 -3.6943815710350743>
+</cal:location> <geo:name>C/ PEDRO TEIXEIRA , 5 ESQ. C/ ORENSE (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.412913934818775 -3.6690306958774364>
+</cal:location> <geo:name>C/ PEZ VOLADOR (HOTEL COLON)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38874027052636 -3.7403675030812233>
+</cal:location> <geo:name>C/ PINZÓN ESQ. C/ OCA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45005241842894 -3.668467229795758>
+</cal:location> <geo:name>C/ PRADILLO , 66 (REGISTRO CIVIL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44868290429852 -3.6762367408513184>
+</cal:location> <geo:name>C/ PRADILLO ENTRE C/ MANTUANO Y C/ VINAROZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4198483220593 -3.7058292472838383>
+</cal:location> <geo:name>C/ PRECIADOS ESQ. PZ/ CALLAO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43051620633975 -3.715890988642562>
+</cal:location> <geo:name>C/ PRINCESA (El Corte Ingles)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.427177316532486 -3.7138750709421466>
+</cal:location> <geo:name>C/ PRINCESA , 27 (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43054654233659 -3.7168108804074533>
+</cal:location> <geo:name>C/ PRINCESA ESQ. C/ MARQUES DE URQUIJO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.441191634083516 -3.678590661321847>
+</cal:location> <geo:name>C/ PRINCIPE DE VERGARA ESQ. C/ LOPEZ DE HOYOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.457362647557396 -3.677078580547391>
+</cal:location> <geo:name>C/ PRINCIPE DE VERGARA SESQ. C/ COLOMBIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.439648559471635 -3.719242156168689>
+</cal:location> <geo:name>C/ PROFESOR MARTIN LAGOS (HOSPITAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42808585309487 -3.717008743965871>
+</cal:location> <geo:name>C/ QUINTANA , 11 SESQ. C/ MARTIN DE LOS HEROS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44771690698512 -3.657854530861611>
+</cal:location> <geo:name>C/ RAMIREZ DE ARELLANO , 29</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44990301291999 -3.652038428441225>
+</cal:location> <geo:name>C/ RAMIREZ DE ARELLANO ESQ. C/ ARTURO SORIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48036653684041 -3.723982848585389>
+</cal:location> <geo:name>C/ RAMON GOMEZ DE LA SERNA , 1</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46189701186832 -3.6203907997094875>
+</cal:location> <geo:name>C/ RIBERA DEL LOIRA , 50</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46003038913764 -3.6173542228147353>
+</cal:location> <geo:name>C/ RIBERA DEL LOIRA , 64</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.426716357340354 -3.657944588999115>
+</cal:location> <geo:name>C/ RICARDO ORTIZ , 31 ESQ. C/ SAN MARCELO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.441901044289 -3.697145596602475>
+</cal:location> <geo:name>C/ RIOS ROSAS , 45 ESQ. C/ ALONSO CANO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44880538728511 -3.785130320854516>
+</cal:location> <geo:name>C/ ROSAS DE ARAVACA (ESTACION)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41874320077843 -3.7038610051321825>
+</cal:location> <geo:name>C/ SALUD ESQ. C/ ABADA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43996473271491 -3.6570479135282694>
+</cal:location> <geo:name>C/ SALVADOR DE MADARIAGA , 11 (TANATORIO)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46808210791508 -3.6894775865482754>
+</cal:location> <geo:name>C/ SAN BENITO ESQ. PO/ CASTELLANA  (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40424994889946 -3.6081824746035833>
+</cal:location> <geo:name>C/ SAN CIPRIANO (JUNTO CENTRO COMERCIAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44076089487173 -3.7156577123442034>
+</cal:location> <geo:name>C/ SAN FRANCISCO DE SALES , 15 (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46611210584473 -3.7272150938900412>
+</cal:location> <geo:name>C/ SAN MARTIN DE PORRES (CLINICA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48634048381325 -3.6944548418595473>
+</cal:location> <geo:name>C/ SAN MODESTO (URGENCIAS HOSPITAL R.Y.CAJAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.487044775650276 -3.698674433439211>
+</cal:location> <geo:name>C/ SANGENJO , 34</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4459875430651 -3.703685245503572>
+</cal:location> <geo:name>C/ SANTA ENGRACIA , 179</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43456005378576 -3.698413839502323>
+</cal:location> <geo:name>C/ SANTA ENGRACIA , 56 ESQ. PZ/ PINTOR SOROLLA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43161289351083 -3.69712186529544>
+</cal:location> <geo:name>C/ SANTA ENGRACIA ESQ. C/ GENERAL ARRANDO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44401949792255 -3.6663674904311145>
+</cal:location> <geo:name>C/ SANTA HORTENSIA , 26-28</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47855323271229 -3.646935748073351>
+</cal:location> <geo:name>C/ SANTA SUSANA , 39</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.477592937311705 -3.719469971080069>
+</cal:location> <geo:name>C/ SANTIAGO DE COMPOSTELA , 96 (AUDIENCIA MADRID)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.390440145593395 -3.6461742778821176>
+</cal:location> <geo:name>C/ SANTILLANA DEL MAR , 9</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.426201510756485 -3.687587947719874>
+</cal:location> <geo:name>C/ SERRANO , 42</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4520496681105 -3.681282571574572>
+</cal:location> <geo:name>C/ SERRANO ESQ. C/ CONCHA ESPINA (HOSPITAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.453572946698266 -3.6796232938326225>
+</cal:location> <geo:name>C/ SERRANO ESQ. C/ INFANTA MARIA TERESA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.3797295091566 -3.621297482194963>
+</cal:location> <geo:name>C/ SIERRA DE GADOR ESQ. PZ/ JUAN DE MALASAÑA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.393225949727466 -3.660175393707706>
+</cal:location> <geo:name>C/ SIERRA DEL CADI ESQ. AV/ ALBUFERA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40072035131609 -3.6603782245139236>
+</cal:location> <geo:name>C/ SIERRA TOLEDANA , 4</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45901005459251 -3.69098886122518>
+</cal:location> <geo:name>C/ SOR ANGELA DE LA CRUZ ESQ. PZ/ CUZCO (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42833923344281 -3.6049334487611215>
+</cal:location> <geo:name>C/ SUECIA ESQ. C/ LOS ALPES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4112122280356 -3.7081904932275958>
+</cal:location> <geo:name>C/ TOLEDO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38643107794879 -3.737997668020136>
+</cal:location> <geo:name>C/ UTEBO (PLAZA DE TOROS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48876242286339 -3.6871640841062616>
+</cal:location> <geo:name>C/ VALDEGOVIA , 8-10 (TANATORIO)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42782753518996 -3.6838084821465973>
+</cal:location> <geo:name>C/ VELAZQUEZ , 58 ESQ. C/ AYALA (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.398233635597464 -3.7350627639718335>
+</cal:location> <geo:name>C/ VIA CARPETANA (Canódromo)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45677134224487 -3.6718833021337742>
+</cal:location> <geo:name>C/ VICTOR DE LA SERNA ESQ. C/ COLOMBIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40840586866607 -3.609374866087781>
+</cal:location> <geo:name>C/ VILLAJIMENA ESQ. PO/ ARTILLEROS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.405610766338064 -3.753456895321852>
+</cal:location> <geo:name>C/ VILLAMANIN , 54</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.422846371816284 -3.6897345682367613>
+</cal:location> <geo:name>C/ VILLANUEVA , 4 ESQ. C/ CID</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42233046971733 -3.684071088985477>
+</cal:location> <geo:name>C/ VILLANUEVA ESQ. C/ VELAZQUEZ (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.433813382251095 -3.6567286545055335>
+</cal:location> <geo:name>C/ VIRGEN DE LA ALEGRIA (C.C. LAS VENTAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.435165826137386 -3.658121265266415>
+</cal:location> <geo:name>C/ VIRGEN DE LA ROCA ESQ. AV/ DONOSTIARRA , 11</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43829447985605 -3.6513131447867075>
+</cal:location> <geo:name>C/ VIRGEN SAGRARIO ESQ. C/ VIRGEN CASTAÑAR</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48955151141957 -3.6877857168878765>
+</cal:location> <geo:name>C/ XAUDARO , 2 (HOTEL VILLAMADRID)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47659569762222 -3.6710899016306713>
+</cal:location> <geo:name>C/ YERMA SESQ. C/ SERRANO GALVACHE</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43105861401388 -3.6934142516807857>
+</cal:location> <geo:name>C/ ZURBANO , 36-38 (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43861102877869 -3.69293767546626>
+</cal:location> <geo:name>C/ ZURBANO , 81 ESQ. C/ MALAGA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.464848024152474 -3.78547043511358>
+</cal:location> <geo:name>CAMINO DE LA ZARZUELA , 3 (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.446555384572704 -3.69169853633629>
+</cal:location> <geo:name>COMPLEJO AZCA (GRAN CENTRO COMERCIAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.419726791693826 -3.709493881605396>
+</cal:location> <geo:name>CTA/ SANTO DOMINGO ESQ C/ FOMENTO (H. Ambassador)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46321529671332 -3.647767565494131>
+</cal:location> <geo:name>CTRA/ CANILLAS , 41 ESQ. C/ ANDRES OBISPO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.50819115788946 -3.6455916511499415>
+</cal:location> <geo:name>CTRA/ DEL MEDIODIA (FTE. CENTRO COMERCIAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40644484112166 -3.6890721328341627>
+</cal:location> <geo:name>ESTACION DE ATOCHA (AV/ CIUDAD DE BARCELONA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40653732224486 -3.691689385870744>
+</cal:location> <geo:name>ESTACION DE ATOCHA (AVE) SALIDA MENDEZ ALVARO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.471553253633225 -3.682954211055849>
+</cal:location> <geo:name>ESTACION DE CHAMARTIN</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39490199939227 -3.6787855873855824>
+</cal:location> <geo:name>ESTACION SUR DE AUTOBUSES (C/ MENDEZ ALVARO)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43473512107222 -3.6015834161314055>
+</cal:location> <geo:name>ESTADIO DE LA COMUNIDAD DE MADRID</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39582675375514 -3.74374444066272>
+</cal:location> <geo:name>GTA/ CARMENES ESQ. C/ ALHAMBRA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40685657538286 -3.6695953306880122>
+</cal:location> <geo:name>GTA/ CONDE DE CASAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.381708644578566 -3.6528884006821425>
+</cal:location> <geo:name>GTA/ JOSE LUIS OZORES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44073905992855 -3.6804844864612325>
+</cal:location> <geo:name>GTA/ LOPEZ DE HOYOS , 4</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.397237962022736 -3.715703357155505>
+</cal:location> <geo:name>GTA/ MARQUES DE VADILLO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42985137623154 -3.705332568098015>
+</cal:location> <geo:name>GTA/ RUIZ JIMENEZ</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.420521975895625 -3.720759403170956>
+</cal:location> <geo:name>GTA/ SAN VICENTE SESQ. PO/ LA FLORIDA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38866391365702 -3.7311295442364893>
+</cal:location> <geo:name>GTA/ VALLE DE ORO ESQ. C/ GENERAL RICARDOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48785594708053 -3.694128280304369>
+</cal:location> <geo:name>HOSPITAL RAMON Y CAJAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44472170930735 -3.723399788607251>
+</cal:location> <geo:name>INSTITUTO NACIONAL DE MEDICINA Y SEGURIDAD TRABAJO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43813066058738 -3.676696952990718>
+</cal:location> <geo:name>INTERCAMBIADOR DE TRANSPORTES DE AV/ AMERICA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.446543199855824 -3.692229058837321>
+</cal:location> <geo:name>INTERCAMBIADOR NUEVOS MINISTERIOS (SUBTERRANEO)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.396153024537874 -3.7736541471312703>
+</cal:location> <geo:name>M-502 - CTRA/ CARABANCHEL A ARAVACA , 38</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.360009020847166 -3.661806260545002>
+</cal:location> <geo:name>MERCAMADRID (Cuartel Policía Municipal)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40661640079063 -3.7243823019713393>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.383806641167936 -3.783609342178335>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46828701519263 -3.719417835179618>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.462737727142105 -3.7179314339933445>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45932021705971 -3.7796032231260064>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43075570921574 -3.7164947876646197>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.37751410862355 -3.7721804333536078>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40570939784155 -3.753528705224568>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.404859895452745 -3.7455998041932164>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.403239293796744 -3.745440507436653>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.379486598030425 -3.769552357387384>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.396215610033224 -3.7737255635619915>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39588950956654 -3.743792264398822>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39571939099544 -3.764352191912922>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4134746372189 -3.7283099872749323>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39192918654766 -3.755731600082907>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39468491986771 -3.768193561335417>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.414262656041096 -3.7013980777309747>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4153782737555 -3.6971782303322227>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41785209227796 -3.709627420551295>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42525121145791 -3.6913387848112524>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.420804016048095 -3.707183029413598>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42077084914198 -3.7007937714766173>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42513066234182 -3.681293811366513>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.425379734480686 -3.686400732334018>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42039541693269 -3.72082877795589>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44294232538178 -3.7226968042720086>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.459020658669495 -3.785261028149342>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4479682961383 -3.717078493373689>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46453746290508 -3.7847708962428728>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46917592330589 -3.8187032195851445>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46685155829591 -3.8020077184849566>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.443984483330986 -3.666190268730466>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4615592668112 -3.708895879381711>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.439511874538375 -3.726692562995117>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44869184378892 -3.6762486230022127>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44363645245225 -3.6749362482658126>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44270299126907 -3.669691485073283>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44122759879435 -3.6786028142114655>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44593015190594 -3.690795930242925>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.453763857356726 -3.6793303815339486>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.418341939739804 -3.675991788774464>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.438904865063286 -3.673709843212622>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.437589599059756 -3.6767858529669346>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43033503213606 -3.683303359963585>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4279843882105 -3.6693214777597647>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46727273799345 -3.6724125906837>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45837180206292 -3.677053328977775>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47097385662895 -3.684953736115448>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45165025456988 -3.6863613469958207>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.456770450996174 -3.672036614745897>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42791344991397 -3.7172073243370876>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.490059123953294 -3.592920515528667>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47361215427599 -3.5780178507087346>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45286689083213 -3.588241751438558>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45542575845984 -3.5881815107292083>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46010176464936 -3.6174846164057715>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.463466490369996 -3.6166661761798933>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40469063629344 -3.7021236481706534>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40640462689894 -3.7120645549306968>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.407011465632436 -3.713001985335546>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39811265771251 -3.697883876060046>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40348100961948 -3.693567212871204>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.421232273201674 -3.671623889293544>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41871173414875 -3.6926627413812394>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41915174405666 -3.6730766222782254>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4115030895979 -3.6761590714545793>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40613482889093 -3.6759639260872805>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41685160358794 -3.6766487306846907>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.421387439450164 -3.6759161835547194>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.407720095508466 -3.692762179150357>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.452050535118204 -3.6917548795670774>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44937111238835 -3.6953831289356907>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43345980431943 -3.647540887022959>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45716740958949 -3.6450558172151113>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.36065236787501 -3.6949653394720325>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.341682394710695 -3.6883891859151574>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45338260542698 -3.7083264136014225>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43802761966048 -3.637774851700375>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42300741498703 -3.65586911437363>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47044864390126 -3.651128249280343>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46320615601203 -3.647791067876684>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.470501980510576 -3.6480499114681773>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.476754416788914 -3.659164249878687>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.346467755851506 -3.7090200331581435>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.351699439711275 -3.6915997993028515>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.478148313286916 -3.646849277219771>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40716050518959 -3.6131820771268996>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.447527380451845 -3.6370038009432912>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.448520369242175 -3.5765528124549277>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42968750753404 -3.615756272392076>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42986932874857 -3.606927758598863>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.427701162285864 -3.604633009105458>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.446643149817675 -3.5826097661314353>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.424787247574045 -3.6206862853549078>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42437561119507 -3.6065836687175867>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44884618217135 -3.641261584321487>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40745393104472 -3.6088005826226084>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.423498528431544 -3.627440846275792>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42991469229228 -3.6320865046713897>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44812716768312 -3.69550002422936>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45098454440827 -3.6952464518304167>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45122400889058 -3.6943762391143466>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44604248925058 -3.7123647826748485>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44565887943759 -3.714671964863433>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44185585985175 -3.6971687124949186>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.429832496174086 -3.70547384171981>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.445134271003866 -3.614765186020282>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.439437916319214 -3.631963452261579>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4323280747405 -3.689029740422143>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43407293539882 -3.704457060092022>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44087990160012 -3.7153524040892716>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44648070889102 -3.704067737719653>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43895518704966 -3.7133747247491597>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.438723888531456 -3.7085026833430743>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.431558558383 -3.697168462368183>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.436761584134246 -3.690360158645191>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.438926070483085 -3.6914788467683337>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.441938570486776 -3.7013672901284713>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44465340219767 -3.6918794996232878>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44373600494786 -3.715311931913057>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.438881635856916 -3.692881499767587>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44592484296133 -3.7036256313254117>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4361904219691 -3.7043966276290807>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.476683490560966 -3.686816766394376>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48416325669135 -3.707340227083833>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48706980005039 -3.7166567493931337>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42277556951416 -3.689521660805717>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4252511058762 -3.6837823893339987>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.425177273677214 -3.682555644340102>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.425049528315206 -3.6797722872743526>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.425427621972574 -3.687438605196466>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.424994362296424 -3.6784278536915807>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42579558126343 -3.670808714175665>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.424606798526845 -3.6707379624022343>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43847813505765 -3.6633768736710346>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45735357001768 -3.6770902834788988>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46322116047438 -3.6704377925359966>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44078389409917 -3.680520312037518>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.465461501714465 -3.689309242386569>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.460622416169734 -3.688009546490462>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.451645733203684 -3.6901468727101845>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45834896827809 -3.6945675334719956>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44671170747148 -3.6956741081792512>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4590011166643 -3.690976975305018>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4494652906767 -3.7095353053665363>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44732166702026 -3.6916120538903727>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45975548685525 -3.6943815132115088>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38398182017117 -3.7307136994439576>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.372131634956645 -3.7591854832249103>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.385403313388046 -3.723860458257942>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38798585676891 -3.7442119307188255>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.362332459593766 -3.7532574789317366>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39640554431722 -3.7206317878852606>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.385567690835956 -3.717724050756381>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.372605491655264 -3.7472937698777944>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.37483937481989 -3.692354637947047>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43353183999693 -3.657126772137036>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43219126611445 -3.655227374854281>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.431960692684186 -3.641726006337054>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4474596475597 -3.655564308735005>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4460233968237 -3.6434162928234652>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43827646278528 -3.6513129709147814>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45370755706266 -3.6547405190648923>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39318951173645 -3.6602457350338944>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40594646226164 -3.650694814726693>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39886379078251 -3.6396676307107416>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41080128306919 -3.6556680953451703>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.409061299203316 -3.6478962609087096>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40871972855243 -3.6364020457992616>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42680630857857 -3.6579690430056706>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.479798690344154 -3.6702605429830157>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43500347127789 -3.658155052764203>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4481156964388 -3.6574338910246684>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44990281336691 -3.6520738048152177>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4440746513803 -3.6551422933596553>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.379984069849385 -3.6708724503300965>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38794104702211 -3.664294597350456>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38831723105475 -3.6997974774915163>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.367752475108105 -3.6857568677015142>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.400792419937616 -3.660378928748009>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.387925037056284 -3.639976496727681>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.390368932430015 -3.6460204263189433>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41695539761076 -3.7000705360713497>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40862448852366 -3.7011509722435756>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.361905822661974 -3.664097850481852>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.3797826117501 -3.62147467815354>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38213617861614 -3.6040604931927867>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41125734257879 -3.7081791801749318>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42640936289354 -3.700981966661041>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.487071943415245 -3.69865111666536>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.50774292736352 -3.670515060395955>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48285664896696 -3.694017786713746>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.480177879131816 -3.7238982355426775>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47455057095484 -3.702933414073893>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.50518760828709 -3.695876648405619>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42937235014549 -3.7026278458036885>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.431529001362705 -3.7035345076465176>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.49127198248563 -3.6893372817706136>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.49245726478639 -3.686965770560548>
+</cal:location> <geo:name>PARADA DE TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.493935005020845 -3.6574914763595867>
+</cal:location> <geo:name>PARADA TAXI</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.413221014015285 -3.751054860548779>
+</cal:location> <geo:name>PARQUE DE ATRACCIONES DE LA CASA DE CAMPO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41261425947416 -3.7445774819062545>
+</cal:location> <geo:name>PATRONATO DE LA FERIA DE CAMPO (PALACIO CRISTAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44584013786256 -3.6907832166171004>
+</cal:location> <geo:name>PO/ CASTELLANA , 110 ESQ. C/ JOAQUIN COSTA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.451672688125804 -3.6901589415402185>
+</cal:location> <geo:name>PO/ CASTELLANA , 138 ESQ. PZ/ LIMA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43017673463403 -3.688724839232905>
+</cal:location> <geo:name>PO/ CASTELLANA , 22 (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4327518243691 -3.6889751169577822>
+</cal:location> <geo:name>PO/ CASTELLANA , 33</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.433046273770344 -3.6879406191849404>
+</cal:location> <geo:name>PO/ CASTELLANA , 38</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.447402743041174 -3.6916128849897305>
+</cal:location> <geo:name>PO/ CASTELLANA , 81 SESQ. C/ RAIMUNDO FDEZ. V.</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45087318067915 -3.6912828825743254>
+</cal:location> <geo:name>PO/ CASTELLANA , 93 (AZCA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43721010596662 -3.690683090811026>
+</cal:location> <geo:name>PO/ CASTELLANA ESQ C/ GARCIA DE PAREDES (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45588244508842 -3.689730263693748>
+</cal:location> <geo:name>PO/ CASTELLANA ESQ. C/ PROFESOR WAKSMAN (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43882704794245 -3.6914660413873728>
+</cal:location> <geo:name>PO/ CASTELLANA, 57 (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42134626681785 -3.721487253637505>
+</cal:location> <geo:name>PO/ DE LA FLORIDA , 13 (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40325579682419 -3.6935649013335183>
+</cal:location> <geo:name>PO/ DELICIAS , 45 ESQ. C/ ANCORA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.406985377918524 -3.72444518407272>
+</cal:location> <geo:name>PO/ ERMITA DEL SANTO , 29 (CENTRO COMERCIAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4113881879943 -3.734852299595243>
+</cal:location> <geo:name>PO/ EXTREMADURA , 122 ESQ. C/ TURISMUNDO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.449892309758596 -3.688076996014787>
+</cal:location> <geo:name>PO/ HABANA , 15 ESQ. C/ SANTIAGO BERNABEU</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45569468533338 -3.681897282196477>
+</cal:location> <geo:name>PO/ HABANA , 73 (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44326114890646 -3.719245286134293>
+</cal:location> <geo:name>PO/ JUAN XXIII , 22 (APARTAMENTOS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.434789505120115 -3.7197563018605404>
+</cal:location> <geo:name>PO/ MORET ESQ. PZ/ MONCLOA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.418702725659195 -3.692662648990136>
+</cal:location> <geo:name>PO/ PRADO (LATERAL) - CORREOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41487639571523 -3.7303170399334213>
+</cal:location> <geo:name>PO/ PUERTA DEL ANGEL (FTE. RESTAURANTE)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41366501191201 -3.720933747740581>
+</cal:location> <geo:name>PO/ VIRGEN DEL PUERTO ESQ. C/ SEGOVIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40605286104192 -3.712131558323229>
+</cal:location> <geo:name>PUERTA DE TOLEDO (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40884158385567 -3.7608588963048266>
+</cal:location> <geo:name>PUERTA DEL PARQUE ZOOLOGICO (CASA DE CAMPO)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41244685519638 -3.699245920419746>
+</cal:location> <geo:name>PZ/ ANTON MARTIN (Cine Monumental)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4071242383245 -3.6590737173327854>
+</cal:location> <geo:name>PZ/ C. ALONSO AGUILAR (BINGO) - De 17 a 3h</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43955558221543 -3.7269052703626135>
+</cal:location> <geo:name>PZ/ CARDENAL CISNEROS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.451199178937365 -3.694010401219784>
+</cal:location> <geo:name>PZ/ CARLOS TRIAS BELTRAN</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46739781985419 -3.6894116095730545>
+</cal:location> <geo:name>PZ/ CASTILLA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.417225995366294 -3.7059432865711637>
+</cal:location> <geo:name>PZ/ CELENQUE</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43138224368788 -3.706916567667231>
+</cal:location> <geo:name>PZ/ CONDE VALLE SUCHIL , 16 (HOSPITAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43089138832977 -3.707630582453184>
+</cal:location> <geo:name>PZ/ CONDE VALLE SUCHIL , 7 (HOTEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.346631209115 -3.7088097994682467>
+</cal:location> <geo:name>PZ/ DE AGATA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46583569769691 -3.6884991756801875>
+</cal:location> <geo:name>PZ/ DE CASTILLA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41685746755432 -3.6923961983293463>
+</cal:location> <geo:name>PZ/ DE LA LEALTAD (HOTEL RITZ)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41547857513337 -3.696978891081172>
+</cal:location> <geo:name>PZ/ DE LAS CORTES ESQ. CARR/ SAN JERONIMO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.37995683905153 -3.6709075218699763>
+</cal:location> <geo:name>PZ/ DE LAS REGIONES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4528758394399 -3.5882536227834425>
+</cal:location> <geo:name>PZ/ DEL MAR</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40796113569016 -3.693129998901973>
+</cal:location> <geo:name>PZ/ EMPERADOR CARLOS V ESQ. C/ SANTA ISABEL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42359362076334 -3.7106425949369037>
+</cal:location> <geo:name>PZ/ ESPAÑA ESQ. C/ DE LOS REYES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.385531218120036 -3.7177943526478083>
+</cal:location> <geo:name>PZ/ FERNANDEZ LADREDA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47363005349456 -3.578041598083962>
+</cal:location> <geo:name>PZ/ HERMANOS FALCO Y ALVAREZ TOLEDO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4087588296578 -3.7012820076293735>
+</cal:location> <geo:name>PZ/ LAVAPIES</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39142883745364 -3.694739628418765>
+</cal:location> <geo:name>PZ/ LEGAZPI (ENTRE C/ DELICIAS Y C/ BOLIVAR)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.428020149281494 -3.6693689880319624>
+</cal:location> <geo:name>PZ/ MANUEL BECERRA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.455903995122895 -3.588032361192035>
+</cal:location> <geo:name>PZ/ NAVIO ESQ. AV/ CANTABRIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41135194279328 -3.6758157638890028>
+</cal:location> <geo:name>PZ/ NIÑO JESUS ESQ. AV/ MENENDEZ PELAYO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45942950908117 -3.7794275708404044>
+</cal:location> <geo:name>PZ/ NTRA. SRA. DEL BUEN CONSEJO ESQ. AV/ OSA MAYOR</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44563243737342 -3.7145773488167015>
+</cal:location> <geo:name>PZ/ PRESIDENTE GARCIA MORENO</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.416977570822596 -3.705315979281557>
+</cal:location> <geo:name>PZ/ PUERTA DEL SOL ESQ. C/ ARENAL</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45835399238183 -3.6770177674795885>
+</cal:location> <geo:name>PZ/ REPUBLICA DOMINICANA ESQ. C/ PPE. DE VERGARA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45159634390597 -3.686337212377644>
+</cal:location> <geo:name>PZ/ SAGRADOS CORAZONES ESQ. PO/ HABANA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.420550176309355 -3.7089131510861932>
+</cal:location> <geo:name>PZ/ SANTO DOMINGO , 7</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38400013486651 -3.7306667724208364>
+</cal:location> <geo:name>PZ/ TARIFA ESQ. C/ AVEFRIA</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4067893050247 -3.712504661922522>
+</cal:location> <geo:name>RONDA DE SEGOVIA (AMBULATORIO)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.49242817090639 -3.662633458830336>
+</cal:location> <geo:name>SANCHINARRO - HOSPITAL DE LA MORALEJA (SANITAS )</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4695305730007 -3.581710461985635>
+</cal:location> <geo:name>TAXI - (APARCAMIENTO HOTEL MELIA BARAJAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38132139660105 -3.662368203286692>
+</cal:location> <geo:name>TAXI - (ASAMBLEA DE MADRID - 6 PLAZAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.477529511700844 -3.7195282818683393>
+</cal:location> <geo:name>TAXI - (AUDIENCIA PROVINCIAL DE MADRID)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.3944600237138 -3.6758000302044094>
+</cal:location> <geo:name>TAXI - (C.C. EL CORTE INGLES)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44686220468024 -3.6931167482818203>
+</cal:location> <geo:name>TAXI - (C.C. EL CORTE INGLES)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.424665929390585 -3.674510821935762>
+</cal:location> <geo:name>TAXI - (C.C. EL CORTE INGLES)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.424912638316535 -3.6770006371929633>
+</cal:location> <geo:name>TAXI - (C.C. EL CORTE INGLES)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45670981683478 -3.618338109436573>
+</cal:location> <geo:name>TAXI - (C.C. EL CORTE INGLES)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.50798633675418 -3.6451647812457786>
+</cal:location> <geo:name>TAXI - (C.C. EL ENCINAR)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.363353518748575 -3.7402310072857463>
+</cal:location> <geo:name>TAXI - (C.C. ISLA AZUL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47914178074292 -3.7049633410320277>
+</cal:location> <geo:name>TAXI - (C.C. LA VAGUADA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.419100279921324 -3.6211055131951717>
+</cal:location> <geo:name>TAXI - (C.C. LAS ROSAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.404274556570044 -3.608642303901547>
+</cal:location> <geo:name>TAXI - (C.C. VICALVARO - 5 PLAZAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38874161258544 -3.6389356195934552>
+</cal:location> <geo:name>TAXI - (C.S. RAFAEL ALBERTI)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.399888870804254 -3.62185986001219>
+</cal:location> <geo:name>TAXI - (C.S. VALDEBERNARDO)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43009346724363 -3.7157804022618732>
+</cal:location> <geo:name>TAXI - (CC EL CORTE INGLES)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.411051045422965 -3.738278343072684>
+</cal:location> <geo:name>TAXI - (CENTRO DE SALUD)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42328541800307 -3.66867370576477>
+</cal:location> <geo:name>TAXI - (CENTRO ESPECIALIDADES)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40151266953228 -3.5957842863882647>
+</cal:location> <geo:name>TAXI - (CERCANIAS PUERTA DE ARGANDA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.49393964236715 -3.717296258585623>
+</cal:location> <geo:name>TAXI - (CLINICA CENTRO)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.437293266273194 -3.6963434047329624>
+</cal:location> <geo:name>TAXI - (CLINICA LA MILAGROSA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.462468131181765 -3.7843693756608543>
+</cal:location> <geo:name>TAXI - (CLINICA LA ZARZUELA (INTERIOR))</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46608500659132 -3.7272265971715672>
+</cal:location> <geo:name>TAXI - (CLINICA PUERTA DE HIERRO)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.516029058077144 -3.66306643286357>
+</cal:location> <geo:name>TAXI - (COMPLEJO TELEFONICA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.512954959819695 -3.663425675682097>
+</cal:location> <geo:name>TAXI - (COMPLEJO TELEFONICA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.49472197934385 -3.701385594707793>
+</cal:location> <geo:name>TAXI - (EN AMBAS ACERAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.372589056613954 -3.7142528039607274>
+</cal:location> <geo:name>TAXI - (ESPECIALIDADES ORCASITAS, 2 PLAZAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.406490375291604 -3.688990101006425>
+</cal:location> <geo:name>TAXI - (EST. ATOCHA CERCANIAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40650945064643 -3.691830522635092>
+</cal:location> <geo:name>TAXI - (ESTACION ATOCHA AVE)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44886680004657 -3.784046122652786>
+</cal:location> <geo:name>TAXI - (ESTACION CERCANIAS ARAVACA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47283096239207 -3.681693105411053>
+</cal:location> <geo:name>TAXI - (ESTACION CHAMARTIN)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39492022399373 -3.678750420922692>
+</cal:location> <geo:name>TAXI - (ESTACION SUR AUTOBUSES)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47122589664238 -3.657057597924854>
+</cal:location> <geo:name>TAXI - (FRENTE A UNIDAD EDITORIAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.420087368660695 -3.6717539537622974>
+</cal:location> <geo:name>TAXI - (G. MARAÑON. C. EXTERNAS. 9 PLAZAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43078335918641 -3.7076176606706106>
+</cal:location> <geo:name>TAXI - (GRAN HOTEL CONDE DUQUE - 3 PLAZAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.428251004027175 -3.6838009821826456>
+</cal:location> <geo:name>TAXI - (GRAN HOTEL VELAZQUEZ)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.37517219346781 -3.696940352012371>
+</cal:location> <geo:name>TAXI - (H. 12 DE OCTUBRE. MATERNIDAD)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.37672393489289 -3.696579381516634>
+</cal:location> <geo:name>TAXI - (H. 12 DE OCTUBRE. PRINCIPAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41442444605316 -3.6772844638190896>
+</cal:location> <geo:name>TAXI - (H. NIÑO JESUS - 6 PLAZAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48858100566235 -3.696401258386684>
+</cal:location> <geo:name>TAXI - (H. RAMON Y CAJAL. CONSULTAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.487836300135996 -3.6943994638364215>
+</cal:location> <geo:name>TAXI - (H. RAMON Y CAJAL. PTA PRINCIPAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.486206917497896 -3.694193884879711>
+</cal:location> <geo:name>TAXI - (H. RAMON Y CAJAL. URGENCIAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.439969425281326 -3.718349459445772>
+</cal:location> <geo:name>TAXI - (HOSPITAL CLINICO DE SAN CARLOS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.434472614044445 -3.675221891453748>
+</cal:location> <geo:name>TAXI - (HOSPITAL DE LA PRINCESA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43957400771654 -3.718191968334246>
+</cal:location> <geo:name>TAXI - (HOSPITAL FUNDACION JIMENEZ DIAZ)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.418578395072046 -3.6694168489155015>
+</cal:location> <geo:name>TAXI - (HOSPITAL G. MARAÑON. 6 PLAZAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38705970167067 -3.616852400082>
+</cal:location> <geo:name>TAXI - (HOSPITAL INFANTA LEONOR)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4796223341932 -3.6864927778946504>
+</cal:location> <geo:name>TAXI - (HOSPITAL LA PAZ)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.479927428567066 -3.68669645192342>
+</cal:location> <geo:name>TAXI - (HOSPITAL LA PAZ)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43258273930314 -3.6764173296863927>
+</cal:location> <geo:name>TAXI - (HOSPITAL RUBER - 3 PLAZAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.451932141110845 -3.6813521432899403>
+</cal:location> <geo:name>TAXI - (HOSPITAL SAN RAFAEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42234820773025 -3.6841184204384154>
+</cal:location> <geo:name>TAXI - (HOTE WELLINGTON)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.474688558985136 -3.7428089680593764>
+</cal:location> <geo:name>TAXI - (HOTEL AC MONTE REAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.455882304347476 -3.6897538498515656>
+</cal:location> <geo:name>TAXI - (HOTEL AITANA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45062424159956 -3.698226336275451>
+</cal:location> <geo:name>TAXI - (HOTEL ATLANTA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44930061990228 -3.5589294059758503>
+</cal:location> <geo:name>TAXI - (HOTEL AUDITORIUM)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46786406794527 -3.6882721754501993>
+</cal:location> <geo:name>TAXI - (HOTEL CASTELLANA ABBA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41329992434725 -3.667714445526603>
+</cal:location> <geo:name>TAXI - (HOTEL COLON)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41289571313381 -3.6690658743017>
+</cal:location> <geo:name>TAXI - (HOTEL COLON)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42224859266781 -3.6719169074964197>
+</cal:location> <geo:name>TAXI - (HOTEL CONVENCION)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.489328870297406 -3.7140966590033915>
+</cal:location> <geo:name>TAXI - (HOTEL DEHESA REAL, HOSPITAL RUBER)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.421390316520046 -3.710006444776429>
+</cal:location> <geo:name>TAXI - (HOTEL EL COLOSO)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43639335445551 -3.6886585757968167>
+</cal:location> <geo:name>TAXI - (HOTEL EMPERATRIZ)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45842000640511 -3.685687200707451>
+</cal:location> <geo:name>TAXI - (HOTEL EUROBUILDIG)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42108671384885 -3.7212133633958233>
+</cal:location> <geo:name>TAXI - (HOTEL FLORIDA NORTE. 4 PLAZAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.426559555547875 -3.689489570580176>
+</cal:location> <geo:name>TAXI - (HOTEL GRAN MELIA FENIX)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.51263957179706 -3.6758755193495656>
+</cal:location> <geo:name>TAXI - (HOTEL HIGH TECH NUEVA CASTELLANA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42730263385809 -3.7140060727011184>
+</cal:location> <geo:name>TAXI - (HOTEL HUSA PRINCESA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42998539900809 -3.714317387922123>
+</cal:location> <geo:name>TAXI - (HOTEL HUSA PRINCESA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40982335176769 -3.6935733913536355>
+</cal:location> <geo:name>TAXI - (HOTEL LAS ARTES. 1 PLAZA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42187181631372 -3.7093513877667608>
+</cal:location> <geo:name>TAXI - (HOTEL MAYORAZGO)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.44770904619046 -3.6285032020773373>
+</cal:location> <geo:name>TAXI - (HOTEL MELIA AVENIDA DE AMERICA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46133780474074 -3.691920908312614>
+</cal:location> <geo:name>TAXI - (HOTEL MELIA CAPITAN HAYA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43537643834583 -3.6854412617616155>
+</cal:location> <geo:name>TAXI - (HOTEL MELIA LOS GALGOS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.486707422092756 -3.703791782992856>
+</cal:location> <geo:name>TAXI - (HOTEL MIRASIERRA SUITES)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43830831621767 -3.695339875306607>
+</cal:location> <geo:name>TAXI - (HOTEL NH ABASCAL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45107890348304 -3.594346724688>
+</cal:location> <geo:name>TAXI - (HOTEL NH BARAJAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.469453865120265 -3.6691432106736706>
+</cal:location> <geo:name>TAXI - (HOTEL NUEVO MADRID)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.455142251868544 -3.6944873365176054>
+</cal:location> <geo:name>TAXI - (HOTEL ORENSE)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45270931131184 -3.6133600566924224>
+</cal:location> <geo:name>TAXI - (HOTEL OSUNA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.415448647076566 -3.695964923305469>
+</cal:location> <geo:name>TAXI - (HOTEL PALACE)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43560049287859 -3.6640324260046486>
+</cal:location> <geo:name>TAXI - (HOTEL PARQUE DE LAS AVENIDAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.455749083880775 -3.6818388632663486>
+</cal:location> <geo:name>TAXI - (HOTEL PASEO HABANA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.394061371103064 -3.7077986817181605>
+</cal:location> <geo:name>TAXI - (HOTEL PRAGA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43205999812126 -3.6561339036483345>
+</cal:location> <geo:name>TAXI - (HOTEL RAFAEL HOTEL VENTAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40150081488471 -3.6872305040495017>
+</cal:location> <geo:name>TAXI - (HOTEL RAFAEL)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.415925850118164 -3.6930113494779526>
+</cal:location> <geo:name>TAXI - (HOTEL RITZ)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43086007413644 -3.6934711594822787>
+</cal:location> <geo:name>TAXI - (HOTEL SANTO MAURO. 3 PLAZAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4409501575066 -3.6690137832244476>
+</cal:location> <geo:name>TAXI - (HOTEL SILKEN PUERTA DE AMERICA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45798227053044 -3.6986091549303137>
+</cal:location> <geo:name>TAXI - (HOTEL SOL INN  INFANTA MERCEDES)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41960903073324 -3.709598731532887>
+</cal:location> <geo:name>TAXI - (HOTEL TRIPAMBASSADOR)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.45861740147429 -3.5823593644703706>
+</cal:location> <geo:name>TAXI - (HOTEL TRYP DIANA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48953800656126 -3.688540759156391>
+</cal:location> <geo:name>TAXI - (HOTEL VILLAMADRID)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42988797166032 -3.68880441813272>
+</cal:location> <geo:name>TAXI - (HOTEL VILLAMAGNA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.438094074474435 -3.6767909117150466>
+</cal:location> <geo:name>TAXI - (INTERCAMBIADOR AVDA DE AMERICA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.385450306001154 -3.761432104769274>
+</cal:location> <geo:name>TAXI - (INTERCAMBIADOR DE ALUCHE)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.448414967692045 -3.609394103976008>
+</cal:location> <geo:name>TAXI - (INTERCAMBIADOR DE CANILLEJAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43482619932892 -3.7196505821877177>
+</cal:location> <geo:name>TAXI - (INTERCAMBIADOR MONCLOA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46500121540479 -3.616066850137421>
+</cal:location> <geo:name>TAXI - (INTERIOR IFEMA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46480837649993 -3.691567274449074>
+</cal:location> <geo:name>TAXI - (JUZGADOS PLAZA DE CASTILLA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43388625072632 -3.632347702511747>
+</cal:location> <geo:name>TAXI - (JUZGADOS Y MOVILIDAD AYUNTAMIENTO)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4757628608876 -3.5820945711238936>
+</cal:location> <geo:name>TAXI - (METRO BARAJAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.433126999267934 -3.6880003909917263>
+</cal:location> <geo:name>TAXI - (MUSEO DE ESCULTURAS)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46187924796533 -3.620343456789428>
+</cal:location> <geo:name>TAXI - (P. EMPRESARIAL LAS NACIONES)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.41348478291482 -3.7506688431956507>
+</cal:location> <geo:name>TAXI - (PARQUE DE ATRACCIONES)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42359333093287 -3.7106897444786804>
+</cal:location> <geo:name>TAXI - (PLAZA DE ESPAÑA)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38635037781132 -3.73793787899336>
+</cal:location> <geo:name>TAXI - (PLAZA DE TOROS VISTALEGRE)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43990174007009 -3.657035509217733>
+</cal:location> <geo:name>TAXI - (TANATORIO M-30)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48876214223678 -3.6872112794608634>
+</cal:location> <geo:name>TAXI - (TANATORIO NORTE)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46376458300878 -3.5709152727947187>
+</cal:location> <geo:name>TAXI - (TERMINAL 1)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.469150762525445 -3.5693330117718434>
+</cal:location> <geo:name>TAXI - (TERMINAL 2)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.432619772193895 -3.6777853103540954>
+</cal:location> <geo:name>TAXI - (USP HOSPITAL SAN CAMILO)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40688175792482 -3.669913781945625>
+</cal:location> <geo:name>TAXI - 15 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42715725700105 -3.6949892447576267>
+</cal:location> <geo:name>TAXI - 2 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.42368129893426 -3.700706094241257>
+</cal:location> <geo:name>TAXI - 2 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40008737430921 -3.6334218677360433>
+</cal:location> <geo:name>TAXI - 2 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.351733368586686 -3.68741979624803>
+</cal:location> <geo:name>TAXI - 2 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46492599931745 -3.6316714840766893>
+</cal:location> <geo:name>TAXI - 3 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.39778915854973 -3.6219701611798416>
+</cal:location> <geo:name>TAXI - 3 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47758972286188 -3.669011623382157>
+</cal:location> <geo:name>TAXI - 3 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.368886533497275 -3.715674262153067>
+</cal:location> <geo:name>TAXI - 3 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.386323244335095 -3.7280056624590796>
+</cal:location> <geo:name>TAXI - 3 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.425657722818215 -3.6896454006379455>
+</cal:location> <geo:name>TAXI - 3 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.48135602431581 -3.7169971206314987>
+</cal:location> <geo:name>TAXI - 3 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47164411113457 -3.712670647993286>
+</cal:location> <geo:name>TAXI - 3 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47774953349546 -3.71163802687375>
+</cal:location> <geo:name>TAXI - 3 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43326018957672 -3.733734522586608>
+</cal:location> <geo:name>TAXI - 3 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43118376959896 -3.7069616472000213>
+</cal:location> <geo:name>TAXI - 3 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.417207978433595 -3.7059430982561956>
+</cal:location> <geo:name>TAXI - 4 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.435319275670906 -3.643667952448882>
+</cal:location> <geo:name>TAXI - 4 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43442485575288 -3.6984242306598905>
+</cal:location> <geo:name>TAXI - 4 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.391437138045916 -3.6948575391692713>
+</cal:location> <geo:name>TAXI - 5 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.418924518096915 -3.70367429742915>
+</cal:location> <geo:name>TAXI - 6 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.416509346169114 -3.7052757290528966>
+</cal:location> <geo:name>TAXI - 6 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.449838048479975 -3.688111820811488>
+</cal:location> <geo:name>TAXI - 8 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.408613659615064 -3.7612688223741033>
+</cal:location> <geo:name>TAXI - CERRADO DE 20:00 A 7:00 H</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43801108628327 -3.6724864811048086>
+</cal:location> <geo:name>TAXI - HOTEL AC</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46202133095935 -3.615673983749486>
+</cal:location> <geo:name>TAXI - PALACIO CONGRESOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.431771626302826 -3.6931975735303504>
+</cal:location> <geo:name>TAXI (DE LUNES A JUEVES DE 8:30 A 17:30)</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.46801318120039 -3.653263383501024>
+</cal:location> <geo:name>TAXI -3 PLAZAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.40702574857803 -3.658966689112127>
+</cal:location> <geo:name>TAXI DE 17:00 A 3:00 HORAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.451071366397656 -3.6912849134441625>
+</cal:location> <geo:name>TAXI DE 20 A 06 HORAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.38186140395873 -3.6100663025397957>
+</cal:location> <geo:name>TAXI EXCEPTO DE 20 A 8 HORAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47664954276419 -3.671125830084396>
+</cal:location> <geo:name>TAXI EXCEPTO SABADOS Y DOMINGOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.47379319154169 -3.6758515561508234>
+</cal:location> <geo:name>TAXI EXCEPTO SABADOS Y FESTIVOS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.4498431087372 -3.668830731089323>
+</cal:location> <geo:name>TAXI LABORABLES DE 8 A 20 HORAS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.43125796710662 -3.662492441988736>
+</cal:location> <geo:name>TAXI SÓLO EN DIA DE TOROS</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.51455211627854 -3.66610914064264>
+</cal:location> <geo:name>TELEFONICA C - SUR</geo:name>
+</geo:feature>
+<geo:feature> <cal:location>40.411956929969605 -3.736084241496979>
+</cal:location> <geo:name>VIA SERVICIO AV/ PORTUGAL , 131 (BINGO MACOES)</geo:name>
+</geo:feature>
+</rdf:RDF>

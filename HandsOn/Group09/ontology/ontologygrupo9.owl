@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://culturizate.castillayleon.es/ontology#"
+     xml:base="http://culturizate.castillayleon.es/ontology"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://culturizate.castillayleon.es/ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://culturizate.castillayleon.es/ontology#Tiene_contacto -->
+
+    <owl:ObjectProperty rdf:about="http://culturizate.castillayleon.es/ontology#Tiene_contacto">
+        <rdfs:range rdf:resource="http://culturizate.castillayleon.es/ontology#Datos_de_Contacto"/>
+        <rdfs:domain rdf:resource="http://culturizate.castillayleon.es/ontology#Tipo_de_Centro"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://culturizate.castillayleon.es/ontology#Tiene_direccion -->
+
+    <owl:ObjectProperty rdf:about="http://culturizate.castillayleon.es/ontology#Tiene_direccion">
+        <rdfs:range rdf:resource="http://culturizate.castillayleon.es/ontology#Direccion"/>
+        <rdfs:domain rdf:resource="http://culturizate.castillayleon.es/ontology#Tipo_de_Centro"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://culturizate.castillayleon.es/ontology#Biblioteca -->
+
+    <owl:Class rdf:about="http://culturizate.castillayleon.es/ontology#Biblioteca">
+        <rdfs:subClassOf rdf:resource="http://culturizate.castillayleon.es/ontology#Tipo_de_Centro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://culturizate.castillayleon.es/ontology#Calle -->
+
+    <owl:Class rdf:about="http://culturizate.castillayleon.es/ontology#Calle">
+        <rdfs:subClassOf rdf:resource="http://culturizate.castillayleon.es/ontology#Direccion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://culturizate.castillayleon.es/ontology#CentroEscolar -->
+
+    <owl:Class rdf:about="http://culturizate.castillayleon.es/ontology#CentroEscolar">
+        <rdfs:subClassOf rdf:resource="http://culturizate.castillayleon.es/ontology#Tipo_de_Centro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://culturizate.castillayleon.es/ontology#Codigo_postal -->
+
+    <owl:Class rdf:about="http://culturizate.castillayleon.es/ontology#Codigo_postal">
+        <rdfs:subClassOf rdf:resource="http://culturizate.castillayleon.es/ontology#Direccion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://culturizate.castillayleon.es/ontology#Coordenadas -->
+
+    <owl:Class rdf:about="http://culturizate.castillayleon.es/ontology#Coordenadas">
+        <rdfs:subClassOf rdf:resource="http://culturizate.castillayleon.es/ontology#Direccion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://culturizate.castillayleon.es/ontology#Datos_de_Contacto -->
+
+    <owl:Class rdf:about="http://culturizate.castillayleon.es/ontology#Datos_de_Contacto"/>
+    
+
+
+    <!-- http://culturizate.castillayleon.es/ontology#Direccion -->
+
+    <owl:Class rdf:about="http://culturizate.castillayleon.es/ontology#Direccion"/>
+    
+
+
+    <!-- http://culturizate.castillayleon.es/ontology#Museo -->
+
+    <owl:Class rdf:about="http://culturizate.castillayleon.es/ontology#Museo">
+        <rdfs:subClassOf rdf:resource="http://culturizate.castillayleon.es/ontology#Tipo_de_Centro"/>
+    </owl:Class>
+    
+
+
+    <!-- http://culturizate.castillayleon.es/ontology#Pagina_Web -->
+
+    <owl:Class rdf:about="http://culturizate.castillayleon.es/ontology#Pagina_Web">
+        <rdfs:subClassOf rdf:resource="http://culturizate.castillayleon.es/ontology#Datos_de_Contacto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://culturizate.castillayleon.es/ontology#Provincia -->
+
+    <owl:Class rdf:about="http://culturizate.castillayleon.es/ontology#Provincia">
+        <rdfs:subClassOf rdf:resource="http://culturizate.castillayleon.es/ontology#Direccion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://culturizate.castillayleon.es/ontology#Telefono -->
+
+    <owl:Class rdf:about="http://culturizate.castillayleon.es/ontology#Telefono">
+        <rdfs:subClassOf rdf:resource="http://culturizate.castillayleon.es/ontology#Datos_de_Contacto"/>
+    </owl:Class>
+    
+
+
+    <!-- http://culturizate.castillayleon.es/ontology#Tipo_de_Centro -->
+
+    <owl:Class rdf:about="http://culturizate.castillayleon.es/ontology#Tipo_de_Centro"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://culturizate.castillayleon.es/ontology#Biblioteca"/>
+            <rdf:Description rdf:about="http://culturizate.castillayleon.es/ontology#CentroEscolar"/>
+            <rdf:Description rdf:about="http://culturizate.castillayleon.es/ontology#Museo"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
