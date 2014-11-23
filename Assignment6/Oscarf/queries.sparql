@@ -52,9 +52,13 @@ SELECT ?district ?numAccidents WHERE{
 
 PREFIX property: <http://example.org/myVocabulary#> 
 PREFIX qb: <http://purl.org/linked-data/cube#>
-SELECT SUM(xsd:int(?accidents)) ?district WHERE {
-	?obs a qb:Observation ;
-	property:numberOfAccidents ?accidents ;
-	property:relatedDistrict ?district .
-	FILTER(?accidents>500)
-} GROUP BY (?district)
+SELECT ?accidentes ?district WHERE {
+	{
+		SELECT ?district (SUM(xsd:int(?accidents)) AS ?accidentes) WHERE{
+			?obs a qb:Observation ;
+			property:numberOfAccidents ?accidents ;
+			property:relatedDistrict ?district .
+		}
+	}
+	FILTER(?accidentes>500)
+} ORDER BY ASC(?accidentes)
