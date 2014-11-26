@@ -1,5 +1,7 @@
 <<<<<<< HEAD
 Your name, Dataset name, Dataset URL, Dataset brief description
+Luigi Guida, Spain - Instituto Nacional de Estadística, http://www.ine.es/welcoing.htm, National Institute of Statistics(INE) has created this site to facilitate users' access to official statistical informations. 
+Isaac Olguin, Asturias' catalogue, http://datahub.io/dataset/catalogo-de-datos-de-asturias, This is a catalogue for Asturias. Shows some information about investments, financial resources, buildings, organization chart, etc.
 Sandra Saez, AragoDBPedia, http://opendata.aragon.es/aragopedia, This dataset contains data obtained through an automatic extraction process from Aragopedia and contains information about all the municipalities boroughs and provinces of the region of Aragón in Spain.
 Nestor Lopez Rivas, 2001 Spanish Census to RDF, http://dataweb.infor.uva.es/census2001, El conjunto de datos se refiere a un muestreo del 5% del censo realizado en españa en 2001.
 Oscar Fernandez, DBpedia ES, http://es.dbpedia.org, The DBpedia project generates semantic information from the wikipedia(Spanish language)
@@ -11,7 +13,7 @@ Julio Chana Moreno, Zaragoza Turruta, http://www.zaragoza.es/turruta/Turruta/ind
 María del Mar Elorrieta Fernandez, ICPS Network, http://sparql.bioontology.org/, Para realizar consultas SPARQL a las diferentes ontologías que se encuentran en Bioportal. Todas estas ontologías se encuentran en formato RDF.
 Alberto Minguito, GeoNames, http://www.geonames.org/, GeoNames is a geographical database available and accessible through various web services under a Creative Commons attribution license.
 Guetón Padrón Sánchez, Lista de Encabezamientos de materia para las Bibliotecas Públicas, http://id.sgcb.mcu.es/lem/, Lista de encabezamientos de materia al servicio de la normalización y eficacia de las bibliotecas públicas españolas.
-Eduardo Quiñones Matesanz, Air quality in Gijón last week dataset, https://datos.gijon.es/set/medio-ambiente/calidad_aire_ultimo, This dataset contains the temporary air pollution data recorded by different stations in Guijón
+Eduardo Quiñones Matesanz, Parking in Gijón dataset, http://datos.gijon.es/risp_datasets/show/aparcamientos, This dataset contains the temporary data of parking in Guijón
 Angélica Guamán Albarracín, Ayuntamiento de Cáceres, http://opendata.caceres.es, Este conjunto de datos tiene la información pública del ayuntamiento de Cáceres para que esté a disposición de todos los ciudadanos y empresas .
 Víctor Portals Lorenzo, Dataturcyl, http://datahub.io/dataset/dataturcyl-lod-for-tourists-in-castilla-y-leon-spain, Dataturcyl contiene datos relacionados con el turismo en Castilla y León como bares o restaurantes junto con información geográfica de los mismos. 
 Juan Luis Arribas Jerez, El Viajero's tourism dataset, http://datahub.io/es/dataset/elviajero, El Viajero's tourism dataset integrates the various contents from newspapers and digital platforms belonging to the Prisa Digital Group in the domain of news and blogs about travel.

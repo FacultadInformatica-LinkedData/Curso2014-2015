@@ -1,0 +1,113 @@
+********1sparql********
+
+
+prefix xsd:<http://www.w3.org/2001/XMLSchema#>
+prefix sdmx-measure:<http://purl.org/linked-data/sdmx/2009/measure#>
+prefix sdmx-dimension:<http://purl.org/linked-data/sdmx/2009/dimension#>
+prefix sdmx:<http://purl.org/linked-data/sdmx#>
+prefix mn:<http://example.org/resources/>
+prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+prefix owl:<http://www.w3.org/2002/07/owl#>
+prefix mv:<http://example.org/myVocabulary#>
+prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix qb:<http://purl.org/linked-data/cube#>
+prefix skos:<http://www.w3.org/2004/02/skos/core#>
+
+
+
+select (SUM(?x) As ?TOTAL) WHERE{
+?obs a qb:Observation;
+mv:numberOfAccidents ?x;
+qb:dataSet mn:MyDataset.
+
+}
+
+
+
+********2sparql********
+
+prefix xsd:<http://www.w3.org/2001/XMLSchema#>
+prefix sdmx-measure:<http://purl.org/linked-data/sdmx/2009/measure#>
+prefix sdmx-dimension:<http://purl.org/linked-data/sdmx/2009/dimension#>
+prefix sdmx:<http://purl.org/linked-data/sdmx#>
+prefix mn:<http://example.org/resources/>
+prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+prefix owl:<http://www.w3.org/2002/07/owl#>
+prefix mv:<http://example.org/myVocabulary#>
+prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix qb:<http://purl.org/linked-data/cube#>
+prefix skos:<http://www.w3.org/2004/02/skos/core#>
+
+
+
+select ?luogo ?tipo ?num WHERE{
+?obs a qb:Observation;
+mv:relatedDistrict ?luogo;
+mv:numberOfAccidents ?num;
+mv:hasAccidentType ?tipo;
+mv:relatedDistrict "USERA";
+qb:dataSet mn:MyDataset.
+
+}
+
+
+********3sparql********
+
+prefix xsd:<http://www.w3.org/2001/XMLSchema#>
+prefix sdmx-measure:<http://purl.org/linked-data/sdmx/2009/measure#>
+prefix sdmx-dimension:<http://purl.org/linked-data/sdmx/2009/dimension#>
+prefix sdmx:<http://purl.org/linked-data/sdmx#>
+prefix mn:<http://example.org/resources/>
+prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+prefix owl:<http://www.w3.org/2002/07/owl#>
+prefix mv:<http://example.org/myVocabulary#>
+prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix qb:<http://purl.org/linked-data/cube#>
+prefix skos:<http://www.w3.org/2004/02/skos/core#>
+
+
+
+select ?luogo ?tipo ?num WHERE{
+?obs a qb:Observation;
+mv:relatedDistrict ?luogo;
+mv:numberOfAccidents ?num;
+mv:hasAccidentType ?tipo;
+mv:hasAccidentType mv:MultipleCollision;
+qb:dataSet mn:MyDataset.
+
+}
+
+********4sparql********
+
+prefix xsd:<http://www.w3.org/2001/XMLSchema#>
+prefix sdmx-measure:<http://purl.org/linked-data/sdmx/2009/measure#>
+prefix sdmx-dimension:<http://purl.org/linked-data/sdmx/2009/dimension#>
+prefix sdmx:<http://purl.org/linked-data/sdmx#>
+prefix mn:<http://example.org/resources/>
+prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+prefix owl:<http://www.w3.org/2002/07/owl#>
+prefix mv:<http://example.org/myVocabulary#>
+prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix qb:<http://purl.org/linked-data/cube#>
+prefix skos:<http://www.w3.org/2004/02/skos/core#>
+
+
+select ?luogo ?max WHERE {
+ {
+    select MAX(?num) AS ?max WHERE {
+      ?obs a qb:Observation;
+      mv:numberOfAccidents ?num;
+      mv:hasAccidentType mv:BicycleFall;
+      qb:dataSet mn:MyDataset.
+    }
+  }
+  ?obs a qb:Observation;
+  mv:relatedDistrict ?luogo;
+  mv:numberOfAccidents ?max;
+  mv:hasAccidentType mv:BicycleFall;
+  qb:dataSet mn:MyDataset.
+}
+
+
+
+
