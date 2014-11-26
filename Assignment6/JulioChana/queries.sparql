@@ -1,0 +1,47 @@
+# GRAPH IRI http://sandbox.linkeddata.es/graph/accidentes
+# QUERY 1: "How many accidents were there in Madrid in 2013?"
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+SELECT (SUM(?x) AS ?total) WHERE { 
+   ?obs a qb:Observation ;
+    mv:numberOfAccidents ?x .
+}
+
+# QUERY 2: "Give me the number of accidents in Usera for each type of accident"
+
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+SELECT  ?tipoAccidente (SUM(xsd:int(?x)) AS ?total) WHERE {
+   ?obs a qb:Observation ;
+    mv:numberOfAccidents ?x;
+    mv:relatedDistrict "USERA";
+    mv:hasAccidentType ?tipoAccidente .
+} GROUP BY (?tipoAccidente)
+
+#QUERY 3: "Give me the number of multiple collisions for each district"
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+SELECT ?distrito (SUM(xsd:int(?x)) AS ?total) WHERE {
+   ?obs a qb:Observation ;
+    mv:numberOfAccidents ?x;
+    mv:relatedDistrict ?distrito;
+    mv:hasAccidentType mv:MultipleCollision .
+} GROUP BY (?distrito)
+
+#QUERY 4: "Which is the district were the number of bicycle falls was higher in 2013?"
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT ?dist ?total WHERE{
+  ?obs2 a qb:Observation;
+   mv:numberOfAccidents ?total;
+   mv:hasAccidentType mv:BicycleFall ;
+   mv:relatedDistrict ?dist.
+  {
+  SELECT (MAX(xsd:int(?x)) AS ?total) WHERE {
+     ?obs a qb:Observation ;
+      mv:numberOfAccidents ?x;
+      mv:relatedDistrict ?distrito;
+      mv:hasAccidentType mv:BicycleFall .
+  } 
+  }
+}

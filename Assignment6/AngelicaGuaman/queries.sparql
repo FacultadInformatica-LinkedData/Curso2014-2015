@@ -1,0 +1,93 @@
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+
+SELECT SUM(?accidentes) WHERE {
+   ?obs a qb:Observation;
+   mv:numberOfAccidents ?accidentes.
+}
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+
+select ?numAccidentes ?tipoAccidente
+where
+{	
+   ?obs a qb:Observation;
+	mv:relatedDistrict "USERA";
+	mv:hasAccidentType ?tipoAccidente;
+	mv:hasAccidentType ?numAccidentes
+}
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+
+select ?distrito ?numAccidentes
+where
+{	
+   ?obs a qb:Observation;
+	mv:relatedDistrict ?distrito;
+	mv:hasAccidentType ?MultipleCollision;
+	mv:hasAccidentType ?numAccidentes
+}
+
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+
+select ?distrito ?numAccidentes
+where
+{	
+   ?obs a qb:Observation;
+	mv:relatedDistrict ?distrito;
+	mv:hasAccidentType ?MultipleCollision;
+	mv:hasAccidentType ?numAccidentes
+}
+
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+
+select ?distrito ?numAccidentes
+where
+{	
+   ?obs a qb:Observation;
+	mv:relatedDistrict ?distrito;
+	mv:hasAccidentType mv:BicycleFall;
+	mv:hasAccidentType ?numAccidentes
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
