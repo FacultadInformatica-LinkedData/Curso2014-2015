@@ -1,0 +1,82 @@
+# How many accidents were there in Madrid in 2013?
+
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX ont: <http://example.org/myVocabulary#>
+
+SELECT (SUM(?p) AS ?total) WHERE {
+ ?x a qb:Observation ;
+    ont:numberOfAccidents ?p
+}
+
+#Give me the number of accidents in Usera for each type of accident 
+
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX ont: <http://example.org/myVocabulary#>
+
+SELECT ?x ?a WHERE {
+ ?x a qb:Observation ;
+    ont:relatedDistrict ?p ;
+    ont:numberOfAccidents ?a .
+ FILTER(?p = "USERA")
+} 
+
+# Give me the number of multiple collisions for each district
+
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX ont: <http://example.org/myVocabulary#>
+
+SELECT ?x ?a WHERE {
+ ?x a qb:Observation ;
+    ont:hasAccidentType ont:MultipleCollision ;
+    ont:numberOfAccidents ?a
+}
+
+# Which is the district were the number of bicycle falls was higher in 2013? 
+
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX ont: <http://example.org/myVocabulary#>
+ 
+SELECT ?x ?maxBycicle WHERE {
+ ?x a qb:Observation ;
+    ont:hasAccidentType ont:BicycleFall ;
+    ont:numberOfAccidents ?maxBycicle 
+} ORDER BY desc(?maxBycicle) LIMIT 1
+
+#########################################
+
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX ont: <http://example.org/myVocabulary#>
+
+SELECT DISTINCT ?x ?value WHERE {
+  ?x a qb:Observation ;
+  ont:hasAccidentType ont:BicycleFall ;
+  ont:numberOfAccidents ?p
+  {
+    SELECT (MAX(?a) AS ?value) WHERE {
+       ?x a qb:Observation ;
+          ont:hasAccidentType ont:BicycleFall ;
+          ont:numberOfAccidents ?a
+    }
+  } FILTER (?p = ?value) 
+}
+
+# Give me the districts with more than 500 accidents in 2013
+
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX ont: <http://example.org/myVocabulary#>
+
+SELECT ?p ?value WHERE {
+   {
+      SELECT ?p (SUM(xsd:double(?a)) AS ?value) WHERE {
+          ?x a qb:Observation .
+          ?x ont:relatedDistrict ?p .
+          ?x ont:numberOfAccidents ?a
+      } GROUP BY ?p
+   } FILTER (?value > 500)
+} ORDER BY ASC(?p)
