@@ -1,0 +1,670 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Nombre de la via using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Nombre de la via",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Clase de la via using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Clase de la via",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Particula de la via using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Particula de la via",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Codigo de vía using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Codigo de vía",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Cantidad de numeraciones en la via using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cantidad de numeraciones en la via",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Distritos atravesados using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Distritos atravesados",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Distritos atravesados using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Distritos atravesados",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Codigos postales using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Codigos postales",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Coordenada X (Guia Urbana) cm (inicio) using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Coordenada X (Guia Urbana) cm (inicio)",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Coordenada Y (Guia Urbana) cm (inicio) using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Coordenada Y (Guia Urbana) cm (inicio)",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Coordenada X (Guia Urbana) cm (final) using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Coordenada X (Guia Urbana) cm (final)",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Coordenada Y (Guia Urbana) cm (final) using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Coordenada Y (Guia Urbana) cm (final)",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Longitud en S R  WGS84 (inicio) using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Longitud en S R  WGS84 (inicio)",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Longitud en S R  WGS84 (inicio) using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Longitud en S R  WGS84 (inicio)",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Tipo de la via using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo de la via",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Situacion de la via respecto al terreno using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Situacion de la via respecto al terreno",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Tipo de denominación de la vía using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Tipo de denominación de la vía",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Superficie aproximada m2 (aceras-isletas) using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Superficie aproximada m2 (aceras-isletas)",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Superficie aproximada m2 (calzada) using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Superficie aproximada m2 (calzada)",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Literal completo del vial using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Literal completo del vial",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Codigo de vía I N E using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Codigo de vía I N E",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Particula de la via",
+    "columnName": "Particula de la via"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Cantidad de numeraciones en la via",
+    "columnName": "Cantidad de numeraciones en la via"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Distritos atravesados",
+    "columnName": "Distritos atravesados"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Campo que indica si tiene zonas en S E R",
+    "columnName": "Campo que indica si tiene zonas en S E R"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Aproximacion poblacional de la via",
+    "columnName": "Aproximacion poblacional de la via"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Tipo de la via",
+    "columnName": "Tipo de la via"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Tipo de denominación de la vía",
+    "columnName": "Tipo de denominación de la vía"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Superficie aproximada m2 (aceras-isletas)",
+    "columnName": "Superficie aproximada m2 (aceras-isletas)"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Superficie aproximada m2 (calzada)",
+    "columnName": "Superficie aproximada m2 (calzada)"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Literal completo del vial",
+    "columnName": "Literal completo del vial"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Codigo de vía I N E",
+    "columnName": "Codigo de vía I N E"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.st-madrid.es/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Viales/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Codigo de vía",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.st-madrid.es/ClaseDeLaVia",
+              "curie": "http://www.st-madrid.es/ClaseDeLaVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Clase de la via"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/nombreVia",
+              "curie": "http://www.st-madrid.es/nombreVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Nombre de la via"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/codigoVia",
+              "curie": "http://www.st-madrid.es/codigoVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Codigo de vía"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/codigoPostal",
+              "curie": "http://www.st-madrid.es/codigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Codigos postales"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/coodenadaInicioX",
+              "curie": "http://www.st-madrid.es/coodenadaInicioX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Coordenada X (Guia Urbana) cm (inicio)"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/coordenadaInicioY",
+              "curie": "http://www.st-madrid.es/coordenadaInicioY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Coordenada Y (Guia Urbana) cm (inicio)"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/coordenadaFinalX",
+              "curie": "http://www.st-madrid.es/coordenadaFinalX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Coordenada X (Guia Urbana) cm (final)"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/coordenadaFinalY",
+              "curie": "http://www.st-madrid.es/coordenadaFinalY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Coordenada Y (Guia Urbana) cm (final)"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/longitudSRinicio",
+              "curie": "http://www.st-madrid.es/longitudSRinicio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Longitud en S R  WGS84 (inicio)"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/latitudSRinicio",
+              "curie": "http://www.st-madrid.es/latitudSRinicio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Latitud en S R  WGS84 (inicio)"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/longitudSRfinal",
+              "curie": "http://www.st-madrid.es/longitudSRfinal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Longitud en S R  WGS84 (final)"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/latitudSRfinal",
+              "curie": "http://www.st-madrid.es/latitudSRfinal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Latitud en S R  WGS84 (final)"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/situacionViaTerreno",
+              "curie": "http://www.st-madrid.es/situacionViaTerreno",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Situacion de la via respecto al terreno"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.st-madrid.es/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Viales/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "Codigo de vía",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.st-madrid.es/ClaseDeLaVia",
+              "curie": "http://www.st-madrid.es/ClaseDeLaVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.trim()",
+                "isRowNumberCell": false,
+                "columnName": "Clase de la via"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/nombreVia",
+              "curie": "http://www.st-madrid.es/nombreVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.trim()",
+                "isRowNumberCell": false,
+                "columnName": "Nombre de la via"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/codigoVia",
+              "curie": "http://www.st-madrid.es/codigoVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Codigo de vía"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/codigoPostal",
+              "curie": "http://www.st-madrid.es/codigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.trim()",
+                "isRowNumberCell": false,
+                "columnName": "Codigos postales"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/coodenadaInicioX",
+              "curie": "http://www.st-madrid.es/coodenadaInicioX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Coordenada X (Guia Urbana) cm (inicio)"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/coordenadaInicioY",
+              "curie": "http://www.st-madrid.es/coordenadaInicioY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Coordenada Y (Guia Urbana) cm (inicio)"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/coordenadaFinalX",
+              "curie": "http://www.st-madrid.es/coordenadaFinalX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Coordenada X (Guia Urbana) cm (final)"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/coordenadaFinalY",
+              "curie": "http://www.st-madrid.es/coordenadaFinalY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Coordenada Y (Guia Urbana) cm (final)"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/longitudSRinicio",
+              "curie": "http://www.st-madrid.es/longitudSRinicio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.trim()",
+                "isRowNumberCell": false,
+                "columnName": "Longitud en S R  WGS84 (inicio)"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/latitudSRinicio",
+              "curie": "http://www.st-madrid.es/latitudSRinicio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.trim()",
+                "isRowNumberCell": false,
+                "columnName": "Latitud en S R  WGS84 (inicio)"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/longitudSRfinal",
+              "curie": "http://www.st-madrid.es/longitudSRfinal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.trim()",
+                "isRowNumberCell": false,
+                "columnName": "Longitud en S R  WGS84 (final)"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/latitudSRfinal",
+              "curie": "http://www.st-madrid.es/latitudSRfinal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.trim()",
+                "isRowNumberCell": false,
+                "columnName": "Latitud en S R  WGS84 (final)"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/situacionViaTerreno",
+              "curie": "http://www.st-madrid.es/situacionViaTerreno",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.trim()",
+                "isRowNumberCell": false,
+                "columnName": "Situacion de la via respecto al terreno"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
