@@ -1,7 +1,0 @@
-[
-  {
-    "op": "core/column-removal",
-    "description": "Remove column Nombre acentuado del barrio",
-    "columnName": "Nombre acentuado del barrio"
-  }
-]
