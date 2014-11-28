@@ -1,0 +1,52 @@
+# SPARQL Endpoint: http://sandbox.linkeddata.es/sparql
+
+# RDF Graph: http://sandbox.linkeddata.es/graph/accidentes
+
+
+#1
+
+PREFIX dbo: <http://purl.org/linked-data/cube#> 
+PREFIX year: <http://reference.data.gov.uk/id/year/>
+PREFIX property: <http://geo.linkeddata.es/stats/property#> 
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+PREFIX example: <http://example.org/myVocabulary#>
+
+SELECT SUM(?numeroAccidente) where {?b example:numberOfAccidents ?numeroAccidente} 
+
+
+
+
+#2
+
+
+SELECT ?numeroAccidente ?c where {?b example:numberOfAccidents ?numeroAccidente;  example:hasAccidentType ?c;   example:relatedDistrict "USERA" } 
+
+
+
+
+
+#3
+
+SELECT ?numeroAccidente ?p where {?b example:numberOfAccidents ?numeroAccidente; example:hasAccidentType  example:MultipleCollision;   example:relatedDistrict ?p } 
+
+
+
+#4
+
+
+SELECT MAX(?numeroAccidente)  ?p where {?b example:numberOfAccidents ?numeroAccidente;  example:relatedDistrict ?p; example:hasAccidentType  example:BicycleFall .   } 
+
+
+
+#5
+
+
+SELECT ?p ?Maximo where 
+{
+?b example:numberOfAccidents ?numeroAccidente; example:relatedDistrict ?p.
+{
+SELECT (MAX(?numeroAccidente) as ?Maximo) ?p where {?b example:numberOfAccidents ?numeroAccidente;  example:relatedDistrict ?p; example:hasAccidentType  example:BicycleFall .} 
+}
+
+}
+

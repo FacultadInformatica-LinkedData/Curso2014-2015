@@ -1,0 +1,68 @@
+﻿Assigment 6:
+
+------------------------------------------------------------------------------
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv:<http://example.org/myVocabulary#>
+
+SELECT (SUM(?x) AS ?total) WHERE { 
+ 
+ ?obs a qb:Observation;
+ mv:numberOfAccidents ?x.
+} 
+
+
+------------------------------------------------------------------------------
+
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv:<http://example.org/myVocabulary#>
+
+SELECT ?type ?x WHERE { 
+ 
+ ?obs a qb:Observation;
+ mv:relatedDistrict 'USERA';
+ mv:numberOfAccidents ?x;
+ mv:hasAccidentType ?type.
+} 
+
+-----------------------------------------------------------------------------
+
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv:<http://example.org/myVocabulary#>
+
+SELECT ?district ?x WHERE { 
+ 
+ ?obs a qb:Observation;
+ mv:relatedDistrict ?district;
+ mv:numberOfAccidents ?x;
+ mv:hasAccidentType mv:MultipleCollision.
+} 
+
+-----------------------------------------------------------------------------
+
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv:<http://example.org/myVocabulary#>
+
+SELECT ?district ?x WHERE { 
+ 
+ ?obs a qb:Observation;
+ mv:relatedDistrict ?district;
+ mv:numberOfAccidents ?x;
+ mv:hasAccidentType mv:BicycleFall.
+} ORDER BY DESC(?x) LIMIT 3
+
+
+-----------------------------------------------------------------------------
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv:<http://example.org/myVocabulary#>
+
+SELECT ?x ?district   WHERE{
+      ?obs a qb:Observation;
+      mv:relatedDistrict ?district;
+      mv:numberOfAccidents ?x.
+      FILTER (?x >500)
+} ORDER BY DESC (?x)

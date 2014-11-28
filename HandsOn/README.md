@@ -25,3 +25,5 @@ This is the directory where students have to upload their materials related to t
 * /ontology/* - An OWL file with the ontology developed, according to the resource naming strategy defined.
 * /lodrefine/*.json - A JSON file with the operations performed over the data for fixing and transforming them.
 * /rdf/*.rdf - An RDF file in the Turtle syntax with the data transformed into RDF.
+* /lodrefine/*-with-links.json - A JSON file with the operations performed over the data for linking them.
+* /rdf/*-with-links.rdf - An RDF file in the Turtle syntax with the data linked and transformed into RDF.

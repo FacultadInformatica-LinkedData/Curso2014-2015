@@ -1,0 +1,27 @@
+Query 1:
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+SELECT (SUM(?x) AS ?Total) WHERE {
+   ?obs a qb:Observation;
+   mv:numberOfAccidents ?x.
+}
+Query 2:
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+SELECT ?x AS ?typeAccident (xsd:integer(?y) AS ?NumOfType) WHERE {
+?obs a qb:Observation ;
+ mv:relatedDistrict "USERA" ;
+ mv:hasAccidentType ?x;
+ mv:numberOfAccidents ?y.
+}ORDER BY DESC (?y)
+
+Query 3:
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+SELECT ?x AS ?District xsd:integer(?y) AS ?NumOfMultipleCollision WHERE {
+  ?obs a qb:Observation;
+  mv:numberOfAccidents ?y;
+  mv:relatedDistrict ?x;
+  mv:hasAccidentType mv:MultipleCollision.
+}ORDER BY DESC (?y)
+
