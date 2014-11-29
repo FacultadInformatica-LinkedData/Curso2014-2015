@@ -594,5 +594,37 @@
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CATEGORY to TYPE",
+    "oldColumnName": "CATEGORY",
+    "newColumnName": "TYPE"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TYPE using expression value.toUppercase()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TYPE",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TYPE using expression grel:value.replaceChars(\" \", \"_\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TYPE",
+    "expression": "grel:value.replaceChars(\" \", \"_\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
   }
 ]
