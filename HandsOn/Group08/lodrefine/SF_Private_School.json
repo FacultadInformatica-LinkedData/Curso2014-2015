@@ -120,7 +120,7 @@
                     "curie": "geosp:hasGeometry",
                     "target": {
                       "nodeType": "cell-as-resource",
-                      "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\")+\"/Building/Geometry\"",
+                      "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\")+\"/Building/geometry\"",
                       "isRowNumberCell": false,
                       "columnName": "NAME",
                       "rdfTypes": [],
