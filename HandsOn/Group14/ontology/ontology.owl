@@ -13,6 +13,10 @@ xmlns:biblioteca="http://www.exmple.com/biblioteca#">
 <rdfs:comment>Entidad de Biblioteca</rdfs:comment>
 </owl:Class>
 
+<owl:Class rdf:about="http://www.exmple.com/biblioteca#articulo">
+<rdfs:label>Aticulo</rdfs:label>
+<rdfs:comment>Entidad del articulo prestado</rdfs:comment>
+</owl:Class>
 
 
 <owl:Class rdf:about="http://www.exmple.com/biblioteca#eventos">
@@ -44,4 +48,12 @@ xmlns:biblioteca="http://www.exmple.com/biblioteca#">
 <owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#longitud"/>
 <owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#tipo"/>
 
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#prbarc"/> <!-- id_articulo -->
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#prprsu"/> <!-- nombre_biblioteca -->
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#prcolp"/> <!-- tipo_lector -->
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#prcocp"/> <!-- tipo_archivo -->
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#prlebi"/> <!-- tipo_biblioteca -->
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#prfpre"/> <!-- fecha_prestamo -->
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#tititu"/> <!-- titulo_articulo -->
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#tiauto"/> <!-- titulo_autor -->
 </rdf:RDF>
