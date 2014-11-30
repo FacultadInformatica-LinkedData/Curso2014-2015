@@ -840,5 +840,185 @@
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/ServiceRequest/",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/ServiceRequest#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "cells[\"TYPE\"].value+\"/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#caseid",
+              "curie": "ont:caseid",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CASEID"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#open",
+              "curie": "ont:open",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "OPEN"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#close",
+              "curie": "ont:close",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "CLOSE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#state",
+              "curie": "ont:state",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "STATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#agency",
+              "curie": "ont:agency",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "AGENCY"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#category",
+              "curie": "ont:category",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CATEGORY"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#request",
+              "curie": "ont:request",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "REQUEST"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#request_details",
+              "curie": "ont:request_details",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "REQUEST_DETAILS"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#address",
+              "curie": "ont:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#neighborhood",
+              "curie": "ont:neighborhood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHBORHOOD"
+              }
+            },
+            {
+              "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+              "curie": "geosp:hasGeometry",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "cells[\"TYPE\"].value+\"/\"+value+\"/geometry\"",
+                "isRowNumberCell": false,
+                "columnName": "CASEID",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "curie": "geosp:asWKT",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "asWKT"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#media",
+              "curie": "ont:media",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "MEDIA"
+              }
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
