@@ -11,1089 +11,1089 @@
 	ont:children "K - 8" ;
 	ont:address "180 Fair Oaks Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/AddaClevengerJuniorPreparatory/Geometry> geosp:asWKT "POINT(-122.424465 37.753739)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/AddaClevengerJuniorPreparatory/geometry> geosp:asWKT "POINT(-122.424465 37.753739)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/AddaClevengerJuniorPreparatory> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/AddaClevengerJuniorPreparatory/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/AddaClevengerJuniorPreparatory> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/AddaClevengerJuniorPreparatory/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/BrandeisHillelDaySchool> ont:name "Brandeis Hillel Day School" ;
 	ont:type "JEWISH" ;
 	ont:children "K - 8" ;
 	ont:address "655 Brotherhood Way" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/BrandeisHillelDaySchool/Geometry> geosp:asWKT "POINT(-122.472212 37.712217)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/BrandeisHillelDaySchool/geometry> geosp:asWKT "POINT(-122.472212 37.712217)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/BrandeisHillelDaySchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/BrandeisHillelDaySchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/BrandeisHillelDaySchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/BrandeisHillelDaySchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/ChildrensDaySchool> ont:name "Childrens Day School" ;
 	ont:type "PRESCHOOL" ;
 	ont:children "PK- 8" ;
 	ont:address "333 Dolores Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/ChildrensDaySchool/Geometry> geosp:asWKT "POINT(-122.425708 37.763858)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/ChildrensDaySchool/geometry> geosp:asWKT "POINT(-122.425708 37.763858)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/ChildrensDaySchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/ChildrensDaySchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/ChildrensDaySchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/ChildrensDaySchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/ConventofSacredHeartElementarySchool> ont:name "Convent of Sacred Heart Elementary School" ;
 	ont:type "GIRLS, CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "2222 Broadway" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/ConventofSacredHeartElementarySchool/Geometry> geosp:asWKT "POINT(-122.43396 37.794865)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/ConventofSacredHeartElementarySchool/geometry> geosp:asWKT "POINT(-122.43396 37.794865)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/ConventofSacredHeartElementarySchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/ConventofSacredHeartElementarySchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/ConventofSacredHeartElementarySchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/ConventofSacredHeartElementarySchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/EpiphanySchool> ont:name "Epiphany School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "1 - 8" ;
 	ont:address "600 Italy Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/EpiphanySchool/Geometry> geosp:asWKT "POINT(-122.434533 37.715723)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/EpiphanySchool/geometry> geosp:asWKT "POINT(-122.434533 37.715723)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/EpiphanySchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/EpiphanySchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/EpiphanySchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/EpiphanySchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/HamlinSchool> ont:name "Hamlin School" ;
 	ont:type "GIRLS" ;
 	ont:children "K - 8" ;
 	ont:address "2120 Broadway Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/HamlinSchool/Geometry> geosp:asWKT "POINT(-122.432554 37.795073)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/HamlinSchool/geometry> geosp:asWKT "POINT(-122.432554 37.795073)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/HamlinSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/HamlinSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/HamlinSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/HamlinSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/LisaHampnerHebrewAcademy> ont:name "Lisa Hampner Hebrew Academy" ;
 	ont:type "JEWISH" ;
 	ont:children "PK - 12" ;
 	ont:address "645 14th Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/LisaHampnerHebrewAcademy/Geometry> geosp:asWKT "POINT(-122.472874 37.776097)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/LisaHampnerHebrewAcademy/geometry> geosp:asWKT "POINT(-122.472874 37.776097)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/LisaHampnerHebrewAcademy> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/LisaHampnerHebrewAcademy/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/LisaHampnerHebrewAcademy> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/LisaHampnerHebrewAcademy/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/ImmaculateConceptionAcademy> ont:name "Immaculate Conception Academy" ;
 	ont:type "GIRLS, CATHOLIC" ;
 	ont:children "9 - 12" ;
 	ont:address "3625 24th Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/ImmaculateConceptionAcademy/Geometry> geosp:asWKT "POINT(-122.423347 37.751753)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/ImmaculateConceptionAcademy/geometry> geosp:asWKT "POINT(-122.423347 37.751753)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/ImmaculateConceptionAcademy> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/ImmaculateConceptionAcademy/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/ImmaculateConceptionAcademy> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/ImmaculateConceptionAcademy/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/InternationalChristianSchool> ont:name "International Christian School" ;
 	ont:type "BAPTIST" ;
 	ont:children "PK - 8" ;
 	ont:address "42 Waller Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/InternationalChristianSchool/Geometry> geosp:asWKT "POINT(-122.42423 37.772228)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/InternationalChristianSchool/geometry> geosp:asWKT "POINT(-122.42423 37.772228)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/InternationalChristianSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/InternationalChristianSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/InternationalChristianSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/InternationalChristianSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/LaurelSchool> ont:name "Laurel School" ;
 	ont:children "PK - 8" ;
 	ont:address "350 9th Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/LaurelSchool/Geometry> geosp:asWKT "POINT(-122.467013 37.781832)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/LaurelSchool/geometry> geosp:asWKT "POINT(-122.467013 37.781832)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/LaurelSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/LaurelSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/LaurelSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/LaurelSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/LiveOakSchool> ont:name "Live Oak School" ;
 	ont:children "K - 8" ;
 	ont:address "1555 Mariposa Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/LiveOakSchool/Geometry> geosp:asWKT "POINT(-122.398929 37.763484)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/LiveOakSchool/geometry> geosp:asWKT "POINT(-122.398929 37.763484)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/LiveOakSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/LiveOakSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/LiveOakSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/LiveOakSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/Meadows-LivingstoneSchool> ont:name "Meadows-Livingstone School" ;
 	ont:children "1 - 6" ;
 	ont:address "1499 Potrero Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/Meadows-LivingstoneSchool/Geometry> geosp:asWKT "POINT(-122.404838 37.749628)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/Meadows-LivingstoneSchool/geometry> geosp:asWKT "POINT(-122.404838 37.749628)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/Meadows-LivingstoneSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/Meadows-LivingstoneSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/Meadows-LivingstoneSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/Meadows-LivingstoneSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/MissionDoloresSchool> ont:name "Mission Dolores School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "3371 16th Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/MissionDoloresSchool/Geometry> geosp:asWKT "POINT(-122.427713 37.76407)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/MissionDoloresSchool/geometry> geosp:asWKT "POINT(-122.427713 37.76407)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/MissionDoloresSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/MissionDoloresSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/MissionDoloresSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/MissionDoloresSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/OurLadyofVisitacionSchool> ont:name "Our Lady of Visitacion School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "795 Sunnydale Ave" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/OurLadyofVisitacionSchool/Geometry> geosp:asWKT "POINT(-122.409412 37.709763)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/OurLadyofVisitacionSchool/geometry> geosp:asWKT "POINT(-122.409412 37.709763)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/OurLadyofVisitacionSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/OurLadyofVisitacionSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/OurLadyofVisitacionSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/OurLadyofVisitacionSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/PresidioHillSchool> ont:name "Presidio Hill School" ;
 	ont:children "K - 8" ;
 	ont:address "3839 Washington Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/PresidioHillSchool/Geometry> geosp:asWKT "POINT(-122.45606 37.788584)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/PresidioHillSchool/geometry> geosp:asWKT "POINT(-122.45606 37.788584)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/PresidioHillSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/PresidioHillSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/PresidioHillSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/PresidioHillSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StAnthony-ImmaculateConceptionSchool> ont:name "St. Anthony-Immaculate Conception School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "299 Precita Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StAnthony-ImmaculateConceptionSchool/Geometry> geosp:asWKT "POINT(-122.41425 37.747502)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StAnthony-ImmaculateConceptionSchool/geometry> geosp:asWKT "POINT(-122.41425 37.747502)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StAnthony-ImmaculateConceptionSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StAnthony-ImmaculateConceptionSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StAnthony-ImmaculateConceptionSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StAnthony-ImmaculateConceptionSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StBrendan'sSchool> ont:name "St. Brendan's School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "940 Laguna Honda Boulevard" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StBrendan'sSchool/Geometry> geosp:asWKT "POINT(-122.455924 37.742854)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StBrendan'sSchool/geometry> geosp:asWKT "POINT(-122.455924 37.742854)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StBrendan'sSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StBrendan'sSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StBrendan'sSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StBrendan'sSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StCeciliaSchool> ont:name "St. Cecilia School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "660 Vicente Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StCeciliaSchool/Geometry> geosp:asWKT "POINT(-122.47401 37.73995)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StCeciliaSchool/geometry> geosp:asWKT "POINT(-122.47401 37.73995)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StCeciliaSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StCeciliaSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StCeciliaSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StCeciliaSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StCharlesSchool> ont:name "St. Charles School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "3250 18th Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StCharlesSchool/Geometry> geosp:asWKT "POINT(-122.416443 37.762323)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StCharlesSchool/geometry> geosp:asWKT "POINT(-122.416443 37.762323)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StCharlesSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StCharlesSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StCharlesSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StCharlesSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StratfordSchool> ont:name "Stratford School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 2" ;
 	ont:address "301 De Montfort Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StratfordSchool/Geometry> geosp:asWKT "POINT(-122.461561 37.723148)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StratfordSchool/geometry> geosp:asWKT "POINT(-122.461561 37.723148)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StratfordSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StratfordSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StratfordSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StratfordSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StGabrielSchool> ont:name "St. Gabriel School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "2550 41st Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StGabrielSchool/Geometry> geosp:asWKT "POINT(-122.498771 37.739532)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StGabrielSchool/geometry> geosp:asWKT "POINT(-122.498771 37.739532)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StGabrielSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StGabrielSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StGabrielSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StGabrielSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StJamesSchool> ont:name "St. James School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "321 Fair Oaks Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StJamesSchool/Geometry> geosp:asWKT "POINT(-122.423768 37.751653)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StJamesSchool/geometry> geosp:asWKT "POINT(-122.423768 37.751653)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StJamesSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StJamesSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StJamesSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StJamesSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StJohn'sSchool> ont:name "St. John's School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "925 Chenery Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StJohn'sSchool/Geometry> geosp:asWKT "POINT(-122.437496 37.734789)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StJohn'sSchool/geometry> geosp:asWKT "POINT(-122.437496 37.734789)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StJohn'sSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StJohn'sSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StJohn'sSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StJohn'sSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StMary'sChineseDaySchool> ont:name "St. Mary's Chinese Day School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "910 Broadway" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StMary'sChineseDaySchool/Geometry> geosp:asWKT "POINT(-122.412375 37.797475)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StMary'sChineseDaySchool/geometry> geosp:asWKT "POINT(-122.412375 37.797475)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StMary'sChineseDaySchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StMary'sChineseDaySchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StMary'sChineseDaySchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StMary'sChineseDaySchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/KippBayviewAcademy> ont:name "Kipp Bayview Academy" ;
 	ont:children "5 - 8" ;
 	ont:address "1060 Key Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/KippBayviewAcademy/Geometry> geosp:asWKT "POINT(-122.396219 37.719517)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/KippBayviewAcademy/geometry> geosp:asWKT "POINT(-122.396219 37.719517)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/KippBayviewAcademy> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/KippBayviewAcademy/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/KippBayviewAcademy> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/KippBayviewAcademy/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StPeter'sSchool> ont:name "St. Peter's School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "1266 Florida Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StPeter'sSchool/Geometry> geosp:asWKT "POINT(-122.41036 37.7517)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StPeter'sSchool/geometry> geosp:asWKT "POINT(-122.41036 37.7517)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StPeter'sSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StPeter'sSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StPeter'sSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StPeter'sSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StPhilip'sSchool> ont:name "St. Philip's School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "665 Elizabeth Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StPhilip'sSchool/Geometry> geosp:asWKT "POINT(-122.435538 37.751758)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StPhilip'sSchool/geometry> geosp:asWKT "POINT(-122.435538 37.751758)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StPhilip'sSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StPhilip'sSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StPhilip'sSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StPhilip'sSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StsPeterandPaulSalesianSchool> ont:name "Sts. Peter and Paul Salesian School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "660 Filbert Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StsPeterandPaulSalesianSchool/Geometry> geosp:asWKT "POINT(-122.410437 37.801422)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StsPeterandPaulSalesianSchool/geometry> geosp:asWKT "POINT(-122.410437 37.801422)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StsPeterandPaulSalesianSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StsPeterandPaulSalesianSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StsPeterandPaulSalesianSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StsPeterandPaulSalesianSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoWaldorfSchool> ont:name "San Francisco Waldorf School" ;
 	ont:children "K - 12" ;
 	ont:address "2938 Washington Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoWaldorfSchool/Geometry> geosp:asWKT "POINT(-122.441941 37.79091)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoWaldorfSchool/geometry> geosp:asWKT "POINT(-122.441941 37.79091)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoWaldorfSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoWaldorfSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoWaldorfSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoWaldorfSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StuartHallHighSchool> ont:name "Stuart Hall High School" ;
 	ont:type "BOYS, CATHOLIC" ;
 	ont:children "9 - 12" ;
 	ont:address "1715 Octavia Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StuartHallHighSchool/Geometry> geosp:asWKT "POINT(-122.427294 37.788251)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StuartHallHighSchool/geometry> geosp:asWKT "POINT(-122.427294 37.788251)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StuartHallHighSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StuartHallHighSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StuartHallHighSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StuartHallHighSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/SynergySchool> ont:name "Synergy School" ;
 	ont:children "K - 8" ;
 	ont:address "1387 Valencia Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SynergySchool/Geometry> geosp:asWKT "POINT(-122.4202 37.750874)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SynergySchool/geometry> geosp:asWKT "POINT(-122.4202 37.750874)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SynergySchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SynergySchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SynergySchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SynergySchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/WestPortalLutheranSchool(1-3)> ont:name "West Portal Lutheran School (1-3)" ;
 	ont:type "PRESCHOOL" ;
 	ont:children "1 - 3" ;
 	ont:address "1711 37th Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/WestPortalLutheranSchool(1-3)/Geometry> geosp:asWKT "POINT(-122.496172 37.754918)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/WestPortalLutheranSchool(1-3)/geometry> geosp:asWKT "POINT(-122.496172 37.754918)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/WestPortalLutheranSchool(1-3)> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/WestPortalLutheranSchool(1-3)/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/WestPortalLutheranSchool(1-3)> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/WestPortalLutheranSchool(1-3)/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/ArchbishopRiordanHighSchool> ont:name "Archbishop Riordan High School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "9 - 12" ;
 	ont:address "175 Phelan Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/ArchbishopRiordanHighSchool/Geometry> geosp:asWKT "POINT(-122.454277 37.727921)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/ArchbishopRiordanHighSchool/geometry> geosp:asWKT "POINT(-122.454277 37.727921)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/ArchbishopRiordanHighSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/ArchbishopRiordanHighSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/ArchbishopRiordanHighSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/ArchbishopRiordanHighSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/BethelCenter> ont:name "Bethel Center" ;
 	ont:type "ED" ;
 	ont:children "9 - 12" ;
 	ont:address "2557 Alemany Boulevard" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/BethelCenter/Geometry> geosp:asWKT "POINT(-122.446511 37.714723)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/BethelCenter/geometry> geosp:asWKT "POINT(-122.446511 37.714723)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/BethelCenter> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/BethelCenter/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/BethelCenter> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/BethelCenter/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/CathedralSchoolforBoys> ont:name "Cathedral School for Boys" ;
 	ont:type "BOYS, EPISCOPAL" ;
 	ont:children "K - 8" ;
 	ont:address "1275 Sacramento Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/CathedralSchoolforBoys/Geometry> geosp:asWKT "POINT(-122.413383 37.792008)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/CathedralSchoolforBoys/geometry> geosp:asWKT "POINT(-122.413383 37.792008)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/CathedralSchoolforBoys> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/CathedralSchoolforBoys/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/CathedralSchoolforBoys> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/CathedralSchoolforBoys/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/ChineseAmericanInternationalSchool> ont:name "Chinese American International School" ;
 	ont:type "BILINGUAL (ENGLISH, CHINESE)" ;
 	ont:children "PK - 8" ;
 	ont:address "150 Oak Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/ChineseAmericanInternationalSchool/Geometry> geosp:asWKT "POINT(-122.421832 37.775381)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/ChineseAmericanInternationalSchool/geometry> geosp:asWKT "POINT(-122.421832 37.775381)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/ChineseAmericanInternationalSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/ChineseAmericanInternationalSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/ChineseAmericanInternationalSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/ChineseAmericanInternationalSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademy-Campus1> ont:name "Cornerstone Academy - Campus 1" ;
 	ont:type "PRESCHOOL, BILINGUAL (ENGLISH, CANTONESE)" ;
 	ont:children "PK - 4" ;
 	ont:address "801 Silver Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademy-Campus1/Geometry> geosp:asWKT "POINT(-122.418325 37.729583)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademy-Campus1/geometry> geosp:asWKT "POINT(-122.418325 37.729583)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademy-Campus1> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademy-Campus1/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademy-Campus1> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademy-Campus1/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademy-Campus2> ont:name "Cornerstone Academy - Campus 2" ;
 	ont:type "BACKGROUND, BILINGUAL (ENGLISH, CANTONESE)" ;
 	ont:children "5 - 10" ;
 	ont:address "501 Cambridge Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademy-Campus2/Geometry> geosp:asWKT "POINT(-122.416847 37.724953)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademy-Campus2/geometry> geosp:asWKT "POINT(-122.416847 37.724953)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademy-Campus2> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademy-Campus2/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademy-Campus2> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademy-Campus2/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/CorpusChristiSchool> ont:name "Corpus Christi School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "75 Francis Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/CorpusChristiSchool/Geometry> geosp:asWKT "POINT(-122.435264 37.727179)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/CorpusChristiSchool/geometry> geosp:asWKT "POINT(-122.435264 37.727179)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/CorpusChristiSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/CorpusChristiSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/CorpusChristiSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/CorpusChristiSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/DeMarillacMiddleSchool> ont:name "DeMarillac Middle School" ;
 	ont:type "UNDERPRIVILEGED, CATHOLIC" ;
 	ont:children "6 - 8" ;
 	ont:address "135 Golden Gate Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/DeMarillacMiddleSchool/Geometry> geosp:asWKT "POINT(-122.413031 37.781666)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/DeMarillacMiddleSchool/geometry> geosp:asWKT "POINT(-122.413031 37.781666)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/DeMarillacMiddleSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/DeMarillacMiddleSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/DeMarillacMiddleSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/DeMarillacMiddleSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/DiscoveryCenterSchool> ont:name "Discovery Center School" ;
 	ont:children "K - 8" ;
 	ont:address "65 Ocean Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/DiscoveryCenterSchool/Geometry> geosp:asWKT "POINT(-122.438326 37.723301)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/DiscoveryCenterSchool/geometry> geosp:asWKT "POINT(-122.438326 37.723301)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/DiscoveryCenterSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/DiscoveryCenterSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/DiscoveryCenterSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/DiscoveryCenterSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/DrewCollegePreparatorySchool> ont:name "Drew College Preparatory School" ;
 	ont:children "9 - 12" ;
 	ont:address "2901 California Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/DrewCollegePreparatorySchool/Geometry> geosp:asWKT "POINT(-122.442291 37.78756)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/DrewCollegePreparatorySchool/geometry> geosp:asWKT "POINT(-122.442291 37.78756)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/DrewCollegePreparatorySchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/DrewCollegePreparatorySchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/DrewCollegePreparatorySchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/DrewCollegePreparatorySchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/EcoleNotreDamesdesVictoires> ont:name "Ecole Notre Dames des Victoires" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "659 Pine Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/EcoleNotreDamesdesVictoires/Geometry> geosp:asWKT "POINT(-122.406467 37.791117)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/EcoleNotreDamesdesVictoires/geometry> geosp:asWKT "POINT(-122.406467 37.791117)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/EcoleNotreDamesdesVictoires> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/EcoleNotreDamesdesVictoires/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/EcoleNotreDamesdesVictoires> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/EcoleNotreDamesdesVictoires/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/FellowshipAcademy> ont:name "Fellowship Academy" ;
 	ont:children "PK - 8" ;
 	ont:address "495 Cambridge Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/FellowshipAcademy/Geometry> geosp:asWKT "POINT(-122.41732 37.725719)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/FellowshipAcademy/geometry> geosp:asWKT "POINT(-122.41732 37.725719)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/FellowshipAcademy> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/FellowshipAcademy/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/FellowshipAcademy> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/FellowshipAcademy/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/FreemanSchool> ont:name "Freeman School" ;
 	ont:type "SHALOM" ;
 	ont:children "K - 8" ;
 	ont:address "862 28th Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/FreemanSchool/Geometry> geosp:asWKT "POINT(-122.486934 37.773382)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/FreemanSchool/geometry> geosp:asWKT "POINT(-122.486934 37.773382)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/FreemanSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/FreemanSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/FreemanSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/FreemanSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/HillwoodAcademicDaySchool> ont:name "Hillwood Academic Day School" ;
 	ont:children "K - 8" ;
 	ont:address "2521 Scott Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/HillwoodAcademicDaySchool/Geometry> geosp:asWKT "POINT(-122.440119 37.793323)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/HillwoodAcademicDaySchool/geometry> geosp:asWKT "POINT(-122.440119 37.793323)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/HillwoodAcademicDaySchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/HillwoodAcademicDaySchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/HillwoodAcademicDaySchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/HillwoodAcademicDaySchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/HolyNameSchool> ont:name "Holy Name School" ;
 	ont:children "K - 8" ;
 	ont:address "1560 40th Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/HolyNameSchool/Geometry> geosp:asWKT "POINT(-122.498905 37.757697)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/HolyNameSchool/geometry> geosp:asWKT "POINT(-122.498905 37.757697)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/HolyNameSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/HolyNameSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/HolyNameSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/HolyNameSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/HolyTrinityOrthodoxSchool> ont:name "Holy Trinity Orthodox School" ;
 	ont:children "K - 8" ;
 	ont:address "999 Brotherhood Way" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/HolyTrinityOrthodoxSchool/Geometry> geosp:asWKT "POINT(-122.482003 37.713867)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/HolyTrinityOrthodoxSchool/geometry> geosp:asWKT "POINT(-122.482003 37.713867)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/HolyTrinityOrthodoxSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/HolyTrinityOrthodoxSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/HolyTrinityOrthodoxSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/HolyTrinityOrthodoxSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/KatherineDelmarBurkeSchool> ont:name "Katherine Delmar Burke School" ;
 	ont:type "GIRLS" ;
 	ont:children "K - 8" ;
 	ont:address "7070 California Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/KatherineDelmarBurkeSchool/Geometry> geosp:asWKT "POINT(-122.4934 37.784938)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/KatherineDelmarBurkeSchool/geometry> geosp:asWKT "POINT(-122.4934 37.784938)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/KatherineDelmarBurkeSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/KatherineDelmarBurkeSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/KatherineDelmarBurkeSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/KatherineDelmarBurkeSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/KatherineMichielsSchool> ont:name "Katherine Michiels School" ;
 	ont:type "ART, SPANISH, DYSLEXIA" ;
 	ont:children "PK - 5" ;
 	ont:address "1335 Guerrero Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/KatherineMichielsSchool/Geometry> geosp:asWKT "POINT(-122.42231 37.749818)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/KatherineMichielsSchool/geometry> geosp:asWKT "POINT(-122.42231 37.749818)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/KatherineMichielsSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/KatherineMichielsSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/KatherineMichielsSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/KatherineMichielsSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/KittredgeSchool> ont:name "Kittredge School" ;
 	ont:children "1 - 8" ;
 	ont:address "2355 Lake Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/KittredgeSchool/Geometry> geosp:asWKT "POINT(-122.484957 37.785507)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/KittredgeSchool/geometry> geosp:asWKT "POINT(-122.484957 37.785507)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/KittredgeSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/KittredgeSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/KittredgeSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/KittredgeSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/KrouzianArmenianSchool> ont:name "Krouzian Armenian School" ;
 	ont:type "CHRISTIAN" ;
 	ont:children "PK - 8" ;
 	ont:address "825 Brotherhood Way" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/KrouzianArmenianSchool/Geometry> geosp:asWKT "POINT(-122.478318 37.713841)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/KrouzianArmenianSchool/geometry> geosp:asWKT "POINT(-122.478318 37.713841)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/KrouzianArmenianSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/KrouzianArmenianSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/KrouzianArmenianSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/KrouzianArmenianSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/LaMelSchool> ont:name "La Mel School" ;
 	ont:type "ED" ;
 	ont:children "K - 12" ;
 	ont:address "1801 Bush Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/LaMelSchool/Geometry> geosp:asWKT "POINT(-122.427216 37.787503)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/LaMelSchool/geometry> geosp:asWKT "POINT(-122.427216 37.787503)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/LaMelSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/LaMelSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/LaMelSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/LaMelSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/LickWilmerdingHighSchool> ont:name "Lick Wilmerding High School" ;
 	ont:children "9 - 12" ;
 	ont:address "755 Ocean Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/LickWilmerdingHighSchool/Geometry> geosp:asWKT "POINT(-122.44898 37.722322)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/LickWilmerdingHighSchool/geometry> geosp:asWKT "POINT(-122.44898 37.722322)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/LickWilmerdingHighSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/LickWilmerdingHighSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/LickWilmerdingHighSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/LickWilmerdingHighSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/LyceeFrancaisLaPerouseSanFrancisco> ont:name "Lycee Francais La Perouse San Francisco" ;
 	ont:type "FRENCH" ;
 	ont:children "PK - 12" ;
 	ont:address "755 Ashbury Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/LyceeFrancaisLaPerouseSanFrancisco/Geometry> geosp:asWKT "POINT(-122.446968 37.76797)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/LyceeFrancaisLaPerouseSanFrancisco/geometry> geosp:asWKT "POINT(-122.446968 37.76797)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/LyceeFrancaisLaPerouseSanFrancisco> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/LyceeFrancaisLaPerouseSanFrancisco/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/LyceeFrancaisLaPerouseSanFrancisco> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/LyceeFrancaisLaPerouseSanFrancisco/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/MariaMontessoriElementarySchool> ont:name "Maria Montessori Elementary School" ;
 	ont:children "PK - 6" ;
 	ont:address "678 Portola Drive" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/MariaMontessoriElementarySchool/Geometry> geosp:asWKT "POINT(-122.453427 37.745055)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/MariaMontessoriElementarySchool/geometry> geosp:asWKT "POINT(-122.453427 37.745055)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/MariaMontessoriElementarySchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/MariaMontessoriElementarySchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/MariaMontessoriElementarySchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/MariaMontessoriElementarySchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/MercyHighSchool> ont:name "Mercy High School" ;
 	ont:type "GIRLS, CATHOLIC" ;
 	ont:children "9 - 12" ;
 	ont:address "3250 19th Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/MercyHighSchool/Geometry> geosp:asWKT "POINT(-122.473589 37.7295)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/MercyHighSchool/geometry> geosp:asWKT "POINT(-122.473589 37.7295)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/MercyHighSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/MercyHighSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/MercyHighSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/MercyHighSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/RivendellSchool> ont:name "Rivendell School" ;
 	ont:children "K - 5" ;
 	ont:address "4501 Irving Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/RivendellSchool/Geometry> geosp:asWKT "POINT(-122.506305 37.762028)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/RivendellSchool/geometry> geosp:asWKT "POINT(-122.506305 37.762028)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/RivendellSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/RivendellSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/RivendellSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/RivendellSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/MotherGooseSchool> ont:name "Mother Goose School" ;
 	ont:children "PK - 2" ;
 	ont:address "334 28th Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/MotherGooseSchool/Geometry> geosp:asWKT "POINT(-122.487839 37.783022)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/MotherGooseSchool/geometry> geosp:asWKT "POINT(-122.487839 37.783022)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/MotherGooseSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/MotherGooseSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/MotherGooseSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/MotherGooseSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/Russian-AmericanInternationalSchool> ont:name "Russian-American International School" ;
 	ont:children "K - 4" ;
 	ont:address "1250 Quintara Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/Russian-AmericanInternationalSchool/Geometry> geosp:asWKT "POINT(-122.479099 37.74876)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/Russian-AmericanInternationalSchool/geometry> geosp:asWKT "POINT(-122.479099 37.74876)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/Russian-AmericanInternationalSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/Russian-AmericanInternationalSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/Russian-AmericanInternationalSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/Russian-AmericanInternationalSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/SacredHeartCathedralPreparatory> ont:name "Sacred Heart Cathedral Preparatory" ;
 	ont:type "CATHOLIC" ;
 	ont:children "9 - 12" ;
 	ont:address "1055 Ellis Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SacredHeartCathedralPreparatory/Geometry> geosp:asWKT "POINT(-122.423188 37.783287)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SacredHeartCathedralPreparatory/geometry> geosp:asWKT "POINT(-122.423188 37.783287)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SacredHeartCathedralPreparatory> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SacredHeartCathedralPreparatory/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SacredHeartCathedralPreparatory> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SacredHeartCathedralPreparatory/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StAnneSchool> ont:name "St. Anne School" ;
 	ont:type "CATHOLIC, BILINGUAL (ENGLISH, CHINESE)" ;
 	ont:children "K - 8" ;
 	ont:address "1320 14th Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StAnneSchool/Geometry> geosp:asWKT "POINT(-122.471095 37.76341)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StAnneSchool/geometry> geosp:asWKT "POINT(-122.471095 37.76341)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StAnneSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StAnneSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StAnneSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StAnneSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StBrigidSchool> ont:name "St. Brigid School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "2250 Franklin Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StBrigidSchool/Geometry> geosp:asWKT "POINT(-122.422326 37.794657)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StBrigidSchool/geometry> geosp:asWKT "POINT(-122.422326 37.794657)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StBrigidSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StBrigidSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StBrigidSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StBrigidSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StElizabethSchool> ont:name "St. Elizabeth School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "450 Somerset Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StElizabethSchool/Geometry> geosp:asWKT "POINT(-122.407667 37.725689)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StElizabethSchool/geometry> geosp:asWKT "POINT(-122.407667 37.725689)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StElizabethSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StElizabethSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StElizabethSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StElizabethSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StFinnBarrSchool> ont:name "St. Finn Barr School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "419 Hearst Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StFinnBarrSchool/Geometry> geosp:asWKT "POINT(-122.447411 37.730445)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StFinnBarrSchool/geometry> geosp:asWKT "POINT(-122.447411 37.730445)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StFinnBarrSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StFinnBarrSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StFinnBarrSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StFinnBarrSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StIgnatiusCollegePreparatory> ont:name "St. Ignatius College Preparatory" ;
 	ont:type "CATHOLIC" ;
 	ont:children "9 - 12" ;
 	ont:address "2001 37th Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StIgnatiusCollegePreparatory/Geometry> geosp:asWKT "POINT(-122.496384 37.746924)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StIgnatiusCollegePreparatory/geometry> geosp:asWKT "POINT(-122.496384 37.746924)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StIgnatiusCollegePreparatory> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StIgnatiusCollegePreparatory/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StIgnatiusCollegePreparatory> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StIgnatiusCollegePreparatory/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StMonicaSchool> ont:name "St. Monica School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "5920 Geary Boulevard" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StMonicaSchool/Geometry> geosp:asWKT "POINT(-122.483068 37.780498)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StMonicaSchool/geometry> geosp:asWKT "POINT(-122.483068 37.780498)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StMonicaSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StMonicaSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StMonicaSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StMonicaSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StThomastheApostleSchool> ont:name "St. Thomas the Apostle School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "3801 Balboa Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StThomastheApostleSchool/Geometry> geosp:asWKT "POINT(-122.499773 37.775097)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StThomastheApostleSchool/geometry> geosp:asWKT "POINT(-122.499773 37.775097)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StThomastheApostleSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StThomastheApostleSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StThomastheApostleSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StThomastheApostleSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StVincentdePaulSchool> ont:name "St. Vincent de Paul School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "2350 Green Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StVincentdePaulSchool/Geometry> geosp:asWKT "POINT(-122.437854 37.796112)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StVincentdePaulSchool/geometry> geosp:asWKT "POINT(-122.437854 37.796112)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StVincentdePaulSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StVincentdePaulSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StVincentdePaulSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StVincentdePaulSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StsCyrilandMethodiusHighSchool> ont:name "Sts. Cyril and Methodius High School" ;
 	ont:type "ORTHODOX, BILINGUAL (ENGLISH, RUSSIAN)" ;
 	ont:children "9  - 12" ;
 	ont:address "6200 Geary Boulevard" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StsCyrilandMethodiusHighSchool/Geometry> geosp:asWKT "POINT(-122.486024 37.780342)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StsCyrilandMethodiusHighSchool/geometry> geosp:asWKT "POINT(-122.486024 37.780342)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StsCyrilandMethodiusHighSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StsCyrilandMethodiusHighSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StsCyrilandMethodiusHighSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StsCyrilandMethodiusHighSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoAdventistSchool> ont:name "San Francisco Adventist School" ;
 	ont:children "K - 10" ;
 	ont:address "66 Geneva Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoAdventistSchool/Geometry> geosp:asWKT "POINT(-122.45119 37.721714)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoAdventistSchool/geometry> geosp:asWKT "POINT(-122.45119 37.721714)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoAdventistSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoAdventistSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoAdventistSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoAdventistSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoChineseParentsCommunity> ont:name "San Francisco Chinese Parents Community" ;
 	ont:children "PK - 5" ;
 	ont:address "843 Stockton Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoChineseParentsCommunity/Geometry> geosp:asWKT "POINT(-122.408182 37.793737)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoChineseParentsCommunity/geometry> geosp:asWKT "POINT(-122.408182 37.793737)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoChineseParentsCommunity> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoChineseParentsCommunity/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoChineseParentsCommunity> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoChineseParentsCommunity/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoChristianSchool> ont:name "San Francisco Christian School" ;
 	ont:children "K - 12" ;
 	ont:address "25 Whittier Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoChristianSchool/Geometry> geosp:asWKT "POINT(-122.447754 37.710037)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoChristianSchool/geometry> geosp:asWKT "POINT(-122.447754 37.710037)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoChristianSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoChristianSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoChristianSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoChristianSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoCityAcademy> ont:name "San Francisco City Academy" ;
 	ont:children "K - 8" ;
 	ont:address "302 Eddy Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoCityAcademy/Geometry> geosp:asWKT "POINT(-122.412942 37.78408)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoCityAcademy/geometry> geosp:asWKT "POINT(-122.412942 37.78408)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoCityAcademy> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoCityAcademy/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoCityAcademy> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoCityAcademy/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoDaySchool> ont:name "San Francisco Day School" ;
 	ont:children "K - 8" ;
 	ont:address "350 Masonic Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoDaySchool/Geometry> geosp:asWKT "POINT(-122.446283 37.778042)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoDaySchool/geometry> geosp:asWKT "POINT(-122.446283 37.778042)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoDaySchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoDaySchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoDaySchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoDaySchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoFriendsSchool> ont:name "San Francisco Friends School" ;
 	ont:children "K - 8" ;
 	ont:address "117 Diamond Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoFriendsSchool/Geometry> geosp:asWKT "POINT(-122.436799 37.760124)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoFriendsSchool/geometry> geosp:asWKT "POINT(-122.436799 37.760124)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoFriendsSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoFriendsSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoFriendsSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoFriendsSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoUniversityHighSchool> ont:name "San Francisco University High School" ;
 	ont:children "9 - 12" ;
 	ont:address "3065 Jackson Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoUniversityHighSchool/Geometry> geosp:asWKT "POINT(-122.44535 37.790655)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoUniversityHighSchool/geometry> geosp:asWKT "POINT(-122.44535 37.790655)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoUniversityHighSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoUniversityHighSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoUniversityHighSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SanFranciscoUniversityHighSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/MuhammadUniversityofIslam> ont:name "Muhammad University of Islam" ;
 	ont:type "ISLAMIC" ;
 	ont:children "K - 12" ;
 	ont:address "5048 3rd Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/MuhammadUniversityofIslam/Geometry> geosp:asWKT "POINT(-122.391768 37.732795)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/MuhammadUniversityofIslam/geometry> geosp:asWKT "POINT(-122.391768 37.732795)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/MuhammadUniversityofIslam> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/MuhammadUniversityofIslam/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/MuhammadUniversityofIslam> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/MuhammadUniversityofIslam/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/SandPathsAcademy> ont:name "Sand Paths Academy" ;
 	ont:type "DISTURBED CHILDREN" ;
 	ont:children "6 - 12" ;
 	ont:address "1218 South Van Ness Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SandPathsAcademy/Geometry> geosp:asWKT "POINT(-122.41672 37.753465)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SandPathsAcademy/geometry> geosp:asWKT "POINT(-122.41672 37.753465)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SandPathsAcademy> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SandPathsAcademy/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SandPathsAcademy> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SandPathsAcademy/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/SRMartinCollegePreparatory> ont:name "S.R. Martin College Preparatory" ;
 	ont:children "9 - 12" ;
 	ont:address "2660 San Bruno Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SRMartinCollegePreparatory/Geometry> geosp:asWKT "POINT(-122.404095 37.727937)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SRMartinCollegePreparatory/geometry> geosp:asWKT "POINT(-122.404095 37.727937)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SRMartinCollegePreparatory> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SRMartinCollegePreparatory/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SRMartinCollegePreparatory> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SRMartinCollegePreparatory/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/SterneSchool> ont:name "Sterne School" ;
 	ont:type "LEARNING DIFFICULTIES" ;
 	ont:children "5 - 12" ;
 	ont:address "2690 Jackson Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SterneSchool/Geometry> geosp:asWKT "POINT(-122.439357 37.792057)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SterneSchool/geometry> geosp:asWKT "POINT(-122.439357 37.792057)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SterneSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SterneSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SterneSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SterneSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/TheSanFranciscoSchool> ont:name "The San Francisco School" ;
 	ont:children "PK - 8" ;
 	ont:address "300 Gaven Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/TheSanFranciscoSchool/Geometry> geosp:asWKT "POINT(-122.411698 37.73278)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/TheSanFranciscoSchool/geometry> geosp:asWKT "POINT(-122.411698 37.73278)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/TheSanFranciscoSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/TheSanFranciscoSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/TheSanFranciscoSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/TheSanFranciscoSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/CalFedYouthChanceHigh> ont:name "Cal Fed Youth Chance High" ;
 	ont:children "9 - 12" ;
 	ont:address "220 Golden Gate Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/CalFedYouthChanceHigh/Geometry> geosp:asWKT "POINT(-122.414273 37.782099)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/CalFedYouthChanceHigh/geometry> geosp:asWKT "POINT(-122.414273 37.782099)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/CalFedYouthChanceHigh> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/CalFedYouthChanceHigh/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/CalFedYouthChanceHigh> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/CalFedYouthChanceHigh/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/TownSchoolforBoys> ont:name "Town School for Boys" ;
 	ont:type "BOYS" ;
 	ont:children "K - 8" ;
 	ont:address "2750 Jackson Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/TownSchoolforBoys/Geometry> geosp:asWKT "POINT(-122.440129 37.792034)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/TownSchoolforBoys/geometry> geosp:asWKT "POINT(-122.440129 37.792034)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/TownSchoolforBoys> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/TownSchoolforBoys/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/TownSchoolforBoys> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/TownSchoolforBoys/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/UrbanSchoolofSanFrancisco> ont:name "Urban School of San Francisco" ;
 	ont:children "9 - 12" ;
 	ont:address "1563 Page Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/UrbanSchoolofSanFrancisco/Geometry> geosp:asWKT "POINT(-122.446384 37.770749)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/UrbanSchoolofSanFrancisco/geometry> geosp:asWKT "POINT(-122.446384 37.770749)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/UrbanSchoolofSanFrancisco> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/UrbanSchoolofSanFrancisco/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/UrbanSchoolofSanFrancisco> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/UrbanSchoolofSanFrancisco/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/VoiceofPentecostAcademy> ont:name "Voice of Pentecost Academy" ;
 	ont:children "K - 12" ;
 	ont:address "1970 Ocean Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/VoiceofPentecostAcademy/Geometry> geosp:asWKT "POINT(-122.463974 37.726364)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/VoiceofPentecostAcademy/geometry> geosp:asWKT "POINT(-122.463974 37.726364)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/VoiceofPentecostAcademy> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/VoiceofPentecostAcademy/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/VoiceofPentecostAcademy> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/VoiceofPentecostAcademy/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/WestPortalLutheranSchool(K4-8)> ont:name "West Portal Lutheran School (K,4-8)" ;
 	ont:children "K, 4 - 8" ;
 	ont:address "200 Sloat Boulevard" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/WestPortalLutheranSchool(K4-8)/Geometry> geosp:asWKT "POINT(-122.473452 37.735356)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/WestPortalLutheranSchool(K4-8)/geometry> geosp:asWKT "POINT(-122.473452 37.735356)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/WestPortalLutheranSchool(K4-8)> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/WestPortalLutheranSchool(K4-8)/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/WestPortalLutheranSchool(K4-8)> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/WestPortalLutheranSchool(K4-8)/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/WoodsideInternationalSchool> ont:name "Woodside International School" ;
 	ont:children "6 - 12" ;
 	ont:address "1555 Irving Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/WoodsideInternationalSchool/Geometry> geosp:asWKT "POINT(-122.474748 37.763432)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/WoodsideInternationalSchool/geometry> geosp:asWKT "POINT(-122.474748 37.763432)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/WoodsideInternationalSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/WoodsideInternationalSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/WoodsideInternationalSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/WoodsideInternationalSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/YouthChanceHighSchool> ont:name "Youth Chance High School" ;
 	ont:children "9 - 12" ;
 	ont:address "25 14th Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/YouthChanceHighSchool/Geometry> geosp:asWKT "POINT(-122.414142 37.768336)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/YouthChanceHighSchool/geometry> geosp:asWKT "POINT(-122.414142 37.768336)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/YouthChanceHighSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/YouthChanceHighSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/YouthChanceHighSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/YouthChanceHighSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/ZionLutheranSchool> ont:name "Zion Lutheran School" ;
 	ont:children "K - 8" ;
 	ont:address "495 09th Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/ZionLutheranSchool/Geometry> geosp:asWKT "POINT(-122.467595 37.779218)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/ZionLutheranSchool/geometry> geosp:asWKT "POINT(-122.467595 37.779218)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/ZionLutheranSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/ZionLutheranSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/ZionLutheranSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/ZionLutheranSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/ConventoftheSacredHeartHighSchool> ont:name "Convent of the Sacred Heart High School" ;
 	ont:type "GIRLS, CATHOLIC" ;
 	ont:children "9-12" ;
 	ont:address "2222 Broadway" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/ConventoftheSacredHeartHighSchool/Geometry> geosp:asWKT "POINT(-122.43396 37.794865)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/ConventoftheSacredHeartHighSchool/geometry> geosp:asWKT "POINT(-122.43396 37.794865)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/ConventoftheSacredHeartHighSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/ConventoftheSacredHeartHighSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/ConventoftheSacredHeartHighSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/ConventoftheSacredHeartHighSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/OpenBookSchool> ont:name "Open Book School" ;
 	ont:children "9 - 11" ;
 	ont:address "1832 Buchanan Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/OpenBookSchool/Geometry> geosp:asWKT "POINT(-122.429854 37.786982)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/OpenBookSchool/geometry> geosp:asWKT "POINT(-122.429854 37.786982)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/OpenBookSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/OpenBookSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/OpenBookSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/OpenBookSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/MontessoriHouseOfChildren> ont:name "Montessori House Of Children" ;
 	ont:children "K - 2" ;
 	ont:address "1187 Franklin Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/MontessoriHouseOfChildren/Geometry> geosp:asWKT "POINT(-122.423414 37.785047)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/MontessoriHouseOfChildren/geometry> geosp:asWKT "POINT(-122.423414 37.785047)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/MontessoriHouseOfChildren> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/MontessoriHouseOfChildren/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/MontessoriHouseOfChildren> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/MontessoriHouseOfChildren/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/French-AmericanInternationalSchool> ont:name "French-American International School" ;
 	ont:type "BILINGUAL (ENGLISH, FRENCH)" ;
 	ont:children "PK-12" ;
 	ont:address "150 Oak Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/French-AmericanInternationalSchool/Geometry> geosp:asWKT "POINT(-122.421832 37.775381)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/French-AmericanInternationalSchool/geometry> geosp:asWKT "POINT(-122.421832 37.775381)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/French-AmericanInternationalSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/French-AmericanInternationalSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/French-AmericanInternationalSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/French-AmericanInternationalSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/WaldenHighAcademy> ont:name "Walden High Academy" ;
 	ont:children "8 - 12" ;
 	ont:address "214 Haight Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/WaldenHighAcademy/Geometry> geosp:asWKT "POINT(-122.426145 37.77294)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/WaldenHighAcademy/geometry> geosp:asWKT "POINT(-122.426145 37.77294)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/WaldenHighAcademy> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/WaldenHighAcademy/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/WaldenHighAcademy> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/WaldenHighAcademy/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/CowHollowKindergarten> ont:name "Cow Hollow Kindergarten" ;
 	ont:children "K" ;
 	ont:address "2521 Scott Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/CowHollowKindergarten/Geometry> geosp:asWKT "POINT(-122.440119 37.793323)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/CowHollowKindergarten/geometry> geosp:asWKT "POINT(-122.440119 37.793323)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/CowHollowKindergarten> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/CowHollowKindergarten/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/CowHollowKindergarten> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/CowHollowKindergarten/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/OneFiftyParkerAvenueSchool> ont:name "One Fifty Parker Avenue School" ;
 	ont:children "K" ;
 	ont:address "150 Parker Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/OneFiftyParkerAvenueSchool/Geometry> geosp:asWKT "POINT(-122.454098 37.782818)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/OneFiftyParkerAvenueSchool/geometry> geosp:asWKT "POINT(-122.454098 37.782818)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/OneFiftyParkerAvenueSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/OneFiftyParkerAvenueSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/OneFiftyParkerAvenueSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/OneFiftyParkerAvenueSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/PacificPrimary> ont:name "Pacific Primary" ;
 	ont:children "K" ;
 	ont:address "1500 Grove Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/PacificPrimary/Geometry> geosp:asWKT "POINT(-122.441736 37.775657)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/PacificPrimary/geometry> geosp:asWKT "POINT(-122.441736 37.775657)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/PacificPrimary> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/PacificPrimary/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/PacificPrimary> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/PacificPrimary/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/EriksonSchool> ont:name "Erikson School" ;
 	ont:address "1155 Page Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/EriksonSchool/Geometry> geosp:asWKT "POINT(-122.439704 37.771605)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/EriksonSchool/geometry> geosp:asWKT "POINT(-122.439704 37.771605)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/EriksonSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/EriksonSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/EriksonSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/EriksonSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/OlympiaInstitute> ont:name "Olympia Institute" ;
 	ont:children "7 - 12" ;
 	ont:address "950 Clement Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/OlympiaInstitute/Geometry> geosp:asWKT "POINT(-122.469526 37.782892)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/OlympiaInstitute/geometry> geosp:asWKT "POINT(-122.469526 37.782892)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/OlympiaInstitute> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/OlympiaInstitute/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/OlympiaInstitute> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/OlympiaInstitute/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StaroftheSeaElementary> ont:name "Star of the Sea Elementary" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "360 9th Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StaroftheSeaElementary/Geometry> geosp:asWKT "POINT(-122.467013 37.781832)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StaroftheSeaElementary/geometry> geosp:asWKT "POINT(-122.467013 37.781832)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StaroftheSeaElementary> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StaroftheSeaElementary/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StaroftheSeaElementary> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StaroftheSeaElementary/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/ChallengeToLearning> ont:name "Challenge To Learning" ;
 	ont:children "7 - 12" ;
 	ont:address "924 Balboa Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/ChallengeToLearning/Geometry> geosp:asWKT "POINT(-122.468844 37.777262)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/ChallengeToLearning/geometry> geosp:asWKT "POINT(-122.468844 37.777262)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/ChallengeToLearning> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/ChallengeToLearning/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/ChallengeToLearning> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/ChallengeToLearning/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/OakesChildren'sCenter> ont:name "Oakes Children's Center" ;
 	ont:address "1348 10th Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/OakesChildren'sCenter/Geometry> geosp:asWKT "POINT(-122.46699 37.763075)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/OakesChildren'sCenter/geometry> geosp:asWKT "POINT(-122.46699 37.763075)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/OakesChildren'sCenter> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/OakesChildren'sCenter/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/OakesChildren'sCenter> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/OakesChildren'sCenter/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/SunsetBible> ont:name "Sunset Bible" ;
 	ont:address "1690 21st Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SunsetBible/Geometry> geosp:asWKT "POINT(-122.478584 37.756269)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SunsetBible/geometry> geosp:asWKT "POINT(-122.478584 37.756269)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SunsetBible> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SunsetBible/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SunsetBible> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SunsetBible/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/ParksidePreschoolAndKindergarten> ont:name "Parkside Preschool And Kindergarten" ;
 	ont:children "K" ;
 	ont:address "2425 19th Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/ParksidePreschoolAndKindergarten/Geometry> geosp:asWKT "POINT(-122.475988 37.742514)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/ParksidePreschoolAndKindergarten/geometry> geosp:asWKT "POINT(-122.475988 37.742514)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/ParksidePreschoolAndKindergarten> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/ParksidePreschoolAndKindergarten/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/ParksidePreschoolAndKindergarten> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/ParksidePreschoolAndKindergarten/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/EdgewoodCenterForChildrenandFamilies> ont:name "Edgewood Center For Children and Families" ;
 	ont:address "1801 Vicente Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/EdgewoodCenterForChildrenandFamilies/Geometry> geosp:asWKT "POINT(-122.486256 37.737985)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/EdgewoodCenterForChildrenandFamilies/geometry> geosp:asWKT "POINT(-122.486256 37.737985)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/EdgewoodCenterForChildrenandFamilies> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/EdgewoodCenterForChildrenandFamilies/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/EdgewoodCenterForChildrenandFamilies> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/EdgewoodCenterForChildrenandFamilies/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/EurekaLearningCenter> ont:name "Eureka Learning Center" ;
 	ont:children "K" ;
 	ont:address "464 Diamond Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/EurekaLearningCenter/Geometry> geosp:asWKT "POINT(-122.437008 37.754966)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/EurekaLearningCenter/geometry> geosp:asWKT "POINT(-122.437008 37.754966)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/EurekaLearningCenter> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/EurekaLearningCenter/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/EurekaLearningCenter> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/EurekaLearningCenter/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/HolyFamilyDayHome> ont:name "Holy Family Day Home" ;
 	ont:children "K" ;
 	ont:address "299 Dolores Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/HolyFamilyDayHome/Geometry> geosp:asWKT "POINT(-122.425842 37.764926)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/HolyFamilyDayHome/geometry> geosp:asWKT "POINT(-122.425842 37.764926)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/HolyFamilyDayHome> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/HolyFamilyDayHome/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/HolyFamilyDayHome> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/HolyFamilyDayHome/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/RiseInstitute> ont:name "Rise Institute" ;
 	ont:address "1760 Cesar Chavez" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/RiseInstitute/Geometry> geosp:asWKT "POINT(-122.39495 37.750466)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/RiseInstitute/geometry> geosp:asWKT "POINT(-122.39495 37.750466)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/RiseInstitute> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/RiseInstitute/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/RiseInstitute> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/RiseInstitute/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/JoshuaMarieCameronAcademy-Whitney> ont:name "Joshua Marie Cameron Academy - Whitney" ;
 	ont:children "6 - 9" ;
 	ont:address "100 Whitney Yound Circle" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/JoshuaMarieCameronAcademy-Whitney/Geometry> geosp:asWKT "POINT(-122.384213 37.73404)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/JoshuaMarieCameronAcademy-Whitney/geometry> geosp:asWKT "POINT(-122.384213 37.73404)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/JoshuaMarieCameronAcademy-Whitney> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/JoshuaMarieCameronAcademy-Whitney/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/JoshuaMarieCameronAcademy-Whitney> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/JoshuaMarieCameronAcademy-Whitney/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/JoshuaMarieCameronAcademy-PlazaCampus> ont:name "Joshua Marie Cameron Academy - Plaza Campus" ;
 	ont:children "9 -12" ;
 	ont:address "3801 Third Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/JoshuaMarieCameronAcademy-PlazaCampus/Geometry> geosp:asWKT "POINT(-122.387432 37.74194)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/JoshuaMarieCameronAcademy-PlazaCampus/geometry> geosp:asWKT "POINT(-122.387432 37.74194)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/JoshuaMarieCameronAcademy-PlazaCampus> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/JoshuaMarieCameronAcademy-PlazaCampus/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/JoshuaMarieCameronAcademy-PlazaCampus> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/JoshuaMarieCameronAcademy-PlazaCampus/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/LivingHopeChristian> ont:name "Living Hope Christian" ;
 	ont:children "K - 12" ;
 	ont:address "1209 Geneva Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/LivingHopeChristian/Geometry> geosp:asWKT "POINT(-122.435828 37.714337)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/LivingHopeChristian/geometry> geosp:asWKT "POINT(-122.435828 37.714337)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/LivingHopeChristian> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/LivingHopeChristian/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/LivingHopeChristian> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/LivingHopeChristian/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/LakesidePresbyterianCenterForChildren> ont:name "Lakeside Presbyterian Center For Children" ;
 	ont:children "PK-K" ;
 	ont:address "201 Eucalyptus Drive" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/LakesidePresbyterianCenterForChildren/Geometry> geosp:asWKT "POINT(-122.47528 37.730674)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/LakesidePresbyterianCenterForChildren/geometry> geosp:asWKT "POINT(-122.47528 37.730674)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/LakesidePresbyterianCenterForChildren> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/LakesidePresbyterianCenterForChildren/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/LakesidePresbyterianCenterForChildren> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/LakesidePresbyterianCenterForChildren/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StThomasMoreSchool> ont:name "St. Thomas More School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K-8" ;
 	ont:address "50 Thomas More Way" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StThomasMoreSchool/Geometry> geosp:asWKT "POINT(-122.473568 37.712567)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StThomasMoreSchool/geometry> geosp:asWKT "POINT(-122.473568 37.712567)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StThomasMoreSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StThomasMoreSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StThomasMoreSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StThomasMoreSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StStephen'sSchool> ont:name "St. Stephen's School" ;
 	ont:type "CATHOLIC" ;
 	ont:children "K-8" ;
 	ont:address "401 Eucalyptus Drive" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StStephen'sSchool/Geometry> geosp:asWKT "POINT(-122.477721 37.730662)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StStephen'sSchool/geometry> geosp:asWKT "POINT(-122.477721 37.730662)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StStephen'sSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StStephen'sSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StStephen'sSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StStephen'sSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/SacredHeart/SaintDominicSchool(5-8)> ont:name "Sacred Heart/Saint Dominic School (5-8)" ;
 	ont:children "5-8" ;
 	ont:address "735 Fell Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SacredHeart/SaintDominicSchool(5-8)/Geometry> geosp:asWKT "POINT(-122.430153 37.7747)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SacredHeart/SaintDominicSchool(5-8)/geometry> geosp:asWKT "POINT(-122.430153 37.7747)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SacredHeart/SaintDominicSchool(5-8)> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SacredHeart/SaintDominicSchool(5-8)/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SacredHeart/SaintDominicSchool(5-8)> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SacredHeart/SaintDominicSchool(5-8)/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/JewishCommunityHighSchoolforBoys> ont:name "Jewish Community High School for Boys" ;
 	ont:children "9 -12" ;
 	ont:address "1835 Ellis Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/JewishCommunityHighSchoolforBoys/Geometry> geosp:asWKT "POINT(-122.436552 37.781354)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/JewishCommunityHighSchoolforBoys/geometry> geosp:asWKT "POINT(-122.436552 37.781354)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/JewishCommunityHighSchoolforBoys> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/JewishCommunityHighSchoolforBoys/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/JewishCommunityHighSchoolforBoys> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/JewishCommunityHighSchoolforBoys/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StJohnofSanFranciscoOrthodoxAcademy> ont:name "St. John of San Francisco Orthodox Academy" ;
 	ont:type "ORTHODOX" ;
 	ont:children "K-12" ;
 	ont:address "6210 Geary Boulevard" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StJohnofSanFranciscoOrthodoxAcademy/Geometry> geosp:asWKT "POINT(-122.486024 37.780342)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StJohnofSanFranciscoOrthodoxAcademy/geometry> geosp:asWKT "POINT(-122.486024 37.780342)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StJohnofSanFranciscoOrthodoxAcademy> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StJohnofSanFranciscoOrthodoxAcademy/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StJohnofSanFranciscoOrthodoxAcademy> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StJohnofSanFranciscoOrthodoxAcademy/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StuartHallforBoysSchool> ont:name "Stuart Hall for Boys School" ;
 	ont:type "BOYS, CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "2252 Broadway" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StuartHallforBoysSchool/Geometry> geosp:asWKT "POINT(-122.43396 37.794865)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StuartHallforBoysSchool/geometry> geosp:asWKT "POINT(-122.43396 37.794865)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StuartHallforBoysSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StuartHallforBoysSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StuartHallforBoysSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StuartHallforBoysSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/TheScandanavianSchool> ont:name "The Scandanavian School" ;
 	ont:children "PK" ;
 	ont:address "20 Woodside Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/TheScandanavianSchool/Geometry> geosp:asWKT "POINT(-122.457905 37.746575)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/TheScandanavianSchool/geometry> geosp:asWKT "POINT(-122.457905 37.746575)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/TheScandanavianSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/TheScandanavianSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/TheScandanavianSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/TheScandanavianSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/TheBaySchoolofSanFrancisco> ont:name "The Bay School of San Francisco" ;
 	ont:children "9 - 12" ;
 	ont:address "35 Keyes Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/TheBaySchoolofSanFrancisco/Geometry> geosp:asWKT "POINT(-122.45574 37.800649)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/TheBaySchoolofSanFrancisco/geometry> geosp:asWKT "POINT(-122.45574 37.800649)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/TheBaySchoolofSanFrancisco> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/TheBaySchoolofSanFrancisco/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/TheBaySchoolofSanFrancisco> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/TheBaySchoolofSanFrancisco/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/HerglSchool> ont:name "Hergl School" ;
 	ont:children "N/A" ;
 	ont:address "1570 Greenwich Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/HerglSchool/Geometry> geosp:asWKT "POINT(-122.425722 37.800375)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/HerglSchool/geometry> geosp:asWKT "POINT(-122.425722 37.800375)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/HerglSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/HerglSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/HerglSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/HerglSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/AltaVistaSchool> ont:name "Alta Vista School" ;
 	ont:children "K - 12" ;
 	ont:address "245 Valencia Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/AltaVistaSchool/Geometry> geosp:asWKT "POINT(-122.421816 37.76894)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/AltaVistaSchool/geometry> geosp:asWKT "POINT(-122.421816 37.76894)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/AltaVistaSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/AltaVistaSchool/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/AltaVistaSchool> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/AltaVistaSchool/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademyKindergarten> ont:name "Cornerstone Academy Kindergarten" ;
 	ont:type "BAPTIST" ;
 	ont:children "K" ;
 	ont:address "1925 Lawton Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademyKindergarten/Geometry> geosp:asWKT "POINT(-122.483662 37.757418)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademyKindergarten/geometry> geosp:asWKT "POINT(-122.483662 37.757418)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademyKindergarten> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademyKindergarten/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademyKindergarten> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/CornerstoneAcademyKindergarten/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/FeiTianAcademyoftheArtsCalifornia> ont:name "Fei Tian Academy of the Arts California" ;
 	ont:children "6 - 12" ;
 	ont:address "101 15th Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/FeiTianAcademyoftheArtsCalifornia/Geometry> geosp:asWKT "POINT(-122.402129 37.767152)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/FeiTianAcademyoftheArtsCalifornia/geometry> geosp:asWKT "POINT(-122.402129 37.767152)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/FeiTianAcademyoftheArtsCalifornia> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/FeiTianAcademyoftheArtsCalifornia/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/FeiTianAcademyoftheArtsCalifornia> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/FeiTianAcademyoftheArtsCalifornia/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/MeganFurthAcademy> ont:name "Megan Furth Academy" ;
 	ont:type "ROMAN CATHOLIC" ;
 	ont:children "k - 8" ;
 	ont:address "2445 Pine Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/MeganFurthAcademy/Geometry> geosp:asWKT "POINT(-122.435948 37.787471)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/MeganFurthAcademy/geometry> geosp:asWKT "POINT(-122.435948 37.787471)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/MeganFurthAcademy> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/MeganFurthAcademy/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/MeganFurthAcademy> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/MeganFurthAcademy/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/SpectrumCenterInc> ont:name "Spectrum Center Inc" ;
 	ont:children "6 - 12" ;
 	ont:address "95 Gough Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SpectrumCenterInc/Geometry> geosp:asWKT "POINT(-122.422715 37.773784)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SpectrumCenterInc/geometry> geosp:asWKT "POINT(-122.422715 37.773784)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/SpectrumCenterInc> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SpectrumCenterInc/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/SpectrumCenterInc> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/SpectrumCenterInc/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/StPaul's> ont:name "St. Paul's" ;
 	ont:type "ROMAN CATHOLIC" ;
 	ont:children "k - 8" ;
 	ont:address "1690 Church Street" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StPaul's/Geometry> geosp:asWKT "POINT(-122.427105 37.743916)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StPaul's/geometry> geosp:asWKT "POINT(-122.427105 37.743916)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/StPaul's> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StPaul's/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/StPaul's> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/StPaul's/geometry> .
 
 <http://www.semanticweb.org/grupo08/Building/School/Private/WenJianYing> ont:name "Wen Jian Ying" ;
 	ont:children "K - 12" ;
 	ont:address "259 Judson Avenue" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/WenJianYing/Geometry> geosp:asWKT "POINT(-122.447567 37.72802)" .
+<http://www.semanticweb.org/grupo08/Building/School/Private/WenJianYing/geometry> geosp:asWKT "POINT(-122.447567 37.72802)" .
 
-<http://www.semanticweb.org/grupo08/Building/School/Private/WenJianYing> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/WenJianYing/Geometry> .
+<http://www.semanticweb.org/grupo08/Building/School/Private/WenJianYing> geosp:hasGeometry <http://www.semanticweb.org/grupo08/Building/School/Private/WenJianYing/geometry> .
