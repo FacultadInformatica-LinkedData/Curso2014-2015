@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://example.linkeddata.es/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://example.linkeddata.es/"
+     versionIRI="http://example.linkeddata.es/">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="http://example.linkeddata.es/City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://example.linkeddata.es/Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://example.linkeddata.es/Countrylanguage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Capital"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Code"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Code2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Continent"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="CountryCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="District"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="GNP"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="GNPOld"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="GovernmentForm"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="HeadOfState"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="IndepYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="LifeExpectancy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="LocalName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Population"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Region"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="SurfaceArea"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://example.linkeddata.es/CountryCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://example.linkeddata.es/ID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://example.linkeddata.es/IsOfficial"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://example.linkeddata.es/Language"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://example.linkeddata.es/Percentage"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="Capital"/>
+        <Class IRI="http://example.linkeddata.es/Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Code"/>
+        <Class IRI="http://example.linkeddata.es/City"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Code2"/>
+        <Class IRI="http://example.linkeddata.es/Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Continent"/>
+        <Class IRI="http://example.linkeddata.es/Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="CountryCode"/>
+        <Class IRI="http://example.linkeddata.es/City"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="District"/>
+        <Class IRI="http://example.linkeddata.es/City"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="GNP"/>
+        <Class IRI="http://example.linkeddata.es/Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="GNPOld"/>
+        <Class IRI="http://example.linkeddata.es/Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="GovernmentForm"/>
+        <Class IRI="http://example.linkeddata.es/Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="HeadOfState"/>
+        <Class IRI="http://example.linkeddata.es/Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="IndepYear"/>
+        <Class IRI="http://example.linkeddata.es/Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="LifeExpectancy"/>
+        <Class IRI="http://example.linkeddata.es/Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="LocalName"/>
+        <Class IRI="http://example.linkeddata.es/Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Name"/>
+        <Class IRI="http://example.linkeddata.es/City"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Name"/>
+        <Class IRI="http://example.linkeddata.es/Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Population"/>
+        <Class IRI="http://example.linkeddata.es/City"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Population"/>
+        <Class IRI="http://example.linkeddata.es/Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Region"/>
+        <Class IRI="http://example.linkeddata.es/Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="SurfaceArea"/>
+        <Class IRI="http://example.linkeddata.es/Country"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://example.linkeddata.es/CountryCode"/>
+        <Class IRI="http://example.linkeddata.es/Countrylanguage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://example.linkeddata.es/ID"/>
+        <Class IRI="http://example.linkeddata.es/City"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://example.linkeddata.es/IsOfficial"/>
+        <Class IRI="http://example.linkeddata.es/Countrylanguage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://example.linkeddata.es/Language"/>
+        <Class IRI="http://example.linkeddata.es/Countrylanguage"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://example.linkeddata.es/Percentage"/>
+        <Class IRI="http://example.linkeddata.es/Countrylanguage"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="Capital"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Code"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Code2"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Continent"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="District"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="GNP"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="GNPOld"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="GovernmentForm"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="HeadOfState"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="IndepYear"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="LifeExpectancy"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="LocalName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Population"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Region"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="SurfaceArea"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://example.linkeddata.es/CountryCode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://example.linkeddata.es/ID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://example.linkeddata.es/IsOfficial"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://example.linkeddata.es/Language"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://example.linkeddata.es/Percentage"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
