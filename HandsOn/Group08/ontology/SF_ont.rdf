@@ -72,18 +72,15 @@
       /PublicService/{type}/{idincremental}
       /PublicService/{type}/{idincremental}#asociatedService -> ont:PublicService
 
-      /School/{name}
-      /School/{name}#category -> xsd:string
-
-      /School/Public/{idincremental}
-      /School/Public/{idincremental}#asociatedSchool -> ont:School
-      /School/Public/{idincremental}#deptpublic -> xsd:integer
-      /School/Public/{idincremental}#hasBuilding -> ont:Building
+      /PublicSchool/{name}
+      /PublicSchool/{name}#category -> xsd:string
+      /PublicSchool/{name}#deptpublic -> xsd:integer
+      /PublicSchool/{name}#hasBuilding -> ont:Building
       
-      /School/Private/{idincremental}
-      /School/Private/{idincremental}#asociatedSchool -> ont:School
-      /School/Private/{idincremental}#address -> xsd:string
-      /School/Private/{idincremental}#asWKT -> geosp:asWKT
+      /PrivateSchool/{name}
+      /PrivateSchool/{name}#category -> xsd:string
+      /PrivateSchool/{name}#address -> xsd:string
+      /PrivateSchool/{name}#hasBuilding -> ont:Building
 
     -->
 
