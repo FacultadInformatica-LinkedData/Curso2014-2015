@@ -81,7 +81,7 @@
       /School/Public/{idincremental}#hasBuilding -> ont:Building
       
       /School/Private/{idincremental}
-      /School/Public/{idincremental}#asociatedSchool -> ont:School
+      /School/Private/{idincremental}#asociatedSchool -> ont:School
       /School/Private/{idincremental}#address -> xsd:string
       /School/Private/{idincremental}#asWKT -> geosp:asWKT
 
