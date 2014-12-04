@@ -10,18 +10,6 @@
     "columnName": "CÓDIGO"
   },
   {
-    "op": "core/column-removal",[
-  {
-    "op": "core/column-removal",
-    "description": "Remove column CURSO ACADÉMICO",
-    "columnName": "CURSO ACADÉMICO"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column CÓDIGO",
-    "columnName": "CÓDIGO"
-  },
-  {
     "op": "core/column-removal",
     "description": "Remove column C.SITUACIÓN",
     "columnName": "C.SITUACIÓN"
@@ -5041,300 +5029,470 @@
         }
       ]
     }
-  }
-]
-    "description": "Remove column C.SITUACIÓN",
-    "columnName": "C.SITUACIÓN"
   },
   {
-    "op": "core/column-removal",
-    "description": "Remove column SITUACIÓN",
-    "columnName": "SITUACIÓN"
+    "op": "core/recon",
+    "description": "Reconcile cells in column Provincia to type http://www.semanticweb.org/group9/ontology/tipo#provincia",
+    "columnName": "Provincia",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/museosrdf",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.semanticweb.org/group9/ontology/tipo#provincia",
+        "name": "http://www.semanticweb.org/group9/ontology/tipo#provincia"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
   },
   {
-    "op": "core/column-removal",
-    "description": "Remove column C.NATURALEZA",
-    "columnName": "C.NATURALEZA"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column C.DENOMINACIÓN GENÉRICA",
-    "columnName": "C.DENOMINACIÓN GENÉRICA"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column DENOMINACIÓN GENÉRICA BREVE",
-    "columnName": "DENOMINACIÓN GENÉRICA BREVE"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column C.VÍA",
-    "columnName": "C.VÍA"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column NÚMERO(EXT)",
-    "columnName": "NÚMERO(EXT)"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column PISO",
-    "columnName": "PISO"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column PISO(EXT)",
-    "columnName": "PISO(EXT)"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column ESCALERA",
-    "columnName": "ESCALERA"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column LETRA",
-    "columnName": "LETRA"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column C.PROV",
-    "columnName": "C.PROV"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column C.MUNI",
-    "columnName": "C.MUNI"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column C.LOCA",
-    "columnName": "C.LOCA"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column MUNICIPIO",
-    "columnName": "MUNICIPIO"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column FAX",
-    "columnName": "FAX"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column LETRA2",
-    "columnName": "LETRA2"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column Column",
-    "columnName": "Column"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column C.R.A",
-    "columnName": "C.R.A"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column DENOMINACIÓN GENÉRICA to DENOMINACIÓN_GENÉRICA",
-    "oldColumnName": "DENOMINACIÓN GENÉRICA",
-    "newColumnName": "DENOMINACIÓN_GENÉRICA"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column DENOMINACIÓN ESPECÍFICA to DENOMINACIÓN_ESPECÍFICA",
-    "oldColumnName": "DENOMINACIÓN ESPECÍFICA",
-    "newColumnName": "DENOMINACIÓN_ESPECÍFICA"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column NOMBRE DE LA VÍA to NOMBRE_VIA",
-    "oldColumnName": "NOMBRE DE LA VÍA",
-    "newColumnName": "NOMBRE_VIA"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column CORREO ELECTRÓNICO to EMAIL",
-    "oldColumnName": "CORREO ELECTRÓNICO",
-    "newColumnName": "EMAIL"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column COORD. LONGITUD to COORD_LONGITUD",
-    "oldColumnName": "COORD. LONGITUD",
-    "newColumnName": "COORD_LONGITUD"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column COORD. LATITUD to COORD_LATITUD",
-    "oldColumnName": "COORD. LATITUD",
-    "newColumnName": "COORD_LATITUD"
-  },
-  {
-    "op": "core/column-addition",
-    "description": "Create column DIRECCION SIN NUMERO at index 4 based on column VÍA using expression grel:value + \" \" + cells.NOMBRE_VIA.value",
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic León (http://www.semanticweb.org/group9/ontology/León) for cells containing \"LEON\" in column Provincia",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
-    "newColumnName": "DIRECCION SIN NUMERO",
-    "columnInsertIndex": 4,
-    "baseColumnName": "VÍA",
-    "expression": "grel:value + \" \" + cells.NOMBRE_VIA.value",
-    "onError": "set-to-blank"
+    "columnName": "Provincia",
+    "similarValue": "LEON",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.semanticweb.org/group9/ontology/León",
+      "name": "León",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
   },
   {
-    "op": "core/column-removal",
-    "description": "Remove column VÍA",
-    "columnName": "VÍA"
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ávila (http://www.semanticweb.org/group9/ontology/Ávila) for cells containing \"AVILA\" in column Provincia",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Provincia: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Provincia"
+        }
+      ]
+    },
+    "columnName": "Provincia",
+    "similarValue": "AVILA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.semanticweb.org/group9/ontology/Ávila",
+      "name": "Ávila",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
   },
   {
-    "op": "core/column-removal",
-    "description": "Remove column NOMBRE_VIA",
-    "columnName": "NOMBRE_VIA"
+    "op": "core/recon",
+    "description": "Reconcile cells in column Provincia to type http://www.semanticweb.org/group9/ontology/tipo#provincia",
+    "columnName": "Provincia",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/centros",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.semanticweb.org/group9/ontology/tipo#provincia",
+        "name": "http://www.semanticweb.org/group9/ontology/tipo#provincia"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
   },
   {
-    "op": "core/column-addition",
-    "description": "Create column DIRECCION at index 4 based on column DIRECCION SIN NUMERO using expression grel:value + \",\" + cells.NÚMERO.value",
+    "op": "core/recon",
+    "description": "Reconcile cells in column Provincia to type http://www.semanticweb.org/group9/ontology/tipo#centro",
+    "columnName": "Provincia",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/bibliotecas",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.semanticweb.org/group9/ontology/tipo#centro",
+        "name": "http://www.semanticweb.org/group9/ontology/tipo#centro"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic León (http://www.semanticweb.org/group9/ontology/León) for cells containing \"LEON\" in column Provincia",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
-    "newColumnName": "DIRECCION",
-    "columnInsertIndex": 4,
-    "baseColumnName": "DIRECCION SIN NUMERO",
-    "expression": "grel:value + \",\" + cells.NÚMERO.value",
-    "onError": "keep-original"
+    "columnName": "Provincia",
+    "similarValue": "LEON",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.semanticweb.org/group9/ontology/León",
+      "name": "León",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
   },
   {
-    "op": "core/column-removal",
-    "description": "Remove column NÚMERO",
-    "columnName": "NÚMERO"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column DIRECCION SIN NUMERO",
-    "columnName": "DIRECCION SIN NUMERO"
-  },
-  {
-    "op": "core/column-addition",
-    "description": "Create column COORDENADAS at index 12 based on column COORD_LATITUD using expression grel:value + \" \" + \"-\" + \" \" + cells.COORD_LONGITUD.value",
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Segovia (http://www.semanticweb.org/group9/ontology/Segovia) for cells containing \"SEGOVIA\" in column Provincia",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
-    "newColumnName": "COORDENADAS",
-    "columnInsertIndex": 12,
-    "baseColumnName": "COORD_LATITUD",
-    "expression": "grel:value + \" \" + \"-\" + \" \" + cells.COORD_LONGITUD.value",
-    "onError": "set-to-blank"
+    "columnName": "Provincia",
+    "similarValue": "SEGOVIA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.semanticweb.org/group9/ontology/Segovia",
+      "name": "Segovia",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
   },
   {
-    "op": "core/column-removal",
-    "description": "Remove column COORD_LONGITUD",
-    "columnName": "COORD_LONGITUD"
-  },
-  {
-    "op": "core/column-removal",
-    "description": "Remove column COORD_LATITUD",
-    "columnName": "COORD_LATITUD"
-  },
-  {
-    "op": "core/column-addition",
-    "description": "Create column INTERNO at index 12 based on column INTERNADO using expression grel:if(value == \"S\",\"Internado\",\"No es internado\")",
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Valladolid (http://www.semanticweb.org/group9/ontology/Valladolid) for cells containing \"VALLADOLID\" in column Provincia",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
-    "newColumnName": "INTERNO",
-    "columnInsertIndex": 12,
-    "baseColumnName": "INTERNADO",
-    "expression": "grel:if(value == \"S\",\"Internado\",\"No es internado\")",
-    "onError": "set-to-blank"
+    "columnName": "Provincia",
+    "similarValue": "VALLADOLID",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.semanticweb.org/group9/ontology/Valladolid",
+      "name": "Valladolid",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
   },
   {
-    "op": "core/column-removal",
-    "description": "Remove column INTERNADO",
-    "columnName": "INTERNADO"
-  },
-  {
-    "op": "core/column-rename",
-    "description": "Rename column INTERNO to INTERNADO",
-    "oldColumnName": "INTERNO",
-    "newColumnName": "INTERNADO"
-  },
-  {
-    "op": "core/column-addition",
-    "description": "Create column CONCERTADO at index 13 based on column CONCIERTO using expression grel:if(value == \"S\",\"Concertado\",\"No es concertado\")",
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Burgos (http://www.semanticweb.org/group9/ontology/Burgos) for cells containing \"BURGOS\" in column Provincia",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
-    "newColumnName": "CONCERTADO",
-    "columnInsertIndex": 13,
-    "baseColumnName": "CONCIERTO",
-    "expression": "grel:if(value == \"S\",\"Concertado\",\"No es concertado\")",
-    "onError": "set-to-blank"
+    "columnName": "Provincia",
+    "similarValue": "BURGOS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.semanticweb.org/group9/ontology/Burgos",
+      "name": "Burgos",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
   },
   {
-    "op": "core/column-removal",
-    "description": "Remove column CONCIERTO",
-    "columnName": "CONCIERTO"
-  },
-  {
-    "op": "core/column-addition",
-    "description": "Create column HORARIO at index 14 based on column JORNADA CONTINUA using expression grel:if(value == \"S\",\"Mañana y tarde\",\"Solo Mañana\")",
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Palencia (http://www.semanticweb.org/group9/ontology/Palencia) for cells containing \"PALENCIA\" in column Provincia",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
-    "newColumnName": "HORARIO",
-    "columnInsertIndex": 14,
-    "baseColumnName": "JORNADA CONTINUA",
-    "expression": "grel:if(value == \"S\",\"Mañana y tarde\",\"Solo Mañana\")",
-    "onError": "set-to-blank"
+    "columnName": "Provincia",
+    "similarValue": "PALENCIA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.semanticweb.org/group9/ontology/Palencia",
+      "name": "Palencia",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
   },
   {
-    "op": "core/column-removal",
-    "description": "Remove column JORNADA CONTINUA",
-    "columnName": "JORNADA CONTINUA"
-  },
-  {
-    "op": "core/column-addition",
-    "description": "Create column COMEDOR ESCOLAR at index 15 based on column COMEDOR using expression grel:if(value == \"S\",\"Tiene comedor\",\"No tiene comedor\")",
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Salamanca (http://www.semanticweb.org/group9/ontology/Salamanca) for cells containing \"SALAMANCA\" in column Provincia",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
-    "newColumnName": "COMEDOR ESCOLAR",
-    "columnInsertIndex": 15,
-    "baseColumnName": "COMEDOR",
-    "expression": "grel:if(value == \"S\",\"Tiene comedor\",\"No tiene comedor\")",
-    "onError": "set-to-blank"
+    "columnName": "Provincia",
+    "similarValue": "SALAMANCA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.semanticweb.org/group9/ontology/Salamanca",
+      "name": "Salamanca",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
   },
   {
-    "op": "core/column-removal",
-    "description": "Remove column COMEDOR",
-    "columnName": "COMEDOR"
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Zamora (http://www.semanticweb.org/group9/ontology/Zamora) for cells containing \"ZAMORA\" in column Provincia",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Provincia: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Provincia"
+        }
+      ]
+    },
+    "columnName": "Provincia",
+    "similarValue": "ZAMORA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.semanticweb.org/group9/ontology/Zamora",
+      "name": "Zamora",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
   },
   {
-    "op": "core/column-addition",
-    "description": "Create column RUTA at index 16 based on column TRANSPORTE using expression grel:if(value == \"S\",\"Tiene Ruta\",\"No tiene ruta\")",
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Soria (http://www.semanticweb.org/group9/ontology/Soria) for cells containing \"SORIA\" in column Provincia",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Provincia: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Provincia"
+        }
+      ]
+    },
+    "columnName": "Provincia",
+    "similarValue": "SORIA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.semanticweb.org/group9/ontology/Soria",
+      "name": "Soria",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ávila (http://www.semanticweb.org/group9/ontology/Ávila) for cells containing \"AVILA\" in column Provincia",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Provincia: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Provincia"
+        }
+      ]
+    },
+    "columnName": "Provincia",
+    "similarValue": "AVILA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.semanticweb.org/group9/ontology/Ávila",
+      "name": "Ávila",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Localidad to type http://www.semanticweb.org/group9/ontology/tipo#localidad",
+    "columnName": "Localidad",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/museosrdf",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.semanticweb.org/group9/ontology/tipo#localidad",
+        "name": "http://www.semanticweb.org/group9/ontology/tipo#localidad"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic León (http://www.semanticweb.org/group9/ontology/León) for cells containing \"LEON\" in column Localidad",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
     },
-    "newColumnName": "RUTA",
-    "columnInsertIndex": 16,
-    "baseColumnName": "TRANSPORTE",
-    "expression": "grel:if(value == \"S\",\"Tiene Ruta\",\"No tiene ruta\")",
-    "onError": "set-to-blank"
+    "columnName": "Localidad",
+    "similarValue": "LEON",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.semanticweb.org/group9/ontology/León",
+      "name": "León",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
   },
   {
-    "op": "core/column-removal",
-    "description": "Remove column TRANSPORTE",
-    "columnName": "TRANSPORTE"
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ávila (http://www.semanticweb.org/group9/ontology/Ávila) for cells containing \"AVILA\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.best.type, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: best candidate's types",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "AVILA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://www.semanticweb.org/group9/ontology/Ávila",
+      "name": "Ávila",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Localidad to type http://www.semanticweb.org/group9/ontology/tipo#localidad",
+    "columnName": "Localidad",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/centros",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.semanticweb.org/group9/ontology/tipo#localidad",
+        "name": "http://www.semanticweb.org/group9/ontology/tipo#localidad"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
   }
 ]
