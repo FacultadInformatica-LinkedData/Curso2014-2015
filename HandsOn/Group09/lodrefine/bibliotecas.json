@@ -3505,5 +3505,152 @@
         }
       ]
     }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Provincia to type http://www.semanticweb.org/group9/ontology/tipo#provincia",
+    "columnName": "Provincia",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/bibliotecasrdf",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.semanticweb.org/group9/ontology/tipo#provincia",
+        "name": "http://www.semanticweb.org/group9/ontology/tipo#provincia"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Localidad to type http://www.semanticweb.org/group9/ontology/tipo#localidad",
+    "columnName": "Localidad",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/bibliotecasrdf",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.semanticweb.org/group9/ontology/tipo#localidad",
+        "name": "http://www.semanticweb.org/group9/ontology/tipo#localidad"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Nombre del Organismo to type http://www.semanticweb.org/group9/ontology/tipo#centro",
+    "columnName": "Nombre del Organismo",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/bibliotecasrdf",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.semanticweb.org/group9/ontology/tipo#centro",
+        "name": "http://www.semanticweb.org/group9/ontology/tipo#centro"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Localidad to type http://www.semanticweb.org/group9/ontology/tipo#localidad",
+    "columnName": "Localidad",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/museos",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.semanticweb.org/group9/ontology/tipo#localidad",
+        "name": "http://www.semanticweb.org/group9/ontology/tipo#localidad"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Provincia to type http://www.semanticweb.org/group9/ontology/tipo#provincia",
+    "columnName": "Provincia",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/museos",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.semanticweb.org/group9/ontology/tipo#provincia",
+        "name": "http://www.semanticweb.org/group9/ontology/tipo#provincia"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Provincia to type http://www.semanticweb.org/group9/ontology/tipo#provincia",
+    "columnName": "Provincia",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/centros",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.semanticweb.org/group9/ontology/tipo#provincia",
+        "name": "http://www.semanticweb.org/group9/ontology/tipo#provincia"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Localidad to type http://www.semanticweb.org/group9/ontology/tipo#localidad",
+    "columnName": "Localidad",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/centros",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.semanticweb.org/group9/ontology/tipo#localidad",
+        "name": "http://www.semanticweb.org/group9/ontology/tipo#localidad"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
   }
 ]
