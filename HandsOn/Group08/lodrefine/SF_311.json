@@ -594,5 +594,431 @@
     "onError": "keep-original",
     "repeat": false,
     "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column CATEGORY to TYPE",
+    "oldColumnName": "CATEGORY",
+    "newColumnName": "TYPE"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TYPE using expression value.toUppercase()",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TYPE",
+    "expression": "value.toUppercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TYPE using expression grel:value.replaceChars(\" \", \"_\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TYPE",
+    "expression": "grel:value.replaceChars(\" \", \"_\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/ServiceRequest/",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/ServiceRequest#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "cells[\"TYPE\"].value+\"/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#caseid",
+              "curie": "ont:caseid",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CASEID"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#open",
+              "curie": "ont:open",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "OPEN"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#close",
+              "curie": "ont:close",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "CLOSE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#state",
+              "curie": "ont:state",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "STATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#agency",
+              "curie": "ont:agency",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "AGENCY"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#category",
+              "curie": "ont:category",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CATEGORY"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#request",
+              "curie": "ont:request",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "REQUEST"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#request_details",
+              "curie": "ont:request_details",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "REQUEST_DETAILS"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#address",
+              "curie": "ont:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#neighborhood",
+              "curie": "ont:neighborhood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHBORHOOD"
+              }
+            },
+            {
+              "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+              "curie": "geosp:hasGeometry",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value+\"/geometry\"",
+                "isRowNumberCell": false,
+                "columnName": "CASEID",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "curie": "geosp:asWKT",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "asWKT"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#media",
+              "curie": "ont:media",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "MEDIA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TYPE using expression grel:if(contains(value,\"311_EXTERNAL_REQUEST\"), \"External\", \"\")+\nif(contains(value,\"ABANDONED_VEHICLE\"), 
+\"Abandoned_vehicle\", \"\")+\nif(contains(value,\"BLOCKED_STREET_OR_SIDEWALK\"), \"Blocked_street\", \"\")+\nif(contains(value,\"CATCH_BASIN_MAINTENANCE\"), \"Catch_basin\", 
+\"\")+\nif(contains(value,\"COLOR_CURB\"), \"Color_curb\", \"\")+\nif(contains(value,\"CONSTRUCTION_ZONE_PERMITS\"), \"Construction_permits\", \"\")+\nif(contains(value,\"DAMAGED_PROPERTY\"), 
+\"Damaged_property\", \"\")+\nif(contains(value,\"DPW_VOLUNTEER_PROGRAMS\"), \"Dpw_volunteer\", \"\")+\nif(contains(value,\"GENERAL_REQUESTS\"), \"General\", 
+\"\")+\nif(contains(value,\"GRAFFITI_PRIVATE_PROPERTY\"), \"Graffiti_private\", \"\")+\nif(contains(value,\"GRAFFITI_PUBLIC_PROPERTY\"), \"Graffiti_public\", 
+\"\")+\nif(contains(value,\"ILLEGAL_POSTINGS\"), \"Illegal_postings\", \"\")+\nif(contains(value,\"INTERDEPARTMENTAL_REQUEST\"), \"Interdepartmental\", \"\")+\nif(contains(value,\"LITTER_RECEPTACLES\"), 
+\"Litter_receptacles\", \"\")+\nif(contains(value,\"MUNI_FEEDBACK\"), \"Muni_feedback\", \"\")+\nif(contains(value,\"REC_AND_PARK_REQUESTS\"), \"Rec_and_park\", 
+\"\")+\nif(contains(value,\"RESIDENTIAL_BUILDING_REQUEST\"), \"Residential_building\", \"\")+\nif(contains(value,\"SEWER_ISSUES\"), \"Sewer_issues\", \"\")+\nif(contains(value,\"SFHA_REQUESTS\"), 
+\"Sfha\", \"\")+\nif(contains(value,\"SIDEWALK_OR_CURB\"), \"Sidewalk_or_curb\", \"\")+\nif(contains(value,\"SIGN_REPAIR\"), \"Sign_repair\", \"\")+\nif(contains(value,\"STREET_AND_SIDEWALK_CLEANING\"), 
+\"Street_cleaning\", \"\")+\nif(contains(value,\"STREET_DEFECTS\"), \"Street_defects\", \"\")+\nif(contains(value,\"STREETLIGHTS\"), \"Streetlights\", 
+\"\")+\nif(contains(value,\"TEMPORARY_SIGN_REQUEST\"), \"Temporary_sign\", \"\")+\nif(contains(value,\"TREE_MAINTENANCE\"), \"Tree_maintenance\", \"\")+\nif(contains(value,\"UNPERMITTED_CAB_COMPLAINT\"), 
+\"Unpermitted_cab\", \"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TYPE",
+    "expression": "grel:if(contains(value,\"311_EXTERNAL_REQUEST\"), \"External\", \"\")+\nif(contains(value,\"ABANDONED_VEHICLE\"), \"Abandoned_vehicle\", 
+\"\")+\nif(contains(value,\"BLOCKED_STREET_OR_SIDEWALK\"), \"Blocked_street\", \"\")+\nif(contains(value,\"CATCH_BASIN_MAINTENANCE\"), \"Catch_basin\", \"\")+\nif(contains(value,\"COLOR_CURB\"), 
+\"Color_curb\", \"\")+\nif(contains(value,\"CONSTRUCTION_ZONE_PERMITS\"), \"Construction_permits\", \"\")+\nif(contains(value,\"DAMAGED_PROPERTY\"), \"Damaged_property\", 
+\"\")+\nif(contains(value,\"DPW_VOLUNTEER_PROGRAMS\"), \"Dpw_volunteer\", \"\")+\nif(contains(value,\"GENERAL_REQUESTS\"), \"General\", \"\")+\nif(contains(value,\"GRAFFITI_PRIVATE_PROPERTY\"), 
+\"Graffiti_private\", \"\")+\nif(contains(value,\"GRAFFITI_PUBLIC_PROPERTY\"), \"Graffiti_public\", \"\")+\nif(contains(value,\"ILLEGAL_POSTINGS\"), \"Illegal_postings\", 
+\"\")+\nif(contains(value,\"INTERDEPARTMENTAL_REQUEST\"), \"Interdepartmental\", \"\")+\nif(contains(value,\"LITTER_RECEPTACLES\"), \"Litter_receptacles\", \"\")+\nif(contains(value,\"MUNI_FEEDBACK\"), 
+\"Muni_feedback\", \"\")+\nif(contains(value,\"REC_AND_PARK_REQUESTS\"), \"Rec_and_park\", \"\")+\nif(contains(value,\"RESIDENTIAL_BUILDING_REQUEST\"), \"Residential_building\", 
+\"\")+\nif(contains(value,\"SEWER_ISSUES\"), \"Sewer_issues\", \"\")+\nif(contains(value,\"SFHA_REQUESTS\"), \"Sfha\", \"\")+\nif(contains(value,\"SIDEWALK_OR_CURB\"), \"Sidewalk_or_curb\", 
+\"\")+\nif(contains(value,\"SIGN_REPAIR\"), \"Sign_repair\", \"\")+\nif(contains(value,\"STREET_AND_SIDEWALK_CLEANING\"), \"Street_cleaning\", \"\")+\nif(contains(value,\"STREET_DEFECTS\"), 
+\"Street_defects\", \"\")+\nif(contains(value,\"STREETLIGHTS\"), \"Streetlights\", \"\")+\nif(contains(value,\"TEMPORARY_SIGN_REQUEST\"), \"Temporary_sign\", 
+\"\")+\nif(contains(value,\"TREE_MAINTENANCE\"), \"Tree_maintenance\", \"\")+\nif(contains(value,\"UNPERMITTED_CAB_COMPLAINT\"), \"Unpermitted_cab\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/ServiceRequest/",
+      "prefixes": [
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/ServiceRequest#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "cells[\"TYPE\"].value+\"/\"+value",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#caseid",
+              "curie": "ont:caseid",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CASEID"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#open",
+              "curie": "ont:open",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "OPEN"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#close",
+              "curie": "ont:close",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "CLOSE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#state",
+              "curie": "ont:state",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "STATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#agency",
+              "curie": "ont:agency",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "AGENCY"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#category",
+              "curie": "ont:category",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CATEGORY"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#request",
+              "curie": "ont:request",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "REQUEST"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#request_details",
+              "curie": "ont:request_details",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "REQUEST_DETAILS"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#address",
+              "curie": "ont:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#neighborhood",
+              "curie": "ont:neighborhood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHBORHOOD"
+              }
+            },
+            {
+              "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+              "curie": "geosp:hasGeometry",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "cells[\"TYPE\"].value+\"/\"+value+\"/geometry\"",
+                "isRowNumberCell": false,
+                "columnName": "CASEID",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "curie": "geosp:asWKT",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "asWKT"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#media",
+              "curie": "ont:media",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "MEDIA"
+              }
+            }
+          ]
+        }
+      ]
+    }
   }
 ]

@@ -1,0 +1,1746 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ont: <http://www.semanticweb.org/group08/Building/School/Public#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix geosp: <http://www.opengis.net/ont/geosparql#> .
+
+
+<http://www.semanticweb.org/group08/School/Public/UlloaElementarySchool> ont:name "Ulloa Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/UlloaElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.499389 37.73733)" .
+
+<http://www.semanticweb.org/group08/School/Public/UlloaElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/UlloaElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/UlloaElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/UlloaElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5404501/> .
+
+<http://www.semanticweb.org/group08/School/Public/FRANCISCOMIDDLESCHOOL> ont:name "FRANCISCO MIDDLE SCHOOL" ;
+	ont:type "Middle School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/FRANCISCOMIDDLESCHOOL/Building/geometry> geosp:asWKT "POINT(-122.411022 37.80436)" .
+
+<http://www.semanticweb.org/group08/School/Public/FRANCISCOMIDDLESCHOOL/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/FRANCISCOMIDDLESCHOOL/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/FRANCISCOMIDDLESCHOOL> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/FRANCISCOMIDDLESCHOOL/Building> ;
+	owl:sameAs <http://sws.geonames.org/5350457/> .
+
+<http://www.semanticweb.org/group08/School/Public/YickWoElementarySchool> ont:name "Yick Wo Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/YickWoElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.416597 37.8019)" .
+
+<http://www.semanticweb.org/group08/School/Public/YickWoElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/YickWoElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/YickWoElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/YickWoElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5410867/> .
+
+<http://www.semanticweb.org/group08/School/Public/GarfieldElementarySchool> ont:name "Garfield Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/GarfieldElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.406532 37.801935)" .
+
+<http://www.semanticweb.org/group08/School/Public/GarfieldElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/GarfieldElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/GarfieldElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/GarfieldElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/4112039/> .
+
+<http://www.semanticweb.org/group08/School/Public/ParkerJeanElementarySchool> ont:name "Parker, Jean Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/ParkerJeanElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.411053 37.797643)" .
+
+<http://www.semanticweb.org/group08/School/Public/ParkerJeanElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/ParkerJeanElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/ParkerJeanElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/ParkerJeanElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/SpringValleyElementarySchool> ont:name "Spring Valley Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/SpringValleyElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.4188 37.79402)" .
+
+<http://www.semanticweb.org/group08/School/Public/SpringValleyElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/SpringValleyElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/SpringValleyElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/SpringValleyElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/4091462/> .
+
+<http://www.semanticweb.org/group08/School/Public/ChineseEducationCenterElementarySchool> ont:name "Chinese Education Center Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/ChineseEducationCenterElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.404058 37.794768)" .
+
+<http://www.semanticweb.org/group08/School/Public/ChineseEducationCenterElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/ChineseEducationCenterElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/ChineseEducationCenterElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/ChineseEducationCenterElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/MarinaMiddleSchool> ont:name "Marina Middle School" ;
+	ont:type "Middle School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/MarinaMiddleSchool/Building/geometry> geosp:asWKT "POINT(-122.436047 37.80168)" .
+
+<http://www.semanticweb.org/group08/School/Public/MarinaMiddleSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/MarinaMiddleSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/MarinaMiddleSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/MarinaMiddleSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5370515/> .
+
+<http://www.semanticweb.org/group08/School/Public/TuleElkParkEarlyEducationSchool> ont:name "Tule Elk Park Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/TuleElkParkEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.434561 37.799363)" .
+
+<http://www.semanticweb.org/group08/School/Public/TuleElkParkEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/TuleElkParkEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/TuleElkParkEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/TuleElkParkEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/ShermanElementarySchool> ont:name "Sherman Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/ShermanElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.426118 37.797802)" .
+
+<http://www.semanticweb.org/group08/School/Public/ShermanElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/ShermanElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/ShermanElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/ShermanElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5171930/> .
+
+<http://www.semanticweb.org/group08/School/Public/ReddingElementarySchool> ont:name "Redding Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/ReddingElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.419243 37.789578)" .
+
+<http://www.semanticweb.org/group08/School/Public/ReddingElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/ReddingElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/ReddingElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/ReddingElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5386750/> .
+
+<http://www.semanticweb.org/group08/School/Public/GatewayHighSchool> ont:name "Gateway High School" ;
+	ont:type "Charter School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/GatewayHighSchool/Building/geometry> geosp:asWKT "POINT(-122.437497 37.783151)" .
+
+<http://www.semanticweb.org/group08/School/Public/GatewayHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/GatewayHighSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/GatewayHighSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/GatewayHighSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5190884/> .
+
+<http://www.semanticweb.org/group08/School/Public/HARVEYMILKCHILDRENCENTER> ont:name "HARVEY MILK CHILDREN CENTER" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/HARVEYMILKCHILDRENCENTER/Building/geometry> geosp:asWKT "POINT(-122.42004 37.783688)" .
+
+<http://www.semanticweb.org/group08/School/Public/HARVEYMILKCHILDRENCENTER/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/HARVEYMILKCHILDRENCENTER/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/HARVEYMILKCHILDRENCENTER> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/HARVEYMILKCHILDRENCENTER/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/CreativeArtsCharterSchool> ont:name "Creative Arts Charter School" ;
+	ont:type "Charter School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/CreativeArtsCharterSchool/Building/geometry> geosp:asWKT "POINT(-122.435927 37.779347)" .
+
+<http://www.semanticweb.org/group08/School/Public/CreativeArtsCharterSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/CreativeArtsCharterSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/CreativeArtsCharterSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/CreativeArtsCharterSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5352849/> .
+
+<http://www.semanticweb.org/group08/School/Public/LAGUNAGOLDENGATECHILDCARECENTERPRE-KSCHOOL> ont:name "LAGUNA GOLDEN GATE CHILD CARE CENTER,  PRE-K SCHOOL" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/LAGUNAGOLDENGATECHILDCARECENTERPRE-KSCHOOL/Building/geometry> geosp:asWKT "POINT(-122.427315 37.780628)" .
+
+<http://www.semanticweb.org/group08/School/Public/LAGUNAGOLDENGATECHILDCARECENTERPRE-KSCHOOL/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/LAGUNAGOLDENGATECHILDCARECENTERPRE-KSCHOOL/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/LAGUNAGOLDENGATECHILDCARECENTERPRE-KSCHOOL> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/LAGUNAGOLDENGATECHILDCARECENTERPRE-KSCHOOL/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/MuirJohnElementarySchool> ont:name "Muir, John Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/MuirJohnElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.428787 37.773724)" .
+
+<http://www.semanticweb.org/group08/School/Public/MuirJohnElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/MuirJohnElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/MuirJohnElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/MuirJohnElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/CobbDrWilliamLElementarySchool> ont:name "Cobb, Dr. William L. Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/CobbDrWilliamLElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.439627 37.787702)" .
+
+<http://www.semanticweb.org/group08/School/Public/CobbDrWilliamLElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/CobbDrWilliamLElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/CobbDrWilliamLElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/CobbDrWilliamLElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/RooseveltTheodoreMiddleSchool> ont:name "Roosevelt, Theodore Middle School" ;
+	ont:type "Middle School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/RooseveltTheodoreMiddleSchool/Building/geometry> geosp:asWKT "POINT(-122.458356 37.782285)" .
+
+<http://www.semanticweb.org/group08/School/Public/RooseveltTheodoreMiddleSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/RooseveltTheodoreMiddleSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/RooseveltTheodoreMiddleSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/RooseveltTheodoreMiddleSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/WallenbergRaoulHighSchool> ont:name "Wallenberg, Raoul High School" ;
+	ont:type "High School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/WallenbergRaoulHighSchool/Building/geometry> geosp:asWKT "POINT(-122.446757 37.779848)" .
+
+<http://www.semanticweb.org/group08/School/Public/WallenbergRaoulHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/WallenbergRaoulHighSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/WallenbergRaoulHighSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/WallenbergRaoulHighSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/NewTraditionsElementarySchool> ont:name "New Traditions Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/NewTraditionsElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.450267 37.773885)" .
+
+<http://www.semanticweb.org/group08/School/Public/NewTraditionsElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/NewTraditionsElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/NewTraditionsElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/NewTraditionsElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231635/> .
+
+<http://www.semanticweb.org/group08/School/Public/GrattanElementarySchool> ont:name "Grattan Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/GrattanElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.450449 37.763698)" .
+
+<http://www.semanticweb.org/group08/School/Public/GrattanElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/GrattanElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/GrattanElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/GrattanElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5353817/> .
+
+<http://www.semanticweb.org/group08/School/Public/AlamoElementarySchool> ont:name "Alamo Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/AlamoElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.482263 37.783001)" .
+
+<http://www.semanticweb.org/group08/School/Public/AlamoElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/AlamoElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/AlamoElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/AlamoElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5322807/> .
+
+<http://www.semanticweb.org/group08/School/Public/SutroElementarySchool> ont:name "Sutro Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/SutroElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.471452 37.783603)" .
+
+<http://www.semanticweb.org/group08/School/Public/SutroElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/SutroElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/SutroElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/SutroElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/6330443/> .
+
+<http://www.semanticweb.org/group08/School/Public/PeabodyGeorgeElementarySchool> ont:name "Peabody, George Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/PeabodyGeorgeElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.465025 37.783854)" .
+
+<http://www.semanticweb.org/group08/School/Public/PeabodyGeorgeElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/PeabodyGeorgeElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/PeabodyGeorgeElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/PeabodyGeorgeElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/PresidioMiddleSchool> ont:name "Presidio Middle School" ;
+	ont:type "Middle School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/PresidioMiddleSchool/Building/geometry> geosp:asWKT "POINT(-122.489627 37.780865)" .
+
+<http://www.semanticweb.org/group08/School/Public/PresidioMiddleSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/PresidioMiddleSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/PresidioMiddleSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/PresidioMiddleSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5384858/> .
+
+<http://www.semanticweb.org/group08/School/Public/WashingtonGeorgeHighSchool> ont:name "Washington, George High School" ;
+	ont:type "High School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/WashingtonGeorgeHighSchool/Building/geometry> geosp:asWKT "POINT(-122.491023 37.777878)" .
+
+<http://www.semanticweb.org/group08/School/Public/WashingtonGeorgeHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/WashingtonGeorgeHighSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/WashingtonGeorgeHighSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/WashingtonGeorgeHighSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/LafayetteElementarySchool> ont:name "Lafayette Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/LafayetteElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.496876 37.777056)" .
+
+<http://www.semanticweb.org/group08/School/Public/LafayetteElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/LafayetteElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/LafayetteElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/LafayetteElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/4139340/> .
+
+<http://www.semanticweb.org/group08/School/Public/SFCountySpecialEducationSchool> ont:name "S.F. County Special Education School" ;
+	ont:type "County School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/SFCountySpecialEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.483868 37.775524)" .
+
+<http://www.semanticweb.org/group08/School/Public/SFCountySpecialEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/SFCountySpecialEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/SFCountySpecialEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/SFCountySpecialEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/ArgonneElementarySchool> ont:name "Argonne Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/ArgonneElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.476329 37.775337)" .
+
+<http://www.semanticweb.org/group08/School/Public/ArgonneElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/ArgonneElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/ArgonneElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/ArgonneElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5324582/> .
+
+<http://www.semanticweb.org/group08/School/Public/McCoppinFrankElementarySchool> ont:name "McCoppin, Frank Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/McCoppinFrankElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.464232 37.776305)" .
+
+<http://www.semanticweb.org/group08/School/Public/McCoppinFrankElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/McCoppinFrankElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/McCoppinFrankElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/McCoppinFrankElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/ArgonneEarlyEducationSchool> ont:name "Argonne Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/ArgonneEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.474057 37.77397)" .
+
+<http://www.semanticweb.org/group08/School/Public/ArgonneEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/ArgonneEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/ArgonneEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/ArgonneEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/PCC/BigPictureSanFrancisco> ont:name "PCC/Big Picture San Francisco" ;
+	ont:type "County School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/PCC/BigPictureSanFrancisco/Building/geometry> geosp:asWKT "POINT(-122.463852 37.763219)" .
+
+<http://www.semanticweb.org/group08/School/Public/PCC/BigPictureSanFrancisco/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/PCC/BigPictureSanFrancisco/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/PCC/BigPictureSanFrancisco> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/PCC/BigPictureSanFrancisco/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/JeffersonElementarySchool> ont:name "Jefferson Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/JeffersonElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.476815 37.763294)" .
+
+<http://www.semanticweb.org/group08/School/Public/JeffersonElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/JeffersonElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/JeffersonElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/JeffersonElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/4116437/> .
+
+<http://www.semanticweb.org/group08/School/Public/JeffersonEarlyEducationSchool> ont:name "Jefferson Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/JeffersonEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.483167 37.76232)" .
+
+<http://www.semanticweb.org/group08/School/Public/JeffersonEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/JeffersonEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/JeffersonEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/JeffersonEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/WaldenHouse> ont:name "Walden House" ;
+	ont:type "County School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/WaldenHouse/Building/geometry> geosp:asWKT "POINT(-122.502232 37.761386)" .
+
+<http://www.semanticweb.org/group08/School/Public/WaldenHouse/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/WaldenHouse/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/WaldenHouse> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/WaldenHouse/Building> ;
+	owl:sameAs <http://sws.geonames.org/6520819/> .
+
+<http://www.semanticweb.org/group08/School/Public/LawtonAlternativeSchool> ont:name "Lawton Alternative School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/LawtonAlternativeSchool/Building/geometry> geosp:asWKT "POINT(-122.489098 37.758051)" .
+
+<http://www.semanticweb.org/group08/School/Public/LawtonAlternativeSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/LawtonAlternativeSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/LawtonAlternativeSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/LawtonAlternativeSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/KeyFrancisScottElementarySchool> ont:name "Key, Francis Scott Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/KeyFrancisScottElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.502 37.758098)" .
+
+<http://www.semanticweb.org/group08/School/Public/KeyFrancisScottElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/KeyFrancisScottElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/KeyFrancisScottElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/KeyFrancisScottElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/GianniniAPMiddleSchool> ont:name "Giannini, A. P. Middle School" ;
+	ont:type "Middle School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/GianniniAPMiddleSchool/Building/geometry> geosp:asWKT "POINT(-122.497214 37.750616)" .
+
+<http://www.semanticweb.org/group08/School/Public/GianniniAPMiddleSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/GianniniAPMiddleSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/GianniniAPMiddleSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/GianniniAPMiddleSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/StevensonRobertLouisElementarySchool> ont:name "Stevenson, Robert Louis Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/StevensonRobertLouisElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.492756 37.748844)" .
+
+<http://www.semanticweb.org/group08/School/Public/StevensonRobertLouisElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/StevensonRobertLouisElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/StevensonRobertLouisElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/StevensonRobertLouisElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/HooverHerbertMiddleSchool> ont:name "Hoover, Herbert Middle School" ;
+	ont:type "Middle School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/HooverHerbertMiddleSchool/Building/geometry> geosp:asWKT "POINT(-122.468826 37.745744)" .
+
+<http://www.semanticweb.org/group08/School/Public/HooverHerbertMiddleSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/HooverHerbertMiddleSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/HooverHerbertMiddleSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/HooverHerbertMiddleSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/FeinsteinDianneElementarySchool> ont:name "Feinstein, Dianne Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/FeinsteinDianneElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.481366 37.739686)" .
+
+<http://www.semanticweb.org/group08/School/Public/FeinsteinDianneElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/FeinsteinDianneElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/FeinsteinDianneElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/FeinsteinDianneElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/McKinleyElementarySchool> ont:name "McKinley Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/McKinleyElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.436455 37.766972)" .
+
+<http://www.semanticweb.org/group08/School/Public/McKinleyElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/McKinleyElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/McKinleyElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/McKinleyElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5162384/> .
+
+<http://www.semanticweb.org/group08/School/Public/AlvaradoElementarySchool> ont:name "Alvarado Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/AlvaradoElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.438162 37.753715)" .
+
+<http://www.semanticweb.org/group08/School/Public/AlvaradoElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/AlvaradoElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/AlvaradoElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/AlvaradoElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5323579/> .
+
+<http://www.semanticweb.org/group08/School/Public/MiralomaElementarySchool> ont:name "Miraloma Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/MiralomaElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.450137 37.739126)" .
+
+<http://www.semanticweb.org/group08/School/Public/MiralomaElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/MiralomaElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/MiralomaElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/MiralomaElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5373537/> .
+
+<http://www.semanticweb.org/group08/School/Public/WestPortalElementarySchool> ont:name "West Portal Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/WestPortalElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.464389 37.742816)" .
+
+<http://www.semanticweb.org/group08/School/Public/WestPortalElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/WestPortalElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/WestPortalElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/WestPortalElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5408186/> .
+
+<http://www.semanticweb.org/group08/School/Public/SunnysideElementarySchool> ont:name "Sunnyside Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/SunnysideElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.448234 37.730288)" .
+
+<http://www.semanticweb.org/group08/School/Public/SunnysideElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/SunnysideElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/SunnysideElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/SunnysideElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5214859/> .
+
+<http://www.semanticweb.org/group08/School/Public/SloatCommodoreElementarySchool> ont:name "Sloat, Commodore Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/SloatCommodoreElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.470569 37.73167)" .
+
+<http://www.semanticweb.org/group08/School/Public/SloatCommodoreElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/SloatCommodoreElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/SloatCommodoreElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/SloatCommodoreElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/MarshallElementarySchool> ont:name "Marshall Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/MarshallElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.419007 37.766455)" .
+
+<http://www.semanticweb.org/group08/School/Public/MarshallElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/MarshallElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/MarshallElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/MarshallElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/4120621/> .
+
+<http://www.semanticweb.org/group08/School/Public/SanchezElementarySchool> ont:name "Sanchez Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/SanchezElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.4305 37.76346)" .
+
+<http://www.semanticweb.org/group08/School/Public/SanchezElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/SanchezElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/SanchezElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/SanchezElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5285074/> .
+
+<http://www.semanticweb.org/group08/School/Public/EverettMiddleSchool> ont:name "Everett Middle School" ;
+	ont:type "Middle School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/EverettMiddleSchool/Building/geometry> geosp:asWKT "POINT(-122.428977 37.763613)" .
+
+<http://www.semanticweb.org/group08/School/Public/EverettMiddleSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/EverettMiddleSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/EverettMiddleSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/EverettMiddleSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5347143/> .
+
+<http://www.semanticweb.org/group08/School/Public/LogCabinRanchCountySchool> ont:name "Log Cabin Ranch County School" ;
+	ont:type "County School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/LogCabinRanchCountySchool/Building/geometry> geosp:asWKT "POINT(-122.256858 37.304851)" .
+
+<http://www.semanticweb.org/group08/School/Public/LogCabinRanchCountySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/LogCabinRanchCountySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/LogCabinRanchCountySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/LogCabinRanchCountySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/MissionHighSchool> ont:name "Mission High School" ;
+	ont:type "High School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/MissionHighSchool/Building/geometry> geosp:asWKT "POINT(-122.427113 37.761774)" .
+
+<http://www.semanticweb.org/group08/School/Public/MissionHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/MissionHighSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/MissionHighSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/MissionHighSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/7041293/> .
+
+<http://www.semanticweb.org/group08/School/Public/EdisonCharterK-8> ont:name "Edison Charter K-8" ;
+	ont:type "Charter School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/EdisonCharterK-8/Building/geometry> geosp:asWKT "POINT(-122.426266 37.754436)" .
+
+<http://www.semanticweb.org/group08/School/Public/EdisonCharterK-8/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/EdisonCharterK-8/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/EdisonCharterK-8> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/EdisonCharterK-8/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/BuenaVista/HoraceMann> ont:name "Buena Vista/Horace Mann" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/BuenaVista/HoraceMann/Building/geometry> geosp:asWKT "POINT(-122.420297 37.753073)" .
+
+<http://www.semanticweb.org/group08/School/Public/BuenaVista/HoraceMann/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/BuenaVista/HoraceMann/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/BuenaVista/HoraceMann> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/BuenaVista/HoraceMann/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/CarmichaelBessie(6-8Campus)> ont:name "Carmichael, Bessie (6-8 Campus)" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/CarmichaelBessie(6-8Campus)/Building/geometry> geosp:asWKT "POINT(-122.400479 37.780555)" .
+
+<http://www.semanticweb.org/group08/School/Public/CarmichaelBessie(6-8Campus)/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/CarmichaelBessie(6-8Campus)/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/CarmichaelBessie(6-8Campus)> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/CarmichaelBessie(6-8Campus)/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/CarmichaelBessie(K-5Campus)> ont:name "Carmichael, Bessie (K-5 Campus)" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/CarmichaelBessie(K-5Campus)/Building/geometry> geosp:asWKT "POINT(-122.406688 37.776105)" .
+
+<http://www.semanticweb.org/group08/School/Public/CarmichaelBessie(K-5Campus)/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/CarmichaelBessie(K-5Campus)/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/CarmichaelBessie(K-5Campus)> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/CarmichaelBessie(K-5Campus)/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/DowntownHighSchool> ont:name "Downtown High School" ;
+	ont:type "High School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/DowntownHighSchool/Building/geometry> geosp:asWKT "POINT(-122.403875 37.761363)" .
+
+<http://www.semanticweb.org/group08/School/Public/DowntownHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/DowntownHighSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/DowntownHighSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/DowntownHighSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5343886/> .
+
+<http://www.semanticweb.org/group08/School/Public/WebsterDanielElementarySchool> ont:name "Webster, Daniel Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/WebsterDanielElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.395973 37.760578)" .
+
+<http://www.semanticweb.org/group08/School/Public/WebsterDanielElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/WebsterDanielElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/WebsterDanielElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/WebsterDanielElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/BryantElementarySchool> ont:name "Bryant Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/BryantElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.40482 37.751581)" .
+
+<http://www.semanticweb.org/group08/School/Public/BryantElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/BryantElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/BryantElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/BryantElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/4103463/> .
+
+<http://www.semanticweb.org/group08/School/Public/StarrKingElementarySchool> ont:name "Starr King Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/StarrKingElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.399211 37.753239)" .
+
+<http://www.semanticweb.org/group08/School/Public/StarrKingElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/StarrKingElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/StarrKingElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/StarrKingElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5398694/> .
+
+<http://www.semanticweb.org/group08/School/Public/BryantEarlyEducationSchool> ont:name "Bryant Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/BryantEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.404701 37.751631)" .
+
+<http://www.semanticweb.org/group08/School/Public/BryantEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/BryantEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/BryantEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/BryantEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/POTRERONURSERY> ont:name "POTRERO NURSERY" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/POTRERONURSERY/Building/geometry> geosp:asWKT "POINT(-122.395998 37.752043)" .
+
+<http://www.semanticweb.org/group08/School/Public/POTRERONURSERY/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/POTRERONURSERY/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/POTRERONURSERY> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/POTRERONURSERY/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/HarteBretElementarySchool> ont:name "Harte, Bret Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/HarteBretElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.388894 37.718283)" .
+
+<http://www.semanticweb.org/group08/School/Public/HarteBretElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/HarteBretElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/HarteBretElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/HarteBretElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/HavardLeolaMEarlyEducationSchool> ont:name "Havard, Leola M. Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/HavardLeolaMEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.388816 37.73405)" .
+
+<http://www.semanticweb.org/group08/School/Public/HavardLeolaMEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/HavardLeolaMEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/HavardLeolaMEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/HavardLeolaMEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/MarshallThurgoodHighSchool> ont:name "Marshall, Thurgood High School" ;
+	ont:type "High School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/MarshallThurgoodHighSchool/Building/geometry> geosp:asWKT "POINT(-122.401465 37.735732)" .
+
+<http://www.semanticweb.org/group08/School/Public/MarshallThurgoodHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/MarshallThurgoodHighSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/MarshallThurgoodHighSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/MarshallThurgoodHighSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/DrewDrCharlesRElementarySchool> ont:name "Drew, Dr. Charles R. Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/DrewDrCharlesRElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.393995 37.731322)" .
+
+<http://www.semanticweb.org/group08/School/Public/DrewDrCharlesRElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/DrewDrCharlesRElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/DrewDrCharlesRElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/DrewDrCharlesRElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/ReverePaulSchool> ont:name "Revere, Paul School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/ReverePaulSchool/Building/geometry> geosp:asWKT "POINT(-122.413158 37.737263)" .
+
+<http://www.semanticweb.org/group08/School/Public/ReverePaulSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/ReverePaulSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/ReverePaulSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/ReverePaulSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/SerraJuniperoElementarySchool> ont:name "Serra, Junipero Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/SerraJuniperoElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.421498 37.736985)" .
+
+<http://www.semanticweb.org/group08/School/Public/SerraJuniperoElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/SerraJuniperoElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/SerraJuniperoElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/SerraJuniperoElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/HillcrestElementarySchool> ont:name "Hillcrest Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/HillcrestElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.418862 37.728822)" .
+
+<http://www.semanticweb.org/group08/School/Public/HillcrestElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/HillcrestElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/HillcrestElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/HillcrestElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/4114753/> .
+
+<http://www.semanticweb.org/group08/School/Public/KingDrMartinLutherJrMiddleSchool> ont:name "King, Dr. Martin Luther, Jr. Middle School" ;
+	ont:type "Middle School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/KingDrMartinLutherJrMiddleSchool/Building/geometry> geosp:asWKT "POINT(-122.405468 37.727703)" .
+
+<http://www.semanticweb.org/group08/School/Public/KingDrMartinLutherJrMiddleSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/KingDrMartinLutherJrMiddleSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/KingDrMartinLutherJrMiddleSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/KingDrMartinLutherJrMiddleSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/TaylorERElementarySchool> ont:name "Taylor, E. R. Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/TaylorERElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.407466 37.72768)" .
+
+<http://www.semanticweb.org/group08/School/Public/TaylorERElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/TaylorERElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/TaylorERElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/TaylorERElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/ExcelsiorMonroeEarlyEducationSchool> ont:name "Excelsior Monroe Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/ExcelsiorMonroeEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.430476 37.725642)" .
+
+<http://www.semanticweb.org/group08/School/Public/ExcelsiorMonroeEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/ExcelsiorMonroeEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/ExcelsiorMonroeEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/ExcelsiorMonroeEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/SFCOMMUNITYSCHOOL> ont:name "S.F. COMMUNITY SCHOOL" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/SFCOMMUNITYSCHOOL/Building/geometry> geosp:asWKT "POINT(-122.432134 37.726105)" .
+
+<http://www.semanticweb.org/group08/School/Public/SFCOMMUNITYSCHOOL/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/SFCOMMUNITYSCHOOL/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/SFCOMMUNITYSCHOOL> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/SFCOMMUNITYSCHOOL/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/JordanJuneHighSchool> ont:name "Jordan, June High School" ;
+	ont:type "High School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/JordanJuneHighSchool/Building/geometry> geosp:asWKT "POINT(-122.425253 37.71924)" .
+
+<http://www.semanticweb.org/group08/School/Public/JordanJuneHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/JordanJuneHighSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/JordanJuneHighSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/JordanJuneHighSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/ClevelandElementarySchool> ont:name "Cleveland Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/ClevelandElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.42888 37.72063)" .
+
+<http://www.semanticweb.org/group08/School/Public/ClevelandElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/ClevelandElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/ClevelandElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/ClevelandElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/4138069/> .
+
+<http://www.semanticweb.org/group08/School/Public/BurtonPhillipandSalaHighSchool> ont:name "Burton, Phillip and Sala High School" ;
+	ont:type "High School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/BurtonPhillipandSalaHighSchool/Building/geometry> geosp:asWKT "POINT(-122.406552 37.721545)" .
+
+<http://www.semanticweb.org/group08/School/Public/BurtonPhillipandSalaHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/BurtonPhillipandSalaHighSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/BurtonPhillipandSalaHighSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/BurtonPhillipandSalaHighSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/ElDoradoElementarySchool> ont:name "El Dorado Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/ElDoradoElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.407296 37.718422)" .
+
+<http://www.semanticweb.org/group08/School/Public/ElDoradoElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/ElDoradoElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/ElDoradoElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/ElDoradoElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5345671/> .
+
+<http://www.semanticweb.org/group08/School/Public/VisitacionValleyMiddleSchool> ont:name "Visitacion Valley Middle School" ;
+	ont:type "Middle School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/VisitacionValleyMiddleSchool/Building/geometry> geosp:asWKT "POINT(-122.412408 37.715652)" .
+
+<http://www.semanticweb.org/group08/School/Public/VisitacionValleyMiddleSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/VisitacionValleyMiddleSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/VisitacionValleyMiddleSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/VisitacionValleyMiddleSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231625/> .
+
+<http://www.semanticweb.org/group08/School/Public/VisitacionValleyElementarySchool> ont:name "Visitacion Valley Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/VisitacionValleyElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.410275 37.712525)" .
+
+<http://www.semanticweb.org/group08/School/Public/VisitacionValleyElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/VisitacionValleyElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/VisitacionValleyElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/VisitacionValleyElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5406599/> .
+
+<http://www.semanticweb.org/group08/School/Public/McLarenJohnEarlyEducationSchool> ont:name "McLaren, John Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/McLarenJohnEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.423186 37.713651)" .
+
+<http://www.semanticweb.org/group08/School/Public/McLarenJohnEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/McLarenJohnEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/McLarenJohnEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/McLarenJohnEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/ExcelsiorGuadalupeEarlyEducationSchool> ont:name "Excelsior Guadalupe Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/ExcelsiorGuadalupeEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.4345 37.710135)" .
+
+<http://www.semanticweb.org/group08/School/Public/ExcelsiorGuadalupeEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/ExcelsiorGuadalupeEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/ExcelsiorGuadalupeEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/ExcelsiorGuadalupeEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/LongfellowElementarySchool> ont:name "Longfellow Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/LongfellowElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.447126 37.710235)" .
+
+<http://www.semanticweb.org/group08/School/Public/LongfellowElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/LongfellowElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/LongfellowElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/LongfellowElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5125233/> .
+
+<http://www.semanticweb.org/group08/School/Public/RodriguezZaidaTEarlyEducationSchool> ont:name "Rodriguez, Zaida T. Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/RodriguezZaidaTEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.419171 37.750148)" .
+
+<http://www.semanticweb.org/group08/School/Public/RodriguezZaidaTEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/RodriguezZaidaTEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/RodriguezZaidaTEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/RodriguezZaidaTEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/LickJamesMiddleSchool> ont:name "Lick, James Middle School" ;
+	ont:type "Middle School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/LickJamesMiddleSchool/Building/geometry> geosp:asWKT "POINT(-122.432155 37.749544)" .
+
+<http://www.semanticweb.org/group08/School/Public/LickJamesMiddleSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/LickJamesMiddleSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/LickJamesMiddleSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/LickJamesMiddleSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/MissionEducationCenterElementarySchool> ont:name "Mission Education Center Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/MissionEducationCenterElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.431436 37.742204)" .
+
+<http://www.semanticweb.org/group08/School/Public/MissionEducationCenterElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/MissionEducationCenterElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/MissionEducationCenterElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/MissionEducationCenterElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/FairmountElementarySchool> ont:name "Fairmount Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/FairmountElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.425009 37.74046)" .
+
+<http://www.semanticweb.org/group08/School/Public/FairmountElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/FairmountElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/FairmountElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/FairmountElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5153614/> .
+
+<http://www.semanticweb.org/group08/School/Public/GlenParkElementarySchool> ont:name "Glen Park Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/GlenParkElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.435787 37.733097)" .
+
+<http://www.semanticweb.org/group08/School/Public/GlenParkElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/GlenParkElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/GlenParkElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/GlenParkElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5254393/> .
+
+<http://www.semanticweb.org/group08/School/Public/BalboaHighSchool> ont:name "Balboa High School" ;
+	ont:type "High School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/BalboaHighSchool/Building/geometry> geosp:asWKT "POINT(-122.4408 37.722171)" .
+
+<http://www.semanticweb.org/group08/School/Public/BalboaHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/BalboaHighSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/BalboaHighSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/BalboaHighSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5325706/> .
+
+<http://www.semanticweb.org/group08/School/Public/DenmanJamesMiddleSchool> ont:name "Denman, James Middle School" ;
+	ont:type "Middle School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/DenmanJamesMiddleSchool/Building/geometry> geosp:asWKT "POINT(-122.442873 37.721538)" .
+
+<http://www.semanticweb.org/group08/School/Public/DenmanJamesMiddleSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/DenmanJamesMiddleSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/DenmanJamesMiddleSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/DenmanJamesMiddleSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/SanMiguelEarlyEducationSchool> ont:name "San Miguel Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/SanMiguelEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.444858 37.721491)" .
+
+<http://www.semanticweb.org/group08/School/Public/SanMiguelEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/SanMiguelEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/SanMiguelEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/SanMiguelEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/OrtegaJoseElementarySchool> ont:name "Ortega, Jose Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/OrtegaJoseElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.466294 37.716379)" .
+
+<http://www.semanticweb.org/group08/School/Public/OrtegaJoseElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/OrtegaJoseElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/OrtegaJoseElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/OrtegaJoseElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/SheridanElementarySchool> ont:name "Sheridan Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/SheridanElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.459629 37.714476)" .
+
+<http://www.semanticweb.org/group08/School/Public/SheridanElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/SheridanElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/SheridanElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/SheridanElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/4130822/> .
+
+<http://www.semanticweb.org/group08/School/Public/LakeshoreElementarySchool> ont:name "Lakeshore Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/LakeshoreElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.486009 37.730051)" .
+
+<http://www.semanticweb.org/group08/School/Public/LakeshoreElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/LakeshoreElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/LakeshoreElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/LakeshoreElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5123888/> .
+
+<http://www.semanticweb.org/group08/School/Public/LOWELLHIGHSCHOOL> ont:name "LOWELL HIGH SCHOOL" ;
+	ont:type "High School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/LOWELLHIGHSCHOOL/Building/geometry> geosp:asWKT "POINT(-122.483402 37.730624)" .
+
+<http://www.semanticweb.org/group08/School/Public/LOWELLHIGHSCHOOL/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/LOWELLHIGHSCHOOL/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/LOWELLHIGHSCHOOL> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/LOWELLHIGHSCHOOL/Building> ;
+	owl:sameAs <http://sws.geonames.org/5368874/> .
+
+<http://www.semanticweb.org/group08/School/Public/HilltopSpecialServicesCenter> ont:name "Hilltop Special Services Center" ;
+	ont:type "County School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/HilltopSpecialServicesCenter/Building/geometry> geosp:asWKT "POINT(-122.409397 37.750432)" .
+
+<http://www.semanticweb.org/group08/School/Public/HilltopSpecialServicesCenter/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/HilltopSpecialServicesCenter/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/HilltopSpecialServicesCenter> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/HilltopSpecialServicesCenter/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/GatewayMiddleSchool> ont:name "Gateway Middle School" ;
+	ont:type "Charter School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/GatewayMiddleSchool/Building/geometry> geosp:asWKT "POINT(-122.433438 37.792805)" .
+
+<http://www.semanticweb.org/group08/School/Public/GatewayMiddleSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/GatewayMiddleSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/GatewayMiddleSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/GatewayMiddleSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5155541/> .
+
+<http://www.semanticweb.org/group08/School/Public/LilienthalClaire(3-8WinfieldScottCampus)> ont:name "Lilienthal, Claire (3-8 Winfield Scott Campus)" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/LilienthalClaire(3-8WinfieldScottCampus)/Building/geometry> geosp:asWKT "POINT(-122.443198 37.803219)" .
+
+<http://www.semanticweb.org/group08/School/Public/LilienthalClaire(3-8WinfieldScottCampus)/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/LilienthalClaire(3-8WinfieldScottCampus)/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/LilienthalClaire(3-8WinfieldScottCampus)> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/LilienthalClaire(3-8WinfieldScottCampus)/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/WellsIdaBHighSchool> ont:name "Wells, Ida B. High School" ;
+	ont:type "High School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/WellsIdaBHighSchool/Building/geometry> geosp:asWKT "POINT(-122.434037 37.774986)" .
+
+<http://www.semanticweb.org/group08/School/Public/WellsIdaBHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/WellsIdaBHighSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/WellsIdaBHighSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/WellsIdaBHighSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/ChineseImmersionSchoolatDeAvila> ont:name "Chinese Immersion School at DeAvila" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/ChineseImmersionSchoolatDeAvila/Building/geometry> geosp:asWKT "POINT(-122.444348 37.769734)" .
+
+<http://www.semanticweb.org/group08/School/Public/ChineseImmersionSchoolatDeAvila/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/ChineseImmersionSchoolatDeAvila/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/ChineseImmersionSchoolatDeAvila> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/ChineseImmersionSchoolatDeAvila/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/APTOSMIDDLESCHOOL> ont:name "APTOS MIDDLE SCHOOL" ;
+	ont:type "Middle School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/APTOSMIDDLESCHOOL/Building/geometry> geosp:asWKT "POINT(-122.466018 37.729694)" .
+
+<http://www.semanticweb.org/group08/School/Public/APTOSMIDDLESCHOOL/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/APTOSMIDDLESCHOOL/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/APTOSMIDDLESCHOOL> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/APTOSMIDDLESCHOOL/Building> ;
+	owl:sameAs <http://sws.geonames.org/5324408/> .
+
+<http://www.semanticweb.org/group08/School/Public/LincolnAbrahamHighSchool> ont:name "Lincoln, Abraham High School" ;
+	ont:type "High School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/LincolnAbrahamHighSchool/Building/geometry> geosp:asWKT "POINT(-122.480295 37.74656)" .
+
+<http://www.semanticweb.org/group08/School/Public/LincolnAbrahamHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/LincolnAbrahamHighSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/LincolnAbrahamHighSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/LincolnAbrahamHighSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/SUNSETELEMENTARYSCHOOL> ont:name "SUNSET ELEMENTARY SCHOOL" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/SUNSETELEMENTARYSCHOOL/Building/geometry> geosp:asWKT "POINT(-122.499523 37.750593)" .
+
+<http://www.semanticweb.org/group08/School/Public/SUNSETELEMENTARYSCHOOL/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/SUNSETELEMENTARYSCHOOL/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/SUNSETELEMENTARYSCHOOL> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/SUNSETELEMENTARYSCHOOL/Building> ;
+	owl:sameAs <http://sws.geonames.org/4552619/> .
+
+<http://www.semanticweb.org/group08/School/Public/ChinJohnYehallElementarySchool> ont:name "Chin, John Yehall Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/ChinJohnYehallElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.403217 37.798611)" .
+
+<http://www.semanticweb.org/group08/School/Public/ChinJohnYehallElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/ChinJohnYehallElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/ChinJohnYehallElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/ChinJohnYehallElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/StocktonCommodoreEarlyEducationSchool> ont:name "Stockton, Commodore Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/StocktonCommodoreEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.409086 37.795045)" .
+
+<http://www.semanticweb.org/group08/School/Public/StocktonCommodoreEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/StocktonCommodoreEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/StocktonCommodoreEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/StocktonCommodoreEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/LauGordonJElementarySchool> ont:name "Lau, Gordon J. Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/LauGordonJElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.408925 37.794079)" .
+
+<http://www.semanticweb.org/group08/School/Public/LauGordonJElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/LauGordonJElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/LauGordonJElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/LauGordonJElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/GalileoHighSchool> ont:name "Galileo High School" ;
+	ont:type "High School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/GalileoHighSchool/Building/geometry> geosp:asWKT "POINT(-122.424479 37.803748)" .
+
+<http://www.semanticweb.org/group08/School/Public/GalileoHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/GalileoHighSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/GalileoHighSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/GalileoHighSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5351390/> .
+
+<http://www.semanticweb.org/group08/School/Public/ParksRosaElementarySchool> ont:name "Parks, Rosa Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/ParksRosaElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.430012 37.783493)" .
+
+<http://www.semanticweb.org/group08/School/Public/ParksRosaElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/ParksRosaElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/ParksRosaElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/ParksRosaElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/CivicCenterSecondarySchool> ont:name "Civic Center Secondary School" ;
+	ont:type "County School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/CivicCenterSecondarySchool/Building/geometry> geosp:asWKT "POINT(-122.422878 37.780314)" .
+
+<http://www.semanticweb.org/group08/School/Public/CivicCenterSecondarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/CivicCenterSecondarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/CivicCenterSecondarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/CivicCenterSecondarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/LilienthalClaire(K-2MadisonCampus)> ont:name "Lilienthal, Claire (K-2 Madison Campus)" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/LilienthalClaire(K-2MadisonCampus)/Building/geometry> geosp:asWKT "POINT(-122.458067 37.787226)" .
+
+<http://www.semanticweb.org/group08/School/Public/LilienthalClaire(K-2MadisonCampus)/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/LilienthalClaire(K-2MadisonCampus)/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/LilienthalClaire(K-2MadisonCampus)> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/LilienthalClaire(K-2MadisonCampus)/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/YuAliceFongAlternativeSchool> ont:name "Yu, Alice Fong Alternative School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/YuAliceFongAlternativeSchool/Building/geometry> geosp:asWKT "POINT(-122.469711 37.75891)" .
+
+<http://www.semanticweb.org/group08/School/Public/YuAliceFongAlternativeSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/YuAliceFongAlternativeSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/YuAliceFongAlternativeSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/YuAliceFongAlternativeSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/NoriegaEarlyEducationSchool> ont:name "Noriega Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/NoriegaEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.503659 37.75385)" .
+
+<http://www.semanticweb.org/group08/School/Public/NoriegaEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/NoriegaEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/NoriegaEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/NoriegaEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/IndependenceHighSchool> ont:name "Independence High School" ;
+	ont:type "High School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/IndependenceHighSchool/Building/geometry> geosp:asWKT "POINT(-122.499897 37.743402)" .
+
+<http://www.semanticweb.org/group08/School/Public/IndependenceHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/IndependenceHighSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/IndependenceHighSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/IndependenceHighSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5158413/> .
+
+<http://www.semanticweb.org/group08/School/Public/ClarendonElementarySchool> ont:name "Clarendon Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/ClarendonElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.456323 37.753757)" .
+
+<http://www.semanticweb.org/group08/School/Public/ClarendonElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/ClarendonElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/ClarendonElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/ClarendonElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/4105825/> .
+
+<http://www.semanticweb.org/group08/School/Public/HARVEYMILKCIVILRIGHTSACADEMY> ont:name "HARVEY MILK CIVIL RIGHTS ACADEMY" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/HARVEYMILKCIVILRIGHTSACADEMY/Building/geometry> geosp:asWKT "POINT(-122.436455 37.75898)" .
+
+<http://www.semanticweb.org/group08/School/Public/HARVEYMILKCIVILRIGHTSACADEMY/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/HARVEYMILKCIVILRIGHTSACADEMY/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/HARVEYMILKCIVILRIGHTSACADEMY> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/HARVEYMILKCIVILRIGHTSACADEMY/Building> ;
+	owl:sameAs <http://sws.geonames.org/5343828/> .
+
+<http://www.semanticweb.org/group08/School/Public/Rooftop(5-8MayedaCampus)> ont:name "Rooftop (5-8 Mayeda Campus)" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/Rooftop(5-8MayedaCampus)/Building/geometry> geosp:asWKT "POINT(-122.44449 37.757408)" .
+
+<http://www.semanticweb.org/group08/School/Public/Rooftop(5-8MayedaCampus)/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/Rooftop(5-8MayedaCampus)/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/Rooftop(5-8MayedaCampus)> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/Rooftop(5-8MayedaCampus)/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/Rooftop(K-4BurnettCampus)> ont:name "Rooftop (K-4 Burnett Campus)" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/Rooftop(K-4BurnettCampus)/Building/geometry> geosp:asWKT "POINT(-122.443917 37.754995)" .
+
+<http://www.semanticweb.org/group08/School/Public/Rooftop(K-4BurnettCampus)/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/Rooftop(K-4BurnettCampus)/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/Rooftop(K-4BurnettCampus)> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/Rooftop(K-4BurnettCampus)/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/MosconeGeorgeElementarySchool> ont:name "Moscone, George Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/MosconeGeorgeElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.412562 37.756999)" .
+
+<http://www.semanticweb.org/group08/School/Public/MosconeGeorgeElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/MosconeGeorgeElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/MosconeGeorgeElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/MosconeGeorgeElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/MahlerTheresaSEarlyEducationSchool> ont:name "Mahler, Theresa S. Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/MahlerTheresaSEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.428097 37.755274)" .
+
+<http://www.semanticweb.org/group08/School/Public/MahlerTheresaSEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/MahlerTheresaSEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/MahlerTheresaSEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/MahlerTheresaSEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/ChavezCesarElementarySchool> ont:name "Chavez, Cesar Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/ChavezCesarElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.415092 37.754899)" .
+
+<http://www.semanticweb.org/group08/School/Public/ChavezCesarElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/ChavezCesarElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/ChavezCesarElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/ChavezCesarElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/InternationalStudiesAcademy> ont:name "International Studies Academy" ;
+	ont:type "High School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/InternationalStudiesAcademy/Building/geometry> geosp:asWKT "POINT(-122.400805 37.761826)" .
+
+<http://www.semanticweb.org/group08/School/Public/InternationalStudiesAcademy/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/InternationalStudiesAcademy/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/InternationalStudiesAcademy> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/InternationalStudiesAcademy/Building> ;
+	owl:sameAs <http://sws.geonames.org/5359592/> .
+
+<http://www.semanticweb.org/group08/School/Public/MalcolmXElementarySchool> ont:name "Malcolm X Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/MalcolmXElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.381102 37.734206)" .
+
+<http://www.semanticweb.org/group08/School/Public/MalcolmXElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/MalcolmXElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/MalcolmXElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/MalcolmXElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/4139494/> .
+
+<http://www.semanticweb.org/group08/School/Public/MetropolitanArtsandTech> ont:name "Metropolitan Arts and Tech" ;
+	ont:type "Charter School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/MetropolitanArtsandTech/Building/geometry> geosp:asWKT "POINT(-122.382241 37.732122)" .
+
+<http://www.semanticweb.org/group08/School/Public/MetropolitanArtsandTech/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/MetropolitanArtsandTech/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/MetropolitanArtsandTech> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/MetropolitanArtsandTech/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/FlynnLeonardElementarySchool> ont:name "Flynn, Leonard Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/FlynnLeonardElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.411965 37.747738)" .
+
+<http://www.semanticweb.org/group08/School/Public/FlynnLeonardElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/FlynnLeonardElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/FlynnLeonardElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/FlynnLeonardElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/AsawaRuth-SanFranciscoSchooloftheArts(SOTA)> ont:name "Asawa, Ruth - San Francisco School of the Arts (SOTA)" ;
+	ont:type "High School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/AsawaRuth-SanFranciscoSchooloftheArts(SOTA)/Building/geometry> geosp:asWKT "POINT(-122.448667 37.745431)" .
+
+<http://www.semanticweb.org/group08/School/Public/AsawaRuth-SanFranciscoSchooloftheArts(SOTA)/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/AsawaRuth-SanFranciscoSchooloftheArts(SOTA)/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/AsawaRuth-SanFranciscoSchooloftheArts(SOTA)> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/AsawaRuth-SanFranciscoSchooloftheArts(SOTA)/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/CarverDrGeorgeWashingtonElementarySchool> ont:name "Carver, Dr. George Washington Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/CarverDrGeorgeWashingtonElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.38557 37.731843)" .
+
+<http://www.semanticweb.org/group08/School/Public/CarverDrGeorgeWashingtonElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/CarverDrGeorgeWashingtonElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/CarverDrGeorgeWashingtonElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/CarverDrGeorgeWashingtonElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/FiveKeysCharter> ont:name "Five Keys Charter" ;
+	ont:type "Charter School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/FiveKeysCharter/Building/geometry> geosp:asWKT "POINT(-122.40218 37.777153)" .
+
+<http://www.semanticweb.org/group08/School/Public/FiveKeysCharter/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/FiveKeysCharter/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/FiveKeysCharter> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/FiveKeysCharter/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231662/> .
+
+<http://www.semanticweb.org/group08/School/Public/TenderloinElementarySchool> ont:name "Tenderloin Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/TenderloinElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.419951 37.781855)" .
+
+<http://www.semanticweb.org/group08/School/Public/TenderloinElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/TenderloinElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/TenderloinElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/TenderloinElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/O'ConnellJohnHighSchool> ont:name "O'Connell, John High School" ;
+	ont:type "High School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/O'ConnellJohnHighSchool/Building/geometry> geosp:asWKT "POINT(-122.414215 37.759517)" .
+
+<http://www.semanticweb.org/group08/School/Public/O'ConnellJohnHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/O'ConnellJohnHighSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/O'ConnellJohnHighSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/O'ConnellJohnHighSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/AcademyofArtsandSciences> ont:name "Academy of Arts and Sciences" ;
+	ont:type "High School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/AcademyofArtsandSciences/Building/geometry> geosp:asWKT "POINT(-122.449485 37.745158)" .
+
+<http://www.semanticweb.org/group08/School/Public/AcademyofArtsandSciences/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/AcademyofArtsandSciences/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/AcademyofArtsandSciences> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/AcademyofArtsandSciences/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231609/> .
+
+<http://www.semanticweb.org/group08/School/Public/SFInternationalHighSchool> ont:name "S. F. International High School" ;
+	ont:type "High School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/SFInternationalHighSchool/Building/geometry> geosp:asWKT "POINT(-122.40864 37.755246)" .
+
+<http://www.semanticweb.org/group08/School/Public/SFInternationalHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/SFInternationalHighSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/SFInternationalHighSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/SFInternationalHighSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/CarmichaelBessieEarlyEducationSchool> ont:name "Carmichael, Bessie Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/CarmichaelBessieEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.406787 37.776573)" .
+
+<http://www.semanticweb.org/group08/School/Public/CarmichaelBessieEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/CarmichaelBessieEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/CarmichaelBessieEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/CarmichaelBessieEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/ChavezCesarPreschool> ont:name "Chavez, Cesar Preschool" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/ChavezCesarPreschool/Building/geometry> geosp:asWKT "POINT(-122.415083 37.754763)" .
+
+<http://www.semanticweb.org/group08/School/Public/ChavezCesarPreschool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/ChavezCesarPreschool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/ChavezCesarPreschool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/ChavezCesarPreschool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/CobbDrWilliamPreschool> ont:name "Cobb, Dr. William Preschool" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/CobbDrWilliamPreschool/Building/geometry> geosp:asWKT "POINT(-122.439154 37.787992)" .
+
+<http://www.semanticweb.org/group08/School/Public/CobbDrWilliamPreschool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/CobbDrWilliamPreschool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/CobbDrWilliamPreschool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/CobbDrWilliamPreschool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/DrewDrCharlesEarlyEducationSchool> ont:name "Drew, Dr. Charles Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/DrewDrCharlesEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.39388 37.731768)" .
+
+<http://www.semanticweb.org/group08/School/Public/DrewDrCharlesEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/DrewDrCharlesEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/DrewDrCharlesEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/DrewDrCharlesEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/SanchezPreschool> ont:name "Sanchez Preschool" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/SanchezPreschool/Building/geometry> geosp:asWKT "POINT(-122.430499 37.763168)" .
+
+<http://www.semanticweb.org/group08/School/Public/SanchezPreschool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/SanchezPreschool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/SanchezPreschool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/SanchezPreschool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/FlynnLeonardEarlyEducationSchool> ont:name "Flynn, Leonard Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/FlynnLeonardEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.411947 37.748043)" .
+
+<http://www.semanticweb.org/group08/School/Public/FlynnLeonardEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/FlynnLeonardEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/FlynnLeonardEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/FlynnLeonardEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/GarfieldEarlyEducationSchool> ont:name "Garfield Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/GarfieldEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.406797 37.801902)" .
+
+<http://www.semanticweb.org/group08/School/Public/GarfieldEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/GarfieldEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/GarfieldEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/GarfieldEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/GrattanEarlyEducationSchool> ont:name "Grattan Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/GrattanEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.450397 37.763498)" .
+
+<http://www.semanticweb.org/group08/School/Public/GrattanEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/GrattanEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/GrattanEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/GrattanEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/GuadalupeElementarySchool> ont:name "Guadalupe Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/GuadalupeElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.434117 37.710315)" .
+
+<http://www.semanticweb.org/group08/School/Public/GuadalupeElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/GuadalupeElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/GuadalupeElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/GuadalupeElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5354603/> .
+
+<http://www.semanticweb.org/group08/School/Public/HarteBretEarlyEducationSchool> ont:name "Harte, Bret Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/HarteBretEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.389804 37.718197)" .
+
+<http://www.semanticweb.org/group08/School/Public/HarteBretEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/HarteBretEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/HarteBretEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/HarteBretEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/KeyFrancisScottEarlyEducationSchool> ont:name "Key, Francis Scott Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/KeyFrancisScottEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.502273 37.757835)" .
+
+<http://www.semanticweb.org/group08/School/Public/KeyFrancisScottEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/KeyFrancisScottEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/KeyFrancisScottEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/KeyFrancisScottEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/TaylorERPreschool> ont:name "Taylor, E.R. Preschool" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/TaylorERPreschool/Building/geometry> geosp:asWKT "POINT(-122.40736 37.727413)" .
+
+<http://www.semanticweb.org/group08/School/Public/TaylorERPreschool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/TaylorERPreschool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/TaylorERPreschool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/TaylorERPreschool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/LasAmericasEarlyEducationSchool> ont:name "Las Americas Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/LasAmericasEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.413248 37.757122)" .
+
+<http://www.semanticweb.org/group08/School/Public/LasAmericasEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/LasAmericasEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/LasAmericasEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/LasAmericasEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/LauGordonJPreschool> ont:name "Lau, Gordon J. Preschool" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/LauGordonJPreschool/Building/geometry> geosp:asWKT "POINT(-122.40859 37.794153)" .
+
+<http://www.semanticweb.org/group08/School/Public/LauGordonJPreschool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/LauGordonJPreschool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/LauGordonJPreschool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/LauGordonJPreschool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/McCoppinFrankEarlyEducationSchool> ont:name "McCoppin, Frank Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/McCoppinFrankEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.464238 37.776442)" .
+
+<http://www.semanticweb.org/group08/School/Public/McCoppinFrankEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/McCoppinFrankEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/McCoppinFrankEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/McCoppinFrankEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/MonroeElementarySchool> ont:name "Monroe Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/MonroeElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.430289 37.725513)" .
+
+<http://www.semanticweb.org/group08/School/Public/MonroeElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/MonroeElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/MonroeElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/MonroeElementarySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5163361/> .
+
+<http://www.semanticweb.org/group08/School/Public/MuirJohnPreschool> ont:name "Muir, John Preschool" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/MuirJohnPreschool/Building/geometry> geosp:asWKT "POINT(-122.428774 37.77361)" .
+
+<http://www.semanticweb.org/group08/School/Public/MuirJohnPreschool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/MuirJohnPreschool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/MuirJohnPreschool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/MuirJohnPreschool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/ParkerJeanEarlyEducationSchool> ont:name "Parker, Jean Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/ParkerJeanEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.411201 37.797517)" .
+
+<http://www.semanticweb.org/group08/School/Public/ParkerJeanEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/ParkerJeanEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/ParkerJeanEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/ParkerJeanEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/ReddingEarlyEducationSchool> ont:name "Redding Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/ReddingEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.419396 37.789491)" .
+
+<http://www.semanticweb.org/group08/School/Public/ReddingEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/ReddingEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/ReddingEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/ReddingEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/SFMontessoriEarlyEducationSchool> ont:name "S. F. Montessori Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/SFMontessoriEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.433636 37.792776)" .
+
+<http://www.semanticweb.org/group08/School/Public/SFMontessoriEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/SFMontessoriEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/SFMontessoriEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/SFMontessoriEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/SFPublicMontessoriElementarySchool> ont:name "S. F. Public Montessori Elementary School" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/SFPublicMontessoriElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.433935 37.792736)" .
+
+<http://www.semanticweb.org/group08/School/Public/SFPublicMontessoriElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/SFPublicMontessoriElementarySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/SFPublicMontessoriElementarySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/SFPublicMontessoriElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/SerraJuniperoEarlyEducationSchool(1)> ont:name "Serra, Junipero Early Education School (1)" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/SerraJuniperoEarlyEducationSchool(1)/Building/geometry> geosp:asWKT "POINT(-122.421512 37.736841)" .
+
+<http://www.semanticweb.org/group08/School/Public/SerraJuniperoEarlyEducationSchool(1)/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/SerraJuniperoEarlyEducationSchool(1)/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/SerraJuniperoEarlyEducationSchool(1)> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/SerraJuniperoEarlyEducationSchool(1)/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/SerraJuniperoEarlyEducationSchool(2)> ont:name "Serra, Junipero Early Education School (2)" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/SerraJuniperoEarlyEducationSchool(2)/Building/geometry> geosp:asWKT "POINT(-122.422599 37.738458)" .
+
+<http://www.semanticweb.org/group08/School/Public/SerraJuniperoEarlyEducationSchool(2)/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/SerraJuniperoEarlyEducationSchool(2)/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/SerraJuniperoEarlyEducationSchool(2)> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/SerraJuniperoEarlyEducationSchool(2)/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/SpringValleyEarlyEducationSchool> ont:name "Spring Valley Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/SpringValleyEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.418873 37.793901)" .
+
+<http://www.semanticweb.org/group08/School/Public/SpringValleyEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/SpringValleyEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/SpringValleyEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/SpringValleyEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/StarrKingPreschool> ont:name "Starr King Preschool" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/StarrKingPreschool/Building/geometry> geosp:asWKT "POINT(-122.399155 37.753043)" .
+
+<http://www.semanticweb.org/group08/School/Public/StarrKingPreschool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/StarrKingPreschool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/StarrKingPreschool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/StarrKingPreschool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/SutroEarlyEducationSchool> ont:name "Sutro Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/SutroEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.471401 37.783481)" .
+
+<http://www.semanticweb.org/group08/School/Public/SutroEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/SutroEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/SutroEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/SutroEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/TenderloinEarlyEducationSchool> ont:name "Tenderloin Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/TenderloinEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.420014 37.781717)" .
+
+<http://www.semanticweb.org/group08/School/Public/TenderloinEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/TenderloinEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/TenderloinEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/TenderloinEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/WebsterDanielEarlyEducationSchool> ont:name "Webster, Daniel Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/WebsterDanielEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.395977 37.760394)" .
+
+<http://www.semanticweb.org/group08/School/Public/WebsterDanielEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/WebsterDanielEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/WebsterDanielEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/WebsterDanielEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/WeillRaphaelEarlyEducationSchool> ont:name "Weill, Raphael Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/WeillRaphaelEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.429773 37.783283)" .
+
+<http://www.semanticweb.org/group08/School/Public/WeillRaphaelEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/WeillRaphaelEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/WeillRaphaelEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/WeillRaphaelEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/WoodsideLearningCenter> ont:name "Woodside Learning Center" ;
+	ont:type "County School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/WoodsideLearningCenter/Building/geometry> geosp:asWKT "POINT(-122.452505 37.745927)" .
+
+<http://www.semanticweb.org/group08/School/Public/WoodsideLearningCenter/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/WoodsideLearningCenter/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/WoodsideLearningCenter> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/WoodsideLearningCenter/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/JeffersonOutOfSchool(OST)Program> ont:name "Jefferson Out Of School (OST) Program" ;
+	ont:type "Elementary" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/JeffersonOutOfSchool(OST)Program/Building/geometry> geosp:asWKT "POINT(-122.396202 37.762479)" .
+
+<http://www.semanticweb.org/group08/School/Public/JeffersonOutOfSchool(OST)Program/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/JeffersonOutOfSchool(OST)Program/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/JeffersonOutOfSchool(OST)Program> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/JeffersonOutOfSchool(OST)Program/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/KIPPBayviewAcademy> ont:name "KIPP Bayview Academy" ;
+	ont:type "Charter School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/KIPPBayviewAcademy/Building/geometry> geosp:asWKT "POINT(-122.396363 37.719343)" .
+
+<http://www.semanticweb.org/group08/School/Public/KIPPBayviewAcademy/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/KIPPBayviewAcademy/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/KIPPBayviewAcademy> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/KIPPBayviewAcademy/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231664/> .
+
+<http://www.semanticweb.org/group08/School/Public/KIPPSFBayAcademy> ont:name "KIPP SF Bay Academy" ;
+	ont:type "Charter School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/KIPPSFBayAcademy/Building/geometry> geosp:asWKT "POINT(-122.437466 37.782999)" .
+
+<http://www.semanticweb.org/group08/School/Public/KIPPSFBayAcademy/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/KIPPSFBayAcademy/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/KIPPSFBayAcademy> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/KIPPSFBayAcademy/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/LarkinStreetYouthServices> ont:name "Larkin Street Youth Services" ;
+	ont:type "County School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/LarkinStreetYouthServices/Building/geometry> geosp:asWKT "POINT(-122.419201 37.788023)" .
+
+<http://www.semanticweb.org/group08/School/Public/LarkinStreetYouthServices/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/LarkinStreetYouthServices/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/LarkinStreetYouthServices> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/LarkinStreetYouthServices/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/LeadershipCharterHighSchool> ont:name "Leadership Charter High School" ;
+	ont:type "Charter School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/LeadershipCharterHighSchool/Building/geometry> geosp:asWKT "POINT(-122.443262 37.721439)" .
+
+<http://www.semanticweb.org/group08/School/Public/LeadershipCharterHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/LeadershipCharterHighSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/LeadershipCharterHighSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/LeadershipCharterHighSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/LifeLearningAcademyCharterSchool> ont:name "Life Learning Academy Charter School" ;
+	ont:type "Charter School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/LifeLearningAcademyCharterSchool/Building/geometry> geosp:asWKT "POINT(-122.367929 37.825298)" .
+
+<http://www.semanticweb.org/group08/School/Public/LifeLearningAcademyCharterSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/LifeLearningAcademyCharterSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/LifeLearningAcademyCharterSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/LifeLearningAcademyCharterSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231607/> .
+
+<http://www.semanticweb.org/group08/School/Public/PresidioEarlyEducationSchool> ont:name "Presidio Early Education School" ;
+	ont:type "Early Education" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/PresidioEarlyEducationSchool/Building/geometry> geosp:asWKT "POINT(-122.460933 37.797817)" .
+
+<http://www.semanticweb.org/group08/School/Public/PresidioEarlyEducationSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/PresidioEarlyEducationSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/PresidioEarlyEducationSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/PresidioEarlyEducationSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Public/CityArtsandTechHighSchool> ont:name "City Arts and Tech High School" ;
+	ont:type "Charter School" ;
+	ont:deptpublic "7"^^xsd:int .
+
+<http://www.semanticweb.org/group08/School/Public/CityArtsandTechHighSchool/Building/geometry> geosp:asWKT "POINT(-122.425108 37.718886)" .
+
+<http://www.semanticweb.org/group08/School/Public/CityArtsandTechHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Public/CityArtsandTechHighSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Public/CityArtsandTechHighSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Public/CityArtsandTechHighSchool/Building> .
