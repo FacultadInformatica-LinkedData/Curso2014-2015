@@ -14,7 +14,7 @@ xmlns:biblioteca="http://www.exmple.com/biblioteca#">
 </owl:Class>
 
 <owl:Class rdf:about="http://www.exmple.com/biblioteca#articulo">
-<rdfs:label>Aticulo</rdfs:label>
+<rdfs:label>Articulo</rdfs:label>
 <rdfs:comment>Entidad del articulo prestado</rdfs:comment>
 </owl:Class>
 
