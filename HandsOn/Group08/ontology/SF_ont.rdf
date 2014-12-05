@@ -52,12 +52,12 @@
       /ServiceRequest/{type}/{idincremental}
       /ServiceRequest/{type}/{idincremental}#asociatedCase -> ont:ServiceRequest
 
-      /Mapping/{zoneid}
-      /Mapping/{zoneid}#name -> xsd:string
-      /Mapping/{zoneid}#shparea -> xsd:double
-      /Mapping/{zoneid}#shplen -> xsd:double
-      /Mapping/{zoneid}#asWKT -> geosp:asWKT
-      /Mapping/{zoneid}#media -> xsd:string
+      /Mapping/{idincremental}
+      /Mapping/{idincremental}#name -> xsd:string
+      /Mapping/{idincremental}#shparea -> xsd:double
+      /Mapping/{idincremental}#shplen -> xsd:double
+      /Mapping/{idincremental}#hasGeometry -> geosp:asWKT
+      /Mapping/{idincremental}#media -> xsd:string
 
       /PublicTransport/{stopid}
       /PublicTransport/{stopid}#name -> xsd:string
