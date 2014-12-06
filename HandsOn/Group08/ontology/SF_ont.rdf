@@ -26,6 +26,12 @@
 
   <!--
 
+    /Building/{buildid}
+    /Building#hasGeometry -> /Building/{buildid}/geometry
+
+    /Building/{buildid}/geometry
+    /Building/{buildid}/geometry#asWKT -> geosp:asWKT
+
     /ServiceRequest/{caseid}
     /ServiceRequest/{caseid}#open -> xsd:date
     /ServiceRequest/{caseid}#close -> xsd:date
@@ -62,6 +68,19 @@
 
     /Mapping/{idincremental}/geometry
     /Mapping/{idincremental}/geometry#asWKT -> geosp:asWKT
+
+    /School/Private/{uri_name}
+    /School/Private/{uri_name}#name -> xsd:string
+    /School/Private/{uri_name}#category -> xsd:string
+    /School/Private/{uri_name}#children -> xsd:string
+    /School/Private/{uri_name}#address -> xsd:string
+    /School/Private/{uri_name}#hasBuilding -> /Building/{uri_name}
+
+    /School/Public/{uri_name}
+    /School/Public/{uri_name}#name -> xsd:string
+    /School/Public/{uri_name}#category -> xsd:string
+    /School/Public/{uri_name}#department -> xsd:string
+    /School/Public/{uri_name}#hasBuilding -> /Building/{uri_name}
     
   -->
 
