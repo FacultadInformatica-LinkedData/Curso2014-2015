@@ -34,16 +34,15 @@
     /ServiceRequest/{caseid}#request -> xsd:string
     /ServiceRequest/{caseid}#address -> xsd:string
     /ServiceRequest/{caseid}#neighborhood -> xsd:string
+    /ServiceRequest/{caseid}#category -> xsd:string
     /ServiceRequest/{caseid}#hasGeometry -> /ServiceRequest/{caseid}/geometry
 
     /ServiceRequest/{caseid}/geometry
     /ServiceRequest/{caseid}/geometry#asWKT -> geosp:asWKT
 
-    /ServiceRequest/{type}/{idincremental}
-    /ServiceRequest/{type}/{idincremental}#asociatedCase -> ont:ServiceRequest
-
     /Crime/{incidentid}
     /Crime/{incidentid}#description -> xsd:string
+    /Crime/{incidentid}#category -> xsd:string
     /Crime/{incidentid}#date -> xsd:date
     /Crime/{incidentid}#district -> xsd:string
     /Crime/{incidentid}#state -> xsd:string
@@ -52,9 +51,6 @@
 
     /Crime/{incidentid}/geometry
     /Crime/{incidentid}/geometry#asWKT -> geosp:asWKT
-
-    /Crime/{type}/{idincremental}
-    /Crime/{type}/{idincremental}#asociatedIncident -> ont:Crime
 
     /Mapping/{idincremental}
     /Mapping/{idincremental}#zone -> xsd:string
