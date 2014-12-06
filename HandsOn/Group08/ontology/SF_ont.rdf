@@ -6,82 +6,42 @@
   <!ENTITY owl "http://www.w3.org/2002/07/owl">
   <!ENTITY xsd "http://www.w3.org/2001/XMLSchema">  
   <!ENTITY geosp "http://www.opengis.net/ont/geosparql">
-  <!ENTITY ont "http://www.semanticweb.org/grupo08">
+  <!ENTITY ont "http://www.semanticweb.org/group08">
   <!ENTITY purl "http://purl.org/dc/elements/1.1">
 ]>
 
 <rdf:RDF xmlns:rdf="&rdf;#" xmlns:rdfs="&rdfs;#" xmlns:owl="&owl;#"
-    xmlns:xsd="&xsd;#" xmlns:geosp="&geosp;/" xmlns:purl="&purl;/">
+  xmlns:xsd="&xsd;#" xmlns:geosp="&geosp;/" xmlns:purl="&purl;/">
 
-    <owl:Ontology rdf:about="http://wwww.semanticweb.org/grupo08/">
-        <owl:versionInfo>1.0.0</owl:versionInfo>
-        <rdfs:label>Ontology_Group_08</rdfs:label>
-        <rdfs:comment>Ontology about San Francisco datasets</rdfs:comment>
-        <purl:creator>Group 08</purl:creator>
-        <purl:contributor>Sandra Saez Raspeño</purl:contributor>
-        <purl:contributor>Alejandro F. Carrera</purl:contributor>
-        <purl:contributor>Sergio Conde Gómez</purl:contributor>
-        <purl:contributor>Alejandro Barahona Álvarez</purl:contributor>
-    </owl:Ontology>
+  <owl:Ontology rdf:about="http://www.semanticweb.org/group08/">
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <rdfs:label>Ontology_Group_08</rdfs:label>
+    <rdfs:comment>Ontology about San Francisco datasets</rdfs:comment>
+    <purl:creator>Group 08</purl:creator>
+    <purl:contributor>Sandra Saez Raspeño</purl:contributor>
+    <purl:contributor>Alejandro F. Carrera</purl:contributor>
+    <purl:contributor>Sergio Conde Gómez</purl:contributor>
+    <purl:contributor>Alejandro Barahona Álvarez</purl:contributor>
+  </owl:Ontology>
 
-    <!--
-    
-      /Building/{id_incremental}
-      /Building/{id_incremental}#hasGeometry -> geosp:asWKT
-    
-      /Crime/{incidentid}
-      /Crime/{incidentid}#category -> xsd:string
-      /Crime/{incidentid}#description -> xsd:string
-      /Crime/{incidentid}#date -> xsd:date
-      /Crime/{incidentid}#district -> xsd:string
-      /Crime/{incidentid}#state -> xsd:string
-      /Crime/{incidentid}#address -> xsd:string
-      /Crime/{incidentid}#asWKT -> geosp:asWKT
+  <!--
 
-      /ServiceRequest/{caseid}
-      /ServiceRequest/{caseid}#open -> xsd:date
-      /ServiceRequest/{caseid}#close -> xsd:date
-      /ServiceRequest/{caseid}#state -> xsd:boolean
-      /ServiceRequest/{caseid}#agency -> xsd:string
-      /ServiceRequest/{caseid}#request -> xsd:string
-      /ServiceRequest/{caseid}#request_details -> xsd:string
-      /ServiceRequest/{caseid}#address -> xsd:string
-      /ServiceRequest/{caseid}#neighborhood -> xsd:string
-      /ServiceRequest/{caseid}#asWKT -> geosp:asWKT
+    /ServiceRequest/{caseid}
+    /ServiceRequest/{caseid}#open -> xsd:date
+    /ServiceRequest/{caseid}#close -> xsd:date
+    /ServiceRequest/{caseid}#state -> xsd:boolean
+    /ServiceRequest/{caseid}#agency -> xsd:string
+    /ServiceRequest/{caseid}#request -> xsd:string
+    /ServiceRequest/{caseid}#address -> xsd:string
+    /ServiceRequest/{caseid}#neighborhood -> xsd:string
+    /ServiceRequest/{caseid}#hasGeometry -> /ServiceRequest/{caseid}/geometry
 
-      /ServiceRequest/{type}/{idincremental}
-      /ServiceRequest/{type}/{idincremental}#asociatedCase -> ont:ServiceRequest
+    /ServiceRequest/{caseid}/geometry
+    /ServiceRequest/{caseid}/geometry#asWKT -> geosp:asWKT
 
-      /Mapping/{idincremental}
-      /Mapping/{idincremental}#name -> xsd:string
-      /Mapping/{idincremental}#shparea -> xsd:double
-      /Mapping/{idincremental}#shplen -> xsd:double
-      /Mapping/{idincremental}#hasGeometry -> geosp:asWKT
-      /Mapping/{idincremental}#media -> xsd:string
+    /ServiceRequest/{type}/{idincremental}
+    /ServiceRequest/{type}/{idincremental}#asociatedCase -> ont:ServiceRequest
 
-      /PublicTransport/{stopid}
-      /PublicTransport/{stopid}#name -> xsd:string
-      /PublicTransport/{stopid}#asWKT -> geosp:asWKT
-
-      /PublicService/{buildid}
-      /PublicService/{buildid}#name -> xsd:string
-      /PublicService/{buildid}#category -> xsd:string
-      /PublicService/{buildid}#department -> xsd:integer
-      /PublicService/{buildid}#hasBuilding -> ont:Building
-
-      /PublicService/{type}/{idincremental}
-      /PublicService/{type}/{idincremental}#asociatedService -> ont:PublicService
-
-      /PublicSchool/{name}
-      /PublicSchool/{name}#category -> xsd:string
-      /PublicSchool/{name}#deptpublic -> xsd:integer
-      /PublicSchool/{name}#hasBuilding -> ont:Building
-      
-      /PrivateSchool/{name}
-      /PrivateSchool/{name}#category -> xsd:string
-      /PrivateSchool/{name}#address -> xsd:string
-      /PrivateSchool/{name}#hasBuilding -> ont:Building
-
-    -->
+  -->
 
 </rdf:RDF>
