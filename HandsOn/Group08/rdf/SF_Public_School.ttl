@@ -6,842 +6,842 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix geosp: <http://www.opengis.net/ont/geosparql#> .
 
-<http://www.semanticweb.org/group08/School/Public/Ulloa_Elementary_School> ont:name "Ulloa Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Ulloa_Elementary_School> rdfs:label "Ulloa Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Ulloa_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Francisco_Middle_School> ont:name "Francisco Middle School" ;
+<http://www.semanticweb.org/group08/School/Public/Francisco_Middle_School> rdfs:label "Francisco Middle School" ;
 	ont:category "Middle School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Francisco_Middle_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Yick_Wo_Elementary_School> ont:name "Yick Wo Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Yick_Wo_Elementary_School> rdfs:label "Yick Wo Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Yick_Wo_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Garfield_Elementary_School> ont:name "Garfield Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Garfield_Elementary_School> rdfs:label "Garfield Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Garfield_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Parker_Jean_Elementary_School> ont:name "Parker, Jean Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Parker_Jean_Elementary_School> rdfs:label "Parker, Jean Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Parker_Jean_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Spring_Valley_Elementary_School> ont:name "Spring Valley Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Spring_Valley_Elementary_School> rdfs:label "Spring Valley Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Spring_Valley_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Chinese_Education_Center_Elementary_School> ont:name "Chinese Education Center Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Chinese_Education_Center_Elementary_School> rdfs:label "Chinese Education Center Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Chinese_Education_Center_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Marina_Middle_School> ont:name "Marina Middle School" ;
+<http://www.semanticweb.org/group08/School/Public/Marina_Middle_School> rdfs:label "Marina Middle School" ;
 	ont:category "Middle School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Marina_Middle_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Tule_Elk_Park_Early_Education_School> ont:name "Tule Elk Park Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Tule_Elk_Park_Early_Education_School> rdfs:label "Tule Elk Park Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Tule_Elk_Park_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Sherman_Elementary_School> ont:name "Sherman Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Sherman_Elementary_School> rdfs:label "Sherman Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Sherman_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Redding_Elementary_School> ont:name "Redding Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Redding_Elementary_School> rdfs:label "Redding Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Redding_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Gateway_High_School> ont:name "Gateway High School" ;
+<http://www.semanticweb.org/group08/School/Public/Gateway_High_School> rdfs:label "Gateway High School" ;
 	ont:category "Charter School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Gateway_High_School> .
 
-<http://www.semanticweb.org/group08/School/Public/HARVEY_MILK_CHILDREN_CENTER> ont:name "HARVEY MILK CHILDREN CENTER" ;
+<http://www.semanticweb.org/group08/School/Public/HARVEY_MILK_CHILDREN_CENTER> rdfs:label "HARVEY MILK CHILDREN CENTER" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/HARVEY_MILK_CHILDREN_CENTER> .
 
-<http://www.semanticweb.org/group08/School/Public/Creative_Arts_Charter_School> ont:name "Creative Arts Charter School" ;
+<http://www.semanticweb.org/group08/School/Public/Creative_Arts_Charter_School> rdfs:label "Creative Arts Charter School" ;
 	ont:category "Charter School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Creative_Arts_Charter_School> .
 
-<http://www.semanticweb.org/group08/School/Public/LAGUNA_GOLDEN_GATE_CHILD_CARE_CENTER_PREK_SCHOOL> ont:name "LAGUNA GOLDEN GATE CHILD CARE CENTER,  PRE-K SCHOOL" ;
+<http://www.semanticweb.org/group08/School/Public/LAGUNA_GOLDEN_GATE_CHILD_CARE_CENTER_PREK_SCHOOL> rdfs:label "LAGUNA GOLDEN GATE CHILD CARE CENTER,  PRE-K SCHOOL" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/LAGUNA_GOLDEN_GATE_CHILD_CARE_CENTER_PREK_SCHOOL> .
 
-<http://www.semanticweb.org/group08/School/Public/Muir_John_Elementary_School> ont:name "Muir, John Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Muir_John_Elementary_School> rdfs:label "Muir, John Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Muir_John_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Cobb_Dr_William_L_Elementary_School> ont:name "Cobb, Dr. William L. Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Cobb_Dr_William_L_Elementary_School> rdfs:label "Cobb, Dr. William L. Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Cobb_Dr_William_L_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Roosevelt_Theodore_Middle_School> ont:name "Roosevelt, Theodore Middle School" ;
+<http://www.semanticweb.org/group08/School/Public/Roosevelt_Theodore_Middle_School> rdfs:label "Roosevelt, Theodore Middle School" ;
 	ont:category "Middle School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Roosevelt_Theodore_Middle_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Wallenberg_Raoul_High_School> ont:name "Wallenberg, Raoul High School" ;
+<http://www.semanticweb.org/group08/School/Public/Wallenberg_Raoul_High_School> rdfs:label "Wallenberg, Raoul High School" ;
 	ont:category "High School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Wallenberg_Raoul_High_School> .
 
-<http://www.semanticweb.org/group08/School/Public/New_Traditions_Elementary_School> ont:name "New Traditions Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/New_Traditions_Elementary_School> rdfs:label "New Traditions Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/New_Traditions_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Grattan_Elementary_School> ont:name "Grattan Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Grattan_Elementary_School> rdfs:label "Grattan Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Grattan_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Alamo_Elementary_School> ont:name "Alamo Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Alamo_Elementary_School> rdfs:label "Alamo Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Alamo_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Sutro_Elementary_School> ont:name "Sutro Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Sutro_Elementary_School> rdfs:label "Sutro Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Sutro_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Peabody_George_Elementary_School> ont:name "Peabody, George Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Peabody_George_Elementary_School> rdfs:label "Peabody, George Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Peabody_George_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Presidio_Middle_School> ont:name "Presidio Middle School" ;
+<http://www.semanticweb.org/group08/School/Public/Presidio_Middle_School> rdfs:label "Presidio Middle School" ;
 	ont:category "Middle School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Presidio_Middle_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Washington_George_High_School> ont:name "Washington, George High School" ;
+<http://www.semanticweb.org/group08/School/Public/Washington_George_High_School> rdfs:label "Washington, George High School" ;
 	ont:category "High School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Washington_George_High_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Lafayette_Elementary_School> ont:name "Lafayette Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Lafayette_Elementary_School> rdfs:label "Lafayette Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Lafayette_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/SF_County_Special_Education_School> ont:name "S.F. County Special Education School" ;
+<http://www.semanticweb.org/group08/School/Public/SF_County_Special_Education_School> rdfs:label "S.F. County Special Education School" ;
 	ont:category "County School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/SF_County_Special_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Argonne_Elementary_School> ont:name "Argonne Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Argonne_Elementary_School> rdfs:label "Argonne Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Argonne_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/McCoppin_Frank_Elementary_School> ont:name "McCoppin, Frank Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/McCoppin_Frank_Elementary_School> rdfs:label "McCoppin, Frank Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/McCoppin_Frank_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Argonne_Early_Education_School> ont:name "Argonne Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Argonne_Early_Education_School> rdfs:label "Argonne Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Argonne_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/PCCBig_Picture_San_Francisco> ont:name "PCC/Big Picture San Francisco" ;
+<http://www.semanticweb.org/group08/School/Public/PCCBig_Picture_San_Francisco> rdfs:label "PCC/Big Picture San Francisco" ;
 	ont:category "County School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/PCCBig_Picture_San_Francisco> .
 
-<http://www.semanticweb.org/group08/School/Public/Jefferson_Elementary_School> ont:name "Jefferson Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Jefferson_Elementary_School> rdfs:label "Jefferson Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Jefferson_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Jefferson_Early_Education_School> ont:name "Jefferson Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Jefferson_Early_Education_School> rdfs:label "Jefferson Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Jefferson_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/The_Walden_House> ont:name "The Walden House" ;
+<http://www.semanticweb.org/group08/School/Public/The_Walden_House> rdfs:label "The Walden House" ;
 	ont:category "County School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/The_Walden_House> .
 
-<http://www.semanticweb.org/group08/School/Public/Lawton_Alternative_School> ont:name "Lawton Alternative School" ;
+<http://www.semanticweb.org/group08/School/Public/Lawton_Alternative_School> rdfs:label "Lawton Alternative School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Lawton_Alternative_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Key_Francis_Scott_Elementary_School> ont:name "Key, Francis Scott Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Key_Francis_Scott_Elementary_School> rdfs:label "Key, Francis Scott Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Key_Francis_Scott_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Giannini_A_P_Middle_School> ont:name "Giannini, A. P. Middle School" ;
+<http://www.semanticweb.org/group08/School/Public/Giannini_A_P_Middle_School> rdfs:label "Giannini, A. P. Middle School" ;
 	ont:category "Middle School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Giannini_A_P_Middle_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Stevenson_Robert_Louis_Elementary_School> ont:name "Stevenson, Robert Louis Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Stevenson_Robert_Louis_Elementary_School> rdfs:label "Stevenson, Robert Louis Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Stevenson_Robert_Louis_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Hoover_Herbert_Middle_School> ont:name "Hoover, Herbert Middle School" ;
+<http://www.semanticweb.org/group08/School/Public/Hoover_Herbert_Middle_School> rdfs:label "Hoover, Herbert Middle School" ;
 	ont:category "Middle School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Hoover_Herbert_Middle_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Feinstein_Dianne_Elementary_School> ont:name "Feinstein, Dianne Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Feinstein_Dianne_Elementary_School> rdfs:label "Feinstein, Dianne Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Feinstein_Dianne_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/McKinley_Elementary_School> ont:name "McKinley Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/McKinley_Elementary_School> rdfs:label "McKinley Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/McKinley_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Alvarado_Elementary_School> ont:name "Alvarado Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Alvarado_Elementary_School> rdfs:label "Alvarado Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Alvarado_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Miraloma_Elementary_School> ont:name "Miraloma Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Miraloma_Elementary_School> rdfs:label "Miraloma Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Miraloma_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/West_Portal_Elementary_School> ont:name "West Portal Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/West_Portal_Elementary_School> rdfs:label "West Portal Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/West_Portal_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Sunnyside_Elementary_School> ont:name "Sunnyside Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Sunnyside_Elementary_School> rdfs:label "Sunnyside Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Sunnyside_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Sloat_Commodore_Elementary_School> ont:name "Sloat, Commodore Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Sloat_Commodore_Elementary_School> rdfs:label "Sloat, Commodore Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Sloat_Commodore_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Marshall_Elementary_School> ont:name "Marshall Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Marshall_Elementary_School> rdfs:label "Marshall Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Marshall_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Sanchez_Elementary_School> ont:name "Sanchez Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Sanchez_Elementary_School> rdfs:label "Sanchez Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Sanchez_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Everett_Middle_School> ont:name "Everett Middle School" ;
+<http://www.semanticweb.org/group08/School/Public/Everett_Middle_School> rdfs:label "Everett Middle School" ;
 	ont:category "Middle School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Everett_Middle_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Log_Cabin_Ranch_County_School> ont:name "Log Cabin Ranch County School" ;
+<http://www.semanticweb.org/group08/School/Public/Log_Cabin_Ranch_County_School> rdfs:label "Log Cabin Ranch County School" ;
 	ont:category "County School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Log_Cabin_Ranch_County_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Mission_High_School> ont:name "Mission High School" ;
+<http://www.semanticweb.org/group08/School/Public/Mission_High_School> rdfs:label "Mission High School" ;
 	ont:category "High School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Mission_High_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Edison_Charter_K8> ont:name "Edison Charter K-8" ;
+<http://www.semanticweb.org/group08/School/Public/Edison_Charter_K8> rdfs:label "Edison Charter K-8" ;
 	ont:category "Charter School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Edison_Charter_K8> .
 
-<http://www.semanticweb.org/group08/School/Public/Buena_VistaHorace_Mann> ont:name "Buena Vista/Horace Mann" ;
+<http://www.semanticweb.org/group08/School/Public/Buena_VistaHorace_Mann> rdfs:label "Buena Vista/Horace Mann" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Buena_VistaHorace_Mann> .
 
-<http://www.semanticweb.org/group08/School/Public/Carmichael_Bessie_68_Campus> ont:name "Carmichael, Bessie (6-8 Campus)" ;
+<http://www.semanticweb.org/group08/School/Public/Carmichael_Bessie_68_Campus> rdfs:label "Carmichael, Bessie (6-8 Campus)" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Carmichael_Bessie_68_Campus> .
 
-<http://www.semanticweb.org/group08/School/Public/Carmichael_Bessie_K5_Campus> ont:name "Carmichael, Bessie (K-5 Campus)" ;
+<http://www.semanticweb.org/group08/School/Public/Carmichael_Bessie_K5_Campus> rdfs:label "Carmichael, Bessie (K-5 Campus)" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Carmichael_Bessie_K5_Campus> .
 
-<http://www.semanticweb.org/group08/School/Public/Downtown_High_School> ont:name "Downtown High School" ;
+<http://www.semanticweb.org/group08/School/Public/Downtown_High_School> rdfs:label "Downtown High School" ;
 	ont:category "High School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Downtown_High_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Webster_Daniel_Elementary_School> ont:name "Webster, Daniel Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Webster_Daniel_Elementary_School> rdfs:label "Webster, Daniel Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Webster_Daniel_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Bryant_Elementary_School> ont:name "Bryant Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Bryant_Elementary_School> rdfs:label "Bryant Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Bryant_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Starr_King_Elementary_School> ont:name "Starr King Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Starr_King_Elementary_School> rdfs:label "Starr King Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Starr_King_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Bryant_Early_Education_School> ont:name "Bryant Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Bryant_Early_Education_School> rdfs:label "Bryant Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Bryant_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/POTRERO_NURSERY> ont:name "POTRERO NURSERY" ;
+<http://www.semanticweb.org/group08/School/Public/POTRERO_NURSERY> rdfs:label "POTRERO NURSERY" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/POTRERO_NURSERY> .
 
-<http://www.semanticweb.org/group08/School/Public/Harte_Bret_Elementary_School> ont:name "Harte, Bret Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Harte_Bret_Elementary_School> rdfs:label "Harte, Bret Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Harte_Bret_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Havard_Leola_M_Early_Education_School> ont:name "Havard, Leola M. Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Havard_Leola_M_Early_Education_School> rdfs:label "Havard, Leola M. Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Havard_Leola_M_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Marshall_Thurgood_High_School> ont:name "Marshall, Thurgood High School" ;
+<http://www.semanticweb.org/group08/School/Public/Marshall_Thurgood_High_School> rdfs:label "Marshall, Thurgood High School" ;
 	ont:category "High School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Marshall_Thurgood_High_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Drew_Dr_Charles_R_Elementary_School> ont:name "Drew, Dr. Charles R. Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Drew_Dr_Charles_R_Elementary_School> rdfs:label "Drew, Dr. Charles R. Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Drew_Dr_Charles_R_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Revere_Paul_School> ont:name "Revere, Paul School" ;
+<http://www.semanticweb.org/group08/School/Public/Revere_Paul_School> rdfs:label "Revere, Paul School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Revere_Paul_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Serra_Junipero_Elementary_School> ont:name "Serra, Junipero Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Serra_Junipero_Elementary_School> rdfs:label "Serra, Junipero Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Serra_Junipero_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Hillcrest_Elementary_School> ont:name "Hillcrest Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Hillcrest_Elementary_School> rdfs:label "Hillcrest Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Hillcrest_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/King_Dr_Martin_Luther_Jr_Middle_School> ont:name "King, Dr. Martin Luther, Jr. Middle School" ;
+<http://www.semanticweb.org/group08/School/Public/King_Dr_Martin_Luther_Jr_Middle_School> rdfs:label "King, Dr. Martin Luther, Jr. Middle School" ;
 	ont:category "Middle School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/King_Dr_Martin_Luther_Jr_Middle_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Taylor_E_R_Elementary_School> ont:name "Taylor, E. R. Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Taylor_E_R_Elementary_School> rdfs:label "Taylor, E. R. Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Taylor_E_R_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Excelsior_Monroe_Early_Education_School> ont:name "Excelsior Monroe Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Excelsior_Monroe_Early_Education_School> rdfs:label "Excelsior Monroe Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Excelsior_Monroe_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/SF_COMMUNITY_SCHOOL> ont:name "S.F. COMMUNITY SCHOOL" ;
+<http://www.semanticweb.org/group08/School/Public/SF_COMMUNITY_SCHOOL> rdfs:label "S.F. COMMUNITY SCHOOL" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/SF_COMMUNITY_SCHOOL> .
 
-<http://www.semanticweb.org/group08/School/Public/Jordan_June_High_School> ont:name "Jordan, June High School" ;
+<http://www.semanticweb.org/group08/School/Public/Jordan_June_High_School> rdfs:label "Jordan, June High School" ;
 	ont:category "High School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Jordan_June_High_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Cleveland_Elementary_School> ont:name "Cleveland Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Cleveland_Elementary_School> rdfs:label "Cleveland Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Cleveland_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Burton_Phillip_and_Sala_High_School> ont:name "Burton, Phillip and Sala High School" ;
+<http://www.semanticweb.org/group08/School/Public/Burton_Phillip_and_Sala_High_School> rdfs:label "Burton, Phillip and Sala High School" ;
 	ont:category "High School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Burton_Phillip_and_Sala_High_School> .
 
-<http://www.semanticweb.org/group08/School/Public/El_Dorado_Elementary_School> ont:name "El Dorado Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/El_Dorado_Elementary_School> rdfs:label "El Dorado Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/El_Dorado_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Visitacion_Valley_Middle_School> ont:name "Visitacion Valley Middle School" ;
+<http://www.semanticweb.org/group08/School/Public/Visitacion_Valley_Middle_School> rdfs:label "Visitacion Valley Middle School" ;
 	ont:category "Middle School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Visitacion_Valley_Middle_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Visitacion_Valley_Elementary_School> ont:name "Visitacion Valley Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Visitacion_Valley_Elementary_School> rdfs:label "Visitacion Valley Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Visitacion_Valley_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/McLaren_John_Early_Education_School> ont:name "McLaren, John Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/McLaren_John_Early_Education_School> rdfs:label "McLaren, John Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/McLaren_John_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Excelsior_Guadalupe_Early_Education_School> ont:name "Excelsior Guadalupe Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Excelsior_Guadalupe_Early_Education_School> rdfs:label "Excelsior Guadalupe Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Excelsior_Guadalupe_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Longfellow_Elementary_School> ont:name "Longfellow Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Longfellow_Elementary_School> rdfs:label "Longfellow Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Longfellow_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Rodriguez_Zaida_T_Early_Education_School> ont:name "Rodriguez, Zaida T. Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Rodriguez_Zaida_T_Early_Education_School> rdfs:label "Rodriguez, Zaida T. Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Rodriguez_Zaida_T_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Lick_James_Middle_School> ont:name "Lick, James Middle School" ;
+<http://www.semanticweb.org/group08/School/Public/Lick_James_Middle_School> rdfs:label "Lick, James Middle School" ;
 	ont:category "Middle School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Lick_James_Middle_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Mission_Education_Center_Elementary_School> ont:name "Mission Education Center Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Mission_Education_Center_Elementary_School> rdfs:label "Mission Education Center Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Mission_Education_Center_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Fairmount_Elementary_School> ont:name "Fairmount Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Fairmount_Elementary_School> rdfs:label "Fairmount Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Fairmount_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Glen_Park_Elementary_School> ont:name "Glen Park Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Glen_Park_Elementary_School> rdfs:label "Glen Park Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Glen_Park_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Balboa_High_School> ont:name "Balboa High School" ;
+<http://www.semanticweb.org/group08/School/Public/Balboa_High_School> rdfs:label "Balboa High School" ;
 	ont:category "High School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Balboa_High_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Denman_James_Middle_School> ont:name "Denman, James Middle School" ;
+<http://www.semanticweb.org/group08/School/Public/Denman_James_Middle_School> rdfs:label "Denman, James Middle School" ;
 	ont:category "Middle School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Denman_James_Middle_School> .
 
-<http://www.semanticweb.org/group08/School/Public/San_Miguel_Early_Education_School> ont:name "San Miguel Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/San_Miguel_Early_Education_School> rdfs:label "San Miguel Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/San_Miguel_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Ortega_Jose_Elementary_School> ont:name "Ortega, Jose Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Ortega_Jose_Elementary_School> rdfs:label "Ortega, Jose Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Ortega_Jose_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Sheridan_Elementary_School> ont:name "Sheridan Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Sheridan_Elementary_School> rdfs:label "Sheridan Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Sheridan_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Lakeshore_Elementary_School> ont:name "Lakeshore Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Lakeshore_Elementary_School> rdfs:label "Lakeshore Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Lakeshore_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Lowell_High_School> ont:name "Lowell High School" ;
+<http://www.semanticweb.org/group08/School/Public/Lowell_High_School> rdfs:label "Lowell High School" ;
 	ont:category "High School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Lowell_High_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Hilltop_Special_Services_Center> ont:name "Hilltop Special Services Center" ;
+<http://www.semanticweb.org/group08/School/Public/Hilltop_Special_Services_Center> rdfs:label "Hilltop Special Services Center" ;
 	ont:category "County School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Hilltop_Special_Services_Center> .
 
-<http://www.semanticweb.org/group08/School/Public/Gateway_Middle_School> ont:name "Gateway Middle School" ;
+<http://www.semanticweb.org/group08/School/Public/Gateway_Middle_School> rdfs:label "Gateway Middle School" ;
 	ont:category "Charter School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Gateway_Middle_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Lilienthal_Claire_38_Winfield_Scott_Campus> ont:name "Lilienthal, Claire (3-8 Winfield Scott Campus)" ;
+<http://www.semanticweb.org/group08/School/Public/Lilienthal_Claire_38_Winfield_Scott_Campus> rdfs:label "Lilienthal, Claire (3-8 Winfield Scott Campus)" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Lilienthal_Claire_38_Winfield_Scott_Campus> .
 
-<http://www.semanticweb.org/group08/School/Public/Wells_Ida_B_High_School> ont:name "Wells, Ida B. High School" ;
+<http://www.semanticweb.org/group08/School/Public/Wells_Ida_B_High_School> rdfs:label "Wells, Ida B. High School" ;
 	ont:category "High School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Wells_Ida_B_High_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Chinese_Immersion_School_at_DeAvila> ont:name "Chinese Immersion School at DeAvila" ;
+<http://www.semanticweb.org/group08/School/Public/Chinese_Immersion_School_at_DeAvila> rdfs:label "Chinese Immersion School at DeAvila" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Chinese_Immersion_School_at_DeAvila> .
 
-<http://www.semanticweb.org/group08/School/Public/Aptos_Middle_School> ont:name "Aptos Middle School" ;
+<http://www.semanticweb.org/group08/School/Public/Aptos_Middle_School> rdfs:label "Aptos Middle School" ;
 	ont:category "Middle School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Aptos_Middle_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Lincoln_Abraham_High_School> ont:name "Lincoln, Abraham High School" ;
+<http://www.semanticweb.org/group08/School/Public/Lincoln_Abraham_High_School> rdfs:label "Lincoln, Abraham High School" ;
 	ont:category "High School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Lincoln_Abraham_High_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Sunset_Elementary_School> ont:name "Sunset Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Sunset_Elementary_School> rdfs:label "Sunset Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Sunset_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Chin_John_Yehall_Elementary_School> ont:name "Chin, John Yehall Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Chin_John_Yehall_Elementary_School> rdfs:label "Chin, John Yehall Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Chin_John_Yehall_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Stockton_Commodore_Early_Education_School> ont:name "Stockton, Commodore Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Stockton_Commodore_Early_Education_School> rdfs:label "Stockton, Commodore Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Stockton_Commodore_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Lau_Gordon_J_Elementary_School> ont:name "Lau, Gordon J. Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Lau_Gordon_J_Elementary_School> rdfs:label "Lau, Gordon J. Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Lau_Gordon_J_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Galileo_High_School> ont:name "Galileo High School" ;
+<http://www.semanticweb.org/group08/School/Public/Galileo_High_School> rdfs:label "Galileo High School" ;
 	ont:category "High School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Galileo_High_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Parks_Rosa_Elementary_School> ont:name "Parks, Rosa Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Parks_Rosa_Elementary_School> rdfs:label "Parks, Rosa Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Parks_Rosa_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Civic_Center_Secondary_School> ont:name "Civic Center Secondary School" ;
+<http://www.semanticweb.org/group08/School/Public/Civic_Center_Secondary_School> rdfs:label "Civic Center Secondary School" ;
 	ont:category "County School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Civic_Center_Secondary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Lilienthal_Claire_K2_Madison_Campus> ont:name "Lilienthal, Claire (K-2 Madison Campus)" ;
+<http://www.semanticweb.org/group08/School/Public/Lilienthal_Claire_K2_Madison_Campus> rdfs:label "Lilienthal, Claire (K-2 Madison Campus)" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Lilienthal_Claire_K2_Madison_Campus> .
 
-<http://www.semanticweb.org/group08/School/Public/Yu_Alice_Fong_Alternative_School> ont:name "Yu, Alice Fong Alternative School" ;
+<http://www.semanticweb.org/group08/School/Public/Yu_Alice_Fong_Alternative_School> rdfs:label "Yu, Alice Fong Alternative School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Yu_Alice_Fong_Alternative_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Noriega_Early_Education_School> ont:name "Noriega Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Noriega_Early_Education_School> rdfs:label "Noriega Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Noriega_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Independence_High_School> ont:name "Independence High School" ;
+<http://www.semanticweb.org/group08/School/Public/Independence_High_School> rdfs:label "Independence High School" ;
 	ont:category "High School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Independence_High_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Clarendon_Elementary_School> ont:name "Clarendon Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Clarendon_Elementary_School> rdfs:label "Clarendon Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Clarendon_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Harvey_Milk_Civil_Rights_Academy> ont:name "Harvey Milk Civil Rights Academy" ;
+<http://www.semanticweb.org/group08/School/Public/Harvey_Milk_Civil_Rights_Academy> rdfs:label "Harvey Milk Civil Rights Academy" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Harvey_Milk_Civil_Rights_Academy> .
 
-<http://www.semanticweb.org/group08/School/Public/Rooftop_58_Mayeda_Campus> ont:name "Rooftop (5-8 Mayeda Campus)" ;
+<http://www.semanticweb.org/group08/School/Public/Rooftop_58_Mayeda_Campus> rdfs:label "Rooftop (5-8 Mayeda Campus)" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Rooftop_58_Mayeda_Campus> .
 
-<http://www.semanticweb.org/group08/School/Public/Rooftop_K4_Burnett_Campus> ont:name "Rooftop (K-4 Burnett Campus)" ;
+<http://www.semanticweb.org/group08/School/Public/Rooftop_K4_Burnett_Campus> rdfs:label "Rooftop (K-4 Burnett Campus)" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Rooftop_K4_Burnett_Campus> .
 
-<http://www.semanticweb.org/group08/School/Public/Moscone_George_Elementary_School> ont:name "Moscone, George Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Moscone_George_Elementary_School> rdfs:label "Moscone, George Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Moscone_George_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Mahler_Theresa_S_Early_Education_School> ont:name "Mahler, Theresa S. Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Mahler_Theresa_S_Early_Education_School> rdfs:label "Mahler, Theresa S. Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Mahler_Theresa_S_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Chavez_Cesar_Elementary_School> ont:name "Chavez, Cesar Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Chavez_Cesar_Elementary_School> rdfs:label "Chavez, Cesar Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Chavez_Cesar_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/International_Studies_Academy> ont:name "International Studies Academy" ;
+<http://www.semanticweb.org/group08/School/Public/International_Studies_Academy> rdfs:label "International Studies Academy" ;
 	ont:category "High School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/International_Studies_Academy> .
 
-<http://www.semanticweb.org/group08/School/Public/Malcolm_X_Elementary_School> ont:name "Malcolm X Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Malcolm_X_Elementary_School> rdfs:label "Malcolm X Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Malcolm_X_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Metropolitan_Arts_and_Tech> ont:name "Metropolitan Arts and Tech" ;
+<http://www.semanticweb.org/group08/School/Public/Metropolitan_Arts_and_Tech> rdfs:label "Metropolitan Arts and Tech" ;
 	ont:category "Charter School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Metropolitan_Arts_and_Tech> .
 
-<http://www.semanticweb.org/group08/School/Public/Flynn_Leonard_Elementary_School> ont:name "Flynn, Leonard Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Flynn_Leonard_Elementary_School> rdfs:label "Flynn, Leonard Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Flynn_Leonard_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Asawa_Ruth_San_Francisco_School_of_the_Arts_SOTA> ont:name "Asawa, Ruth - San Francisco School of the Arts (SOTA)" ;
+<http://www.semanticweb.org/group08/School/Public/Asawa_Ruth_San_Francisco_School_of_the_Arts_SOTA> rdfs:label "Asawa, Ruth - San Francisco School of the Arts (SOTA)" ;
 	ont:category "High School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Asawa_Ruth_San_Francisco_School_of_the_Arts_SOTA> .
 
-<http://www.semanticweb.org/group08/School/Public/Carver_Dr_George_Washington_Elementary_School> ont:name "Carver, Dr. George Washington Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Carver_Dr_George_Washington_Elementary_School> rdfs:label "Carver, Dr. George Washington Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Carver_Dr_George_Washington_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Five_Keys_Charter_School> ont:name "Five Keys Charter School" ;
+<http://www.semanticweb.org/group08/School/Public/Five_Keys_Charter_School> rdfs:label "Five Keys Charter School" ;
 	ont:category "Charter School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Five_Keys_Charter_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Tenderloin_Elementary_School> ont:name "Tenderloin Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Tenderloin_Elementary_School> rdfs:label "Tenderloin Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Tenderloin_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/OConnell_John_High_School> ont:name "O'Connell, John High School" ;
+<http://www.semanticweb.org/group08/School/Public/OConnell_John_High_School> rdfs:label "O'Connell, John High School" ;
 	ont:category "High School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/OConnell_John_High_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Academy_of_Arts_and_Sciences> ont:name "Academy of Arts and Sciences" ;
+<http://www.semanticweb.org/group08/School/Public/Academy_of_Arts_and_Sciences> rdfs:label "Academy of Arts and Sciences" ;
 	ont:category "High School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Academy_of_Arts_and_Sciences> .
 
-<http://www.semanticweb.org/group08/School/Public/SF_International_High_School> ont:name "S. F. International High School" ;
+<http://www.semanticweb.org/group08/School/Public/SF_International_High_School> rdfs:label "S. F. International High School" ;
 	ont:category "High School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/SF_International_High_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Carmichael_Bessie_Early_Education_School> ont:name "Carmichael, Bessie Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Carmichael_Bessie_Early_Education_School> rdfs:label "Carmichael, Bessie Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Carmichael_Bessie_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Chavez_Cesar_Preschool> ont:name "Chavez, Cesar Preschool" ;
+<http://www.semanticweb.org/group08/School/Public/Chavez_Cesar_Preschool> rdfs:label "Chavez, Cesar Preschool" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Chavez_Cesar_Preschool> .
 
-<http://www.semanticweb.org/group08/School/Public/Cobb_Dr_William_Preschool> ont:name "Cobb, Dr. William Preschool" ;
+<http://www.semanticweb.org/group08/School/Public/Cobb_Dr_William_Preschool> rdfs:label "Cobb, Dr. William Preschool" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Cobb_Dr_William_Preschool> .
 
-<http://www.semanticweb.org/group08/School/Public/Drew_Dr_Charles_Early_Education_School> ont:name "Drew, Dr. Charles Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Drew_Dr_Charles_Early_Education_School> rdfs:label "Drew, Dr. Charles Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Drew_Dr_Charles_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Sanchez_Preschool> ont:name "Sanchez Preschool" ;
+<http://www.semanticweb.org/group08/School/Public/Sanchez_Preschool> rdfs:label "Sanchez Preschool" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Sanchez_Preschool> .
 
-<http://www.semanticweb.org/group08/School/Public/Flynn_Leonard_Early_Education_School> ont:name "Flynn, Leonard Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Flynn_Leonard_Early_Education_School> rdfs:label "Flynn, Leonard Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Flynn_Leonard_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Garfield_Early_Education_School> ont:name "Garfield Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Garfield_Early_Education_School> rdfs:label "Garfield Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Garfield_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Grattan_Early_Education_School> ont:name "Grattan Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Grattan_Early_Education_School> rdfs:label "Grattan Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Grattan_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Guadalupe_Elementary_School> ont:name "Guadalupe Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Guadalupe_Elementary_School> rdfs:label "Guadalupe Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Guadalupe_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Harte_Bret_Early_Education_School> ont:name "Harte, Bret Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Harte_Bret_Early_Education_School> rdfs:label "Harte, Bret Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Harte_Bret_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Key_Francis_Scott_Early_Education_School> ont:name "Key, Francis Scott Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Key_Francis_Scott_Early_Education_School> rdfs:label "Key, Francis Scott Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Key_Francis_Scott_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Taylor_ER_Preschool> ont:name "Taylor, E.R. Preschool" ;
+<http://www.semanticweb.org/group08/School/Public/Taylor_ER_Preschool> rdfs:label "Taylor, E.R. Preschool" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Taylor_ER_Preschool> .
 
-<http://www.semanticweb.org/group08/School/Public/Las_Americas_Early_Education_School> ont:name "Las Americas Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Las_Americas_Early_Education_School> rdfs:label "Las Americas Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Las_Americas_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Lau_Gordon_J_Preschool> ont:name "Lau, Gordon J. Preschool" ;
+<http://www.semanticweb.org/group08/School/Public/Lau_Gordon_J_Preschool> rdfs:label "Lau, Gordon J. Preschool" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Lau_Gordon_J_Preschool> .
 
-<http://www.semanticweb.org/group08/School/Public/McCoppin_Frank_Early_Education_School> ont:name "McCoppin, Frank Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/McCoppin_Frank_Early_Education_School> rdfs:label "McCoppin, Frank Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/McCoppin_Frank_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Monroe_Elementary_School> ont:name "Monroe Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/Monroe_Elementary_School> rdfs:label "Monroe Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Monroe_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Muir_John_Preschool> ont:name "Muir, John Preschool" ;
+<http://www.semanticweb.org/group08/School/Public/Muir_John_Preschool> rdfs:label "Muir, John Preschool" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Muir_John_Preschool> .
 
-<http://www.semanticweb.org/group08/School/Public/Parker_Jean_Early_Education_School> ont:name "Parker, Jean Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Parker_Jean_Early_Education_School> rdfs:label "Parker, Jean Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Parker_Jean_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Redding_Early_Education_School> ont:name "Redding Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Redding_Early_Education_School> rdfs:label "Redding Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Redding_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/SF_Montessori_Early_Education_School> ont:name "S. F. Montessori Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/SF_Montessori_Early_Education_School> rdfs:label "S. F. Montessori Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/SF_Montessori_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/SF_Public_Montessori_Elementary_School> ont:name "S. F. Public Montessori Elementary School" ;
+<http://www.semanticweb.org/group08/School/Public/SF_Public_Montessori_Elementary_School> rdfs:label "S. F. Public Montessori Elementary School" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/SF_Public_Montessori_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Serra_Junipero_Early_Education_School_1> ont:name "Serra, Junipero Early Education School (1)" ;
+<http://www.semanticweb.org/group08/School/Public/Serra_Junipero_Early_Education_School_1> rdfs:label "Serra, Junipero Early Education School (1)" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Serra_Junipero_Early_Education_School_1> .
 
-<http://www.semanticweb.org/group08/School/Public/Serra_Junipero_Early_Education_School_2> ont:name "Serra, Junipero Early Education School (2)" ;
+<http://www.semanticweb.org/group08/School/Public/Serra_Junipero_Early_Education_School_2> rdfs:label "Serra, Junipero Early Education School (2)" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Serra_Junipero_Early_Education_School_2> .
 
-<http://www.semanticweb.org/group08/School/Public/Spring_Valley_Early_Education_School> ont:name "Spring Valley Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Spring_Valley_Early_Education_School> rdfs:label "Spring Valley Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Spring_Valley_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Starr_King_Preschool> ont:name "Starr King Preschool" ;
+<http://www.semanticweb.org/group08/School/Public/Starr_King_Preschool> rdfs:label "Starr King Preschool" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Starr_King_Preschool> .
 
-<http://www.semanticweb.org/group08/School/Public/Sutro_Early_Education_School> ont:name "Sutro Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Sutro_Early_Education_School> rdfs:label "Sutro Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Sutro_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Tenderloin_Early_Education_School> ont:name "Tenderloin Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Tenderloin_Early_Education_School> rdfs:label "Tenderloin Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Tenderloin_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Webster_Daniel_Early_Education_School> ont:name "Webster, Daniel Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Webster_Daniel_Early_Education_School> rdfs:label "Webster, Daniel Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Webster_Daniel_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Weill_Raphael_Early_Education_School> ont:name "Weill, Raphael Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Weill_Raphael_Early_Education_School> rdfs:label "Weill, Raphael Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Weill_Raphael_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Woodside_Learning_Center> ont:name "Woodside Learning Center" ;
+<http://www.semanticweb.org/group08/School/Public/Woodside_Learning_Center> rdfs:label "Woodside Learning Center" ;
 	ont:category "County School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Woodside_Learning_Center> .
 
-<http://www.semanticweb.org/group08/School/Public/Jefferson_Out_Of_School_OST_Program> ont:name "Jefferson Out Of School (OST) Program" ;
+<http://www.semanticweb.org/group08/School/Public/Jefferson_Out_Of_School_OST_Program> rdfs:label "Jefferson Out Of School (OST) Program" ;
 	ont:category "Elementary" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Jefferson_Out_Of_School_OST_Program> .
 
-<http://www.semanticweb.org/group08/School/Public/KIPP_Bayview_Academy> ont:name "KIPP Bayview Academy" ;
+<http://www.semanticweb.org/group08/School/Public/KIPP_Bayview_Academy> rdfs:label "KIPP Bayview Academy" ;
 	ont:category "Charter School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/KIPP_Bayview_Academy> .
 
-<http://www.semanticweb.org/group08/School/Public/KIPP_SF_Bay_Academy> ont:name "KIPP SF Bay Academy" ;
+<http://www.semanticweb.org/group08/School/Public/KIPP_SF_Bay_Academy> rdfs:label "KIPP SF Bay Academy" ;
 	ont:category "Charter School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/KIPP_SF_Bay_Academy> .
 
-<http://www.semanticweb.org/group08/School/Public/Larkin_Street_Youth_Services> ont:name "Larkin Street Youth Services" ;
+<http://www.semanticweb.org/group08/School/Public/Larkin_Street_Youth_Services> rdfs:label "Larkin Street Youth Services" ;
 	ont:category "County School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Larkin_Street_Youth_Services> .
 
-<http://www.semanticweb.org/group08/School/Public/Leadership_Charter_High_School> ont:name "Leadership Charter High School" ;
+<http://www.semanticweb.org/group08/School/Public/Leadership_Charter_High_School> rdfs:label "Leadership Charter High School" ;
 	ont:category "Charter School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Leadership_Charter_High_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Life_Learning_Academy_Charter_School> ont:name "Life Learning Academy Charter School" ;
+<http://www.semanticweb.org/group08/School/Public/Life_Learning_Academy_Charter_School> rdfs:label "Life Learning Academy Charter School" ;
 	ont:category "Charter School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Life_Learning_Academy_Charter_School> .
 
-<http://www.semanticweb.org/group08/School/Public/Presidio_Early_Education_School> ont:name "Presidio Early Education School" ;
+<http://www.semanticweb.org/group08/School/Public/Presidio_Early_Education_School> rdfs:label "Presidio Early Education School" ;
 	ont:category "Early Education" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Presidio_Early_Education_School> .
 
-<http://www.semanticweb.org/group08/School/Public/City_Arts_and_Tech_High_School> ont:name "City Arts and Tech High School" ;
+<http://www.semanticweb.org/group08/School/Public/City_Arts_and_Tech_High_School> rdfs:label "City Arts and Tech High School" ;
 	ont:category "Charter School" ;
 	ont:department "7" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/City_Arts_and_Tech_High_School> .

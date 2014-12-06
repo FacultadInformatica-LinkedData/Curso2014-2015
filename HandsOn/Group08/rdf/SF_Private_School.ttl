@@ -6,707 +6,707 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix geosp: <http://www.opengis.net/ont/geosparql#> .
 
-<http://www.semanticweb.org/group08/School/Private/Adda_Clevenger_Junior_Preparatory> ont:name "Adda Clevenger Junior Preparatory" ;
+<http://www.semanticweb.org/group08/School/Private/Adda_Clevenger_Junior_Preparatory> rdfs:label "Adda Clevenger Junior Preparatory" ;
 	ont:category "GIFTED" ;
 	ont:children "K - 8" ;
 	ont:address "180 Fair Oaks Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Adda_Clevenger_Junior_Preparatory> .
 
-<http://www.semanticweb.org/group08/School/Private/Brandeis_Hillel_Day_School> ont:name "Brandeis Hillel Day School" ;
+<http://www.semanticweb.org/group08/School/Private/Brandeis_Hillel_Day_School> rdfs:label "Brandeis Hillel Day School" ;
 	ont:category "JEWISH" ;
 	ont:children "K - 8" ;
 	ont:address "655 Brotherhood Way" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Brandeis_Hillel_Day_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Childrens_Day_School> ont:name "Childrens Day School" ;
+<http://www.semanticweb.org/group08/School/Private/Childrens_Day_School> rdfs:label "Childrens Day School" ;
 	ont:category "PRESCHOOL" ;
 	ont:children "PK- 8" ;
 	ont:address "333 Dolores Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Childrens_Day_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Convent_of_Sacred_Heart_Elementary_School> ont:name "Convent of Sacred Heart Elementary School" ;
+<http://www.semanticweb.org/group08/School/Private/Convent_of_Sacred_Heart_Elementary_School> rdfs:label "Convent of Sacred Heart Elementary School" ;
 	ont:category "GIRLS, CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "2222 Broadway" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Convent_of_Sacred_Heart_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Epiphany_School> ont:name "Epiphany School" ;
+<http://www.semanticweb.org/group08/School/Private/Epiphany_School> rdfs:label "Epiphany School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "1 - 8" ;
 	ont:address "600 Italy Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Epiphany_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Hamlin_School> ont:name "Hamlin School" ;
+<http://www.semanticweb.org/group08/School/Private/Hamlin_School> rdfs:label "Hamlin School" ;
 	ont:category "GIRLS" ;
 	ont:children "K - 8" ;
 	ont:address "2120 Broadway Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Hamlin_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Lisa_Hampner_Hebrew_Academy> ont:name "Lisa Hampner Hebrew Academy" ;
+<http://www.semanticweb.org/group08/School/Private/Lisa_Hampner_Hebrew_Academy> rdfs:label "Lisa Hampner Hebrew Academy" ;
 	ont:category "JEWISH" ;
 	ont:children "PK - 12" ;
 	ont:address "645 14th Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Lisa_Hampner_Hebrew_Academy> .
 
-<http://www.semanticweb.org/group08/School/Private/Immaculate_Conception_Academy> ont:name "Immaculate Conception Academy" ;
+<http://www.semanticweb.org/group08/School/Private/Immaculate_Conception_Academy> rdfs:label "Immaculate Conception Academy" ;
 	ont:category "GIRLS, CATHOLIC" ;
 	ont:children "9 - 12" ;
 	ont:address "3625 24th Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Immaculate_Conception_Academy> .
 
-<http://www.semanticweb.org/group08/School/Private/International_Christian_School> ont:name "International Christian School" ;
+<http://www.semanticweb.org/group08/School/Private/International_Christian_School> rdfs:label "International Christian School" ;
 	ont:category "BAPTIST" ;
 	ont:children "PK - 8" ;
 	ont:address "42 Waller Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/International_Christian_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Laurel_School> ont:name "Laurel School" ;
+<http://www.semanticweb.org/group08/School/Private/Laurel_School> rdfs:label "Laurel School" ;
 	ont:children "PK - 8" ;
 	ont:address "350 9th Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Laurel_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Live_Oak_School> ont:name "Live Oak School" ;
+<http://www.semanticweb.org/group08/School/Private/Live_Oak_School> rdfs:label "Live Oak School" ;
 	ont:children "K - 8" ;
 	ont:address "1555 Mariposa Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Live_Oak_School> .
 
-<http://www.semanticweb.org/group08/School/Private/MeadowsLivingstone_School> ont:name "Meadows-Livingstone School" ;
+<http://www.semanticweb.org/group08/School/Private/MeadowsLivingstone_School> rdfs:label "Meadows-Livingstone School" ;
 	ont:children "1 - 6" ;
 	ont:address "1499 Potrero Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/MeadowsLivingstone_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Mission_Dolores_School> ont:name "Mission Dolores School" ;
+<http://www.semanticweb.org/group08/School/Private/Mission_Dolores_School> rdfs:label "Mission Dolores School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "3371 16th Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Mission_Dolores_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Our_Lady_of_Visitacion_School> ont:name "Our Lady of Visitacion School" ;
+<http://www.semanticweb.org/group08/School/Private/Our_Lady_of_Visitacion_School> rdfs:label "Our Lady of Visitacion School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "795 Sunnydale Ave" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Our_Lady_of_Visitacion_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Presidio_Hill_School> ont:name "Presidio Hill School" ;
+<http://www.semanticweb.org/group08/School/Private/Presidio_Hill_School> rdfs:label "Presidio Hill School" ;
 	ont:children "K - 8" ;
 	ont:address "3839 Washington Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Presidio_Hill_School> .
 
-<http://www.semanticweb.org/group08/School/Private/St_AnthonyImmaculate_Conception_School> ont:name "St. Anthony-Immaculate Conception School" ;
+<http://www.semanticweb.org/group08/School/Private/St_AnthonyImmaculate_Conception_School> rdfs:label "St. Anthony-Immaculate Conception School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "299 Precita Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_AnthonyImmaculate_Conception_School> .
 
-<http://www.semanticweb.org/group08/School/Private/St_Brendans_School> ont:name "St. Brendan's School" ;
+<http://www.semanticweb.org/group08/School/Private/St_Brendans_School> rdfs:label "St. Brendan's School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "940 Laguna Honda Boulevard" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_Brendans_School> .
 
-<http://www.semanticweb.org/group08/School/Private/St_Cecilia_School> ont:name "St. Cecilia School" ;
+<http://www.semanticweb.org/group08/School/Private/St_Cecilia_School> rdfs:label "St. Cecilia School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "660 Vicente Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_Cecilia_School> .
 
-<http://www.semanticweb.org/group08/School/Private/St_Charles_School> ont:name "St. Charles School" ;
+<http://www.semanticweb.org/group08/School/Private/St_Charles_School> rdfs:label "St. Charles School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "3250 18th Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_Charles_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Stratford_School> ont:name "Stratford School" ;
+<http://www.semanticweb.org/group08/School/Private/Stratford_School> rdfs:label "Stratford School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 2" ;
 	ont:address "301 De Montfort Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Stratford_School> .
 
-<http://www.semanticweb.org/group08/School/Private/St_Gabriel_School> ont:name "St. Gabriel School" ;
+<http://www.semanticweb.org/group08/School/Private/St_Gabriel_School> rdfs:label "St. Gabriel School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "2550 41st Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_Gabriel_School> .
 
-<http://www.semanticweb.org/group08/School/Private/St_James_School> ont:name "St. James School" ;
+<http://www.semanticweb.org/group08/School/Private/St_James_School> rdfs:label "St. James School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "321 Fair Oaks Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_James_School> .
 
-<http://www.semanticweb.org/group08/School/Private/St_Johns_School> ont:name "St. John's School" ;
+<http://www.semanticweb.org/group08/School/Private/St_Johns_School> rdfs:label "St. John's School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "925 Chenery Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_Johns_School> .
 
-<http://www.semanticweb.org/group08/School/Private/St_Marys_Chinese_Day_School> ont:name "St. Mary's Chinese Day School" ;
+<http://www.semanticweb.org/group08/School/Private/St_Marys_Chinese_Day_School> rdfs:label "St. Mary's Chinese Day School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "910 Broadway" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_Marys_Chinese_Day_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Kipp_Bayview_Academy> ont:name "Kipp Bayview Academy" ;
+<http://www.semanticweb.org/group08/School/Private/Kipp_Bayview_Academy> rdfs:label "Kipp Bayview Academy" ;
 	ont:children "5 - 8" ;
 	ont:address "1060 Key Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Kipp_Bayview_Academy> .
 
-<http://www.semanticweb.org/group08/School/Private/St_Peters_School> ont:name "St. Peter's School" ;
+<http://www.semanticweb.org/group08/School/Private/St_Peters_School> rdfs:label "St. Peter's School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "1266 Florida Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_Peters_School> .
 
-<http://www.semanticweb.org/group08/School/Private/St_Philips_School> ont:name "St. Philip's School" ;
+<http://www.semanticweb.org/group08/School/Private/St_Philips_School> rdfs:label "St. Philip's School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "665 Elizabeth Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_Philips_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Sts_Peter_and_Paul_Salesian_School> ont:name "Sts. Peter and Paul Salesian School" ;
+<http://www.semanticweb.org/group08/School/Private/Sts_Peter_and_Paul_Salesian_School> rdfs:label "Sts. Peter and Paul Salesian School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "660 Filbert Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Sts_Peter_and_Paul_Salesian_School> .
 
-<http://www.semanticweb.org/group08/School/Private/San_Francisco_Waldorf_School> ont:name "San Francisco Waldorf School" ;
+<http://www.semanticweb.org/group08/School/Private/San_Francisco_Waldorf_School> rdfs:label "San Francisco Waldorf School" ;
 	ont:children "K - 12" ;
 	ont:address "2938 Washington Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/San_Francisco_Waldorf_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Stuart_Hall_High_School> ont:name "Stuart Hall High School" ;
+<http://www.semanticweb.org/group08/School/Private/Stuart_Hall_High_School> rdfs:label "Stuart Hall High School" ;
 	ont:category "BOYS, CATHOLIC" ;
 	ont:children "9 - 12" ;
 	ont:address "1715 Octavia Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Stuart_Hall_High_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Synergy_School> ont:name "Synergy School" ;
+<http://www.semanticweb.org/group08/School/Private/Synergy_School> rdfs:label "Synergy School" ;
 	ont:children "K - 8" ;
 	ont:address "1387 Valencia Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Synergy_School> .
 
-<http://www.semanticweb.org/group08/School/Private/West_Portal_Lutheran_School_13> ont:name "West Portal Lutheran School (1-3)" ;
+<http://www.semanticweb.org/group08/School/Private/West_Portal_Lutheran_School_13> rdfs:label "West Portal Lutheran School (1-3)" ;
 	ont:category "PRESCHOOL" ;
 	ont:children "1 - 3" ;
 	ont:address "1711 37th Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/West_Portal_Lutheran_School_13> .
 
-<http://www.semanticweb.org/group08/School/Private/Archbishop_Riordan_High_School> ont:name "Archbishop Riordan High School" ;
+<http://www.semanticweb.org/group08/School/Private/Archbishop_Riordan_High_School> rdfs:label "Archbishop Riordan High School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "9 - 12" ;
 	ont:address "175 Phelan Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Archbishop_Riordan_High_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Bethel_Center> ont:name "Bethel Center" ;
+<http://www.semanticweb.org/group08/School/Private/Bethel_Center> rdfs:label "Bethel Center" ;
 	ont:category "ED" ;
 	ont:children "9 - 12" ;
 	ont:address "2557 Alemany Boulevard" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Bethel_Center> .
 
-<http://www.semanticweb.org/group08/School/Private/Cathedral_School_for_Boys> ont:name "Cathedral School for Boys" ;
+<http://www.semanticweb.org/group08/School/Private/Cathedral_School_for_Boys> rdfs:label "Cathedral School for Boys" ;
 	ont:category "BOYS, EPISCOPAL" ;
 	ont:children "K - 8" ;
 	ont:address "1275 Sacramento Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Cathedral_School_for_Boys> .
 
-<http://www.semanticweb.org/group08/School/Private/Chinese_American_International_School> ont:name "Chinese American International School" ;
+<http://www.semanticweb.org/group08/School/Private/Chinese_American_International_School> rdfs:label "Chinese American International School" ;
 	ont:category "BILINGUAL (ENGLISH, CHINESE)" ;
 	ont:children "PK - 8" ;
 	ont:address "150 Oak Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Chinese_American_International_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Cornerstone_Academy_Campus_1> ont:name "Cornerstone Academy - Campus 1" ;
+<http://www.semanticweb.org/group08/School/Private/Cornerstone_Academy_Campus_1> rdfs:label "Cornerstone Academy - Campus 1" ;
 	ont:category "PRESCHOOL, BILINGUAL (ENGLISH, CANTONESE)" ;
 	ont:children "PK - 4" ;
 	ont:address "801 Silver Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Cornerstone_Academy_Campus_1> .
 
-<http://www.semanticweb.org/group08/School/Private/Cornerstone_Academy_Campus_2> ont:name "Cornerstone Academy - Campus 2" ;
+<http://www.semanticweb.org/group08/School/Private/Cornerstone_Academy_Campus_2> rdfs:label "Cornerstone Academy - Campus 2" ;
 	ont:category "BACKGROUND, BILINGUAL (ENGLISH, CANTONESE)" ;
 	ont:children "5 - 10" ;
 	ont:address "501 Cambridge Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Cornerstone_Academy_Campus_2> .
 
-<http://www.semanticweb.org/group08/School/Private/Corpus_Christi_School> ont:name "Corpus Christi School" ;
+<http://www.semanticweb.org/group08/School/Private/Corpus_Christi_School> rdfs:label "Corpus Christi School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "75 Francis Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Corpus_Christi_School> .
 
-<http://www.semanticweb.org/group08/School/Private/DeMarillac_Middle_School> ont:name "DeMarillac Middle School" ;
+<http://www.semanticweb.org/group08/School/Private/DeMarillac_Middle_School> rdfs:label "DeMarillac Middle School" ;
 	ont:category "UNDERPRIVILEGED, CATHOLIC" ;
 	ont:children "6 - 8" ;
 	ont:address "135 Golden Gate Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/DeMarillac_Middle_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Discovery_Center_School> ont:name "Discovery Center School" ;
+<http://www.semanticweb.org/group08/School/Private/Discovery_Center_School> rdfs:label "Discovery Center School" ;
 	ont:children "K - 8" ;
 	ont:address "65 Ocean Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Discovery_Center_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Drew_College_Preparatory_School> ont:name "Drew College Preparatory School" ;
+<http://www.semanticweb.org/group08/School/Private/Drew_College_Preparatory_School> rdfs:label "Drew College Preparatory School" ;
 	ont:children "9 - 12" ;
 	ont:address "2901 California Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Drew_College_Preparatory_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Ecole_Notre_Dames_des_Victoires> ont:name "Ecole Notre Dames des Victoires" ;
+<http://www.semanticweb.org/group08/School/Private/Ecole_Notre_Dames_des_Victoires> rdfs:label "Ecole Notre Dames des Victoires" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "659 Pine Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Ecole_Notre_Dames_des_Victoires> .
 
-<http://www.semanticweb.org/group08/School/Private/Fellowship_Academy> ont:name "Fellowship Academy" ;
+<http://www.semanticweb.org/group08/School/Private/Fellowship_Academy> rdfs:label "Fellowship Academy" ;
 	ont:children "PK - 8" ;
 	ont:address "495 Cambridge Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Fellowship_Academy> .
 
-<http://www.semanticweb.org/group08/School/Private/Freeman_School> ont:name "Freeman School" ;
+<http://www.semanticweb.org/group08/School/Private/Freeman_School> rdfs:label "Freeman School" ;
 	ont:category "SHALOM" ;
 	ont:children "K - 8" ;
 	ont:address "862 28th Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Freeman_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Hillwood_Academic_Day_School> ont:name "Hillwood Academic Day School" ;
+<http://www.semanticweb.org/group08/School/Private/Hillwood_Academic_Day_School> rdfs:label "Hillwood Academic Day School" ;
 	ont:children "K - 8" ;
 	ont:address "2521 Scott Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Hillwood_Academic_Day_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Holy_Name_School> ont:name "Holy Name School" ;
+<http://www.semanticweb.org/group08/School/Private/Holy_Name_School> rdfs:label "Holy Name School" ;
 	ont:children "K - 8" ;
 	ont:address "1560 40th Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Holy_Name_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Holy_Trinity_Orthodox_School> ont:name "Holy Trinity Orthodox School" ;
+<http://www.semanticweb.org/group08/School/Private/Holy_Trinity_Orthodox_School> rdfs:label "Holy Trinity Orthodox School" ;
 	ont:children "K - 8" ;
 	ont:address "999 Brotherhood Way" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Holy_Trinity_Orthodox_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Katherine_Delmar_Burke_School> ont:name "Katherine Delmar Burke School" ;
+<http://www.semanticweb.org/group08/School/Private/Katherine_Delmar_Burke_School> rdfs:label "Katherine Delmar Burke School" ;
 	ont:category "GIRLS" ;
 	ont:children "K - 8" ;
 	ont:address "7070 California Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Katherine_Delmar_Burke_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Katherine_Michiels_School> ont:name "Katherine Michiels School" ;
+<http://www.semanticweb.org/group08/School/Private/Katherine_Michiels_School> rdfs:label "Katherine Michiels School" ;
 	ont:category "ART, SPANISH, DYSLEXIA" ;
 	ont:children "PK - 5" ;
 	ont:address "1335 Guerrero Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Katherine_Michiels_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Kittredge_School> ont:name "Kittredge School" ;
+<http://www.semanticweb.org/group08/School/Private/Kittredge_School> rdfs:label "Kittredge School" ;
 	ont:children "1 - 8" ;
 	ont:address "2355 Lake Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Kittredge_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Krouzian_Armenian_School> ont:name "Krouzian Armenian School" ;
+<http://www.semanticweb.org/group08/School/Private/Krouzian_Armenian_School> rdfs:label "Krouzian Armenian School" ;
 	ont:category "CHRISTIAN" ;
 	ont:children "PK - 8" ;
 	ont:address "825 Brotherhood Way" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Krouzian_Armenian_School> .
 
-<http://www.semanticweb.org/group08/School/Private/La_Mel_School> ont:name "La Mel School" ;
+<http://www.semanticweb.org/group08/School/Private/La_Mel_School> rdfs:label "La Mel School" ;
 	ont:category "ED" ;
 	ont:children "K - 12" ;
 	ont:address "1801 Bush Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/La_Mel_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Lick_Wilmerding_High_School> ont:name "Lick Wilmerding High School" ;
+<http://www.semanticweb.org/group08/School/Private/Lick_Wilmerding_High_School> rdfs:label "Lick Wilmerding High School" ;
 	ont:children "9 - 12" ;
 	ont:address "755 Ocean Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Lick_Wilmerding_High_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Lycee_Francais_La_Perouse_San_Francisco> ont:name "Lycee Francais La Perouse San Francisco" ;
+<http://www.semanticweb.org/group08/School/Private/Lycee_Francais_La_Perouse_San_Francisco> rdfs:label "Lycee Francais La Perouse San Francisco" ;
 	ont:category "FRENCH" ;
 	ont:children "PK - 12" ;
 	ont:address "755 Ashbury Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Lycee_Francais_La_Perouse_San_Francisco> .
 
-<http://www.semanticweb.org/group08/School/Private/Maria_Montessori_Elementary_School> ont:name "Maria Montessori Elementary School" ;
+<http://www.semanticweb.org/group08/School/Private/Maria_Montessori_Elementary_School> rdfs:label "Maria Montessori Elementary School" ;
 	ont:children "PK - 6" ;
 	ont:address "678 Portola Drive" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Maria_Montessori_Elementary_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Mercy_High_School> ont:name "Mercy High School" ;
+<http://www.semanticweb.org/group08/School/Private/Mercy_High_School> rdfs:label "Mercy High School" ;
 	ont:category "GIRLS, CATHOLIC" ;
 	ont:children "9 - 12" ;
 	ont:address "3250 19th Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Mercy_High_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Rivendell_School> ont:name "Rivendell School" ;
+<http://www.semanticweb.org/group08/School/Private/Rivendell_School> rdfs:label "Rivendell School" ;
 	ont:children "K - 5" ;
 	ont:address "4501 Irving Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Rivendell_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Mother_Goose_School> ont:name "Mother Goose School" ;
+<http://www.semanticweb.org/group08/School/Private/Mother_Goose_School> rdfs:label "Mother Goose School" ;
 	ont:children "PK - 2" ;
 	ont:address "334 28th Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Mother_Goose_School> .
 
-<http://www.semanticweb.org/group08/School/Private/RussianAmerican_International_School> ont:name "Russian-American International School" ;
+<http://www.semanticweb.org/group08/School/Private/RussianAmerican_International_School> rdfs:label "Russian-American International School" ;
 	ont:children "K - 4" ;
 	ont:address "1250 Quintara Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/RussianAmerican_International_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Sacred_Heart_Cathedral_Preparatory> ont:name "Sacred Heart Cathedral Preparatory" ;
+<http://www.semanticweb.org/group08/School/Private/Sacred_Heart_Cathedral_Preparatory> rdfs:label "Sacred Heart Cathedral Preparatory" ;
 	ont:category "CATHOLIC" ;
 	ont:children "9 - 12" ;
 	ont:address "1055 Ellis Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Sacred_Heart_Cathedral_Preparatory> .
 
-<http://www.semanticweb.org/group08/School/Private/St_Anne_School> ont:name "St. Anne School" ;
+<http://www.semanticweb.org/group08/School/Private/St_Anne_School> rdfs:label "St. Anne School" ;
 	ont:category "CATHOLIC, BILINGUAL (ENGLISH, CHINESE)" ;
 	ont:children "K - 8" ;
 	ont:address "1320 14th Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_Anne_School> .
 
-<http://www.semanticweb.org/group08/School/Private/St_Brigid_School> ont:name "St. Brigid School" ;
+<http://www.semanticweb.org/group08/School/Private/St_Brigid_School> rdfs:label "St. Brigid School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "2250 Franklin Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_Brigid_School> .
 
-<http://www.semanticweb.org/group08/School/Private/St_Elizabeth_School> ont:name "St. Elizabeth School" ;
+<http://www.semanticweb.org/group08/School/Private/St_Elizabeth_School> rdfs:label "St. Elizabeth School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "450 Somerset Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_Elizabeth_School> .
 
-<http://www.semanticweb.org/group08/School/Private/St_Finn_Barr_School> ont:name "St. Finn Barr School" ;
+<http://www.semanticweb.org/group08/School/Private/St_Finn_Barr_School> rdfs:label "St. Finn Barr School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "419 Hearst Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_Finn_Barr_School> .
 
-<http://www.semanticweb.org/group08/School/Private/St_Ignatius_College_Preparatory> ont:name "St. Ignatius College Preparatory" ;
+<http://www.semanticweb.org/group08/School/Private/St_Ignatius_College_Preparatory> rdfs:label "St. Ignatius College Preparatory" ;
 	ont:category "CATHOLIC" ;
 	ont:children "9 - 12" ;
 	ont:address "2001 37th Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_Ignatius_College_Preparatory> .
 
-<http://www.semanticweb.org/group08/School/Private/St_Monica_School> ont:name "St. Monica School" ;
+<http://www.semanticweb.org/group08/School/Private/St_Monica_School> rdfs:label "St. Monica School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "5920 Geary Boulevard" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_Monica_School> .
 
-<http://www.semanticweb.org/group08/School/Private/St_Thomas_the_Apostle_School> ont:name "St. Thomas the Apostle School" ;
+<http://www.semanticweb.org/group08/School/Private/St_Thomas_the_Apostle_School> rdfs:label "St. Thomas the Apostle School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "3801 Balboa Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_Thomas_the_Apostle_School> .
 
-<http://www.semanticweb.org/group08/School/Private/St_Vincent_de_Paul_School> ont:name "St. Vincent de Paul School" ;
+<http://www.semanticweb.org/group08/School/Private/St_Vincent_de_Paul_School> rdfs:label "St. Vincent de Paul School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "2350 Green Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_Vincent_de_Paul_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Sts_Cyril_and_Methodius_High_School> ont:name "Sts. Cyril and Methodius High School" ;
+<http://www.semanticweb.org/group08/School/Private/Sts_Cyril_and_Methodius_High_School> rdfs:label "Sts. Cyril and Methodius High School" ;
 	ont:category "ORTHODOX, BILINGUAL (ENGLISH, RUSSIAN)" ;
 	ont:children "9  - 12" ;
 	ont:address "6200 Geary Boulevard" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Sts_Cyril_and_Methodius_High_School> .
 
-<http://www.semanticweb.org/group08/School/Private/San_Francisco_Adventist_School> ont:name "San Francisco Adventist School" ;
+<http://www.semanticweb.org/group08/School/Private/San_Francisco_Adventist_School> rdfs:label "San Francisco Adventist School" ;
 	ont:children "K - 10" ;
 	ont:address "66 Geneva Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/San_Francisco_Adventist_School> .
 
-<http://www.semanticweb.org/group08/School/Private/San_Francisco_Chinese_Parents_Community> ont:name "San Francisco Chinese Parents Community" ;
+<http://www.semanticweb.org/group08/School/Private/San_Francisco_Chinese_Parents_Community> rdfs:label "San Francisco Chinese Parents Community" ;
 	ont:children "PK - 5" ;
 	ont:address "843 Stockton Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/San_Francisco_Chinese_Parents_Community> .
 
-<http://www.semanticweb.org/group08/School/Private/San_Francisco_Christian_School> ont:name "San Francisco Christian School" ;
+<http://www.semanticweb.org/group08/School/Private/San_Francisco_Christian_School> rdfs:label "San Francisco Christian School" ;
 	ont:children "K - 12" ;
 	ont:address "25 Whittier Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/San_Francisco_Christian_School> .
 
-<http://www.semanticweb.org/group08/School/Private/San_Francisco_City_Academy> ont:name "San Francisco City Academy" ;
+<http://www.semanticweb.org/group08/School/Private/San_Francisco_City_Academy> rdfs:label "San Francisco City Academy" ;
 	ont:children "K - 8" ;
 	ont:address "302 Eddy Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/San_Francisco_City_Academy> .
 
-<http://www.semanticweb.org/group08/School/Private/San_Francisco_Day_School> ont:name "San Francisco Day School" ;
+<http://www.semanticweb.org/group08/School/Private/San_Francisco_Day_School> rdfs:label "San Francisco Day School" ;
 	ont:children "K - 8" ;
 	ont:address "350 Masonic Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/San_Francisco_Day_School> .
 
-<http://www.semanticweb.org/group08/School/Private/San_Francisco_Friends_School> ont:name "San Francisco Friends School" ;
+<http://www.semanticweb.org/group08/School/Private/San_Francisco_Friends_School> rdfs:label "San Francisco Friends School" ;
 	ont:children "K - 8" ;
 	ont:address "117 Diamond Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/San_Francisco_Friends_School> .
 
-<http://www.semanticweb.org/group08/School/Private/San_Francisco_University_High_School> ont:name "San Francisco University High School" ;
+<http://www.semanticweb.org/group08/School/Private/San_Francisco_University_High_School> rdfs:label "San Francisco University High School" ;
 	ont:children "9 - 12" ;
 	ont:address "3065 Jackson Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/San_Francisco_University_High_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Muhammad_University_of_Islam> ont:name "Muhammad University of Islam" ;
+<http://www.semanticweb.org/group08/School/Private/Muhammad_University_of_Islam> rdfs:label "Muhammad University of Islam" ;
 	ont:category "ISLAMIC" ;
 	ont:children "K - 12" ;
 	ont:address "5048 3rd Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Muhammad_University_of_Islam> .
 
-<http://www.semanticweb.org/group08/School/Private/Sand_Paths_Academy> ont:name "Sand Paths Academy" ;
+<http://www.semanticweb.org/group08/School/Private/Sand_Paths_Academy> rdfs:label "Sand Paths Academy" ;
 	ont:category "DISTURBED CHILDREN" ;
 	ont:children "6 - 12" ;
 	ont:address "1218 South Van Ness Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Sand_Paths_Academy> .
 
-<http://www.semanticweb.org/group08/School/Private/SR_Martin_College_Preparatory> ont:name "S.R. Martin College Preparatory" ;
+<http://www.semanticweb.org/group08/School/Private/SR_Martin_College_Preparatory> rdfs:label "S.R. Martin College Preparatory" ;
 	ont:children "9 - 12" ;
 	ont:address "2660 San Bruno Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/SR_Martin_College_Preparatory> .
 
-<http://www.semanticweb.org/group08/School/Private/Sterne_School> ont:name "Sterne School" ;
+<http://www.semanticweb.org/group08/School/Private/Sterne_School> rdfs:label "Sterne School" ;
 	ont:category "LEARNING DIFFICULTIES" ;
 	ont:children "5 - 12" ;
 	ont:address "2690 Jackson Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Sterne_School> .
 
-<http://www.semanticweb.org/group08/School/Private/The_San_Francisco_School> ont:name "The San Francisco School" ;
+<http://www.semanticweb.org/group08/School/Private/The_San_Francisco_School> rdfs:label "The San Francisco School" ;
 	ont:children "PK - 8" ;
 	ont:address "300 Gaven Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/The_San_Francisco_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Cal_Fed_Youth_Chance_High> ont:name "Cal Fed Youth Chance High" ;
+<http://www.semanticweb.org/group08/School/Private/Cal_Fed_Youth_Chance_High> rdfs:label "Cal Fed Youth Chance High" ;
 	ont:children "9 - 12" ;
 	ont:address "220 Golden Gate Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Cal_Fed_Youth_Chance_High> .
 
-<http://www.semanticweb.org/group08/School/Private/Town_School_for_Boys> ont:name "Town School for Boys" ;
+<http://www.semanticweb.org/group08/School/Private/Town_School_for_Boys> rdfs:label "Town School for Boys" ;
 	ont:category "BOYS" ;
 	ont:children "K - 8" ;
 	ont:address "2750 Jackson Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Town_School_for_Boys> .
 
-<http://www.semanticweb.org/group08/School/Private/Urban_School_of_San_Francisco> ont:name "Urban School of San Francisco" ;
+<http://www.semanticweb.org/group08/School/Private/Urban_School_of_San_Francisco> rdfs:label "Urban School of San Francisco" ;
 	ont:children "9 - 12" ;
 	ont:address "1563 Page Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Urban_School_of_San_Francisco> .
 
-<http://www.semanticweb.org/group08/School/Private/Voice_of_Pentecost_Academy> ont:name "Voice of Pentecost Academy" ;
+<http://www.semanticweb.org/group08/School/Private/Voice_of_Pentecost_Academy> rdfs:label "Voice of Pentecost Academy" ;
 	ont:children "K - 12" ;
 	ont:address "1970 Ocean Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Voice_of_Pentecost_Academy> .
 
-<http://www.semanticweb.org/group08/School/Private/West_Portal_Lutheran_School_K48> ont:name "West Portal Lutheran School (K,4-8)" ;
+<http://www.semanticweb.org/group08/School/Private/West_Portal_Lutheran_School_K48> rdfs:label "West Portal Lutheran School (K,4-8)" ;
 	ont:children "K, 4 - 8" ;
 	ont:address "200 Sloat Boulevard" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/West_Portal_Lutheran_School_K48> .
 
-<http://www.semanticweb.org/group08/School/Private/Woodside_International_School> ont:name "Woodside International School" ;
+<http://www.semanticweb.org/group08/School/Private/Woodside_International_School> rdfs:label "Woodside International School" ;
 	ont:children "6 - 12" ;
 	ont:address "1555 Irving Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Woodside_International_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Youth_Chance_High_School> ont:name "Youth Chance High School" ;
+<http://www.semanticweb.org/group08/School/Private/Youth_Chance_High_School> rdfs:label "Youth Chance High School" ;
 	ont:children "9 - 12" ;
 	ont:address "25 14th Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Youth_Chance_High_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Zion_Lutheran_School> ont:name "Zion Lutheran School" ;
+<http://www.semanticweb.org/group08/School/Private/Zion_Lutheran_School> rdfs:label "Zion Lutheran School" ;
 	ont:children "K - 8" ;
 	ont:address "495 09th Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Zion_Lutheran_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Convent_of_the_Sacred_Heart_High_School> ont:name "Convent of the Sacred Heart High School" ;
+<http://www.semanticweb.org/group08/School/Private/Convent_of_the_Sacred_Heart_High_School> rdfs:label "Convent of the Sacred Heart High School" ;
 	ont:category "GIRLS, CATHOLIC" ;
 	ont:children "9-12" ;
 	ont:address "2222 Broadway" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Convent_of_the_Sacred_Heart_High_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Open_Book_School> ont:name "Open Book School" ;
+<http://www.semanticweb.org/group08/School/Private/Open_Book_School> rdfs:label "Open Book School" ;
 	ont:children "9 - 11" ;
 	ont:address "1832 Buchanan Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Open_Book_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Montessori_House_Of_Children> ont:name "Montessori House Of Children" ;
+<http://www.semanticweb.org/group08/School/Private/Montessori_House_Of_Children> rdfs:label "Montessori House Of Children" ;
 	ont:children "K - 2" ;
 	ont:address "1187 Franklin Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Montessori_House_Of_Children> .
 
-<http://www.semanticweb.org/group08/School/Private/FrenchAmerican_International_School> ont:name "French-American International School" ;
+<http://www.semanticweb.org/group08/School/Private/FrenchAmerican_International_School> rdfs:label "French-American International School" ;
 	ont:category "BILINGUAL (ENGLISH, FRENCH)" ;
 	ont:children "PK-12" ;
 	ont:address "150 Oak Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/FrenchAmerican_International_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Walden_High_Academy> ont:name "Walden High Academy" ;
+<http://www.semanticweb.org/group08/School/Private/Walden_High_Academy> rdfs:label "Walden High Academy" ;
 	ont:children "8 - 12" ;
 	ont:address "214 Haight Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Walden_High_Academy> .
 
-<http://www.semanticweb.org/group08/School/Private/Cow_Hollow_Kindergarten> ont:name "Cow Hollow Kindergarten" ;
+<http://www.semanticweb.org/group08/School/Private/Cow_Hollow_Kindergarten> rdfs:label "Cow Hollow Kindergarten" ;
 	ont:children "K" ;
 	ont:address "2521 Scott Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Cow_Hollow_Kindergarten> .
 
-<http://www.semanticweb.org/group08/School/Private/One_Fifty_Parker_Avenue_School> ont:name "One Fifty Parker Avenue School" ;
+<http://www.semanticweb.org/group08/School/Private/One_Fifty_Parker_Avenue_School> rdfs:label "One Fifty Parker Avenue School" ;
 	ont:children "K" ;
 	ont:address "150 Parker Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/One_Fifty_Parker_Avenue_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Pacific_Primary> ont:name "Pacific Primary" ;
+<http://www.semanticweb.org/group08/School/Private/Pacific_Primary> rdfs:label "Pacific Primary" ;
 	ont:children "K" ;
 	ont:address "1500 Grove Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Pacific_Primary> .
 
-<http://www.semanticweb.org/group08/School/Private/Erikson_School> ont:name "Erikson School" ;
+<http://www.semanticweb.org/group08/School/Private/Erikson_School> rdfs:label "Erikson School" ;
 	ont:address "1155 Page Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Erikson_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Olympia_Institute> ont:name "Olympia Institute" ;
+<http://www.semanticweb.org/group08/School/Private/Olympia_Institute> rdfs:label "Olympia Institute" ;
 	ont:children "7 - 12" ;
 	ont:address "950 Clement Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Olympia_Institute> .
 
-<http://www.semanticweb.org/group08/School/Private/Star_of_the_Sea_Elementary> ont:name "Star of the Sea Elementary" ;
+<http://www.semanticweb.org/group08/School/Private/Star_of_the_Sea_Elementary> rdfs:label "Star of the Sea Elementary" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "360 9th Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Star_of_the_Sea_Elementary> .
 
-<http://www.semanticweb.org/group08/School/Private/Challenge_To_Learning> ont:name "Challenge To Learning" ;
+<http://www.semanticweb.org/group08/School/Private/Challenge_To_Learning> rdfs:label "Challenge To Learning" ;
 	ont:children "7 - 12" ;
 	ont:address "924 Balboa Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Challenge_To_Learning> .
 
-<http://www.semanticweb.org/group08/School/Private/Oakes_Childrens_Center> ont:name "Oakes Children's Center" ;
+<http://www.semanticweb.org/group08/School/Private/Oakes_Childrens_Center> rdfs:label "Oakes Children's Center" ;
 	ont:address "1348 10th Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Oakes_Childrens_Center> .
 
-<http://www.semanticweb.org/group08/School/Private/Sunset_Bible> ont:name "Sunset Bible" ;
+<http://www.semanticweb.org/group08/School/Private/Sunset_Bible> rdfs:label "Sunset Bible" ;
 	ont:address "1690 21st Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Sunset_Bible> .
 
-<http://www.semanticweb.org/group08/School/Private/Parkside_Preschool_And_Kindergarten> ont:name "Parkside Preschool And Kindergarten" ;
+<http://www.semanticweb.org/group08/School/Private/Parkside_Preschool_And_Kindergarten> rdfs:label "Parkside Preschool And Kindergarten" ;
 	ont:children "K" ;
 	ont:address "2425 19th Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Parkside_Preschool_And_Kindergarten> .
 
-<http://www.semanticweb.org/group08/School/Private/Edgewood_Center_For_Children_and_Families> ont:name "Edgewood Center For Children and Families" ;
+<http://www.semanticweb.org/group08/School/Private/Edgewood_Center_For_Children_and_Families> rdfs:label "Edgewood Center For Children and Families" ;
 	ont:address "1801 Vicente Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Edgewood_Center_For_Children_and_Families> .
 
-<http://www.semanticweb.org/group08/School/Private/Eureka_Learning_Center> ont:name "Eureka Learning Center" ;
+<http://www.semanticweb.org/group08/School/Private/Eureka_Learning_Center> rdfs:label "Eureka Learning Center" ;
 	ont:children "K" ;
 	ont:address "464 Diamond Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Eureka_Learning_Center> .
 
-<http://www.semanticweb.org/group08/School/Private/Holy_Family_Day_Home> ont:name "Holy Family Day Home" ;
+<http://www.semanticweb.org/group08/School/Private/Holy_Family_Day_Home> rdfs:label "Holy Family Day Home" ;
 	ont:children "K" ;
 	ont:address "299 Dolores Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Holy_Family_Day_Home> .
 
-<http://www.semanticweb.org/group08/School/Private/Rise_Institute> ont:name "Rise Institute" ;
+<http://www.semanticweb.org/group08/School/Private/Rise_Institute> rdfs:label "Rise Institute" ;
 	ont:address "1760 Cesar Chavez" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Rise_Institute> .
 
-<http://www.semanticweb.org/group08/School/Private/Joshua_Marie_Cameron_Academy_Whitney> ont:name "Joshua Marie Cameron Academy - Whitney" ;
+<http://www.semanticweb.org/group08/School/Private/Joshua_Marie_Cameron_Academy_Whitney> rdfs:label "Joshua Marie Cameron Academy - Whitney" ;
 	ont:children "6 - 9" ;
 	ont:address "100 Whitney Yound Circle" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Joshua_Marie_Cameron_Academy_Whitney> .
 
-<http://www.semanticweb.org/group08/School/Private/Joshua_Marie_Cameron_Academy_Plaza_Campus> ont:name "Joshua Marie Cameron Academy - Plaza Campus" ;
+<http://www.semanticweb.org/group08/School/Private/Joshua_Marie_Cameron_Academy_Plaza_Campus> rdfs:label "Joshua Marie Cameron Academy - Plaza Campus" ;
 	ont:children "9 -12" ;
 	ont:address "3801 Third Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Joshua_Marie_Cameron_Academy_Plaza_Campus> .
 
-<http://www.semanticweb.org/group08/School/Private/Living_Hope_Christian> ont:name "Living Hope Christian" ;
+<http://www.semanticweb.org/group08/School/Private/Living_Hope_Christian> rdfs:label "Living Hope Christian" ;
 	ont:children "K - 12" ;
 	ont:address "1209 Geneva Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Living_Hope_Christian> .
 
-<http://www.semanticweb.org/group08/School/Private/Lakeside_Presbyterian_Center_For_Children> ont:name "Lakeside Presbyterian Center For Children" ;
+<http://www.semanticweb.org/group08/School/Private/Lakeside_Presbyterian_Center_For_Children> rdfs:label "Lakeside Presbyterian Center For Children" ;
 	ont:children "PK-K" ;
 	ont:address "201 Eucalyptus Drive" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Lakeside_Presbyterian_Center_For_Children> .
 
-<http://www.semanticweb.org/group08/School/Private/St_Thomas_More_School> ont:name "St. Thomas More School" ;
+<http://www.semanticweb.org/group08/School/Private/St_Thomas_More_School> rdfs:label "St. Thomas More School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K-8" ;
 	ont:address "50 Thomas More Way" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_Thomas_More_School> .
 
-<http://www.semanticweb.org/group08/School/Private/St_Stephens_School> ont:name "St. Stephen's School" ;
+<http://www.semanticweb.org/group08/School/Private/St_Stephens_School> rdfs:label "St. Stephen's School" ;
 	ont:category "CATHOLIC" ;
 	ont:children "K-8" ;
 	ont:address "401 Eucalyptus Drive" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_Stephens_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Sacred_Heart/Saint_Dominic_School_58> ont:name "Sacred Heart/Saint Dominic School (5-8)" ;
+<http://www.semanticweb.org/group08/School/Private/Sacred_Heart/Saint_Dominic_School_58> rdfs:label "Sacred Heart/Saint Dominic School (5-8)" ;
 	ont:children "5-8" ;
 	ont:address "735 Fell Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Sacred_Heart/Saint_Dominic_School_58> .
 
-<http://www.semanticweb.org/group08/School/Private/Jewish_Community_High_School_for_Boys> ont:name "Jewish Community High School for Boys" ;
+<http://www.semanticweb.org/group08/School/Private/Jewish_Community_High_School_for_Boys> rdfs:label "Jewish Community High School for Boys" ;
 	ont:children "9 -12" ;
 	ont:address "1835 Ellis Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Jewish_Community_High_School_for_Boys> .
 
-<http://www.semanticweb.org/group08/School/Private/St_John_of_San_Francisco_Orthodox_Academy> ont:name "St. John of San Francisco Orthodox Academy" ;
+<http://www.semanticweb.org/group08/School/Private/St_John_of_San_Francisco_Orthodox_Academy> rdfs:label "St. John of San Francisco Orthodox Academy" ;
 	ont:category "ORTHODOX" ;
 	ont:children "K-12" ;
 	ont:address "6210 Geary Boulevard" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_John_of_San_Francisco_Orthodox_Academy> .
 
-<http://www.semanticweb.org/group08/School/Private/Stuart_Hall_for_Boys_School> ont:name "Stuart Hall for Boys School" ;
+<http://www.semanticweb.org/group08/School/Private/Stuart_Hall_for_Boys_School> rdfs:label "Stuart Hall for Boys School" ;
 	ont:category "BOYS, CATHOLIC" ;
 	ont:children "K - 8" ;
 	ont:address "2252 Broadway" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Stuart_Hall_for_Boys_School> .
 
-<http://www.semanticweb.org/group08/School/Private/The_Scandanavian_School> ont:name "The Scandanavian School" ;
+<http://www.semanticweb.org/group08/School/Private/The_Scandanavian_School> rdfs:label "The Scandanavian School" ;
 	ont:children "PK" ;
 	ont:address "20 Woodside Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/The_Scandanavian_School> .
 
-<http://www.semanticweb.org/group08/School/Private/The_Bay_School_of_San_Francisco> ont:name "The Bay School of San Francisco" ;
+<http://www.semanticweb.org/group08/School/Private/The_Bay_School_of_San_Francisco> rdfs:label "The Bay School of San Francisco" ;
 	ont:children "9 - 12" ;
 	ont:address "35 Keyes Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/The_Bay_School_of_San_Francisco> .
 
-<http://www.semanticweb.org/group08/School/Private/Hergl_School> ont:name "Hergl School" ;
+<http://www.semanticweb.org/group08/School/Private/Hergl_School> rdfs:label "Hergl School" ;
 	ont:children "N/A" ;
 	ont:address "1570 Greenwich Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Hergl_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Alta_Vista_School> ont:name "Alta Vista School" ;
+<http://www.semanticweb.org/group08/School/Private/Alta_Vista_School> rdfs:label "Alta Vista School" ;
 	ont:children "K - 12" ;
 	ont:address "245 Valencia Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Alta_Vista_School> .
 
-<http://www.semanticweb.org/group08/School/Private/Cornerstone_Academy_Kindergarten> ont:name "Cornerstone Academy Kindergarten" ;
+<http://www.semanticweb.org/group08/School/Private/Cornerstone_Academy_Kindergarten> rdfs:label "Cornerstone Academy Kindergarten" ;
 	ont:category "BAPTIST" ;
 	ont:children "K" ;
 	ont:address "1925 Lawton Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Cornerstone_Academy_Kindergarten> .
 
-<http://www.semanticweb.org/group08/School/Private/Fei_Tian_Academy_of_the_Arts_California> ont:name "Fei Tian Academy of the Arts California" ;
+<http://www.semanticweb.org/group08/School/Private/Fei_Tian_Academy_of_the_Arts_California> rdfs:label "Fei Tian Academy of the Arts California" ;
 	ont:children "6 - 12" ;
 	ont:address "101 15th Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Fei_Tian_Academy_of_the_Arts_California> .
 
-<http://www.semanticweb.org/group08/School/Private/Megan_Furth_Academy> ont:name "Megan Furth Academy" ;
+<http://www.semanticweb.org/group08/School/Private/Megan_Furth_Academy> rdfs:label "Megan Furth Academy" ;
 	ont:category "ROMAN CATHOLIC" ;
 	ont:children "k - 8" ;
 	ont:address "2445 Pine Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Megan_Furth_Academy> .
 
-<http://www.semanticweb.org/group08/School/Private/Spectrum_Center_Inc> ont:name "Spectrum Center Inc" ;
+<http://www.semanticweb.org/group08/School/Private/Spectrum_Center_Inc> rdfs:label "Spectrum Center Inc" ;
 	ont:children "6 - 12" ;
 	ont:address "95 Gough Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Spectrum_Center_Inc> .
 
-<http://www.semanticweb.org/group08/School/Private/St_Pauls> ont:name "St. Paul's" ;
+<http://www.semanticweb.org/group08/School/Private/St_Pauls> rdfs:label "St. Paul's" ;
 	ont:category "ROMAN CATHOLIC" ;
 	ont:children "k - 8" ;
 	ont:address "1690 Church Street" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/St_Pauls> .
 
-<http://www.semanticweb.org/group08/School/Private/Wen_Jian_Ying> ont:name "Wen Jian Ying" ;
+<http://www.semanticweb.org/group08/School/Private/Wen_Jian_Ying> rdfs:label "Wen Jian Ying" ;
 	ont:children "K - 12" ;
 	ont:address "259 Judson Avenue" ;
 	ont:hasBuilding <http://www.semanticweb.org/group08/Building/Wen_Jian_Ying> .
