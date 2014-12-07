@@ -10682,5 +10682,337 @@
         }
       ]
     }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NEIGHBORHOOD using expression grel:value.replace(\"Outer Richmond\", \"Richmond\")",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "cell.recon.best.score",
+          "to": 1.002,
+          "selectError": true,
+          "selectNumeric": false,
+          "name": "NEIGHBORHOOD: best candidate's score",
+          "selectBlank": true,
+          "columnName": "NEIGHBORHOOD",
+          "selectNonNumeric": true,
+          "from": 0.375,
+          "type": "range"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "expression": "grel:value.replace(\"Outer Richmond\", \"Richmond\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NEIGHBORHOOD using expression grel:value.replace(\"Castro/Upper Market\", \"Upper Market\")",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "NEIGHBORHOOD",
+          "selectBlank": false,
+          "columnName": "NEIGHBORHOOD",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Castro/Upper Market",
+                "l": "Castro/Upper Market"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "expression": "grel:value.replace(\"Castro/Upper Market\", \"Upper Market\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "NEIGHBORHOOD",
+          "selectBlank": true,
+          "columnName": "NEIGHBORHOOD",
+          "omitBlank": false,
+          "type": "list",
+          "selection": []
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NEIGHBORHOOD using expression grel:value.replace(\"Inner Richmond\", \"Richmond\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "expression": "grel:value.replace(\"Inner Richmond\", \"Richmond\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NEIGHBORHOOD using expression grel:value.replace(\"Treasure Island/YBI10\", \"Treasure Island\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "expression": "grel:value.replace(\"Treasure Island/YBI10\", \"Treasure Island\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NEIGHBORHOOD using expression grel:value.replace(\"Treasure Island/YBI\", \"Treasure Island\")",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "NEIGHBORHOOD",
+          "selectBlank": false,
+          "columnName": "NEIGHBORHOOD",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Treasure Island/YBI",
+                "l": "Treasure Island/YBI"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "expression": "grel:value.replace(\"Treasure Island/YBI\", \"Treasure Island\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NEIGHBORHOOD using expression grel:value.replace(\"West of Twin Peaks\", \"Twin Peaks\")",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "NEIGHBORHOOD",
+          "selectBlank": false,
+          "columnName": "NEIGHBORHOOD",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "West of Twin Peaks",
+                "l": "West of Twin Peaks"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "expression": "grel:value.replace(\"West of Twin Peaks\", \"Twin Peaks\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGHBORHOOD",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGHBORHOOD",
+          "omitBlank": false,
+          "columnName": "NEIGHBORHOOD",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Outer Mission",
+                "l": "Outer Mission"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Outer Mission"
+        ],
+        "to": "Mission"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGHBORHOOD",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGHBORHOOD",
+          "omitBlank": false,
+          "columnName": "NEIGHBORHOOD",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Outer Sunset",
+                "l": "Outer Sunset"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Outer Sunset"
+        ],
+        "to": "Sunset"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGHBORHOOD",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGHBORHOOD",
+          "omitBlank": false,
+          "columnName": "NEIGHBORHOOD",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Upper Market",
+                "l": "Upper Market"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Upper Market"
+        ],
+        "to": "South of Market"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGHBORHOOD",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGHBORHOOD",
+          "omitBlank": false,
+          "columnName": "NEIGHBORHOOD",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Inner Sunset",
+                "l": "Inner Sunset"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Inner Sunset"
+        ],
+        "to": "Sunset"
+      }
+    ]
   }
 ]
