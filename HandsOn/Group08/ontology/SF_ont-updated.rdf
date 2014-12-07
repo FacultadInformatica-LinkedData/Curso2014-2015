@@ -8,10 +8,12 @@
   <!ENTITY geosp "http://www.opengis.net/ont/geosparql">
   <!ENTITY ont "http://www.semanticweb.org/group08">
   <!ENTITY purl "http://purl.org/dc/elements/1.1">
+  <!ENTITY geon "http://sws.geonames.org">
 ]>
 
 <rdf:RDF xmlns:rdf="&rdf;#" xmlns:rdfs="&rdfs;#" xmlns:owl="&owl;#"
-  xmlns:xsd="&xsd;#" xmlns:geosp="&geosp;/" xmlns:purl="&purl;/" >
+  xmlns:xsd="&xsd;#" xmlns:geosp="&geosp;/" xmlns:purl="&purl;/"
+  xmlns:geon="&geon;/" >
 
   <owl:Ontology rdf:about="http://www.semanticweb.org/group08/">
     <owl:versionInfo>1.0.0</owl:versionInfo>
@@ -39,7 +41,7 @@
     /ServiceRequest/{caseid}#agency -> xsd:string
     /ServiceRequest/{caseid}#request -> xsd:string
     /ServiceRequest/{caseid}#address -> xsd:string
-    /ServiceRequest/{caseid}#neighborhood -> xsd:string
+    /ServiceRequest/{caseid}#neighborhood -> geon:Feature
     /ServiceRequest/{caseid}#category -> xsd:string
     /ServiceRequest/{caseid}#hasGeometry -> /ServiceRequest/{caseid}/geometry
 
@@ -50,7 +52,7 @@
     /Crime/{incidentid}#description -> xsd:string
     /Crime/{incidentid}#category -> xsd:string
     /Crime/{incidentid}#date -> xsd:date
-    /Crime/{incidentid}#district -> xsd:string
+    /Crime/{incidentid}#district -> geon:Feature
     /Crime/{incidentid}#state -> xsd:string
     /Crime/{incidentid}#address -> xsd:string
     /Crime/{incidentid}#hasGeometry -> /Crime/{caseid}/geometry
@@ -130,7 +132,7 @@
 
   <owl:ObjectProperty rdf:about="&ont;#neighborhood">
     <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
-    <rdfs:range rdf:resource="&xsd;#string"/>
+    <rdfs:range rdf:resource="&geon;#Feature"/>
   </owl:ObjectProperty>
 
   <owl:ObjectProperty rdf:about="&ont;#category">
@@ -164,7 +166,7 @@
 
   <owl:ObjectProperty rdf:about="&ont;#district">
     <rdfs:domain rdf:resource="&ont;/Crime"/>
-    <rdfs:range rdf:resource="&xsd;#string"/>
+    <rdfs:range rdf:resource="&geon;#Feature"/>
   </owl:ObjectProperty>
 
   <owl:ObjectProperty rdf:about="&ont;#state">
