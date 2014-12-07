@@ -1,0 +1,848 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix base: <http://www.example.org/ontology/TourismMadrid#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://www.example.org/resources/Museum/MuseoalAireLibredelaCastellana> a schema:Museum ;
+	rdfs:label "Museo al Aire Libre de la Castellana" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "917 011 863" ;
+	schema:email "smuseosm@madrid.es" .
+
+<http://www.example.org/resources/City/Madrid> owl:sameAs <http://dbpedia.org/resource/Madrid> .
+
+<http://www.example.org/resources/Museum/MuseoalAireLibredelaCastellana> schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Paseo Castellana" ;
+	schema:postalCode "28046" ;
+	geo:lat "40.433219398671156"^^xsd:double ;
+	geo:long "-3.6876122680805956"^^xsd:double .
+
+<http://www.example.org/resources/Museum/CasaMuseodelRatoncitoPérez> a schema:Museum ;
+	rdfs:label "Casa - Museo del Ratoncito Pérez" ;
+	base:schedule "Lunes  de 17 a 20 horas.  De martes a viernes de 11 a 14 horas y de 17 a 20 horas.  Sábados de 11 a 15 horas y de 16 a 20 horas (horario orientativo, consultar disponiblidad en la  web del Museo ).  Domingos y festivos de 12 a 18 horas." ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 226 968" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Arenal" ;
+	schema:postalCode "28013" ;
+	geo:lat "40.41704834412296"^^xsd:double ;
+	geo:long "-3.7055288844865233"^^xsd:double .
+
+<http://www.example.org/resources/Museum/CasaMuseoLopedeVega> a schema:Museum ;
+	rdfs:label "Casa Museo Lope de Vega" ;
+	base:schedule "Para la visita es  imprescindible reserva anticipada  en:  casamuseolopedevega@madrid.org  o en el teléfono: 914 299 216, en horario del museo   De martes a domingo de 10 a 15 horas. Última visita a las 14 horas.  Cerrado los lunes, días 1 y 6 de enero, 5 de abril, 1 de mayo y 24, 25 y 31 de diciembre y dos festivos locales.  Este horario puede sufrir alteraciones por actividades extraordinarias que se celebran en este espacio." ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 299 216" ;
+	schema:email "casamuseolopedevega@madrid.org" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Cervantes" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.414358466555235"^^xsd:double ;
+	geo:long "-3.6974741545860015"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/House-Museum_of_Lope_de_Vega> .
+
+<http://www.example.org/resources/Museum/CastillodelaAlameda> a schema:Museum ;
+	rdfs:label "Castillo de la Alameda" ;
+	base:schedule "De abril a septiembre: sábados, domingos y festivos de 10 a 21 horas  De octubre a marzo: sábados, domingos y festivos de 10 a 18 horas  Cerrado los días 1 de enero, 1 de mayo y 25 de diciembre" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 667 415" ;
+	schema:email "castilloalameda@madrid.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Antonio Sancha" ;
+	schema:postalCode "28042" ;
+	geo:lat "40.45835460563491"^^xsd:double ;
+	geo:long "-3.5932903820278788"^^xsd:double ;
+	owl:sameAs <http://wikidata.dbpedia.org/resource/Q8342365> .
+
+<http://www.example.org/resources/Museum/CasóndelBuenRetiro> a schema:Museum ;
+	rdfs:label "Casón del Buen Retiro" ;
+	base:schedule "Mañanas    De lunes a jueves, de 9 a 15 horas. (Servicio de libros y otros materiales hasta las 14:30 horas)   Viernes, de 9 a 14:30 horas. (Servicio de libros y otros materiales hasta las 14 horas)     Tardes.  Lunes y miércoles, de 15 a 18 horas. (Servicio de libros y otros materiales hasta las 17:30 horas)   Horario de verano     Desde el 16 de junio al 15 de septiembre  Lunes a viernes, de 9 a 14:30 horas" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "902 107 077" ;
+	schema:email "biblioteca@museodelprado.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Alfonso Xii" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.415263749471535"^^xsd:double ;
+	geo:long "-3.689232811717636"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Cas%C3%B3n_del_Buen_Retiro> .
+
+<http://www.example.org/resources/Museum/CentroSocialyCulturallaCasaEncendida> a schema:Museum ;
+	rdfs:label "Centro Social y Cultural la Casa Encendida" ;
+	base:schedule "De lunes a domingo de 10 a 22 horas (todos los días del año, excepto festividades nacionales y de la Comunidad de Madrid)  Exposiciones: de 10 a 21:45 horas" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "902 430 322" ;
+	schema:email "casaencendida@cajamadrid.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Ronda Valencia" ;
+	schema:postalCode "28012" ;
+	geo:lat "40.40595710517701"^^xsd:double ;
+	geo:long "-3.699779793558763"^^xsd:double ;
+	owl:sameAs <http://wikidata.dbpedia.org/resource/Q5962732> .
+
+<http://www.example.org/resources/Museum/ClaustrodeSanJerónimoelRealLosJerónimos> a schema:Museum ;
+	rdfs:label "Claustro de San Jerónimo el Real (Los Jerónimos)" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "91 420 35 78" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Moreto" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.414346084679714"^^xsd:double ;
+	geo:long "-3.6905317543061407"^^xsd:double .
+
+<http://www.example.org/resources/Museum/ErmitadeSanAntoniodelaFlorida> a schema:Museum ;
+	rdfs:label "Ermita de San Antonio de la Florida" ;
+	base:schedule "De martes a domingos y festivos de 9:30 a 20 horas.   Cerrado  los lunes, incluidos festivos y días 1 de enero, 1 de mayo y 25 de diciembre.   Último pase de visita:  20 minutos antes del cierre (el desalojo de las salas comenzará 10 minutos antes)   Por motivos de conservación, el aforo máximo es de 50 personas en el interior de la capilla.  Este horario y la apertura de salas pueden sufrir modificaciones, por favor, confírmelo en el teléfono de información del museo." ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 420 722" ;
+	schema:email "sanantonio@madrid.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Glorieta San Antonio De La Florida" ;
+	schema:postalCode "28008" ;
+	geo:lat "40.425256682855846"^^xsd:double ;
+	geo:long "-3.725725718176111"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Ermita_de_San_Antonio_de_la_Florida> .
+
+<http://www.example.org/resources/Museum/EspacioFundaciónTelefónica> a schema:Museum ;
+	rdfs:label "Espacio Fundación Telefónica" ;
+	base:schedule "De martes a domingo, de 10 a 20 horas.  Cerrado al público todos los lunes y los festivos 25 de diciembre y días 1 y 6 de enero." ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "915 808 700" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Fuencarral" ;
+	schema:postalCode "28004" ;
+	geo:lat "40.42041458612889"^^xsd:double ;
+	geo:long "-3.7016034186955076"^^xsd:double .
+
+<http://www.example.org/resources/Museum/CasaMuseoFuentedelRey> a schema:Museum ;
+	rdfs:label "Casa - Museo Fuente del Rey" ;
+	base:schedule "De lunes a viernes de 10 a 19 horas. Sábados y domingos cerrado.   Visitas  guiadas y concertadas con cita previa." ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 579 116" ;
+	schema:email "info@fundacionamyc.org" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Fuente Del Rey" ;
+	schema:postalCode "28023" ;
+	geo:lat "40.45546180290319"^^xsd:double ;
+	geo:long "-3.7705836264842576"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MonasteriodelasDescalzasReales> a schema:Museum ;
+	rdfs:label "Monasterio de las Descalzas Reales" ;
+	base:schedule "Sólo con visita guiada.    De martes a sábado de 10 a 14 horas y de 16 a 18:30 horas  Domingos y festivos, de 10 a 15 horas y tardes cerrado  Cierre de taquillas una hora antes  Cerrado: días 1, 6 de enero; Semana Santa (del 16 al 19 de abril, inclusive); 1 de mayo; 10 de noviembre; 24, 25 y 31 de diciembre de 2014  Abierto: 15 de mayo y 8 de diciembre de 2014  Abierto horario domingo: 2 de mayo; 19 de junio; 15 de agosto; 1 de noviembre y 6 de diciembre de 2014    Atención telefónica:    De lunes a sábados de 9:30 a 17 horas  Domingos y festivos de 9 a 14 horas" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 548 800" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Descalzas" ;
+	schema:postalCode "28013" ;
+	geo:lat "40.418233359889484"^^xsd:double ;
+	geo:long "-3.706213134639163"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Convent_of_Las_Descalzas_Reales> .
+
+<http://www.example.org/resources/Museum/MuseoABC> a schema:Museum ;
+	rdfs:label "Museo ABC" ;
+	base:schedule "De martes a sábado de 11 a 20 horas  Domingos de 10 a 14 horas  Festivos de 11 a 20 horas  Lunes cerrado   Visitas guiadas:  de martes a viernes (consultar horario en el teléfono del museo)." ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "917 588 379" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Amaniel" ;
+	schema:postalCode "28015" ;
+	geo:lat "40.42740213531285"^^xsd:double ;
+	geo:long "-3.70955095379701"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MuseoAfricanoMundoNegro> a schema:Museum ;
+	rdfs:label "Museo Africano Mundo Negro" ;
+	base:schedule "Grupos con cita previa : de lunes a sábado   Particulares  (visitas guiadas): domingos a las 11,30 horas   Cerrado : julio, agosto y septiembre" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 152 412" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Arturo Soria" ;
+	schema:postalCode "28043" ;
+	geo:lat "40.449455579055886"^^xsd:double ;
+	geo:long "-3.651503432956766"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MuseoArqueológicoNacional> a schema:Museum ;
+	rdfs:label "Museo Arqueológico Nacional" ;
+	base:schedule "De martes a sábado de 9:30 a 20 horas. Domingo y festivos de 9:30 a 15 horas.  Cerrado todos los lunes, 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre y un festivo local (15 de mayo en 2014)" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "915 777 912" ;
+	schema:email "sugerencias@man.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Serrano" ;
+	schema:postalCode "28001" ;
+	geo:lat "40.42326842040792"^^xsd:double ;
+	geo:long "-3.6884539762461968"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/National_Archaeological_Museum_of_Spain> .
+
+<http://www.example.org/resources/Museum/MuseoCasadelaMoneda> a schema:Museum ;
+	rdfs:label "Museo Casa de la Moneda" ;
+	base:schedule "De martes a viernes ininterrumpidamente de 10 a 17:30 horas. Sábados, domingos y festivos de 10 a 14 horas.  Cerrado los lunes, y los días 1, 4 y 5 de enero; 17, 18, 19 y 20 de abril; 1 y 2 de mayo; 19 de junio; 23, 24, 25 y 31 de diciembre." ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "915 666 544" ;
+	schema:email "museo@fnmt.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Doctor Esquerdo" ;
+	schema:postalCode "28028" ;
+	geo:lat "40.42258896520152"^^xsd:double ;
+	geo:long "-3.6691501169061067"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Royal_Mint_(Spain)> .
+
+<http://www.example.org/resources/Museum/MuseoCerralbo> a schema:Museum ;
+	rdfs:label "Museo Cerralbo" ;
+	base:schedule "De martes a sábado de 9:30 a 15 horas  Jueves de 17 a 20 horas (apertura gratuita, excepto festivos)  Domingos y festivos de 10 a 15 horas  Lunes, cerrado  Jueves y Viernes Santo tienen el horario de los días festivos  Visitas guiadas, previa reserva, los martes y miércoles y, sin reserva, los jueves , viernes y sábados, a cargo de los voluntarios culturales de la Confederación de Aulas de la Tercera Edad" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "915 473 646" ;
+	schema:email "museo.cerralbo@mecd.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Ventura Rodriguez" ;
+	schema:postalCode "28008" ;
+	geo:lat "40.42376732078657"^^xsd:double ;
+	geo:long "-3.7146170388153497"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Museum_Cerralbo> .
+
+<http://www.example.org/resources/Museum/MuseoColeccionesdelInstitutodeCréditoOficial> a schema:Museum ;
+	rdfs:label "Museo Colecciones del Instituto de Crédito Oficial" ;
+	base:schedule "De martes a sábado: de 11 a 20 horas  Domingo y festivos: de 10 a 14 horas  Cerrado: todos los lunes del año (incluidos festivos) y los días 1 de enero, 1 de mayo y 25 de diciembre   Los días 24 y 31 de diciembre el Museo ICO permanecerá abierto de 10 a 14 horas." ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "914 201 242" ;
+	schema:email "museoico@ico.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Zorrilla" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.41675330128869"^^xsd:double ;
+	geo:long "-3.6977346235068373"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MuseodeAeronáuticayAstronáutica> a schema:Museum ;
+	rdfs:label "Museo de Aeronáutica y Astronáutica" ;
+	base:schedule "De martes a domingo de 10 a 14 horas, a partir de las 13:30 no se permite la entrada de público.  Cerrado: los lunes, días 1 y 6 de enero, Jueves y Viernes Santo, 12 de octubre,  días 10, 24, 25 y 31 de diciembre y el mes de agosto" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "915 091 690" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Autovia A-5" ;
+	schema:postalCode "28024" ;
+	geo:lat "40.3733013700739"^^xsd:double ;
+	geo:long "-3.798200034372686"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Museo_del_Aire_(Madrid)> .
+
+<http://www.example.org/resources/Museum/MuseodeAmérica> a schema:Museum ;
+	rdfs:label "Museo de América" ;
+	base:schedule "Horario:    De martes a sábado, de 9:30 a 15 horas  Jueves, apertura continuada de 9:30 a 19 horas  Domingos y festivos de 10 a 15 horas     Cerrado:  todos los lunes del año, día 1 y 6 de enero, día 1 de mayo, días 24, 25 y 31 de diciembre y un festivo local." ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "915 439 437" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Avenida Reyes Catolicos" ;
+	schema:postalCode "28040" ;
+	geo:lat "40.43797469898852"^^xsd:double ;
+	geo:long "-3.721841843311362"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Museo_de_Am%C3%A9rica_(Madrid)> .
+
+<http://www.example.org/resources/Museum/MuseodeArteContemporáneodeMadrid> a schema:Museum ;
+	rdfs:label "Museo de Arte Contemporáneo de Madrid" ;
+	base:schedule "De martes a viernes de 10 a 14 y de 17:30 a 21 horas  Ságados, domingos y festivos de 10:30 a 14:30 horas.  Cerrado los lunes (incluso festivos) y días 1 y 6 de enero, 1 de mayo y 25 de diciembre   El horario de taquilla finaliza 20 minutos antes de la hroa de cierre del museo.   Las salas se desalojan 15 minutos antes del cierre." ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "915 885 928" ;
+	schema:email "mmacmdifusion@madrid.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Conde Duque" ;
+	schema:postalCode "28015" ;
+	geo:lat "40.42737760210632"^^xsd:double ;
+	geo:long "-3.7106116887809817"^^xsd:double .
+
+<http://www.example.org/resources/Museum/CentroCulturalLaCorrala> a schema:Museum ;
+	rdfs:label "Centro Cultural La Corrala" ;
+	base:schedule "Permanece abierto al público de lunes a viernes con horario de 10 a 14 horas y de 17 a 21 horas. Sábados de 10 a 14 horas" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 976 500" ;
+	schema:email "museoatp@uam.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Carlos Arniches" ;
+	schema:postalCode "28005" ;
+	geo:lat "40.408814891299514"^^xsd:double ;
+	geo:long "-3.7083421466389113"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MuseodeAstronomíayGeodesia> a schema:Museum ;
+	rdfs:label "Museo de Astronomía y Geodesia" ;
+	base:schedule "Visita con cita previa" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 944 615" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Ciencias" ;
+	schema:postalCode "28040" ;
+	geo:lat "40.44942472705852"^^xsd:double ;
+	geo:long "-3.7262214898219117"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MuseodeBomberos> a schema:Museum ;
+	rdfs:label "Museo de Bomberos" ;
+	base:schedule "Abierto todos los días de  09:30  a  14:00  horas, excepto 25 de diciembre, 1 enero,  6 de enero y 1 de mayo.    Nota:  El museo permanecera cerrado hasta octubre de 2015 por obras de acondicionamiento.     Visitas Guiadas  Se pueden concertar en el teléfono: 91 478 65 72 ( Museo )  Más información: 91 588 99 07 - 91 588 82 40" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "91 478 65 72" ;
+	schema:email "sgbomberos@madrid.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Boada" ;
+	schema:postalCode "28038" ;
+	geo:lat "40.39453171263195"^^xsd:double ;
+	geo:long "-3.6539313207612207"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MuseodeCalcografíaNacional> a schema:Museum ;
+	rdfs:label "Museo de Calcografía Nacional" ;
+	base:schedule "De octubre a junio de lunes a viernes de 9 a 17 horas.  Verano: de julio a septiembre de 9 a 15 horas.   Agosto cerrado   En el caso de que se celebren exposiciones, consultar horario, ya que puede variar." ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 240 864" ;
+	schema:email "calcografianacional.delegado@rabasf.org" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Alcala" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.41764548040709"^^xsd:double ;
+	geo:long "-3.700667044636178"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MuseodeCera> a schema:Museum ;
+	rdfs:label "Museo de Cera" ;
+	base:schedule "De lunes a viernes de 10 a 14,30 y de 16,30 a 20,30 horas.  Sábados, domingos y festivos de 10 a 20,30 horas.  Los días 25 de diciembre y 1 de enero, el museo abre de 10 a 14:30 horas y de 16:30 a 20:30 horas.  Las taquillas cierran media hora antes." ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "913 194 681" ;
+	schema:email "info@museoceramadrid.com" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Paseo Recoletos" ;
+	schema:postalCode "28004" ;
+	geo:lat "40.424403779665376"^^xsd:double ;
+	geo:long "-3.6914362030084815"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Wax_museum> .
+
+<http://www.example.org/resources/Museum/MuseodeFarmaciaMilitar> a schema:Museum ;
+	rdfs:label "Museo de Farmacia Militar" ;
+	base:schedule "De lunes a viernes de 10 a 13 horas, sólo visitas concertadas" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 399 503" ;
+	schema:email "smunort@oc.mde.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Embajadores" ;
+	schema:postalCode "28012" ;
+	geo:lat "40.403202661477145"^^xsd:double ;
+	geo:long "-3.7008825895813167"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MuseodeHistoriadelaComunidadJudíadeMadrid> a schema:Museum ;
+	rdfs:label "Museo de Historia de la Comunidad Judía de Madrid" ;
+	base:schedule "Visitas guiadas     Individual : último jueves de cada mes a las 19 horas, salvo festividades (confirmar previamente).   Grupos  (mínimo 10 personas): consultar teléfono: 915 913 131 (Ext. 4 o correo electrónico:  visita@cjmadrid.org" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 913 131" ;
+	schema:email "secretaria@cjmadrid.org" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Balmes" ;
+	schema:postalCode "28010" ;
+	geo:lat "40.43534317115623"^^xsd:double ;
+	geo:long "-3.700013620203689"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MuseodelaBibliotecaNacional> a schema:Museum ;
+	rdfs:label "Museo de la Biblioteca Nacional" ;
+	base:schedule "De martes a sábados de 10 a 20 y domingos de 10 a 14 horas. Lunes cerrado. Último pase treinta minutos antes del cierre. Entrada gratuita.   Días de cierre   Para 2014: 1 y 6 de enero, 1 de mayo, 10 de noviembre y 8, 24, 25 y 31 de diciembre" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 807 759" ;
+	schema:email "museo@bne.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Paseo Recoletos" ;
+	schema:postalCode "28001" ;
+	geo:lat "40.42297474261295"^^xsd:double ;
+	geo:long "-3.6908675320710223"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Biblioteca_Nacional_de_Espa%C3%B1a> .
+
+<http://www.example.org/resources/Museum/MuseodelaCatedraldelaAlmudena> a schema:Museum ;
+	rdfs:label "Museo de la Catedral de la Almudena" ;
+	base:schedule "De lunes a sábado de 10 a 14:30 horas. Cerrado los domingos, fiestas de precepto y días de actos de culto especiales" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 592 874" ;
+	schema:email "museoalmudena@planalfa.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Almudena" ;
+	schema:postalCode "28013" ;
+	geo:lat "40.41484504627648"^^xsd:double ;
+	geo:long "-3.7136975721439347"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Almudena_Cathedral> .
+
+<http://www.example.org/resources/Museum/MuseodelaFarmaciaHispana> a schema:Museum ;
+	rdfs:label "Museo de la Farmacia Hispana" ;
+	base:schedule "De lunes a viernes de 9 a 14 horas (periodo lectivo)." ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 941 797" ;
+	schema:email "museofar@farm.ucm.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Ramon Y Cajal" ;
+	schema:postalCode "28040" ;
+	geo:lat "40.4445328804645"^^xsd:double ;
+	geo:long "-3.7262160043788155"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MuseodelaGuardiaCivil> a schema:Museum ;
+	rdfs:label "Museo de la Guardia Civil" ;
+	base:schedule "De lunes a viernes de 9 a 14 horas. Sábados, domingos y festivos cerrado" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 146 000" ;
+	schema:email "dg-estuhistoricos-registro@guardiacivil.org" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Guzman El Bueno" ;
+	schema:postalCode "28003" ;
+	geo:lat "40.44454745648486"^^xsd:double ;
+	geo:long "-3.7122900396933813"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MuseodelaRealAcademiadeBellasArtesdeSanFernando> a schema:Museum ;
+	rdfs:label "Museo de la Real Academia de Bellas Artes de San Fernando" ;
+	base:schedule "Colección permanente:  de martes a domingos de 10 a 15 horas., incluyendo festivos. Lunes cerrado.      Exposiciones temporales:  consultar telefónicamente  Cerrado días 1 y 6 de enero, 1 y 30 de mayo, 9 de noviembre; 24, 25 y 31 de diciembre." ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "915 240 864" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Alcala" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.41764548040709"^^xsd:double ;
+	geo:long "-3.700667044636178"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Real_Academia_de_Bellas_Artes_de_San_Fernando> .
+
+<http://www.example.org/resources/Museum/MuseodeMineralogía> a schema:Museum ;
+	rdfs:label "Museo de Mineralogía" ;
+	base:schedule "Lunes, martes, miércoles y jueves de 12:30 a 14:30 horas (conviene concertar previamente la visita)" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 974 125" ;
+	schema:email "museo.mineralogia@uam.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Carretera Colmenar Viejo" ;
+	schema:postalCode "28049" .
+
+<http://www.example.org/resources/Museum/MuseodeSanIsidro> a schema:Museum ;
+	rdfs:label "Museo de San Isidro" ;
+	base:schedule "General:  de martes a domingo y festivos de 9:30 a 20 horas   Agosto:  de martes a viernes de 9:30 a 14:30 horas y sábados, domingos y festivos de 9:30 a 20 horas   Cerrado:  todos los lunes, 1 de enero, 1 de mayo y 25 de diciembre" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "913 667 415" ;
+	schema:email "museosanisidro@madrid.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza San Andres" ;
+	schema:postalCode "28005" ;
+	geo:lat "40.412069631779325"^^xsd:double ;
+	geo:long "-3.710874934826838"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MuseodeSanidadeHigienePública> a schema:Museum ;
+	rdfs:label "Museo de Sanidad e Higiene Pública" ;
+	base:schedule "Consultar telefónicamente" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "918 222 334" ;
+	schema:email "museodesanidad@iscii.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Avenida Monforte De Lemos" ;
+	schema:postalCode "28029" ;
+	geo:lat "40.47546597881768"^^xsd:double ;
+	geo:long "-3.6900603941123107"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MuseodelAtléticodeMadrid> a schema:Museum ;
+	rdfs:label "Museo del Atlético de Madrid" ;
+	base:schedule "Horarios del Museo    De martes a domingo, de 11 a 19 horas.  Días de partido: desde las 11 horas hasta el inicio del encuentro.     Horarios de las visitas guiadas    De martes a domingo a las 12, 13, 16:30 y 17:30 horas  Verano (de 28 de junio al 14 de septiembre): de martes a viernes a las 12, 13, 16:30 y 17:30 horas" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 650 931" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Paseo Virgen Del Puerto" ;
+	schema:postalCode "28005" ;
+	geo:lat "40.40141951261679"^^xsd:double ;
+	geo:long "-3.7212862502237236"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MuseodelFerrocarrildeMadrid> a schema:Museum ;
+	rdfs:label "Museo del Ferrocarril de Madrid" ;
+	base:schedule "De martes a viernes de 9 a 15 horas.   Sábados de 10 a 20 horas.   Domingos de 10 a 15 horas.   Cerrado los lunes (incluidos festivos), del 16 al 31 de agosto (ambos inclusive), y los días 1 y 6 de enero, 1 de mayo y 25 de diciembre.   Con motivo de la celebración del &lsquo;Mercado de Motores&rsquo; el segundo fin de semana de cada mes de enero a junio, el horario del Museo (cuyo espacio visitable estará restringido a su Nave Central) será de 11 a 22 horas y el acceso será gratuito." ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "902 228 822" ;
+	schema:email "museodelicias@ffe.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Paseo Delicias" ;
+	schema:postalCode "28045" ;
+	geo:lat "40.400281290485566"^^xsd:double ;
+	geo:long "-3.693817192160563"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Railway_Museum_(Madrid)> .
+
+<http://www.example.org/resources/Museum/MuseodelPrado> a schema:Museum ;
+	rdfs:label "Museo del Prado" ;
+	base:schedule "De lunes a sábado de 10 a 20 horas . Domingos y festivos de 10 a 19 horas    Cerrado:  1 de enero, 1 de mayo y 25 de diciembre   Horario reducido:  6 de enero, 24 y 31 de diciembre de 10 a 14 horas   Horario de taquillas: a cceso al Museo hasta 30 minutos antes del cierre (el desalojo de las salas comienza 10 minutos antes del cierre)" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "913 302 800" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Ruiz De Alarcon" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.41357557281165"^^xsd:double ;
+	geo:long "-3.6913253533221817"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Museo_del_Prado> .
+
+<http://www.example.org/resources/Museum/MuseodelRelojGrassy> a schema:Museum ;
+	rdfs:label "Museo del Reloj Grassy" ;
+	base:schedule "Jueves de 18 a 19 horas y viernes de 11 a 12 horas.  Las visitas se efectúan con cita previa llamando al  teléfono 915 321 007 . Se encuentra en la Joyería Grassy, por tanto no se admiten visitas de grupos." ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 321 007" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Gran Via" ;
+	schema:postalCode "28013" ;
+	geo:lat "40.41913869883697"^^xsd:double ;
+	geo:long "-3.6980657388420255"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MuseodelRobot> a schema:Museum ;
+	rdfs:label "Museo del Robot" ;
+	base:schedule "Visitas guiadas regulares  (entrada libre NO disponible):   Martes a viernes: pases a las 13, 17 y 20 horas    Visitas guiadas para grupos:    Martes, miércoles y Jueves, pases (solo mañanas) de 10:30 a 12:00 horas" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 478 808" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Alberto Aguilera" ;
+	schema:postalCode "28015" ;
+	geo:lat "40.42949061464909"^^xsd:double ;
+	geo:long "-3.7068731815207014"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MuseodelRomanticismo> a schema:Museum ;
+	rdfs:label "Museo del Romanticismo" ;
+	base:schedule "Verano (del 2 de mayo al 31 de octubre):  de martes a sábados de 9:30 a 20:30 horas. Domingos y festivos de 10 a 15 horas. Jueves de agosto se cierra a las 00 horas (Museo y Café del Jardín).   De 1 de Noviembre a 30 de Abril:  de martes a sábado, de 9:30 a 18:30 horas. Domingos y festivos, de 10 a 15 horas.   Cerrado: todos los lunes, días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre y un festivo local (15 de mayo)  La Tienda y el Café del Jardín se regirán por el mismo horario de invierno." ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 481 045" ;
+	schema:email "informacion.romanticismo@mecd.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle San Mateo" ;
+	schema:postalCode "28004" ;
+	geo:lat "40.42585510296794"^^xsd:double ;
+	geo:long "-3.6987835425963063"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MuseodelSeguro.FundaciónMapfre> a schema:Museum ;
+	rdfs:label "Museo del Seguro. Fundación Mapfre" ;
+	base:schedule "De lunes a Viernes previa petición de hora." ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "91 581 20 08" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Barbara De Braganza" ;
+	schema:postalCode "28004" ;
+	geo:lat "40.42388355388781"^^xsd:double ;
+	geo:long "-3.694059645939101"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Fundaci%C3%B3n_MAPFRE> .
+
+<http://www.example.org/resources/Museum/MuseodelTraje> a schema:Museum ;
+	rdfs:label "Museo del Traje" ;
+	base:schedule "De martes a sábado de 9:30 a 19 horas. Domingos y festivos de 10 a 15 horas.  Verano (julio y agosto): los jueves se amplia el horario hasta las 22:30 horas.  Cerrado: todos los lunes, 1 y 6 de enero, 1 de mayo, 9 de noviembre, 24, 25 y 31 de diciembre." ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "915 504 700" ;
+	schema:email "museodeltraje@mecd.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Avenida Juan De Herrera" ;
+	schema:postalCode "28040" ;
+	geo:lat "40.439657822278555"^^xsd:double ;
+	geo:long "-3.7278378564088275"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Museo_del_Traje> .
+
+<http://www.example.org/resources/Museum/MuseoGeominero> a schema:Museum ;
+	rdfs:label "Museo Geominero" ;
+	base:schedule "De lunes a domingo y festivos de 9 a 14 horas. Cerrado: 1 y 6 de enero y 24, 25 y 31 de diciembre" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 495 759" ;
+	schema:email "m.geominero@igme.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Rios Rosas" ;
+	schema:postalCode "28003" ;
+	geo:lat "40.44205696051332"^^xsd:double ;
+	geo:long "-3.6996705622841457"^^xsd:double ;
+	owl:sameAs <http://wikidata.dbpedia.org/resource/Q13532751> .
+
+<http://www.example.org/resources/Museum/MuseoHistóricoMineroDonFelipedeBorbónyGrecia> a schema:Museum ;
+	rdfs:label "Museo Histórico Minero Don Felipe de Borbón y Grecia" ;
+	base:schedule "Previa cita concertada para grupos   Mercadillo de minerales y fósiles:  primer domingo de cada mes de 10 a 14 horas (en este período se podrá visitar también el museo y la mina)   Exposición anual  el segundo fin de semana (viernes, sábado y domingo) de marzo (el Museo permanecerá abierto todo el día)" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 367 029" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Rios Rosas" ;
+	schema:postalCode "28003" ;
+	geo:lat "40.44207963042673"^^xsd:double ;
+	geo:long "-3.7003900716027776"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MuseoLosCañosdelPeral> a schema:Museum ;
+	rdfs:label "Museo Los Caños del Peral" ;
+	base:schedule "Viernes, sábados y domingos de 11 a 13 y de 17 a 19 horas" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "902 444 403" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Isabel Ii" ;
+	schema:postalCode "28013" ;
+	geo:lat "40.41775560280743"^^xsd:double ;
+	geo:long "-3.709202070089538"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MuseoLázaroGaldiano> a schema:Museum ;
+	rdfs:label "Museo Lázaro Galdiano" ;
+	base:schedule "Lunes y de miércoles a sábados de 10 a 16,30 horas.  Domingos de 10 a 15 horas.  Cerrado todos los martes, 1 y 6 de enero, 28 y 29 de marzo, 1 y 15 de mayo, 15 de agosto, 1 de noviembre y 24, 25 y 31 de diciembre.    Visitas guiadas  al Museo fuera de horario: de 17:30 a 18:45 horas, previa reserva telefónica en el 915 616 084 (extensión 101).    Horario para reserva telefónica: de lunes a jueves, de 8,30 a 16,30 horas, viernes hasta las 14 horas.   Importe: 2 euros (entrada al museo).   Miércoles y jueves: para grupos previamente constituidos.   Viernes para visitantes individuales reunidos para la visita." ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "915 616 084" ;
+	schema:email "secretaria.fundacion@flg.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Serrano" ;
+	schema:postalCode "28006" ;
+	geo:lat "40.436750328725985"^^xsd:double ;
+	geo:long "-3.6861980129207894"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Museum_of_L%C3%A1zaro_Galdiano> .
+
+<http://www.example.org/resources/Museum/MuseoNacionalCentrodeArteReinaSofía> a schema:Museum ;
+	rdfs:label "Museo Nacional Centro de Arte Reina Sofía" ;
+	base:schedule "De lunes a sábado de 10 a 21 horas y domingos de 10 a 19 horas (de 14:30 a 19 horas se pueden visitar la Colección 1, Edificio Sabatini planta 2,. El resto de las exposiciones temporales y la Colección, permanecen cerradas).  Martes cerrado (incluso festivos)  Cerrado los días 1 y 6 de enero, 1 de mayo, 15 de mayo, 9 de noviembre y 24, 25 y 31 de diciembre   El horario de la taquilla finaliza 30 minutos antes de la hora del cierre del museo." ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "917 741 000" ;
+	schema:email "info@museoreinasofia.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Santa Isabel" ;
+	schema:postalCode "28012" ;
+	geo:lat "40.40853230723727"^^xsd:double ;
+	geo:long "-3.6940315586451433"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Museo_Nacional_Centro_de_Arte_Reina_Sof%C3%ADa> .
+
+<http://www.example.org/resources/Museum/MuseoNacionaldeAntropología> a schema:Museum ;
+	rdfs:label "Museo Nacional de Antropología" ;
+	base:schedule "De martes a sábado de 9:30 a 20 horas, domingos y festivos de 10 a 15 horas.  Cerrado: todos los lunes; 1 de enero; 1 de mayo;  24, 25 y 31 de diciembre y dos festivos locales." ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "915 306 418" ;
+	schema:email "antropologico@mcu.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Alfonso Xii" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.40788746746481"^^xsd:double ;
+	geo:long "-3.6888747083604834"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Museo_Nacional_de_Antropolog%C3%ADa_(Madrid)> .
+
+<http://www.example.org/resources/Museum/MuseoNacionaldeArtesDecorativas> a schema:Museum ;
+	rdfs:label "Museo Nacional de Artes Decorativas" ;
+	base:schedule "De martes a sábados de 9:30 a 15 horas.   Jueves tarde de 17 a 20 horas.  Cerrado los jueves de julio y agosto.  Domingos y festivos de 10 a 15 horas.   Cerrado: todos los lunes del año, y los días 1 y 6 de enero, 1 y 15 de mayo, 24, 25 y 31 de diciembre." ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 326 499" ;
+	schema:email "mnad@mnad.mcu.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Montalban" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.4178910680573"^^xsd:double ;
+	geo:long "-3.689790044810553"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Museo_Nacional_de_Artes_Decorativas> .
+
+<http://www.example.org/resources/Museum/MuseoNacionaldeCienciayTecnología> a schema:Museum ;
+	rdfs:label "Museo Nacional de Ciencia y Tecnología" ;
+	base:schedule "De martes a sábado de 10 a 14 y de 16 a 18 horas. Domingo y festivos de 10 a 14:30 horas.  Verano (julio y agosto): de martes a sábado de 9 a 15 horas; domingos y festivos de 10 a 14:30 horas.   Cerrado: lunes, días 1 y 6 de enero, 1 y 15 de mayo y  24, 25 y 31 de diciembre" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "916 037 400" ;
+	schema:email "infomuseo@muncyt.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Paseo Delicias" ;
+	schema:postalCode "28045" ;
+	geo:lat "40.400281290485566"^^xsd:double ;
+	geo:long "-3.693817192160563"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MuseoNacionaldeCienciasNaturales> a schema:Museum ;
+	rdfs:label "Museo Nacional de Ciencias Naturales" ;
+	base:schedule "De martes a viernes, domingos, festivos y lunes festivos de 10 a 17 horas. Sábados, domingos previos a festivos de 10 a 20 horas. Sábados de julio y agosto de 10 a 15 horas.   Cerrado : todos los lunes no festivos, 1 y 6 de enero, 1 de mayo y 25 de diciembre   Biblioteca : de lunes a jueves de 9 a 20 y viernes de 9 a 15 horas. Julio y agosto: de lunes a viernes de 9 a 14,30 horas    Mediateca  (cerrada por obras)." ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "914 111 328" ;
+	schema:email "museo@bib.csic.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Jose Gutierrez Abascal" ;
+	schema:postalCode "28006" ;
+	geo:lat "40.44042943656617"^^xsd:double ;
+	geo:long "-3.690161856630636"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Museo_Nacional_de_Ciencias_Naturales> .
+
+<http://www.example.org/resources/Museum/MuseoNaval> a schema:Museum ;
+	rdfs:label "Museo Naval" ;
+	base:schedule "De martes a domingo de 10 a 19 horas. Cerrado: lunes,  días 1 y 6 de enero, viernes santo, 1 de mayo, día 16 de julio, y días 24, 25 y 31 de diciembre" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "915 238 516" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Paseo Prado" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.41751289873052"^^xsd:double ;
+	geo:long "-3.692768317427539"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Museo_Naval_de_Madrid> .
+
+<http://www.example.org/resources/Museum/MuseoPostalyTelegráfico> a schema:Museum ;
+	rdfs:label "Museo Postal y Telegráfico" ;
+	base:schedule "Museo: de lunes a viernes de 9 a 14 y de 16 a 18 horas.   Biblioteca: de lunes a viernes de 9 a 14 horas." ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "917 400 668" ;
+	schema:email "museopostaltelegrafico@correos.com" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Tapia De Casariego" ;
+	schema:postalCode "28023" ;
+	geo:lat "40.467706026917405"^^xsd:double ;
+	geo:long "-3.7690721403206724"^^xsd:double ;
+	owl:sameAs <http://wikidata.dbpedia.org/resource/Q6033677> .
+
+<http://www.example.org/resources/Museum/MuseoSorolla> a schema:Museum ;
+	rdfs:label "Museo Sorolla" ;
+	base:schedule "De martes a sábado: de 9:30 a 20 horas ininterrumpido   Domingo y festivos: de 10 a 15 horas  Cerrado: todos los lunes del año, 1 de enero, 1 de mayo, 24, 25 y 31 de diciembre, y dos festivos locales." ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 101 584" ;
+	schema:email "museo@msorolla.mcu.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Paseo General Martinez Campos" ;
+	schema:postalCode "28010" ;
+	geo:lat "40.43525376916864"^^xsd:double ;
+	geo:long "-3.69241981045026"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Sorolla_Museum> .
+
+<http://www.example.org/resources/Museum/MuseoTaurinodelaPlazadelasVentas> a schema:Museum ;
+	rdfs:label "Museo Taurino de la Plaza de las Ventas" ;
+	base:schedule "Temporada taurina  (de marzo a octubre): de lunes a viernes de 9:30 a 14:30 horas. Domingos, festivos y días de festejo de 10 a 13 horas   Fuera de temporada  (de noviembre a febrero): de lunes a viernes de 9:30 a 14:30 horas" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "917 251 857" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Alcala" ;
+	schema:postalCode "28028" ;
+	geo:lat "40.43157110306013"^^xsd:double ;
+	geo:long "-3.662872780933851"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Las_Ventas> .
+
+<http://www.example.org/resources/Museum/MuseoThyssenBornemisza> a schema:Museum ;
+	rdfs:label "Museo Thyssen Bornemisza" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "902 760 511" ;
+	schema:email "inform@museothyssen.org" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Paseo Prado" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.41600553697803"^^xsd:double ;
+	geo:long "-3.694744831131079"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Thyssen-Bornemisza_Museum> .
+
+<http://www.example.org/resources/Museum/MuseoTiflológico> a schema:Museum ;
+	rdfs:label "Museo Tiflológico" ;
+	base:schedule "Martes a viernes de 10 a 14 horas y de 17 a 20 horas. Sábados de 10 a 14 horas. Lunes, domingos y festivos cerrado.  Las visitas de grupos se realizan previa reserva, de 8 a 15 horas, en el teléfono de información:+34 915 894 219" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "915 894 290" ;
+	schema:email "museo@once.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle La Coruña" ;
+	schema:postalCode "28020" ;
+	geo:lat "40.45519790204094"^^xsd:double ;
+	geo:long "-3.7001960485997545"^^xsd:double .
+
+<http://www.example.org/resources/Museum/PalaciodeLiria> a schema:Museum ;
+	rdfs:label "Palacio de Liria" ;
+	base:schedule "Viernes: visita guiada a las 10 horas, 11 horas y 12 horas.  Visitas: previa petición de cita por escrito o por fax" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "91 547 53 02" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Princesa" ;
+	schema:postalCode "28008" ;
+	geo:lat "40.42680681645222"^^xsd:double ;
+	geo:long "-3.7125979731032404"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Liria_Palace> .
+
+<http://www.example.org/resources/Museum/PalacioReal> a schema:Museum ;
+	rdfs:label "Palacio Real" ;
+	base:schedule "De octubre a marzo: de 10 a 18 horas.  De abril a septiembre: de 10 a 20 horas.  Cierre taquillas una hora antes.  Cerrado: 1 y 6 (acto oficial) de enero; 1 de mayo; 25 de diciembre de 2014.   Abierto: 17 y 18 de abril; 2 y 15 de mayo; 19 de junio; 15 de agosto; 1 y 10 de noviembre; 6, 8, 24 y 31 de diciembre de 2014: taquillas cerradas a las 14 y monumento a la 15 horas." ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "914 548 800" ;
+	schema:email "info@patrimonionacional.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Bailen" ;
+	schema:postalCode "28013" ;
+	geo:lat "40.42075212551193"^^xsd:double ;
+	geo:long "-3.712699107286406"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Palacio_Real_de_Madrid> .
+
+<http://www.example.org/resources/Museum/PanteóndeHombresIlustres> a schema:Museum ;
+	rdfs:label "Panteón de Hombres Ilustres" ;
+	base:schedule "De martes a sábado de 10 a 14 y de 16 a 18,30 horas.  Domingos y festivos de 10 a 15 horas. Tardes cerrado.  Cerrado: 1 y 6 de enero; 1 de mayo; 25 de diciembre de 2014.   Abierto: 15 de mayo; 10 de noviembre y 8, 24 y 31 de diciembre de 2014: los días 24 y 31 de diciembre cerradas taquillas a las 14:30 y monumento a las 15 horas.  Abierto horario domingo: 17 y 18 de abril; 2 de mayo; 19 de junio; 15 de agosto; 1 de noviembre y 6 de diciembre de 2014.  Cierre del acceso al monumento media hora antes." ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "914 548 800" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Julian Gayarre" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.40622617519116"^^xsd:double ;
+	geo:long "-3.683413041846525"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Pantheon_of_Illustrious_Men> .
+
+<http://www.example.org/resources/Museum/ParroquiaSantaCruz> a schema:Museum ;
+	rdfs:label "Parroquia Santa Cruz" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 691 239" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Atocha" ;
+	schema:postalCode "28012" ;
+	geo:lat "40.414599766147546"^^xsd:double ;
+	geo:long "-3.705220430502387"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Iglesia_de_Santa_Cruz,_Santa_Cruz> .
+
+<http://www.example.org/resources/Museum/PlanetariodeMadrid> a schema:Museum ;
+	rdfs:label "Planetario de Madrid" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 673 461" ;
+	schema:email "buzon@planetmad.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Avenida Planetario" ;
+	schema:postalCode "28045" ;
+	geo:lat "40.39227092120195"^^xsd:double ;
+	geo:long "-3.684968648157021"^^xsd:double ;
+	owl:sameAs <http://wikidata.dbpedia.org/resource/Q9060456> .
+
+<http://www.example.org/resources/Museum/RealBasílicaSanFranciscoelGrande> a schema:Museum ;
+	rdfs:label "Real Basílica San Francisco el Grande" ;
+	base:schedule "Museo:  de martes a viernes de 10:30 a 12:30 y de 16 a 18 horas. Sábados de 10:30 a 12:30 y de 16 a 18 horas (si no se ofician actos religiosos). Julio y agosto: de martes a domingo de 10:30 a 12:30 y de 17 a 19 horas." ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 653 800" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle San Buenaventura" ;
+	schema:postalCode "28005" ;
+	geo:lat "40.41084005024222"^^xsd:double ;
+	geo:long "-3.714503845728281"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/San_Francisco_el_Grande_Basilica> .
+
+<http://www.example.org/resources/Museum/RealFábricadeTapices> a schema:Museum ;
+	rdfs:label "Real Fábrica de Tapices" ;
+	base:schedule "De lunes a viernes de 10 a 14 horas.   Cerrado: sábados, domingos, Semana Santa y agosto." ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 340 550" ;
+	schema:email "info@realfabricadetapices.com" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Fuenterrabia" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.406087329011655"^^xsd:double ;
+	geo:long "-3.682515969574079"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Royal_Tapestry_Factory> .
+
+<http://www.example.org/resources/Museum/RealMonasteriodelaEncarnación> a schema:Museum ;
+	rdfs:label "Real Monasterio de la Encarnación" ;
+	base:schedule "De martes a sábado: de 10 a 14 horas y de 16 a 18:30 horas  Domingos y festivos: de 10 a 15 horas y tardes cerrado  Cierre taquillas, 45 minutos antes  Cerrado: 1 y 6 de enero; Semana Santa (de 16 al 19 de abril, inclusive); 1 de mayo; 27 de julio; 10 de noviembre; 24, 25 y 31 de diciembre de 2014  Abierto: 15 de mayo y 8 de diciembre de 2014  Abierto horario domingo: 2 de mayo; 19 de junio; 15 de agosto; 1 de noviembre y 6 de diciembre de 2014    Atención telefónica    De lunes a sábados: de 9:30 a 17 horas  Domingos y festivos: de 9 a 14 horas" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "914 548 800" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Encarnacion" ;
+	schema:postalCode "28013" ;
+	geo:lat "40.41967800877382"^^xsd:double ;
+	geo:long "-3.711567962866152"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Royal_Convent_of_La_Encarnaci%C3%B3n> .
+
+<http://www.example.org/resources/Museum/RealSitiodeElPardo> a schema:Museum ;
+	rdfs:label "Real Sitio de El Pardo" ;
+	base:schedule "De octubre a marzo: todos los días de 10 a 18 horas  De abril a septiembre: todos los días de 10 a 20 horas  Cerrado: 1, 6 de enero; 1 de mayo; 24, 25 y 31 de diciembre de 2014.   Abierto: 17 y 18 de abril; 2 y 15 de mayo; 19 de junio; 15 de agosto; 1 y 10 de noviembre; 6 y 8 de diciembre de 2014." ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "913 761 500" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Manuel Alonso" ;
+	schema:postalCode "28048" ;
+	geo:lat "40.52071790499227"^^xsd:double ;
+	geo:long "-3.776630886241239"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/El_Pardo> .
+
+<http://www.example.org/resources/Museum/TemplodeDebod> a schema:Museum ;
+	rdfs:label "Templo de Debod" ;
+	base:schedule "De 1 de octubre a 31 de marzo   De martes a viernes de 9:45 a 13:45 y de 16:15 a 18:15 horas  Sábados, domingos y festivos de 9:30 a 20 hora    De 1 de abril a 30 de septiembre   De martes a viernes de 10 a 14 y de 18 a 20 horas  Sábados, domingos y festivos de 9:30 a 20 horas.     El templo permanece cerrado los lunes y los festivos 1 de enero, 1 de mayo y 25 de diciembre.  Último pase de visita 15 minutos antes del cierre.  Este horario y la apertura de salas pueden sufrir modificaciones, por favor, confírmelo en el teléfono de información del museo." ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 667 415" ;
+	schema:email "templodebod@madrid.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Ferraz" ;
+	schema:postalCode "28008" ;
+	geo:lat "40.42425096551599"^^xsd:double ;
+	geo:long "-3.716531855540272"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Temple_of_Debod> .
+
+<http://www.example.org/resources/Museum/Yacimientopaleontológico.EstacióndeMetroCarpetana> a schema:Museum ;
+	rdfs:label "Yacimiento paleontológico. Estación de Metro Carpetana" ;
+	base:schedule "Visitas todos los días durante la apertura de la estación, de 6 a 1:30 horas" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "902 444 403" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Via Carpetana" ;
+	schema:postalCode "28047" ;
+	geo:lat "40.39150793405899"^^xsd:double ;
+	geo:long "-3.7428839286586184"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Carpetana_(Madrid_Metro)> .
