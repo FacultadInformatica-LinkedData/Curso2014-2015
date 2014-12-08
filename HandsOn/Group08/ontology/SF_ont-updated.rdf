@@ -9,11 +9,12 @@
   <!ENTITY ont "http://www.semanticweb.org/group08">
   <!ENTITY purl "http://purl.org/dc/elements/1.1">
   <!ENTITY geon "http://sws.geonames.org">
+  <!ENTITY schema "http://schema.org">
 ]>
 
 <rdf:RDF xmlns:rdf="&rdf;#" xmlns:rdfs="&rdfs;#" xmlns:owl="&owl;#"
   xmlns:xsd="&xsd;#" xmlns:geosp="&geosp;/" xmlns:purl="&purl;/"
-  xmlns:geon="&geon;/" >
+  xmlns:geon="&geon;/" xmlns:schema="&schema;/" >
 
   <owl:Ontology rdf:about="http://www.semanticweb.org/group08/">
     <owl:versionInfo>1.0.0</owl:versionInfo>
@@ -103,16 +104,18 @@
 
   <!-- 311 Service Request Class -->
 
-  <owl:Class rdf:about="&ont;/ServiceRequest"/>
+  <owl:Class rdf:about="&ont;/ServiceRequest">
+    <owl:subClassOf rdf:about="&schema;/Place"/>
+  </owl:Class>
   
   <owl:ObjectProperty rdf:about="&ont;#open">
     <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
-    <rdfs:range rdf:resource="&xsd;#date"/>
+    <rdfs:range rdf:resource="&schema;/startDate"/>
   </owl:ObjectProperty>
 
   <owl:ObjectProperty rdf:about="&ont;#close">
     <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
-    <rdfs:range rdf:resource="&xsd;#date"/>
+    <rdfs:range rdf:resource="&schema;/endDate"/>
   </owl:ObjectProperty>
 
   <owl:ObjectProperty rdf:about="&ont;#state">
@@ -125,24 +128,19 @@
     <rdfs:range rdf:resource="&xsd;#string"/>
   </owl:ObjectProperty>
 
-  <owl:ObjectProperty rdf:about="&ont;#request">
-    <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
-    <rdfs:range rdf:resource="&xsd;#string"/>
-  </owl:ObjectProperty>
-
-  <owl:ObjectProperty rdf:about="&ont;#neighborhood">
-    <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
-    <rdfs:range rdf:resource="&geon;#Feature"/>
-  </owl:ObjectProperty>
-
   <owl:ObjectProperty rdf:about="&ont;#category">
     <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
     <rdfs:range rdf:resource="&xsd;#string"/>
   </owl:ObjectProperty>
 
-  <owl:ObjectProperty rdf:about="&ont;#hasGeometry">
+  <owl:ObjectProperty rdf:about="&ont;#request">
     <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
-    <rdfs:range rdf:resource="&geosp;#hasGeometry"/>
+    <rdfs:range rdf:resource="&xsd;#string"/>
+  </owl:ObjectProperty>
+
+  <owl:ObjectProperty rdf:about="&ont;#geometry">
+    <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
+    <rdfs:range rdf:resource="&geosp;#wktLiteral"/>
   </owl:ObjectProperty>
 
   <!-- Crime Class -->
