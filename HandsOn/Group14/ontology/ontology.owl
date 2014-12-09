@@ -14,7 +14,7 @@ xmlns:biblioteca="http://www.exmple.com/biblioteca#">
 </owl:Class>
 
 <owl:Class rdf:about="http://www.exmple.com/biblioteca#articulo">
-<rdfs:label>Aticulo</rdfs:label>
+<rdfs:label>Articulo</rdfs:label>
 <rdfs:comment>Entidad del articulo prestado</rdfs:comment>
 </owl:Class>
 
@@ -23,6 +23,27 @@ xmlns:biblioteca="http://www.exmple.com/biblioteca#">
 <rdfs:label>Evento de Biblioteca</rdfs:label>
 <rdfs:comment>Entidad eventos de biblioteca</rdfs:comment>
 </owl:Class>
+
+<owl:Class rdf:about="http://www.exmple.com/biblioteca#codigobiblioteca">
+<rdfs:label>Tipo de Biblioteca</rdfs:label>
+<rdfs:comment>Codigo de tipo biblioteca</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.exmple.com/biblioteca#codigoarticulo">
+<rdfs:label>Tipo de ejemplar</rdfs:label>
+<rdfs:comment>Codigo de tipo de articulo</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.exmple.com/biblioteca#codigolector">
+<rdfs:label>Tipo de usuario</rdfs:label>
+<rdfs:comment>Codigo de tipo de lector</rdfs:comment>
+</owl:Class>
+
+<owl:Class rdf:about="http://www.exmple.com/biblioteca#codigosucursal">
+<rdfs:label>Codigo de sucursal</rdfs:label>
+<rdfs:comment>Codigo de tipo de sucursal</rdfs:comment>
+</owl:Class>
+
 
 <owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#id"/>
 <owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#titulo"/>
@@ -56,4 +77,11 @@ xmlns:biblioteca="http://www.exmple.com/biblioteca#">
 <owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#prfpre"/> <!-- fecha_prestamo -->
 <owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#tititu"/> <!-- titulo_articulo -->
 <owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#tiauto"/> <!-- titulo_autor -->
+
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#tbiblioteca"/> <!-- tipo de biblioteca -->
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#tarticulo"/> <!-- tipo de ejemplar -->
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#tlector"/> <!-- tipo de lector -->
+<owl:DatatypeProperty rdf:about="http://www.exmple.com/biblioteca#tsucursal"/> <!-- tipo de biblioteca -->
+
+
 </rdf:RDF>
