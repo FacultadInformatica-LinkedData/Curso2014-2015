@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.tenerifetouristinformation.com/ontologies/lugares"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.tenerifetouristinformation.com/ontologies/lugares">
+    <Prefix name="" IRI="http://www.tenerifetouristinformation.com/ontologies/lugares.owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="hhttp://www.cenitmio.es/ontologies/Location.owl#LocationInformation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://idi.fundacionctic.org/cruzar/turismo#Monumento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/linked-data/sdmx/2009/code#Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.org/ontology/places#Township"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/TouristInformationCenter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dificultad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/2006/vcard/ns#Address"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://data.semanticweb.org/ns/swc/ontology#hasRole"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/ontology/places#in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.cenitmio.es/ontologies/Location.owl#hasWay"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene_dificultad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#adr"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/ns/org#location"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://data.ign.fr/def/geometrie#coordX"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://data.ign.fr/def/geometrie#coordY"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://vocab.org/transit/terms/schedule"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.ontotext.com/proton/protonext#hasWebPage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#postal-code"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Basílica_Ntra._Sra._de_Candelaria"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://idi.fundacionctic.org/cruzar/turismo#Monumento"/>
+        <Class IRI="http://schema.org/Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/TouristInformationCenter"/>
+        <Class IRI="http://schema.org/Place"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://data.semanticweb.org/ns/swc/ontology#hasRole"/>
+        <Class IRI="http://schema.org/Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/ontology/places#in"/>
+        <Class IRI="http://schema.org/Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.cenitmio.es/ontologies/Location.owl#hasWay"/>
+        <Class IRI="http://schema.org/Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tiene_dificultad"/>
+        <Class IRI="http://schema.org/Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#adr"/>
+        <Class IRI="http://schema.org/Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/ns/org#location"/>
+        <Class IRI="http://purl.org/ontology/places#Township"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://data.semanticweb.org/ns/swc/ontology#hasRole"/>
+        <Class IRI="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#Role"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/ontology/places#in"/>
+        <Class IRI="http://purl.org/ontology/places#Township"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.cenitmio.es/ontologies/Location.owl#hasWay"/>
+        <Class IRI="hhttp://www.cenitmio.es/ontologies/Location.owl#LocationInformation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tiene_dificultad"/>
+        <Class IRI="#Dificultad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#adr"/>
+        <Class IRI="http://www.w3.org/2006/vcard/ns#Address"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/ns/org#location"/>
+        <Class IRI="http://purl.org/linked-data/sdmx/2009/code#Area"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://data.ign.fr/def/geometrie#coordX"/>
+        <Class IRI="http://schema.org/Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://data.ign.fr/def/geometrie#coordY"/>
+        <Class IRI="http://schema.org/Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/description"/>
+        <Class IRI="http://schema.org/Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://vocab.org/transit/terms/schedule"/>
+        <Class IRI="http://schema.org/Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.ontotext.com/proton/protonext#hasWebPage"/>
+        <Class IRI="http://schema.org/Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#email"/>
+        <Class IRI="http://schema.org/Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#postal-code"/>
+        <Class IRI="http://www.w3.org/2006/vcard/ns#Address"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://data.ign.fr/def/geometrie#coordX"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://data.ign.fr/def/geometrie#coordY"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://schema.org/description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://vocab.org/transit/terms/schedule"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.ontotext.com/proton/protonext#hasWebPage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#postal-code"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
