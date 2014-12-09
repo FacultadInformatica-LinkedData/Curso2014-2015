@@ -3853,5 +3853,3110 @@
       "mode": "row-based",
       "facets": []
     }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Provincia to type http://dbpedia.org/ontology/Place",
+    "columnName": "Provincia",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Place",
+        "name": "dbo:Place"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Avila, Spain (http://dbpedia.org/resource/Avila,_Spain) for cells containing \"Ávila\" in column Provincia",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Provincia",
+    "similarValue": "Ávila",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Avila,_Spain",
+      "name": "Avila, Spain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Leon, Spain (http://dbpedia.org/resource/Leon,_Spain) for cells containing \"León\" in column Provincia",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Provincia",
+    "similarValue": "León",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Leon,_Spain",
+      "name": "Leon, Spain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Salamanca, Spain (http://dbpedia.org/resource/Salamanca,_Spain) for cells containing \"Salamanca\" in column Provincia",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Provincia",
+    "similarValue": "Salamanca",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Salamanca,_Spain",
+      "name": "Salamanca, Spain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Localidad to type http://dbpedia.org/ontology/Place",
+    "columnName": "Localidad",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/ontology/Place",
+        "name": "dbo:Place"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Las Navas del Marqués (http://dbpedia.org/resource/Las_Navas_del_Marqu%C3%A9s) for cells containing \"Navas del Marqués (Las)\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Localidad",
+    "similarValue": "Navas del Marqués (Las)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Las_Navas_del_Marqu%C3%A9s",
+      "name": "Las Navas del Marqués",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Las Navas del Marques (http://dbpedia.org/resource/Las_Navas_del_Marques) for cells containing \"Navas del Marqués (Las)\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Localidad",
+    "similarValue": "Navas del Marqués (Las)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Las_Navas_del_Marques",
+      "name": "Las Navas del Marques",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Avila, Spain (http://dbpedia.org/resource/Avila,_Spain) for cells containing \"Ávila\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Localidad",
+    "similarValue": "Ávila",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Avila,_Spain",
+      "name": "Avila, Spain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Covarrubias (http://wikidata.dbpedia.org/resource/Q425182) for cells containing \"Covarrubias\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Localidad",
+    "similarValue": "Covarrubias",
+    "judgment": "matched",
+    "match": {
+      "id": "http://wikidata.dbpedia.org/resource/Q425182",
+      "name": "Covarrubias",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Covarrubias (http://dbpedia.org/resource/Covarrubias) for cells containing \"Covarrubias\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Localidad",
+    "similarValue": "Covarrubias",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Covarrubias",
+      "name": "Covarrubias",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Provincia to type http://schema.org/Place",
+    "columnName": "Provincia",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://schema.org/Place",
+        "name": "schema:Place"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Provincia: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Provincia"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Zamora, Spain (http://dbpedia.org/resource/Zamora,_Spain) for cells containing \"Zamora\" in column Provincia",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Provincia: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Provincia"
+        }
+      ]
+    },
+    "columnName": "Provincia",
+    "similarValue": "Zamora",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Zamora,_Spain",
+      "name": "Zamora, Spain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Localidad to type http://dbpedia.org/class/yago/Municipality108626283",
+    "columnName": "Localidad",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://dbpedia.org/class/yago/Municipality108626283",
+        "name": "yago:Municipality108626283"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Valladolid",
+                "l": "Valladolid"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Provincia",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Provincia"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Localidad to type http://schema.org/Place",
+    "columnName": "Localidad",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpedia",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://schema.org/Place",
+        "name": "schema:Place"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Valladolid",
+                "l": "Valladolid"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Provincia",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Provincia"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Sahagun, Spain (http://dbpedia.org/resource/Sahagun,_Spain) for cells containing \"Sahagún\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Sahagún",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Sahagun,_Spain",
+      "name": "Sahagun, Spain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic La Robla, Spain (http://dbpedia.org/resource/La_Robla,_Spain) for cells containing \"Robla (La)\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Robla (La)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/La_Robla,_Spain",
+      "name": "La Robla, Spain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Benavides, León (http://dbpedia.org/resource/Benavides,_Le%C3%B3n) for cells containing \"Benavides\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Benavides",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Benavides,_Le%C3%B3n",
+      "name": "Benavides, León",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Torquemada, Spain (http://dbpedia.org/resource/Torquemada,_Spain) for cells containing \"Torquemada\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Torquemada",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Torquemada,_Spain",
+      "name": "Torquemada, Spain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Barruecopardo (http://dbpedia.org/resource/Barruecopardo) for cells containing \"Barruecopardo\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Barruecopardo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Barruecopardo",
+      "name": "Barruecopardo",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Salamanca (Spain) (http://dbpedia.org/resource/Salamanca_(Spain)) for cells containing \"Salamanca\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Localidad",
+    "similarValue": "Salamanca",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Salamanca_(Spain)",
+      "name": "Salamanca (Spain)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Villares de la Reina (http://dbpedia.org/resource/Villares_de_la_Reina) for cells containing \"Villares de la Reina\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Villares de la Reina",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Villares_de_la_Reina",
+      "name": "Villares de la Reina",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Endrinal (http://dbpedia.org/resource/Endrinal) for cells containing \"Endrinal\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Endrinal",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Endrinal",
+      "name": "Endrinal",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Terradillos (http://dbpedia.org/resource/Terradillos) for cells containing \"Terradillos\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Terradillos",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Terradillos",
+      "name": "Terradillos",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Zamora, Spain (http://dbpedia.org/resource/Zamora,_Spain) for cells containing \"Zamora\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Zamora",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Zamora,_Spain",
+      "name": "Zamora, Spain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Coca, Segovia (http://dbpedia.org/resource/Coca,_Segovia) for cells containing \"Coca\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Coca",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Coca,_Segovia",
+      "name": "Coca, Segovia",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Arévalo, Spain (http://dbpedia.org/resource/Ar%C3%A9valo,_Spain) for cells containing \"Arévalo\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Arévalo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ar%C3%A9valo,_Spain",
+      "name": "Arévalo, Spain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic El Hoyo de Pinares, Spain (http://dbpedia.org/resource/El_Hoyo_de_Pinares,_Spain) for cells containing \"Hoyo de Pinares (El)\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Hoyo de Pinares (El)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/El_Hoyo_de_Pinares,_Spain",
+      "name": "El Hoyo de Pinares, Spain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic La Pola de Gordón (http://dbpedia.org/resource/La_Pola_de_Gord%C3%B3n) for cells containing \"Pola de Gordón (La)\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Pola de Gordón (La)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/La_Pola_de_Gord%C3%B3n",
+      "name": "La Pola de Gordón",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Astorga, Spain (http://dbpedia.org/resource/Astorga,_Spain) for cells containing \"Astorga\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Astorga",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Astorga,_Spain",
+      "name": "Astorga, Spain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Leon, Spain (http://dbpedia.org/resource/Leon,_Spain) for cells containing \"León\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "León",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Leon,_Spain",
+      "name": "Leon, Spain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Saldaña, Spain (http://dbpedia.org/resource/Salda%C3%B1a,_Spain) for cells containing \"Saldaña\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Saldaña",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Salda%C3%B1a,_Spain",
+      "name": "Saldaña, Spain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Fuenteguinaldo (http://dbpedia.org/resource/Fuenteguinaldo) for cells containing \"Fuenteguinaldo\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Fuenteguinaldo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Fuenteguinaldo",
+      "name": "Fuenteguinaldo",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Cabrerizos (http://dbpedia.org/resource/Cabrerizos) for cells containing \"Cabrerizos\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Cabrerizos",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Cabrerizos",
+      "name": "Cabrerizos",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Mayorga, Spain (http://dbpedia.org/resource/Mayorga,_Spain) for cells containing \"Mayorga\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Mayorga",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Mayorga,_Spain",
+      "name": "Mayorga, Spain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Toro, Spain (http://dbpedia.org/resource/Toro,_Spain) for cells containing \"Toro\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Toro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Toro,_Spain",
+      "name": "Toro, Spain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Sepúlveda, Segovia (http://dbpedia.org/resource/Sep%C3%BAlveda,_Segovia) for cells containing \"Sepúlveda\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Sepúlveda",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Sep%C3%BAlveda,_Segovia",
+      "name": "Sepúlveda, Segovia",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Benavente, Zamora (http://dbpedia.org/resource/Benavente,_Zamora) for cells containing \"Benavente\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Benavente",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Benavente,_Zamora",
+      "name": "Benavente, Zamora",
+      "score": 0.529411792755127,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Peñafiel, Spain (http://dbpedia.org/resource/Pe%C3%B1afiel,_Spain) for cells containing \"Peñafiel\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Peñafiel",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Pe%C3%B1afiel,_Spain",
+      "name": "Peñafiel, Spain",
+      "score": 0.5333333015441895,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Villamayor, Salamanca (http://dbpedia.org/resource/Villamayor,_Salamanca) for cells containing \"Villamayor\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Villamayor",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Villamayor,_Salamanca",
+      "name": "Villamayor, Salamanca",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Dueñas, Palencia (http://dbpedia.org/resource/Due%C3%B1as,_Palencia) for cells containing \"Dueñas\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Dueñas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Due%C3%B1as,_Palencia",
+      "name": "Dueñas, Palencia",
+      "score": 0.375,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic San Ildefonso, Segovia (http://wikidata.dbpedia.org/resource/Q1125500) for cells containing \"San Ildefonso\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "San Ildefonso",
+    "judgment": "matched",
+    "match": {
+      "id": "http://wikidata.dbpedia.org/resource/Q1125500",
+      "name": "San Ildefonso, Segovia",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic La Seca (Valladolid) (http://dbpedia.org/resource/La_Seca) for cells containing \"Seca (La)\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Seca (La)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/La_Seca",
+      "name": "La Seca (Valladolid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Páramo del Sil (http://dbpedia.org/resource/P%C3%A1ramo_del_Sil) for cells containing \"Páramo del Sil\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Páramo del Sil",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/P%C3%A1ramo_del_Sil",
+      "name": "Páramo del Sil",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Los Santos, Salamanca (http://wikidata.dbpedia.org/resource/Q523428) for cells containing \"Santos (Los)\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Santos (Los)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://wikidata.dbpedia.org/resource/Q523428",
+      "name": "Los Santos, Salamanca",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic El Barco de Ávila (http://dbpedia.org/resource/El_Barco_de_%C3%81vila) for cells containing \"Barco de Ávila (El)\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Barco de Ávila (El)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/El_Barco_de_%C3%81vila",
+      "name": "El Barco de Ávila",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic El Tiemblo, Avila (http://dbpedia.org/resource/El_Tiemblo,_Avila) for cells containing \"Tiemblo (El)\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Tiemblo (El)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/El_Tiemblo,_Avila",
+      "name": "El Tiemblo, Avila",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic La Alberca (Salamanca) (http://dbpedia.org/resource/La_Alberca) for cells containing \"Alberca (La)\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Alberca (La)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/La_Alberca",
+      "name": "La Alberca (Salamanca)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Olmedo (Valladolid) (http://dbpedia.org/resource/Olmedo,_Valladolid) for cells containing \"Olmedo\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Olmedo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Olmedo,_Valladolid",
+      "name": "Olmedo (Valladolid)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Valdefuentes de Sangusín (http://wikidata.dbpedia.org/resource/Q1995271) for cells containing \"Valdefuentes de Sangusín\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Valdefuentes de Sangusín",
+    "judgment": "matched",
+    "match": {
+      "id": "http://wikidata.dbpedia.org/resource/Q1995271",
+      "name": "Valdefuentes de Sangusín",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Cespedosa de Tormes (http://dbpedia.org/resource/Cespedosa_de_Tormes) for cells containing \"Cespedosa de Tormes\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Cespedosa de Tormes",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Cespedosa_de_Tormes",
+      "name": "Cespedosa de Tormes",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Roa (Burgos) (http://dbpedia.org/resource/Roa_de_Duero) for cells containing \"Roa\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Roa",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Roa_de_Duero",
+      "name": "Roa (Burgos)",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic La Losa, Segovia (http://dbpedia.org/resource/La_Losa,_Segovia) for cells containing \"Losa (La)\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Losa (La)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/La_Losa,_Segovia",
+      "name": "La Losa, Segovia",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ledesma, Salamanca (http://dbpedia.org/resource/Ledesma,_Salamanca) for cells containing \"Ledesma\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Ledesma",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Ledesma,_Salamanca",
+      "name": "Ledesma, Salamanca",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Valle de Mena (http://dbpedia.org/resource/Valle_de_Mena) for cells containing \"Valle de Mena\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Valle de Mena",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Valle_de_Mena",
+      "name": "Valle de Mena",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic La Bañeza, León (http://dbpedia.org/resource/La_Ba%C3%B1eza,_Le%C3%B3n) for cells containing \"Bañeza (La)\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Bañeza (La)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/La_Ba%C3%B1eza,_Le%C3%B3n",
+      "name": "La Bañeza, León",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic La Fuente de San Esteban (http://dbpedia.org/resource/La_Fuente_de_San_Esteban) for cells containing \"Fuente de San Esteban (La)\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Fuente de San Esteban (La)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/La_Fuente_de_San_Esteban",
+      "name": "La Fuente de San Esteban",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Olvega, Spain (http://dbpedia.org/resource/Olvega,_Spain) for cells containing \"Olvega\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Olvega",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Olvega,_Spain",
+      "name": "Olvega, Spain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Vitigudino (http://dbpedia.org/resource/Vitigudino) for cells containing \"Vitigudino\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Vitigudino",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Vitigudino",
+      "name": "Vitigudino",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic San Cristóbal de Segovia (http://dbpedia.org/resource/San_Crist%C3%B3bal_de_Segovia) for cells containing \"San Cristóbal de Segovia\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "San Cristóbal de Segovia",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/San_Crist%C3%B3bal_de_Segovia",
+      "name": "San Cristóbal de Segovia",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Villanueva del Campo, Spain (http://dbpedia.org/resource/Villanueva_del_Campo,_Spain) for cells containing \"Villanueva del Campo\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Villanueva del Campo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Villanueva_del_Campo,_Spain",
+      "name": "Villanueva del Campo, Spain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Cantalpino (http://dbpedia.org/resource/Cantalpino) for cells containing \"Cantalpino\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Cantalpino",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Cantalpino",
+      "name": "Cantalpino",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Portillo, Valladolid (http://dbpedia.org/resource/Portillo,_Valladolid) for cells containing \"Portillo\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Portillo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Portillo,_Valladolid",
+      "name": "Portillo, Valladolid",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Macotera (http://dbpedia.org/resource/Macotera) for cells containing \"Macotera\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Macotera",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Macotera",
+      "name": "Macotera",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Cigales (http://dbpedia.org/resource/Cigales) for cells containing \"Cigales\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Cigales",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Cigales",
+      "name": "Cigales",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic El Barraco (http://dbpedia.org/resource/El_Barraco) for cells containing \"Barraco (El)\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Barraco (El)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/El_Barraco",
+      "name": "El Barraco",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic El Espinar (http://dbpedia.org/resource/El_Espinar) for cells containing \"Espinar (El)\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Espinar (El)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/El_Espinar",
+      "name": "El Espinar",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Candelario (http://wikidata.dbpedia.org/resource/Q1777917) for cells containing \"Candelario\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Candelario",
+    "judgment": "matched",
+    "match": {
+      "id": "http://wikidata.dbpedia.org/resource/Q1777917",
+      "name": "Candelario",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Candelario (http://wikidata.dbpedia.org/resource/Q12684820) for cells containing \"Candelario\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Candelario",
+                "l": "Candelario"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Candelario",
+    "judgment": "matched",
+    "match": {
+      "id": "http://wikidata.dbpedia.org/resource/Q12684820",
+      "name": "Candelario",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Horcajo Medianero (http://dbpedia.org/resource/Horcajo_Medianero) for cells containing \"Horcajo Medianero\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Horcajo Medianero",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Horcajo_Medianero",
+      "name": "Horcajo Medianero",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Guardo, Spain (http://dbpedia.org/resource/Guardo,_Spain) for cells containing \"Guardo\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Guardo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Guardo,_Spain",
+      "name": "Guardo, Spain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Carbajosa de la Sagrada (http://dbpedia.org/resource/Carbajosa_de_la_Sagrada) for cells containing \"Carbajosa de la Sagrada\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: judgment",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Carbajosa de la Sagrada",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Carbajosa_de_la_Sagrada",
+      "name": "Carbajosa de la Sagrada",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Peñaranda de Bracamonte (http://dbpedia.org/resource/Pe%C3%B1aranda_de_Bracamonte) for cells containing \"Peñaranda de Bracamonte\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Localidad",
+    "similarValue": "Peñaranda de Bracamonte",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Pe%C3%B1aranda_de_Bracamonte",
+      "name": "Peñaranda de Bracamonte",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Condado de Peñaranda de Bracamonte (http://wikidata.dbpedia.org/resource/Q5781882) for cells containing \"Peñaranda de Bracamonte\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Localidad",
+    "similarValue": "Peñaranda de Bracamonte",
+    "judgment": "matched",
+    "match": {
+      "id": "http://wikidata.dbpedia.org/resource/Q5781882",
+      "name": "Condado de Peñaranda de Bracamonte",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Peñaranda de Bracamonte (http://dbpedia.org/resource/Pe%C3%B1aranda_de_Bracamonte) for cells containing \"Peñaranda de Bracamonte\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "Localidad",
+    "similarValue": "Peñaranda de Bracamonte",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Pe%C3%B1aranda_de_Bracamonte",
+      "name": "Peñaranda de Bracamonte",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic La Vid y Barrios, Spain (http://dbpedia.org/resource/La_Vid_y_Barrios,_Spain) for cells containing \"Vid Y Barrios (La)\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.best.type, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: best candidate's types",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Vid Y Barrios (La)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/La_Vid_y_Barrios,_Spain",
+      "name": "La Vid y Barrios, Spain",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Pradera de Navalhorno (La)\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.best.type, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: best candidate's types",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Pradera de Navalhorno (La)"
+  },
+  {
+    "op": "core/recon-clear-similar-cells",
+    "description": "Clear recon data for cells containing \"Iscar\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.best.type, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: best candidate's types",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Iscar"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Toral de los Guzmanes (http://dbpedia.org/resource/Toral_de_los_Guzmanes) for cells containing \"Toral de los Guzmanes\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.best.type, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: best candidate's types",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Toral de los Guzmanes",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Toral_de_los_Guzmanes",
+      "name": "Toral de los Guzmanes",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic San Felices de los Gallegos (http://dbpedia.org/resource/San_Felices_de_los_Gallegos) for cells containing \"San Felices de los Gallegos\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.best.type, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: best candidate's types",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "San Felices de los Gallegos",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/San_Felices_de_los_Gallegos",
+      "name": "San Felices de los Gallegos",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Frades de la Sierra (http://dbpedia.org/resource/Frades_de_la_Sierra) for cells containing \"Frades de la Sierra\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.best.type, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: best candidate's types",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Frades de la Sierra",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Frades_de_la_Sierra",
+      "name": "Frades de la Sierra",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic San Pedro de Gaillos (http://dbpedia.org/resource/San_Pedro_de_Gaillos) for cells containing \"San Pedro de Gaillos\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.best.type, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: best candidate's types",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "San Pedro de Gaillos",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/San_Pedro_de_Gaillos",
+      "name": "San Pedro de Gaillos",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Hinojosa de Duero (http://dbpedia.org/resource/Hinojosa_de_Duero) for cells containing \"Hinojosa de Duero\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.best.type, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: best candidate's types",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Hinojosa de Duero",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Hinojosa_de_Duero",
+      "name": "Hinojosa de Duero",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Los Barrios de Luna (http://dbpedia.org/resource/Los_Barrios_de_Luna) for cells containing \"Barrios de Luna (Los)\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.best.type, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: best candidate's types",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Barrios de Luna (Los)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Los_Barrios_de_Luna",
+      "name": "Los Barrios de Luna",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Doñinos de Salamanca (http://dbpedia.org/resource/Do%C3%B1inos_de_Salamanca) for cells containing \"Doñinos de Salamanca\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.best.type, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: best candidate's types",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Doñinos de Salamanca",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Do%C3%B1inos_de_Salamanca",
+      "name": "Doñinos de Salamanca",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Burgo de Osma (http://dbpedia.org/resource/Burgo_de_Osma) for cells containing \"Burgo de Osma (El)\" in column Localidad",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "forNonBlank(cell.recon.best.type, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectBlank": false,
+          "selection": [
+            {
+              "v": {
+                "v": "(unreconciled)",
+                "l": "(unreconciled)"
+              }
+            }
+          ],
+          "selectError": false,
+          "invert": false,
+          "name": "Localidad: best candidate's types",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "Localidad"
+        }
+      ]
+    },
+    "columnName": "Localidad",
+    "similarValue": "Burgo de Osma (El)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Burgo_de_Osma",
+      "name": "Burgo de Osma",
+      "score": 100,
+      "types": [
+        "null"
+      ]
+    },
+    "shareNewTopics": false
   }
 ]

@@ -1,0 +1,393 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix tipo: <http://www.semanticweb.org/group9/ontology/tipo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.semanticweb.org/group9/ontology/Museo+de+la+Naturaleza+%3FValle+del+Alberche%3F> a tipo:centro ;
+	rdfs:label "Museo de la Naturaleza ?Valle del Alberche?" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/Urbanizaci%C3%B3n+Los+Chopos%2C+s%2Fn.> ;
+	vcard:hasURL <http://www.museoscastillayleon.jcyl.es/web/jcyl/MuseosCastillayLeon/es/Plantilla100Detalle/1258100892610/_/1261039020449/DirectorioPadre> ;
+	vcard:hasTelephone "920 281285" ;
+	vcard:hasEmail "museodelanaturaleza@elbarraco.org" .
+
+<http://www.semanticweb.org/group9/ontology/Barraco+%28El%29> a tipo:localidad ;
+	rdfs:label "Barraco (El)" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Urbanizaci%C3%B3n+Los+Chopos%2C+s%2Fn.> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/Ávila> .
+
+<http://www.semanticweb.org/group9/ontology/Ávila> a tipo:provincia ;
+	rdfs:label "Ávila" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Urbanizaci%C3%B3n+Los+Chopos%2C+s%2Fn.> .
+
+<http://www.semanticweb.org/group9/ontology/Urbanizaci%C3%B3n+Los+Chopos%2C+s%2Fn.> rdfs:label "Urbanización Los Chopos, s/n." ;
+	vcard:postal-code "5110" ;
+	geo:lat_long "40.47967144822859,-4.6527099609375" .
+
+<http://www.semanticweb.org/group9/ontology/Colecci%C3%B3n+Museogr%C3%A1fica+Cofradia+de+Nuestro+Padre+Jes%C3%BAs+Nazareno> a tipo:centro ;
+	rdfs:label "Colección Museográfica Cofradia de Nuestro Padre Jesús Nazareno" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/c%2F+Juan+de+Mansilla%2C+n%C2%BA+12> ;
+	vcard:hasURL <http://www.museoscastillayleon.jcyl.es/web/jcyl/MuseosCastillayLeon/es/Plantilla100Detalle/1258100892610/_/1284312323477/DirectorioPadre> ;
+	vcard:hasEmail "jesusnazareno@jesus-nazareno.es" .
+
+<http://www.semanticweb.org/group9/ontology/Ba%C3%B1eza+%28La%29> a tipo:localidad ;
+	rdfs:label "Bañeza (La)" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/c%2F+Juan+de+Mansilla%2C+n%C2%BA+12> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/León> .
+
+<http://www.semanticweb.org/group9/ontology/León> a tipo:provincia ;
+	rdfs:label "León" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/c%2F+Juan+de+Mansilla%2C+n%C2%BA+12> .
+
+<http://www.semanticweb.org/group9/ontology/c%2F+Juan+de+Mansilla%2C+n%C2%BA+12> rdfs:label "c/ Juan de Mansilla, nº 12" ;
+	vcard:postal-code "24750" ;
+	geo:lat_long "42.29927997490999,-5.8958762884140015" .
+
+<http://www.semanticweb.org/group9/ontology/Museo+Monasterio+de+Santa+Mar%C3%ADa+de+la+Vid> a tipo:centro ;
+	rdfs:label "Museo Monasterio de Santa María de la Vid" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/Monasterio+de+Santa+Mar%C3%ADa+de+la+Vid%2C+Ctra.+de+Soria%2C+s%2Fn.> ;
+	vcard:hasURL <http://www.museoscastillayleon.jcyl.es/web/jcyl/MuseosCastillayLeon/es/Plantilla100Detalle/1258100892610/_/1261039878603/DirectorioPadre> ;
+	vcard:hasTelephone "947 530510" ;
+	vcard:hasEmail "licet@retemail.es" .
+
+<http://www.semanticweb.org/group9/ontology/Vid+Y+Barrios+%28La%29> a tipo:localidad ;
+	rdfs:label "Vid Y Barrios (La)" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Monasterio+de+Santa+Mar%C3%ADa+de+la+Vid%2C+Ctra.+de+Soria%2C+s%2Fn.> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/Burgos> .
+
+<http://www.semanticweb.org/group9/ontology/Burgos> a tipo:provincia ;
+	rdfs:label "Burgos" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Monasterio+de+Santa+Mar%C3%ADa+de+la+Vid%2C+Ctra.+de+Soria%2C+s%2Fn.> .
+
+<http://www.semanticweb.org/group9/ontology/Monasterio+de+Santa+Mar%C3%ADa+de+la+Vid%2C+Ctra.+de+Soria%2C+s%2Fn.> rdfs:label "Monasterio de Santa María de la Vid, Ctra. de Soria, s/n." ;
+	vcard:postal-code "9471" ;
+	geo:lat_long "41.6319315629859,-3.4909915924072266" .
+
+<http://www.semanticweb.org/group9/ontology/Museo+del+Mar+%28Valsa%C3%ADn%29> a tipo:centro ;
+	rdfs:label "Museo del Mar (Valsaín)" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/Ctra.+de+Segovia%2C+17> ;
+	vcard:hasURL <http://www.museoscastillayleon.jcyl.es/web/jcyl/MuseosCastillayLeon/es/Plantilla100Detalle/1258100892610/_/1284321807316/DirectorioPadre> .
+
+<http://www.semanticweb.org/group9/ontology/Pradera+de+Navalhorno+%28La%29> a tipo:localidad ;
+	rdfs:label "Pradera de Navalhorno (La)" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Ctra.+de+Segovia%2C+17> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/Segovia> .
+
+<http://www.semanticweb.org/group9/ontology/Segovia> a tipo:provincia ;
+	rdfs:label "Segovia" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Ctra.+de+Segovia%2C+17> .
+
+<http://www.semanticweb.org/group9/ontology/Ctra.+de+Segovia%2C+17> rdfs:label "Ctra. de Segovia, 17" ;
+	vcard:postal-code "40109" ;
+	geo:lat_long "40.87925648143126,-4.018335342407227" .
+
+<http://www.semanticweb.org/group9/ontology/Museo+Marienma> a tipo:centro ;
+	rdfs:label "Museo Marienma" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/Avda.+Juan+Carlos+Dom%C3%ADnguez%2C+9.> ;
+	vcard:hasURL <http://www.museoscastillayleon.jcyl.es/web/jcyl/MuseosCastillayLeon/es/Plantilla100Detalle/1258100892610/_/1261041579475/DirectorioPadre> ;
+	vcard:hasTelephone "983 612703" .
+
+<http://www.semanticweb.org/group9/ontology/Iscar> a tipo:localidad ;
+	rdfs:label "Iscar" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Avda.+Juan+Carlos+Dom%C3%ADnguez%2C+9.> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/Valladolid> .
+
+<http://www.semanticweb.org/group9/ontology/Valladolid> a tipo:provincia ;
+	rdfs:label "Valladolid" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Avda.+Juan+Carlos+Dom%C3%ADnguez%2C+9.> .
+
+<http://www.semanticweb.org/group9/ontology/Avda.+Juan+Carlos+Dom%C3%ADnguez%2C+9.> rdfs:label "Avda. Juan Carlos Domínguez, 9." ;
+	vcard:postal-code "47420" ;
+	geo:lat_long "41.362943800301736,-4.523406028747559" .
+
+<http://www.semanticweb.org/group9/ontology/Museo+de+Trajes+T%C3%ADpicos> a tipo:centro ;
+	rdfs:label "Museo de Trajes Típicos" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/C%2F+Llanito%2C+8.> ;
+	vcard:hasURL <http://www.museoscastillayleon.jcyl.es/web/jcyl/MuseosCastillayLeon/es/Plantilla100Detalle/1258100892610/_/1261041324699/DirectorioPadre> ;
+	vcard:hasTelephone "923 415387" ;
+	vcard:hasEmail "joyeria@artesaniamendezlaalberca.com" .
+
+<http://www.semanticweb.org/group9/ontology/Alberca+%28La%29> a tipo:localidad ;
+	rdfs:label "Alberca (La)" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/C%2F+Llanito%2C+8.> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/Salamanca> .
+
+<http://www.semanticweb.org/group9/ontology/Salamanca> a tipo:provincia ;
+	rdfs:label "Salamanca" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/C%2F+Llanito%2C+8.> .
+
+<http://www.semanticweb.org/group9/ontology/C%2F+Llanito%2C+8.> rdfs:label "C/ Llanito, 8." ;
+	vcard:postal-code "37624" ;
+	geo:lat_long "40.488541589366456,-6.1115312576293945" .
+
+<http://www.semanticweb.org/group9/ontology/Museo+Etnogr%C3%A1fico+%28Macotera%29> a tipo:centro ;
+	rdfs:label "Museo Etnográfico (Macotera)" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/Plaza+Mayor%2C+s%2Fn> ;
+	vcard:hasURL <http://www.museoscastillayleon.jcyl.es/web/jcyl/MuseosCastillayLeon/es/Plantilla100Detalle/1258100892610/_/1284318134232/DirectorioPadre> ;
+	vcard:hasTelephone "923 555 003" ;
+	vcard:hasEmail "ayuntamiento@macotera.es" .
+
+<http://www.semanticweb.org/group9/ontology/Macotera> a tipo:localidad ;
+	rdfs:label "Macotera" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Plaza+Mayor%2C+s%2Fn> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/Salamanca> .
+
+<http://www.semanticweb.org/group9/ontology/Salamanca> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Plaza+Mayor%2C+s%2Fn> .
+
+<http://www.semanticweb.org/group9/ontology/Plaza+Mayor%2C+s%2Fn> rdfs:label "Plaza Mayor, s/n" ;
+	vcard:postal-code "37310" ;
+	geo:lat_long "40.83043687764918,-5.285797119140625" .
+
+<http://www.semanticweb.org/group9/ontology/Museo+del+Botijo> a tipo:centro ;
+	rdfs:label "Museo del Botijo" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/Plaza+Sol+Grande+s%2Fn.> ;
+	vcard:hasURL <http://www.museoscastillayleon.jcyl.es/web/jcyl/MuseosCastillayLeon/es/Plantilla100Detalle/1258100892610/_/1261040286671/DirectorioPadre> ;
+	vcard:hasTelephone "987 760003" ;
+	vcard:hasEmail "aytotoralguzmanes@fontun.com" .
+
+<http://www.semanticweb.org/group9/ontology/Toral+de+los+Guzmanes> a tipo:localidad ;
+	rdfs:label "Toral de los Guzmanes" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Plaza+Sol+Grande+s%2Fn.> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/León> .
+
+<http://www.semanticweb.org/group9/ontology/León> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Plaza+Sol+Grande+s%2Fn.> .
+
+<http://www.semanticweb.org/group9/ontology/Plaza+Sol+Grande+s%2Fn.> rdfs:label "Plaza Sol Grande s/n." ;
+	vcard:postal-code "24237" ;
+	geo:lat_long "42.24287916672521,-5.570240020751953" .
+
+<http://www.semanticweb.org/group9/ontology/Museo+del+Aceite+El+lagar+del+Mudo> a tipo:centro ;
+	rdfs:label "Museo del Aceite El lagar del Mudo" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/C%2F+Los+Pozos%2C+23.> ;
+	vcard:hasURL <http://www.museoscastillayleon.jcyl.es/web/jcyl/MuseosCastillayLeon/es/Plantilla100Detalle/1258100892610/_/1261041364312/DirectorioPadre> ;
+	vcard:hasTelephone "605 989573" ;
+	vcard:hasEmail "lagarero@telefonica.net" .
+
+<http://www.semanticweb.org/group9/ontology/San+Felices+de+los+Gallegos> a tipo:localidad ;
+	rdfs:label "San Felices de los Gallegos" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/C%2F+Los+Pozos%2C+23.> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/Salamanca> .
+
+<http://www.semanticweb.org/group9/ontology/Salamanca> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/C%2F+Los+Pozos%2C+23.> .
+
+<http://www.semanticweb.org/group9/ontology/C%2F+Los+Pozos%2C+23.> rdfs:label "C/ Los Pozos, 23." ;
+	vcard:postal-code "37270" ;
+	geo:lat_long "40.84926784818946,-6.709449291229248" .
+
+<http://www.semanticweb.org/group9/ontology/Casa+de+Gabriel+y+Gal%C3%A1n> a tipo:centro ;
+	rdfs:label "Casa de Gabriel y Galán" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/C%2F+La+Ermita%2C+9.> ;
+	vcard:hasURL <http://www.museoscastillayleon.jcyl.es/web/jcyl/MuseosCastillayLeon/es/Plantilla100Detalle/1258100892610/_/1261041335914/DirectorioPadre> ;
+	vcard:hasTelephone "923 390733" .
+
+<http://www.semanticweb.org/group9/ontology/Frades+de+la+Sierra> a tipo:localidad ;
+	rdfs:label "Frades de la Sierra" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/C%2F+La+Ermita%2C+9.> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/Salamanca> .
+
+<http://www.semanticweb.org/group9/ontology/Salamanca> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/C%2F+La+Ermita%2C+9.> .
+
+<http://www.semanticweb.org/group9/ontology/C%2F+La+Ermita%2C+9.> rdfs:label "C/ La Ermita, 9." ;
+	vcard:postal-code "37766" ;
+	geo:lat_long "40.65879671892343,-5.784580707550049" .
+
+<http://www.semanticweb.org/group9/ontology/Museo+del+Paloteo.+Centro+de+Interpretaci%C3%B3n+del+Folklore> a tipo:centro ;
+	rdfs:label "Museo del Paloteo. Centro de Interpretación del Folklore" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/Avda.+del+Folklore+s%2Fn.> ;
+	vcard:hasURL <http://www.museoscastillayleon.jcyl.es/web/jcyl/MuseosCastillayLeon/es/Plantilla100Detalle/1258100892610/_/1261041399007/DirectorioPadre> ;
+	vcard:hasTelephone "921 531055" ;
+	vcard:hasEmail "centrofolk@sanpedrodegaillos.com" .
+
+<http://www.semanticweb.org/group9/ontology/San+Pedro+de+Gaillos> a tipo:localidad ;
+	rdfs:label "San Pedro de Gaillos" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Avda.+del+Folklore+s%2Fn.> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/Segovia> .
+
+<http://www.semanticweb.org/group9/ontology/Segovia> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Avda.+del+Folklore+s%2Fn.> .
+
+<http://www.semanticweb.org/group9/ontology/Avda.+del+Folklore+s%2Fn.> rdfs:label "Avda. del Folklore s/n." ;
+	vcard:postal-code "40389" ;
+	geo:lat_long "41.22483571754928,-3.806612491607666" .
+
+<http://www.semanticweb.org/group9/ontology/Museo+Parroquial+de+Nuestra+Se%C3%B1ora+de+la+Asunci%C3%B3n> a tipo:centro ;
+	rdfs:label "Museo Parroquial de Nuestra Señora de la Asunción" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/Iglesia+de+la+Asunci%C3%B3n+de+Nuestra+Se%C3%B1ora.> ;
+	vcard:hasURL <http://www.museoscastillayleon.jcyl.es/web/jcyl/MuseosCastillayLeon/es/Plantilla100Detalle/1258100892610/_/1261039019008/DirectorioPadre> ;
+	vcard:hasTelephone "920 340077" .
+
+<http://www.semanticweb.org/group9/ontology/Barco+de+%C3%81vila+%28El%29> a tipo:localidad ;
+	rdfs:label "Barco de Ávila (El)" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Iglesia+de+la+Asunci%C3%B3n+de+Nuestra+Se%C3%B1ora.> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/Ávila> .
+
+<http://www.semanticweb.org/group9/ontology/Ávila> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Iglesia+de+la+Asunci%C3%B3n+de+Nuestra+Se%C3%B1ora.> .
+
+<http://www.semanticweb.org/group9/ontology/Iglesia+de+la+Asunci%C3%B3n+de+Nuestra+Se%C3%B1ora.> rdfs:label "Iglesia de la Asunción de Nuestra Señora." ;
+	vcard:postal-code "5600" ;
+	geo:lat_long "40.35672564186882,-5.523226261138916" .
+
+<http://www.semanticweb.org/group9/ontology/Museo+Interpretativo+del+Duero> a tipo:centro ;
+	rdfs:label "Museo Interpretativo del Duero" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/Avenida+S%C3%A1nchez+Ter%C3%A1n+s%2Fn.> ;
+	vcard:hasURL <http://www.museoscastillayleon.jcyl.es/web/jcyl/MuseosCastillayLeon/es/Plantilla100Detalle/1258100892610/_/1261041337832/DirectorioPadre> ;
+	vcard:hasTelephone "923 515003" ;
+	vcard:hasEmail "hinojosadeduero@aytohinojosa.com" .
+
+<http://www.semanticweb.org/group9/ontology/Hinojosa+de+Duero> a tipo:localidad ;
+	rdfs:label "Hinojosa de Duero" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Avenida+S%C3%A1nchez+Ter%C3%A1n+s%2Fn.> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/Salamanca> .
+
+<http://www.semanticweb.org/group9/ontology/Salamanca> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Avenida+S%C3%A1nchez+Ter%C3%A1n+s%2Fn.> .
+
+<http://www.semanticweb.org/group9/ontology/Avenida+S%C3%A1nchez+Ter%C3%A1n+s%2Fn.> rdfs:label "Avenida Sánchez Terán s/n." ;
+	vcard:postal-code "37230" ;
+	geo:lat_long "40.987025353939416,-6.793198585510254" .
+
+<http://www.semanticweb.org/group9/ontology/Museo+Antropol%C3%B3gico+de+%C3%93lvega.+Jos%C3%A9+Escribano+Calvo> a tipo:centro ;
+	rdfs:label "Museo Antropológico de Ólvega. José Escribano Calvo" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/Plaza+de+la+Picota%2C+13.> ;
+	vcard:hasURL <http://www.museoscastillayleon.jcyl.es/web/jcyl/MuseosCastillayLeon/es/Plantilla100Detalle/1258100892610/_/1261041518467/DirectorioPadre> ;
+	vcard:hasTelephone "976 645561" .
+
+<http://www.semanticweb.org/group9/ontology/Olvega> a tipo:localidad ;
+	rdfs:label "Olvega" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Plaza+de+la+Picota%2C+13.> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/Soria> .
+
+<http://www.semanticweb.org/group9/ontology/Soria> a tipo:provincia ;
+	rdfs:label "Soria" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Plaza+de+la+Picota%2C+13.> .
+
+<http://www.semanticweb.org/group9/ontology/Plaza+de+la+Picota%2C+13.> rdfs:label "Plaza de la Picota, 13." ;
+	vcard:postal-code "42110" ;
+	geo:lat_long "41.777936719863185,-1.9838261604309082" .
+
+<http://www.semanticweb.org/group9/ontology/Museo+de+la+Alubia> a tipo:centro ;
+	rdfs:label "Museo de la Alubia" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/Avda.+de+Portugal%2C+s%2Fn.> ;
+	vcard:hasURL <http://www.museoscastillayleon.jcyl.es/web/jcyl/MuseosCastillayLeon/es/Plantilla100Detalle/1258100892610/_/1261039914505/DirectorioPadre> ;
+	vcard:hasTelephone "987 641686" ;
+	vcard:hasEmail "direccion@alubiadelabanezaleon.es" .
+
+<http://www.semanticweb.org/group9/ontology/Ba%C3%B1eza+%28La%29> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Avda.+de+Portugal%2C+s%2Fn.> .
+
+<http://www.semanticweb.org/group9/ontology/León> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Avda.+de+Portugal%2C+s%2Fn.> .
+
+<http://www.semanticweb.org/group9/ontology/Avda.+de+Portugal%2C+s%2Fn.> rdfs:label "Avda. de Portugal, s/n." ;
+	vcard:postal-code "24750" ;
+	geo:lat_long "42.29273882281698,-5.910472869873047" .
+
+<http://www.semanticweb.org/group9/ontology/Museo+del+Pastor> a tipo:centro ;
+	rdfs:label "Museo del Pastor" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/Ctra.+Vieja.> ;
+	vcard:hasURL <http://www.museoscastillayleon.jcyl.es/web/jcyl/MuseosCastillayLeon/es/Plantilla100Detalle/1258100892610/_/1261039916760/DirectorioPadre> ;
+	vcard:hasTelephone "987 581492" ;
+	vcard:hasEmail "info@aytolosbarriosdeluna.es" .
+
+<http://www.semanticweb.org/group9/ontology/Barrios+de+Luna+%28Los%29> a tipo:localidad ;
+	rdfs:label "Barrios de Luna (Los)" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Ctra.+Vieja.> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/León> .
+
+<http://www.semanticweb.org/group9/ontology/León> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Ctra.+Vieja.> .
+
+<http://www.semanticweb.org/group9/ontology/Ctra.+Vieja.> rdfs:label "Ctra. Vieja." ;
+	vcard:postal-code "24148" ;
+	geo:lat_long "42.84541900151581,-5.861377716064453" .
+
+<http://www.semanticweb.org/group9/ontology/Casa+Museo+Satur+Juanela> a tipo:centro ;
+	rdfs:label "Casa Museo Satur Juanela" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/C%2FMes%C3%B3n%2C+7.> ;
+	vcard:hasURL <http://www.museoscastillayleon.jcyl.es/web/jcyl/MuseosCastillayLeon/es/Plantilla100Detalle/1258100892610/_/1261041323652/DirectorioPadre> ;
+	vcard:hasTelephone "923 415165" ;
+	vcard:hasEmail "casamuseosaturjuanela@hotmail.com" .
+
+<http://www.semanticweb.org/group9/ontology/Alberca+%28La%29> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/C%2FMes%C3%B3n%2C+7.> .
+
+<http://www.semanticweb.org/group9/ontology/Salamanca> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/C%2FMes%C3%B3n%2C+7.> .
+
+<http://www.semanticweb.org/group9/ontology/C%2FMes%C3%B3n%2C+7.> rdfs:label "C/Mesón, 7." ;
+	vcard:postal-code "37624" ;
+	geo:lat_long "40.48924331682361,-6.109299659729004" .
+
+<http://www.semanticweb.org/group9/ontology/Museo+del+Hormig%C3%B3n+%C3%81ngel+Mateos> a tipo:centro ;
+	rdfs:label "Museo del Hormigón Ángel Mateos" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/Avenida+Juan+Carlos+I%2C+s%2Fn.> ;
+	vcard:hasURL <http://www.museoscastillayleon.jcyl.es/web/jcyl/MuseosCastillayLeon/es/Plantilla100Detalle/1258100892610/_/1261041335476/DirectorioPadre> ;
+	vcard:hasTelephone "923 330001" ;
+	vcard:hasEmail "alcalde@ayto-doninos.com" .
+
+<http://www.semanticweb.org/group9/ontology/Do%C3%B1inos+de+Salamanca> a tipo:localidad ;
+	rdfs:label "Doñinos de Salamanca" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Avenida+Juan+Carlos+I%2C+s%2Fn.> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/Salamanca> .
+
+<http://www.semanticweb.org/group9/ontology/Salamanca> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Avenida+Juan+Carlos+I%2C+s%2Fn.> .
+
+<http://www.semanticweb.org/group9/ontology/Avenida+Juan+Carlos+I%2C+s%2Fn.> rdfs:label "Avenida Juan Carlos I, s/n." ;
+	vcard:postal-code "37120" ;
+	geo:lat_long "40.96001859662032,-5.744819641113281" .
+
+<http://www.semanticweb.org/group9/ontology/Casa+Albercana> a tipo:centro ;
+	rdfs:label "Casa Albercana" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/C%2F+La+Puente%2C+9-11> ;
+	vcard:hasURL <http://www.datosabiertos.jcyl.es/web/jcyl/RISP/es/Plantilla100Detalle/1284162055979/_/1284236125478/DirectorioPadre> ;
+	vcard:hasTelephone "923 415 036 / 923 415 291" .
+
+<http://www.semanticweb.org/group9/ontology/Alberca+%28La%29> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/C%2F+La+Puente%2C+9-11> .
+
+<http://www.semanticweb.org/group9/ontology/Salamanca> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/C%2F+La+Puente%2C+9-11> .
+
+<http://www.semanticweb.org/group9/ontology/C%2F+La+Puente%2C+9-11> rdfs:label "C/ La Puente, 9-11" ;
+	vcard:postal-code "37624" ;
+	geo:lat_long "5.6143847,-73.821625" .
+
+<http://www.semanticweb.org/group9/ontology/Museo+Etnogr%C3%A1fico+de+Hinojosa+de+Duero> a tipo:centro ;
+	rdfs:label "Museo Etnográfico de Hinojosa de Duero" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/C%2F+S%C3%A1nchez+Ter%C3%A1n%2C+55> ;
+	vcard:hasURL <http://www.datosabiertos.jcyl.es/web/jcyl/RISP/es/Plantilla100Detalle/1284162055979/_/1284236152945/DirectorioPadre> ;
+	vcard:hasTelephone "923 515 003 (Ayto)" .
+
+<http://www.semanticweb.org/group9/ontology/Hinojosa+de+Duero> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/C%2F+S%C3%A1nchez+Ter%C3%A1n%2C+55> .
+
+<http://www.semanticweb.org/group9/ontology/Salamanca> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/C%2F+S%C3%A1nchez+Ter%C3%A1n%2C+55> .
+
+<http://www.semanticweb.org/group9/ontology/C%2F+S%C3%A1nchez+Ter%C3%A1n%2C+55> rdfs:label "C/ Sánchez Terán, 55" ;
+	vcard:postal-code "37230" ;
+	geo:lat_long "40.98744,-6.7942443" .
+
+<http://www.semanticweb.org/group9/ontology/Aula+Arqueol%C3%B3gica+de+Uxama.+Centro+Cultural+San+Agust%C3%ADn> a tipo:centro ;
+	rdfs:label "Aula Arqueológica de Uxama. Centro Cultural San Agustín" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/Plaza+Mayor%2C+5> ;
+	vcard:hasURL <http://www.datosabiertos.jcyl.es/web/jcyl/RISP/es/Plantilla100Detalle/1284162055979/_/1284236167989/DirectorioPadre> ;
+	vcard:hasTelephone "975 360 116" .
+
+<http://www.semanticweb.org/group9/ontology/Burgo+de+Osma+%28El%29> a tipo:localidad ;
+	rdfs:label "Burgo de Osma (El)" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Plaza+Mayor%2C+5> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/Soria> .
+
+<http://www.semanticweb.org/group9/ontology/Soria> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/Plaza+Mayor%2C+5> .
+
+<http://www.semanticweb.org/group9/ontology/Plaza+Mayor%2C+5> rdfs:label "Plaza Mayor, 5" ;
+	vcard:postal-code "42300" ;
+	geo:lat_long "41.58733634484111,-3.066963851451874" .
+
+<http://www.semanticweb.org/group9/ontology/Casa+Museo+de+Blas+Villodres> a tipo:centro ;
+	rdfs:label "Casa Museo de Blas Villodres" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/C%2F+Eleta%2C+2+> ;
+	vcard:hasURL <http://www.datosabiertos.jcyl.es/web/jcyl/RISP/es/Plantilla100Detalle/1284162055979/_/1284236125695/DirectorioPadre> ;
+	vcard:hasTelephone "975 341006" .
+
+<http://www.semanticweb.org/group9/ontology/Burgo+de+Osma+%28El%29> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/C%2F+Eleta%2C+2+> .
+
+<http://www.semanticweb.org/group9/ontology/Soria> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/C%2F+Eleta%2C+2+> .
+
+<http://www.semanticweb.org/group9/ontology/C%2F+Eleta%2C+2+> rdfs:label "C/ Eleta, 2 " ;
+	vcard:postal-code "42300" ;
+	geo:lat_long "41.58485870906111,-3.070099353790283" .
