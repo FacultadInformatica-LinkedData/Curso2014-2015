@@ -217,7 +217,7 @@
     "op": "rdf-extension/save-rdf-schema",
     "description": "Save RDF schema skeleton",
     "schema": {
-      "baseUri": "http://www.semanticweb.org/grupo08/Building/",
+      "baseUri": "http://www.semanticweb.org/grupo08/",
       "prefixes": [
         {
           "name": "rdfs",
@@ -247,7 +247,7 @@
       "rootNodes": [
         {
           "nodeType": "cell-as-resource",
-          "expression": "if(contains(cells[\"CATEGORY\"].value,\"Fire\"),\"Fire/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Healt\"),\"Health/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Police\"),\"Police/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Port\"),\"Port/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Library\"),\"Publiclibrary/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Works\"),\"Publicworks/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Real\"),\"Realestate/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Park\"),\"Park/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Other\"),\"Other/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Clean\"),\"PUC/Cleanwaterprogram/\",\nif(contains(cells[\"CATEGORY\"].value,\"Water\"),\"PUC/WaterDepartment/\",\"\"))+\nif(contains(cells[\"CATEGORY\"].value,\"Hetch\"),\"PUC/Hetchhetchy/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"MTA\"),\"Other/\",\"\")\n+value",
+          "expression": "if(contains(cells[\"CATEGORY\"].value,\"Fire\"),\"Fire/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Healt\"),\"Health/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Police\"),\"Police/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Port\"),\"Port/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Library\"),\"Library/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Works\"),\"Works/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Real\"),\"RealeState/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Park\"),\"RecreationPark/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Other\"),\"Other/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Clean\"),\"PUC/Cleanwaterprogram/\",\nif(contains(cells[\"CATEGORY\"].value,\"Water\"),\"PUC/WaterDepartment/\",\"\"))+\nif(contains(cells[\"CATEGORY\"].value,\"Hetch\"),\"PUC/Hetchhetchy/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"MTA\"),\"Other/\",\"\")\n+value",
           "isRowNumberCell": false,
           "columnName": "BUILDID",
           "rdfTypes": [],
@@ -297,7 +297,114 @@
               "curie": "geosp:hasGeometry",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "if(contains(cells[\"CATEGORY\"].value,\"Fire\"),\"Fire/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Healt\"),\"Health/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Police\"),\"Police/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Port\"),\"Port/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Library\"),\"Publiclibrary/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Works\"),\"Publicworks/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Real\"),\"Realestate/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Park\"),\"Park/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Other\"),\"Other/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Clean\"),\"PUC/Cleanwaterprogram/\",\nif(contains(cells[\"CATEGORY\"].value,\"Water\"),\"PUC/WaterDepartment/\",\"\"))+\nif(contains(cells[\"CATEGORY\"].value,\"Hetch\"),\"PUC/Hetchhetchy/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"MTA\"),\"Other/\",\"\")\n+value+\"/geometry\"",
+                "expression": "if(contains(cells[\"CATEGORY\"].value,\"Fire\"),\"Fire/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Healt\"),\"Health/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Police\"),\"Police/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Port\"),\"Port/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Library\"),\"Library/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Works\"),\"Works/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Real\"),\"RealeState/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Park\"),\"RecreationPark/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Other\"),\"Other/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Clean\"),\"PUC/Cleanwaterprogram/\",\nif(contains(cells[\"CATEGORY\"].value,\"Water\"),\"PUC/WaterDepartment/\",\"\"))+\nif(contains(cells[\"CATEGORY\"].value,\"Hetch\"),\"PUC/Hetchhetchy/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"MTA\"),\"Other/\",\"\")\n+value+\"/geometry\"",
+                "isRowNumberCell": false,
+                "columnName": "BUILDID",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "curie": "geosp:asWKT",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "asWKT"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/grupo08/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/grupo08/Building#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "if(contains(cells[\"CATEGORY\"].value,\"Fire\"),\"Fire/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Healt\"),\"Health/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Police\"),\"Police/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Port\"),\"Port/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Library\"),\"Library/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Works\"),\"Works/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Real\"),\"RealeState/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Park\"),\"RecreationPark/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Other\"),\"Other/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Clean\"),\"PUC/Cleanwaterprogram/\",\nif(contains(cells[\"CATEGORY\"].value,\"Water\"),\"PUC/WaterDepartment/\",\"\"))+\nif(contains(cells[\"CATEGORY\"].value,\"Hetch\"),\"PUC/Hetchhetchy/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"MTA\"),\"Other/\",\"\")\n+value",
+          "isRowNumberCell": false,
+          "columnName": "BUILDID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/grupo08/Building#buildid",
+              "curie": "ont:buildid",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BUILDID"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo08/Building#name",
+              "curie": "ont:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NAME"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo08/Building#category",
+              "curie": "ont:category",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CATEGORY"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/grupo08/Building#department",
+              "curie": "ont:department",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DEPARTMENT"
+              }
+            },
+            {
+              "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+              "curie": "geosp:hasGeometry",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "if(contains(cells[\"CATEGORY\"].value,\"Fire\"),\"Fire/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Healt\"),\"Health/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Police\"),\"Police/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Port\"),\"Port/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Library\"),\"Library/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Works\"),\"Works/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Real\"),\"RealeState/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Park\"),\"RecreationPark/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Other\"),\"Other/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"Clean\"),\"PUC/Cleanwaterprogram/\",\nif(contains(cells[\"CATEGORY\"].value,\"Water\"),\"PUC/WaterDepartment/\",\"\"))+\nif(contains(cells[\"CATEGORY\"].value,\"Hetch\"),\"PUC/Hetchhetchy/\",\"\")+\nif(contains(cells[\"CATEGORY\"].value,\"MTA\"),\"Other/\",\"\")\n+value+\"/geometry\"",
                 "isRowNumberCell": false,
                 "columnName": "BUILDID",
                 "rdfTypes": [],
