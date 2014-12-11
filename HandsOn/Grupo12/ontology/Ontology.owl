@@ -1,0 +1,279 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/OntologyGroup12#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/OntologyGroup12#">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="Autobus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Bibliobus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Biblioteca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CentroCultural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Direccion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Distrito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LugarPrestamoLibros"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Metro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TransportePublico"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="accesibleDesde"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="estaEnDistrito"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="tieneDireccion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="AccesoParaMinusvalidos"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Calle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="CodigoPostal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Descripcion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Equipamiento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Horario"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Latitud"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Longitud"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Nombre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Numero"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Telefono"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="URL"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="Autobus"/>
+        <Class IRI="TransportePublico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Bibliobus"/>
+        <Class IRI="LugarPrestamoLibros"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Biblioteca"/>
+        <Class IRI="LugarPrestamoLibros"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Metro"/>
+        <Class IRI="TransportePublico"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="accesibleDesde"/>
+        <Class IRI="CentroCultural"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="accesibleDesde"/>
+        <Class IRI="LugarPrestamoLibros"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="estaEnDistrito"/>
+        <Class IRI="Direccion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="tieneDireccion"/>
+        <Class IRI="Direccion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="accesibleDesde"/>
+        <Class IRI="TransportePublico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="estaEnDistrito"/>
+        <Class IRI="Distrito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="tieneDireccion"/>
+        <Class IRI="CentroCultural"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="tieneDireccion"/>
+        <Class IRI="LugarPrestamoLibros"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="AccesoParaMinusvalidos"/>
+        <Class IRI="CentroCultural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="AccesoParaMinusvalidos"/>
+        <Class IRI="LugarPrestamoLibros"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Calle"/>
+        <Class IRI="Direccion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="CodigoPostal"/>
+        <Class IRI="Distrito"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Descripcion"/>
+        <Class IRI="CentroCultural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Descripcion"/>
+        <Class IRI="LugarPrestamoLibros"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Email"/>
+        <Class IRI="Direccion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Equipamiento"/>
+        <Class IRI="CentroCultural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Equipamiento"/>
+        <Class IRI="LugarPrestamoLibros"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Horario"/>
+        <Class IRI="CentroCultural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Horario"/>
+        <Class IRI="LugarPrestamoLibros"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Latitud"/>
+        <Class IRI="Direccion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Longitud"/>
+        <Class IRI="Direccion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Nombre"/>
+        <Class IRI="CentroCultural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Nombre"/>
+        <Class IRI="LugarPrestamoLibros"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Numero"/>
+        <Class IRI="Direccion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Telefono"/>
+        <Class IRI="Direccion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="URL"/>
+        <Class IRI="CentroCultural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="URL"/>
+        <Class IRI="LugarPrestamoLibros"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="AccesoParaMinusvalidos"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Calle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="CodigoPostal"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Descripcion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Equipamiento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Horario"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Latitud"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Longitud"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Nombre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Numero"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="Telefono"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="URL"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

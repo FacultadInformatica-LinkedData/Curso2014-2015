@@ -1,0 +1,920 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix base: <http://www.example.org/ontology/TourismMadrid#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://www.example.org/resources/Museum/MuseoalAireLibredelaCastellana> a base:Monument ;
+	rdfs:label "Museo al Aire Libre de la Castellana" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "917 011 863" ;
+	schema:email "smuseosm@madrid.es" .
+
+<http://www.example.org/resources/City/Madrid> owl:sameAs <http://dbpedia.org/resource/Madrid> .
+
+<http://www.example.org/resources/Museum/MuseoalAireLibredelaCastellana> schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Paseo Castellana" ;
+	schema:postalCode "28046" ;
+	geo:lat "40.433219398671156"^^xsd:double ;
+	geo:long "-3.6876122680805956"^^xsd:double .
+
+<http://www.example.org/resources/Museum/BancodeEspaña> a base:Monument ;
+	rdfs:label "Banco de España" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 385 000" ;
+	schema:email "sedeelectronica@bde.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Alcala" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.4188339187439"^^xsd:double ;
+	geo:long "-3.69482107480432"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Bank_of_Spain> .
+
+<http://www.example.org/resources/Museum/BasílicaPontificiadeSanMiguel> a base:Monument ;
+	rdfs:label "Basílica Pontificia de San Miguel" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 484 011" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle San Justo" ;
+	schema:postalCode "28012" ;
+	geo:lat "40.414176133786185"^^xsd:double ;
+	geo:long "-3.7096713067224494"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/St._Michael's_Basilica_(Madrid)> .
+
+<http://www.example.org/resources/Museum/BibliotecaNacionaldeEspaña> a base:Monument ;
+	rdfs:label "Biblioteca Nacional de España" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 807 800" ;
+	schema:email "acceso@bne.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Paseo Recoletos" ;
+	schema:postalCode "28001" ;
+	geo:lat "40.42299290045965"^^xsd:double ;
+	geo:long "-3.690844141741069"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Biblioteca_Nacional_de_Espa%C3%B1a> .
+
+<http://www.example.org/resources/Museum/BolsadeMadrid> a base:Monument ;
+	rdfs:label "Bolsa de Madrid" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "917 095 000" ;
+	schema:email "info@bolsamadrid.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Lealtad" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.41687675488164"^^xsd:double ;
+	geo:long "-3.692184230357612"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Bolsa_de_Madrid> .
+
+<http://www.example.org/resources/Museum/CasadeAmérica> a base:Monument ;
+	rdfs:label "Casa de América" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "915 954 800" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Cibeles" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.419749969504096"^^xsd:double ;
+	geo:long "-3.6922961903054348"^^xsd:double ;
+	owl:sameAs <http://wikidata.dbpedia.org/resource/Q8341733> .
+
+<http://www.example.org/resources/Museum/CasadeCisneros> a base:Monument ;
+	rdfs:label "Casa de Cisneros" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 882 900" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Villa" ;
+	schema:postalCode "28005" ;
+	geo:lat "40.41490075227339"^^xsd:double ;
+	geo:long "-3.7105039839947347"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Casa_de_Cisneros_(Madrid)> .
+
+<http://www.example.org/resources/Museum/CasadeLaVilla.CasasConsistorialesdelAyuntamientodeMadrid> a base:Monument ;
+	rdfs:label "Casa de La Villa. Casas Consistoriales del Ayuntamiento de Madrid" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "91 588 10 00" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Villa" ;
+	schema:postalCode "28005" ;
+	geo:lat "40.41518829867041"^^xsd:double ;
+	geo:long "-3.7106248754622504"^^xsd:double ;
+	owl:sameAs <http://wikidata.dbpedia.org/resource/Q3661194> .
+
+<http://www.example.org/resources/Museum/CasadeVelázquez> a base:Monument ;
+	rdfs:label "Casa de Velázquez" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 551 580" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Paul Guinard" ;
+	schema:postalCode "28040" ;
+	geo:lat "40.441004632294984"^^xsd:double ;
+	geo:long "-3.729986585991103"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Casa_de_Vel%C3%A1zquez> .
+
+<http://www.example.org/resources/Museum/CasóndelBuenRetiro> a base:Monument ;
+	rdfs:label "Casón del Buen Retiro" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "902 107 077" ;
+	schema:email "biblioteca@museodelprado.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Alfonso Xii" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.415263749471535"^^xsd:double ;
+	geo:long "-3.689232811717636"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Cas%C3%B3n_del_Buen_Retiro> .
+
+<http://www.example.org/resources/Museum/CastillodelaAlameda> a base:Monument ;
+	rdfs:label "Castillo de la Alameda" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 667 415" ;
+	schema:email "castilloalameda@madrid.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Antonio Sancha" ;
+	schema:postalCode "28042" ;
+	geo:lat "40.45835460563491"^^xsd:double ;
+	geo:long "-3.5932903820278788"^^xsd:double ;
+	owl:sameAs <http://wikidata.dbpedia.org/resource/Q8342365> .
+
+<http://www.example.org/resources/Museum/CatedralSantaMaríalaRealdelaAlmudena> a base:Monument ;
+	rdfs:label "Catedral Santa María la Real de la Almudena" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 422 200" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Bailen" ;
+	schema:postalCode "28013" ;
+	geo:lat "40.415538770017406"^^xsd:double ;
+	geo:long "-3.7136931154460564"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Catedral_de_la_Almudena> .
+
+<http://www.example.org/resources/Museum/CentrodeEstudiosPolíticosyConstitucionales> a base:Monument ;
+	rdfs:label "Centro de Estudios Políticos y Constitucionales" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 401 950" ;
+	schema:email "cepc@cepc.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Marina Española" ;
+	schema:postalCode "28013" ;
+	geo:lat "40.42062746021054"^^xsd:double ;
+	geo:long "-3.712462039050617"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Centro_de_Estudios_Pol%C3%ADticos_y_Constitucionales> .
+
+<http://www.example.org/resources/Museum/CentroSocialyCulturallaCasaEncendida> a base:Monument ;
+	rdfs:label "Centro Social y Cultural la Casa Encendida" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "902 430 322" ;
+	schema:email "casaencendida@cajamadrid.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Ronda Valencia" ;
+	schema:postalCode "28012" ;
+	geo:lat "40.40595710517701"^^xsd:double ;
+	geo:long "-3.699779793558763"^^xsd:double ;
+	owl:sameAs <http://wikidata.dbpedia.org/resource/Q5962732> .
+
+<http://www.example.org/resources/Museum/CírculodeBellasArtes> a base:Monument ;
+	rdfs:label "Círculo de Bellas Artes" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "913 605 400" ;
+	schema:email "info@circulobellasartes.com" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Alcala" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.418417756198565"^^xsd:double ;
+	geo:long "-3.6966084554513072"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/C%C3%ADrculo_de_Bellas_Artes> .
+
+<http://www.example.org/resources/Museum/ClaustrodeSanJerónimoelRealLosJerónimos> a base:Monument ;
+	rdfs:label "Claustro de San Jerónimo el Real (Los Jerónimos)" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "91 420 35 78" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Moreto" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.414346084679714"^^xsd:double ;
+	geo:long "-3.6905317543061407"^^xsd:double .
+
+<http://www.example.org/resources/Museum/CongresodelosDiputados> a base:Monument ;
+	rdfs:label "Congreso de los Diputados" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "913 906 296" ;
+	schema:email "informacion@congreso.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Carrera San Jeronimo" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.4167808804755"^^xsd:double ;
+	geo:long "-3.7021078717452145"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Congreso_de_los_Diputados> .
+
+<http://www.example.org/resources/Museum/ConsejodeEstado> a base:Monument ;
+	rdfs:label "Consejo de Estado" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 166 240" ;
+	schema:email "consultas@consejo-estado.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Mayor" ;
+	schema:postalCode "28013" ;
+	geo:lat "40.4149668099875"^^xsd:double ;
+	geo:long "-3.7129445136801347"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Spanish_Council_of_State> .
+
+<http://www.example.org/resources/Museum/ConventodelasComendadorasdeSantiago> a base:Monument ;
+	rdfs:label "Convento de las Comendadoras de Santiago" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "91 548 18 42" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Comendadoras" ;
+	schema:postalCode "28015" ;
+	geo:lat "40.4273968151307"^^xsd:double ;
+	geo:long "-3.708949668437218"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Convento_de_las_Comendadoras_de_Santiago_(Madrid)> .
+
+<http://www.example.org/resources/Museum/ErmitadeSanAntoniodelaFlorida> a base:Monument ;
+	rdfs:label "Ermita de San Antonio de la Florida" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 420 722" ;
+	schema:email "sanantonio@madrid.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Glorieta San Antonio De La Florida" ;
+	schema:postalCode "28008" ;
+	geo:lat "40.425256682855846"^^xsd:double ;
+	geo:long "-3.725725718176111"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Ermita_de_San_Antonio_de_la_Florida> .
+
+<http://www.example.org/resources/Museum/ErmitadeSantaMaríalaAntigua> a base:Monument ;
+	rdfs:label "Ermita de Santa María la Antigua" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 628 536" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Monseñor Oscar Romero" ;
+	schema:postalCode "28025" ;
+	geo:lat "40.380299379931614"^^xsd:double ;
+	geo:long "-3.741676977905724"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Hermitage_of_Santa_Mar%C3%ADa_la_Antigua_(Madrid)> .
+
+<http://www.example.org/resources/Museum/EstaciónFerroviariaMadridPuertadeAtocha> a base:Monument ;
+	rdfs:label "Estación Ferroviaria Madrid Puerta de Atocha" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "902 432 343" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Emperador Carlos V" ;
+	schema:postalCode "28012" ;
+	geo:lat "40.409567615732286"^^xsd:double ;
+	geo:long "-3.692651480759636"^^xsd:double ;
+	owl:sameAs <http://wikidata.dbpedia.org/resource/Q4125894> .
+
+<http://www.example.org/resources/Museum/FilmotecaEspañola> a base:Monument ;
+	rdfs:label "Filmoteca Española" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 672 600" ;
+	schema:email "filmoteca@mcu.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Magdalena" ;
+	schema:postalCode "28012" ;
+	geo:lat "40.41231195969282"^^xsd:double ;
+	geo:long "-3.7021792836496275"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Filmoteca_Espa%C3%B1ola> .
+
+<http://www.example.org/resources/Museum/PalaciodeFernánNúñez> a base:Monument ;
+	rdfs:label "Palacio de Fernán Núñez" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 276 172" ;
+	schema:email "fugeu01@ffe.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Santa Isabel" ;
+	schema:postalCode "28012" ;
+	geo:lat "40.40981202127939"^^xsd:double ;
+	geo:long "-3.6969557849817534"^^xsd:double ;
+	owl:sameAs <http://wikidata.dbpedia.org/resource/Q6057992> .
+
+<http://www.example.org/resources/Museum/GaleriadeCristaldelPalaciodeCibeles> a base:Monument ;
+	rdfs:label "Galeria de Cristal del Palacio de Cibeles" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 132 689" ;
+	schema:email "eventos.palaciodecibeles@madridarteycultura.es " ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Montalban" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.418291440980205"^^xsd:double ;
+	geo:long "-3.69213979278398"^^xsd:double .
+
+<http://www.example.org/resources/Museum/IglesiaArzobispalCastrense> a base:Monument ;
+	rdfs:label "Iglesia Arzobispal Castrense" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 473 524" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Sacramento" ;
+	schema:postalCode "28005" ;
+	geo:lat "40.414889947123754"^^xsd:double ;
+	geo:long "-3.7122600779776733"^^xsd:double .
+
+<http://www.example.org/resources/Museum/IglesiaCorpusChristiJerónimasRecoletas> a base:Monument ;
+	rdfs:label "Iglesia Corpus Christi (Jerónimas Recoletas)" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 483 701" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Conde De Miranda" ;
+	schema:postalCode "28005" ;
+	geo:lat "40.41481486646874"^^xsd:double ;
+	geo:long "-3.7098194568632374"^^xsd:double .
+
+<http://www.example.org/resources/Museum/IglesiadelasCalatravasConcepciónRealdeCalatrava> a base:Monument ;
+	rdfs:label "Iglesia de las Calatravas (Concepción Real de Calatrava)" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 218 035" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Alcala" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.418196333786035"^^xsd:double ;
+	geo:long "-3.698963613858259"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Iglesia_de_las_Calatravas_(Madrid)> .
+
+<http://www.example.org/resources/Museum/IglesiaMadresRedentoristas> a base:Monument ;
+	rdfs:label "Iglesia Madres Redentoristas" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 086 800" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Madre Celeste" ;
+	schema:postalCode "28044" ;
+	geo:lat "40.37319952563821"^^xsd:double ;
+	geo:long "-3.755699003858804"^^xsd:double .
+
+<http://www.example.org/resources/Museum/IglesiaMonasteriodeSanPlácido> a base:Monument ;
+	rdfs:label "Iglesia Monasterio de San Plácido" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 317 999" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle San Roque" ;
+	schema:postalCode "28004" ;
+	geo:lat "40.42281129334709"^^xsd:double ;
+	geo:long "-3.704516383221761"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Convent_of_San_Pl%C3%A1cido_(Madrid)> .
+
+<http://www.example.org/resources/Museum/IglesiaSanAntoniodelosAlemanes> a base:Monument ;
+	rdfs:label "Iglesia San Antonio de los Alemanes" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 223 774" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Puebla" ;
+	schema:postalCode "28004" ;
+	geo:lat "40.42195996338601"^^xsd:double ;
+	geo:long "-3.7022913826706088"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Church_of_San_Antonio_de_los_Alemanes> .
+
+<http://www.example.org/resources/Museum/IglesiaSanIldefonsoMonasteriodelasTrinitariasDescalzas> a base:Monument ;
+	rdfs:label "Iglesia San Ildefonso (Monasterio de las Trinitarias Descalzas)" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 295 671" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Lope De Vega" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.41367254153843"^^xsd:double ;
+	geo:long "-3.6976792276700987"^^xsd:double .
+
+<http://www.example.org/resources/Museum/IglesiaSanPedroelViejo> a base:Monument ;
+	rdfs:label "Iglesia San Pedro el Viejo" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 651 284" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Nuncio" ;
+	schema:postalCode "28005" ;
+	geo:lat "40.41320112124687"^^xsd:double ;
+	geo:long "-3.71000286701288"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Abbey_of_San_Pedro_el_Viejo> .
+
+<http://www.example.org/resources/Museum/InstitutoCervantes> a base:Monument ;
+	rdfs:label "Instituto Cervantes" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 367 600" ;
+	schema:email "informa@cervantes.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Alcala" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.419245261976"^^xsd:double ;
+	geo:long "-3.6953321647484363"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Instituto_Cervantes> .
+
+<http://www.example.org/resources/Museum/InstitutoItalianodeCulturadeMadrid> a base:Monument ;
+	rdfs:label "Instituto Italiano de Cultura de Madrid" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 478 603" ;
+	schema:email "iicmadrid@isteri.it" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Mayor" ;
+	schema:postalCode "28013" ;
+	geo:lat "40.415228999921524"^^xsd:double ;
+	geo:long "-3.7127940541659377"^^xsd:double .
+
+<http://www.example.org/resources/Museum/JardinesdelCampodelMoro> a base:Monument ;
+	rdfs:label "Jardines del Campo del Moro" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 548 800" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Paseo Virgen Del Puerto" ;
+	schema:postalCode "28005" ;
+	geo:lat "40.41898630733354"^^xsd:double ;
+	geo:long "-3.719976836914711"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MinisteriodeHaciendayAdministracionesPúblicas> a base:Monument ;
+	rdfs:label "Ministerio de Hacienda y Administraciones Públicas" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 958 000" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Alcala" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.417489335230385"^^xsd:double ;
+	geo:long "-3.7011604823997892"^^xsd:double ;
+	owl:sameAs <http://wikidata.dbpedia.org/resource/Q3115471> .
+
+<http://www.example.org/resources/Museum/MinisteriodeJusticia> a base:Monument ;
+	rdfs:label "Ministerio de Justicia" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "913 902 000" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle San Bernardo" ;
+	schema:postalCode "28015" ;
+	geo:lat "40.42412618887789"^^xsd:double ;
+	geo:long "-3.707536103996874"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Ministry_of_Justice_(Spain)> .
+
+<http://www.example.org/resources/Museum/MonasteriodelaPurísimaConcepcióndelasMonjasdelaOrdendelaMerced> a base:Monument ;
+	rdfs:label "Monasterio de la Purísima Concepción de las Monjas de la Orden de la Merced" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "91 532 39 53" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Luis De Gongora" ;
+	schema:postalCode "28004" ;
+	geo:lat "40.42316472725149"^^xsd:double ;
+	geo:long "-3.6967399396564007"^^xsd:double .
+
+<http://www.example.org/resources/Museum/MonasteriodelasDescalzasReales> a base:Monument ;
+	rdfs:label "Monasterio de las Descalzas Reales" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 548 800" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Descalzas" ;
+	schema:postalCode "28013" ;
+	geo:lat "40.418233359889484"^^xsd:double ;
+	geo:long "-3.706213134639163"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Convent_of_Las_Descalzas_Reales> .
+
+<http://www.example.org/resources/Museum/MuseodelaRealAcademiadeBellasArtesdeSanFernando> a base:Monument ;
+	rdfs:label "Museo de la Real Academia de Bellas Artes de San Fernando" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "915 240 864" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Alcala" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.41764548040709"^^xsd:double ;
+	geo:long "-3.700667044636178"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Real_Academia_de_Bellas_Artes_de_San_Fernando> .
+
+<http://www.example.org/resources/Museum/MuseodelFerrocarrildeMadrid> a base:Monument ;
+	rdfs:label "Museo del Ferrocarril de Madrid" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "902 228 822" ;
+	schema:email "museodelicias@ffe.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Paseo Delicias" ;
+	schema:postalCode "28045" ;
+	geo:lat "40.400281290485566"^^xsd:double ;
+	geo:long "-3.693817192160563"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Railway_Museum_(Madrid)> .
+
+<http://www.example.org/resources/Museum/MuseoLázaroGaldiano> a base:Monument ;
+	rdfs:label "Museo Lázaro Galdiano" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "915 616 084" ;
+	schema:email "secretaria.fundacion@flg.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Serrano" ;
+	schema:postalCode "28006" ;
+	geo:lat "40.436750328725985"^^xsd:double ;
+	geo:long "-3.6861980129207894"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Museum_of_L%C3%A1zaro_Galdiano> .
+
+<http://www.example.org/resources/Museum/MuseoNacionaldeArtesDecorativas> a base:Monument ;
+	rdfs:label "Museo Nacional de Artes Decorativas" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 326 499" ;
+	schema:email "mnad@mnad.mcu.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Montalban" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.4178910680573"^^xsd:double ;
+	geo:long "-3.689790044810553"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Museo_Nacional_de_Artes_Decorativas> .
+
+<http://www.example.org/resources/Museum/MuseoNacionaldeCienciasNaturales> a base:Monument ;
+	rdfs:label "Museo Nacional de Ciencias Naturales" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "914 111 328" ;
+	schema:email "museo@bib.csic.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Jose Gutierrez Abascal" ;
+	schema:postalCode "28006" ;
+	geo:lat "40.44042943656617"^^xsd:double ;
+	geo:long "-3.690161856630636"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Museo_Nacional_de_Ciencias_Naturales> .
+
+<http://www.example.org/resources/Museum/MuseoPostalyTelegráfico> a base:Monument ;
+	rdfs:label "Museo Postal y Telegráfico" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "917 400 668" ;
+	schema:email "museopostaltelegrafico@correos.com" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Tapia De Casariego" ;
+	schema:postalCode "28023" ;
+	geo:lat "40.467706026917405"^^xsd:double ;
+	geo:long "-3.7690721403206724"^^xsd:double ;
+	owl:sameAs <http://wikidata.dbpedia.org/resource/Q6033677> .
+
+<http://www.example.org/resources/Museum/MuseoThyssenBornemisza> a base:Monument ;
+	rdfs:label "Museo Thyssen Bornemisza" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "902 760 511" ;
+	schema:email "inform@museothyssen.org" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Paseo Prado" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.41600553697803"^^xsd:double ;
+	geo:long "-3.694744831131079"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Museo_Thyssen_Bornemisza> .
+
+<http://www.example.org/resources/Museum/OratoriodelCaballerodeGracia> a base:Monument ;
+	rdfs:label "Oratorio del Caballero de Gracia" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 326 937" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Caballero De Gracia" ;
+	schema:postalCode "28013" ;
+	geo:lat "40.41953675995833"^^xsd:double ;
+	geo:long "-3.700769178078419"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Oratory_of_Caballero_de_Gracia> .
+
+<http://www.example.org/resources/Museum/PalaciodeLiria> a base:Monument ;
+	rdfs:label "Palacio de Liria" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "91 547 53 02" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Princesa" ;
+	schema:postalCode "28008" ;
+	geo:lat "40.42680681645222"^^xsd:double ;
+	geo:long "-3.7125979731032404"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Liria_Palace> .
+
+<http://www.example.org/resources/Museum/PalaciodeSantaCruz> a base:Monument ;
+	rdfs:label "Palacio de Santa Cruz" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 882 900" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Provincia" ;
+	schema:postalCode "28012" ;
+	geo:lat "40.41469396807194"^^xsd:double ;
+	geo:long "-3.7060229025843374"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Santa_Cruz_Palace,_Madrid> .
+
+<http://www.example.org/resources/Museum/PalaciodelMarquésdeSalamanca> a base:Monument ;
+	rdfs:label "Palacio del Marqués de Salamanca" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "91 537 69 64" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Paseo Recoletos" ;
+	schema:postalCode "28001" ;
+	geo:lat "40.42144182034705"^^xsd:double ;
+	geo:long "-3.6910993927829567"^^xsd:double ;
+	owl:sameAs <http://wikidata.dbpedia.org/resource/Q9054715> .
+
+<http://www.example.org/resources/Museum/PalacioReal> a base:Monument ;
+	rdfs:label "Palacio Real" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "914 548 800" ;
+	schema:email "info@patrimonionacional.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Bailen" ;
+	schema:postalCode "28013" ;
+	geo:lat "40.42075212551193"^^xsd:double ;
+	geo:long "-3.712699107286406"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Palacio_Real_de_Madrid> .
+
+<http://www.example.org/resources/Museum/PanteóndeHombresIlustres> a base:Monument ;
+	rdfs:label "Panteón de Hombres Ilustres" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "914 548 800" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Julian Gayarre" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.40622617519116"^^xsd:double ;
+	geo:long "-3.683413041846525"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Pantheon_of_Illustrious_Men> .
+
+<http://www.example.org/resources/Museum/ParroquiaNuestraSeñoradelBuenConsejo> a base:Monument ;
+	rdfs:label "Parroquia Nuestra Señora del Buen Consejo" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 692 037" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Toledo" ;
+	schema:postalCode "28005" ;
+	geo:lat "40.412964921671964"^^xsd:double ;
+	geo:long "-3.707383827213788"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Our_Lady_of_Good_Counsel> .
+
+<http://www.example.org/resources/Museum/ParroquiaSanFermíndelosNavarros> a base:Monument ;
+	rdfs:label "Parroquia San Fermín de los Navarros" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 199 307" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Paseo Eduardo Dato" ;
+	schema:postalCode "28010" ;
+	geo:lat "40.43275729416927"^^xsd:double ;
+	geo:long "-3.6925828382457184"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Church_of_San_Ferm%C3%ADn_de_los_Navarros> .
+
+<http://www.example.org/resources/Museum/ParroquiaSanGinés> a base:Monument ;
+	rdfs:label "Parroquia San Ginés" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 664 875" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Arenal" ;
+	schema:postalCode "28013" ;
+	geo:lat "40.41727334804375"^^xsd:double ;
+	geo:long "-3.7070399768263558"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/San_Gin%C3%A9s,_Madrid> .
+
+<http://www.example.org/resources/Museum/ParroquiaSanJosé> a base:Monument ;
+	rdfs:label "Parroquia San José" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 226 784" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Alcala" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.41909140335171"^^xsd:double ;
+	geo:long "-3.69694545008207"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Church_of_San_Jos%C3%A9_(Madrid)> .
+
+<http://www.example.org/resources/Museum/ParroquiaSanManuelySanBenito> a base:Monument ;
+	rdfs:label "Parroquia San Manuel y San Benito" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 357 682" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Alcala" ;
+	schema:postalCode "28009" ;
+	geo:lat "40.42072360207663"^^xsd:double ;
+	geo:long "-3.686141227291798"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Church_of_San_Manuel_y_San_Benito_(Madrid)> .
+
+<http://www.example.org/resources/Museum/ParroquiaSanMarcos> a base:Monument ;
+	rdfs:label "Parroquia San Marcos" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 471 079" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle San Leonardo" ;
+	schema:postalCode "28015" ;
+	geo:lat "40.42476160196848"^^xsd:double ;
+	geo:long "-3.7111617863516715"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Church_of_San_Marcos_(Madrid)> .
+
+<http://www.example.org/resources/Museum/ParroquiaSanMillánySanCayetano> a base:Monument ;
+	rdfs:label "Parroquia San Millán y San Cayetano" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 270 790" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Embajadores" ;
+	schema:postalCode "28012" ;
+	geo:lat "40.409461123751505"^^xsd:double ;
+	geo:long "-3.705791428982776"^^xsd:double .
+
+<http://www.example.org/resources/Museum/ParroquiaSanNicolásdeBaridelosServitas> a base:Monument ;
+	rdfs:label "Parroquia San Nicolás de Bari de los Servitas" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 594 064" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza San Nicolas" ;
+	schema:postalCode "28013" ;
+	geo:lat "40.415793260849824"^^xsd:double ;
+	geo:long "-3.7118688527171226"^^xsd:double .
+
+<http://www.example.org/resources/Museum/ParroquiaSantaBárbara> a base:Monument ;
+	rdfs:label "Parroquia Santa Bárbara" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 194 811" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle General Castaños" ;
+	schema:postalCode "28004" ;
+	geo:lat "40.424541526620594"^^xsd:double ;
+	geo:long "-3.6940074674725363"^^xsd:double .
+
+<http://www.example.org/resources/Museum/ParroquiaSantaCruz> a base:Monument ;
+	rdfs:label "Parroquia Santa Cruz" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 691 239" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Atocha" ;
+	schema:postalCode "28012" ;
+	geo:lat "40.414599766147546"^^xsd:double ;
+	geo:long "-3.705220430502387"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Iglesia_de_Santa_Cruz,_Santa_Cruz> .
+
+<http://www.example.org/resources/Museum/ParroquiaSantiagoySanJuanBautista> a base:Monument ;
+	rdfs:label "Parroquia Santiago y San Juan Bautista" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 480 824" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Santiago" ;
+	schema:postalCode "28013" ;
+	geo:lat "40.41651131046593"^^xsd:double ;
+	geo:long "-3.7108391724029426"^^xsd:double .
+
+<http://www.example.org/resources/Museum/PlazaMonumentaldeTorosdelasVentas> a base:Monument ;
+	rdfs:label "Plaza Monumental de Toros de las Ventas" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "91 356 22 00" ;
+	schema:email "redaccion@las-ventas.com" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Alcala" ;
+	schema:postalCode "28028" ;
+	geo:lat "40.43117134669585"^^xsd:double ;
+	geo:long "-3.6634583301342323"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Las_Ventas> .
+
+<http://www.example.org/resources/Museum/RealAcademiadeCienciasMoralesyPolíticas> a base:Monument ;
+	rdfs:label "Real Academia de Ciencias Morales y Políticas" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 481 330" ;
+	schema:email "secretaria@racmyp.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Villa" ;
+	schema:postalCode "28005" ;
+	geo:lat "40.4151547271264"^^xsd:double ;
+	geo:long "-3.71022377531515"^^xsd:double ;
+	owl:sameAs <http://wikidata.dbpedia.org/resource/Q840015> .
+
+<http://www.example.org/resources/Museum/RealAcademiadeJurisprudenciayLegislación> a base:Monument ;
+	rdfs:label "Real Academia de Jurisprudencia y Legislación" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 222 069" ;
+	schema:email "secretaria.rajyl@insde.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Marques De Cubas" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.41749648159225"^^xsd:double ;
+	geo:long "-3.6955027540085243"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Royal_Academy_of_Jurisprudence_and_Legislation> .
+
+<http://www.example.org/resources/Museum/RealAcademiaEspañoladeHistoria> a base:Monument ;
+	rdfs:label "Real Academia Española de Historia" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 290 611" ;
+	schema:email "secretaria@rah.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Leon" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.41346631071615"^^xsd:double ;
+	geo:long "-3.699008959181709"^^xsd:double .
+
+<http://www.example.org/resources/Museum/RealAcademiaNacionaldeFarmacia> a base:Monument ;
+	rdfs:label "Real Academia Nacional de Farmacia" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 310 307" ;
+	schema:email "secretaria@ranf.com" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Farmacia" ;
+	schema:postalCode "28004" ;
+	geo:lat "40.423966629698484"^^xsd:double ;
+	geo:long "-3.6997070566405665"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Royal_Academy_of_Pharmacy> .
+
+<http://www.example.org/resources/Museum/RealBasílicaSanFranciscoelGrande> a base:Monument ;
+	rdfs:label "Real Basílica San Francisco el Grande" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 653 800" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle San Buenaventura" ;
+	schema:postalCode "28005" ;
+	geo:lat "40.41084005024222"^^xsd:double ;
+	geo:long "-3.714503845728281"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/San_Francisco_el_Grande_Basilica> .
+
+<http://www.example.org/resources/Museum/RealColegioSantaIsabelLaAsunción> a base:Monument ;
+	rdfs:label "Real Colegio Santa Isabel - La Asunción" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 273 183" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Santa Isabel" ;
+	schema:postalCode "28012" ;
+	geo:lat "40.40962511552305"^^xsd:double ;
+	geo:long "-3.6965767139076444"^^xsd:double .
+
+<http://www.example.org/resources/Museum/RealFábricadeTapices> a base:Monument ;
+	rdfs:label "Real Fábrica de Tapices" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 340 550" ;
+	schema:email "info@realfabricadetapices.com" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Fuenterrabia" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.406087329011655"^^xsd:double ;
+	geo:long "-3.682515969574079"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Royal_Tapestry_Factory> .
+
+<http://www.example.org/resources/Museum/RealJardínBotánico> a base:Monument ;
+	rdfs:label "Real Jardín Botánico" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 203 017" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Murillo" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.41238214985831"^^xsd:double ;
+	geo:long "-3.692032097926277"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Real_Jard%C3%ADn_Bot%C3%A1nico_de_Madrid> .
+
+<http://www.example.org/resources/Museum/RealMonasteriodelaEncarnación> a base:Monument ;
+	rdfs:label "Real Monasterio de la Encarnación" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "914 548 800" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Encarnacion" ;
+	schema:postalCode "28013" ;
+	geo:lat "40.41967800877382"^^xsd:double ;
+	geo:long "-3.711567962866152"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Royal_Convent_of_La_Encarnaci%C3%B3n> .
+
+<http://www.example.org/resources/Museum/RealSitiodeElPardo> a base:Monument ;
+	rdfs:label "Real Sitio de El Pardo" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "913 761 500" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Manuel Alonso" ;
+	schema:postalCode "28048" ;
+	geo:lat "40.52071790499227"^^xsd:double ;
+	geo:long "-3.776630886241239"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/El_Pardo> .
+
+<http://www.example.org/resources/Museum/SalaCanaldeIsabelII> a base:Monument ;
+	rdfs:label "Sala Canal de Isabel II" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "915 451 000" ;
+	schema:email "museosexposiciones@madrid.org" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Santa Engracia" ;
+	schema:postalCode "28003" ;
+	geo:lat "40.43917634033899"^^xsd:double ;
+	geo:long "-3.7007844119216258"^^xsd:double .
+
+<http://www.example.org/resources/Museum/Senado> a base:Monument ;
+	rdfs:label "Senado" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "915 381 852" ;
+	schema:email "informacion@senado.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Marina Española" ;
+	schema:postalCode "28013" ;
+	geo:lat "40.420364834909364"^^xsd:double ;
+	geo:long "-3.7126832324825663"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Senate_of_Spain> .
+
+<http://www.example.org/resources/Museum/SociedadGeneraldeAutoresyEditores> a base:Monument ;
+	rdfs:label "Sociedad General de Autores y Editores" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 499 550" ;
+	schema:email "jnebrada@sgae.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Fernando Vi" ;
+	schema:postalCode "28004" ;
+	geo:lat "40.42547139360484"^^xsd:double ;
+	geo:long "-3.6966812218739538"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Sociedad_General_de_Autores_y_Editores> .
+
+<http://www.example.org/resources/Museum/TemplodeDebod> a base:Monument ;
+	rdfs:label "Templo de Debod" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 667 415" ;
+	schema:email "templodebod@madrid.es" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Ferraz" ;
+	schema:postalCode "28008" ;
+	geo:lat "40.42425096551599"^^xsd:double ;
+	geo:long "-3.716531855540272"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Temple_of_Debod> .
+
+<http://www.example.org/resources/Museum/TribunaldeCuentas> a base:Monument ;
+	rdfs:label "Tribunal de Cuentas" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 478 701" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Fuencarral" ;
+	schema:postalCode "28004" ;
+	geo:lat "40.42577734085192"^^xsd:double ;
+	geo:long "-3.701211175757095"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Court_of_Accounts_(Spain)> .
+
+<http://www.example.org/resources/Museum/TribunalSupremo> a base:Monument ;
+	rdfs:label "Tribunal Supremo" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "913 971 200" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Marques De La Ensenada" ;
+	schema:postalCode "28004" ;
+	geo:lat "40.42413357076746"^^xsd:double ;
+	geo:long "-3.69293054384027"^^xsd:double ;
+	owl:sameAs <http://dbpedia.org/resource/Supreme_Court_of_Spain> .

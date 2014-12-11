@@ -1,0 +1,89 @@
+Query 1:
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX mn: <http://example.org/resources/>
+
+SELECT (SUM(?a) AS ?total) WHERE {
+  ?obs a qb:Observation;
+  mv:numberOfAccidents ?a;
+  qb:dataSet mn:MyDataset.
+}
+
+
+Query 2:
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX mn: <http://example.org/resources/>
+
+SELECT ?type ?a WHERE {
+  ?obs a qb:Observation;
+  mv:numberOfAccidents ?a;
+  mv:relatedDistrict "USERA" ;
+  mv:hasAccidentType ?type ;
+  qb:dataSet mn:MyDataset.
+}
+
+Query 3:
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX mn: <http://example.org/resources/>
+
+SELECT ?dis ?a WHERE {
+  ?obs a qb:Observation;
+  mv:numberOfAccidents ?a;
+  mv:relatedDistrict ?dis ;
+  mv:hasAccidentType mv:MultipleCollision ;
+  qb:dataSet mn:MyDataset.
+}
+
+Query 4:
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX mn: <http://example.org/resources/>
+
+SELECT ?district ?max WHERE {
+  {
+    SELECT MAX(?num) AS ?max WHERE {
+      ?obs a qb:Observation;
+      mv:hasAccidentType mv:BicycleFall;
+      mv:numberOfAccidents ?num;
+      qb:dataSet mn:MyDataset.
+    }
+  }
+  ?obs a qb:Observation;
+  mv:relatedDistrict ?district;
+  mv:hasAccidentType mv:BicycleFall;
+  mv:numberOfAccidents ?max;
+  qb:dataSet mn:MyDataset.
+}
+
+Query 5:
+
+SELECT ?dis ?num  WHERE {
+  ?obs a qb:Observation;
+  mv:numberOfAccidents ?num;
+  mv:relatedDistrict ?dis ;
+  qb:dataSet mn:MyDataset.
+   filter (?num>500)
+}ORDER BY DESC (?num)
+
+
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX mn: <http://example.org/resources/>
+
+SELECT ?district ?numAccidents WHERE {
+  {
+    SELECT ?district (SUM(xsd:integer(?numTypeAccidents)) AS ?numAccidents) WHERE {
+      ?obs a qb:Observation;
+        mv:relatedDistrict ?district;
+        mv:numberOfAccidents ?numTypeAccidents;
+        qb:dataSet mn:MyDataset.
+    } GROUP BY ?district
+  }
+
+  FILTER(?numAccidents > 500)
+} ORDER BY DESC (?numAccidents)
+
+

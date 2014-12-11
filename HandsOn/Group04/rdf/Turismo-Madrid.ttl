@@ -1,0 +1,1486 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/2071> <http://www.st-madrid.es/idEntidad> "2071" ;
+	<http://www.st-madrid.es/nombreEntidad> "Arte Público (Museo al Aire Libre de la Castellana)" ;
+	<http://www.st-madrid.es/transporte> " Metro: Rubén Darío (línea 5)  Bus: 5, 14, 27, 45, 150 " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "CASTELLANA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "PASEO" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "40" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28046" ;
+	<http://www.st-madrid.es/esParteDe> "CASTELLANA" , "SALAMANCA" ;
+	<http://www.st-madrid.es/coordenadaX> "441788"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4476277"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.433219398671156"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.6876122680805956"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "smuseosm@madrid.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/4949641> <http://www.st-madrid.es/idEntidad> "4949641" ;
+	<http://www.st-madrid.es/nombreEntidad> "Casa - Museo del Ratoncito Pérez" ;
+	<http://www.st-madrid.es/descripcionEntidad> " La residencia de la familia Pérez está  situada en los sótanos de la confitería Prasi,  en el número ocho de la calle del Arenal, según cita Luis Coloma. " ;
+	<http://www.st-madrid.es/horarioEntidad> "  Lunes  de 17 a 20 horas.  De martes a viernes de 11 a 14 horas y de 17 a 20 horas.  Sábados de 11 a 15 horas y de 16 a 20 horas (horario orientativo, consultar disponiblidad en la  web del Museo ).  Domingos y festivos de 12 a 18 horas.  " ;
+	<http://www.st-madrid.es/transporte> " Metro: Sol (líneas: 1, 2 y 3)  Bus: 3, 50 " ;
+	<http://www.st-madrid.es/descripcion> " Venta de entradas directamente en el Museo   Recomendado a partir de los 5 años  Se recomienda sacar la entrada con antelación pues el aforo es limitado. " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "ARENAL" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "8" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28013" ;
+	<http://www.st-madrid.es/esParteDe> "SOL" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "440254"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4474494"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.41704834412296"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.7055288844865233"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/4847190> <http://www.st-madrid.es/idEntidad> "4847190" ;
+	<http://www.st-madrid.es/nombreEntidad> "Casa Museo Lope de Vega" ;
+	<http://www.st-madrid.es/horarioEntidad> " Para la visita es  imprescindible reserva anticipada  en:  casamuseolopedevega@madrid.org  o en el teléfono: 914 299 216, en horario del museo   De martes a domingo de 10 a 15 horas. Última visita a las 14 horas.  Cerrado los lunes, días 1 y 6 de enero, 5 de abril, 1 de mayo y 24, 25 y 31 de diciembre y dos festivos locales.  Este horario puede sufrir alteraciones por actividades extraordinarias que se celebran en este espacio. " ;
+	<http://www.st-madrid.es/transporte> " Metro: Antón Martín (línea 1)   Bus: 6, 9, 10, 14, 26, 27, 32, 34, 37, 45, 57 " ;
+	<http://www.st-madrid.es/descripcion> " La visita se realiza en grupos de un máximo de 10 personas acompañados por un guía. Comienzan cada media hora y tienen una duración aproximada de 45 minutos (última visita a las 14 horas).   Idiomas: español, inglés y francés. " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "CERVANTES" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "11" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28014" ;
+	<http://www.st-madrid.es/esParteDe> "CORTES" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "440935"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4474190"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.414358466555235"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.6974741545860015"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "casamuseolopedevega@madrid.org" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/5682031> <http://www.st-madrid.es/idEntidad> "5682031" ;
+	<http://www.st-madrid.es/nombreEntidad> "Castillo de la Alameda" ;
+	<http://www.st-madrid.es/descripcionEntidad> "El edificio está incorporado al sistema &quot;museosdemadrid&quot; donde se realizan talleres para escolares y actividades en verano." ;
+	<http://www.st-madrid.es/horarioEntidad> "  De abril a septiembre: sábados, domingos y festivos de 10 a 21 horas  De octubre a marzo: sábados, domingos y festivos de 10 a 18 horas  Cerrado los días 1 de enero, 1 de mayo y 25 de diciembre  " ;
+	<http://www.st-madrid.es/transporte> " Metro: Alameda de Osuna (línea 5), El Capricho (línea 5)  Autobuses: 101, 105, 112, 114, 115 y 151 " ;
+	<http://www.st-madrid.es/descripcion> "  Descripción monumental   El monumento está clasificado como singular por el  PGOUM . Es uno de los escasos vestigios de la arquitectura militar del pasado siglo  XV , y uno de los pocos castillos que ha sobrevivido al paso del tiempo y resurge ahora, tras un minucioso proceso de restauración y conversión en Museo.  El lugar en el que se alza el Castillo de la Alameda o de Barajas, es un espacio donde están representadas todas las etapas de la historia de este territorio, situado entre Madrid y el valle del Jarama. Bajo él y su entorno, existen restos de asentamientos antiguos desde la Edad del Bronce hasta la época Romana.  Entre las aldeas medievales de la Alameda y Barajas, dentro del alfoz de Madrid, se construyó, en el siglo  XV , el castillo señorial, que en el siglo  XVI , se transformó en un palacio renacentista. Entre los siglos  XVI  y  XVIII , se alzan en esta zona varias villas de veraneo de la aristocracia madrileña. Entre ellas, el cercano palacete de los Duques de Osuna con su parque de El Capricho. Desde entonces, esta área se conoce con el nombre de la Alameda de Osuna.  La Guerra Civil también se deja sentir en este lugar, donde estaba situado el centro de mando del general Miaja, en la retaguardia del frente del Jarama. El mando de las operaciones estaba en el búnker de El Capricho, pero el castillo se empleó como fortín y a su lado existe un nido de ametralladoras.  La reciente urbanización del barrio ha respetado este lugar. Un parque público conserva dentro de él los vestigios de todas estas épocas: el poblado prehistórico, el castillo luego convertido en palacio, el cementerio y el panteón y el nido de ametralladoras.  El castillo y su entorno han sido objeto de varias campañas de excavaciones arqueológicas desde 1996, pero hasta ahora estas actuaciones no habían tenido continuidad ni habían constituido el germen de un proyecto que desembocase en la recuperación del yacimiento. " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "ANTONIO SANCHA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "1" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28042" ;
+	<http://www.st-madrid.es/esParteDe> "ALAMEDA DE OSUNA" , "BARAJAS" ;
+	<http://www.st-madrid.es/coordenadaX> "449807"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4479009"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.45835460563491"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.5932903820278788"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "castilloalameda@madrid.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/2064> <http://www.st-madrid.es/idEntidad> "2064" ;
+	<http://www.st-madrid.es/nombreEntidad> "Casón del Buen Retiro" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Edificio que forma parte del Museo Nacional del Prado, donde pueden consultarse fondos de la Biblioteca, del Archivo y del Servicio de Documentación de la colección del Museo y de otras fuentes relativas a la historia del arte. " ;
+	<http://www.st-madrid.es/horarioEntidad> "  Mañanas    De lunes a jueves, de 9 a 15 horas. (Servicio de libros y otros materiales hasta las 14:30 horas)   Viernes, de 9 a 14:30 horas. (Servicio de libros y otros materiales hasta las 14 horas)     Tardes.  Lunes y miércoles, de 15 a 18 horas. (Servicio de libros y otros materiales hasta las 17:30 horas)   Horario de verano     Desde el 16 de junio al 15 de septiembre  Lunes a viernes, de 9 a 14:30 horas   " ;
+	<http://www.st-madrid.es/transporte> " Metro: Atocha (Línea 1)  Bus: 19, 10, 14, 27, 34, 37, 45  Renfe: Atocha " ;
+	<http://www.st-madrid.es/descripcion> "  Descripción monumental   El Casón o Salón de Baile es el único volumen que permanece del antiguo Palacio del buen Retiro, ejecutado en 1637 con un proyecto de Alonso Carbonel. Aún se conserva la bóveda de cañon con lunetas, pintada al fresco por Lucas Jordán en 1692 con la Alegoría del Toisón de Oro. Su fachada principal, a poniente, arrasada la primitiva en 1886 por un ciclón, es de Velázquez Bosco. La última rehabilitación ha sido realizada por Jaime Torruell.   Otras direcciones de Correo electrónico:    documentacion@museodelprado.es    archivo@museodelprado.es  " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "ALFONSO XII" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "28" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28014" ;
+	<http://www.st-madrid.es/esParteDe> "LOS JERONIMOS" , "RETIRO" ;
+	<http://www.st-madrid.es/coordenadaX> "441635"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4474285"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.415263749471535"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.689232811717636"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "biblioteca@museodelprado.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/103331> <http://www.st-madrid.es/idEntidad> "103331" ;
+	<http://www.st-madrid.es/nombreEntidad> "Centro Social y Cultural la Casa Encendida" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Edificio de carácter monumental. De estilo neomudéjar, fue diseñado por el arquitecto Fernando Arbós e inaugurado en el año 1913. Cuenta con más de 6.000 metros cuadrados de instalaciones divididas en 4 plantas y una azotea. " ;
+	<http://www.st-madrid.es/horarioEntidad> "  De lunes a domingo de 10 a 22 horas (todos los días del año, excepto festividades nacionales y de la Comunidad de Madrid)  Exposiciones: de 10 a 21:45 horas  " ;
+	<http://www.st-madrid.es/transporte> " Metro: Embajadores (línea 3), Lavapies (línea 3), Atocha (línea 1)   Bus: 27, 34, 36, 41, 68, 69, 119   Renfe: Embajadores " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "VALENCIA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "RONDA" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "2" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28012" ;
+	<http://www.st-madrid.es/esParteDe> "EMBAJADORES" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "440732"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4473259"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.40595710517701"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.699779793558763"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "casaencendida@cajamadrid.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/3350> <http://www.st-madrid.es/idEntidad> "3350" ;
+	<http://www.st-madrid.es/nombreEntidad> "Claustro de San Jerónimo el Real (Los Jerónimos)" ;
+	<http://www.st-madrid.es/transporte> "Bus: 10 , 14 , 19 , 27 , 34 , 37 , 45" ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "MORETO" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "4" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28014" ;
+	<http://www.st-madrid.es/esParteDe> "LOS JERONIMOS" , "RETIRO" ;
+	<http://www.st-madrid.es/coordenadaX> "441524"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4474184"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.414346084679714"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.6905317543061407"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/6469186> <http://www.st-madrid.es/idEntidad> "6469186" ;
+	<http://www.st-madrid.es/nombreEntidad> "Ermita de San Antonio de la Florida (Museo)" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Ermita dedicada a San Antonio de Padua y pequeño museo. Las pinturas murales que la decoran son de Francisco de Goya. Alberga los restos mortales del artista desde 1919. Para preservar sus pinturas, en 1929 se trasladó el culto a una ermita gemela construida a su lado, dejando el edificio original como museo. " ;
+	<http://www.st-madrid.es/horarioEntidad> "  De martes a domingos y festivos de 9:30 a 20 horas.   Cerrado  los lunes, incluidos festivos y días 1 de enero, 1 de mayo y 25 de diciembre.   Último pase de visita:  20 minutos antes del cierre (el desalojo de las salas comenzará 10 minutos antes)   Por motivos de conservación, el aforo máximo es de 50 personas en el interior de la capilla.  Este horario y la apertura de salas pueden sufrir modificaciones, por favor, confírmelo en el teléfono de información del museo.  " ;
+	<http://www.st-madrid.es/transporte> " Metro: Príncipe Pío (líneas 5, 10 y ramal Ópera - Príncipe Pío)  Bus: 41, 46 y 75 (Intercambiador Príncipe Pío)  Renfe: Príncipe Pío " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "SAN ANTONIO DE LA FLORIDA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "GLORIETA" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "5" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28008" ;
+	<http://www.st-madrid.es/esParteDe> "CASA DE CAMPO" , "MONCLOA-ARAVACA" ;
+	<http://www.st-madrid.es/coordenadaX> "438548"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4475419"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.425256682855846"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.725725718176111"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "sanantonio@madrid.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/58353> <http://www.st-madrid.es/idEntidad> "58353" ;
+	<http://www.st-madrid.es/nombreEntidad> "Espacio Fundación Telefónica" ;
+	<http://www.st-madrid.es/horarioEntidad> " De martes a domingo, de 10 a 20 horas.  Cerrado al público todos los lunes y los festivos 25 de diciembre y días 1 y 6 de enero. " ;
+	<http://www.st-madrid.es/transporte> " Metro: Gran Vía (líneas 1 y 5)  Bus: 1, 2, 46, 74, 146, 202 " ;
+	<http://www.st-madrid.es/descripcion> "  Teléfonos:    Visitas guiadas y talleres educativos: 915 225 645  Reserva de salas y eventos: 915 840 440 / 915 840 646    Correo electrónico:     Información general .   Visitas guiadas y talleres educativos .   Reserva de salas y eventos .   Tienda abierta de martes a domingo, de 10 a 20 horas. " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "FUENCARRAL" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "3" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28004" ;
+	<http://www.st-madrid.es/esParteDe> "UNIVERSIDAD" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "440590"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4474865"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.42041458612889"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.7016034186955076"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/FundacionesCulturales/6017808> <http://www.st-madrid.es/idEntidad> "6017808" ;
+	<http://www.st-madrid.es/nombreEntidad> "Fundación AMYC (Arte Moderno y Contemporáneo). Casa - Museo Fuente del Rey" ;
+	<http://www.st-madrid.es/horarioEntidad> " De lunes a viernes de 10 a 19 horas. Sábados y domingos cerrado.   Visitas  guiadas y concertadas con cita previa. " ;
+	<http://www.st-madrid.es/transporte> "Bus: 161, I" ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "FUENTE DEL REY" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "11" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28023" ;
+	<http://www.st-madrid.es/esParteDe> "ARAVACA" , "MONCLOA-ARAVACA" ;
+	<http://www.st-madrid.es/coordenadaX> "434772"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4478804"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.45546180290319"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.7705836264842576"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "info@fundacionamyc.org" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/FundacionesCulturales" ;
+	<http://www.st-madrid.es/tipoEntidad> "FundacionesCulturales" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/3348> <http://www.st-madrid.es/idEntidad> "3348" ;
+	<http://www.st-madrid.es/nombreEntidad> "Monasterio de las Descalzas Reales" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Convento fundado por la Princesa Juana de Austria, transformando un antiguo palacio de su madre Isabel de Portugal. " ;
+	<http://www.st-madrid.es/horarioEntidad> " Sólo con visita guiada.    De martes a sábado de 10 a 14 horas y de 16 a 18:30 horas  Domingos y festivos, de 10 a 15 horas y tardes cerrado  Cierre de taquillas una hora antes  Cerrado: días 1, 6 de enero; Semana Santa (del 16 al 19 de abril, inclusive); 1 de mayo; 10 de noviembre; 24, 25 y 31 de diciembre de 2014  Abierto: 15 de mayo y 8 de diciembre de 2014  Abierto horario domingo: 2 de mayo; 19 de junio; 15 de agosto; 1 de noviembre y 6 de diciembre de 2014    Atención telefónica:    De lunes a sábados de 9:30 a 17 horas  Domingos y festivos de 9 a 14 horas  " ;
+	<http://www.st-madrid.es/transporte> " Metro: Callao (líneas 3, 5) , Santo Domingo (línea 2) , Sol (líneas 1, 2, 3) Gran Vía (líneas 1, 5)  Bus: 1, 2, 3, 5, 15, 20, 25, 39, 40, 44, 46, 50, 51, 52, 53, 74, 75, 133, 146, 147, 148, 149, 150, 202 " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "DESCALZAS" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "PLAZA" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "3" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28013" ;
+	<http://www.st-madrid.es/esParteDe> "SOL" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "440197"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4474626"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.418233359889484"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.706213134639163"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/5873478> <http://www.st-madrid.es/idEntidad> "5873478" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo ABC" ;
+	<http://www.st-madrid.es/descripcionEntidad> "Centro de arte, dibujo e ilustración. " ;
+	<http://www.st-madrid.es/horarioEntidad> "  De martes a sábado de 11 a 20 horas  Domingos de 10 a 14 horas  Festivos de 11 a 20 horas  Lunes cerrado   Visitas guiadas:  de martes a viernes (consultar horario en el teléfono del museo).  " ;
+	<http://www.st-madrid.es/transporte> " Metro: San Bernardo (líneas 2 y 4), Noviciado (línea 2), Ventura Rodríguez (línea 3), Plaza de España (líneas 3 y 10)  Bus: M2, 3, 147 " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "AMANIEL" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "29" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28015" ;
+	<http://www.st-madrid.es/esParteDe> "UNIVERSIDAD" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "439922"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4475646"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.42740213531285"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.70955095379701"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2067> <http://www.st-madrid.es/idEntidad> "2067" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Africano Mundo Negro" ;
+	<http://www.st-madrid.es/descripcionEntidad> "Situado en los locales de los Misioneros de Madrid y abierto al público en 1985, se propone divulgar la cultura africana, promoviendo el conocimiento de la vida, de la historia y de las diversas culturas africanas. " ;
+	<http://www.st-madrid.es/horarioEntidad> "   Grupos con cita previa : de lunes a sábado   Particulares  (visitas guiadas): domingos a las 11,30 horas   Cerrado : julio, agosto y septiembre  " ;
+	<http://www.st-madrid.es/transporte> "Bus: 11, 70, 114, 122 " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "ARTURO SORIA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "101" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28043" ;
+	<http://www.st-madrid.es/esParteDe> "SAN JUAN BAUTISTA" , "CIUDAD LINEAL" ;
+	<http://www.st-madrid.es/coordenadaX> "444864"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4478056"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.449455579055886"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.651503432956766"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2050> <http://www.st-madrid.es/idEntidad> "2050" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Arqueológico Nacional" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Construído en 1866 según proyectos de Jareño y Alarcón y terminado por Ruiz de Salces. Ocupa el mismo edificio que la Biblioteca Nacional. De estilo neoclásico. " ;
+	<http://www.st-madrid.es/horarioEntidad> " De martes a sábado de 9:30 a 20 horas. Domingo y festivos de 9:30 a 15 horas.  Cerrado todos los lunes, 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre y un festivo local (15 de mayo en 2014) " ;
+	<http://www.st-madrid.es/transporte> " Metro: Serrano (línea 4), Colón (línea 4), Velazquez (línea 4)  Bus: 1, 2, 5, 9, 14, 15, 19, 20, 21, 27, 28, 45, 51, 52, 53, 74, 146, 150  Renfe: Recoletos " ;
+	<http://www.st-madrid.es/descripcion> " Los grupos de cinco o más personas tendrán una reducción del 50% en el precio de la entrada, previa reserva.   Grupos escolares:  La visita de los grupos escolares es gratuita. El grupo debe contar con un profesor o persona responsable por cada 20 alumnos.  La guia multimedia es un dispositivo que mejora las prestaciones de las tradiciones audioguias, trasmitiendo la informacion sobre la exposición en diversos formatos: texto, imagen, vídeo y audio.  Ofrece un recorrido general con informac&iexcl;ón en español, inglés y lengua de signos, así como un recorrido específcio para personas con discapacidad visual " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "SERRANO" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "13" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28001" ;
+	<http://www.st-madrid.es/esParteDe> "RECOLETOS" , "SALAMANCA" ;
+	<http://www.st-madrid.es/coordenadaX> "441708"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4475173"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.42326842040792"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.6884539762461968"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "sugerencias@man.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2072> <http://www.st-madrid.es/idEntidad> "2072" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Casa de la Moneda" ;
+	<http://www.st-madrid.es/descripcionEntidad> " El Museo de la Fábrica Nacional de la Moneda y Timbre, contiene importantes colecciones numismáticas, grabados, dibujos, moldes y troqueles de los siglos  XVI ,  XVII  y  XVIII , cubriendo la historia de la moneda desde el siglo  VII a.C.  hasta nuestros dias. " ;
+	<http://www.st-madrid.es/horarioEntidad> " De martes a viernes ininterrumpidamente de 10 a 17:30 horas. Sábados, domingos y festivos de 10 a 14 horas.  Cerrado los lunes, y los días 1, 4 y 5 de enero; 17, 18, 19 y 20 de abril; 1 y 2 de mayo; 19 de junio; 23, 24, 25 y 31 de diciembre. " ;
+	<http://www.st-madrid.es/transporte> " Metro: O&acute;Donnell (línea 6)  Bus: 2, 28, 30, 56, 71, 143, C, N6 " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "DOCTOR ESQUERDO" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "36" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28028" ;
+	<http://www.st-madrid.es/esParteDe> "GOYA" , "SALAMANCA" ;
+	<http://www.st-madrid.es/coordenadaX> "443345"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4475085"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.42258896520152"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.6691501169061067"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "museo@fnmt.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/4112> <http://www.st-madrid.es/idEntidad> "4112" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Cerralbo" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Este Palacio, construido entre 1883 y 1893, fue concebido como vivienda y como museo para sede de las obras de arte reunidas por los Marqueses de Cerralbo y sus hijos, los Marqueses de Villa Huerta, durante los numerosos viajes que realizaron por España y Europa.   Objetivos y Fines de la Fundación Cerralbo (en la misma sede)    Velar porque las colecciones no se disgreguen ni enajenen y permanezcan reunidas en su sede de Ventura Rodríguez.   Conceder premios y becas para artistas e investigadores y celebrar actos culturales.   Colaborar en la custodia, exhibición y mejora del patrimonio que el Estado heredó del Marqués, perpetuando así su memoria.   " ;
+	<http://www.st-madrid.es/horarioEntidad> "  De martes a sábado de 9:30 a 15 horas  Jueves de 17 a 20 horas (apertura gratuita, excepto festivos)  Domingos y festivos de 10 a 15 horas  Lunes, cerrado  Jueves y Viernes Santo tienen el horario de los días festivos  Visitas guiadas, previa reserva, los martes y miércoles y, sin reserva, los jueves , viernes y sábados, a cargo de los voluntarios culturales de la Confederación de Aulas de la Tercera Edad  " ;
+	<http://www.st-madrid.es/transporte> " Metro: Ventura Rodríguez (línea 3), Plaza de España (líneas 3 y 10)  Bus: 1, 2, 3, 25, 39, 44, 46, 74, 75, 133, 138, 148, 202, 749, C1, C2 " ;
+	<http://www.st-madrid.es/descripcion> "  Visitas guiadas gratuitas  con reserva previa los martes y miércoles (a partir de septiembre se podrá reservar para el últilmo trimestre del año), y sin reserva los jueves, viernes y sábados, a cargo de los voluntarios culturales de la Confederación de Aulas de la Tercera Edad. Esta actividad seguirá en curso hasta finales de junio. " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "VENTURA RODRIGUEZ" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "17" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28008" ;
+	<http://www.st-madrid.es/esParteDe> "ARGUELLES" , "MONCLOA-ARAVACA" ;
+	<http://www.st-madrid.es/coordenadaX> "439489"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4475246"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.42376732078657"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.7146170388153497"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "museo.cerralbo@mecd.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/18176> <http://www.st-madrid.es/idEntidad> "18176" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Colecciones del Instituto de Crédito Oficial (ICO)" ;
+	<http://www.st-madrid.es/descripcionEntidad> " El Museo Colecciones  ICO  abrió sus puertas al público en marzo de 1996. Su objetivo era difundir la colección de arte del Instituto de Crédito Oficial, una de las más importantes de arte español contemporáneo.  " ;
+	<http://www.st-madrid.es/horarioEntidad> "  De martes a sábado: de 11 a 20 horas  Domingo y festivos: de 10 a 14 horas  Cerrado: todos los lunes del año (incluidos festivos) y los días 1 de enero, 1 de mayo y 25 de diciembre   Los días 24 y 31 de diciembre el Museo ICO permanecerá abierto de 10 a 14 horas.   " ;
+	<http://www.st-madrid.es/transporte> " Metro: Banco de España (línea 2) , Sevilla (línea 2)  Bus: 5, 9, 15, 10, 14, 27, 34, 37, 45, 51, 150 " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "ZORRILLA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "3" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28014" ;
+	<http://www.st-madrid.es/esParteDe> "CORTES" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "440915"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4474456"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.41675330128869"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.6977346235068373"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "museoico@ico.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2068> <http://www.st-madrid.es/idEntidad> "2068" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo de Aeronáutica y Astronáutica" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Emplazado en Cuatro Vientos desde 1966, tiene como objetivo narrar la historia y el desarrollo científico-técnico de la Aeronáutica y Astronaútica españolas con 150 aeronaves, uniformes, condecoraciones, maquetas, armamento y una destacada colección de motores en 70.000  m2  , distribuidos en siete hangares y siete plataformas al aire libre.  " ;
+	<http://www.st-madrid.es/horarioEntidad> " De martes a domingo de 10 a 14 horas, a partir de las 13:30 no se permite la entrada de público.  Cerrado: los lunes, días 1 y 6 de enero, Jueves y Viernes Santo, 12 de octubre,  días 10, 24, 25 y 31 de diciembre y el mes de agosto " ;
+	<http://www.st-madrid.es/transporte> " Bus: 518 , 521 , 522 , 523 (salida: Príncipe Pío).   Metro: Cuatro Vientos   Vehículo particular: Entrada por la A-V, en sentido Madrid, Km. 10.500 (carretera de Extremadura). Ver plano entrada al Museo en documentación asociada.  " ;
+	<http://www.st-madrid.es/descripcion> "  Visitas de grupo:  previa petición de cita  " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "A-5" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "AUTOVIA" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "10.5" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28024" ;
+	<http://www.st-madrid.es/esParteDe> "CUATRO VIENTOS" , "LATINA" ;
+	<http://www.st-madrid.es/coordenadaX> "432348"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4469705"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.3733013700739"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.798200034372686"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2091> <http://www.st-madrid.es/idEntidad> "2091" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo de América" ;
+	<http://www.st-madrid.es/descripcionEntidad> "Colecciones arqueológicas, etnográficas y de arte colonial traídas a España entre los siglos XVI y XX, cuya temática abarca desde la Prehistoria americana hasta la actualidad. Destacan el Tesoro de los Quimbayas, los Enonchados de la Conquista de México y las colecciones europeas más antiguas sobre los indios de las praderas." ;
+	<http://www.st-madrid.es/horarioEntidad> "  Horario:    De martes a sábado, de 9:30 a 15 horas  Jueves, apertura continuada de 9:30 a 19 horas  Domingos y festivos de 10 a 15 horas     Cerrado:  todos los lunes del año, día 1 y 6 de enero, día 1 de mayo, días 24, 25 y 31 de diciembre y un festivo local. " ;
+	<http://www.st-madrid.es/transporte> " Bus: 1, 12, 44, 82, 132  Metro: Moncloa (Líneas 3, 6) " ;
+	<http://www.st-madrid.es/descripcion> " Inscripción en el teléfono 915 439 437  Sitio web:  Migrar es cultura , para mostrar diversidad, intercambio y pluralismo cultural derivados de las migraciones, a base de diferentes canales temáticos y compuesta por textos, fotografías y sobre todo videos cortos, elaborados por los propios internautas   " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "REYES CATOLICOS" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "AVENIDA" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "6" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28040" ;
+	<http://www.st-madrid.es/esParteDe> "CIUDAD UNIVERSITARIA" , "MONCLOA-ARAVACA" ;
+	<http://www.st-madrid.es/coordenadaX> "438889"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4476828"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.43797469898852"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.721841843311362"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/83922> <http://www.st-madrid.es/idEntidad> "83922" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo de Arte Contemporáneo de Madrid (cerrado)" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Se ubica en el histórico Caurtel del Conde Duque, obra de principios del siglo XVIII del arquitecto Pedro de Ribera. Al igual que otros museos de arte contemporáneo,nacionales o extranjeros, se ha utilizado un edificio histórico para albergar las colecciones de ate contemporáneo del Ayuntamiento de Madrid con arreglo a un programa de rehabilitación integral del edificio para usos y servicios culturales, de acuerdo a la legislación sore accesibilidad vigente en nuestra Comunidad /Ley 8 /1993 de 22 de junio de Promoción de la Accesibilida y Supresión de Barreras Arquitectónicas) " ;
+	<http://www.st-madrid.es/horarioEntidad> "  De martes a viernes de 10 a 14 y de 17:30 a 21 horas  Ságados, domingos y festivos de 10:30 a 14:30 horas.  Cerrado los lunes (incluso festivos) y días 1 y 6 de enero, 1 de mayo y 25 de diciembre   El horario de taquilla finaliza 20 minutos antes de la hroa de cierre del museo.   Las salas se desalojan 15 minutos antes del cierre. " ;
+	<http://www.st-madrid.es/transporte> " Metro: Ventura Rodríguez (línea 3), Plaza de España líneas 3, 10), San Bernardo (líneas 2, 4), Noviciado (línea7, 10)  Bus: 1, 2, 21, 44, 74, 133, C, M2  Renfe: Príncipe Pío  Aparcamiento público: plaza de España (accesible) " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "CONDE DUQUE" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "9" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28015" ;
+	<http://www.st-madrid.es/esParteDe> "UNIVERSIDAD" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "439832"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4475644"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.42737760210632"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.7106116887809817"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "mmacmdifusion@madrid.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2069> <http://www.st-madrid.es/idEntidad> "2069" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo de Artes y Tradiciones Populares. Centro Cultural La Corrala" ;
+	<http://www.st-madrid.es/descripcionEntidad> " El Museo se forma tras la donación de la colección de Guadalupe González Hontoria a la Universidad Autónoma de Madrid. Las piezas comprenden:   El ciclo vital humano y religiosidad popular  El ciclo festivo anual, instrumentos musicales, bailes y juegos de adultos  Tareas domésticas  Agricultura, ganadería, caza y pesca  Los oficios artesanales y transporte rural.  " ;
+	<http://www.st-madrid.es/horarioEntidad> "Permanece abierto al público de lunes a viernes con horario de 10 a 14 horas y de 17 a 21 horas. Sábados de 10 a 14 horas" ;
+	<http://www.st-madrid.es/transporte> " Metro: La Latina (línea 5)  Bus: 41, 60, 148 y Circular  Renfe: Embajadores /Atocha " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "CARLOS ARNICHES" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "3-5" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28005" ;
+	<http://www.st-madrid.es/esParteDe> "EMBAJADORES" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "440008"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4473583"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.408814891299514"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.7083421466389113"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "museoatp@uam.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2092> <http://www.st-madrid.es/idEntidad> "2092" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo de Astronomía y Geodesia" ;
+	<http://www.st-madrid.es/descripcionEntidad> " La colección se compone de objetos relacionados con el mundo de la Astronomía, como teodolitos, cronómetros, brújulas topográficas, sextantes giroscópicos, astrolabios de prisma, cámaras fotográficas para eclipse,  etc   " ;
+	<http://www.st-madrid.es/horarioEntidad> "Visita con cita previa" ;
+	<http://www.st-madrid.es/transporte> "Bus: 82 , F , 132 , I , G " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "CIENCIAS" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "PLAZA" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "3" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28040" ;
+	<http://www.st-madrid.es/esParteDe> "CIUDAD UNIVERSITARIA" , "MONCLOA-ARAVACA" ;
+	<http://www.st-madrid.es/coordenadaX> "438528"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4478102"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.44942472705852"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.7262214898219117"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/5727435> <http://www.st-madrid.es/idEntidad> "5727435" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo de Bomberos" ;
+	<http://www.st-madrid.es/horarioEntidad> " Abierto todos los días de  09:30  a  14:00  horas, excepto 25 de diciembre, 1 enero,  6 de enero y 1 de mayo.    Nota:  El museo permanecera cerrado hasta octubre de 2015 por obras de acondicionamiento.     Visitas Guiadas  Se pueden concertar en el teléfono: 91 478 65 72 ( Museo )  Más información: 91 588 99 07 - 91 588 82 40  " ;
+	<http://www.st-madrid.es/transporte> "  Metro : L1- Buenos Aires  Bus : 141 y 143 " ;
+	<http://www.st-madrid.es/descripcion> "  Abierto al público en 1982, reúne todos los instrumentos usados por los bomberos durante más de cuatro siglos.      Acceso para minusválidos        Entrada gratuita      Apropiado para niños                Visita para grupos con cita previa  " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "BOADA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "4" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28038" ;
+	<http://www.st-madrid.es/esParteDe> "NUMANCIA" , "PUENTE DE VALLECAS" ;
+	<http://www.st-madrid.es/coordenadaX> "444613"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4471961"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.39453171263195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.6539313207612207"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "sgbomberos@madrid.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2090> <http://www.st-madrid.es/idEntidad> "2090" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo de Calcografía Nacional" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Expone colecciones de planchas y grabados.  " ;
+	<http://www.st-madrid.es/horarioEntidad> "  De octubre a junio de lunes a viernes de 9 a 17 horas.  Verano: de julio a septiembre de 9 a 15 horas.   Agosto cerrado   En el caso de que se celebren exposiciones, consultar horario, ya que puede variar.  " ;
+	<http://www.st-madrid.es/transporte> " Metro: Sol (Líneas 1, 2, 3), Sevilla (Línea 2)  Bus: 5, 15, 20, 51, 52, 53, 150 " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "ALCALA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "13" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28014" ;
+	<http://www.st-madrid.es/esParteDe> "SOL" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "440667"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4474557"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.41764548040709"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.700667044636178"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "calcografianacional.delegado@rabasf.org" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2084> <http://www.st-madrid.es/idEntidad> "2084" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo de Cera" ;
+	<http://www.st-madrid.es/horarioEntidad> " De lunes a viernes de 10 a 14,30 y de 16,30 a 20,30 horas.  Sábados, domingos y festivos de 10 a 20,30 horas.  Los días 25 de diciembre y 1 de enero, el museo abre de 10 a 14:30 horas y de 16:30 a 20:30 horas.  Las taquillas cierran media hora antes. " ;
+	<http://www.st-madrid.es/transporte> " Metro: Colón  Bus: 5 , 14 , 21 , 27 , 45 , 53 , 15  Renfe: Recoletos " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "RECOLETOS" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "PASEO" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "41" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28004" ;
+	<http://www.st-madrid.es/esParteDe> "JUSTICIA" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "441456"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4475301"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.424403779665376"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.6914362030084815"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "info@museoceramadrid.com" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2108> <http://www.st-madrid.es/idEntidad> "2108" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo de Farmacia Militar" ;
+	<http://www.st-madrid.es/descripcionEntidad> "Superficie de 600  m/2  donde se exponen fondos de carácter histórico y científico. Las colecciones abarcan desde los orígenes de la ciencia farmacéutica, recreado en el laboratorio yatroquímico del siglo XVII, hasta los actuales procesos para la elaboración de preparados." ;
+	<http://www.st-madrid.es/horarioEntidad> " De lunes a viernes de 10 a 13 horas, sólo visitas concertadas " ;
+	<http://www.st-madrid.es/transporte> " Metro: Embajadores (línea 3)  Bus: 27 , 34 , 36 , 41 , 60 , 78 , 116 , 119 , 148 , C  Renfe :  Embajadores " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "EMBAJADORES" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "75" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28012" ;
+	<http://www.st-madrid.es/esParteDe> "PALOS DE MOGUER" , "ARGANZUELA" ;
+	<http://www.st-madrid.es/coordenadaX> "440636"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4472954"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.403202661477145"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.7008825895813167"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "smunort@oc.mde.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/4545827> <http://www.st-madrid.es/idEntidad> "4545827" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo de Historia de la Comunidad Judía de Madrid" ;
+	<http://www.st-madrid.es/horarioEntidad> "  Visitas guiadas     Individual : último jueves de cada mes a las 19 horas, salvo festividades (confirmar previamente).   Grupos  (mínimo 10 personas): consultar teléfono: 915 913 131 (Ext. 4 o correo electrónico:  visita@cjmadrid.org   " ;
+	<http://www.st-madrid.es/transporte> " Metro: Iglesia (línea 1)  Bus: 5, 12, 16, 37, 61, 149  " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "BALMES" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "3" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28010" ;
+	<http://www.st-madrid.es/esParteDe> "TRAFALGAR" , "CHAMBERI" ;
+	<http://www.st-madrid.es/coordenadaX> "440738"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4476521"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.43534317115623"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.700013620203689"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "secretaria@cjmadrid.org" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/2054> <http://www.st-madrid.es/idEntidad> "2054" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo de Historia de Madrid" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Antiguo Museo Municipal de Madrid. " ;
+	<http://www.st-madrid.es/horarioEntidad> "  Cerrado temporalmente desde el día 3 de noviembre de 2014     Museo     De martes a viernes de 9:30 a 14:30 horas.   sábados, domingos y festivos de 9:30 a 20 horas   Cerrado los lunes y los días 1 de enero, 1 de mayo y 25 de diciembre    Biblioteca:  de lunes a viernes de 8:30 a 14: 30 horas   Servicio de documentación:  de lunes a viernes de 8:30 a 14:30 horas " ;
+	<http://www.st-madrid.es/transporte> " Metro: Tribunal , Bilbao  Bus: 3, 21, 40, 147, 149  Aparcamiento público: Barceló " ;
+	<http://www.st-madrid.es/descripcion> "  Accesibilidad física:    Rampa de acceso a la entrada.  Ascensores.  Aseos adaptados.  Silla de ruedas.  " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "FUENCARRAL" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "78" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28004" ;
+	<http://www.st-madrid.es/esParteDe> "JUSTICIA" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "440659"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4475459"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.42577054821346"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.700845660719608"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "smuseosm@madrid.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/4591873> <http://www.st-madrid.es/idEntidad> "4591873" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo de la Biblioteca Nacional" ;
+	<http://www.st-madrid.es/descripcionEntidad> " El Museo cuenta con unos 1.400 m2 y se distribuye en ocho salas.  " ;
+	<http://www.st-madrid.es/horarioEntidad> " De martes a sábados de 10 a 20 y domingos de 10 a 14 horas. Lunes cerrado. Último pase treinta minutos antes del cierre. Entrada gratuita.   Días de cierre   Para 2014: 1 y 6 de enero, 1 de mayo, 10 de noviembre y 8, 24, 25 y 31 de diciembre " ;
+	<http://www.st-madrid.es/transporte> " Metro: Colón y Serrano (línea 4)  Bus: 1, 5, 9, 14, 19, 21, 27, 37, 45, 51, 53, 74, 150  Cercanías: Recoletos " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "RECOLETOS" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "PASEO" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "20" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28001" ;
+	<http://www.st-madrid.es/esParteDe> "RECOLETOS" , "SALAMANCA" ;
+	<http://www.st-madrid.es/coordenadaX> "441503"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4475142"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.42297474261295"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.6908675320710223"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "museo@bne.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/4566286> <http://www.st-madrid.es/idEntidad> "4566286" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo de la Catedral de la Almudena" ;
+	<http://www.st-madrid.es/horarioEntidad> "De lunes a sábado de 10 a 14:30 horas. Cerrado los domingos, fiestas de precepto y días de actos de culto especiales" ;
+	<http://www.st-madrid.es/transporte> "Bus: 3, 148, L3" ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "ALMUDENA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "PLAZA" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "S/N" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28013" ;
+	<http://www.st-madrid.es/esParteDe> "PALACIO" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "439559"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4474255"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.41484504627648"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.7136975721439347"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "museoalmudena@planalfa.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2073> <http://www.st-madrid.es/idEntidad> "2073" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo de la Farmacia Hispana" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Entre sus fondos destacan las colecciones de botes cerámicos, morteros y cajas de madera policromadas, relaciondos con la práctica docente, cuatro boticas históricas y tres instalaciones que recrean un laboratorio alquimista, una botica árabe y la botica del Hospital de San Juan de las Afueras (Toledo). " ;
+	<http://www.st-madrid.es/horarioEntidad> " De lunes a viernes de 9 a 14 horas (periodo lectivo).  " ;
+	<http://www.st-madrid.es/transporte> " Metro: Ciudad Universitaria  Bus: 82 , 132 , G " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "RAMON Y CAJAL" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "PLAZA" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "0" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28040" ;
+	<http://www.st-madrid.es/esParteDe> "CIUDAD UNIVERSITARIA" , "MONCLOA-ARAVACA" ;
+	<http://www.st-madrid.es/coordenadaX> "438524"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4477559"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.4445328804645"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.7262160043788155"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "museofar@farm.ucm.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2107> <http://www.st-madrid.es/idEntidad> "2107" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo de la Guardia Civil" ;
+	<http://www.st-madrid.es/descripcionEntidad> " El Museo se crea por Orden General del Cuerpo de 23 de junio de 1982 y se inaugura el día 12 de octubre de 1982.  Los fondos que forman el Museo han sido aportados o depositados bien por entidades públicas o privadas, bien por las distintas Unidades del Cuerpo, todos los cuales están vinculados de alguna manera a las vicisitudes e historia de la Guardia Civil desde su creación hasta nuestros días. Existen cuatro salas denominadas: banderas (rellano de la 2&ordf; Planta), sala de arma, sala de uniformes y maniquies, sala de objetos varios y dioramas. " ;
+	<http://www.st-madrid.es/horarioEntidad> " De lunes a viernes de 9 a 14 horas. Sábados, domingos y festivos cerrado " ;
+	<http://www.st-madrid.es/transporte> " Metro: Guzmán el Bueno (línea 6, 7)  Bus: 2,  44, 45, Circular " ;
+	<http://www.st-madrid.es/descripcion> "  Visita:  previa identificación personal   Visita de grupos:  debe concertarse cita previa por escrito " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "GUZMAN EL BUENO" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "110" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28003" ;
+	<http://www.st-madrid.es/esParteDe> "VALLEHERMOSO" , "CHAMBERI" ;
+	<http://www.st-madrid.es/coordenadaX> "439705"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4477551"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.44454745648486"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.7122900396933813"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "dg-estuhistoricos-registro@guardiacivil.org" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/2114> <http://www.st-madrid.es/idEntidad> "2114" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo de la Real Academia de Bellas Artes de San Fernando" ;
+	<http://www.st-madrid.es/descripcionEntidad> "Construido inicialmente para palacio de D. Juan de Goyeneche, el edificio fue adquirido por la Academia de Bellas Artes en 1773 y reformado bajo la dirección de Fernando Chueca Goitia en 1973 y la fachada por Diego de Villanueva en 1774." ;
+	<http://www.st-madrid.es/horarioEntidad> "  Colección permanente:  de martes a domingos de 10 a 15 horas., incluyendo festivos. Lunes cerrado.      Exposiciones temporales:  consultar telefónicamente  Cerrado días 1 y 6 de enero, 1 y 30 de mayo, 9 de noviembre; 24, 25 y 31 de diciembre.  " ;
+	<http://www.st-madrid.es/transporte> " Metro: Sol, Sevilla  Bus: 3 , 5 , 15 , 20 , 50 , 51 , 55 , 53 , 150 " ;
+	<http://www.st-madrid.es/descripcion> "  Visitas guiadas (no grupos):  martes, jueves y viernes a las 11 horas, excepto Navidad, Semana Santa y agosto.   Visitas para grupos y privadas : gratuitas y guiadas a cargo de voluntarios culturales del Museo previa solicitud. Visitas de grupo:  museo.visitas@rabasf.org  - Visitas privadas a museo cerrado:  actos.culturales@rabasf.org   " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "ALCALA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "13" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28014" ;
+	<http://www.st-madrid.es/esParteDe> "SOL" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "440667"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4474557"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.41764548040709"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.700667044636178"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2095> <http://www.st-madrid.es/idEntidad> "2095" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo de Mineralogía" ;
+	<http://www.st-madrid.es/horarioEntidad> "Lunes, martes, miércoles y jueves de 12:30 a 14:30 horas (conviene concertar previamente la visita) " ;
+	<http://www.st-madrid.es/transporte> "Renfe: Cantoblanco Universidad" ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "COLMENAR VIEJO" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CARRETERA" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "19000" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28049" ;
+	<http://www.st-madrid.es/esParteDe> "EL GOLOSO" , "FUENCARRAL-EL PARDO" ;
+	<http://www.st-madrid.es/coordenadaX> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/email> "museo.mineralogia@uam.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2112> <http://www.st-madrid.es/idEntidad> "2112" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo de San Isidro. Los orígenes de Madrid" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Este espacio museográfico propone un viaje por la historia de la ciudad de Madrid desde la Prehistoria hasta el establecimiento de la Corte, a través de distintas salas como la de San Isidro, el Patio Renacentista, el Jardín Arqueobotánico o el Almacén Visitable.  " ;
+	<http://www.st-madrid.es/horarioEntidad> "   General:  de martes a domingo y festivos de 9:30 a 20 horas   Agosto:  de martes a viernes de 9:30 a 14:30 horas y sábados, domingos y festivos de 9:30 a 20 horas   Cerrado:  todos los lunes, 1 y 6 de enero, 1 de mayo y 25 de diciembre   24 y 31 de diciembre:  el museo permanecerá abierto de 10 a 14 horas  " ;
+	<http://www.st-madrid.es/transporte> " Metro: Latina , Tirso de Molina  Bus: 3 , 17 , 18 , 23 , 35 , 60 , 65 , 148 " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "SAN ANDRES" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "PLAZA" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "2" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28005" ;
+	<http://www.st-madrid.es/esParteDe> "PALACIO" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "439795"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4473945"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.412069631779325"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.710874934826838"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "museosanisidro@madrid.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/85301> <http://www.st-madrid.es/idEntidad> "85301" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo de Sanidad e Higiene Pública" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Ubicado en las antiguas dependencias del Laboratorio de Microbiología del Hospital del Rey. 800  m2  conservados tal cual su antiguo uso, con fondos de mobiliario, instrumental y bibliografía de los antiguos hospitales para enfermos infecciosos del complejo. Se resaltan hitos históricos relevantes en salud pública mediante láminas enmarcadas.  " ;
+	<http://www.st-madrid.es/horarioEntidad> " Consultar telefónicamente " ;
+	<http://www.st-madrid.es/transporte> " Metro: Chamartín (líneas 1, 10), Plaza de Castilla (1, 9, 10)  Bus: 124, 67 , 134 , 135 , 147  Renfe: Chamartín " ;
+	<http://www.st-madrid.es/descripcion> " Las  visitas guiadas a grup os se realizan de lunes a viernes de 10 a 14 horas, previa cita telefónica (teléfono: 918 222 334) o a través de la dirección de correo electrónico:  museo@iscii.es  " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "MONFORTE DE LEMOS" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "AVENIDA" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "5" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28029" ;
+	<http://www.st-madrid.es/esParteDe> "LA PAZ" , "FUENCARRAL-EL PARDO" ;
+	<http://www.st-madrid.es/coordenadaX> "441617"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4480968"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.47546597881768"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.6900603941123107"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "museodesanidad@iscii.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/187029> <http://www.st-madrid.es/idEntidad> "187029" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo del Atlético de Madrid" ;
+	<http://www.st-madrid.es/descripcionEntidad> " En el Museo del Atlético de Madrid &amp; Colección Pablo Ornaque se puede disfrutar de un recorrido histórico por el fútbol en general, y del Atlético de Madrid, en particular, donde los aficionados al fútbol no sólo contemplarán trofeos y objetos, sino también  un museo deportivo con piezas de gran valor museístico que alberga en sus vitrinas.   Se realizan visitas guiadas al estadio y a las instalaciones del Museo " ;
+	<http://www.st-madrid.es/horarioEntidad> "   Horarios del Museo    De martes a domingo, de 11 a 19 horas.  Días de partido: desde las 11 horas hasta el inicio del encuentro.     Horarios de las visitas guiadas    De martes a domingo a las 12, 13, 16:30 y 17:30 horas  Verano (de 28 de junio al 14 de septiembre): de martes a viernes a las 12, 13, 16:30 y 17:30 horas    " ;
+	<http://www.st-madrid.es/transporte> " Metro: Pirámides (línea 5), Marqués de Vadillo (línea 5)  Bus: 23, 34, 35, 36, 50, 116, 118, 119 " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "VIRGEN DEL PUERTO" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "PASEO" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "67" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28005" ;
+	<http://www.st-madrid.es/esParteDe> "IMPERIAL" , "ARGANZUELA" ;
+	<http://www.st-madrid.es/coordenadaX> "438902"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4472770"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.40141951261679"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.7212862502237236"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/2066> <http://www.st-madrid.es/idEntidad> "2066" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo del Ferrocarril de Madrid" ;
+	<http://www.st-madrid.es/descripcionEntidad> "Edificio de caracter monumental. Construido como cabecera de la línea Madrid - Extremadura - Portugal en el año 1880 por E. Cachelievre." ;
+	<http://www.st-madrid.es/horarioEntidad> "  De martes a viernes de 9 a 15 horas.   Sábados de 10 a 20 horas.   Domingos de 10 a 15 horas.   Cerrado los lunes (incluidos festivos), del 16 al 31 de agosto (ambos inclusive), y los días 1 y 6 de enero, 1 de mayo y 25 de diciembre.   Con motivo de la celebración del &lsquo;Mercado de Motores&rsquo; el segundo fin de semana de cada mes de enero a junio, el horario del Museo (cuyo espacio visitable estará restringido a su Nave Central) será de 11 a 22 horas y el acceso será gratuito. " ;
+	<http://www.st-madrid.es/transporte> " Metro: Delicias (línea 3)  Bus: 8 , 19 , 45 , 47 , 59 , 85 , 86  Renfe: Delicias " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "DELICIAS" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "PASEO" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "61" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28045" ;
+	<http://www.st-madrid.es/esParteDe> "DELICIAS" , "ARGANZUELA" ;
+	<http://www.st-madrid.es/coordenadaX> "441233"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4472625"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.400281290485566"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.693817192160563"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "museodelicias@ffe.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2058> <http://www.st-madrid.es/idEntidad> "2058" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo del Prado" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Construido inicialmente como Museo de Ciencias Naturales, este edificio neoclásico fue transformado en pinacoteca de las Colecciones Reales en 1818 con colecciones de pintura, dibujos, grabados, monedas y medallas desde el Románico hasta el siglo XIX. " ;
+	<http://www.st-madrid.es/horarioEntidad> "  De lunes a sábado de 10 a 20 horas . Domingos y festivos de 10 a 19 horas    Cerrado:  1 de enero, 1 de mayo y 25 de diciembre   Horario reducido:  6 de enero, 24 y 31 de diciembre de 10 a 14 horas   Horario de taquillas: a cceso al Museo hasta 30 minutos antes del cierre (el desalojo de las salas comienza 10 minutos antes del cierre) " ;
+	<http://www.st-madrid.es/transporte> " Metro: Atocha (línea 1), Banco de España (línea 2), Retiro (línea 2)  Bus: 9, 10, 14, 19, 27, 34, 37, 45  Renfe: Atocha " ;
+	<http://www.st-madrid.es/descripcion> "  Arquitecto : Juan de Villanueva (1785 - 1808)   Adecuación : Antonio López Aguado (1818 - 1831)   Ampliación : Rafael Moneo (2000 - 2007) " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "RUIZ DE ALARCON" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "23" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28014" ;
+	<http://www.st-madrid.es/esParteDe> "LOS JERONIMOS" , "RETIRO" ;
+	<http://www.st-madrid.es/coordenadaX> "441456"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4474099"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.41357557281165"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.6913253533221817"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2086> <http://www.st-madrid.es/idEntidad> "2086" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo del Reloj Grassy" ;
+	<http://www.st-madrid.es/descripcionEntidad> "  Arquitecto : Eladio Laredo Carranza (1916 - 1917).  Fundado por el relojero francés Grassy en 1955, este museo narra la historia de este aparato de medición. Sus fondos, colección privada, constan de más de quinientos ejemplares de diferentes nacionalidades y los más variados estilos.  " ;
+	<http://www.st-madrid.es/horarioEntidad> " Jueves de 18 a 19 horas y viernes de 11 a 12 horas.  Las visitas se efectúan con cita previa llamando al  teléfono 915 321 007 . Se encuentra en la Joyería Grassy, por tanto no se admiten visitas de grupos. " ;
+	<http://www.st-madrid.es/transporte> " Metro: Banco de España (línea 2), Sevilla (línea 2)  Bus: 1, 2, 5, 9, 15, 20, 51, 52, 53, 74, 146, 150 " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "GRAN VIA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "1" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28013" ;
+	<http://www.st-madrid.es/esParteDe> "CORTES" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "440889"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4474721"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.41913869883697"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.6980657388420255"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/7685664> <http://www.st-madrid.es/idEntidad> "7685664" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo del Robot" ;
+	<http://www.st-madrid.es/descripcionEntidad> " El Museo del Robot  nace con la idea de acercar de una forma directa y real el apasionante mundo de los robots de entretenimiento a cualquier tipo de público." ;
+	<http://www.st-madrid.es/horarioEntidad> "  Visitas guiadas regulares  (entrada libre NO disponible):   Martes a viernes: pases a las 13, 17 y 20 horas    Visitas guiadas para grupos:    Martes, miércoles y Jueves, pases (solo mañanas) de 10:30 a 12:00 horas  " ;
+	<http://www.st-madrid.es/transporte> " Metro: San Bernardo (líneas 2, 4)  Bus: 3, 21, 147 " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "ALBERTO AGUILERA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "1" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28015" ;
+	<http://www.st-madrid.es/esParteDe> "UNIVERSIDAD" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "440151"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4475876"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.42949061464909"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.7068731815207014"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2059> <http://www.st-madrid.es/idEntidad> "2059" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo del Romanticismo" ;
+	<http://www.st-madrid.es/horarioEntidad> "  Verano (del 2 de mayo al 31 de octubre):  de martes a sábados de 9:30 a 20:30 horas. Domingos y festivos de 10 a 15 horas. Jueves de agosto se cierra a las 00 horas (Museo y Café del Jardín).   De 1 de Noviembre a 30 de Abril:  de martes a sábado, de 9:30 a 18:30 horas. Domingos y festivos, de 10 a 15 horas.   Cerrado: todos los lunes, días 1 y 6 de enero, 1 de mayo, 24, 25 y 31 de diciembre y un festivo local (15 de mayo)  La Tienda y el Café del Jardín se regirán por el mismo horario de invierno. " ;
+	<http://www.st-madrid.es/transporte> " Metro: Tribunal (líneas 1 y 10), Alonso Martínez (líneas 4, 5 y 10)  Bus: 3, 37, 40 y 149  Renfe: Recoletos " ;
+	<http://www.st-madrid.es/descripcion> "  Visitas guiadas:  todos los sábados, (excepto el 16 de abril y el 8 de octubre) a las 11 y 13 horas. Actividad gratuita y sin reserva.   Descripción monumental   Construido para casa palacio del Marqués de Montallana por el discípulo de Ventura Rodríguez, Manuel Martín Rodríguez, dentro de unas líneas clasicistas, tiene algunas leves reminiscencias del barroco, como las molduras en forma de orejeras en los balcones. Las estancias nobles se organizan en torno a dos patios cuadrados. Conserva un interesante jardín romántico.  En 1850 fue comprado por el Marqués de la Puebla de Maestre. Tras albergar la Comisaría Regia de Turismo. En 1924 se convirtió en Museo Romántico y desde entonces ha sido restaurado e intervenido en diversas ocasiones con motivo de su funcionamiento como museo.  Tras nueve años cerrado ha sido reformado y puesto a punto, en aplicación de un plan museológico consistente en su renovación, ampliando su ámbito expresivo desde lo meramente literario hasta lo histórico, político, artístico y decorativo, para dar una visión de conjunto de esta etapa de la vida española.   Muestra la ambientación de una casa romántica. Posee obras de los pintores más importantes del siglo XIX (Goya, Madrazo y otros) junto a esculturas, muebles, porcelanas, abanicos y todo tipo de complementos decorativos que nos recuerdan la forma de vida de una familia burguesa del siglo XIX " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "SAN MATEO" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "13" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28004" ;
+	<http://www.st-madrid.es/esParteDe> "JUSTICIA" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "440834"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4475467"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.42585510296794"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.6987835425963063"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "informacion.romanticismo@mecd.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/6337393> <http://www.st-madrid.es/idEntidad> "6337393" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo del Seguro. Fundación Mapfre" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Ubicado en el edificio de FUundación MAPFRE exhibe una amplia colección de piezas relacionadas con la historia de la actividad aseguradora desde el siglo  XVIII  hasta nuestros días.  " ;
+	<http://www.st-madrid.es/horarioEntidad> " De lunes a Viernes previa petición de hora.  " ;
+	<http://www.st-madrid.es/transporte> " Metro: Colón (línea 4)  Bus: 5, 14, 21, 27, 37, 45, 53, 150  Renfe: Recoletos " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "BARBARA DE BRAGANZA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "14" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28004" ;
+	<http://www.st-madrid.es/esParteDe> "JUSTICIA" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "441233"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4475245"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.42388355388781"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.694059645939101"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2115> <http://www.st-madrid.es/idEntidad> "2115" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo del Traje. Centro de Investigación del Patrimonio Etnológico (CIPE)" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Edificio de carácter monumental, construido por Jaime López de Asiaín en 1969. Se caracteriza por su estructura de hormigón y su exterior de placas metálicas y triple acristalamiento. " ;
+	<http://www.st-madrid.es/horarioEntidad> " De martes a sábado de 9:30 a 19 horas. Domingos y festivos de 10 a 15 horas.  Verano (julio y agosto): los jueves se amplia el horario hasta las 22:30 horas.  Cerrado: todos los lunes, 1 y 6 de enero, 1 de mayo, 9 de noviembre, 24, 25 y 31 de diciembre. " ;
+	<http://www.st-madrid.es/transporte> " Metro: Moncloa (líneas 3, 6), Ciudad Universitaria (línea 6)  Bus: 46, 82, 83, 132, 133, G " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "JUAN DE HERRERA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "AVENIDA" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "2" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28040" ;
+	<http://www.st-madrid.es/esParteDe> "CIUDAD UNIVERSITARIA" , "MONCLOA-ARAVACA" ;
+	<http://www.st-madrid.es/coordenadaX> "438382"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4477019"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.439657822278555"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.7278378564088275"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "museodeltraje@mecd.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2074> <http://www.st-madrid.es/idEntidad> "2074" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Geominero" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Construcción típica de la arquitectura en hierro y cristal de principios del siglo XX que alberga colecciones de minerales, rocas y fósiles procedentes de todas las regiones españolas y de antiguos territorios coloniales, así como de yacimientos significados del registro mundial. " ;
+	<http://www.st-madrid.es/horarioEntidad> " De lunes a domingo y festivos de 9 a 14 horas. Cerrado: 1 y 6 de enero y 24, 25 y 31 de diciembre " ;
+	<http://www.st-madrid.es/transporte> " Metro: Ríos Rosas (línea 1)  Bus: 3, 12, 37, 45, 149 " ;
+	<http://www.st-madrid.es/descripcion> "  Visitas guiadas:  para grupos de lunes a viernes, previa petición cita   Objetivos del Museo : conservar, investigar y difundir el patrimonio geológico, paleontológico y mineralógico  " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "RIOS ROSAS" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "23" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28003" ;
+	<http://www.st-madrid.es/esParteDe> "RIOS ROSAS" , "CHAMBERI" ;
+	<http://www.st-madrid.es/coordenadaX> "440773"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4477266"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.44205696051332"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.6996705622841457"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "m.geominero@igme.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2075> <http://www.st-madrid.es/idEntidad> "2075" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Histórico Minero Don Felipe de Borbón y Grecia" ;
+	<http://www.st-madrid.es/descripcionEntidad> "Ubicado en la Escuela Técnica Superior de Ingenieros de Minas" ;
+	<http://www.st-madrid.es/horarioEntidad> " Previa cita concertada para grupos   Mercadillo de minerales y fósiles:  primer domingo de cada mes de 10 a 14 horas (en este período se podrá visitar también el museo y la mina)   Exposición anual  el segundo fin de semana (viernes, sábado y domingo) de marzo (el Museo permanecerá abierto todo el día) " ;
+	<http://www.st-madrid.es/transporte> " Metro: Ríos Rosas (línea 1)  Bus: 3, 12, 37, 45, 149 " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "RIOS ROSAS" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "21" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28003" ;
+	<http://www.st-madrid.es/esParteDe> "RIOS ROSAS" , "CHAMBERI" ;
+	<http://www.st-madrid.es/coordenadaX> "440712"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4477269"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.44207963042673"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.7003900716027776"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/6019032> <http://www.st-madrid.es/idEntidad> "6019032" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Los Caños del Peral. Estación de Metro Ópera" ;
+	<http://www.st-madrid.es/horarioEntidad> " Viernes, sábados y domingos de 11 a 13 y de 17 a 19 horas " ;
+	<http://www.st-madrid.es/descripcion> "  Museo Los Caños del Peral   La estación de Ópera cuenta en su interior con el mayor museo arqueológico bajo tierra de Madrid, un espacio de 200 metros cuadrados donde se pueden ver restos arqueológicos de los siglos  XVI  y  XVII  pertenecientes a la Fuente de los Caños del Peral, el Acueducto de Amaniel y la Alcantarilla del Arenal.  A principios del siglo  XVI  el agua no llegaba a las casas de Madrid a pesar de ser un elemento indispensable en el desarrollo de la ciudad y realizaban el abastecimiento mediante aljibes o pilas instaladas en las plazas y junto a puertas y murallas. En la Edad Moderna, las fuentes públicas sustituyeron a los aljibes, y parte de esas fuentes es lo que encontramos hoy en Ópera.  La Fuente de los Caños del Peral contaba con seis caños y sus correspondientes pilas. El agua procedía del manantial de aguas gordas existentes en la plazuela de los Caños.  El Acueducto de Amaniel se remonta a comienzos del siglo  XVII , nacía en la actual Dehesa de la Villa y surtía agua al Palacio real.  La Alcantarilla del Arenal vino a paliar el problema de la evacuación de las aguas sucias, por eso se canalizó para que desembocara en el arroyo de Leganitos, en algún punto de la actual Cuesta de San Vicente.  Elementos hidráulicos que acercan la historia a todos los visitantes que además, tienen la posibilidad de acceder a la sala de audiovisuales para conocer la historia de los vestigios expuestos. " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "ISABEL II" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "PLAZA" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "1" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28013" ;
+	<http://www.st-madrid.es/esParteDe> "PALACIO" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "439943"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4474575"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.41775560280743"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.709202070089538"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/2053> <http://www.st-madrid.es/idEntidad> "2053" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Lázaro Galdiano" ;
+	<http://www.st-madrid.es/horarioEntidad> "  Lunes y de miércoles a sábados de 10 a 16,30 horas.  Domingos de 10 a 15 horas.  Cerrado todos los martes, 1 y 6 de enero, 28 y 29 de marzo, 1 y 15 de mayo, 15 de agosto, 1 de noviembre y 24, 25 y 31 de diciembre.    Visitas guiadas  al Museo fuera de horario: de 17:30 a 18:45 horas, previa reserva telefónica en el 915 616 084 (extensión 101).    Horario para reserva telefónica: de lunes a jueves, de 8,30 a 16,30 horas, viernes hasta las 14 horas.   Importe: 2 euros (entrada al museo).   Miércoles y jueves: para grupos previamente constituidos.   Viernes para visitantes individuales reunidos para la visita.   " ;
+	<http://www.st-madrid.es/transporte> " Bus: 9, 12, 16, 19, 51, 61  " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "SERRANO" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "122" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28006" ;
+	<http://www.st-madrid.es/esParteDe> "CASTELLANA" , "SALAMANCA" ;
+	<http://www.st-madrid.es/coordenadaX> "441911"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4476668"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.436750328725985"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.6861980129207894"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "secretaria.fundacion@flg.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2103> <http://www.st-madrid.es/idEntidad> "2103" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Médico Farmaceútico" ;
+	<http://www.st-madrid.es/horarioEntidad> "De lunes a viernes de 8 a 15 horas" ;
+	<http://www.st-madrid.es/transporte> " Metro: Guzmán el Bueno (líneas 6, 7)  Bus: 44, 45, F, C " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "REINA VICTORIA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "AVENIDA" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "26" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28003" ;
+	<http://www.st-madrid.es/esParteDe> "CIUDAD UNIVERSITARIA" , "MONCLOA-ARAVACA" ;
+	<http://www.st-madrid.es/coordenadaX> "439966"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4477857"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.44732295324816"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.7092415521608646"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/5349304> <http://www.st-madrid.es/idEntidad> "5349304" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Nacional Centro de Arte Reina Sofía (MNCARS)" ;
+	<http://www.st-madrid.es/descripcionEntidad> "  Edificio Sabatini:  calle Santa Isabel 52.   Edificio Nouvel  (ampliación): ronda de Atocha, esquina a plaza del Emperador Carlos V.   Espacios completamentarios en el Parque de El Retiro:  Palacio de Velázquez y Palacio de Cristal " ;
+	<http://www.st-madrid.es/horarioEntidad> "  De lunes a sábado de 10 a 21 horas y domingos de 10 a 19 horas (de 14:30 a 19 horas se pueden visitar la Colección 1, Edificio Sabatini planta 2,. El resto de las exposiciones temporales y la Colección, permanecen cerradas).  Martes cerrado (incluso festivos)  Cerrado los días 1 y 6 de enero, 1 de mayo, 15 de mayo, 9 de noviembre y 24, 25 y 31 de diciembre   El horario de la taquilla finaliza 30 minutos antes de la hora del cierre del museo.  " ;
+	<http://www.st-madrid.es/transporte> " Metro: Atocha (línea 1)  Bus:  6 , 8 , 10 , 14 , 19 , 24 , 26 , 27 , 32 , 34 , 36 , 37 , 41 , 45 , 47 , 54 , 55 , 57 , 59 , 60 , 78 , 85 , 86 , 102 , 116 , 118 , 119 , 141 , 148 , 247 , E3 , Circular  Renfe: C2, C3, C4, C5, C7, C8, C10 " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "SANTA ISABEL" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "52" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28012" ;
+	<http://www.st-madrid.es/esParteDe> "EMBAJADORES" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "441222"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4473541"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.40853230723727"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.6940315586451433"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "info@museoreinasofia.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2057> <http://www.st-madrid.es/idEntidad> "2057" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Nacional de Antropología" ;
+	<http://www.st-madrid.es/descripcionEntidad> " El Museo Nacional de Antropología ofrece al público una visión global de la cultura de diferentes pueblos y  establece las semejanzas o diferencias culturales que les unen o separan para poner de manifiesto la riqueza y diversidad de las culturas existentes a lo largo del mundo, favorece la comprensión intelectual y promueve la tolerancia hacia otros pueblos y otras culturas. El Museo está instalado en el edificio de estilo clasicista construido por el Marqués de Cubas en 1875 por encargo del Doctor González Velasco, fundador de la institución. " ;
+	<http://www.st-madrid.es/horarioEntidad> "  De martes a sábado de 9:30 a 20 horas, domingos y festivos de 10 a 15 horas.  Cerrado: todos los lunes; 1 de enero; 1 de mayo;  24, 25 y 31 de diciembre y dos festivos locales.  " ;
+	<http://www.st-madrid.es/transporte> " Metro: Atocha  Bus: 6, 7,10, 14, 19, 24, 26, 27, 32, 34, 37, 45, 85, 150, C  Renfe: Atocha " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "ALFONSO XII" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "68" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28014" ;
+	<http://www.st-madrid.es/esParteDe> "LOS JERONIMOS" , "RETIRO" ;
+	<http://www.st-madrid.es/coordenadaX> "441659"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4473466"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.40788746746481"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.6888747083604834"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "antropologico@mcu.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/2055> <http://www.st-madrid.es/idEntidad> "2055" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Nacional de Artes Decorativas" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Inaugurado en 1912, su sede es un típico palacete madrileño del último tercio del siglo XIX. El museo posee muebles, cerámicas, vidrios, joyas, tejidos, arte oriental, y hasta 30.000 objetos distintos que a lo largo de la historia han servido para embellecer las casas, palacios y los monumentos de distintas culturas.  El museo posee muestras como el Jarrón de Sevres regalo de Napoleón III, la Cocina Valenciana del siglo XVIII compuesta por más de 1.500 azulejos de Manises, la Mesa de plata del siglo XVI o la colección de alfombras españolas de los siglos XV al XVII. " ;
+	<http://www.st-madrid.es/horarioEntidad> "  De martes a sábados de 9:30 a 15 horas.   Jueves tarde de 17 a 20 horas.  Cerrado los jueves de julio y agosto.  Domingos y festivos de 10 a 15 horas.   Cerrado: todos los lunes del año, y los días 1 y 6 de enero, 1 y 15 de mayo, 24, 25 y 31 de diciembre.  " ;
+	<http://www.st-madrid.es/transporte> " Metro: Banco de España (línea 2) , Retiro (línea 2)  Bus: 1, 2, 5, 9, 10, 14, 15, 16, 19, 20, 27, 28, 34, 37, 45, 51, 52, 53, 74, 146, 148, 150  Cercanías: Recoletos " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "MONTALBAN" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "12" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28014" ;
+	<http://www.st-madrid.es/esParteDe> "LOS JERONIMOS" , "RETIRO" ;
+	<http://www.st-madrid.es/coordenadaX> "441590"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4474576"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.4178910680573"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.689790044810553"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "mnad@mnad.mcu.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2083> <http://www.st-madrid.es/idEntidad> "2083" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Nacional de Ciencia y Tecnología" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Situado en la antigua estación de Delicias. El contenido de la colección se basa en instrumentos científicos, máquinas industriales, aparatos de sonido e imagen.  Exposiciones permanentes: Tiempos precisos, de relojes y Vivir más y mejor: nuestra meta " ;
+	<http://www.st-madrid.es/horarioEntidad> " De martes a sábado de 10 a 14 y de 16 a 18 horas. Domingo y festivos de 10 a 14:30 horas.  Verano (julio y agosto): de martes a sábado de 9 a 15 horas; domingos y festivos de 10 a 14:30 horas.   Cerrado: lunes, días 1 y 6 de enero, 1 y 15 de mayo y  24, 25 y 31 de diciembre  " ;
+	<http://www.st-madrid.es/transporte> " Metro: Delicias (línea 3)  Bus: 8 , 19 , 45 , 47 , 59 , 85 , 86 " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "DELICIAS" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "PASEO" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "61" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28045" ;
+	<http://www.st-madrid.es/esParteDe> "DELICIAS" , "ARGANZUELA" ;
+	<http://www.st-madrid.es/coordenadaX> "441233"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4472625"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.400281290485566"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.693817192160563"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "infomuseo@muncyt.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/2056> <http://www.st-madrid.es/idEntidad> "2056" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Nacional de Ciencias Naturales" ;
+	<http://www.st-madrid.es/descripcionEntidad> "Construido por Fernando de la Torriente en 1881 con hierro y cristal. De estructura muy similar a los pabellones con destino a exposiciones construídos en la época. Sus jardines albergan un estanque, el monumento a Isabel la Católica y el monumento a la Constitución de 1978." ;
+	<http://www.st-madrid.es/horarioEntidad> " De martes a viernes, domingos, festivos y lunes festivos de 10 a 17 horas. Sábados, domingos previos a festivos de 10 a 20 horas. Sábados de julio y agosto de 10 a 15 horas.   Cerrado : todos los lunes no festivos, 1 y 6 de enero, 1 de mayo y 25 de diciembre   Biblioteca : de lunes a jueves de 9 a 20 y viernes de 9 a 15 horas. Julio y agosto: de lunes a viernes de 9 a 14,30 horas    Mediateca  (cerrada por obras). " ;
+	<http://www.st-madrid.es/transporte> " Metro: Gregorio Marañón (líneas 7, 10)  Bus: 7, 12, 14, 27, 40, 45, 147, 150 " ;
+	<http://www.st-madrid.es/descripcion> "  Exposiciones permanentes     Minerales, fósiles y evolución humana:  fósiles, meteoritos, minerales, rocas y la evolución humana    Mediterráneo, naturaleza y civilización:  la fauna más destacada del área mediterránea española y los ecosistemas que dan forma a sus paisajes.   El Real Gabinete de Historia Natural:  piezas emblemáticas del antiguo Real Gabinete de 1771 y otras de gran valor histórico.   El Jardín educativo del monte mediterráneo:  bajo este nombre están representados ambientes botánicos con especies propias de esta región, que tienen un bajo requerimiento hídrico y que muchas de ellas están presentes en la Comunidad de Madrid.   El almacén de aves y mamíferos:  custodia las más importantes colecciones zoológicas y geológicas de España con más de 8 millones de ejemplares.   Jardín de piedras:  conjunto al aire libre de rocas y troncos fosilizados.   Esqueleto de ballena roncual : cedido por el gobierno andaluz, con más de 20 metros y 1.500 kilos. La ballena quedó varada en 2008 en la playa de Cortijo Blanco, en Marbella,     Talleres y visitas especiales para discapacitados visuales e intelectuales,   para grupos:  concertar en los teléfonos 915 646 169 y 914 111 328 ext.  1165 ( de lunes a viernes de 10 a 14 horas) " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "JOSE GUTIERREZ ABASCAL" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "2" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28006" ;
+	<http://www.st-madrid.es/esParteDe> "EL VISO" , "CHAMARTIN" ;
+	<http://www.st-madrid.es/coordenadaX> "441578"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4477079"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.44042943656617"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.690161856630636"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "museo@bib.csic.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2076> <http://www.st-madrid.es/idEntidad> "2076" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Naval" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Temática: historia de la navegación española  " ;
+	<http://www.st-madrid.es/horarioEntidad> "De martes a domingo de 10 a 19 horas. Cerrado: lunes,  días 1 y 6 de enero, viernes santo, 1 de mayo, día 16 de julio, y días 24, 25 y 31 de diciembre" ;
+	<http://www.st-madrid.es/transporte> " Metro: Banco de España (línea 2)  Bus: 9, 10, 14, 27, 34, 37, 45 " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "PRADO" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "PASEO" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "5" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28014" ;
+	<http://www.st-madrid.es/esParteDe> "LOS JERONIMOS" , "RETIRO" ;
+	<http://www.st-madrid.es/coordenadaX> "441337"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4474537"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.41751289873052"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.692768317427539"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/2085> <http://www.st-madrid.es/idEntidad> "2085" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Postal y Telegráfico" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Recorrido temático y cronológico por la evolución de los medios de comunicación y colecciones filatélicas de gran valor histórico, temáticas y por países. " ;
+	<http://www.st-madrid.es/horarioEntidad> "  Museo: de lunes a viernes de 9 a 14 y de 16 a 18 horas.   Biblioteca: de lunes a viernes de 9 a 14 horas.  " ;
+	<http://www.st-madrid.es/transporte> "Bus: 161" ;
+	<http://www.st-madrid.es/descripcion> "  Visitas guiadas:  previa petición de hora, para grupos o coleccionistas e investigadores. Mediante la proyección de videos y a través de la visita, se puede conocer la historia del correo y del telégrafo desde los orígenes hasta las nuevas tecnologías.  " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "TAPIA DE CASARIEGO" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "6" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28023" ;
+	<http://www.st-madrid.es/esParteDe> "VALDEMARIN" , "MONCLOA-ARAVACA" ;
+	<http://www.st-madrid.es/coordenadaX> "434912"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4480162"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.467706026917405"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.7690721403206724"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "museopostaltelegrafico@correos.com" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/4997114> <http://www.st-madrid.es/idEntidad> "4997114" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Sorolla" ;
+	<http://www.st-madrid.es/horarioEntidad> " De martes a sábado: de 9:30 a 20 horas ininterrumpido   Domingo y festivos: de 10 a 15 horas  Cerrado: todos los lunes del año, 1 de enero, 1 de mayo, 24, 25 y 31 de diciembre, y dos festivos locales. " ;
+	<http://www.st-madrid.es/transporte> " Metro: Iglesia (línea 1), Rubén Darío (línea 5), Gregorio Marañón (líneas 7, 10)  Bus: 5, 7, 14, 16, 27, 40, 45, 61, 147 y 150  " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "GENERAL MARTINEZ CAMPOS" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "PASEO" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "37" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28010" ;
+	<http://www.st-madrid.es/esParteDe> "ALMAGRO" , "CHAMBERI" ;
+	<http://www.st-madrid.es/coordenadaX> "441382"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4476506"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.43525376916864"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.69241981045026"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "museo@msorolla.mcu.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2077> <http://www.st-madrid.es/idEntidad> "2077" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Taurino de la Plaza de las Ventas" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Su existencia data del día de San Isidro de 1951, creado por la extinta Diputación Provincial de Madrid. Sirve como testimonio de los momentos estelares del arte y la historia del toreo  " ;
+	<http://www.st-madrid.es/horarioEntidad> "  Temporada taurina  (de marzo a octubre): de lunes a viernes de 9:30 a 14:30 horas. Domingos, festivos y días de festejo de 10 a 13 horas   Fuera de temporada  (de noviembre a febrero): de lunes a viernes de 9:30 a 14:30 horas " ;
+	<http://www.st-madrid.es/transporte> " Metro: Ventas (líneas 2, 5)  Bus: 12, 21, 38, 53, 106, 110, 146 " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "ALCALA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "237" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28028" ;
+	<http://www.st-madrid.es/esParteDe> "GUINDALERA" , "SALAMANCA" ;
+	<http://www.st-madrid.es/coordenadaX> "443885"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4476078"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.43157110306013"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.662872780933851"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/2099> <http://www.st-madrid.es/idEntidad> "2099" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Thyssen Bornemisza" ;
+	<http://www.st-madrid.es/descripcionEntidad> "   Arquitecto:  Antonio López Aguado (1805 - 1806)   Adecuación : Rafael Moneo (1989 - 1992)    Ampliación : BOPBAA (1999 - 2004)   El Palacio donde se ubica la colección fue el antiguo palacio del duque de Villahermosa. Edificación neoclásica. Posteriormente se transforma y adapta como entidad bancaria perdiento sus espacios interiores. Años más tarde, pasó a formar parte de los edificios del Museo del Prado. Desde principios de los 90 alberga la Colección Thyssen. El museo ofrece un recorrido por la historia de la pintura europea desde sus inicios en el siglo XIII, hasta finales del siglo XX.  " ;
+	<http://www.st-madrid.es/transporte> " Metro: Banco de España (línea 2)  Bus: 1, 2,  5, 9, 10, 14, 15, 20, 27, 34, 37, 45, 51, 52, 53, 74, 146, 150  Renfe: Recoletos " ;
+	<http://www.st-madrid.es/descripcion> "   Horario     Colección permanente : de martes a domingo de 10 a 19 y sábados hasta las 21 horas (exposiciones temporales). El desalojo de las Salas de Exposición tendrá lugar cinco minutos antes del cierre  El Museo cierra los días 1 de enero, 1 de mayo y el 25 de diciembre  Apertura gratuita todos los lunes del año, entre las 12 y las 16 horas    Horario de apertura durante el verano de 2014     Exposiciones temporales:  de 10 de junio a 14 de septiembre, las exposiciones temporales estarán abiertas de 10 a 22 horas (de martes a sábado) y de 10 a 19 horas (lunes y domingos). Último acceso una hora antes del cierre   Cafetería - restaurante:  permanecerá abierta de 10 a 22 horas (de martes a sábado) y de 10 a 19 horas (lunes y domingos)   Terrazas del Thyssen:  de 10 a 1 de la madrugada (de martes a sábado) y de 10 a 19 horas (lunes y domingos)   Restaurante El Mirador del Museo:  únicamente abierto para cenas (de martes a sábado), desde las 20:20 horas hasta la 1 de la madrugada  " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "PRADO" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "PASEO" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "8" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28014" ;
+	<http://www.st-madrid.es/esParteDe> "CORTES" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "441168"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4474371"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.41600553697803"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.694744831131079"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "inform@museothyssen.org" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/2101> <http://www.st-madrid.es/idEntidad> "2101" ;
+	<http://www.st-madrid.es/nombreEntidad> "Museo Tiflológico" ;
+	<http://www.st-madrid.es/descripcionEntidad> "Edificio con una superficie de 1.500  m2  dividido en tres zonas con maquetas de monumentos nacionales e internacionales realizadas por ciegos e instrumentos utilizados por los invidentes desde hace 200 años. Es un espacio concebido para que sus visitantes puedan ver y tocar las piezas expuestas." ;
+	<http://www.st-madrid.es/horarioEntidad> " Martes a viernes de 10 a 14 horas y de 17 a 20 horas. Sábados de 10 a 14 horas. Lunes, domingos y festivos cerrado.  Las visitas de grupos se realizan previa reserva, de 8 a 15 horas, en el teléfono de información:+34 915 894 219 " ;
+	<http://www.st-madrid.es/transporte> " Metro: Estrecho  Bus: 3, 42, 64, 66, 124, 127 " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "LA CORUÑA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "18" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28020" ;
+	<http://www.st-madrid.es/esParteDe> "CUATRO CAMINOS" , "TETUAN" ;
+	<http://www.st-madrid.es/coordenadaX> "440740"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4478725"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.45519790204094"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.7001960485997545"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "museo@once.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/2063> <http://www.st-madrid.es/idEntidad> "2063" ;
+	<http://www.st-madrid.es/nombreEntidad> "Palacio de Liria" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Construído por Ventura Rodríguez entre 1762 y 1780 para el tercer Duque de Berwick y de Liria. De estilo barroco clásico. Destaca su fachada con columnas jónicas y pilastras que descansan sobre un basamento almohadillado.  " ;
+	<http://www.st-madrid.es/horarioEntidad> " Viernes: visita guiada a las 10 horas, 11 horas y 12 horas.  Visitas: previa petición de cita por escrito o por fax " ;
+	<http://www.st-madrid.es/transporte> " Metro: Ventura Rodríguez (línea 3)  Bus: 1, 2, 44, 74, 133, C " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "PRINCESA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "20" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28008" ;
+	<http://www.st-madrid.es/esParteDe> "UNIVERSIDAD" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "439663"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4475582"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.42680681645222"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.7125979731032404"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/2062> <http://www.st-madrid.es/idEntidad> "2062" ;
+	<http://www.st-madrid.es/nombreEntidad> "Palacio Real" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Construido sobre el solar del antiguo Alcázar tras un incendio en 1734. Proyectado por Juvara en 1735 y construido por Sachet de 1738 a 1764 bajo las influencias del clasicismo barroco. A partir de 1770, Sabatini añadió el ala sudeste y realizó la gran escalera. Es de destacar el gran patio que articula el edificio y la fachada principal que aloja el balcón y Escudo Real.  Dentro se encuentra el Museo Real Oficina de Farmacia (cerrado por obras de remodelación). " ;
+	<http://www.st-madrid.es/horarioEntidad> "  De octubre a marzo: de 10 a 18 horas.  De abril a septiembre: de 10 a 20 horas.  Cierre taquillas una hora antes.  Cerrado: 1 y 6 (acto oficial) de enero; 1 de mayo; 25 de diciembre de 2014.   Abierto: 17 y 18 de abril; 2 y 15 de mayo; 19 de junio; 15 de agosto; 1 y 10 de noviembre; 6, 8, 24 y 31 de diciembre de 2014: taquillas cerradas a las 14 y monumento a la 15 horas.   " ;
+	<http://www.st-madrid.es/transporte> " Metro: Ópera (líneas 2, 5 y Ramal Opera Norte)  Bus: 3, 25, 39, 148 " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "BAILEN" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "0" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28013" ;
+	<http://www.st-madrid.es/esParteDe> "PALACIO" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "439649"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4474910"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.42075212551193"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.712699107286406"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "info@patrimonionacional.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/2079> <http://www.st-madrid.es/idEntidad> "2079" ;
+	<http://www.st-madrid.es/nombreEntidad> "Panteón de Hombres Ilustres" ;
+	<http://www.st-madrid.es/descripcionEntidad> " La construcción de este edificio responde a dos de las constantes de fines de siglo: la arquitectura historicista y la escultura funeraria. En él reposan trece personajes ilustres de la historia política y militar española.   Atención telefónica:    De lunes a sábado: de 9:30 a 17 horas  Domingos y festivos: de 9 a 14 horas  " ;
+	<http://www.st-madrid.es/horarioEntidad> "  De martes a sábado de 10 a 14 y de 16 a 18,30 horas.  Domingos y festivos de 10 a 15 horas. Tardes cerrado.  Cerrado: 1 y 6 de enero; 1 de mayo; 25 de diciembre de 2014.   Abierto: 15 de mayo; 10 de noviembre y 8, 24 y 31 de diciembre de 2014: los días 24 y 31 de diciembre cerradas taquillas a las 14:30 y monumento a las 15 horas.  Abierto horario domingo: 17 y 18 de abril; 2 de mayo; 19 de junio; 15 de agosto; 1 de noviembre y 6 de diciembre de 2014.  Cierre del acceso al monumento media hora antes.  " ;
+	<http://www.st-madrid.es/transporte> " Metro: Atocha  Bus: 10, 14, 24, 32, 37, 54, 57, 141  Renfe: Atocha " ;
+	<http://www.st-madrid.es/descripcion> " Entrada libre " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "JULIAN GAYARRE" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "3" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28014" ;
+	<http://www.st-madrid.es/esParteDe> "PACIFICO" , "RETIRO" ;
+	<http://www.st-madrid.es/coordenadaX> "442121"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4473278"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.40622617519116"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.683413041846525"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/3362> <http://www.st-madrid.es/idEntidad> "3362" ;
+	<http://www.st-madrid.es/nombreEntidad> "Parroquia Santa Cruz" ;
+	<http://www.st-madrid.es/transporte> " Metro: Sol , Tirso de Molina  Bus: 6 , 17 , 18 , 23 , 26 , 31 , 32 , 35 , 50 , 65 " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "ATOCHA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "6" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28012" ;
+	<http://www.st-madrid.es/esParteDe> "SOL" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "440278"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4474221"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.414599766147546"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.705220430502387"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Planetarios/2213> <http://www.st-madrid.es/idEntidad> "2213" ;
+	<http://www.st-madrid.es/nombreEntidad> "Planetario de Madrid" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Inaugurado el 29 de septiembre de 1986.  Los programas que se ofrecen en el Planetario se renuevan periódicamente con una duración aproximada de 45 minutos. Existen dos programaciones diferentes, una durante el verano y época de vacaciones escolares y otra durante el curso escolar. " ;
+	<http://www.st-madrid.es/transporte> " Metro: Méndez Álvaro (línea 6),   Bus: 148, 156 " ;
+	<http://www.st-madrid.es/descripcion> "  Horario de e  xposiciones    Del 18 de enero al 10 de abril de 2014   De martes a viernes (días lectivos) de 17 a 19:45 horas.  Sábados y domingos de 11 a 13:45 y de 17 a 20:45 horas.    Semana Santa de 2014   11, 15 y 16 de abril de 9:30 a 13:45 y de 17 a 20:45 hora.  12, 13, 17, 18, 19 y 20 de abril de 11 a 13:45 y de 17 a 19:45 horas.    Del 22 de abril al 20 de junio de 2014   De martes a viernes (días lectivos): de 17 a 19:45 horas.  Sábados, domingos y festivos de 11 a 13:45 y de 17 a 20:45 horas.    Del 21 de junio al 21 de septiembre   De martes a viernes: 9:30 a 13:45 y de 17 a 19:45 horas  Sábados, domingos y festivos de 11 a 13:45 y de 17 a 20:45 horas.      Días de cierre    Todos los lunes del año.  Del 6 al 17 de enero por revisión técnica anual.  " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "PLANETARIO" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "AVENIDA" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "16" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28045" ;
+	<http://www.st-madrid.es/esParteDe> "LEGAZPI" , "ARGANZUELA" ;
+	<http://www.st-madrid.es/coordenadaX> "441977"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4471730"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.39227092120195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.684968648157021"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "buzon@planetmad.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Planetarios" ;
+	<http://www.st-madrid.es/tipoEntidad> "Planetarios" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/3359> <http://www.st-madrid.es/idEntidad> "3359" ;
+	<http://www.st-madrid.es/nombreEntidad> "Real Basílica San Francisco el Grande" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Conjunto conventual que sustituyó al monasterio franciscano medieval, construido por Francisco de las Cabezas entre 1761 y 1768, que fue relevado por Antonio Polo y que concluye Francisco Sabatini en 1784 donde se exponen colecciones de pinturas de los siglos XVII al XIX. " ;
+	<http://www.st-madrid.es/horarioEntidad> "  Museo:  de martes a viernes de 10:30 a 12:30 y de 16 a 18 horas. Sábados de 10:30 a 12:30 y de 16 a 18 horas (si no se ofician actos religiosos). Julio y agosto: de martes a domingo de 10:30 a 12:30 y de 17 a 19 horas. " ;
+	<http://www.st-madrid.es/transporte> " Metro: La Latina (línea 5) , Puerta de Toledo (línea 5)  Bus:  3, 17, 18, 23, 31, 35, 36, 41, 50, 60, 65, 148, 749, C1, C2 " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "SAN BUENAVENTURA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "1" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28005" ;
+	<http://www.st-madrid.es/esParteDe> "PALACIO" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "439487"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4473811"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.41084005024222"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.714503845728281"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/2087> <http://www.st-madrid.es/idEntidad> "2087" ;
+	<http://www.st-madrid.es/nombreEntidad> "Real Fábrica de Tapices" ;
+	<http://www.st-madrid.es/horarioEntidad> " De lunes a viernes de 10 a 14 horas.   Cerrado: sábados, domingos, Semana Santa y agosto. " ;
+	<http://www.st-madrid.es/transporte> " Metro: Menéndez Pelayo (línea 1)  Bus: 10, 14, 26, 32, C " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "FUENTERRABIA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "2" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28014" ;
+	<http://www.st-madrid.es/esParteDe> "PACIFICO" , "RETIRO" ;
+	<http://www.st-madrid.es/coordenadaX> "442197"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4473262"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.406087329011655"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.682515969574079"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "info@realfabricadetapices.com" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/3349> <http://www.st-madrid.es/idEntidad> "3349" ;
+	<http://www.st-madrid.es/nombreEntidad> "Real Monasterio de la Encarnación" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Edificio construído por Juan Gómez de Mora de 1611 a 1616 como monasterio anejo al Alcázar Real, modelo de lo que se ha dado en llamar barroco madrileño. Cuenta con la reliquia de San Pantaleón. " ;
+	<http://www.st-madrid.es/horarioEntidad> "  De martes a sábado: de 10 a 14 horas y de 16 a 18:30 horas  Domingos y festivos: de 10 a 15 horas y tardes cerrado  Cierre taquillas, 45 minutos antes  Cerrado: 1 y 6 de enero; Semana Santa (de 16 al 19 de abril, inclusive); 1 de mayo; 27 de julio; 10 de noviembre; 24, 25 y 31 de diciembre de 2014  Abierto: 15 de mayo y 8 de diciembre de 2014  Abierto horario domingo: 2 de mayo; 19 de junio; 15 de agosto; 1 de noviembre y 6 de diciembre de 2014    Atención telefónica    De lunes a sábados: de 9:30 a 17 horas  Domingos y festivos: de 9 a 14 horas  " ;
+	<http://www.st-madrid.es/transporte> " Metro:  Ópera (líneas 2, 5 y Ramal Ópera Príncipe Pío), Plaza de España (línea 3)  Bus:  1, 2, 3, 25, 39, 44, 46, 74, 75, 133 , 138, 147, 148, 202 , 749, C1, C2 " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "ENCARNACION" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "PLAZA" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "1" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28013" ;
+	<http://www.st-madrid.es/esParteDe> "PALACIO" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "439744"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4474790"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.41967800877382"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.711567962866152"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/4707297> <http://www.st-madrid.es/idEntidad> "4707297" ;
+	<http://www.st-madrid.es/nombreEntidad> "Real Monasterio de Santa Isabel" ;
+	<http://www.st-madrid.es/descripcionEntidad> " El Real Monasterio de Santa Isabel está situado en Madrid, dentro de la ciudad histórica, en una gran manzana, próxima a Atocha.  Santa Isabel agrupa dos fundaciones, un colegio de niñas, establecido por Felipe II, y un convento de clausura de monjas agustinas recoletas, fundado por la esposa de Felipe III, doña Margarita de Austria.   La arquitectura de la iglesia se debe a Gómez de Mora, de mediados del siglo XVIII. En la clausura se conservan numerosas obras pictóricas de los siglos XVII y XVIII. " ;
+	<http://www.st-madrid.es/horarioEntidad> " El acceso al templo sólo es posible en horario de culto " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "SANTA ISABEL" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "48" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28012" ;
+	<http://www.st-madrid.es/esParteDe> "EMBAJADORES" , "CENTRO" ;
+	<http://www.st-madrid.es/coordenadaX> "440765"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4473944"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.41213027498252"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.6994547941964946"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/2061> <http://www.st-madrid.es/idEntidad> "2061" ;
+	<http://www.st-madrid.es/nombreEntidad> "Real Sitio de El Pardo" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Recinto en el que se conserva el Palacio, construido sobre el castillo del siglo XV, la Casita del Príncipe, del siglo XVIII y la Quinta del Duque de Arco (Palacete que fue Casa de Labor y sus tierras). Desde 1983 ha sido adecuado para residencia de Jefes de Estado extranjeros en visita oficial. " ;
+	<http://www.st-madrid.es/horarioEntidad> "  De octubre a marzo: todos los días de 10 a 18 horas  De abril a septiembre: todos los días de 10 a 20 horas  Cerrado: 1, 6 de enero; 1 de mayo; 24, 25 y 31 de diciembre de 2014.   Abierto: 17 y 18 de abril; 2 y 15 de mayo; 19 de junio; 15 de agosto; 1 y 10 de noviembre; 6 y 8 de diciembre de 2014.   " ;
+	<http://www.st-madrid.es/transporte> "Bus: 601 (Madrid - Colonia Mingorrubio)" ;
+	<http://www.st-madrid.es/descripcion> "El palacio dispone de helipuerto civil" ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "MANUEL ALONSO" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "S/N" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28048" ;
+	<http://www.st-madrid.es/esParteDe> "EL PARDO" , "FUENCARRAL-EL PARDO" ;
+	<http://www.st-madrid.es/coordenadaX> "434323"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4486052"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.52071790499227"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.776630886241239"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/MonumentosEdificiosArtisticos/20605> <http://www.st-madrid.es/idEntidad> "20605" ;
+	<http://www.st-madrid.es/nombreEntidad> "Templo de Debod" ;
+	<http://www.st-madrid.es/descripcionEntidad> " Templo egipcio dedicado a Amón de Debod y a Isis, construido entre 185  a. de C.  y el siglo  I  de la Era. Fue donado por Egipto a España en 1968, en agradecimiento por la ayuda en el salvamento de los templos de Abu Simbel. " ;
+	<http://www.st-madrid.es/horarioEntidad> "  De 1 de octubre a 31 de marzo   De martes a viernes de 9:45 a 13:45 y de 16:15 a 18:15 horas  Sábados, domingos y festivos de 9:30 a 20 hora    De 1 de abril a 30 de septiembre   De martes a viernes de 10 a 14 y de 18 a 20 horas  Sábados, domingos y festivos de 9:30 a 20 horas.     El templo permanece cerrado los lunes y los festivos 1 de enero, 1 de mayo y 25 de diciembre.  Último pase de visita 15 minutos antes del cierre.  Este horario y la apertura de salas pueden sufrir modificaciones, por favor, confírmelo en el teléfono de información del museo.  " ;
+	<http://www.st-madrid.es/transporte> "  Metro:  Plaza de España (líneas 3 y 10) y Ventura Rodríguez (línea 3)   Autobús    Línea 74 (paradas en la calle Ferraz, frente al Templo, y en la calle Pintor Rosales)  Líneas 25, 39, 46, 75, 138 y C1 (parada en Cuesta de San Vicente-Cadarso)  Líneas 3, 44, 133, 148 y C2 (parada en Plaza de España)  Líneas 1, 2, 74 (parada en Princesa-Ventura Rodríguez)    Renfe:  Príncipe Pío   Bus turístico:  Ruta 1. PARADA 10 - Templo de Debod   Otras formas de acceso:    Aparcamiento de bicicletas: Calle Ferraz, junto al acceso principal a los jardines del Templo.  Aparcamiento de coches: dentro del Área de Estacionamiento Regulado de la ciudad de Madrid.  El aparcamiento público más cercano está situado en Plaza de España.  " ;
+	<http://www.st-madrid.es/accesibilidad> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "FERRAZ" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "1" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28008" ;
+	<http://www.st-madrid.es/esParteDe> "CASA DE CAMPO" , "MONCLOA-ARAVACA" ;
+	<http://www.st-madrid.es/coordenadaX> "439327"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4475301"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.42425096551599"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.716531855540272"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/email> "templodebod@madrid.es" ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos" ;
+	<http://www.st-madrid.es/tipoEntidad> "MonumentosEdificiosArtisticos" .
+
+<http://www.st-madrid.es/OrganismosEntidades/Museos/7071384> <http://www.st-madrid.es/idEntidad> "7071384" ;
+	<http://www.st-madrid.es/nombreEntidad> "Yacimiento paleontológico. Estación de Metro Carpetana" ;
+	<http://www.st-madrid.es/horarioEntidad> " Visitas todos los días durante la apertura de la estación, de 6 a 1:30 horas " ;
+	<http://www.st-madrid.es/descripcion> "  Yacimiento paleontológico en la estación de Carpetana    Durante las obras de remodelación de la estación de Carpetana se descubrieron restos paleontológicos con valiosos hallazgos del mioceno lo que ha hecho posible una reconstrucción de los paleoambientes en dos yacimientos verticales.   El primero de los espacios, cuenta con un panel en vinilo con imágenes que representan el paleoambiente existente hace más de 15 millones de años con restos mayoritariamente correspondientes a mastodontes de la especie Gonphotherium aungustidens. Además, en esta misma zona expositiva, se ha incluido una reconstrucción de un ciervo denominado Heteroprox con los ambientes y especies vegetales existentes entonces en Carpetana, ya que se han podido conocer gracias a los fósiles de polen y animales recuperados en la excavación.   El segundo espacio recrea el paleoambiente de hace aproximadamente 14 millones de años, y se encuentran representados algunas faunas halladas en las excavaciones como el oso - perro, el oso - lobo, un felino situado en la parte superior de un árbol, una tortuga gigante, rinocerontes y un jabalí.  " ;
+	<http://www.st-madrid.es/accesibilidad> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreVia> "VIA CARPETANA" ;
+	<http://www.st-madrid.es/ClaseDeLaVia> "CALLE" ;
+	<http://www.st-madrid.es/numeroEntidadVia> "328" ;
+	<http://www.st-madrid.es/localidad> "MADRID" ;
+	<http://www.st-madrid.es/provincia> "MADRID" ;
+	<http://www.st-madrid.es/codigoPostal> "28047" ;
+	<http://www.st-madrid.es/esParteDe> "ALUCHE" , "LATINA" ;
+	<http://www.st-madrid.es/coordenadaX> "437061"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/coordenadaY> "4471685"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/latitud> "40.39150793405899"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/longitud> "-3.7428839286586184"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.st-madrid.es/tipo> "/contenido/entidadesYorganismos/Museos" ;
+	<http://www.st-madrid.es/tipoEntidad> "Museos" .

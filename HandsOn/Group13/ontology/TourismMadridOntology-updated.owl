@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.example.org/ontology/TourismMadrid#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.example.org/ontology/TourismMadrid#">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://schema.org/City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/CivicStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Museum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/TouristInformationCenter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Monument"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://schema.org/containedIn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/postalCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/streetAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="accessibility"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="schedule"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://schema.org/City"/>
+        <Class IRI="http://schema.org/Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/Museum"/>
+        <Class IRI="http://schema.org/CivicStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/TouristInformationCenter"/>
+        <Class IRI="http://schema.org/CivicStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Monument"/>
+        <Class IRI="http://schema.org/CivicStructure"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://schema.org/containedIn"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://schema.org/containedIn"/>
+            <Class IRI="http://schema.org/City"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/email"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://schema.org/email"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/postalCode"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://schema.org/postalCode"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/streetAddress"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://schema.org/streetAddress"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="accessibility"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="accessibility"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="schedule"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="schedule"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://schema.org/email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://schema.org/postalCode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://schema.org/streetAddress"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="accessibility"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="schedule"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,1174 @@
+[
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/School/Public/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/Building/School/Public#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\")",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#name",
+              "curie": "ont:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NAME"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#type",
+              "curie": "ont:type",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TYPE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#deptpublic",
+              "curie": "ont:deptpublic",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "DEPTPUBLIC"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#hasBuilding",
+              "curie": "ont:hasBuilding",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\")+\"/Building\"",
+                "isRowNumberCell": false,
+                "columnName": "NAME",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "curie": "geosp:hasGeometry",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\")+\"/Building/geometry\"",
+                      "isRowNumberCell": false,
+                      "columnName": "NAME",
+                      "rdfTypes": [],
+                      "links": [
+                        {
+                          "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                          "curie": "geosp:asWKT",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "columnName": "asWKT"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NAME to type http://www.geonames.org/ontology#Feature",
+    "columnName": "NAME",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://dev.iks-project.eu:8081/entityhub/site/geonames/reconcile",
+      "identifierSpace": "null",
+      "schemaSpace": "null",
+      "type": {
+        "id": "http://www.geonames.org/ontology#Feature",
+        "name": "http://www.geonames.org/ontology#Feature"
+      },
+      "autoMatch": true,
+      "columnDetails": [],
+      "limit": 0
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column name at index 1 based on column NAME using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "name",
+    "columnInsertIndex": 1,
+    "baseColumnName": "NAME",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/School/Public/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/Building/School/Public#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\")",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#name",
+              "curie": "ont:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NAME"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#type",
+              "curie": "ont:type",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TYPE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#deptpublic",
+              "curie": "ont:deptpublic",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "DEPTPUBLIC"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#hasBuilding",
+              "curie": "ont:hasBuilding",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\")+\"/Building\"",
+                "isRowNumberCell": false,
+                "columnName": "NAME",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "curie": "geosp:hasGeometry",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\")+\"/Building/geometry\"",
+                      "isRowNumberCell": false,
+                      "columnName": "NAME",
+                      "rdfTypes": [],
+                      "links": [
+                        {
+                          "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                          "curie": "geosp:asWKT",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "columnName": "asWKT"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "name",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/School/Public/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/Building/School/Public#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replace(replace(replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\"),\"(\"),\")\")",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#name",
+              "curie": "ont:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NAME"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#type",
+              "curie": "ont:type",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TYPE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#deptpublic",
+              "curie": "ont:deptpublic",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "DEPTPUBLIC"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#hasBuilding",
+              "curie": "ont:hasBuilding",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\")+\"/Building\"",
+                "isRowNumberCell": false,
+                "columnName": "NAME",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "curie": "geosp:hasGeometry",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\")+\"/Building/geometry\"",
+                      "isRowNumberCell": false,
+                      "columnName": "NAME",
+                      "rdfTypes": [],
+                      "links": [
+                        {
+                          "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                          "curie": "geosp:asWKT",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "columnName": "asWKT"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "name",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/School/Public/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/Building/School/Public#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replace(replace(replace(replace(replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\"),\"(\",\"\"),\")\",\"\"),\"/\",\"\"),\"-\",\"\")",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#name",
+              "curie": "ont:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NAME"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#type",
+              "curie": "ont:type",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TYPE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#deptpublic",
+              "curie": "ont:deptpublic",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "DEPTPUBLIC"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#hasBuilding",
+              "curie": "ont:hasBuilding",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(replace(replace(replace(replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\"),\"(\",\"\"),\")\",\"\"),\"/\",\"\"),\"-\",\"\")+\"/Building\"",
+                "isRowNumberCell": false,
+                "columnName": "NAME",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "curie": "geosp:hasGeometry",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "replace(replace(replace(replace(replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\"),\"(\",\"\"),\")\",\"\"),\"/\",\"\"),\"-\",\"\")+\"/Building/geometry\"",
+                      "isRowNumberCell": false,
+                      "columnName": "NAME",
+                      "rdfTypes": [],
+                      "links": [
+                        {
+                          "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                          "curie": "geosp:asWKT",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "columnName": "asWKT"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "name",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/School/Public/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/Building/School/Public#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replace(replace(replace(replace(replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\"),\"(\",\"\"),\")\",\"\"),\"/\",\"\"),\"-\",\"\")",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#name",
+              "curie": "ont:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NAME"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#type",
+              "curie": "ont:type",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TYPE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#deptpublic",
+              "curie": "ont:deptpublic",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "DEPTPUBLIC"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#hasBuilding",
+              "curie": "ont:hasBuilding",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(replace(replace(replace(replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\"),\"(\",\"\"),\")\",\"\"),\"/\",\"\"),\"-\",\"\")+\"/Building\"",
+                "isRowNumberCell": false,
+                "columnName": "NAME",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "curie": "geosp:hasGeometry",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "replace(replace(replace(replace(replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\"),\"(\",\"\"),\")\",\"\"),\"/\",\"\"),\"-\",\"\")+\"/Building/geometry\"",
+                      "isRowNumberCell": false,
+                      "columnName": "NAME",
+                      "rdfTypes": [],
+                      "links": [
+                        {
+                          "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                          "curie": "geosp:asWKT",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "columnName": "asWKT"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "name",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/School/Public/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/Building/School/Public#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replace(replace(replace(replace(replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\"),\"(\",\"\"),\")\",\"\"),\"/\",\"\"),\"-\",\"\")",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#name",
+              "curie": "ont:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NAME"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#type",
+              "curie": "ont:type",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TYPE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#deptpublic",
+              "curie": "ont:deptpublic",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "DEPTPUBLIC"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#hasBuilding",
+              "curie": "ont:hasBuilding",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(replace(replace(replace(replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\"),\"(\",\"\"),\")\",\"\"),\"/\",\"\"),\"-\",\"\")+\"/Building\"",
+                "isRowNumberCell": false,
+                "columnName": "NAME",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "curie": "geosp:hasGeometry",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "replace(replace(replace(replace(replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\"),\"(\",\"\"),\")\",\"\"),\"/\",\"\"),\"-\",\"\")+\"/Building/geometry\"",
+                      "isRowNumberCell": false,
+                      "columnName": "NAME",
+                      "rdfTypes": [],
+                      "links": [
+                        {
+                          "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                          "curie": "geosp:asWKT",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "columnName": "asWKT"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "name",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/PublicSchool/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/PublicSchool#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replace(replace(replace(replace(replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\"),\"(\",\"\"),\")\",\"\"),\"/\",\"\"),\"-\",\"\")",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#name",
+              "curie": "ont:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NAME"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#type",
+              "curie": "ont:type",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TYPE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#deptpublic",
+              "curie": "ont:deptpublic",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "DEPTPUBLIC"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#hasBuilding",
+              "curie": "ont:hasBuilding",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(replace(replace(replace(replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\"),\"(\",\"\"),\")\",\"\"),\"/\",\"\"),\"-\",\"\")+\"/Building\"",
+                "isRowNumberCell": false,
+                "columnName": "NAME",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "curie": "geosp:hasGeometry",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "replace(replace(replace(replace(replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\"),\"(\",\"\"),\")\",\"\"),\"/\",\"\"),\"-\",\"\")+\"/Building/geometry\"",
+                      "isRowNumberCell": false,
+                      "columnName": "NAME",
+                      "rdfTypes": [],
+                      "links": [
+                        {
+                          "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                          "curie": "geosp:asWKT",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "columnName": "asWKT"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "name",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/PublicSchool/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/PublicSchool#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replace(replace(replace(replace(replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\"),\"(\",\"\"),\")\",\"\"),\"/\",\"\"),\"-\",\"\")",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#name",
+              "curie": "ont:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NAME"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#type",
+              "curie": "ont:type",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TYPE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#deptpublic",
+              "curie": "ont:deptpublic",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "DEPTPUBLIC"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#hasBuilding",
+              "curie": "ont:hasBuilding",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(replace(replace(replace(replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\"),\"(\",\"\"),\")\",\"\"),\"/\",\"\"),\"-\",\"\")+\"/Building\"",
+                "isRowNumberCell": false,
+                "columnName": "NAME",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "curie": "geosp:hasGeometry",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "replace(replace(replace(replace(replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\"),\"(\",\"\"),\")\",\"\"),\"/\",\"\"),\"-\",\"\")+\"/Building/geometry\"",
+                      "isRowNumberCell": false,
+                      "columnName": "NAME",
+                      "rdfTypes": [],
+                      "links": [
+                        {
+                          "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                          "curie": "geosp:asWKT",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "columnName": "asWKT"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "name",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TYPE to category",
+    "oldColumnName": "TYPE",
+    "newColumnName": "category"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/PublicSchool/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/PublicSchool#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replace(replace(replace(replace(replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\"),\"(\",\"\"),\")\",\"\"),\"/\",\"\"),\"-\",\"\")",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/PublicSchool#NAME",
+              "curie": "ont:NAME",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NAME"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/PublicSchool#category",
+              "curie": "ont:category",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "category"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#deptpublic",
+              "curie": "ont:deptpublic",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "DEPTPUBLIC"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Public#hasBuilding",
+              "curie": "ont:hasBuilding",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(replace(replace(replace(replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\"),\"(\",\"\"),\")\",\"\"),\"/\",\"\"),\"-\",\"\")+\"/Building\"",
+                "isRowNumberCell": false,
+                "columnName": "NAME",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "curie": "geosp:hasGeometry",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "replace(replace(replace(replace(replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\"),\"(\",\"\"),\")\",\"\"),\"/\",\"\"),\"-\",\"\")+\"/Building/geometry\"",
+                      "isRowNumberCell": false,
+                      "columnName": "NAME",
+                      "rdfTypes": [],
+                      "links": [
+                        {
+                          "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                          "curie": "geosp:asWKT",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "columnName": "asWKT"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "name",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

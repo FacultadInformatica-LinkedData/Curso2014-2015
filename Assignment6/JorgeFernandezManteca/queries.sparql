@@ -1,0 +1,131 @@
+#1.- How many accidents were there in Madrid in 2013?
+
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> 
+PREFIX sdmx: <http://purl.org/linked-data/sdmx#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+
+
+SELECT (SUM(?x) AS ?total) WHERE {
+?obs a qb:Observation ;
+mv:numberOfAccidents ?x.
+}
+
+#2. -Give me the number of accidents in Usera for each type of
+accident
+
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> 
+PREFIX sdmx: <http://purl.org/linked-data/sdmx#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+
+
+
+SELECT (SUM(xsd:int(?x)) AS ?total) ?tipo WHERE {
+?obs a qb:Observation ;
+mv:hasAccidentType ?tipo;
+mv:relatedDistrict "USERA" ;
+mv:numberOfAccidents ?x.
+
+} GROUP BY (?tipo)
+
+
+#3. - Give me the number of multiple collisions for each district
+
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> 
+PREFIX sdmx: <http://purl.org/linked-data/sdmx#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+
+
+
+SELECT (SUM(xsd:int(?x)) AS ?total) ?distrito WHERE {
+?obs a qb:Observation ;
+mv:hasAccidentType mv:MultipleCollision ;
+mv:relatedDistrict ?distrito;
+mv:numberOfAccidents ?x.
+
+} GROUP BY (?distrito)
+
+
+#4. - Which is the district were the number of bicycle falls was
+higher in 2013?
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> 
+PREFIX sdmx: <http://purl.org/linked-data/sdmx#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+
+
+SELECT ?distrito (SUM(xsd:int(?y)) AS ?total)
+WHERE{
+?obs a qb:Observation ;
+mv:relatedDistrict ?distrito;
+mv:hasAccidentType mv:BicycleFall ;
+mv:numberOfAccidents ?y.
+
+{
+SELECT   (MAX(?total) AS ?maximo) 
+WHERE {
+{
+SELECT (SUM(xsd:int(?x)) AS ?total)  WHERE {
+?obs a qb:Observation ;
+mv:relatedDistrict ?distrito;
+mv:hasAccidentType mv:BicycleFall ;
+mv:numberOfAccidents ?x.
+} GROUP BY (?distrito)
+}
+}
+}
+FILTER (?y=?maximo)
+}GROUP BY (?distrito)
+
+
+#5. - Give me the districts with more than 500 accidents in 2013
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> 
+PREFIX sdmx: <http://purl.org/linked-data/sdmx#> 
+PREFIX mn: <http://example.org/resources/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX mv: <http://example.org/myVocabulary#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+
+
+
+SELECT (SUM(xsd:int(?x)) AS ?total) ?distrito WHERE {
+?obs a qb:Observation ;
+mv:relatedDistrict ?distrito ;
+mv:numberOfAccidents ?x.
+FILTER(?x>500)
+} GROUP BY (?distrito )
