@@ -1,5 +1,7 @@
 Prestamos.ttl: Contiene todas las entradas del archivo prestamos sin las columnas que no usamos en el analisis
 
+Prestamos_enumerado: Igual que la anterior pero con una columna extra que contiene un identificador
+
 Prestamos_sin_dup: Contiene todas las entradas del archivo prestamos sin las columnas que no usamos en la ontologia menos las que tienen id duplicada.
 
 Prestamos_sin_dup_blanc: Contiene todas las entradas del archivo prestamos sin las columnas que no usamos en la ontologia menos las que tienen id duplicada
