@@ -49,7 +49,7 @@
 
     <!-- 
     
-    #----------- Reutilizacion de Propiedades de lib:Library -----------#
+    #            Reutilizacion de Propiedades de lib Library             #
     #
     # Hemos conseguido mapear de manera directa las siguientes propiedades
     # definidas en el documento analisys.html referidas a la Biblioteca.
@@ -95,7 +95,7 @@
     # A través de esta relacion tambien podemos omitir otras propiedades
     # como Coordenada X,Y, Latitud, Longitud, URL de la instalacion.
 
-    # ----------- Reutilizacion de Propiedades de evn:LiteraryEvent -----------#
+    #            Reutilizacion de Propiedades de evn:LiteraryEvent          #
     #
     # Hemos conseguido mapear de manera directa las siguientes propiedades
     # definidas en el documento analisys.html referidas a los Eventos.
@@ -111,7 +111,7 @@
     # El resto de atributos se omiten dado que son irrelevantes, poseen
     # demasiados elementos nulos o su mapeo no es util de cada a la 
     # ontologia.
-    #--------------------------------------------------------------------------#
+    #                                                                       #
     
     -->
 
