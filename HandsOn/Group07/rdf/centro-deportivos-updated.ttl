@@ -23,25 +23,25 @@
 	schema:postalCode "28053"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "39 B"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/AlbertoGarciaPozoTioRaimundo> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/AlbertoGarciaPozoTioRaimundo> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/ENTREVIAS> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ENTREVIAS> a ontology:Barrio ;
 	schema:name "ENTREVIAS" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/REGUERADETOMATEROS> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/REGUERADETOMATEROS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/PUENTEDEVALLECAS> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/PUENTEDEVALLECAS> a ontology:Distrito ;
 	schema:name "PUENTE DE VALLECAS" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/ENTREVIAS> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ENTREVIAS> .
 
 <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> a schema:City ;
 	schema:name "MADRID" ;
-	ontology:hasDistrict <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/PUENTEDEVALLECAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/PUENTEDEVALLECAS> ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/PUENTEDEVALLECAS> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/ENTREVIAS> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/PUENTEDEVALLECAS> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ENTREVIAS> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/PUENTEDEVALLECAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/REGUERADETOMATEROS> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/ENTREVIAS> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/REGUERADETOMATEROS> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ENTREVIAS> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/AlbertoGarciaPozoTioRaimundo> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/REGUERADETOMATEROS> .
 
@@ -62,20 +62,23 @@
 	schema:postalCode "28023"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "99"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/AlfredoGoyeneche> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/AlfredoGoyeneche> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/ARAVACA> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ARAVACA> a ontology:Barrio ;
 	schema:name "ARAVACA" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARROYODEPOZUELO> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARROYODEPOZUELO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> a ontology:Distrito ;
 	schema:name "MONCLOA-ARAVACA" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/ARAVACA> ;
-	ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ARAVACA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/ARAVACA> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> .
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARROYODEPOZUELO> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/ARAVACA> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ARAVACA> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARROYODEPOZUELO> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ARAVACA> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/AlfredoGoyeneche> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARROYODEPOZUELO> .
 
@@ -97,20 +100,23 @@
 	schema:postalCode "28044"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "AVENIDA" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Aluche> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Aluche> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/LASAGUILAS> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LASAGUILAS> a ontology:Barrio ;
 	schema:name "LAS AGUILAS" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/GENERALFANJUL> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/GENERALFANJUL> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> a ontology:Distrito ;
 	schema:name "LATINA" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/LASAGUILAS> ;
-	ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LASAGUILAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/LASAGUILAS> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> .
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/GENERALFANJUL> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/LASAGUILAS> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LASAGUILAS> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/GENERALFANJUL> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LASAGUILAS> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Aluche> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/GENERALFANJUL> .
 
@@ -130,20 +136,23 @@
 	schema:postalCode "28047"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "57"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/AntiguoCanodromo> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/AntiguoCanodromo> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANISIDRO> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANISIDRO> a ontology:Barrio ;
 	schema:name "SAN ISIDRO" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/VIACARPETANA> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/VIACARPETANA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/CARABANCHEL> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CARABANCHEL> a ontology:Distrito ;
 	schema:name "CARABANCHEL" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANISIDRO> ;
-	ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANISIDRO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANISIDRO> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/CARABANCHEL> .
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/CARABANCHEL> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/VIACARPETANA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANISIDRO> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CARABANCHEL> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANISIDRO> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/CARABANCHEL> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/VIACARPETANA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANISIDRO> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/AntiguoCanodromo> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/VIACARPETANA> .
 
@@ -165,20 +174,23 @@
 	schema:postalCode "28029"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/AntonioDiazMiguel> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/AntonioDiazMiguel> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/ALMENARA> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ALMENARA> a ontology:Barrio ;
 	schema:name "ALMENARA" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/JOAQUINDICENTA> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/JOAQUINDICENTA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/TETUAN> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/TETUAN> a ontology:Distrito ;
 	schema:name "TETUAN" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/ALMENARA> ;
-	ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ALMENARA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/ALMENARA> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/TETUAN> .
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/TETUAN> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/JOAQUINDICENTA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/ALMENARA> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/TETUAN> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ALMENARA> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/TETUAN> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/JOAQUINDICENTA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ALMENARA> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/AntonioDiazMiguel> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/JOAQUINDICENTA> .
 
@@ -199,20 +211,23 @@
 	schema:postalCode "28045"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Arganzuela> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Arganzuela> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/DELICIAS> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/DELICIAS> a ontology:Barrio ;
 	schema:name "DELICIAS" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALICANTE> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALICANTE> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> a ontology:Distrito ;
 	schema:name "ARGANZUELA" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/DELICIAS> ;
-	ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/DELICIAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/DELICIAS> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> .
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALICANTE> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/DELICIAS> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/DELICIAS> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALICANTE> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/DELICIAS> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Arganzuela> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALICANTE> .
 
@@ -233,20 +248,23 @@
 	schema:postalCode "28042"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "70"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "AVENIDA" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Barajas> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Barajas> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/ALAMEDADEOSUNA> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ALAMEDADEOSUNA> a ontology:Barrio ;
 	schema:name "ALAMEDA DE OSUNA" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/LOGROÑO> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/LOGROÑO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/BARAJAS> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/BARAJAS> a ontology:Distrito ;
 	schema:name "BARAJAS" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/ALAMEDADEOSUNA> ;
-	ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ALAMEDADEOSUNA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/ALAMEDADEOSUNA> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/BARAJAS> .
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/BARAJAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/LOGROÑO> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/ALAMEDADEOSUNA> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/BARAJAS> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ALAMEDADEOSUNA> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/BARAJAS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/LOGROÑO> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ALAMEDADEOSUNA> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Barajas> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/LOGROÑO> .
 
@@ -267,17 +285,17 @@
 	schema:postalCode "28011"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "PASEO" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/CasadeCampo> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/CasadeCampo> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> a ontology:Barrio ;
 	schema:name "CASA DE CAMPO" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PUERTADELANGEL> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PUERTADELANGEL> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PUERTADELANGEL> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PUERTADELANGEL> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/CasadeCampo> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PUERTADELANGEL> .
 
@@ -298,17 +316,17 @@
 	schema:postalCode "28045"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/CentroIntegradoArganzuela> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/CentroIntegradoArganzuela> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOSDEMOGUER> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOSDEMOGUER> a ontology:Barrio ;
 	schema:name "PALOS DE MOGUER" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CANARIAS> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CANARIAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOSDEMOGUER> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOSDEMOGUER> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOSDEMOGUER> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOSDEMOGUER> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CANARIAS> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOSDEMOGUER> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CANARIAS> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOSDEMOGUER> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/CentroIntegradoArganzuela> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CANARIAS> .
 
@@ -329,20 +347,23 @@
 	schema:postalCode "28031"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "km 9,500"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "Carretera" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/CerroAlmodovar> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/CerroAlmodovar> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANTAEUGENIA> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANTAEUGENIA> a ontology:Barrio ;
 	schema:name "SANTA EUGENIA" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/Valencia> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/Valencia> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLADEVALLECAS> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLADEVALLECAS> a ontology:Distrito ;
 	schema:name "VILLA DE VALLECAS" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANTAEUGENIA> ;
-	ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANTAEUGENIA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANTAEUGENIA> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLADEVALLECAS> .
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLADEVALLECAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/Valencia> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANTAEUGENIA> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLADEVALLECAS> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANTAEUGENIA> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLADEVALLECAS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/Valencia> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANTAEUGENIA> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/CerroAlmodovar> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/Valencia> .
 
@@ -363,20 +384,23 @@
 	schema:postalCode "28016"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "AVENIDA" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Chamartin> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Chamartin> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/NUEVAESPAÑA> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/NUEVAESPAÑA> a ontology:Barrio ;
 	schema:name "NUEVA ESPAÑA" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PIOXII> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PIOXII> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMARTIN> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMARTIN> a ontology:Distrito ;
 	schema:name "CHAMARTIN" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/NUEVAESPAÑA> ;
-	ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/NUEVAESPAÑA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/NUEVAESPAÑA> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMARTIN> .
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMARTIN> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PIOXII> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/NUEVAESPAÑA> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMARTIN> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/NUEVAESPAÑA> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMARTIN> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PIOXII> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/NUEVAESPAÑA> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Chamartin> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PIOXII> .
 
@@ -396,17 +420,17 @@
 	schema:postalCode "28045"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "316"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/CircuitoBMX> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/CircuitoBMX> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/LEGAZPI> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LEGAZPI> a ontology:Barrio ;
 	schema:name "LEGAZPI" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EMBAJADORES> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EMBAJADORES> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/LEGAZPI> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LEGAZPI> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/LEGAZPI> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LEGAZPI> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EMBAJADORES> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/LEGAZPI> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EMBAJADORES> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LEGAZPI> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/CircuitoBMX> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EMBAJADORES> .
 
@@ -427,17 +451,17 @@
 	schema:postalCode "28035"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/CiudaddeLosPoetas> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/CiudaddeLosPoetas> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/VALDEZARZA> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/VALDEZARZA> a ontology:Barrio ;
 	schema:name "VALDEZARZA" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ANTONIOMACHADO> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ANTONIOMACHADO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/VALDEZARZA> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/VALDEZARZA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/VALDEZARZA> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/VALDEZARZA> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ANTONIOMACHADO> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/VALDEZARZA> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ANTONIOMACHADO> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/VALDEZARZA> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/CiudaddeLosPoetas> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ANTONIOMACHADO> .
 
@@ -459,20 +483,23 @@
 	schema:postalCode "28027"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Concepcion> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Concepcion> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/CONCEPCION> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CONCEPCION> a ontology:Barrio ;
 	schema:name "CONCEPCION" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/JOSEDELHIERRO> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/JOSEDELHIERRO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/CIUDADLINEAL> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CIUDADLINEAL> a ontology:Distrito ;
 	schema:name "CIUDAD LINEAL" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/CONCEPCION> ;
-	ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CONCEPCION> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/CONCEPCION> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/CIUDADLINEAL> .
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/CIUDADLINEAL> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/JOSEDELHIERRO> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/CONCEPCION> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CIUDADLINEAL> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CONCEPCION> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/CIUDADLINEAL> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/JOSEDELHIERRO> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CONCEPCION> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Concepcion> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/JOSEDELHIERRO> .
 
@@ -494,20 +521,23 @@
 	schema:postalCode "28007"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "162"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "AVENIDA" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/DaoizyVelarde1> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/DaoizyVelarde1> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/PACIFICO> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PACIFICO> a ontology:Barrio ;
 	schema:name "PACIFICO" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CIUDADDEBARCELONA> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CIUDADDEBARCELONA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/RETIRO> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/RETIRO> a ontology:Distrito ;
 	schema:name "RETIRO" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/PACIFICO> ;
-	ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PACIFICO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/PACIFICO> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/RETIRO> .
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/RETIRO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CIUDADDEBARCELONA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/PACIFICO> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/RETIRO> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PACIFICO> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/RETIRO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CIUDADDEBARCELONA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PACIFICO> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/DaoizyVelarde1> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CIUDADDEBARCELONA> .
 
@@ -529,11 +559,11 @@
 	schema:postalCode "28007"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/DaoizyVelarde2> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/DaoizyVelarde2> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/PACIFICO> ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALBERCHE> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PACIFICO> ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALBERCHE> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALBERCHE> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/PACIFICO> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALBERCHE> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PACIFICO> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/DaoizyVelarde2> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALBERCHE> .
 
@@ -555,20 +585,23 @@
 	schema:postalCode "28041"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "19"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CARRETERA" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/ElEspinillo> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/ElEspinillo> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSROSALES> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSROSALES> a ontology:Barrio ;
 	schema:name "LOS ROSALES" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/VILLAVERDEAVALLECAS> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/VILLAVERDEAVALLECAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLAVERDE> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLAVERDE> a ontology:Distrito ;
 	schema:name "VILLAVERDE" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSROSALES> ;
-	ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSROSALES> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSROSALES> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLAVERDE> .
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLAVERDE> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/VILLAVERDEAVALLECAS> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSROSALES> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLAVERDE> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSROSALES> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLAVERDE> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/VILLAVERDEAVALLECAS> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSROSALES> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/ElEspinillo> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/VILLAVERDEAVALLECAS> .
 
@@ -589,17 +622,17 @@
 	schema:postalCode "28011"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/ElOlivillo> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/ElOlivillo> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/LUCERO> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LUCERO> a ontology:Barrio ;
 	schema:name "LUCERO" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/OLIVILLO> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/OLIVILLO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/LUCERO> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LUCERO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/LUCERO> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LUCERO> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/OLIVILLO> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/LUCERO> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/OLIVILLO> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LUCERO> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/ElOlivillo> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/OLIVILLO> .
 
@@ -620,11 +653,11 @@
 	schema:postalCode "28053"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "RONDA" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Entrevias> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Entrevias> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/ENTREVIAS> ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SUR> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ENTREVIAS> ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SUR> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SUR> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/ENTREVIAS> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SUR> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ENTREVIAS> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Entrevias> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SUR> .
 
@@ -645,20 +678,23 @@
 	schema:postalCode "28004"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/EscuelasdeSanAnton> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/EscuelasdeSanAnton> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/JUSTICIA> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/JUSTICIA> a ontology:Barrio ;
 	schema:name "JUSTICIA" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FARMACIA> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FARMACIA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/CENTRO> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CENTRO> a ontology:Distrito ;
 	schema:name "CENTRO" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/JUSTICIA> ;
-	ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/JUSTICIA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/JUSTICIA> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/CENTRO> .
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/CENTRO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FARMACIA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/JUSTICIA> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CENTRO> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/JUSTICIA> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/CENTRO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FARMACIA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/JUSTICIA> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/EscuelasdeSanAnton> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FARMACIA> .
 
@@ -680,17 +716,17 @@
 	schema:postalCode "28009"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "PASEO" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/EstanquedelRetiro> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/EstanquedelRetiro> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSJERONIMOS> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSJERONIMOS> a ontology:Barrio ;
 	schema:name "LOS JERONIMOS" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/COLOMBIA> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/COLOMBIA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/RETIRO> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSJERONIMOS> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/RETIRO> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSJERONIMOS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSJERONIMOS> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/RETIRO> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSJERONIMOS> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/RETIRO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/COLOMBIA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSJERONIMOS> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/COLOMBIA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSJERONIMOS> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/EstanquedelRetiro> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/COLOMBIA> .
 
@@ -712,20 +748,23 @@
 	schema:postalCode "28022"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "68"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "AVENIDA" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/FabianRoncero> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/FabianRoncero> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/REJAS> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/REJAS> a ontology:Barrio ;
 	schema:name "REJAS" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SEPTIMA> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SEPTIMA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/SANBLAS-CANILLEJAS> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/SANBLAS-CANILLEJAS> a ontology:Distrito ;
 	schema:name "SAN BLAS-CANILLEJAS" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/REJAS> ;
-	ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/REJAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/REJAS> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/SANBLAS-CANILLEJAS> .
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/SANBLAS-CANILLEJAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SEPTIMA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/REJAS> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/SANBLAS-CANILLEJAS> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/REJAS> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/SANBLAS-CANILLEJAS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SEPTIMA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/REJAS> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/FabianRoncero> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SEPTIMA> .
 
@@ -746,11 +785,11 @@
 	schema:postalCode "28039"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "AVENIDA" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/FernandoMartin> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/FernandoMartin> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/VALDEZARZA> ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANTOANGELDELAGUARDA> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/VALDEZARZA> ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANTOANGELDELAGUARDA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANTOANGELDELAGUARDA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/VALDEZARZA> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANTOANGELDELAGUARDA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/VALDEZARZA> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/FernandoMartin> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANTOANGELDELAGUARDA> .
 
@@ -771,17 +810,17 @@
 	schema:postalCode "28054"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/FranciscoFernandezOchoa> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/FranciscoFernandezOchoa> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/BUENAVISTA> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/BUENAVISTA> a ontology:Barrio ;
 	schema:name "BUENAVISTA" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CATORCEOLIVAS> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CATORCEOLIVAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/CARABANCHEL> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/BUENAVISTA> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CARABANCHEL> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/BUENAVISTA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/BUENAVISTA> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/CARABANCHEL> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/BUENAVISTA> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/CARABANCHEL> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CATORCEOLIVAS> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/BUENAVISTA> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CATORCEOLIVAS> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/BUENAVISTA> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/FranciscoFernandezOchoa> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CATORCEOLIVAS> .
 
@@ -802,17 +841,17 @@
 	schema:postalCode "28039"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/FrancosRodriguez> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/FrancosRodriguez> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/CIUDADUNIVERSITARIA> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CIUDADUNIVERSITARIA> a ontology:Barrio ;
 	schema:name "CIUDAD UNIVERSITARIA" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NUMANCIA> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NUMANCIA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/CIUDADUNIVERSITARIA> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CIUDADUNIVERSITARIA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/CIUDADUNIVERSITARIA> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CIUDADUNIVERSITARIA> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NUMANCIA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/CIUDADUNIVERSITARIA> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NUMANCIA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CIUDADUNIVERSITARIA> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/FrancosRodriguez> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NUMANCIA> .
 
@@ -834,20 +873,23 @@
 	schema:postalCode "28028"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "36"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/FuentedelBerro> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/FuentedelBerro> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/FUENTEDELBERRO> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/FUENTEDELBERRO> a ontology:Barrio ;
 	schema:name "FUENTE DEL BERRO" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ELVIRA> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ELVIRA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/SALAMANCA> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/SALAMANCA> a ontology:Distrito ;
 	schema:name "SALAMANCA" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/FUENTEDELBERRO> ;
-	ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/FUENTEDELBERRO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/FUENTEDELBERRO> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/SALAMANCA> .
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/SALAMANCA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ELVIRA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/FUENTEDELBERRO> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/SALAMANCA> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/FUENTEDELBERRO> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/SALAMANCA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ELVIRA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/FUENTEDELBERRO> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/FuentedelBerro> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ELVIRA> .
 
@@ -868,11 +910,11 @@
 	schema:postalCode "28041"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/FelixRubio> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/FelixRubio> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSROSALES> ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALIANZA> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSROSALES> ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALIANZA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALIANZA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSROSALES> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALIANZA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSROSALES> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/FelixRubio> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALIANZA> .
 
@@ -893,17 +935,17 @@
 	schema:postalCode "28047"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Gallur> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Gallur> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSCARMENES> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSCARMENES> a ontology:Barrio ;
 	schema:name "LOS CARMENES" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/GALLUR> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/GALLUR> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSCARMENES> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSCARMENES> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSCARMENES> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSCARMENES> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/GALLUR> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSCARMENES> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/GALLUR> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSCARMENES> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Gallur> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/GALLUR> .
 
@@ -924,17 +966,17 @@
 	schema:postalCode "28028"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "93"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/GimnasioMoscardo> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/GimnasioMoscardo> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/GUINDALERA> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/GUINDALERA> a ontology:Barrio ;
 	schema:name "GUINDALERA" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PILARDEZARAGOZA> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PILARDEZARAGOZA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/SALAMANCA> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/GUINDALERA> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/SALAMANCA> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/GUINDALERA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/GUINDALERA> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/SALAMANCA> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/GUINDALERA> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/SALAMANCA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PILARDEZARAGOZA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/GUINDALERA> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PILARDEZARAGOZA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/GUINDALERA> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/GimnasioMoscardo> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PILARDEZARAGOZA> .
 
@@ -955,20 +997,23 @@
 	schema:postalCode "28033"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CARRETERA" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Hortaleza> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Hortaleza> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/APOSTOLSANTIAGO> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/APOSTOLSANTIAGO> a ontology:Barrio ;
 	schema:name "APOSTOL SANTIAGO" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ESTACIONDEHORTALEZA> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ESTACIONDEHORTALEZA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/HORTALEZA> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/HORTALEZA> a ontology:Distrito ;
 	schema:name "HORTALEZA" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/APOSTOLSANTIAGO> ;
-	ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/APOSTOLSANTIAGO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/APOSTOLSANTIAGO> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/HORTALEZA> .
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/HORTALEZA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ESTACIONDEHORTALEZA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/APOSTOLSANTIAGO> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/HORTALEZA> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/APOSTOLSANTIAGO> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/HORTALEZA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ESTACIONDEHORTALEZA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/APOSTOLSANTIAGO> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Hortaleza> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ESTACIONDEHORTALEZA> .
 
@@ -990,11 +1035,11 @@
 	schema:postalCode "28008"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "22"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/JoseMariaCagigal> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/JoseMariaCagigal> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANTAPOLA> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANTAPOLA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANTAPOLA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANTAPOLA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/JoseMariaCagigal> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANTAPOLA> .
 
@@ -1016,17 +1061,17 @@
 	schema:postalCode "28017"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaAlmudena> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaAlmudena> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/PUEBLONUEVO> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PUEBLONUEVO> a ontology:Barrio ;
 	schema:name "PUEBLO NUEVO" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NICOLASSALMERÓN> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NICOLASSALMERÓN> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/CIUDADLINEAL> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/PUEBLONUEVO> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CIUDADLINEAL> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PUEBLONUEVO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/PUEBLONUEVO> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/CIUDADLINEAL> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PUEBLONUEVO> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/CIUDADLINEAL> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NICOLASSALMERÓN> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/PUEBLONUEVO> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NICOLASSALMERÓN> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PUEBLONUEVO> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaAlmudena> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NICOLASSALMERÓN> .
 
@@ -1047,11 +1092,11 @@
 	schema:postalCode "28040"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaBombilla> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaBombilla> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SENDADELREY> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SENDADELREY> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SENDADELREY> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SENDADELREY> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaBombilla> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SENDADELREY> .
 
@@ -1072,11 +1117,11 @@
 	schema:postalCode "28009"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "PASEO" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaChopera> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaChopera> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSJERONIMOS> ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FERNANNU&Ntilde;EZ> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSJERONIMOS> ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FERNANNU&Ntilde;EZ> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FERNANNU&Ntilde;EZ> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSJERONIMOS> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FERNANNU&Ntilde;EZ> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSJERONIMOS> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaChopera> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FERNANNU&Ntilde;EZ> .
 
@@ -1097,20 +1142,23 @@
 	schema:postalCode "28030"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "ACCESO" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaElipa> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaElipa> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/MEDIALEGUA> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/MEDIALEGUA> a ontology:Barrio ;
 	schema:name "MEDIA LEGUA" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PARQUEDELAELIPA> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PARQUEDELAELIPA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/MORATALAZ> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/MORATALAZ> a ontology:Distrito ;
 	schema:name "MORATALAZ" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/MEDIALEGUA> ;
-	ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/MEDIALEGUA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/MEDIALEGUA> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/MORATALAZ> .
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/MORATALAZ> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PARQUEDELAELIPA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/MEDIALEGUA> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/MORATALAZ> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/MEDIALEGUA> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/MORATALAZ> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PARQUEDELAELIPA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/MEDIALEGUA> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaElipa> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PARQUEDELAELIPA> .
 
@@ -1131,20 +1179,23 @@
 	schema:postalCode "28034"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "80"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaMaso> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaMaso> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/MIRASIERRA> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/MIRASIERRA> a ontology:Barrio ;
 	schema:name "MIRASIERRA" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MASO> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MASO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> a ontology:Distrito ;
 	schema:name "FUENCARRAL-EL PARDO" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/MIRASIERRA> ;
-	ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/MIRASIERRA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/MIRASIERRA> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> .
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MASO> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/MIRASIERRA> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/MIRASIERRA> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MASO> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/MIRASIERRA> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaMaso> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MASO> .
 
@@ -1166,17 +1217,17 @@
 	schema:postalCode "28025"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "41"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaMina> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaMina> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/VISTAALEGRE> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/VISTAALEGRE> a ontology:Barrio ;
 	schema:name "VISTA ALEGRE" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONSEÑOROSCARROMERO> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONSEÑOROSCARROMERO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/CARABANCHEL> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/VISTAALEGRE> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CARABANCHEL> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/VISTAALEGRE> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/VISTAALEGRE> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/CARABANCHEL> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/VISTAALEGRE> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/CARABANCHEL> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONSEÑOROSCARROMERO> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/VISTAALEGRE> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONSEÑOROSCARROMERO> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/VISTAALEGRE> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaMina> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONSEÑOROSCARROMERO> .
 
@@ -1197,17 +1248,17 @@
 	schema:postalCode "28029"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "38 A"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "AVENIDA" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaVaguada> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaVaguada> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/ELPILAR> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ELPILAR> a ontology:Barrio ;
 	schema:name "EL PILAR" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONFORTEDELEMOS> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONFORTEDELEMOS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/ELPILAR> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ELPILAR> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/ELPILAR> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ELPILAR> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONFORTEDELEMOS> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/ELPILAR> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONFORTEDELEMOS> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ELPILAR> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LaVaguada> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONFORTEDELEMOS> .
 
@@ -1228,11 +1279,11 @@
 	schema:postalCode "28011"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "PASEO" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LagoCasadeCampo> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LagoCasadeCampo> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EMBARCADERO> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EMBARCADERO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EMBARCADERO> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EMBARCADERO> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LagoCasadeCampo> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EMBARCADERO> .
 
@@ -1253,11 +1304,11 @@
 	schema:postalCode "28044"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "72"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "AVENIDA" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LasCruces> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LasCruces> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/LASAGUILAS> ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/POBLADOS> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LASAGUILAS> ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/POBLADOS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/POBLADOS> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/LASAGUILAS> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/POBLADOS> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LASAGUILAS> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LasCruces> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/POBLADOS> .
 
@@ -1279,17 +1330,17 @@
 	schema:postalCode "28042"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LosPrunos> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LosPrunos> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMAS> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMAS> a ontology:Barrio ;
 	schema:name "PALOMAS" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PETUNIAS> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PETUNIAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/HORTALEZA> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMAS> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/HORTALEZA> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMAS> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/HORTALEZA> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMAS> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/HORTALEZA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PETUNIAS> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMAS> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PETUNIAS> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMAS> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LosPrunos> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PETUNIAS> .
 
@@ -1310,17 +1361,17 @@
 	schema:postalCode "28043"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LuisAragones> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LuisAragones> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/CANILLAS> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CANILLAS> a ontology:Barrio ;
 	schema:name "CANILLAS" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ELPROVENCIO> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ELPROVENCIO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/HORTALEZA> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/CANILLAS> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/HORTALEZA> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CANILLAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/CANILLAS> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/HORTALEZA> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CANILLAS> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/HORTALEZA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ELPROVENCIO> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/CANILLAS> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ELPROVENCIO> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CANILLAS> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/LuisAragones> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ELPROVENCIO> .
 
@@ -1341,17 +1392,17 @@
 	schema:postalCode "28005"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "PASEO" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/MarquesdeSamaranch> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/MarquesdeSamaranch> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/IMPERIAL> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/IMPERIAL> a ontology:Barrio ;
 	schema:name "IMPERIAL" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/IMPERIAL> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/IMPERIAL> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/IMPERIAL> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/IMPERIAL> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/IMPERIAL> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/IMPERIAL> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/IMPERIAL> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/IMPERIAL> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/IMPERIAL> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/IMPERIAL> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/MarquesdeSamaranch> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/IMPERIAL> .
 
@@ -1372,17 +1423,17 @@
 	schema:postalCode "28031"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/MiguelGuillenPrim> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/MiguelGuillenPrim> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASCOH.VALLECAS> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASCOH.VALLECAS> a ontology:Barrio ;
 	schema:name "CASCO H.VALLECAS" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FUENTIDUEÑA> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FUENTIDUEÑA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLADEVALLECAS> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASCOH.VALLECAS> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLADEVALLECAS> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASCOH.VALLECAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASCOH.VALLECAS> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLADEVALLECAS> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASCOH.VALLECAS> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLADEVALLECAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FUENTIDUEÑA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASCOH.VALLECAS> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FUENTIDUEÑA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASCOH.VALLECAS> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/MiguelGuillenPrim> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FUENTIDUEÑA> .
 
@@ -1404,17 +1455,17 @@
 	schema:postalCode "28030"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Moratalaz> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Moratalaz> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/PAVONES> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PAVONES> a ontology:Barrio ;
 	schema:name "PAVONES" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/VALDEBERNARDO> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/VALDEBERNARDO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/MORATALAZ> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/PAVONES> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/MORATALAZ> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PAVONES> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/PAVONES> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/MORATALAZ> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PAVONES> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/MORATALAZ> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/VALDEBERNARDO> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/PAVONES> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/VALDEBERNARDO> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PAVONES> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Moratalaz> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/VALDEBERNARDO> .
 
@@ -1435,20 +1486,23 @@
 	schema:postalCode "28026"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Moscardo> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Moscardo> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/MOSCARDO> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/MOSCARDO> a ontology:Barrio ;
 	schema:name "MOSCARDO" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ANDRESARTEAGA> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ANDRESARTEAGA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> a ontology:Distrito ;
 	schema:name "USERA" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/MOSCARDO> ;
-	ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/MOSCARDO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/MOSCARDO> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> .
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ANDRESARTEAGA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/MOSCARDO> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/MOSCARDO> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ANDRESARTEAGA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/MOSCARDO> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Moscardo> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ANDRESARTEAGA> .
 
@@ -1469,17 +1523,17 @@
 	schema:postalCode "28026"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "52"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "AVENIDA" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Orcasitas> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Orcasitas> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/ZOFIO> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ZOFIO> a ontology:Barrio ;
 	schema:name "ZOFIO" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/RAFAELAYBARRA> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/RAFAELAYBARRA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/ZOFIO> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ZOFIO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/ZOFIO> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ZOFIO> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/RAFAELAYBARRA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/ZOFIO> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/RAFAELAYBARRA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ZOFIO> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Orcasitas> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/RAFAELAYBARRA> .
 
@@ -1500,17 +1554,17 @@
 	schema:postalCode "28041"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Orcasur> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Orcasur> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/ORCASUR> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ORCASUR> a ontology:Barrio ;
 	schema:name "ORCASUR" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MOREJA> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MOREJA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/ORCASUR> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ORCASUR> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/ORCASUR> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ORCASUR> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MOREJA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/ORCASUR> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MOREJA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ORCASUR> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Orcasur> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MOREJA> .
 
@@ -1531,17 +1585,17 @@
 	schema:postalCode "28031"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Palomeras> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Palomeras> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMERASSURESTE> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMERASSURESTE> a ontology:Barrio ;
 	schema:name "PALOMERAS SURESTE" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/TRANVIADEARGANDA> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/TRANVIADEARGANDA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/PUENTEDEVALLECAS> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMERASSURESTE> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/PUENTEDEVALLECAS> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMERASSURESTE> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMERASSURESTE> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/PUENTEDEVALLECAS> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMERASSURESTE> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/PUENTEDEVALLECAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/TRANVIADEARGANDA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMERASSURESTE> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/TRANVIADEARGANDA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMERASSURESTE> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Palomeras> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/TRANVIADEARGANDA> .
 
@@ -1562,17 +1616,17 @@
 	schema:postalCode "28022"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "AVENIDA" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/PepuHernandez> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/PepuHernandez> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/ROSAS> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ROSAS> a ontology:Barrio ;
 	schema:name "ROSAS" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NIZA> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NIZA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/SANBLAS-CANILLEJAS> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/ROSAS> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/SANBLAS-CANILLEJAS> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ROSAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/ROSAS> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/SANBLAS-CANILLEJAS> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ROSAS> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/SANBLAS-CANILLEJAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NIZA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/ROSAS> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NIZA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ROSAS> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/PepuHernandez> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NIZA> .
 
@@ -1593,17 +1647,17 @@
 	schema:postalCode "28005"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Peñuelas> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Peñuelas> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/ACACIAS> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ACACIAS> a ontology:Barrio ;
 	schema:name "ACACIAS" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARGANDA> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARGANDA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/ACACIAS> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ACACIAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/ACACIAS> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ACACIAS> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARGANDA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/ACACIAS> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARGANDA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ACACIAS> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Peñuelas> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARGANDA> .
 
@@ -1625,17 +1679,17 @@
 	schema:postalCode "28021"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "PASEO" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/PlatayCastañar> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/PlatayCastañar> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANANDRES> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANANDRES> a ontology:Barrio ;
 	schema:name "SAN ANDRES" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PLATAYCASTAÑAR> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PLATAYCASTAÑAR> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLAVERDE> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANANDRES> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLAVERDE> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANANDRES> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANANDRES> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLAVERDE> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANANDRES> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLAVERDE> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PLATAYCASTAÑAR> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANANDRES> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PLATAYCASTAÑAR> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANANDRES> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/PlatayCastañar> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PLATAYCASTAÑAR> .
 
@@ -1656,17 +1710,17 @@
 	schema:postalCode "28039"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/PlayaVictoria> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/PlayaVictoria> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/BERRUGUETE> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/BERRUGUETE> a ontology:Barrio ;
 	schema:name "BERRUGUETE" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/HIERBABUENA> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/HIERBABUENA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/TETUAN> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/BERRUGUETE> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/TETUAN> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/BERRUGUETE> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/BERRUGUETE> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/TETUAN> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/BERRUGUETE> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/TETUAN> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/HIERBABUENA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/BERRUGUETE> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/HIERBABUENA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/BERRUGUETE> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/PlayaVictoria> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/HIERBABUENA> .
 
@@ -1688,17 +1742,17 @@
 	schema:postalCode "28002"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "33"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Pradillo> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Pradillo> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/CIUDADJARDIN> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CIUDADJARDIN> a ontology:Barrio ;
 	schema:name "CIUDAD JARDIN" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PRADILLO> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PRADILLO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMARTIN> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/CIUDADJARDIN> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMARTIN> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CIUDADJARDIN> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/CIUDADJARDIN> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMARTIN> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CIUDADJARDIN> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMARTIN> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PRADILLO> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/CIUDADJARDIN> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PRADILLO> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CIUDADJARDIN> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Pradillo> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PRADILLO> .
 
@@ -1720,11 +1774,11 @@
 	schema:postalCode "28017"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/PuebloNuevo> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/PuebloNuevo> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/PUEBLONUEVO> ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FRANCISCORIOJA> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PUEBLONUEVO> ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FRANCISCORIOJA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FRANCISCORIOJA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/PUEBLONUEVO> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FRANCISCORIOJA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PUEBLONUEVO> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/PuebloNuevo> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FRANCISCORIOJA> .
 
@@ -1746,17 +1800,17 @@
 	schema:postalCode "28018"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/PuentedeVallecas> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/PuentedeVallecas> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMERASBAJAS> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMERASBAJAS> a ontology:Barrio ;
 	schema:name "PALOMERAS BAJAS" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PAYASOFOFO> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PAYASOFOFO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/PUENTEDEVALLECAS> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMERASBAJAS> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/PUENTEDEVALLECAS> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMERASBAJAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMERASBAJAS> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/PUENTEDEVALLECAS> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMERASBAJAS> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/PUENTEDEVALLECAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PAYASOFOFO> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMERASBAJAS> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PAYASOFOFO> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMERASBAJAS> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/PuentedeVallecas> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PAYASOFOFO> .
 
@@ -1777,17 +1831,17 @@
 	schema:postalCode "28021"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "137"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/RaulGonzalez> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/RaulGonzalez> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANCRISTOBAL> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANCRISTOBAL> a ontology:Barrio ;
 	schema:name "SAN CRISTOBAL" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/BENIMAMET> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/BENIMAMET> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLAVERDE> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANCRISTOBAL> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLAVERDE> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANCRISTOBAL> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANCRISTOBAL> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLAVERDE> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANCRISTOBAL> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLAVERDE> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/BENIMAMET> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANCRISTOBAL> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/BENIMAMET> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANCRISTOBAL> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/RaulGonzalez> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/BENIMAMET> .
 
@@ -1809,17 +1863,17 @@
 	schema:postalCode "28037"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "59"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/SanBlas> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/SanBlas> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/HELLIN> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/HELLIN> a ontology:Barrio ;
 	schema:name "HELLIN" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARCOSDEJALON> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARCOSDEJALON> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/SANBLAS-CANILLEJAS> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/HELLIN> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/SANBLAS-CANILLEJAS> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/HELLIN> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/HELLIN> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/SANBLAS-CANILLEJAS> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/HELLIN> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/SANBLAS-CANILLEJAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARCOSDEJALON> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/HELLIN> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARCOSDEJALON> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/HELLIN> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/SanBlas> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARCOSDEJALON> .
 
@@ -1841,11 +1895,11 @@
 	schema:postalCode "28021"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "PLAZA" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/SanCristobal> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/SanCristobal> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANCRISTOBAL> ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PINAZO> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANCRISTOBAL> ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PINAZO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PINAZO> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANCRISTOBAL> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PINAZO> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANCRISTOBAL> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/SanCristobal> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PINAZO> .
 
@@ -1866,17 +1920,17 @@
 	schema:postalCode "28041"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "18"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/SanFermin> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/SanFermin> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANFERMIN> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANFERMIN> a ontology:Barrio ;
 	schema:name "SAN FERMIN" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANMARIO> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANMARIO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANFERMIN> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANFERMIN> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANFERMIN> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANFERMIN> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANMARIO> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANFERMIN> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANMARIO> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANFERMIN> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/SanFermin> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANMARIO> .
 
@@ -1898,17 +1952,17 @@
 	schema:postalCode "28043"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "1-B"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/SanJuanBautista> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/SanJuanBautista> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANJUANBAUTISTA> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANJUANBAUTISTA> a ontology:Barrio ;
 	schema:name "SAN JUAN BAUTISTA" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/TREVIANA> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/TREVIANA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/CIUDADLINEAL> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANJUANBAUTISTA> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CIUDADLINEAL> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANJUANBAUTISTA> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANJUANBAUTISTA> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/CIUDADLINEAL> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANJUANBAUTISTA> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/CIUDADLINEAL> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/TREVIANA> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANJUANBAUTISTA> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/TREVIANA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANJUANBAUTISTA> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/SanJuanBautista> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/TREVIANA> .
 
@@ -1929,17 +1983,17 @@
 	schema:postalCode "28034"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "PASEO" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/SantaAna> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/SantaAna> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/VALVERDE> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/VALVERDE> a ontology:Barrio ;
 	schema:name "VALVERDE" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALAMEDILLAS> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALAMEDILLAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/VALVERDE> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/VALVERDE> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/VALVERDE> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/VALVERDE> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALAMEDILLAS> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/VALVERDE> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALAMEDILLAS> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/VALVERDE> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/SantaAna> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALAMEDILLAS> .
 
@@ -1961,11 +2015,11 @@
 	schema:postalCode "28011"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CAMINO" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/TenisCasadeCampo> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/TenisCasadeCampo> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PRINCIPE> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PRINCIPE> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PRINCIPE> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PRINCIPE> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASADECAMPO> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/TenisCasadeCampo> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PRINCIPE> .
 
@@ -1987,17 +2041,17 @@
 	schema:postalCode "28020"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "376"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/TriangulodeOro> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/TriangulodeOro> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASTILLEJOS> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASTILLEJOS> a ontology:Barrio ;
 	schema:name "CASTILLEJOS" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/BRAVOMURILLO> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/BRAVOMURILLO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/TETUAN> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASTILLEJOS> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/TETUAN> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASTILLEJOS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASTILLEJOS> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/TETUAN> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASTILLEJOS> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/TETUAN> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/BRAVOMURILLO> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASTILLEJOS> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/BRAVOMURILLO> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASTILLEJOS> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/TriangulodeOro> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/BRAVOMURILLO> .
 
@@ -2019,20 +2073,23 @@
 	schema:postalCode "28032"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Valdebernardo> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Valdebernardo> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASCOH.VICALVARO> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASCOH.VICALVARO> a ontology:Barrio ;
 	schema:name "CASCO H.VICALVARO" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/LADERADELOSALMENDROS> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/LADERADELOSALMENDROS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/VICALVARO> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/VICALVARO> a ontology:Distrito ;
 	schema:name "VICALVARO" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASCOH.VICALVARO> ;
-	ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASCOH.VICALVARO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASCOH.VICALVARO> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/VICALVARO> .
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/VICALVARO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/LADERADELOSALMENDROS> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASCOH.VICALVARO> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/VICALVARO> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASCOH.VICALVARO> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/VICALVARO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/LADERADELOSALMENDROS> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASCOH.VICALVARO> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Valdebernardo> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/LADERADELOSALMENDROS> .
 
@@ -2054,11 +2111,11 @@
 	schema:postalCode "28018"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "51"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CALLE" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Vallecas> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Vallecas> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMERASBAJAS> ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARROYODELOLIVAR> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMERASBAJAS> ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARROYODELOLIVAR> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARROYODELOLIVAR> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMERASBAJAS> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARROYODELOLIVAR> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PALOMERASBAJAS> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Vallecas> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARROYODELOLIVAR> .
 
@@ -2079,20 +2136,23 @@
 	schema:postalCode "28003"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "AVENIDA" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Vallehermoso> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Vallehermoso> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/VALLEHERMOSO> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/VALLEHERMOSO> a ontology:Barrio ;
 	schema:name "VALLEHERMOSO" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FILIPINAS> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FILIPINAS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMBERI> a ontology:District ;
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMBERI> a ontology:Distrito ;
 	schema:name "CHAMBERI" ;
-	ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/VALLEHERMOSO> ;
-	ontology:isInCity <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/VALLEHERMOSO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/VALLEHERMOSO> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMBERI> .
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMBERI> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FILIPINAS> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/VALLEHERMOSO> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMBERI> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/VALLEHERMOSO> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMBERI> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FILIPINAS> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/VALLEHERMOSO> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Vallehermoso> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FILIPINAS> .
 
@@ -2110,17 +2170,17 @@
 	schema:faxNumber "913 147 866" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONFORTEDELEMOS> ontology:number "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/VicentedelBosque> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/VicentedelBosque> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/LAPAZ> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LAPAZ> a ontology:Barrio ;
 	schema:name "LA PAZ" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONFORTEDELEMOS> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONFORTEDELEMOS> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/LAPAZ> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LAPAZ> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/LAPAZ> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LAPAZ> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONFORTEDELEMOS> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/LAPAZ> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONFORTEDELEMOS> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LAPAZ> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/VicentedelBosque> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONFORTEDELEMOS> .
 
@@ -2142,17 +2202,17 @@
 	schema:postalCode "28032"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "PASEO" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Vicalvaro> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Vicalvaro> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/AMBROZ> a ontology:Neighborhood ;
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/AMBROZ> a ontology:Barrio ;
 	schema:name "AMBROZ" ;
-	ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/POLIDEPORTIVO> .
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/POLIDEPORTIVO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Distrito/VICALVARO> ontology:hasNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/AMBROZ> .
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/VICALVARO> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/AMBROZ> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/AMBROZ> ontology:isInDistrict <http://sandbox.linkeddata.es/onto/Group07/Distrito/VICALVARO> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/AMBROZ> <ontology:estaEnDistrito> <http://sandbox.linkeddata.es/onto/Group07/Distrito/VICALVARO> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/POLIDEPORTIVO> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/AMBROZ> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/POLIDEPORTIVO> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/AMBROZ> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/Vicalvaro> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/POLIDEPORTIVO> .
 
@@ -2173,10 +2233,10 @@
 	schema:postalCode "28041"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:number "23"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	ontology:tipoVia "CAMINO" ;
-	ontology:contienePlace <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/ComplejoDeportivoMadridCajaMagica> .
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/ComplejoDeportivoMadridCajaMagica> .
 
-<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANFERMIN> ontology:hasAddress <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PERALES> .
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANFERMIN> ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PERALES> .
 
-<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PERALES> ontology:isInNeighborhood <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANFERMIN> .
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PERALES> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANFERMIN> .
 
 <http://sandbox.linkeddata.es/onto/Group07/CentrosDeportivos/ComplejoDeportivoMadridCajaMagica> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PERALES> .
