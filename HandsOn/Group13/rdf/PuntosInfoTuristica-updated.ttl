@@ -1,0 +1,120 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix base: <http://www.example.org/ontology/TourismMadrid#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://www.example.org/resources/Museum/CentrodeTurismoColón> a schema:TouristInformationPoint ;
+	rdfs:label "Centro de Turismo Colón" ;
+	base:schedule "De lunes a domingo de 9:30 a 20:30 horas" ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "914 544 410" ;
+	schema:email "turismo@esmadrid.com" .
+
+<http://www.example.org/resources/City/Madrid> owl:sameAs <http://dbpedia.org/resource/Madrid> .
+
+<http://www.example.org/resources/Museum/CentrodeTurismoColón> schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Colon" ;
+	schema:postalCode "28046" ;
+	geo:lat "40.42500882822323"^^xsd:double ;
+	geo:long "-3.6911948422827687"^^xsd:double .
+
+<http://www.example.org/resources/Museum/CentrodeTurismoPlazaMayor> a schema:TouristInformationPoint ;
+	rdfs:label "Centro de Turismo Plaza Mayor" ;
+	base:schedule "De lunes a domingo de 9:30 a 20:30 horas.  Venta de entradas para el Programa de Visitas Guiadas Oficiales en el Centro de turismo de lunes a domingo de 9:30 a 20:30 horas." ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "914 544 410" ;
+	schema:email "turismo@esmadrid.com" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Mayor" ;
+	schema:postalCode "28012" ;
+	geo:lat "40.41583855082183"^^xsd:double ;
+	geo:long "-3.7074257084323636"^^xsd:double .
+
+<http://www.example.org/resources/Museum/PuntodeInformaciónTurísticaAeropuertoAdolfoSuárezMadridBarajasTerminal2> a schema:TouristInformationPoint ;
+	rdfs:label "Punto de Información Turística Aeropuerto Adolfo Suárez Madrid -  Barajas Terminal 2" ;
+	base:schedule "De lunes a domingo de 9 a 20 horas" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 544 410" ;
+	schema:email "turismo@esmadrid.com" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Avenida Hispanidad" ;
+	schema:postalCode "28042" ;
+	geo:lat "40.45188738242834"^^xsd:double ;
+	geo:long "-3.5859807207200376"^^xsd:double .
+
+<http://www.example.org/resources/Museum/PuntodeInformaciónTurísticaAeropuertoAdolfoSuárezMadridBarajasTerminal4> a schema:TouristInformationPoint ;
+	rdfs:label "Punto de Información Turística Aeropuerto Adolfo Suárez Madrid - Barajas Terminal 4" ;
+	base:schedule "De lunes a domingo de 9 a 20 horas" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 544 410" ;
+	schema:email "turismo@esmadrid.com" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Avenida Hispanidad" ;
+	schema:postalCode "28042" ;
+	geo:lat "40.45188738242834"^^xsd:double ;
+	geo:long "-3.5859807207200376"^^xsd:double .
+
+<http://www.example.org/resources/Museum/PuntodeInformaciónTurísticaCallao> a schema:TouristInformationPoint ;
+	rdfs:label "Punto de Información Turística Callao" ;
+	base:schedule "De lunes a domingo de 9:30 a 20:30 horas" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 544 410" ;
+	schema:email "turismo@esmadrid.com" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Callao" ;
+	schema:postalCode "28013" ;
+	geo:lat "40.41974735763767"^^xsd:double ;
+	geo:long "-3.7061346665078845"^^xsd:double .
+
+<http://www.example.org/resources/Museum/PuntodeInformaciónTurísticaCibeles> a schema:TouristInformationPoint ;
+	rdfs:label "Punto de Información Turística Cibeles" ;
+	base:schedule "De lunes a domingo de 9:30 a 20:30 horas" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 544 410" ;
+	schema:email "turismo@esmadrid.com" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Cibeles" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.419011767401095"^^xsd:double ;
+	geo:long "-3.692206111679657"^^xsd:double .
+
+<http://www.example.org/resources/Museum/PuntodeInformaciónTurísticaPaseodelArte> a schema:TouristInformationPoint ;
+	rdfs:label "Punto de Información Turística Paseo del Arte" ;
+	base:schedule "De lunes a domingo de 9:30 a 20:30 horas." ;
+	base:accessibility "true"^^xsd:boolean ;
+	schema:telephone "914 544 410" ;
+	schema:email "turismo@esmadrid.com" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Calle Santa Isabel" ;
+	schema:postalCode "28012" ;
+	geo:lat "40.41213027498252"^^xsd:double ;
+	geo:long "-3.6994547941964946"^^xsd:double .
+
+<http://www.example.org/resources/Museum/PuntodeInformaciónTurística.Centrocentro> a schema:TouristInformationPoint ;
+	rdfs:label "Punto de Información Turística. Centrocentro" ;
+	base:schedule "De martes a domingo de 10 a 20 horas  Cerrado todos los lunes, 1 y 6 de enero, 1 de mayo y 24, 25 y 31 de diciembre" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 544 410" ;
+	schema:email "turismo@esmadrid.com" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Cibeles" ;
+	schema:postalCode "28014" ;
+	geo:lat "40.419011767401095"^^xsd:double ;
+	geo:long "-3.692206111679657"^^xsd:double .
+
+<http://www.example.org/resources/Museum/ServicioNoPresencialdeInformaciónTurísticadeMadrid> a schema:TouristInformationPoint ;
+	rdfs:label "Servicio No Presencial de Información Turística de Madrid" ;
+	base:schedule "De lunes a domingo de 9:30 a 20:30 horas" ;
+	base:accessibility "false"^^xsd:boolean ;
+	schema:telephone "914 544 410" ;
+	schema:email "turismo@esmadrid.com" ;
+	schema:containedIn <http://www.example.org/resources/City/Madrid> ;
+	schema:streetAddress "Plaza Mayor" ;
+	schema:postalCode "28012" ;
+	geo:lat "40.41583855082183"^^xsd:double ;
+	geo:long "-3.7074257084323636"^^xsd:double .
