@@ -1,0 +1,2722 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ont: <http://www.semanticweb.org/group08/Building/School/Private#> .
+@prefix geon: <http://sws.geonames.org/> .
+@prefix base: <http://www.semanticweb.org/group08/School/Private/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix geosp: <http://www.opengis.net/ont/geosparql#> .
+
+
+base:AddaClevengerJuniorPreparatory a base:Private ;
+	ont:name "Adda Clevenger Junior Preparatory" ;
+	ont:type "GIFTED" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Adda+Clevenger+Junior+Preparatory%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/AddaClevengerJuniorPreparatory/Building/geometry> geosp:asWKT "POINT(-122.424465 37.753739)" .
+
+<http://www.semanticweb.org/group08/School/Private/AddaClevengerJuniorPreparatory/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/AddaClevengerJuniorPreparatory/Building/geometry> .
+
+base:AddaClevengerJuniorPreparatory ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/AddaClevengerJuniorPreparatory/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231605/> .
+
+<http://www.semanticweb.org/group08/School/Private/Adda+Clevenger+Junior+Preparatory%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Adda+Clevenger+Junior+Preparatory%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Adda+Clevenger+Junior+Preparatory%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "180 Fair Oaks Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:BrandeisHillelDaySchool a base:Private ;
+	ont:name "Brandeis Hillel Day School" ;
+	ont:type "JEWISH" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Brandeis+Hillel+Day+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/BrandeisHillelDaySchool/Building/geometry> geosp:asWKT "POINT(-122.472212 37.712217)" .
+
+<http://www.semanticweb.org/group08/School/Private/BrandeisHillelDaySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/BrandeisHillelDaySchool/Building/geometry> .
+
+base:BrandeisHillelDaySchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/BrandeisHillelDaySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231631/> .
+
+<http://www.semanticweb.org/group08/School/Private/Brandeis+Hillel+Day+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Brandeis+Hillel+Day+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Brandeis+Hillel+Day+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "655 Brotherhood Way" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:ChildrensDaySchool a base:Private ;
+	ont:name "Childrens Day School" ;
+	ont:type "PRESCHOOL" ;
+	ont:children "PK- 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Childrens+Day+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/ChildrensDaySchool/Building/geometry> geosp:asWKT "POINT(-122.425708 37.763858)" .
+
+<http://www.semanticweb.org/group08/School/Private/ChildrensDaySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/ChildrensDaySchool/Building/geometry> .
+
+base:ChildrensDaySchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/ChildrensDaySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231641/> .
+
+<http://www.semanticweb.org/group08/School/Private/Childrens+Day+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Childrens+Day+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Childrens+Day+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "333 Dolores Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:ConventofSacredHeartElementarySchool a base:Private ;
+	ont:name "Convent of Sacred Heart Elementary School" ;
+	ont:type "GIRLS, CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Convent+of+Sacred+Heart+Elementary+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/ConventofSacredHeartElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.43396 37.794865)" .
+
+<http://www.semanticweb.org/group08/School/Private/ConventofSacredHeartElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/ConventofSacredHeartElementarySchool/Building/geometry> .
+
+base:ConventofSacredHeartElementarySchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/ConventofSacredHeartElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Convent+of+Sacred+Heart+Elementary+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Convent+of+Sacred+Heart+Elementary+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Convent+of+Sacred+Heart+Elementary+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "2222 Broadway" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:EpiphanySchool a base:Private ;
+	ont:name "Epiphany School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "1 - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Epiphany+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/EpiphanySchool/Building/geometry> geosp:asWKT "POINT(-122.434533 37.715723)" .
+
+<http://www.semanticweb.org/group08/School/Private/EpiphanySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/EpiphanySchool/Building/geometry> .
+
+base:EpiphanySchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/EpiphanySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/4060832/> .
+
+<http://www.semanticweb.org/group08/School/Private/Epiphany+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Epiphany+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Epiphany+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "600 Italy Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:HamlinSchool a base:Private ;
+	ont:name "Hamlin School" ;
+	ont:type "GIRLS" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Hamlin+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/HamlinSchool/Building/geometry> geosp:asWKT "POINT(-122.432554 37.795073)" .
+
+<http://www.semanticweb.org/group08/School/Private/HamlinSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/HamlinSchool/Building/geometry> .
+
+base:HamlinSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/HamlinSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/4995167/> .
+
+<http://www.semanticweb.org/group08/School/Private/Hamlin+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Hamlin+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Hamlin+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "2120 Broadway Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:LisaHampnerHebrewAcademy a base:Private ;
+	ont:name "Lisa Hampner Hebrew Academy" ;
+	ont:type "JEWISH" ;
+	ont:children "PK - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Lisa+Hampner+Hebrew+Academy%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/LisaHampnerHebrewAcademy/Building/geometry> geosp:asWKT "POINT(-122.472874 37.776097)" .
+
+<http://www.semanticweb.org/group08/School/Private/LisaHampnerHebrewAcademy/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/LisaHampnerHebrewAcademy/Building/geometry> .
+
+base:LisaHampnerHebrewAcademy ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/LisaHampnerHebrewAcademy/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Lisa+Hampner+Hebrew+Academy%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Lisa+Hampner+Hebrew+Academy%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Lisa+Hampner+Hebrew+Academy%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "645 14th Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:ImmaculateConceptionAcademy a base:Private ;
+	ont:name "Immaculate Conception Academy" ;
+	ont:type "GIRLS, CATHOLIC" ;
+	ont:children "9 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Immaculate+Conception+Academy%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/ImmaculateConceptionAcademy/Building/geometry> geosp:asWKT "POINT(-122.423347 37.751753)" .
+
+<http://www.semanticweb.org/group08/School/Private/ImmaculateConceptionAcademy/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/ImmaculateConceptionAcademy/Building/geometry> .
+
+base:ImmaculateConceptionAcademy ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/ImmaculateConceptionAcademy/Building> ;
+	owl:sameAs <http://sws.geonames.org/4565541/> .
+
+<http://www.semanticweb.org/group08/School/Private/Immaculate+Conception+Academy%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Immaculate+Conception+Academy%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Immaculate+Conception+Academy%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "3625 24th Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:InternationalChristianSchool a base:Private ;
+	ont:name "International Christian School" ;
+	ont:type "BAPTIST" ;
+	ont:children "PK - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/International+Christian+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/InternationalChristianSchool/Building/geometry> geosp:asWKT "POINT(-122.42423 37.772228)" .
+
+<http://www.semanticweb.org/group08/School/Private/InternationalChristianSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/InternationalChristianSchool/Building/geometry> .
+
+base:InternationalChristianSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/InternationalChristianSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5359583/> .
+
+<http://www.semanticweb.org/group08/School/Private/International+Christian+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/International+Christian+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/International+Christian+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "42 Waller Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:LaurelSchool a base:Private ;
+	ont:name "Laurel School" ;
+	ont:children "PK - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Laurel+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/LaurelSchool/Building/geometry> geosp:asWKT "POINT(-122.467013 37.781832)" .
+
+<http://www.semanticweb.org/group08/School/Private/LaurelSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/LaurelSchool/Building/geometry> .
+
+base:LaurelSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/LaurelSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5160444/> .
+
+<http://www.semanticweb.org/group08/School/Private/Laurel+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Laurel+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Laurel+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "350 9th Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:LiveOakSchool a base:Private ;
+	ont:name "Live Oak School" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Live+Oak+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/LiveOakSchool/Building/geometry> geosp:asWKT "POINT(-122.398929 37.763484)" .
+
+<http://www.semanticweb.org/group08/School/Private/LiveOakSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/LiveOakSchool/Building/geometry> .
+
+base:LiveOakSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/LiveOakSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/4433924/> .
+
+<http://www.semanticweb.org/group08/School/Private/Live+Oak+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Live+Oak+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Live+Oak+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1555 Mariposa Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:Meadows-LivingstoneSchool a base:Private ;
+	ont:name "Meadows-Livingstone School" ;
+	ont:children "1 - 6" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Meadows-Livingstone+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/Meadows-LivingstoneSchool/Building/geometry> geosp:asWKT "POINT(-122.404838 37.749628)" .
+
+<http://www.semanticweb.org/group08/School/Private/Meadows-LivingstoneSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/Meadows-LivingstoneSchool/Building/geometry> .
+
+base:Meadows-LivingstoneSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/Meadows-LivingstoneSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231602/> .
+
+<http://www.semanticweb.org/group08/School/Private/Meadows-Livingstone+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Meadows-Livingstone+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Meadows-Livingstone+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1499 Potrero Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:MissionDoloresSchool a base:Private ;
+	ont:name "Mission Dolores School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Mission+Dolores+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/MissionDoloresSchool/Building/geometry> geosp:asWKT "POINT(-122.427713 37.76407)" .
+
+<http://www.semanticweb.org/group08/School/Private/MissionDoloresSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/MissionDoloresSchool/Building/geometry> .
+
+base:MissionDoloresSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/MissionDoloresSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Mission+Dolores+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Mission+Dolores+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Mission+Dolores+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "3371 16th Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:OurLadyofVisitacionSchool a base:Private ;
+	ont:name "Our Lady of Visitacion School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Our+Lady+of+Visitacion+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/OurLadyofVisitacionSchool/Building/geometry> geosp:asWKT "POINT(-122.409412 37.709763)" .
+
+<http://www.semanticweb.org/group08/School/Private/OurLadyofVisitacionSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/OurLadyofVisitacionSchool/Building/geometry> .
+
+base:OurLadyofVisitacionSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/OurLadyofVisitacionSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Our+Lady+of+Visitacion+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Our+Lady+of+Visitacion+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Our+Lady+of+Visitacion+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "795 Sunnydale Ave" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:PresidioHillSchool a base:Private ;
+	ont:name "Presidio Hill School" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Presidio+Hill+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/PresidioHillSchool/Building/geometry> geosp:asWKT "POINT(-122.45606 37.788584)" .
+
+<http://www.semanticweb.org/group08/School/Private/PresidioHillSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/PresidioHillSchool/Building/geometry> .
+
+base:PresidioHillSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/PresidioHillSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5384856/> .
+
+<http://www.semanticweb.org/group08/School/Private/Presidio+Hill+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Presidio+Hill+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Presidio+Hill+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "3839 Washington Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StAnthony-ImmaculateConceptionSchool a base:Private ;
+	ont:name "St. Anthony-Immaculate Conception School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+Anthony-Immaculate+Conception+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StAnthony-ImmaculateConceptionSchool/Building/geometry> geosp:asWKT "POINT(-122.41425 37.747502)" .
+
+<http://www.semanticweb.org/group08/School/Private/StAnthony-ImmaculateConceptionSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StAnthony-ImmaculateConceptionSchool/Building/geometry> .
+
+base:StAnthony-ImmaculateConceptionSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StAnthony-ImmaculateConceptionSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Anthony-Immaculate+Conception+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+Anthony-Immaculate+Conception+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Anthony-Immaculate+Conception+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "299 Precita Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+<http://www.semanticweb.org/group08/School/Private/StBrendan'sSchool> a base:Private ;
+	ont:name "St. Brendan's School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+Brendan%27s+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StBrendan'sSchool/Building/geometry> geosp:asWKT "POINT(-122.455924 37.742854)" .
+
+<http://www.semanticweb.org/group08/School/Private/StBrendan'sSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StBrendan'sSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Private/StBrendan'sSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StBrendan'sSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Brendan%27s+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+Brendan%27s+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Brendan%27s+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "940 Laguna Honda Boulevard" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StCeciliaSchool a base:Private ;
+	ont:name "St. Cecilia School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+Cecilia+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StCeciliaSchool/Building/geometry> geosp:asWKT "POINT(-122.47401 37.73995)" .
+
+<http://www.semanticweb.org/group08/School/Private/StCeciliaSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StCeciliaSchool/Building/geometry> .
+
+base:StCeciliaSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StCeciliaSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Cecilia+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+Cecilia+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Cecilia+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "660 Vicente Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StCharlesSchool a base:Private ;
+	ont:name "St. Charles School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+Charles+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StCharlesSchool/Building/geometry> geosp:asWKT "POINT(-122.416443 37.762323)" .
+
+<http://www.semanticweb.org/group08/School/Private/StCharlesSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StCharlesSchool/Building/geometry> .
+
+base:StCharlesSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StCharlesSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Charles+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+Charles+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Charles+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "3250 18th Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StratfordSchool a base:Private ;
+	ont:name "Stratford School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 2" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Stratford+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StratfordSchool/Building/geometry> geosp:asWKT "POINT(-122.461561 37.723148)" .
+
+<http://www.semanticweb.org/group08/School/Private/StratfordSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StratfordSchool/Building/geometry> .
+
+base:StratfordSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StratfordSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/4504338/> .
+
+<http://www.semanticweb.org/group08/School/Private/Stratford+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Stratford+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Stratford+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "301 De Montfort Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StGabrielSchool a base:Private ;
+	ont:name "St. Gabriel School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+Gabriel+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StGabrielSchool/Building/geometry> geosp:asWKT "POINT(-122.498771 37.739532)" .
+
+<http://www.semanticweb.org/group08/School/Private/StGabrielSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StGabrielSchool/Building/geometry> .
+
+base:StGabrielSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StGabrielSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Gabriel+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+Gabriel+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Gabriel+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "2550 41st Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StJamesSchool a base:Private ;
+	ont:name "St. James School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+James+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StJamesSchool/Building/geometry> geosp:asWKT "POINT(-122.423768 37.751653)" .
+
+<http://www.semanticweb.org/group08/School/Private/StJamesSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StJamesSchool/Building/geometry> .
+
+base:StJamesSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StJamesSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/8176864/> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+James+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+James+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+James+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "321 Fair Oaks Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+<http://www.semanticweb.org/group08/School/Private/StJohn'sSchool> a base:Private ;
+	ont:name "St. John's School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+John%27s+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StJohn'sSchool/Building/geometry> geosp:asWKT "POINT(-122.437496 37.734789)" .
+
+<http://www.semanticweb.org/group08/School/Private/StJohn'sSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StJohn'sSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Private/StJohn'sSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StJohn'sSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+John%27s+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+John%27s+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+John%27s+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "925 Chenery Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+<http://www.semanticweb.org/group08/School/Private/StMary'sChineseDaySchool> a base:Private ;
+	ont:name "St. Mary's Chinese Day School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+Mary%27s+Chinese+Day+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StMary'sChineseDaySchool/Building/geometry> geosp:asWKT "POINT(-122.412375 37.797475)" .
+
+<http://www.semanticweb.org/group08/School/Private/StMary'sChineseDaySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StMary'sChineseDaySchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Private/StMary'sChineseDaySchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StMary'sChineseDaySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Mary%27s+Chinese+Day+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+Mary%27s+Chinese+Day+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Mary%27s+Chinese+Day+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "910 Broadway" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:KippBayviewAcademy a base:Private ;
+	ont:name "Kipp Bayview Academy" ;
+	ont:children "5 - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Kipp+Bayview+Academy%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/KippBayviewAcademy/Building/geometry> geosp:asWKT "POINT(-122.396219 37.719517)" .
+
+<http://www.semanticweb.org/group08/School/Private/KippBayviewAcademy/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/KippBayviewAcademy/Building/geometry> .
+
+base:KippBayviewAcademy ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/KippBayviewAcademy/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231664/> .
+
+<http://www.semanticweb.org/group08/School/Private/Kipp+Bayview+Academy%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Kipp+Bayview+Academy%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Kipp+Bayview+Academy%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1060 Key Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+<http://www.semanticweb.org/group08/School/Private/StPeter'sSchool> a base:Private ;
+	ont:name "St. Peter's School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+Peter%27s+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StPeter'sSchool/Building/geometry> geosp:asWKT "POINT(-122.41036 37.7517)" .
+
+<http://www.semanticweb.org/group08/School/Private/StPeter'sSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StPeter'sSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Private/StPeter'sSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StPeter'sSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/6693737/> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Peter%27s+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+Peter%27s+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Peter%27s+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1266 Florida Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+<http://www.semanticweb.org/group08/School/Private/StPhilip'sSchool> a base:Private ;
+	ont:name "St. Philip's School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+Philip%27s+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StPhilip'sSchool/Building/geometry> geosp:asWKT "POINT(-122.435538 37.751758)" .
+
+<http://www.semanticweb.org/group08/School/Private/StPhilip'sSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StPhilip'sSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Private/StPhilip'sSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StPhilip'sSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Philip%27s+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+Philip%27s+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Philip%27s+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "665 Elizabeth Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StsPeterandPaulSalesianSchool a base:Private ;
+	ont:name "Sts. Peter and Paul Salesian School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Sts.+Peter+and+Paul+Salesian+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StsPeterandPaulSalesianSchool/Building/geometry> geosp:asWKT "POINT(-122.410437 37.801422)" .
+
+<http://www.semanticweb.org/group08/School/Private/StsPeterandPaulSalesianSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StsPeterandPaulSalesianSchool/Building/geometry> .
+
+base:StsPeterandPaulSalesianSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StsPeterandPaulSalesianSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Sts.+Peter+and+Paul+Salesian+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Sts.+Peter+and+Paul+Salesian+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Sts.+Peter+and+Paul+Salesian+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "660 Filbert Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:SanFranciscoWaldorfSchool a base:Private ;
+	ont:name "San Francisco Waldorf School" ;
+	ont:children "K - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/San+Francisco+Waldorf+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/SanFranciscoWaldorfSchool/Building/geometry> geosp:asWKT "POINT(-122.441941 37.79091)" .
+
+<http://www.semanticweb.org/group08/School/Private/SanFranciscoWaldorfSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/SanFranciscoWaldorfSchool/Building/geometry> .
+
+base:SanFranciscoWaldorfSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/SanFranciscoWaldorfSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5392018/> .
+
+<http://www.semanticweb.org/group08/School/Private/San+Francisco+Waldorf+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/San+Francisco+Waldorf+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/San+Francisco+Waldorf+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "2938 Washington Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StuartHallHighSchool a base:Private ;
+	ont:name "Stuart Hall High School" ;
+	ont:type "BOYS, CATHOLIC" ;
+	ont:children "9 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Stuart+Hall+High+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StuartHallHighSchool/Building/geometry> geosp:asWKT "POINT(-122.427294 37.788251)" .
+
+<http://www.semanticweb.org/group08/School/Private/StuartHallHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StuartHallHighSchool/Building/geometry> .
+
+base:StuartHallHighSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StuartHallHighSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231659/> .
+
+<http://www.semanticweb.org/group08/School/Private/Stuart+Hall+High+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Stuart+Hall+High+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Stuart+Hall+High+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1715 Octavia Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:SynergySchool a base:Private ;
+	ont:name "Synergy School" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Synergy+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/SynergySchool/Building/geometry> geosp:asWKT "POINT(-122.4202 37.750874)" .
+
+<http://www.semanticweb.org/group08/School/Private/SynergySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/SynergySchool/Building/geometry> .
+
+base:SynergySchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/SynergySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5400798/> .
+
+<http://www.semanticweb.org/group08/School/Private/Synergy+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Synergy+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Synergy+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1387 Valencia Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+<http://www.semanticweb.org/group08/School/Private/WestPortalLutheranSchool(1-3)> a base:Private ;
+	ont:name "West Portal Lutheran School (1-3)" ;
+	ont:type "PRESCHOOL" ;
+	ont:children "1 - 3" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/West+Portal+Lutheran+School+%281-3%29%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/WestPortalLutheranSchool(1-3)/Building/geometry> geosp:asWKT "POINT(-122.496172 37.754918)" .
+
+<http://www.semanticweb.org/group08/School/Private/WestPortalLutheranSchool(1-3)/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/WestPortalLutheranSchool(1-3)/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Private/WestPortalLutheranSchool(1-3)> ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/WestPortalLutheranSchool(1-3)/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/West+Portal+Lutheran+School+%281-3%29%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/West+Portal+Lutheran+School+%281-3%29%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/West+Portal+Lutheran+School+%281-3%29%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1711 37th Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:ArchbishopRiordanHighSchool a base:Private ;
+	ont:name "Archbishop Riordan High School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "9 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Archbishop+Riordan+High+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/ArchbishopRiordanHighSchool/Building/geometry> geosp:asWKT "POINT(-122.454277 37.727921)" .
+
+<http://www.semanticweb.org/group08/School/Private/ArchbishopRiordanHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/ArchbishopRiordanHighSchool/Building/geometry> .
+
+base:ArchbishopRiordanHighSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/ArchbishopRiordanHighSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5387744/> .
+
+<http://www.semanticweb.org/group08/School/Private/Archbishop+Riordan+High+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Archbishop+Riordan+High+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Archbishop+Riordan+High+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "175 Phelan Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:BethelCenter a base:Private ;
+	ont:name "Bethel Center" ;
+	ont:type "ED" ;
+	ont:children "9 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Bethel+Center%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/BethelCenter/Building/geometry> geosp:asWKT "POINT(-122.446511 37.714723)" .
+
+<http://www.semanticweb.org/group08/School/Private/BethelCenter/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/BethelCenter/Building/geometry> .
+
+base:BethelCenter ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/BethelCenter/Building> ;
+	owl:sameAs <http://sws.geonames.org/4918042/> .
+
+<http://www.semanticweb.org/group08/School/Private/Bethel+Center%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Bethel+Center%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Bethel+Center%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "2557 Alemany Boulevard" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:CathedralSchoolforBoys a base:Private ;
+	ont:name "Cathedral School for Boys" ;
+	ont:type "BOYS, EPISCOPAL" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Cathedral+School+for+Boys%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/CathedralSchoolforBoys/Building/geometry> geosp:asWKT "POINT(-122.413383 37.792008)" .
+
+<http://www.semanticweb.org/group08/School/Private/CathedralSchoolforBoys/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/CathedralSchoolforBoys/Building/geometry> .
+
+base:CathedralSchoolforBoys ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/CathedralSchoolforBoys/Building> ;
+	owl:sameAs <http://sws.geonames.org/5335038/> .
+
+<http://www.semanticweb.org/group08/School/Private/Cathedral+School+for+Boys%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Cathedral+School+for+Boys%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Cathedral+School+for+Boys%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1275 Sacramento Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:ChineseAmericanInternationalSchool a base:Private ;
+	ont:name "Chinese American International School" ;
+	ont:type "BILINGUAL (ENGLISH, CHINESE)" ;
+	ont:children "PK - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Chinese+American+International+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/ChineseAmericanInternationalSchool/Building/geometry> geosp:asWKT "POINT(-122.421832 37.775381)" .
+
+<http://www.semanticweb.org/group08/School/Private/ChineseAmericanInternationalSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/ChineseAmericanInternationalSchool/Building/geometry> .
+
+base:ChineseAmericanInternationalSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/ChineseAmericanInternationalSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5336482/> .
+
+<http://www.semanticweb.org/group08/School/Private/Chinese+American+International+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Chinese+American+International+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Chinese+American+International+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "150 Oak Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:CornerstoneAcademy-Campus1 a base:Private ;
+	ont:name "Cornerstone Academy - Campus 1" ;
+	ont:type "PRESCHOOL, BILINGUAL (ENGLISH, CANTONESE)" ;
+	ont:children "PK - 4" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Cornerstone+Academy+-+Campus+1%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/CornerstoneAcademy-Campus1/Building/geometry> geosp:asWKT "POINT(-122.418325 37.729583)" .
+
+<http://www.semanticweb.org/group08/School/Private/CornerstoneAcademy-Campus1/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/CornerstoneAcademy-Campus1/Building/geometry> .
+
+base:CornerstoneAcademy-Campus1 ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/CornerstoneAcademy-Campus1/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Cornerstone+Academy+-+Campus+1%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Cornerstone+Academy+-+Campus+1%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Cornerstone+Academy+-+Campus+1%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "801 Silver Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:CornerstoneAcademy-Campus2 a base:Private ;
+	ont:name "Cornerstone Academy - Campus 2" ;
+	ont:type "BACKGROUND, BILINGUAL (ENGLISH, CANTONESE)" ;
+	ont:children "5 - 10" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Cornerstone+Academy+-+Campus+2%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/CornerstoneAcademy-Campus2/Building/geometry> geosp:asWKT "POINT(-122.416847 37.724953)" .
+
+<http://www.semanticweb.org/group08/School/Private/CornerstoneAcademy-Campus2/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/CornerstoneAcademy-Campus2/Building/geometry> .
+
+base:CornerstoneAcademy-Campus2 ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/CornerstoneAcademy-Campus2/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Cornerstone+Academy+-+Campus+2%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Cornerstone+Academy+-+Campus+2%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Cornerstone+Academy+-+Campus+2%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "501 Cambridge Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:CorpusChristiSchool a base:Private ;
+	ont:name "Corpus Christi School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Corpus+Christi+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/CorpusChristiSchool/Building/geometry> geosp:asWKT "POINT(-122.435264 37.727179)" .
+
+<http://www.semanticweb.org/group08/School/Private/CorpusChristiSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/CorpusChristiSchool/Building/geometry> .
+
+base:CorpusChristiSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/CorpusChristiSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/4057046/> .
+
+<http://www.semanticweb.org/group08/School/Private/Corpus+Christi+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Corpus+Christi+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Corpus+Christi+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "75 Francis Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:DeMarillacMiddleSchool a base:Private ;
+	ont:name "DeMarillac Middle School" ;
+	ont:type "UNDERPRIVILEGED, CATHOLIC" ;
+	ont:children "6 - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/DeMarillac+Middle+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/DeMarillacMiddleSchool/Building/geometry> geosp:asWKT "POINT(-122.413031 37.781666)" .
+
+<http://www.semanticweb.org/group08/School/Private/DeMarillacMiddleSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/DeMarillacMiddleSchool/Building/geometry> .
+
+base:DeMarillacMiddleSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/DeMarillacMiddleSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/DeMarillac+Middle+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/DeMarillac+Middle+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/DeMarillac+Middle+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "135 Golden Gate Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:DiscoveryCenterSchool a base:Private ;
+	ont:name "Discovery Center School" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Discovery+Center+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/DiscoveryCenterSchool/Building/geometry> geosp:asWKT "POINT(-122.438326 37.723301)" .
+
+<http://www.semanticweb.org/group08/School/Private/DiscoveryCenterSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/DiscoveryCenterSchool/Building/geometry> .
+
+base:DiscoveryCenterSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/DiscoveryCenterSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5343205/> .
+
+<http://www.semanticweb.org/group08/School/Private/Discovery+Center+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Discovery+Center+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Discovery+Center+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "65 Ocean Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:DrewCollegePreparatorySchool a base:Private ;
+	ont:name "Drew College Preparatory School" ;
+	ont:children "9 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Drew+College+Preparatory+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/DrewCollegePreparatorySchool/Building/geometry> geosp:asWKT "POINT(-122.442291 37.78756)" .
+
+<http://www.semanticweb.org/group08/School/Private/DrewCollegePreparatorySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/DrewCollegePreparatorySchool/Building/geometry> .
+
+base:DrewCollegePreparatorySchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/DrewCollegePreparatorySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Drew+College+Preparatory+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Drew+College+Preparatory+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Drew+College+Preparatory+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "2901 California Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:EcoleNotreDamesdesVictoires a base:Private ;
+	ont:name "Ecole Notre Dames des Victoires" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Ecole+Notre+Dames+des+Victoires%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/EcoleNotreDamesdesVictoires/Building/geometry> geosp:asWKT "POINT(-122.406467 37.791117)" .
+
+<http://www.semanticweb.org/group08/School/Private/EcoleNotreDamesdesVictoires/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/EcoleNotreDamesdesVictoires/Building/geometry> .
+
+base:EcoleNotreDamesdesVictoires ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/EcoleNotreDamesdesVictoires/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Ecole+Notre+Dames+des+Victoires%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Ecole+Notre+Dames+des+Victoires%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Ecole+Notre+Dames+des+Victoires%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "659 Pine Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:FellowshipAcademy a base:Private ;
+	ont:name "Fellowship Academy" ;
+	ont:children "PK - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Fellowship+Academy%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/FellowshipAcademy/Building/geometry> geosp:asWKT "POINT(-122.41732 37.725719)" .
+
+<http://www.semanticweb.org/group08/School/Private/FellowshipAcademy/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/FellowshipAcademy/Building/geometry> .
+
+base:FellowshipAcademy ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/FellowshipAcademy/Building> ;
+	owl:sameAs <http://sws.geonames.org/4187108/> .
+
+<http://www.semanticweb.org/group08/School/Private/Fellowship+Academy%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Fellowship+Academy%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Fellowship+Academy%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "495 Cambridge Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:FreemanSchool a base:Private ;
+	ont:name "Freeman School" ;
+	ont:type "SHALOM" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Freeman+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/FreemanSchool/Building/geometry> geosp:asWKT "POINT(-122.486934 37.773382)" .
+
+<http://www.semanticweb.org/group08/School/Private/FreemanSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/FreemanSchool/Building/geometry> .
+
+base:FreemanSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/FreemanSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5253814/> .
+
+<http://www.semanticweb.org/group08/School/Private/Freeman+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Freeman+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Freeman+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "862 28th Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:HillwoodAcademicDaySchool a base:Private ;
+	ont:name "Hillwood Academic Day School" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Hillwood+Academic+Day+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/HillwoodAcademicDaySchool/Building/geometry> geosp:asWKT "POINT(-122.440119 37.793323)" .
+
+<http://www.semanticweb.org/group08/School/Private/HillwoodAcademicDaySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/HillwoodAcademicDaySchool/Building/geometry> .
+
+base:HillwoodAcademicDaySchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/HillwoodAcademicDaySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5357167/> .
+
+<http://www.semanticweb.org/group08/School/Private/Hillwood+Academic+Day+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Hillwood+Academic+Day+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Hillwood+Academic+Day+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "2521 Scott Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:HolyNameSchool a base:Private ;
+	ont:name "Holy Name School" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Holy+Name+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/HolyNameSchool/Building/geometry> geosp:asWKT "POINT(-122.498905 37.757697)" .
+
+<http://www.semanticweb.org/group08/School/Private/HolyNameSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/HolyNameSchool/Building/geometry> .
+
+base:HolyNameSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/HolyNameSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/8173761/> .
+
+<http://www.semanticweb.org/group08/School/Private/Holy+Name+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Holy+Name+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Holy+Name+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1560 40th Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:HolyTrinityOrthodoxSchool a base:Private ;
+	ont:name "Holy Trinity Orthodox School" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Holy+Trinity+Orthodox+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/HolyTrinityOrthodoxSchool/Building/geometry> geosp:asWKT "POINT(-122.482003 37.713867)" .
+
+<http://www.semanticweb.org/group08/School/Private/HolyTrinityOrthodoxSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/HolyTrinityOrthodoxSchool/Building/geometry> .
+
+base:HolyTrinityOrthodoxSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/HolyTrinityOrthodoxSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231618/> .
+
+<http://www.semanticweb.org/group08/School/Private/Holy+Trinity+Orthodox+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Holy+Trinity+Orthodox+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Holy+Trinity+Orthodox+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "999 Brotherhood Way" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:KatherineDelmarBurkeSchool a base:Private ;
+	ont:name "Katherine Delmar Burke School" ;
+	ont:type "GIRLS" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Katherine+Delmar+Burke+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/KatherineDelmarBurkeSchool/Building/geometry> geosp:asWKT "POINT(-122.4934 37.784938)" .
+
+<http://www.semanticweb.org/group08/School/Private/KatherineDelmarBurkeSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/KatherineDelmarBurkeSchool/Building/geometry> .
+
+base:KatherineDelmarBurkeSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/KatherineDelmarBurkeSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231623/> .
+
+<http://www.semanticweb.org/group08/School/Private/Katherine+Delmar+Burke+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Katherine+Delmar+Burke+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Katherine+Delmar+Burke+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "7070 California Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:KatherineMichielsSchool a base:Private ;
+	ont:name "Katherine Michiels School" ;
+	ont:type "ART, SPANISH, DYSLEXIA" ;
+	ont:children "PK - 5" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Katherine+Michiels+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/KatherineMichielsSchool/Building/geometry> geosp:asWKT "POINT(-122.42231 37.749818)" .
+
+<http://www.semanticweb.org/group08/School/Private/KatherineMichielsSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/KatherineMichielsSchool/Building/geometry> .
+
+base:KatherineMichielsSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/KatherineMichielsSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231612/> .
+
+<http://www.semanticweb.org/group08/School/Private/Katherine+Michiels+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Katherine+Michiels+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Katherine+Michiels+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1335 Guerrero Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:KittredgeSchool a base:Private ;
+	ont:name "Kittredge School" ;
+	ont:children "1 - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Kittredge+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/KittredgeSchool/Building/geometry> geosp:asWKT "POINT(-122.484957 37.785507)" .
+
+<http://www.semanticweb.org/group08/School/Private/KittredgeSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/KittredgeSchool/Building/geometry> .
+
+base:KittredgeSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/KittredgeSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5363553/> .
+
+<http://www.semanticweb.org/group08/School/Private/Kittredge+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Kittredge+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Kittredge+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "2355 Lake Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:KrouzianArmenianSchool a base:Private ;
+	ont:name "Krouzian Armenian School" ;
+	ont:type "CHRISTIAN" ;
+	ont:children "PK - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Krouzian+Armenian+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/KrouzianArmenianSchool/Building/geometry> geosp:asWKT "POINT(-122.478318 37.713841)" .
+
+<http://www.semanticweb.org/group08/School/Private/KrouzianArmenianSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/KrouzianArmenianSchool/Building/geometry> .
+
+base:KrouzianArmenianSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/KrouzianArmenianSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Krouzian+Armenian+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Krouzian+Armenian+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Krouzian+Armenian+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "825 Brotherhood Way" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:LaMelSchool a base:Private ;
+	ont:name "La Mel School" ;
+	ont:type "ED" ;
+	ont:children "K - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/La+Mel+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/LaMelSchool/Building/geometry> geosp:asWKT "POINT(-122.427216 37.787503)" .
+
+<http://www.semanticweb.org/group08/School/Private/LaMelSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/LaMelSchool/Building/geometry> .
+
+base:LaMelSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/LaMelSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/La+Mel+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/La+Mel+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/La+Mel+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1801 Bush Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:LickWilmerdingHighSchool a base:Private ;
+	ont:name "Lick Wilmerding High School" ;
+	ont:children "9 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Lick+Wilmerding+High+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/LickWilmerdingHighSchool/Building/geometry> geosp:asWKT "POINT(-122.44898 37.722322)" .
+
+<http://www.semanticweb.org/group08/School/Private/LickWilmerdingHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/LickWilmerdingHighSchool/Building/geometry> .
+
+base:LickWilmerdingHighSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/LickWilmerdingHighSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5366190/> .
+
+<http://www.semanticweb.org/group08/School/Private/Lick+Wilmerding+High+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Lick+Wilmerding+High+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Lick+Wilmerding+High+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "755 Ocean Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:LyceeFrancaisLaPerouseSanFrancisco a base:Private ;
+	ont:name "Lycee Francais La Perouse San Francisco" ;
+	ont:type "FRENCH" ;
+	ont:children "PK - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Lycee+Francais+La+Perouse+San+Francisco%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/LyceeFrancaisLaPerouseSanFrancisco/Building/geometry> geosp:asWKT "POINT(-122.446968 37.76797)" .
+
+<http://www.semanticweb.org/group08/School/Private/LyceeFrancaisLaPerouseSanFrancisco/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/LyceeFrancaisLaPerouseSanFrancisco/Building/geometry> .
+
+base:LyceeFrancaisLaPerouseSanFrancisco ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/LyceeFrancaisLaPerouseSanFrancisco/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Lycee+Francais+La+Perouse+San+Francisco%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Lycee+Francais+La+Perouse+San+Francisco%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Lycee+Francais+La+Perouse+San+Francisco%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "755 Ashbury Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:MariaMontessoriElementarySchool a base:Private ;
+	ont:name "Maria Montessori Elementary School" ;
+	ont:children "PK - 6" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Maria+Montessori+Elementary+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/MariaMontessoriElementarySchool/Building/geometry> geosp:asWKT "POINT(-122.453427 37.745055)" .
+
+<http://www.semanticweb.org/group08/School/Private/MariaMontessoriElementarySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/MariaMontessoriElementarySchool/Building/geometry> .
+
+base:MariaMontessoriElementarySchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/MariaMontessoriElementarySchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Maria+Montessori+Elementary+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Maria+Montessori+Elementary+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Maria+Montessori+Elementary+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "678 Portola Drive" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:MercyHighSchool a base:Private ;
+	ont:name "Mercy High School" ;
+	ont:type "GIRLS, CATHOLIC" ;
+	ont:children "9 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Mercy+High+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/MercyHighSchool/Building/geometry> geosp:asWKT "POINT(-122.473589 37.7295)" .
+
+<http://www.semanticweb.org/group08/School/Private/MercyHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/MercyHighSchool/Building/geometry> .
+
+base:MercyHighSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/MercyHighSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5126614/> .
+
+<http://www.semanticweb.org/group08/School/Private/Mercy+High+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Mercy+High+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Mercy+High+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "3250 19th Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:RivendellSchool a base:Private ;
+	ont:name "Rivendell School" ;
+	ont:children "K - 5" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Rivendell+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/RivendellSchool/Building/geometry> geosp:asWKT "POINT(-122.506305 37.762028)" .
+
+<http://www.semanticweb.org/group08/School/Private/RivendellSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/RivendellSchool/Building/geometry> .
+
+base:RivendellSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/RivendellSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5387781/> .
+
+<http://www.semanticweb.org/group08/School/Private/Rivendell+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Rivendell+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Rivendell+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "4501 Irving Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:MotherGooseSchool a base:Private ;
+	ont:name "Mother Goose School" ;
+	ont:children "PK - 2" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Mother+Goose+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/MotherGooseSchool/Building/geometry> geosp:asWKT "POINT(-122.487839 37.783022)" .
+
+<http://www.semanticweb.org/group08/School/Private/MotherGooseSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/MotherGooseSchool/Building/geometry> .
+
+base:MotherGooseSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/MotherGooseSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5508715/> .
+
+<http://www.semanticweb.org/group08/School/Private/Mother+Goose+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Mother+Goose+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Mother+Goose+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "334 28th Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:Russian-AmericanInternationalSchool a base:Private ;
+	ont:name "Russian-American International School" ;
+	ont:children "K - 4" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Russian-American+International+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/Russian-AmericanInternationalSchool/Building/geometry> geosp:asWKT "POINT(-122.479099 37.74876)" .
+
+<http://www.semanticweb.org/group08/School/Private/Russian-AmericanInternationalSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/Russian-AmericanInternationalSchool/Building/geometry> .
+
+base:Russian-AmericanInternationalSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/Russian-AmericanInternationalSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231657/> .
+
+<http://www.semanticweb.org/group08/School/Private/Russian-American+International+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Russian-American+International+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Russian-American+International+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1250 Quintara Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:SacredHeartCathedralPreparatory a base:Private ;
+	ont:name "Sacred Heart Cathedral Preparatory" ;
+	ont:type "CATHOLIC" ;
+	ont:children "9 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Sacred+Heart+Cathedral+Preparatory%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/SacredHeartCathedralPreparatory/Building/geometry> geosp:asWKT "POINT(-122.423188 37.783287)" .
+
+<http://www.semanticweb.org/group08/School/Private/SacredHeartCathedralPreparatory/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/SacredHeartCathedralPreparatory/Building/geometry> .
+
+base:SacredHeartCathedralPreparatory ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/SacredHeartCathedralPreparatory/Building> ;
+	owl:sameAs <http://sws.geonames.org/5389654/> .
+
+<http://www.semanticweb.org/group08/School/Private/Sacred+Heart+Cathedral+Preparatory%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Sacred+Heart+Cathedral+Preparatory%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Sacred+Heart+Cathedral+Preparatory%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1055 Ellis Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StAnneSchool a base:Private ;
+	ont:name "St. Anne School" ;
+	ont:type "CATHOLIC, BILINGUAL (ENGLISH, CHINESE)" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+Anne+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StAnneSchool/Building/geometry> geosp:asWKT "POINT(-122.471095 37.76341)" .
+
+<http://www.semanticweb.org/group08/School/Private/StAnneSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StAnneSchool/Building/geometry> .
+
+base:StAnneSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StAnneSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Anne+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+Anne+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Anne+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1320 14th Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StBrigidSchool a base:Private ;
+	ont:name "St. Brigid School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+Brigid+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StBrigidSchool/Building/geometry> geosp:asWKT "POINT(-122.422326 37.794657)" .
+
+<http://www.semanticweb.org/group08/School/Private/StBrigidSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StBrigidSchool/Building/geometry> .
+
+base:StBrigidSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StBrigidSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Brigid+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+Brigid+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Brigid+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "2250 Franklin Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StElizabethSchool a base:Private ;
+	ont:name "St. Elizabeth School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+Elizabeth+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StElizabethSchool/Building/geometry> geosp:asWKT "POINT(-122.407667 37.725689)" .
+
+<http://www.semanticweb.org/group08/School/Private/StElizabethSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StElizabethSchool/Building/geometry> .
+
+base:StElizabethSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StElizabethSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Elizabeth+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+Elizabeth+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Elizabeth+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "450 Somerset Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StFinnBarrSchool a base:Private ;
+	ont:name "St. Finn Barr School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+Finn+Barr+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StFinnBarrSchool/Building/geometry> geosp:asWKT "POINT(-122.447411 37.730445)" .
+
+<http://www.semanticweb.org/group08/School/Private/StFinnBarrSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StFinnBarrSchool/Building/geometry> .
+
+base:StFinnBarrSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StFinnBarrSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Finn+Barr+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+Finn+Barr+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Finn+Barr+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "419 Hearst Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StIgnatiusCollegePreparatory a base:Private ;
+	ont:name "St. Ignatius College Preparatory" ;
+	ont:type "CATHOLIC" ;
+	ont:children "9 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+Ignatius+College+Preparatory%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StIgnatiusCollegePreparatory/Building/geometry> geosp:asWKT "POINT(-122.496384 37.746924)" .
+
+<http://www.semanticweb.org/group08/School/Private/StIgnatiusCollegePreparatory/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StIgnatiusCollegePreparatory/Building/geometry> .
+
+base:StIgnatiusCollegePreparatory ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StIgnatiusCollegePreparatory/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Ignatius+College+Preparatory%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+Ignatius+College+Preparatory%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Ignatius+College+Preparatory%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "2001 37th Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StMonicaSchool a base:Private ;
+	ont:name "St. Monica School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+Monica+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StMonicaSchool/Building/geometry> geosp:asWKT "POINT(-122.483068 37.780498)" .
+
+<http://www.semanticweb.org/group08/School/Private/StMonicaSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StMonicaSchool/Building/geometry> .
+
+base:StMonicaSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StMonicaSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Monica+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+Monica+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Monica+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "5920 Geary Boulevard" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StThomastheApostleSchool a base:Private ;
+	ont:name "St. Thomas the Apostle School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+Thomas+the+Apostle+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StThomastheApostleSchool/Building/geometry> geosp:asWKT "POINT(-122.499773 37.775097)" .
+
+<http://www.semanticweb.org/group08/School/Private/StThomastheApostleSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StThomastheApostleSchool/Building/geometry> .
+
+base:StThomastheApostleSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StThomastheApostleSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Thomas+the+Apostle+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+Thomas+the+Apostle+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Thomas+the+Apostle+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "3801 Balboa Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StVincentdePaulSchool a base:Private ;
+	ont:name "St. Vincent de Paul School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+Vincent+de+Paul+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StVincentdePaulSchool/Building/geometry> geosp:asWKT "POINT(-122.437854 37.796112)" .
+
+<http://www.semanticweb.org/group08/School/Private/StVincentdePaulSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StVincentdePaulSchool/Building/geometry> .
+
+base:StVincentdePaulSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StVincentdePaulSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Vincent+de+Paul+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+Vincent+de+Paul+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Vincent+de+Paul+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "2350 Green Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StsCyrilandMethodiusHighSchool a base:Private ;
+	ont:name "Sts. Cyril and Methodius High School" ;
+	ont:type "ORTHODOX, BILINGUAL (ENGLISH, RUSSIAN)" ;
+	ont:children "9  - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Sts.+Cyril+and+Methodius+High+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StsCyrilandMethodiusHighSchool/Building/geometry> geosp:asWKT "POINT(-122.486024 37.780342)" .
+
+<http://www.semanticweb.org/group08/School/Private/StsCyrilandMethodiusHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StsCyrilandMethodiusHighSchool/Building/geometry> .
+
+base:StsCyrilandMethodiusHighSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StsCyrilandMethodiusHighSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Sts.+Cyril+and+Methodius+High+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Sts.+Cyril+and+Methodius+High+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Sts.+Cyril+and+Methodius+High+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "6200 Geary Boulevard" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:SanFranciscoAdventistSchool a base:Private ;
+	ont:name "San Francisco Adventist School" ;
+	ont:children "K - 10" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/San+Francisco+Adventist+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/SanFranciscoAdventistSchool/Building/geometry> geosp:asWKT "POINT(-122.45119 37.721714)" .
+
+<http://www.semanticweb.org/group08/School/Private/SanFranciscoAdventistSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/SanFranciscoAdventistSchool/Building/geometry> .
+
+base:SanFranciscoAdventistSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/SanFranciscoAdventistSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/San+Francisco+Adventist+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/San+Francisco+Adventist+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/San+Francisco+Adventist+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "66 Geneva Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:SanFranciscoChineseParentsCommunity a base:Private ;
+	ont:name "San Francisco Chinese Parents Community" ;
+	ont:children "PK - 5" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/San+Francisco+Chinese+Parents+Community%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/SanFranciscoChineseParentsCommunity/Building/geometry> geosp:asWKT "POINT(-122.408182 37.793737)" .
+
+<http://www.semanticweb.org/group08/School/Private/SanFranciscoChineseParentsCommunity/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/SanFranciscoChineseParentsCommunity/Building/geometry> .
+
+base:SanFranciscoChineseParentsCommunity ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/SanFranciscoChineseParentsCommunity/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/San+Francisco+Chinese+Parents+Community%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/San+Francisco+Chinese+Parents+Community%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/San+Francisco+Chinese+Parents+Community%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "843 Stockton Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:SanFranciscoChristianSchool a base:Private ;
+	ont:name "San Francisco Christian School" ;
+	ont:children "K - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/San+Francisco+Christian+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/SanFranciscoChristianSchool/Building/geometry> geosp:asWKT "POINT(-122.447754 37.710037)" .
+
+<http://www.semanticweb.org/group08/School/Private/SanFranciscoChristianSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/SanFranciscoChristianSchool/Building/geometry> .
+
+base:SanFranciscoChristianSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/SanFranciscoChristianSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5391971/> .
+
+<http://www.semanticweb.org/group08/School/Private/San+Francisco+Christian+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/San+Francisco+Christian+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/San+Francisco+Christian+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "25 Whittier Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:SanFranciscoCityAcademy a base:Private ;
+	ont:name "San Francisco City Academy" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/San+Francisco+City+Academy%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/SanFranciscoCityAcademy/Building/geometry> geosp:asWKT "POINT(-122.412942 37.78408)" .
+
+<http://www.semanticweb.org/group08/School/Private/SanFranciscoCityAcademy/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/SanFranciscoCityAcademy/Building/geometry> .
+
+base:SanFranciscoCityAcademy ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/SanFranciscoCityAcademy/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231613/> .
+
+<http://www.semanticweb.org/group08/School/Private/San+Francisco+City+Academy%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/San+Francisco+City+Academy%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/San+Francisco+City+Academy%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "302 Eddy Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:SanFranciscoDaySchool a base:Private ;
+	ont:name "San Francisco Day School" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/San+Francisco+Day+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/SanFranciscoDaySchool/Building/geometry> geosp:asWKT "POINT(-122.446283 37.778042)" .
+
+<http://www.semanticweb.org/group08/School/Private/SanFranciscoDaySchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/SanFranciscoDaySchool/Building/geometry> .
+
+base:SanFranciscoDaySchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/SanFranciscoDaySchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5391981/> .
+
+<http://www.semanticweb.org/group08/School/Private/San+Francisco+Day+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/San+Francisco+Day+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/San+Francisco+Day+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "350 Masonic Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:SanFranciscoFriendsSchool a base:Private ;
+	ont:name "San Francisco Friends School" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/San+Francisco+Friends+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/SanFranciscoFriendsSchool/Building/geometry> geosp:asWKT "POINT(-122.436799 37.760124)" .
+
+<http://www.semanticweb.org/group08/School/Private/SanFranciscoFriendsSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/SanFranciscoFriendsSchool/Building/geometry> .
+
+base:SanFranciscoFriendsSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/SanFranciscoFriendsSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231658/> .
+
+<http://www.semanticweb.org/group08/School/Private/San+Francisco+Friends+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/San+Francisco+Friends+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/San+Francisco+Friends+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "117 Diamond Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:SanFranciscoUniversityHighSchool a base:Private ;
+	ont:name "San Francisco University High School" ;
+	ont:children "9 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/San+Francisco+University+High+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/SanFranciscoUniversityHighSchool/Building/geometry> geosp:asWKT "POINT(-122.44535 37.790655)" .
+
+<http://www.semanticweb.org/group08/School/Private/SanFranciscoUniversityHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/SanFranciscoUniversityHighSchool/Building/geometry> .
+
+base:SanFranciscoUniversityHighSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/SanFranciscoUniversityHighSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5392017/> .
+
+<http://www.semanticweb.org/group08/School/Private/San+Francisco+University+High+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/San+Francisco+University+High+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/San+Francisco+University+High+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "3065 Jackson Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:MuhammadUniversityofIslam a base:Private ;
+	ont:name "Muhammad University of Islam" ;
+	ont:type "ISLAMIC" ;
+	ont:children "K - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Muhammad+University+of+Islam%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/MuhammadUniversityofIslam/Building/geometry> geosp:asWKT "POINT(-122.391768 37.732795)" .
+
+<http://www.semanticweb.org/group08/School/Private/MuhammadUniversityofIslam/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/MuhammadUniversityofIslam/Building/geometry> .
+
+base:MuhammadUniversityofIslam ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/MuhammadUniversityofIslam/Building> ;
+	owl:sameAs <http://sws.geonames.org/7144732/> .
+
+<http://www.semanticweb.org/group08/School/Private/Muhammad+University+of+Islam%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Muhammad+University+of+Islam%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Muhammad+University+of+Islam%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "5048 3rd Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:SandPathsAcademy a base:Private ;
+	ont:name "Sand Paths Academy" ;
+	ont:type "DISTURBED CHILDREN" ;
+	ont:children "6 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Sand+Paths+Academy%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/SandPathsAcademy/Building/geometry> geosp:asWKT "POINT(-122.41672 37.753465)" .
+
+<http://www.semanticweb.org/group08/School/Private/SandPathsAcademy/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/SandPathsAcademy/Building/geometry> .
+
+base:SandPathsAcademy ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/SandPathsAcademy/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231642/> .
+
+<http://www.semanticweb.org/group08/School/Private/Sand+Paths+Academy%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Sand+Paths+Academy%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Sand+Paths+Academy%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1218 South Van Ness Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:SRMartinCollegePreparatory a base:Private ;
+	ont:name "S.R. Martin College Preparatory" ;
+	ont:children "9 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/S.R.+Martin+College+Preparatory%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/SRMartinCollegePreparatory/Building/geometry> geosp:asWKT "POINT(-122.404095 37.727937)" .
+
+<http://www.semanticweb.org/group08/School/Private/SRMartinCollegePreparatory/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/SRMartinCollegePreparatory/Building/geometry> .
+
+base:SRMartinCollegePreparatory ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/SRMartinCollegePreparatory/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/S.R.+Martin+College+Preparatory%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/S.R.+Martin+College+Preparatory%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/S.R.+Martin+College+Preparatory%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "2660 San Bruno Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:SterneSchool a base:Private ;
+	ont:name "Sterne School" ;
+	ont:type "LEARNING DIFFICULTIES" ;
+	ont:children "5 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Sterne+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/SterneSchool/Building/geometry> geosp:asWKT "POINT(-122.439357 37.792057)" .
+
+<http://www.semanticweb.org/group08/School/Private/SterneSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/SterneSchool/Building/geometry> .
+
+base:SterneSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/SterneSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5398871/> .
+
+<http://www.semanticweb.org/group08/School/Private/Sterne+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Sterne+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Sterne+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "2690 Jackson Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:TheSanFranciscoSchool a base:Private ;
+	ont:name "The San Francisco School" ;
+	ont:children "PK - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/The+San+Francisco+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/TheSanFranciscoSchool/Building/geometry> geosp:asWKT "POINT(-122.411698 37.73278)" .
+
+<http://www.semanticweb.org/group08/School/Private/TheSanFranciscoSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/TheSanFranciscoSchool/Building/geometry> .
+
+base:TheSanFranciscoSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/TheSanFranciscoSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/7534318/> .
+
+<http://www.semanticweb.org/group08/School/Private/The+San+Francisco+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/The+San+Francisco+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/The+San+Francisco+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "300 Gaven Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:CalFedYouthChanceHigh a base:Private ;
+	ont:name "Cal Fed Youth Chance High" ;
+	ont:children "9 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Cal+Fed+Youth+Chance+High%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/CalFedYouthChanceHigh/Building/geometry> geosp:asWKT "POINT(-122.414273 37.782099)" .
+
+<http://www.semanticweb.org/group08/School/Private/CalFedYouthChanceHigh/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/CalFedYouthChanceHigh/Building/geometry> .
+
+base:CalFedYouthChanceHigh ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/CalFedYouthChanceHigh/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Cal+Fed+Youth+Chance+High%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Cal+Fed+Youth+Chance+High%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Cal+Fed+Youth+Chance+High%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "220 Golden Gate Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:TownSchoolforBoys a base:Private ;
+	ont:name "Town School for Boys" ;
+	ont:type "BOYS" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Town+School+for+Boys%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/TownSchoolforBoys/Building/geometry> geosp:asWKT "POINT(-122.440129 37.792034)" .
+
+<http://www.semanticweb.org/group08/School/Private/TownSchoolforBoys/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/TownSchoolforBoys/Building/geometry> .
+
+base:TownSchoolforBoys ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/TownSchoolforBoys/Building> ;
+	owl:sameAs <http://sws.geonames.org/5403097/> .
+
+<http://www.semanticweb.org/group08/School/Private/Town+School+for+Boys%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Town+School+for+Boys%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Town+School+for+Boys%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "2750 Jackson Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:UrbanSchoolofSanFrancisco a base:Private ;
+	ont:name "Urban School of San Francisco" ;
+	ont:children "9 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Urban+School+of+San+Francisco%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/UrbanSchoolofSanFrancisco/Building/geometry> geosp:asWKT "POINT(-122.446384 37.770749)" .
+
+<http://www.semanticweb.org/group08/School/Private/UrbanSchoolofSanFrancisco/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/UrbanSchoolofSanFrancisco/Building/geometry> .
+
+base:UrbanSchoolofSanFrancisco ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/UrbanSchoolofSanFrancisco/Building> ;
+	owl:sameAs <http://sws.geonames.org/5405179/> .
+
+<http://www.semanticweb.org/group08/School/Private/Urban+School+of+San+Francisco%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Urban+School+of+San+Francisco%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Urban+School+of+San+Francisco%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1563 Page Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:VoiceofPentecostAcademy a base:Private ;
+	ont:name "Voice of Pentecost Academy" ;
+	ont:children "K - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Voice+of+Pentecost+Academy%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/VoiceofPentecostAcademy/Building/geometry> geosp:asWKT "POINT(-122.463974 37.726364)" .
+
+<http://www.semanticweb.org/group08/School/Private/VoiceofPentecostAcademy/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/VoiceofPentecostAcademy/Building/geometry> .
+
+base:VoiceofPentecostAcademy ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/VoiceofPentecostAcademy/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Voice+of+Pentecost+Academy%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Voice+of+Pentecost+Academy%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Voice+of+Pentecost+Academy%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1970 Ocean Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+<http://www.semanticweb.org/group08/School/Private/WestPortalLutheranSchool(K4-8)> a base:Private ;
+	ont:name "West Portal Lutheran School (K,4-8)" ;
+	ont:children "K, 4 - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/West+Portal+Lutheran+School+%28K%2C4-8%29%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/WestPortalLutheranSchool(K4-8)/Building/geometry> geosp:asWKT "POINT(-122.473452 37.735356)" .
+
+<http://www.semanticweb.org/group08/School/Private/WestPortalLutheranSchool(K4-8)/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/WestPortalLutheranSchool(K4-8)/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Private/WestPortalLutheranSchool(K4-8)> ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/WestPortalLutheranSchool(K4-8)/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/West+Portal+Lutheran+School+%28K%2C4-8%29%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/West+Portal+Lutheran+School+%28K%2C4-8%29%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/West+Portal+Lutheran+School+%28K%2C4-8%29%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "200 Sloat Boulevard" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:WoodsideInternationalSchool a base:Private ;
+	ont:name "Woodside International School" ;
+	ont:children "6 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Woodside+International+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/WoodsideInternationalSchool/Building/geometry> geosp:asWKT "POINT(-122.474748 37.763432)" .
+
+<http://www.semanticweb.org/group08/School/Private/WoodsideInternationalSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/WoodsideInternationalSchool/Building/geometry> .
+
+base:WoodsideInternationalSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/WoodsideInternationalSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5410545/> .
+
+<http://www.semanticweb.org/group08/School/Private/Woodside+International+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Woodside+International+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Woodside+International+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1555 Irving Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:YouthChanceHighSchool a base:Private ;
+	ont:name "Youth Chance High School" ;
+	ont:children "9 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Youth+Chance+High+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/YouthChanceHighSchool/Building/geometry> geosp:asWKT "POINT(-122.414142 37.768336)" .
+
+<http://www.semanticweb.org/group08/School/Private/YouthChanceHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/YouthChanceHighSchool/Building/geometry> .
+
+base:YouthChanceHighSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/YouthChanceHighSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231636/> .
+
+<http://www.semanticweb.org/group08/School/Private/Youth+Chance+High+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Youth+Chance+High+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Youth+Chance+High+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "25 14th Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:ZionLutheranSchool a base:Private ;
+	ont:name "Zion Lutheran School" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Zion+Lutheran+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/ZionLutheranSchool/Building/geometry> geosp:asWKT "POINT(-122.467595 37.779218)" .
+
+<http://www.semanticweb.org/group08/School/Private/ZionLutheranSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/ZionLutheranSchool/Building/geometry> .
+
+base:ZionLutheranSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/ZionLutheranSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/4415750/> .
+
+<http://www.semanticweb.org/group08/School/Private/Zion+Lutheran+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Zion+Lutheran+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Zion+Lutheran+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "495 09th Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:ConventoftheSacredHeartHighSchool a base:Private ;
+	ont:name "Convent of the Sacred Heart High School" ;
+	ont:type "GIRLS, CATHOLIC" ;
+	ont:children "9-12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Convent+of+the+Sacred+Heart+High+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/ConventoftheSacredHeartHighSchool/Building/geometry> geosp:asWKT "POINT(-122.43396 37.794865)" .
+
+<http://www.semanticweb.org/group08/School/Private/ConventoftheSacredHeartHighSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/ConventoftheSacredHeartHighSchool/Building/geometry> .
+
+base:ConventoftheSacredHeartHighSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/ConventoftheSacredHeartHighSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231633/> .
+
+<http://www.semanticweb.org/group08/School/Private/Convent+of+the+Sacred+Heart+High+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Convent+of+the+Sacred+Heart+High+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Convent+of+the+Sacred+Heart+High+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "2222 Broadway" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:OpenBookSchool a base:Private ;
+	ont:name "Open Book School" ;
+	ont:children "9 - 11" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Open+Book+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/OpenBookSchool/Building/geometry> geosp:asWKT "POINT(-122.429854 37.786982)" .
+
+<http://www.semanticweb.org/group08/School/Private/OpenBookSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/OpenBookSchool/Building/geometry> .
+
+base:OpenBookSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/OpenBookSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Open+Book+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Open+Book+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Open+Book+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1832 Buchanan Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:MontessoriHouseOfChildren a base:Private ;
+	ont:name "Montessori House Of Children" ;
+	ont:children "K - 2" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Montessori+House+Of+Children%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/MontessoriHouseOfChildren/Building/geometry> geosp:asWKT "POINT(-122.423414 37.785047)" .
+
+<http://www.semanticweb.org/group08/School/Private/MontessoriHouseOfChildren/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/MontessoriHouseOfChildren/Building/geometry> .
+
+base:MontessoriHouseOfChildren ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/MontessoriHouseOfChildren/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231637/> .
+
+<http://www.semanticweb.org/group08/School/Private/Montessori+House+Of+Children%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Montessori+House+Of+Children%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Montessori+House+Of+Children%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1187 Franklin Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:French-AmericanInternationalSchool a base:Private ;
+	ont:name "French-American International School" ;
+	ont:type "BILINGUAL (ENGLISH, FRENCH)" ;
+	ont:children "PK-12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/French-American+International+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/French-AmericanInternationalSchool/Building/geometry> geosp:asWKT "POINT(-122.421832 37.775381)" .
+
+<http://www.semanticweb.org/group08/School/Private/French-AmericanInternationalSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/French-AmericanInternationalSchool/Building/geometry> .
+
+base:French-AmericanInternationalSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/French-AmericanInternationalSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5350817/> .
+
+<http://www.semanticweb.org/group08/School/Private/French-American+International+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/French-American+International+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/French-American+International+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "150 Oak Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:WaldenHighAcademy a base:Private ;
+	ont:name "Walden High Academy" ;
+	ont:children "8 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Walden+High+Academy%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/WaldenHighAcademy/Building/geometry> geosp:asWKT "POINT(-122.426145 37.77294)" .
+
+<http://www.semanticweb.org/group08/School/Private/WaldenHighAcademy/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/WaldenHighAcademy/Building/geometry> .
+
+base:WaldenHighAcademy ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/WaldenHighAcademy/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Walden+High+Academy%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Walden+High+Academy%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Walden+High+Academy%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "214 Haight Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:CowHollowKindergarten a base:Private ;
+	ont:name "Cow Hollow Kindergarten" ;
+	ont:children "K" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Cow+Hollow+Kindergarten%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/CowHollowKindergarten/Building/geometry> geosp:asWKT "POINT(-122.440119 37.793323)" .
+
+<http://www.semanticweb.org/group08/School/Private/CowHollowKindergarten/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/CowHollowKindergarten/Building/geometry> .
+
+base:CowHollowKindergarten ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/CowHollowKindergarten/Building> ;
+	owl:sameAs <http://sws.geonames.org/5340229/> .
+
+<http://www.semanticweb.org/group08/School/Private/Cow+Hollow+Kindergarten%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Cow+Hollow+Kindergarten%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Cow+Hollow+Kindergarten%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "2521 Scott Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:OneFiftyParkerAvenueSchool a base:Private ;
+	ont:name "One Fifty Parker Avenue School" ;
+	ont:children "K" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/One+Fifty+Parker+Avenue+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/OneFiftyParkerAvenueSchool/Building/geometry> geosp:asWKT "POINT(-122.454098 37.782818)" .
+
+<http://www.semanticweb.org/group08/School/Private/OneFiftyParkerAvenueSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/OneFiftyParkerAvenueSchool/Building/geometry> .
+
+base:OneFiftyParkerAvenueSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/OneFiftyParkerAvenueSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/One+Fifty+Parker+Avenue+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/One+Fifty+Parker+Avenue+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/One+Fifty+Parker+Avenue+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "150 Parker Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:PacificPrimary a base:Private ;
+	ont:name "Pacific Primary" ;
+	ont:children "K" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Pacific+Primary%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/PacificPrimary/Building/geometry> geosp:asWKT "POINT(-122.441736 37.775657)" .
+
+<http://www.semanticweb.org/group08/School/Private/PacificPrimary/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/PacificPrimary/Building/geometry> .
+
+base:PacificPrimary ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/PacificPrimary/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231639/> .
+
+<http://www.semanticweb.org/group08/School/Private/Pacific+Primary%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Pacific+Primary%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Pacific+Primary%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1500 Grove Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:EriksonSchool a base:Private ;
+	ont:name "Erikson School" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Erikson+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/EriksonSchool/Building/geometry> geosp:asWKT "POINT(-122.439704 37.771605)" .
+
+<http://www.semanticweb.org/group08/School/Private/EriksonSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/EriksonSchool/Building/geometry> .
+
+base:EriksonSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/EriksonSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231604/> .
+
+<http://www.semanticweb.org/group08/School/Private/Erikson+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Erikson+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Erikson+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1155 Page Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:OlympiaInstitute a base:Private ;
+	ont:name "Olympia Institute" ;
+	ont:children "7 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Olympia+Institute%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/OlympiaInstitute/Building/geometry> geosp:asWKT "POINT(-122.469526 37.782892)" .
+
+<http://www.semanticweb.org/group08/School/Private/OlympiaInstitute/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/OlympiaInstitute/Building/geometry> .
+
+base:OlympiaInstitute ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/OlympiaInstitute/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Olympia+Institute%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Olympia+Institute%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Olympia+Institute%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "950 Clement Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StaroftheSeaElementary a base:Private ;
+	ont:name "Star of the Sea Elementary" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Star+of+the+Sea+Elementary%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StaroftheSeaElementary/Building/geometry> geosp:asWKT "POINT(-122.467013 37.781832)" .
+
+<http://www.semanticweb.org/group08/School/Private/StaroftheSeaElementary/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StaroftheSeaElementary/Building/geometry> .
+
+base:StaroftheSeaElementary ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StaroftheSeaElementary/Building> ;
+	owl:sameAs <http://sws.geonames.org/7138175/> .
+
+<http://www.semanticweb.org/group08/School/Private/Star+of+the+Sea+Elementary%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Star+of+the+Sea+Elementary%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Star+of+the+Sea+Elementary%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "360 9th Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:ChallengeToLearning a base:Private ;
+	ont:name "Challenge To Learning" ;
+	ont:children "7 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Challenge+To+Learning%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/ChallengeToLearning/Building/geometry> geosp:asWKT "POINT(-122.468844 37.777262)" .
+
+<http://www.semanticweb.org/group08/School/Private/ChallengeToLearning/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/ChallengeToLearning/Building/geometry> .
+
+base:ChallengeToLearning ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/ChallengeToLearning/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231624/> .
+
+<http://www.semanticweb.org/group08/School/Private/Challenge+To+Learning%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Challenge+To+Learning%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Challenge+To+Learning%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "924 Balboa Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+<http://www.semanticweb.org/group08/School/Private/OakesChildren'sCenter> a base:Private ;
+	ont:name "Oakes Children's Center" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Oakes+Children%27s+Center%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/OakesChildren'sCenter/Building/geometry> geosp:asWKT "POINT(-122.46699 37.763075)" .
+
+<http://www.semanticweb.org/group08/School/Private/OakesChildren'sCenter/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/OakesChildren'sCenter/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Private/OakesChildren'sCenter> ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/OakesChildren'sCenter/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Oakes+Children%27s+Center%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Oakes+Children%27s+Center%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Oakes+Children%27s+Center%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1348 10th Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:SunsetBible a base:Private ;
+	ont:name "Sunset Bible" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Sunset+Bible%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/SunsetBible/Building/geometry> geosp:asWKT "POINT(-122.478584 37.756269)" .
+
+<http://www.semanticweb.org/group08/School/Private/SunsetBible/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/SunsetBible/Building/geometry> .
+
+base:SunsetBible ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/SunsetBible/Building> ;
+	owl:sameAs <http://sws.geonames.org/8118396/> .
+
+<http://www.semanticweb.org/group08/School/Private/Sunset+Bible%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Sunset+Bible%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Sunset+Bible%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1690 21st Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:ParksidePreschoolAndKindergarten a base:Private ;
+	ont:name "Parkside Preschool And Kindergarten" ;
+	ont:children "K" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Parkside+Preschool+And+Kindergarten%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/ParksidePreschoolAndKindergarten/Building/geometry> geosp:asWKT "POINT(-122.475988 37.742514)" .
+
+<http://www.semanticweb.org/group08/School/Private/ParksidePreschoolAndKindergarten/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/ParksidePreschoolAndKindergarten/Building/geometry> .
+
+base:ParksidePreschoolAndKindergarten ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/ParksidePreschoolAndKindergarten/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Parkside+Preschool+And+Kindergarten%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Parkside+Preschool+And+Kindergarten%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Parkside+Preschool+And+Kindergarten%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "2425 19th Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:EdgewoodCenterForChildrenandFamilies a base:Private ;
+	ont:name "Edgewood Center For Children and Families" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Edgewood+Center+For+Children+and+Families%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/EdgewoodCenterForChildrenandFamilies/Building/geometry> geosp:asWKT "POINT(-122.486256 37.737985)" .
+
+<http://www.semanticweb.org/group08/School/Private/EdgewoodCenterForChildrenandFamilies/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/EdgewoodCenterForChildrenandFamilies/Building/geometry> .
+
+base:EdgewoodCenterForChildrenandFamilies ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/EdgewoodCenterForChildrenandFamilies/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Edgewood+Center+For+Children+and+Families%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Edgewood+Center+For+Children+and+Families%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Edgewood+Center+For+Children+and+Families%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1801 Vicente Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:EurekaLearningCenter a base:Private ;
+	ont:name "Eureka Learning Center" ;
+	ont:children "K" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Eureka+Learning+Center%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/EurekaLearningCenter/Building/geometry> geosp:asWKT "POINT(-122.437008 37.754966)" .
+
+<http://www.semanticweb.org/group08/School/Private/EurekaLearningCenter/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/EurekaLearningCenter/Building/geometry> .
+
+base:EurekaLearningCenter ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/EurekaLearningCenter/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Eureka+Learning+Center%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Eureka+Learning+Center%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Eureka+Learning+Center%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "464 Diamond Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:HolyFamilyDayHome a base:Private ;
+	ont:name "Holy Family Day Home" ;
+	ont:children "K" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Holy+Family+Day+Home%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/HolyFamilyDayHome/Building/geometry> geosp:asWKT "POINT(-122.425842 37.764926)" .
+
+<http://www.semanticweb.org/group08/School/Private/HolyFamilyDayHome/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/HolyFamilyDayHome/Building/geometry> .
+
+base:HolyFamilyDayHome ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/HolyFamilyDayHome/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Holy+Family+Day+Home%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Holy+Family+Day+Home%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Holy+Family+Day+Home%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "299 Dolores Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:RiseInstitute a base:Private ;
+	ont:name "Rise Institute" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Rise+Institute%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/RiseInstitute/Building/geometry> geosp:asWKT "POINT(-122.39495 37.750466)" .
+
+<http://www.semanticweb.org/group08/School/Private/RiseInstitute/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/RiseInstitute/Building/geometry> .
+
+base:RiseInstitute ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/RiseInstitute/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231632/> .
+
+<http://www.semanticweb.org/group08/School/Private/Rise+Institute%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Rise+Institute%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Rise+Institute%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1760 Cesar Chavez" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:JoshuaMarieCameronAcademy-Whitney a base:Private ;
+	ont:name "Joshua Marie Cameron Academy - Whitney" ;
+	ont:children "6 - 9" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Joshua+Marie+Cameron+Academy+-+Whitney%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/JoshuaMarieCameronAcademy-Whitney/Building/geometry> geosp:asWKT "POINT(-122.384213 37.73404)" .
+
+<http://www.semanticweb.org/group08/School/Private/JoshuaMarieCameronAcademy-Whitney/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/JoshuaMarieCameronAcademy-Whitney/Building/geometry> .
+
+base:JoshuaMarieCameronAcademy-Whitney ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/JoshuaMarieCameronAcademy-Whitney/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Joshua+Marie+Cameron+Academy+-+Whitney%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Joshua+Marie+Cameron+Academy+-+Whitney%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Joshua+Marie+Cameron+Academy+-+Whitney%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "100 Whitney Yound Circle" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:JoshuaMarieCameronAcademy-PlazaCampus a base:Private ;
+	ont:name "Joshua Marie Cameron Academy - Plaza Campus" ;
+	ont:children "9 -12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Joshua+Marie+Cameron+Academy+-+Plaza+Campus%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/JoshuaMarieCameronAcademy-PlazaCampus/Building/geometry> geosp:asWKT "POINT(-122.387432 37.74194)" .
+
+<http://www.semanticweb.org/group08/School/Private/JoshuaMarieCameronAcademy-PlazaCampus/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/JoshuaMarieCameronAcademy-PlazaCampus/Building/geometry> .
+
+base:JoshuaMarieCameronAcademy-PlazaCampus ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/JoshuaMarieCameronAcademy-PlazaCampus/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Joshua+Marie+Cameron+Academy+-+Plaza+Campus%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Joshua+Marie+Cameron+Academy+-+Plaza+Campus%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Joshua+Marie+Cameron+Academy+-+Plaza+Campus%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "3801 Third Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:LivingHopeChristian a base:Private ;
+	ont:name "Living Hope Christian" ;
+	ont:children "K - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Living+Hope+Christian%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/LivingHopeChristian/Building/geometry> geosp:asWKT "POINT(-122.435828 37.714337)" .
+
+<http://www.semanticweb.org/group08/School/Private/LivingHopeChristian/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/LivingHopeChristian/Building/geometry> .
+
+base:LivingHopeChristian ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/LivingHopeChristian/Building> ;
+	owl:sameAs <http://sws.geonames.org/5161075/> .
+
+<http://www.semanticweb.org/group08/School/Private/Living+Hope+Christian%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Living+Hope+Christian%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Living+Hope+Christian%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1209 Geneva Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:LakesidePresbyterianCenterForChildren a base:Private ;
+	ont:name "Lakeside Presbyterian Center For Children" ;
+	ont:children "PK-K" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Lakeside+Presbyterian+Center+For+Children%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/LakesidePresbyterianCenterForChildren/Building/geometry> geosp:asWKT "POINT(-122.47528 37.730674)" .
+
+<http://www.semanticweb.org/group08/School/Private/LakesidePresbyterianCenterForChildren/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/LakesidePresbyterianCenterForChildren/Building/geometry> .
+
+base:LakesidePresbyterianCenterForChildren ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/LakesidePresbyterianCenterForChildren/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Lakeside+Presbyterian+Center+For+Children%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Lakeside+Presbyterian+Center+For+Children%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Lakeside+Presbyterian+Center+For+Children%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "201 Eucalyptus Drive" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StThomasMoreSchool a base:Private ;
+	ont:name "St. Thomas More School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K-8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+Thomas+More+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StThomasMoreSchool/Building/geometry> geosp:asWKT "POINT(-122.473568 37.712567)" .
+
+<http://www.semanticweb.org/group08/School/Private/StThomasMoreSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StThomasMoreSchool/Building/geometry> .
+
+base:StThomasMoreSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StThomasMoreSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Thomas+More+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+Thomas+More+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Thomas+More+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "50 Thomas More Way" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+<http://www.semanticweb.org/group08/School/Private/StStephen'sSchool> a base:Private ;
+	ont:name "St. Stephen's School" ;
+	ont:type "CATHOLIC" ;
+	ont:children "K-8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+Stephen%27s+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StStephen'sSchool/Building/geometry> geosp:asWKT "POINT(-122.477721 37.730662)" .
+
+<http://www.semanticweb.org/group08/School/Private/StStephen'sSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StStephen'sSchool/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Private/StStephen'sSchool> ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StStephen'sSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/8177833/> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Stephen%27s+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+Stephen%27s+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Stephen%27s+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "401 Eucalyptus Drive" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+<http://www.semanticweb.org/group08/School/Private/SacredHeart/SaintDominicSchool(5-8)> a base:Private ;
+	ont:name "Sacred Heart/Saint Dominic School (5-8)" ;
+	ont:children "5-8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Sacred+Heart%2FSaint+Dominic+School+%285-8%29%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/SacredHeart/SaintDominicSchool(5-8)/Building/geometry> geosp:asWKT "POINT(-122.430153 37.7747)" .
+
+<http://www.semanticweb.org/group08/School/Private/SacredHeart/SaintDominicSchool(5-8)/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/SacredHeart/SaintDominicSchool(5-8)/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Private/SacredHeart/SaintDominicSchool(5-8)> ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/SacredHeart/SaintDominicSchool(5-8)/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Sacred+Heart%2FSaint+Dominic+School+%285-8%29%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Sacred+Heart%2FSaint+Dominic+School+%285-8%29%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Sacred+Heart%2FSaint+Dominic+School+%285-8%29%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "735 Fell Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:JewishCommunityHighSchoolforBoys a base:Private ;
+	ont:name "Jewish Community High School for Boys" ;
+	ont:children "9 -12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Jewish+Community+High+School+for+Boys%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/JewishCommunityHighSchoolforBoys/Building/geometry> geosp:asWKT "POINT(-122.436552 37.781354)" .
+
+<http://www.semanticweb.org/group08/School/Private/JewishCommunityHighSchoolforBoys/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/JewishCommunityHighSchoolforBoys/Building/geometry> .
+
+base:JewishCommunityHighSchoolforBoys ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/JewishCommunityHighSchoolforBoys/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Jewish+Community+High+School+for+Boys%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Jewish+Community+High+School+for+Boys%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Jewish+Community+High+School+for+Boys%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1835 Ellis Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StJohnofSanFranciscoOrthodoxAcademy a base:Private ;
+	ont:name "St. John of San Francisco Orthodox Academy" ;
+	ont:type "ORTHODOX" ;
+	ont:children "K-12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+John+of+San+Francisco+Orthodox+Academy%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StJohnofSanFranciscoOrthodoxAcademy/Building/geometry> geosp:asWKT "POINT(-122.486024 37.780342)" .
+
+<http://www.semanticweb.org/group08/School/Private/StJohnofSanFranciscoOrthodoxAcademy/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StJohnofSanFranciscoOrthodoxAcademy/Building/geometry> .
+
+base:StJohnofSanFranciscoOrthodoxAcademy ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StJohnofSanFranciscoOrthodoxAcademy/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+John+of+San+Francisco+Orthodox+Academy%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+John+of+San+Francisco+Orthodox+Academy%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+John+of+San+Francisco+Orthodox+Academy%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "6210 Geary Boulevard" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:StuartHallforBoysSchool a base:Private ;
+	ont:name "Stuart Hall for Boys School" ;
+	ont:type "BOYS, CATHOLIC" ;
+	ont:children "K - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Stuart+Hall+for+Boys+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StuartHallforBoysSchool/Building/geometry> geosp:asWKT "POINT(-122.43396 37.794865)" .
+
+<http://www.semanticweb.org/group08/School/Private/StuartHallforBoysSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StuartHallforBoysSchool/Building/geometry> .
+
+base:StuartHallforBoysSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StuartHallforBoysSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231628/> .
+
+<http://www.semanticweb.org/group08/School/Private/Stuart+Hall+for+Boys+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Stuart+Hall+for+Boys+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Stuart+Hall+for+Boys+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "2252 Broadway" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:TheScandanavianSchool a base:Private ;
+	ont:name "The Scandanavian School" ;
+	ont:children "PK" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/The+Scandanavian+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/TheScandanavianSchool/Building/geometry> geosp:asWKT "POINT(-122.457905 37.746575)" .
+
+<http://www.semanticweb.org/group08/School/Private/TheScandanavianSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/TheScandanavianSchool/Building/geometry> .
+
+base:TheScandanavianSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/TheScandanavianSchool/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/The+Scandanavian+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/The+Scandanavian+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/The+Scandanavian+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "20 Woodside Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:TheBaySchoolofSanFrancisco a base:Private ;
+	ont:name "The Bay School of San Francisco" ;
+	ont:children "9 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/The+Bay+School+of+San+Francisco%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/TheBaySchoolofSanFrancisco/Building/geometry> geosp:asWKT "POINT(-122.45574 37.800649)" .
+
+<http://www.semanticweb.org/group08/School/Private/TheBaySchoolofSanFrancisco/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/TheBaySchoolofSanFrancisco/Building/geometry> .
+
+base:TheBaySchoolofSanFrancisco ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/TheBaySchoolofSanFrancisco/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231660/> .
+
+<http://www.semanticweb.org/group08/School/Private/The+Bay+School+of+San+Francisco%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/The+Bay+School+of+San+Francisco%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/The+Bay+School+of+San+Francisco%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "35 Keyes Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:HerglSchool a base:Private ;
+	ont:name "Hergl School" ;
+	ont:children "N/A" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Hergl+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/HerglSchool/Building/geometry> geosp:asWKT "POINT(-122.425722 37.800375)" .
+
+<http://www.semanticweb.org/group08/School/Private/HerglSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/HerglSchool/Building/geometry> .
+
+base:HerglSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/HerglSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/7231606/> .
+
+<http://www.semanticweb.org/group08/School/Private/Hergl+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Hergl+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Hergl+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1570 Greenwich Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:AltaVistaSchool a base:Private ;
+	ont:name "Alta Vista School" ;
+	ont:children "K - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Alta+Vista+School%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/AltaVistaSchool/Building/geometry> geosp:asWKT "POINT(-122.421816 37.76894)" .
+
+<http://www.semanticweb.org/group08/School/Private/AltaVistaSchool/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/AltaVistaSchool/Building/geometry> .
+
+base:AltaVistaSchool ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/AltaVistaSchool/Building> ;
+	owl:sameAs <http://sws.geonames.org/5323518/> .
+
+<http://www.semanticweb.org/group08/School/Private/Alta+Vista+School%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Alta+Vista+School%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Alta+Vista+School%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "245 Valencia Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:CornerstoneAcademyKindergarten a base:Private ;
+	ont:name "Cornerstone Academy Kindergarten" ;
+	ont:type "BAPTIST" ;
+	ont:children "K" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Cornerstone+Academy+Kindergarten%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/CornerstoneAcademyKindergarten/Building/geometry> geosp:asWKT "POINT(-122.483662 37.757418)" .
+
+<http://www.semanticweb.org/group08/School/Private/CornerstoneAcademyKindergarten/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/CornerstoneAcademyKindergarten/Building/geometry> .
+
+base:CornerstoneAcademyKindergarten ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/CornerstoneAcademyKindergarten/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Cornerstone+Academy+Kindergarten%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Cornerstone+Academy+Kindergarten%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Cornerstone+Academy+Kindergarten%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1925 Lawton Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:FeiTianAcademyoftheArtsCalifornia a base:Private ;
+	ont:name "Fei Tian Academy of the Arts California" ;
+	ont:children "6 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Fei+Tian+Academy+of+the+Arts+California%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/FeiTianAcademyoftheArtsCalifornia/Building/geometry> geosp:asWKT "POINT(-122.402129 37.767152)" .
+
+<http://www.semanticweb.org/group08/School/Private/FeiTianAcademyoftheArtsCalifornia/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/FeiTianAcademyoftheArtsCalifornia/Building/geometry> .
+
+base:FeiTianAcademyoftheArtsCalifornia ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/FeiTianAcademyoftheArtsCalifornia/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Fei+Tian+Academy+of+the+Arts+California%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Fei+Tian+Academy+of+the+Arts+California%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Fei+Tian+Academy+of+the+Arts+California%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "101 15th Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:MeganFurthAcademy a base:Private ;
+	ont:name "Megan Furth Academy" ;
+	ont:type "ROMAN CATHOLIC" ;
+	ont:children "k - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Megan+Furth+Academy%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/MeganFurthAcademy/Building/geometry> geosp:asWKT "POINT(-122.435948 37.787471)" .
+
+<http://www.semanticweb.org/group08/School/Private/MeganFurthAcademy/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/MeganFurthAcademy/Building/geometry> .
+
+base:MeganFurthAcademy ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/MeganFurthAcademy/Building> ;
+	owl:sameAs <http://sws.geonames.org/5389675/> .
+
+<http://www.semanticweb.org/group08/School/Private/Megan+Furth+Academy%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Megan+Furth+Academy%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Megan+Furth+Academy%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "2445 Pine Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:SpectrumCenterInc a base:Private ;
+	ont:name "Spectrum Center Inc" ;
+	ont:children "6 - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Spectrum+Center+Inc%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/SpectrumCenterInc/Building/geometry> geosp:asWKT "POINT(-122.422715 37.773784)" .
+
+<http://www.semanticweb.org/group08/School/Private/SpectrumCenterInc/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/SpectrumCenterInc/Building/geometry> .
+
+base:SpectrumCenterInc ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/SpectrumCenterInc/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Spectrum+Center+Inc%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Spectrum+Center+Inc%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Spectrum+Center+Inc%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "95 Gough Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+<http://www.semanticweb.org/group08/School/Private/StPaul's> a base:Private ;
+	ont:name "St. Paul's" ;
+	ont:type "ROMAN CATHOLIC" ;
+	ont:children "k - 8" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/St.+Paul%27s%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/StPaul's/Building/geometry> geosp:asWKT "POINT(-122.427105 37.743916)" .
+
+<http://www.semanticweb.org/group08/School/Private/StPaul's/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/StPaul's/Building/geometry> .
+
+<http://www.semanticweb.org/group08/School/Private/StPaul's> ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/StPaul's/Building> ;
+	owl:sameAs <http://sws.geonames.org/7677165/> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Paul%27s%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/St.+Paul%27s%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/St.+Paul%27s%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "1690 Church Street" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
+
+base:WenJianYing a base:Private ;
+	ont:name "Wen Jian Ying" ;
+	ont:children "K - 12" ;
+	schema:location <http://www.semanticweb.org/group08/School/Private/Wen+Jian+Ying%2FPlace> .
+
+<http://www.semanticweb.org/group08/School/Private/WenJianYing/Building/geometry> geosp:asWKT "POINT(-122.447567 37.72802)" .
+
+<http://www.semanticweb.org/group08/School/Private/WenJianYing/Building> geosp:hasGeometry <http://www.semanticweb.org/group08/School/Private/WenJianYing/Building/geometry> .
+
+base:WenJianYing ont:hasBuilding <http://www.semanticweb.org/group08/School/Private/WenJianYing/Building> .
+
+<http://www.semanticweb.org/group08/School/Private/Wen+Jian+Ying%2FPlace> a schema:Place ;
+	schema:address <http://www.semanticweb.org/group08/School/Private/Wen+Jian+Ying%2FPostalAddress> .
+
+<http://www.semanticweb.org/group08/School/Private/Wen+Jian+Ying%2FPostalAddress> a schema:PostalAddress ;
+	schema:streetAddress "259 Judson Avenue" ;
+	schema:addressRegion "CA" ;
+	schema:addressLocality "San Francisco" ;
+	schema:addressCountry dbpedia:United_States .
