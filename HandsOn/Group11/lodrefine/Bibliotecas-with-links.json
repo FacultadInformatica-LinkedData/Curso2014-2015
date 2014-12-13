@@ -1731,5 +1731,2283 @@
         }
       ]
     }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.chana.pro/",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI-BIBLIOTECA",
+          "rdfTypes": [
+            {
+              "uri": "biblioteca",
+              "curie": ":biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.chana.pro/nombreBiblioteca",
+              "curie": "http://datos.chana.pro/nombreBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/horarioBiblioteca",
+              "curie": "http://datos.chana.pro/horarioBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/equipamientoBiblioteca",
+              "curie": "http://datos.chana.pro/equipamientoBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/transporteABiblioteca",
+              "curie": "http://datos.chana.pro/transporteABiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/descripcionBiblioteca",
+              "curie": "http://datos.chana.pro/descripcionBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/accesibilidadBiblioteca",
+              "curie": "http://datos.chana.pro/accesibilidadBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/urlBiblioteca",
+              "curie": "http://datos.chana.pro/urlBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnCalle",
+              "curie": "http://datos.chana.pro/situadaEnCalle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/claseCalle",
+              "curie": "http://datos.chana.pro/claseCalle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/numeroCalleBiblioteca",
+              "curie": "http://datos.chana.pro/numeroCalleBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnLocalidad",
+              "curie": "http://datos.chana.pro/situadaEnLocalidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnProvincia",
+              "curie": "http://datos.chana.pro/situadaEnProvincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/codigoPostal",
+              "curie": "http://datos.chana.pro/codigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enBarrio",
+              "curie": "http://datos.chana.pro/enBarrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enDistrito",
+              "curie": "http://datos.chana.pro/enDistrito",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enLatitud",
+              "curie": "http://datos.chana.pro/enLatitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enLongitud",
+              "curie": "http://datos.chana.pro/enLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/tieneTelefono",
+              "curie": "http://datos.chana.pro/tieneTelefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/tieneFax",
+              "curie": "http://datos.chana.pro/tieneFax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/emailBiblioteca",
+              "curie": "http://datos.chana.pro/emailBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/resource/Distrito",
+              "curie": "http://es.dbpedia.org/resource/Distrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column ACCESIBILIDAD using expression grel:value>0",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "ACCESIBILIDAD",
+    "expression": "grel:value>0",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.chana.pro/",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI-BIBLIOTECA",
+          "rdfTypes": [
+            {
+              "uri": "biblioteca",
+              "curie": ":biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.chana.pro/nombreBiblioteca",
+              "curie": "http://datos.chana.pro/nombreBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/horarioBiblioteca",
+              "curie": "http://datos.chana.pro/horarioBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/equipamientoBiblioteca",
+              "curie": "http://datos.chana.pro/equipamientoBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/transporteABiblioteca",
+              "curie": "http://datos.chana.pro/transporteABiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/descripcionBiblioteca",
+              "curie": "http://datos.chana.pro/descripcionBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/accesibilidadBiblioteca",
+              "curie": "http://datos.chana.pro/accesibilidadBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/urlBiblioteca",
+              "curie": "http://datos.chana.pro/urlBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnCalle",
+              "curie": "http://datos.chana.pro/situadaEnCalle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/claseCalle",
+              "curie": "http://datos.chana.pro/claseCalle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/numeroCalleBiblioteca",
+              "curie": "http://datos.chana.pro/numeroCalleBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnLocalidad",
+              "curie": "http://datos.chana.pro/situadaEnLocalidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnProvincia",
+              "curie": "http://datos.chana.pro/situadaEnProvincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/codigoPostal",
+              "curie": "http://datos.chana.pro/codigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enBarrio",
+              "curie": "http://datos.chana.pro/enBarrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enDistrito",
+              "curie": "http://datos.chana.pro/enDistrito",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enLatitud",
+              "curie": "http://datos.chana.pro/enLatitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enLongitud",
+              "curie": "http://datos.chana.pro/enLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/tieneTelefono",
+              "curie": "http://datos.chana.pro/tieneTelefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/tieneFax",
+              "curie": "http://datos.chana.pro/tieneFax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/emailBiblioteca",
+              "curie": "http://datos.chana.pro/emailBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/resource/Distrito",
+              "curie": "http://es.dbpedia.org/resource/Distrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NOMBRE using expression grel:trim(value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NOMBRE",
+    "expression": "grel:trim(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column HORARIO using expression grel:trim(value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "HORARIO",
+    "expression": "grel:trim(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column EQUIPAMIENTO using expression grel:trim(value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "EQUIPAMIENTO",
+    "expression": "grel:trim(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TRANSPORTE using expression grel:trim(value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "grel:trim(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column DESCRIPCION using expression grel:trim(value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DESCRIPCION",
+    "expression": "grel:trim(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column CLASE-VIAL using expression grel:trim(value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "CLASE-VIAL",
+    "expression": "grel:trim(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column LOCALIDAD using expression grel:trim(value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "LOCALIDAD",
+    "expression": "grel:trim(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column PROVINCIA using expression grel:trim(value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "PROVINCIA",
+    "expression": "grel:trim(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TELEFONO using expression grel:trim(value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TELEFONO",
+    "expression": "grel:trim(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column EMAIL using expression grel:trim(value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "EMAIL",
+    "expression": "grel:trim(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column BARRIO using expression grel:trim(value)",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "BARRIO",
+    "expression": "grel:trim(value)",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.chana.pro/",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI-BIBLIOTECA",
+          "rdfTypes": [
+            {
+              "uri": "biblioteca",
+              "curie": ":biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.chana.pro/nombreBiblioteca",
+              "curie": "http://datos.chana.pro/nombreBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/horarioBiblioteca",
+              "curie": "http://datos.chana.pro/horarioBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/equipamientoBiblioteca",
+              "curie": "http://datos.chana.pro/equipamientoBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/transporteABiblioteca",
+              "curie": "http://datos.chana.pro/transporteABiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/descripcionBiblioteca",
+              "curie": "http://datos.chana.pro/descripcionBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/accesibilidadBiblioteca",
+              "curie": "http://datos.chana.pro/accesibilidadBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/urlBiblioteca",
+              "curie": "http://datos.chana.pro/urlBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnCalle",
+              "curie": "http://datos.chana.pro/situadaEnCalle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/claseCalle",
+              "curie": "http://datos.chana.pro/claseCalle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/numeroCalleBiblioteca",
+              "curie": "http://datos.chana.pro/numeroCalleBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnLocalidad",
+              "curie": "http://datos.chana.pro/situadaEnLocalidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnProvincia",
+              "curie": "http://datos.chana.pro/situadaEnProvincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/codigoPostal",
+              "curie": "http://datos.chana.pro/codigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enBarrio",
+              "curie": "http://datos.chana.pro/enBarrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enDistrito",
+              "curie": "http://datos.chana.pro/enDistrito",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enLatitud",
+              "curie": "http://datos.chana.pro/enLatitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enLongitud",
+              "curie": "http://datos.chana.pro/enLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/tieneTelefono",
+              "curie": "http://datos.chana.pro/tieneTelefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/tieneFax",
+              "curie": "http://datos.chana.pro/tieneFax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/emailBiblioteca",
+              "curie": "http://datos.chana.pro/emailBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/resource/Distrito",
+              "curie": "http://es.dbpedia.org/resource/Distrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column URI-BIBLIOTECA using expression grel:value",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "URI-BIBLIOTECA",
+    "expression": "grel:value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.chana.pro/",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI-BIBLIOTECA",
+          "rdfTypes": [
+            {
+              "uri": "biblioteca",
+              "curie": ":biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.chana.pro/nombreBiblioteca",
+              "curie": "http://datos.chana.pro/nombreBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/horarioBiblioteca",
+              "curie": "http://datos.chana.pro/horarioBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/equipamientoBiblioteca",
+              "curie": "http://datos.chana.pro/equipamientoBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/transporteABiblioteca",
+              "curie": "http://datos.chana.pro/transporteABiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/descripcionBiblioteca",
+              "curie": "http://datos.chana.pro/descripcionBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/accesibilidadBiblioteca",
+              "curie": "http://datos.chana.pro/accesibilidadBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/urlBiblioteca",
+              "curie": "http://datos.chana.pro/urlBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnCalle",
+              "curie": "http://datos.chana.pro/situadaEnCalle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/claseCalle",
+              "curie": "http://datos.chana.pro/claseCalle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/numeroCalleBiblioteca",
+              "curie": "http://datos.chana.pro/numeroCalleBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnLocalidad",
+              "curie": "http://datos.chana.pro/situadaEnLocalidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnProvincia",
+              "curie": "http://datos.chana.pro/situadaEnProvincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/codigoPostal",
+              "curie": "http://datos.chana.pro/codigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enBarrio",
+              "curie": "http://datos.chana.pro/enBarrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enLatitud",
+              "curie": "http://datos.chana.pro/enLatitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enLongitud",
+              "curie": "http://datos.chana.pro/enLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/tieneTelefono",
+              "curie": "http://datos.chana.pro/tieneTelefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/tieneFax",
+              "curie": "http://datos.chana.pro/tieneFax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/emailBiblioteca",
+              "curie": "http://datos.chana.pro/emailBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://es.dbpedia.org/resource/Distrito",
+              "curie": "http://es.dbpedia.org/resource/Distrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.chana.pro/",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI-BIBLIOTECA",
+          "rdfTypes": [
+            {
+              "uri": "biblioteca",
+              "curie": ":biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.chana.pro/nombreBiblioteca",
+              "curie": "http://datos.chana.pro/nombreBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/horarioBiblioteca",
+              "curie": "http://datos.chana.pro/horarioBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/equipamientoBiblioteca",
+              "curie": "http://datos.chana.pro/equipamientoBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/transporteABiblioteca",
+              "curie": "http://datos.chana.pro/transporteABiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/descripcionBiblioteca",
+              "curie": "http://datos.chana.pro/descripcionBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/accesibilidadBiblioteca",
+              "curie": "http://datos.chana.pro/accesibilidadBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/urlBiblioteca",
+              "curie": "http://datos.chana.pro/urlBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnCalle",
+              "curie": "http://datos.chana.pro/situadaEnCalle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/claseCalle",
+              "curie": "http://datos.chana.pro/claseCalle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/numeroCalleBiblioteca",
+              "curie": "http://datos.chana.pro/numeroCalleBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnLocalidad",
+              "curie": "http://datos.chana.pro/situadaEnLocalidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnProvincia",
+              "curie": "http://datos.chana.pro/situadaEnProvincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/codigoPostal",
+              "curie": "http://datos.chana.pro/codigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enBarrio",
+              "curie": "http://datos.chana.pro/enBarrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enLatitud",
+              "curie": "http://datos.chana.pro/enLatitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enLongitud",
+              "curie": "http://datos.chana.pro/enLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/tieneTelefono",
+              "curie": "http://datos.chana.pro/tieneTelefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/tieneFax",
+              "curie": "http://datos.chana.pro/tieneFax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/emailBiblioteca",
+              "curie": "http://datos.chana.pro/emailBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enDistrito",
+              "curie": "http://datos.chana.pro/enDistrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [
+                  {
+                    "uri": "distrito",
+                    "curie": ":distrito"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "DISTRITO",
+          "rdfTypes": [
+            {
+              "uri": "distrito",
+              "curie": ":distrito"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TELEFONO using expression grel:replace(value,\"\\\"\",\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TELEFONO",
+    "expression": "grel:replace(value,\"\\\"\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TELEFONO using expression grel:replace(value,\"\\n\",\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TELEFONO",
+    "expression": "grel:replace(value,\"\\n\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.chana.pro/",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI-BIBLIOTECA",
+          "rdfTypes": [
+            {
+              "uri": "biblioteca",
+              "curie": ":biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.chana.pro/nombreBiblioteca",
+              "curie": "http://datos.chana.pro/nombreBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/horarioBiblioteca",
+              "curie": "http://datos.chana.pro/horarioBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/equipamientoBiblioteca",
+              "curie": "http://datos.chana.pro/equipamientoBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/transporteABiblioteca",
+              "curie": "http://datos.chana.pro/transporteABiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/descripcionBiblioteca",
+              "curie": "http://datos.chana.pro/descripcionBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/accesibilidadBiblioteca",
+              "curie": "http://datos.chana.pro/accesibilidadBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/urlBiblioteca",
+              "curie": "http://datos.chana.pro/urlBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnCalle",
+              "curie": "http://datos.chana.pro/situadaEnCalle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/claseCalle",
+              "curie": "http://datos.chana.pro/claseCalle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/numeroCalleBiblioteca",
+              "curie": "http://datos.chana.pro/numeroCalleBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnLocalidad",
+              "curie": "http://datos.chana.pro/situadaEnLocalidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnProvincia",
+              "curie": "http://datos.chana.pro/situadaEnProvincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/codigoPostal",
+              "curie": "http://datos.chana.pro/codigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enBarrio",
+              "curie": "http://datos.chana.pro/enBarrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enLatitud",
+              "curie": "http://datos.chana.pro/enLatitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enLongitud",
+              "curie": "http://datos.chana.pro/enLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/tieneTelefono",
+              "curie": "http://datos.chana.pro/tieneTelefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/tieneFax",
+              "curie": "http://datos.chana.pro/tieneFax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/emailBiblioteca",
+              "curie": "http://datos.chana.pro/emailBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enDistrito",
+              "curie": "http://datos.chana.pro/enDistrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [
+                  {
+                    "uri": "distrito",
+                    "curie": ":distrito"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "DISTRITO",
+          "rdfTypes": [
+            {
+              "uri": "distrito",
+              "curie": ":distrito"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TELEFONO using expression grel:value.replace(/\\s+/,\" \")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TELEFONO",
+    "expression": "grel:value.replace(/\\s+/,\" \")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.chana.pro/",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI-BIBLIOTECA",
+          "rdfTypes": [
+            {
+              "uri": "biblioteca",
+              "curie": ":biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.chana.pro/nombreBiblioteca",
+              "curie": "http://datos.chana.pro/nombreBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/horarioBiblioteca",
+              "curie": "http://datos.chana.pro/horarioBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/equipamientoBiblioteca",
+              "curie": "http://datos.chana.pro/equipamientoBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/transporteABiblioteca",
+              "curie": "http://datos.chana.pro/transporteABiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/descripcionBiblioteca",
+              "curie": "http://datos.chana.pro/descripcionBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/accesibilidadBiblioteca",
+              "curie": "http://datos.chana.pro/accesibilidadBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/urlBiblioteca",
+              "curie": "http://datos.chana.pro/urlBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnCalle",
+              "curie": "http://datos.chana.pro/situadaEnCalle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/claseCalle",
+              "curie": "http://datos.chana.pro/claseCalle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/numeroCalleBiblioteca",
+              "curie": "http://datos.chana.pro/numeroCalleBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnLocalidad",
+              "curie": "http://datos.chana.pro/situadaEnLocalidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnProvincia",
+              "curie": "http://datos.chana.pro/situadaEnProvincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/codigoPostal",
+              "curie": "http://datos.chana.pro/codigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enBarrio",
+              "curie": "http://datos.chana.pro/enBarrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enLatitud",
+              "curie": "http://datos.chana.pro/enLatitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enLongitud",
+              "curie": "http://datos.chana.pro/enLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/tieneTelefono",
+              "curie": "http://datos.chana.pro/tieneTelefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/tieneFax",
+              "curie": "http://datos.chana.pro/tieneFax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/emailBiblioteca",
+              "curie": "http://datos.chana.pro/emailBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enDistrito",
+              "curie": "http://datos.chana.pro/enDistrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [
+                  {
+                    "uri": "distrito",
+                    "curie": ":distrito"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "DISTRITO",
+          "rdfTypes": [
+            {
+              "uri": "distrito",
+              "curie": ":distrito"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.chana.pro/",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "URI-BIBLIOTECA",
+          "rdfTypes": [
+            {
+              "uri": "biblioteca",
+              "curie": ":biblioteca"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.chana.pro/nombreBiblioteca",
+              "curie": "http://datos.chana.pro/nombreBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/horarioBiblioteca",
+              "curie": "http://datos.chana.pro/horarioBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/equipamientoBiblioteca",
+              "curie": "http://datos.chana.pro/equipamientoBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/transporteABiblioteca",
+              "curie": "http://datos.chana.pro/transporteABiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/descripcionBiblioteca",
+              "curie": "http://datos.chana.pro/descripcionBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/accesibilidadBiblioteca",
+              "curie": "http://datos.chana.pro/accesibilidadBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://www.w3.org/2002/07/owl#sameAs",
+              "curie": "owl:sameAs",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnCalle",
+              "curie": "http://datos.chana.pro/situadaEnCalle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/claseCalle",
+              "curie": "http://datos.chana.pro/claseCalle",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/numeroCalleBiblioteca",
+              "curie": "http://datos.chana.pro/numeroCalleBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnLocalidad",
+              "curie": "http://datos.chana.pro/situadaEnLocalidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/situadaEnProvincia",
+              "curie": "http://datos.chana.pro/situadaEnProvincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/codigoPostal",
+              "curie": "http://datos.chana.pro/codigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enBarrio",
+              "curie": "http://datos.chana.pro/enBarrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "BARRIO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enLatitud",
+              "curie": "http://datos.chana.pro/enLatitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enLongitud",
+              "curie": "http://datos.chana.pro/enLongitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/tieneTelefono",
+              "curie": "http://datos.chana.pro/tieneTelefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/tieneFax",
+              "curie": "http://datos.chana.pro/tieneFax",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "FAX"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/emailBiblioteca",
+              "curie": "http://datos.chana.pro/emailBiblioteca",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/enDistrito",
+              "curie": "http://datos.chana.pro/enDistrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [
+                  {
+                    "uri": "distrito",
+                    "curie": ":distrito"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "DISTRITO",
+          "rdfTypes": [
+            {
+              "uri": "distrito",
+              "curie": ":distrito"
+            }
+          ],
+          "links": []
+        }
+      ]
+    }
   }
 ]
