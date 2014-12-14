@@ -11014,5 +11014,2971 @@
         "to": "Sunset"
       }
     ]
+  },
+    {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NEIGHBORHOOD using expression grel:value.replace(\"Outer Richmond\", \"Richmond\")",
+    "engineConfig": {
+      "facets": [
+        {
+          "to": 1.002,
+          "expression": "cell.recon.best.score",
+          "selectError": true,
+          "selectNumeric": false,
+          "selectBlank": true,
+          "name": "NEIGHBORHOOD: best candidate's score",
+          "columnName": "NEIGHBORHOOD",
+          "selectNonNumeric": true,
+          "from": 0.375,
+          "type": "range"
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "expression": "grel:value.replace(\"Outer Richmond\", \"Richmond\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NEIGHBORHOOD using expression grel:value.replace(\"Castro/Upper Market\", \"Upper Market\")",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGHBORHOOD",
+          "omitBlank": false,
+          "columnName": "NEIGHBORHOOD",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Castro/Upper Market",
+                "l": "Castro/Upper Market"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "expression": "grel:value.replace(\"Castro/Upper Market\", \"Upper Market\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": true,
+          "name": "NEIGHBORHOOD",
+          "omitBlank": false,
+          "columnName": "NEIGHBORHOOD",
+          "type": "list",
+          "selection": []
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NEIGHBORHOOD using expression grel:value.replace(\"Inner Richmond\", \"Richmond\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "expression": "grel:value.replace(\"Inner Richmond\", \"Richmond\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NEIGHBORHOOD using expression grel:value.replace(\"Treasure Island/YBI10\", \"Treasure Island\")",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "expression": "grel:value.replace(\"Treasure Island/YBI10\", \"Treasure Island\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NEIGHBORHOOD using expression grel:value.replace(\"Treasure Island/YBI\", \"Treasure Island\")",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGHBORHOOD",
+          "omitBlank": false,
+          "columnName": "NEIGHBORHOOD",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Treasure Island/YBI",
+                "l": "Treasure Island/YBI"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "expression": "grel:value.replace(\"Treasure Island/YBI\", \"Treasure Island\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column NEIGHBORHOOD using expression grel:value.replace(\"West of Twin Peaks\", \"Twin Peaks\")",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGHBORHOOD",
+          "omitBlank": false,
+          "columnName": "NEIGHBORHOOD",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "West of Twin Peaks",
+                "l": "West of Twin Peaks"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "expression": "grel:value.replace(\"West of Twin Peaks\", \"Twin Peaks\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGHBORHOOD",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "NEIGHBORHOOD",
+          "selectBlank": false,
+          "columnName": "NEIGHBORHOOD",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Outer Mission",
+                "l": "Outer Mission"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Outer Mission"
+        ],
+        "to": "Mission"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGHBORHOOD",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "NEIGHBORHOOD",
+          "selectBlank": false,
+          "columnName": "NEIGHBORHOOD",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Outer Sunset",
+                "l": "Outer Sunset"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Outer Sunset"
+        ],
+        "to": "Sunset"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGHBORHOOD",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "NEIGHBORHOOD",
+          "selectBlank": false,
+          "columnName": "NEIGHBORHOOD",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Upper Market",
+                "l": "Upper Market"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Upper Market"
+        ],
+        "to": "South of Market"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGHBORHOOD",
+    "engineConfig": {
+      "facets": [
+        {
+          "expression": "value",
+          "invert": false,
+          "selectError": false,
+          "omitError": false,
+          "name": "NEIGHBORHOOD",
+          "selectBlank": false,
+          "columnName": "NEIGHBORHOOD",
+          "omitBlank": false,
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Inner Sunset",
+                "l": "Inner Sunset"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGHBORHOOD",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Inner Sunset"
+        ],
+        "to": "Sunset"
+      }
+    ]
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/ServiceRequest/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/ServiceRequest#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#open",
+              "curie": "ont:open",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "OPEN"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#close",
+              "curie": "ont:close",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "CLOSE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#state",
+              "curie": "ont:state",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "STATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#request",
+              "curie": "ont:request",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "REQUEST"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#address",
+              "curie": "ont:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#neighborhood",
+              "curie": "ont:neighborhood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHBORHOOD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#media",
+              "curie": "ont:media",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "MEDIA"
+              }
+            },
+            {
+              "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+              "curie": "geosp:hasGeometry",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value+\"/geometry\"",
+                "isRowNumberCell": false,
+                "columnName": "CASEID",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "curie": "geosp:asWKT",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "asWKT"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "cells[\"TYPE\"].value + \"/\" +value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/ServiceRequest/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/ServiceRequest#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#open",
+              "curie": "ont:open",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "OPEN"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#close",
+              "curie": "ont:close",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "CLOSE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#state",
+              "curie": "ont:state",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "STATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#agency",
+              "curie": "ont:agency",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "AGENCY"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#category",
+              "curie": "ont:category",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TYPE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#request",
+              "curie": "ont:request",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "REQUEST"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#address",
+              "curie": "ont:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#neighborhood",
+              "curie": "ont:neighborhood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHBORHOOD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#media",
+              "curie": "ont:media",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "MEDIA"
+              }
+            },
+            {
+              "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+              "curie": "geosp:hasGeometry",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value + \"/geometry\"",
+                "isRowNumberCell": false,
+                "columnName": "CASEID",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "curie": "geosp:asWKT",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "asWKT"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/ServiceRequest/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/ServiceRequest#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Event",
+              "curie": "schema:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#open",
+              "curie": "ont:open",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "OPEN"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#close",
+              "curie": "ont:close",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "CLOSE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#state",
+              "curie": "ont:state",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "STATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#agency",
+              "curie": "ont:agency",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "AGENCY"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#category",
+              "curie": "ont:category",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TYPE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#request",
+              "curie": "ont:request",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "REQUEST"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#address",
+              "curie": "ont:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#neighborhood",
+              "curie": "ont:neighborhood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHBORHOOD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#media",
+              "curie": "ont:media",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "MEDIA"
+              }
+            },
+            {
+              "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+              "curie": "geosp:hasGeometry",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value + \"/geometry\"",
+                "isRowNumberCell": false,
+                "columnName": "CASEID",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                    "curie": "geosp:asWKT",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "asWKT"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/ServiceRequest/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/ServiceRequest#"
+        },
+        {
+          "name": "dbpedia",
+          "uri": "http://dbpedia.org/resource/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Event",
+              "curie": "schema:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "OPEN"
+              }
+            },
+            {
+              "uri": "http://schema.org/endDate",
+              "curie": "schema:endDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "CLOSE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#state",
+              "curie": "ont:state",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "STATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#agency",
+              "curie": "ont:agency",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "AGENCY"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#category",
+              "curie": "ont:category",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TYPE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#request",
+              "curie": "ont:request",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "REQUEST"
+              }
+            },
+            {
+              "uri": "http://schema.org/location",
+              "curie": "schema:location",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value + \"/Place\"",
+                "isRowNumberCell": false,
+                "columnName": "CASEID",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value + \"/Place\"",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/containedIn",
+              "curie": "schema:containedIn",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://dbpedia.org/resource/San_Francisco",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.org/address",
+              "curie": "schema:address",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value + \"/PostalAddress\"",
+                "isRowNumberCell": false,
+                "columnName": "CASEID",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value + \"/PostalAddress\"",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/PostalAddress",
+              "curie": "schema:PostalAddress"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/streetAddress",
+              "curie": "schema:streetAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://schema.org/addressRegion",
+              "curie": "schema:addressRegion",
+              "target": {
+                "nodeType": "literal",
+                "value": "CA"
+              }
+            },
+            {
+              "uri": "http://schema.org/addressLocality",
+              "curie": "schema:addressLocality",
+              "target": {
+                "nodeType": "literal",
+                "value": "San Francisco"
+              }
+            },
+            {
+              "uri": "http://schema.org/addressCountry",
+              "curie": "schema:addressCountry",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://dbpedia.org/resource/United_States",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/ServiceRequest/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/ServiceRequest#"
+        },
+        {
+          "name": "dbpedia",
+          "uri": "http://dbpedia.org/resource/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        },
+        {
+          "name": "geonames",
+          "uri": "http://www.geonames.org/ontology#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Event",
+              "curie": "schema:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "OPEN"
+              }
+            },
+            {
+              "uri": "http://schema.org/endDate",
+              "curie": "schema:endDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "CLOSE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#state",
+              "curie": "ont:state",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "STATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#agency",
+              "curie": "ont:agency",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "AGENCY"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#category",
+              "curie": "ont:category",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TYPE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#request",
+              "curie": "ont:request",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "REQUEST"
+              }
+            },
+            {
+              "uri": "http://schema.org/location",
+              "curie": "schema:location",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value + \"/Place\"",
+                "isRowNumberCell": false,
+                "columnName": "CASEID",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#neighborhood",
+              "curie": "ont:neighborhood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHBORHOOD"
+              }
+            },
+            {
+              "uri": "http://schema.org/geo",
+              "curie": "schema:geo",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value + \"/geo\"",
+                "isRowNumberCell": false,
+                "columnName": "CASEID",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#linkedGeometry",
+              "curie": "ont:linkedGeometry",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.opengis.net/ont/geosparql#wktLiteral",
+                "columnName": "asWKT"
+              }
+            },
+            {
+              "uri": "http://schema.org/url",
+              "curie": "schema:url",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "MEDIA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value + \"/Place\"",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/containedIn",
+              "curie": "schema:containedIn",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://dbpedia.org/resource/San_Francisco",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.org/address",
+              "curie": "schema:address",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value + \"/PostalAddress\"",
+                "isRowNumberCell": false,
+                "columnName": "CASEID",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value + \"/PostalAddress\"",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/PostalAddress",
+              "curie": "schema:PostalAddress"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/streetAddress",
+              "curie": "schema:streetAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://schema.org/addressRegion",
+              "curie": "schema:addressRegion",
+              "target": {
+                "nodeType": "literal",
+                "value": "CA"
+              }
+            },
+            {
+              "uri": "http://schema.org/addressLocality",
+              "curie": "schema:addressLocality",
+              "target": {
+                "nodeType": "literal",
+                "value": "San Francisco"
+              }
+            },
+            {
+              "uri": "http://schema.org/addressCountry",
+              "curie": "schema:addressCountry",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://dbpedia.org/resource/United_States",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value + \"/geo\"",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/GeoCoordinates",
+              "curie": "schema:GeoCoordinates"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/latitude",
+              "curie": "schema:latitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.split(\" \")[0].replace(\"POINT(\",\"\")",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "asWKT"
+              }
+            },
+            {
+              "uri": "http://schema.org/longitude",
+              "curie": "schema:longitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.split(\" \")[1].replace(\")\",\"\")",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "asWKT"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value + \"/geometry\"",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/ServiceRequest/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/ServiceRequest#"
+        },
+        {
+          "name": "dbpedia",
+          "uri": "http://dbpedia.org/resource/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "geon",
+          "uri": "http://sws.geonames.org/"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Event",
+              "curie": "schema:Event"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "OPEN"
+              }
+            },
+            {
+              "uri": "http://schema.org/endDate",
+              "curie": "schema:endDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "CLOSE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#state",
+              "curie": "ont:state",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "STATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#agency",
+              "curie": "ont:agency",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "AGENCY"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#category",
+              "curie": "ont:category",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TYPE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#request",
+              "curie": "ont:request",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "REQUEST"
+              }
+            },
+            {
+              "uri": "http://schema.org/location",
+              "curie": "schema:location",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value + \"/Place\"",
+                "isRowNumberCell": false,
+                "columnName": "CASEID",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#neighborhood",
+              "curie": "ont:neighborhood",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGHBORHOOD"
+              }
+            },
+            {
+              "uri": "http://schema.org/geo",
+              "curie": "schema:geo",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value + \"/geo\"",
+                "isRowNumberCell": false,
+                "columnName": "CASEID",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#linkedGeometry",
+              "curie": "ont:linkedGeometry",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.opengis.net/ont/geosparql#wktLiteral",
+                "columnName": "asWKT"
+              }
+            },
+            {
+              "uri": "http://schema.org/url",
+              "curie": "schema:url",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "MEDIA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value + \"/Place\"",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/containedIn",
+              "curie": "schema:containedIn",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://dbpedia.org/resource/San_Francisco",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.org/address",
+              "curie": "schema:address",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value + \"/PostalAddress\"",
+                "isRowNumberCell": false,
+                "columnName": "CASEID",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value + \"/PostalAddress\"",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/PostalAddress",
+              "curie": "schema:PostalAddress"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/streetAddress",
+              "curie": "schema:streetAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://schema.org/addressRegion",
+              "curie": "schema:addressRegion",
+              "target": {
+                "nodeType": "literal",
+                "value": "CA"
+              }
+            },
+            {
+              "uri": "http://schema.org/addressLocality",
+              "curie": "schema:addressLocality",
+              "target": {
+                "nodeType": "literal",
+                "value": "San Francisco"
+              }
+            },
+            {
+              "uri": "http://schema.org/addressCountry",
+              "curie": "schema:addressCountry",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://dbpedia.org/resource/United_States",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value + \"/geo\"",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/GeoCoordinates",
+              "curie": "schema:GeoCoordinates"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/latitude",
+              "curie": "schema:latitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.split(\" \")[0].replace(\"POINT(\",\"\")",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "asWKT"
+              }
+            },
+            {
+              "uri": "http://schema.org/longitude",
+              "curie": "schema:longitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.split(\" \")[1].replace(\")\",\"\")",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "asWKT"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value + \"/geometry\"",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column NEIGH_GEONAMES at index 9 based on column NEIGHBORHOOD using expression grel:value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "NEIGH_GEONAMES",
+    "columnInsertIndex": 9,
+    "baseColumnName": "NEIGHBORHOOD",
+    "expression": "grel:value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Excelsior"
+        ],
+        "to": "http://sws.geonames.org/8449792"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "South of Market"
+        ],
+        "to": "http://sws.geonames.org/7838987"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Downtown/Civic Center"
+        ],
+        "to": "http://sws.geonames.org/8062678"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Crocker Amazon"
+        ],
+        "to": "http://sws.geonames.org/8449746"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Parkside"
+        ],
+        "to": "http://sws.geonames.org/8449754"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Twin Peaks"
+        ],
+        "to": "http://sws.geonames.org/5404316"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Visitacion Valley"
+        ],
+        "to": "http://sws.geonames.org/8449777"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Western Addition"
+        ],
+        "to": "http://sws.geonames.org/5408307"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Mission"
+        ],
+        "to": "http://sws.geonames.org/5373628"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Nob Hill"
+        ],
+        "to": "http://sws.geonames.org/8449911"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Haight Ashbury"
+        ],
+        "to": "http://sws.geonames.org/5354895"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Presidio"
+        ],
+        "to": "http://sws.geonames.org/5384866"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Richmond"
+        ],
+        "to": "http://sws.geonames.org/5387428"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Marina"
+        ],
+        "to": "http://sws.geonames.org/5370493"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGH_GEONAMES",
+          "omitBlank": false,
+          "columnName": "NEIGH_GEONAMES",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Bayview",
+                "l": "Bayview"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Bayview"
+        ],
+        "to": "http://sws.geonames.org/5559327"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGH_GEONAMES",
+          "omitBlank": false,
+          "columnName": "NEIGH_GEONAMES",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Bernal Heights",
+                "l": "Bernal Heights"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Bernal Heights"
+        ],
+        "to": "http://sws.geonames.org/8449789"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGH_GEONAMES",
+          "omitBlank": false,
+          "columnName": "NEIGH_GEONAMES",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Chinatown",
+                "l": "Chinatown"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Chinatown"
+        ],
+        "to": "http://sws.geonames.org/5336475"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGH_GEONAMES",
+          "omitBlank": false,
+          "columnName": "NEIGH_GEONAMES",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Diamond Heights",
+                "l": "Diamond Heights"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Diamond Heights"
+        ],
+        "to": "http://sws.geonames.org/5343013"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGH_GEONAMES",
+          "omitBlank": false,
+          "columnName": "NEIGH_GEONAMES",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Financial District",
+                "l": "Financial District"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Financial District"
+        ],
+        "to": "http://sws.geonames.org/6948446"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGH_GEONAMES",
+          "omitBlank": false,
+          "columnName": "NEIGH_GEONAMES",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Glen Park",
+                "l": "Glen Park"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Glen Park"
+        ],
+        "to": "http://sws.geonames.org/8449756"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGH_GEONAMES",
+          "omitBlank": false,
+          "columnName": "NEIGH_GEONAMES",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Golden Gate Park",
+                "l": "Golden Gate Park"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Golden Gate Park"
+        ],
+        "to": "http://sws.geonames.org/5352860"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGH_GEONAMES",
+          "omitBlank": false,
+          "columnName": "NEIGH_GEONAMES",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Lakeshore",
+                "l": "Lakeshore"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Lakeshore"
+        ],
+        "to": "http://sws.geonames.org/5364772"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGH_GEONAMES",
+          "omitBlank": false,
+          "columnName": "NEIGH_GEONAMES",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Noe Valley",
+                "l": "Noe Valley"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Noe Valley"
+        ],
+        "to": "http://sws.geonames.org/8449772"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGH_GEONAMES",
+          "omitBlank": false,
+          "columnName": "NEIGH_GEONAMES",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "North Beach",
+                "l": "North Beach"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "North Beach"
+        ],
+        "to": "http://sws.geonames.org/5350113"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGH_GEONAMES",
+          "omitBlank": false,
+          "columnName": "NEIGH_GEONAMES",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Ocean View",
+                "l": "Ocean View"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Ocean View"
+        ],
+        "to": "http://sws.geonames.org/5378741"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGH_GEONAMES",
+          "omitBlank": false,
+          "columnName": "NEIGH_GEONAMES",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Pacific Heights",
+                "l": "Pacific Heights"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Pacific Heights"
+        ],
+        "to": "http://sws.geonames.org/7838982"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGH_GEONAMES",
+          "omitBlank": false,
+          "columnName": "NEIGH_GEONAMES",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Potrero Hill",
+                "l": "Potrero Hill"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Potrero Hill"
+        ],
+        "to": "http://sws.geonames.org/5384626"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGH_GEONAMES",
+          "omitBlank": false,
+          "columnName": "NEIGH_GEONAMES",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Presidio Heights",
+                "l": "Presidio Heights"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Presidio Heights"
+        ],
+        "to": "http://sws.geonames.org/8449774"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGH_GEONAMES",
+          "omitBlank": false,
+          "columnName": "NEIGH_GEONAMES",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Russian Hill",
+                "l": "Russian Hill"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Russian Hill"
+        ],
+        "to": "http://sws.geonames.org/6324508"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGH_GEONAMES",
+          "omitBlank": false,
+          "columnName": "NEIGH_GEONAMES",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Seacliff",
+                "l": "Seacliff"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Seacliff"
+        ],
+        "to": "http://sws.geonames.org/5394077"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGH_GEONAMES",
+          "omitBlank": false,
+          "columnName": "NEIGH_GEONAMES",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Sunset",
+                "l": "Sunset"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Sunset"
+        ],
+        "to": "http://sws.geonames.org/8449761"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NEIGH_GEONAMES",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "value",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NEIGH_GEONAMES",
+          "omitBlank": false,
+          "columnName": "NEIGH_GEONAMES",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "Treasure Island",
+                "l": "Treasure Island"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NEIGH_GEONAMES",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "Treasure Island"
+        ],
+        "to": "http://sws.geonames.org/5403321"
+      }
+    ]
+  },
+    {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/ServiceRequest/",
+      "prefixes": [
+        {
+          "name": "schema",
+          "uri": "http://schema.org/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/ServiceRequest#"
+        },
+        {
+          "name": "base",
+          "uri": "http://www.semanticweb.org/group08/"
+        },
+        {
+          "name": "geon",
+          "uri": "http://sws.geonames.org/"
+        },
+        {
+          "name": "dbpedia",
+          "uri": "http://dbpedia.org/resource/"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest/ServiceRequest",
+              "curie": "base:ServiceRequest"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/startDate",
+              "curie": "schema:startDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "OPEN"
+              }
+            },
+            {
+              "uri": "http://schema.org/endDate",
+              "curie": "schema:endDate",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#date",
+                "columnName": "CLOSE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#state",
+              "curie": "ont:state",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "STATE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#agency",
+              "curie": "ont:agency",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "AGENCY"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#category",
+              "curie": "ont:category",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TYPE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#request",
+              "curie": "ont:request",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "REQUEST"
+              }
+            },
+            {
+              "uri": "http://schema.org/location",
+              "curie": "schema:location",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value + \"/Place\"",
+                "isRowNumberCell": false,
+                "columnName": "CASEID",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.org/geo",
+              "curie": "schema:geo",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value + \"/geo\"",
+                "isRowNumberCell": false,
+                "columnName": "CASEID",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/ServiceRequest#geometry",
+              "curie": "ont:geometry",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.opengis.net/ont/geosparql#wktLiteral",
+                "columnName": "asWKT"
+              }
+            },
+            {
+              "uri": "http://schema.org/url",
+              "curie": "schema:url",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "MEDIA"
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value + \"/Place\"",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/Place",
+              "curie": "schema:Place"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/containedIn",
+              "curie": "schema:containedIn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NEIGH_GEONAMES",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://schema.org/address",
+              "curie": "schema:address",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value + \"/PostalAddress\"",
+                "isRowNumberCell": false,
+                "columnName": "CASEID",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value + \"/PostalAddress\"",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/PostalAddress",
+              "curie": "schema:PostalAddress"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/streetAddress",
+              "curie": "schema:streetAddress",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://schema.org/addressRegion",
+              "curie": "schema:addressRegion",
+              "target": {
+                "nodeType": "literal",
+                "value": "CA"
+              }
+            },
+            {
+              "uri": "http://schema.org/addressLocality",
+              "curie": "schema:addressLocality",
+              "target": {
+                "nodeType": "literal",
+                "value": "San Francisco"
+              }
+            },
+            {
+              "uri": "http://schema.org/addressCountry",
+              "curie": "schema:addressCountry",
+              "target": {
+                "nodeType": "resource",
+                "value": "http://dbpedia.org/resource/United_States",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value + \"/geo\"",
+          "isRowNumberCell": false,
+          "columnName": "CASEID",
+          "rdfTypes": [
+            {
+              "uri": "http://schema.org/GeoCoordinates",
+              "curie": "schema:GeoCoordinates"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://schema.org/latitude",
+              "curie": "schema:latitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.split(\" \")[0].replace(\"POINT(\",\"\")",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "asWKT"
+              }
+            },
+            {
+              "uri": "http://schema.org/longitude",
+              "curie": "schema:longitude",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value.split(\" \")[1].replace(\")\",\"\")",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "asWKT"
+              }
+            }
+          ]
+        }
+      ]
+    }
   }
 ]
