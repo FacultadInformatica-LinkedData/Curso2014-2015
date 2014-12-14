@@ -18,12 +18,12 @@
           "uri": "http://www.semanticweb.org/group08/Building/School/Private#"
         },
         {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
           "name": "xsd",
           "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
         },
         {
           "name": "rdf",
@@ -164,12 +164,12 @@
           "uri": "http://www.semanticweb.org/group08/Building/School/Private#"
         },
         {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
           "name": "xsd",
           "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
         },
         {
           "name": "rdf",
@@ -313,12 +313,12 @@
           "uri": "http://www.semanticweb.org/group08/Building/School/Private#"
         },
         {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
           "name": "xsd",
           "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
         },
         {
           "name": "rdf",
@@ -453,259 +453,24 @@
           "uri": "http://www.semanticweb.org/group08/Building/School/Private#"
         },
         {
-          "name": "xsd",
-          "uri": "http://www.w3.org/2001/XMLSchema#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "dbpedia",
-          "uri": "http://dbpedia.org/resource/"
+          "name": "geon",
+          "uri": "http://sws.geonames.org/"
         },
         {
           "name": "base",
           "uri": "http://www.semanticweb.org/group08/School/Private/"
         },
         {
-          "name": "geon",
-          "uri": "http://sws.geonames.org/"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "geosp",
-          "uri": "http://www.opengis.net/ont/geosparql#"
-        }
-      ],
-      "rootNodes": [
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\")",
-          "isRowNumberCell": false,
-          "columnName": "NAME",
-          "rdfTypes": [
-            {
-              "uri": "http://www.semanticweb.org/group08/School/Private/Private",
-              "curie": "base:Private"
-            }
-          ],
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/group08/Building/School/Private#name",
-              "curie": "ont:name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "NAME"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group08/Building/School/Private#type",
-              "curie": "ont:type",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "TYPE"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group08/Building/School/Private#children",
-              "curie": "ont:children",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "CHILDREN"
-              }
-            },
-            {
-              "uri": "http://schema.org/location",
-              "curie": "schema:location",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "expression": "value + \"/Place\"",
-                "isRowNumberCell": false,
-                "columnName": "NAME",
-                "rdfTypes": [],
-                "links": []
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group08/Building/School/Private#hasBuilding",
-              "curie": "ont:hasBuilding",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\")+\"/Building\"",
-                "isRowNumberCell": false,
-                "columnName": "NAME",
-                "rdfTypes": [],
-                "links": [
-                  {
-                    "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
-                    "curie": "geosp:hasGeometry",
-                    "target": {
-                      "nodeType": "cell-as-resource",
-                      "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\")+\"/Building/geometry\"",
-                      "isRowNumberCell": false,
-                      "columnName": "NAME",
-                      "rdfTypes": [],
-                      "links": [
-                        {
-                          "uri": "http://www.opengis.net/ont/geosparql#asWKT",
-                          "curie": "geosp:asWKT",
-                          "target": {
-                            "nodeType": "cell-as-literal",
-                            "expression": "value",
-                            "isRowNumberCell": false,
-                            "columnName": "asWKT"
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "uri": "http://www.w3.org/2002/07/owl#sameAs",
-              "curie": "owl:sameAs",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "name",
-                "rdfTypes": [],
-                "links": []
-              }
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value + \"/Place\"",
-          "isRowNumberCell": false,
-          "columnName": "NAME",
-          "rdfTypes": [
-            {
-              "uri": "http://schema.org/Place",
-              "curie": "schema:Place"
-            }
-          ],
-        value  "links": [
-            {
-              "uri": "http://schema.org/address",
-              "curie": "schema:address",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "expression": "value + \"/PostalAddress\"",
-                "isRowNumberCell": false,
-                "columnName": "NAME",
-                "rdfTypes": [],
-                "links": []
-              }
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "value + \"/PostalAddress\"",
-          "isRowNumberCell": false,
-          "columnName": "NAME",
-          "rdfTypes": [
-            {
-              "uri": "http://schema.org/PostalAddress",
-              "curie": "schema:PostalAddress"
-            }
-          ],
-          "links": [
-            {
-              "uri": "http://schema.org/streetAddress",
-              "curie": "schema:streetAddress",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "ADDRESS"
-              }
-            },
-            {
-              "uri": "http://schema.org/addressRegion",
-              "curie": "schema:addressRegion",
-              "target": {
-                "nodeType": "literal",
-                "value": "CA"
-              }
-            },
-            {
-              "uri": "http://schema.org/addressLocality",
-              "curie": "schema:addressLocality",
-              "target": {
-                "nodeType": "literal",
-                "value": "San Francisco"
-              }
-            },
-            {
-              "uri": "http://schema.org/addressCountry",
-              "curie": "schema:addressCountry",
-              "target": {
-                "nodeType": "resource",
-                "value": "http://dbpedia.org/resource/United_States",
-                "rdfTypes": [],
-                "links": []
-              }
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
-    "schema": {
-      "baseUri": "http://www.semanticweb.org/group08/School/Private/",
-      "prefixes": [
-        {
-          "name": "schema",
-          "uri": "http://schema.org/"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        },
-        {
-          "name": "ont",
-          "uri": "http://www.semanticweb.org/group08/Building/School/Private#"
-        },
-        {
-          "name": "xsd",
-          "uri": "http://www.w3.org/2001/XMLSchema#"
+          "name": "dbpedia",
+          "uri": "http://dbpedia.org/resource/"
         },
         {
           "name": "owl",
           "uri": "http://www.w3.org/2002/07/owl#"
         },
         {
-          "name": "dbpedia",
-          "uri": "http://dbpedia.org/resource/"
-        },
-        {
-          "name": "base",
-          "uri": "http://www.semanticweb.org/group08/School/Private/"
-        },
-        {
-          "name": "geon",
-          "uri": "http://sws.geonames.org/"
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
         },
         {
           "name": "rdf",
@@ -999,7 +764,7 @@
               "curie": "schema:location",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\") + \"/Place\"",
+                "expression": "value + \"/Place\"",
                 "isRowNumberCell": false,
                 "columnName": "NAME",
                 "rdfTypes": [],
@@ -1058,7 +823,7 @@
         },
         {
           "nodeType": "cell-as-resource",
-          "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\") + \"/Place\"",
+          "expression": "value + \"/Place\"",
           "isRowNumberCell": false,
           "columnName": "NAME",
           "rdfTypes": [
@@ -1073,7 +838,7 @@
               "curie": "schema:address",
               "target": {
                 "nodeType": "cell-as-resource",
-                "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\") + \"/PostalAddress\"",
+                "expression": "value + \"/PostalAddress\"",
                 "isRowNumberCell": false,
                 "columnName": "NAME",
                 "rdfTypes": [],
@@ -1084,231 +849,7 @@
         },
         {
           "nodeType": "cell-as-resource",
-          "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\") + \"/PostalAddress\"",
-          "isRowNumberCell": false,
-          "columnName": "NAME",
-          "rdfTypes": [
-            {
-              "uri": "http://schema.org/PostalAddress",
-              "curie": "schema:PostalAddress"
-            }
-          ],
-          "links": [
-            {
-              "uri": "http://schema.org/streetAddress",
-              "curie": "schema:streetAddress",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "ADDRESS"
-              }
-            },
-            {
-              "uri": "http://schema.org/addressRegion",
-              "curie": "schema:addressRegion",
-              "target": {
-                "nodeType": "literal",
-                "value": "CA"
-              }
-            },
-            {
-              "uri": "http://schema.org/addressLocality",
-              "curie": "schema:addressLocality",
-              "target": {
-                "nodeType": "literal",
-                "value": "San Francisco"
-              }
-            },
-            {
-              "uri": "http://schema.org/addressCountry",
-              "curie": "schema:addressCountry",
-              "target": {
-                "nodeType": "resource",
-                "value": "http://dbpedia.org/resource/United_States",
-                "rdfTypes": [],
-                "links": []
-              }
-            }
-          ]
-        }
-      ]
-    }
-  },
-    {
-    "op": "rdf-extension/save-rdf-schema",
-    "description": "Save RDF schema skeleton",
-    "schema": {
-      "baseUri": "http://www.semanticweb.org/group08/School/Private/",
-      "prefixes": [
-        {
-          "name": "schema",
-          "uri": "http://schema.org/"
-        },
-        {
-          "name": "rdfs",
-          "uri": "http://www.w3.org/2000/01/rdf-schema#"
-        },
-        {
-          "name": "foaf",
-          "uri": "http://xmlns.com/foaf/0.1/"
-        },
-        {
-          "name": "ont",
-          "uri": "http://www.semanticweb.org/group08/Building/School/Private#"
-        },
-        {
-          "name": "xsd",
-          "uri": "http://www.w3.org/2001/XMLSchema#"
-        },
-        {
-          "name": "owl",
-          "uri": "http://www.w3.org/2002/07/owl#"
-        },
-        {
-          "name": "dbpedia",
-          "uri": "http://dbpedia.org/resource/"
-        },
-        {
-          "name": "geon",
-          "uri": "http://sws.geonames.org/"
-        },
-        {
-          "name": "rdf",
-          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        },
-        {
-          "name": "geosp",
-          "uri": "http://www.opengis.net/ont/geosparql#"
-        }
-      ],
-      "rootNodes": [
-        {
-          "nodeType": "resource",
-          "value": "http://www.semanticweb.org/group08/School/Private/",
-          "rdfTypes": [],
-          "links": [
-            {
-              "uri": "http://www.semanticweb.org/group08/Building/School/Private#name",
-              "curie": "ont:name",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "NAME"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group08/Building/School/Private#type",
-              "curie": "ont:type",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "TYPE"
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group08/Building/School/Private#children",
-              "curie": "ont:children",
-              "target": {
-                "nodeType": "cell-as-literal",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "CHILDREN"
-              }
-            },
-            {
-              "uri": "http://schema.org/location",
-              "curie": "schema:location",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\") + \"/Place\"",
-                "isRowNumberCell": false,
-                "columnName": "NAME",
-                "rdfTypes": [],
-                "links": []
-              }
-            },
-            {
-              "uri": "http://www.semanticweb.org/group08/Building/School/Private#hasBuilding",
-              "curie": "ont:hasBuilding",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\")+\"/Building\"",
-                "isRowNumberCell": false,
-                "columnName": "NAME",
-                "rdfTypes": [],
-                "links": [
-                  {
-                    "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
-                    "curie": "geosp:hasGeometry",
-                    "target": {
-                      "nodeType": "cell-as-resource",
-                      "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\")+\"/Building/geometry\"",
-                      "isRowNumberCell": false,
-                      "columnName": "NAME",
-                      "rdfTypes": [],
-                      "links": [
-                        {
-                          "uri": "http://www.opengis.net/ont/geosparql#asWKT",
-                          "curie": "geosp:asWKT",
-                          "target": {
-                            "nodeType": "cell-as-literal",
-                            "expression": "value",
-                            "isRowNumberCell": false,
-                            "columnName": "asWKT"
-                          }
-                        }
-                      ]
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "uri": "http://www.w3.org/2002/07/owl#sameAs",
-              "curie": "owl:sameAs",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "expression": "value",
-                "isRowNumberCell": false,
-                "columnName": "name",
-                "rdfTypes": [],
-                "links": []
-              }
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\") + \"/Place\"",
-          "isRowNumberCell": false,
-          "columnName": "NAME",
-          "rdfTypes": [
-            {
-              "uri": "http://schema.org/Place",
-              "curie": "schema:Place"
-            }
-          ],
-          "links": [
-            {
-              "uri": "http://schema.org/address",
-              "curie": "schema:address",
-              "target": {
-                "nodeType": "cell-as-resource",
-                "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\") + \"/PostalAddress\"",
-                "isRowNumberCell": false,
-                "columnName": "NAME",
-                "rdfTypes": [],
-                "links": []
-              }
-            }
-          ]
-        },
-        {
-          "nodeType": "cell-as-resource",
-          "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\") + \"/PostalAddress\"",
+          "expression": "value + \"/PostalAddress\"",
           "isRowNumberCell": false,
           "columnName": "NAME",
           "rdfTypes": [
