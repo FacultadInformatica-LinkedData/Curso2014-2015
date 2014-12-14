@@ -1,0 +1,1916 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ont: <http://www.semanticweb.org/group08/School/Public#> .
+@prefix base: <http://www.semanticweb.org/group08/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix geosp: <http://www.opengis.net/ont/geosparql#> .
+
+
+<http://www.semanticweb.org/group08/School/Public/UlloaElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Ulloa Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5404501/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/UlloaElementarySchool/geo> ;
+	ont:geometry "POINT(-122.499389 37.73733)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/UlloaElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.499389"^^xsd:double ;
+	schema:latitude "37.73733"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/FRANCISCOMIDDLESCHOOL> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "FRANCISCO MIDDLE SCHOOL" ;
+	ont:category "Middle School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5350457/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/FRANCISCOMIDDLESCHOOL/geo> ;
+	ont:geometry "POINT(-122.411022 37.80436)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/FRANCISCOMIDDLESCHOOL/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.411022"^^xsd:double ;
+	schema:latitude "37.80436"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/YickWoElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Yick Wo Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5410867/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/YickWoElementarySchool/geo> ;
+	ont:geometry "POINT(-122.416597 37.8019)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/YickWoElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.416597"^^xsd:double ;
+	schema:latitude "37.8019"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/GarfieldElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Garfield Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/4112039/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/GarfieldElementarySchool/geo> ;
+	ont:geometry "POINT(-122.406532 37.801935)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/GarfieldElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.406532"^^xsd:double ;
+	schema:latitude "37.801935"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/ParkerJeanElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Parker, Jean Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/ParkerJeanElementarySchool/geo> ;
+	ont:geometry "POINT(-122.411053 37.797643)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/ParkerJeanElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.411053"^^xsd:double ;
+	schema:latitude "37.797643"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/SpringValleyElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Spring Valley Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/4091462/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/SpringValleyElementarySchool/geo> ;
+	ont:geometry "POINT(-122.4188 37.79402)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/SpringValleyElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.4188"^^xsd:double ;
+	schema:latitude "37.79402"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/ChineseEducationCenterElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Chinese Education Center Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/ChineseEducationCenterElementarySchool/geo> ;
+	ont:geometry "POINT(-122.404058 37.794768)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/ChineseEducationCenterElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.404058"^^xsd:double ;
+	schema:latitude "37.794768"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/MarinaMiddleSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Marina Middle School" ;
+	ont:category "Middle School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5370515/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/MarinaMiddleSchool/geo> ;
+	ont:geometry "POINT(-122.436047 37.80168)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/MarinaMiddleSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.436047"^^xsd:double ;
+	schema:latitude "37.80168"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/TuleElkParkEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Tule Elk Park Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/TuleElkParkEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.434561 37.799363)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/TuleElkParkEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.434561"^^xsd:double ;
+	schema:latitude "37.799363"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/ShermanElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Sherman Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5171930/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/ShermanElementarySchool/geo> ;
+	ont:geometry "POINT(-122.426118 37.797802)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/ShermanElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.426118"^^xsd:double ;
+	schema:latitude "37.797802"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/ReddingElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Redding Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5386750/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/ReddingElementarySchool/geo> ;
+	ont:geometry "POINT(-122.419243 37.789578)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/ReddingElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.419243"^^xsd:double ;
+	schema:latitude "37.789578"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/GatewayHighSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Gateway High School" ;
+	ont:category "Charter School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5190884/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/GatewayHighSchool/geo> ;
+	ont:geometry "POINT(-122.437497 37.783151)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/GatewayHighSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.437497"^^xsd:double ;
+	schema:latitude "37.783151"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/HARVEYMILKCHILDRENCENTER> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "HARVEY MILK CHILDREN CENTER" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/HARVEYMILKCHILDRENCENTER/geo> ;
+	ont:geometry "POINT(-122.42004 37.783688)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/HARVEYMILKCHILDRENCENTER/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.42004"^^xsd:double ;
+	schema:latitude "37.783688"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/CreativeArtsCharterSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Creative Arts Charter School" ;
+	ont:category "Charter School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5352849/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/CreativeArtsCharterSchool/geo> ;
+	ont:geometry "POINT(-122.435927 37.779347)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/CreativeArtsCharterSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.435927"^^xsd:double ;
+	schema:latitude "37.779347"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/LAGUNAGOLDENGATECHILDCARECENTERPREKSCHOOL> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "LAGUNA GOLDEN GATE CHILD CARE CENTER,  PRE-K SCHOOL" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/LAGUNAGOLDENGATECHILDCARECENTERPREKSCHOOL/geo> ;
+	ont:geometry "POINT(-122.427315 37.780628)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/LAGUNAGOLDENGATECHILDCARECENTERPREKSCHOOL/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.427315"^^xsd:double ;
+	schema:latitude "37.780628"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/MuirJohnElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Muir, John Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/MuirJohnElementarySchool/geo> ;
+	ont:geometry "POINT(-122.428787 37.773724)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/MuirJohnElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.428787"^^xsd:double ;
+	schema:latitude "37.773724"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/CobbDrWilliamLElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Cobb, Dr. William L. Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/CobbDrWilliamLElementarySchool/geo> ;
+	ont:geometry "POINT(-122.439627 37.787702)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/CobbDrWilliamLElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.439627"^^xsd:double ;
+	schema:latitude "37.787702"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/RooseveltTheodoreMiddleSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Roosevelt, Theodore Middle School" ;
+	ont:category "Middle School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/RooseveltTheodoreMiddleSchool/geo> ;
+	ont:geometry "POINT(-122.458356 37.782285)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/RooseveltTheodoreMiddleSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.458356"^^xsd:double ;
+	schema:latitude "37.782285"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/WallenbergRaoulHighSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Wallenberg, Raoul High School" ;
+	ont:category "High School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/WallenbergRaoulHighSchool/geo> ;
+	ont:geometry "POINT(-122.446757 37.779848)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/WallenbergRaoulHighSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.446757"^^xsd:double ;
+	schema:latitude "37.779848"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/NewTraditionsElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "New Traditions Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/7231635/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/NewTraditionsElementarySchool/geo> ;
+	ont:geometry "POINT(-122.450267 37.773885)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/NewTraditionsElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.450267"^^xsd:double ;
+	schema:latitude "37.773885"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/GrattanElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Grattan Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5353817/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/GrattanElementarySchool/geo> ;
+	ont:geometry "POINT(-122.450449 37.763698)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/GrattanElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.450449"^^xsd:double ;
+	schema:latitude "37.763698"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/AlamoElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Alamo Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5322807/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/AlamoElementarySchool/geo> ;
+	ont:geometry "POINT(-122.482263 37.783001)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/AlamoElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.482263"^^xsd:double ;
+	schema:latitude "37.783001"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/SutroElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Sutro Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/6330443/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/SutroElementarySchool/geo> ;
+	ont:geometry "POINT(-122.471452 37.783603)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/SutroElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.471452"^^xsd:double ;
+	schema:latitude "37.783603"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/PeabodyGeorgeElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Peabody, George Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/PeabodyGeorgeElementarySchool/geo> ;
+	ont:geometry "POINT(-122.465025 37.783854)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/PeabodyGeorgeElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.465025"^^xsd:double ;
+	schema:latitude "37.783854"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/PresidioMiddleSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Presidio Middle School" ;
+	ont:category "Middle School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5384858/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/PresidioMiddleSchool/geo> ;
+	ont:geometry "POINT(-122.489627 37.780865)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/PresidioMiddleSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.489627"^^xsd:double ;
+	schema:latitude "37.780865"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/WashingtonGeorgeHighSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Washington, George High School" ;
+	ont:category "High School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/WashingtonGeorgeHighSchool/geo> ;
+	ont:geometry "POINT(-122.491023 37.777878)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/WashingtonGeorgeHighSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.491023"^^xsd:double ;
+	schema:latitude "37.777878"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/LafayetteElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Lafayette Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/4139340/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/LafayetteElementarySchool/geo> ;
+	ont:geometry "POINT(-122.496876 37.777056)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/LafayetteElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.496876"^^xsd:double ;
+	schema:latitude "37.777056"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/SFCountySpecialEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "S.F. County Special Education School" ;
+	ont:category "County School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/SFCountySpecialEducationSchool/geo> ;
+	ont:geometry "POINT(-122.483868 37.775524)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/SFCountySpecialEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.483868"^^xsd:double ;
+	schema:latitude "37.775524"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/ArgonneElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Argonne Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5324582/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/ArgonneElementarySchool/geo> ;
+	ont:geometry "POINT(-122.476329 37.775337)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/ArgonneElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.476329"^^xsd:double ;
+	schema:latitude "37.775337"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/McCoppinFrankElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "McCoppin, Frank Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/McCoppinFrankElementarySchool/geo> ;
+	ont:geometry "POINT(-122.464232 37.776305)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/McCoppinFrankElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.464232"^^xsd:double ;
+	schema:latitude "37.776305"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/ArgonneEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Argonne Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/ArgonneEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.474057 37.77397)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/ArgonneEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.474057"^^xsd:double ;
+	schema:latitude "37.77397"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/PCCBigPictureSanFrancisco> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "PCC/Big Picture San Francisco" ;
+	ont:category "County School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/PCCBigPictureSanFrancisco/geo> ;
+	ont:geometry "POINT(-122.463852 37.763219)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/PCCBigPictureSanFrancisco/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.463852"^^xsd:double ;
+	schema:latitude "37.763219"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/JeffersonElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Jefferson Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/4116437/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/JeffersonElementarySchool/geo> ;
+	ont:geometry "POINT(-122.476815 37.763294)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/JeffersonElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.476815"^^xsd:double ;
+	schema:latitude "37.763294"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/JeffersonEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Jefferson Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/JeffersonEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.483167 37.76232)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/JeffersonEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.483167"^^xsd:double ;
+	schema:latitude "37.76232"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/WaldenHouse> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Walden House" ;
+	ont:category "County School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/6520819/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/WaldenHouse/geo> ;
+	ont:geometry "POINT(-122.502232 37.761386)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/WaldenHouse/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.502232"^^xsd:double ;
+	schema:latitude "37.761386"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/LawtonAlternativeSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Lawton Alternative School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/LawtonAlternativeSchool/geo> ;
+	ont:geometry "POINT(-122.489098 37.758051)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/LawtonAlternativeSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.489098"^^xsd:double ;
+	schema:latitude "37.758051"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/KeyFrancisScottElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Key, Francis Scott Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/KeyFrancisScottElementarySchool/geo> ;
+	ont:geometry "POINT(-122.502 37.758098)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/KeyFrancisScottElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.502"^^xsd:double ;
+	schema:latitude "37.758098"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/GianniniAPMiddleSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Giannini, A. P. Middle School" ;
+	ont:category "Middle School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/GianniniAPMiddleSchool/geo> ;
+	ont:geometry "POINT(-122.497214 37.750616)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/GianniniAPMiddleSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.497214"^^xsd:double ;
+	schema:latitude "37.750616"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/StevensonRobertLouisElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Stevenson, Robert Louis Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/StevensonRobertLouisElementarySchool/geo> ;
+	ont:geometry "POINT(-122.492756 37.748844)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/StevensonRobertLouisElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.492756"^^xsd:double ;
+	schema:latitude "37.748844"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/HooverHerbertMiddleSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Hoover, Herbert Middle School" ;
+	ont:category "Middle School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/HooverHerbertMiddleSchool/geo> ;
+	ont:geometry "POINT(-122.468826 37.745744)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/HooverHerbertMiddleSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.468826"^^xsd:double ;
+	schema:latitude "37.745744"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/FeinsteinDianneElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Feinstein, Dianne Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/FeinsteinDianneElementarySchool/geo> ;
+	ont:geometry "POINT(-122.481366 37.739686)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/FeinsteinDianneElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.481366"^^xsd:double ;
+	schema:latitude "37.739686"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/McKinleyElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "McKinley Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5162384/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/McKinleyElementarySchool/geo> ;
+	ont:geometry "POINT(-122.436455 37.766972)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/McKinleyElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.436455"^^xsd:double ;
+	schema:latitude "37.766972"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/AlvaradoElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Alvarado Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5323579/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/AlvaradoElementarySchool/geo> ;
+	ont:geometry "POINT(-122.438162 37.753715)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/AlvaradoElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.438162"^^xsd:double ;
+	schema:latitude "37.753715"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/MiralomaElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Miraloma Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5373537/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/MiralomaElementarySchool/geo> ;
+	ont:geometry "POINT(-122.450137 37.739126)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/MiralomaElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.450137"^^xsd:double ;
+	schema:latitude "37.739126"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/WestPortalElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "West Portal Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5408186/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/WestPortalElementarySchool/geo> ;
+	ont:geometry "POINT(-122.464389 37.742816)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/WestPortalElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.464389"^^xsd:double ;
+	schema:latitude "37.742816"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/SunnysideElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Sunnyside Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5214859/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/SunnysideElementarySchool/geo> ;
+	ont:geometry "POINT(-122.448234 37.730288)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/SunnysideElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.448234"^^xsd:double ;
+	schema:latitude "37.730288"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/SloatCommodoreElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Sloat, Commodore Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/SloatCommodoreElementarySchool/geo> ;
+	ont:geometry "POINT(-122.470569 37.73167)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/SloatCommodoreElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.470569"^^xsd:double ;
+	schema:latitude "37.73167"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/MarshallElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Marshall Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/4120621/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/MarshallElementarySchool/geo> ;
+	ont:geometry "POINT(-122.419007 37.766455)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/MarshallElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.419007"^^xsd:double ;
+	schema:latitude "37.766455"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/SanchezElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Sanchez Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5285074/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/SanchezElementarySchool/geo> ;
+	ont:geometry "POINT(-122.4305 37.76346)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/SanchezElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.4305"^^xsd:double ;
+	schema:latitude "37.76346"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/EverettMiddleSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Everett Middle School" ;
+	ont:category "Middle School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5347143/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/EverettMiddleSchool/geo> ;
+	ont:geometry "POINT(-122.428977 37.763613)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/EverettMiddleSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.428977"^^xsd:double ;
+	schema:latitude "37.763613"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/LogCabinRanchCountySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Log Cabin Ranch County School" ;
+	ont:category "County School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/LogCabinRanchCountySchool/geo> ;
+	ont:geometry "POINT(-122.256858 37.304851)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/LogCabinRanchCountySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.256858"^^xsd:double ;
+	schema:latitude "37.304851"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/MissionHighSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Mission High School" ;
+	ont:category "High School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/7041293/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/MissionHighSchool/geo> ;
+	ont:geometry "POINT(-122.427113 37.761774)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/MissionHighSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.427113"^^xsd:double ;
+	schema:latitude "37.761774"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/EdisonCharterK8> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Edison Charter K-8" ;
+	ont:category "Charter School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/EdisonCharterK8/geo> ;
+	ont:geometry "POINT(-122.426266 37.754436)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/EdisonCharterK8/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.426266"^^xsd:double ;
+	schema:latitude "37.754436"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/BuenaVistaHoraceMann> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Buena Vista/Horace Mann" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/BuenaVistaHoraceMann/geo> ;
+	ont:geometry "POINT(-122.420297 37.753073)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/BuenaVistaHoraceMann/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.420297"^^xsd:double ;
+	schema:latitude "37.753073"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/CarmichaelBessie68Campus> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Carmichael, Bessie (6-8 Campus)" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/CarmichaelBessie68Campus/geo> ;
+	ont:geometry "POINT(-122.400479 37.780555)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/CarmichaelBessie68Campus/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.400479"^^xsd:double ;
+	schema:latitude "37.780555"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/CarmichaelBessieK5Campus> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Carmichael, Bessie (K-5 Campus)" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/CarmichaelBessieK5Campus/geo> ;
+	ont:geometry "POINT(-122.406688 37.776105)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/CarmichaelBessieK5Campus/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.406688"^^xsd:double ;
+	schema:latitude "37.776105"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/DowntownHighSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Downtown High School" ;
+	ont:category "High School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5343886/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/DowntownHighSchool/geo> ;
+	ont:geometry "POINT(-122.403875 37.761363)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/DowntownHighSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.403875"^^xsd:double ;
+	schema:latitude "37.761363"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/WebsterDanielElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Webster, Daniel Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/WebsterDanielElementarySchool/geo> ;
+	ont:geometry "POINT(-122.395973 37.760578)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/WebsterDanielElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.395973"^^xsd:double ;
+	schema:latitude "37.760578"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/BryantElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Bryant Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/4103463/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/BryantElementarySchool/geo> ;
+	ont:geometry "POINT(-122.40482 37.751581)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/BryantElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.40482"^^xsd:double ;
+	schema:latitude "37.751581"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/StarrKingElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Starr King Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5398694/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/StarrKingElementarySchool/geo> ;
+	ont:geometry "POINT(-122.399211 37.753239)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/StarrKingElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.399211"^^xsd:double ;
+	schema:latitude "37.753239"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/BryantEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Bryant Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/BryantEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.404701 37.751631)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/BryantEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.404701"^^xsd:double ;
+	schema:latitude "37.751631"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/POTRERONURSERY> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "POTRERO NURSERY" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/POTRERONURSERY/geo> ;
+	ont:geometry "POINT(-122.395998 37.752043)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/POTRERONURSERY/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.395998"^^xsd:double ;
+	schema:latitude "37.752043"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/HarteBretElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Harte, Bret Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/HarteBretElementarySchool/geo> ;
+	ont:geometry "POINT(-122.388894 37.718283)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/HarteBretElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.388894"^^xsd:double ;
+	schema:latitude "37.718283"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/HavardLeolaMEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Havard, Leola M. Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/HavardLeolaMEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.388816 37.73405)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/HavardLeolaMEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.388816"^^xsd:double ;
+	schema:latitude "37.73405"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/MarshallThurgoodHighSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Marshall, Thurgood High School" ;
+	ont:category "High School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/MarshallThurgoodHighSchool/geo> ;
+	ont:geometry "POINT(-122.401465 37.735732)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/MarshallThurgoodHighSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.401465"^^xsd:double ;
+	schema:latitude "37.735732"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/DrewDrCharlesRElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Drew, Dr. Charles R. Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/DrewDrCharlesRElementarySchool/geo> ;
+	ont:geometry "POINT(-122.393995 37.731322)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/DrewDrCharlesRElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.393995"^^xsd:double ;
+	schema:latitude "37.731322"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/ReverePaulSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Revere, Paul School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/ReverePaulSchool/geo> ;
+	ont:geometry "POINT(-122.413158 37.737263)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/ReverePaulSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.413158"^^xsd:double ;
+	schema:latitude "37.737263"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/SerraJuniperoElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Serra, Junipero Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/SerraJuniperoElementarySchool/geo> ;
+	ont:geometry "POINT(-122.421498 37.736985)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/SerraJuniperoElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.421498"^^xsd:double ;
+	schema:latitude "37.736985"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/HillcrestElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Hillcrest Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/4114753/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/HillcrestElementarySchool/geo> ;
+	ont:geometry "POINT(-122.418862 37.728822)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/HillcrestElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.418862"^^xsd:double ;
+	schema:latitude "37.728822"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/KingDrMartinLutherJrMiddleSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "King, Dr. Martin Luther, Jr. Middle School" ;
+	ont:category "Middle School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/KingDrMartinLutherJrMiddleSchool/geo> ;
+	ont:geometry "POINT(-122.405468 37.727703)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/KingDrMartinLutherJrMiddleSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.405468"^^xsd:double ;
+	schema:latitude "37.727703"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/TaylorERElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Taylor, E. R. Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/TaylorERElementarySchool/geo> ;
+	ont:geometry "POINT(-122.407466 37.72768)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/TaylorERElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.407466"^^xsd:double ;
+	schema:latitude "37.72768"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/ExcelsiorMonroeEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Excelsior Monroe Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/ExcelsiorMonroeEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.430476 37.725642)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/ExcelsiorMonroeEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.430476"^^xsd:double ;
+	schema:latitude "37.725642"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/SFCOMMUNITYSCHOOL> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "S.F. COMMUNITY SCHOOL" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/SFCOMMUNITYSCHOOL/geo> ;
+	ont:geometry "POINT(-122.432134 37.726105)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/SFCOMMUNITYSCHOOL/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.432134"^^xsd:double ;
+	schema:latitude "37.726105"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/JordanJuneHighSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Jordan, June High School" ;
+	ont:category "High School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/JordanJuneHighSchool/geo> ;
+	ont:geometry "POINT(-122.425253 37.71924)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/JordanJuneHighSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.425253"^^xsd:double ;
+	schema:latitude "37.71924"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/ClevelandElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Cleveland Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/4138069/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/ClevelandElementarySchool/geo> ;
+	ont:geometry "POINT(-122.42888 37.72063)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/ClevelandElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.42888"^^xsd:double ;
+	schema:latitude "37.72063"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/BurtonPhillipandSalaHighSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Burton, Phillip and Sala High School" ;
+	ont:category "High School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/BurtonPhillipandSalaHighSchool/geo> ;
+	ont:geometry "POINT(-122.406552 37.721545)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/BurtonPhillipandSalaHighSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.406552"^^xsd:double ;
+	schema:latitude "37.721545"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/ElDoradoElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "El Dorado Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5345671/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/ElDoradoElementarySchool/geo> ;
+	ont:geometry "POINT(-122.407296 37.718422)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/ElDoradoElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.407296"^^xsd:double ;
+	schema:latitude "37.718422"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/VisitacionValleyMiddleSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Visitacion Valley Middle School" ;
+	ont:category "Middle School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/7231625/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/VisitacionValleyMiddleSchool/geo> ;
+	ont:geometry "POINT(-122.412408 37.715652)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/VisitacionValleyMiddleSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.412408"^^xsd:double ;
+	schema:latitude "37.715652"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/VisitacionValleyElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Visitacion Valley Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5406599/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/VisitacionValleyElementarySchool/geo> ;
+	ont:geometry "POINT(-122.410275 37.712525)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/VisitacionValleyElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.410275"^^xsd:double ;
+	schema:latitude "37.712525"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/McLarenJohnEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "McLaren, John Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/McLarenJohnEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.423186 37.713651)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/McLarenJohnEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.423186"^^xsd:double ;
+	schema:latitude "37.713651"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/ExcelsiorGuadalupeEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Excelsior Guadalupe Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/ExcelsiorGuadalupeEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.4345 37.710135)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/ExcelsiorGuadalupeEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.4345"^^xsd:double ;
+	schema:latitude "37.710135"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/LongfellowElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Longfellow Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5125233/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/LongfellowElementarySchool/geo> ;
+	ont:geometry "POINT(-122.447126 37.710235)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/LongfellowElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.447126"^^xsd:double ;
+	schema:latitude "37.710235"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/RodriguezZaidaTEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Rodriguez, Zaida T. Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/RodriguezZaidaTEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.419171 37.750148)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/RodriguezZaidaTEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.419171"^^xsd:double ;
+	schema:latitude "37.750148"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/LickJamesMiddleSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Lick, James Middle School" ;
+	ont:category "Middle School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/LickJamesMiddleSchool/geo> ;
+	ont:geometry "POINT(-122.432155 37.749544)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/LickJamesMiddleSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.432155"^^xsd:double ;
+	schema:latitude "37.749544"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/MissionEducationCenterElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Mission Education Center Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/MissionEducationCenterElementarySchool/geo> ;
+	ont:geometry "POINT(-122.431436 37.742204)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/MissionEducationCenterElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.431436"^^xsd:double ;
+	schema:latitude "37.742204"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/FairmountElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Fairmount Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5153614/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/FairmountElementarySchool/geo> ;
+	ont:geometry "POINT(-122.425009 37.74046)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/FairmountElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.425009"^^xsd:double ;
+	schema:latitude "37.74046"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/GlenParkElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Glen Park Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5254393/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/GlenParkElementarySchool/geo> ;
+	ont:geometry "POINT(-122.435787 37.733097)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/GlenParkElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.435787"^^xsd:double ;
+	schema:latitude "37.733097"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/BalboaHighSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Balboa High School" ;
+	ont:category "High School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5325706/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/BalboaHighSchool/geo> ;
+	ont:geometry "POINT(-122.4408 37.722171)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/BalboaHighSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.4408"^^xsd:double ;
+	schema:latitude "37.722171"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/DenmanJamesMiddleSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Denman, James Middle School" ;
+	ont:category "Middle School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/DenmanJamesMiddleSchool/geo> ;
+	ont:geometry "POINT(-122.442873 37.721538)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/DenmanJamesMiddleSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.442873"^^xsd:double ;
+	schema:latitude "37.721538"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/SanMiguelEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "San Miguel Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/SanMiguelEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.444858 37.721491)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/SanMiguelEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.444858"^^xsd:double ;
+	schema:latitude "37.721491"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/OrtegaJoseElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Ortega, Jose Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/OrtegaJoseElementarySchool/geo> ;
+	ont:geometry "POINT(-122.466294 37.716379)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/OrtegaJoseElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.466294"^^xsd:double ;
+	schema:latitude "37.716379"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/SheridanElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Sheridan Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/4130822/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/SheridanElementarySchool/geo> ;
+	ont:geometry "POINT(-122.459629 37.714476)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/SheridanElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.459629"^^xsd:double ;
+	schema:latitude "37.714476"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/LakeshoreElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Lakeshore Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5123888/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/LakeshoreElementarySchool/geo> ;
+	ont:geometry "POINT(-122.486009 37.730051)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/LakeshoreElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.486009"^^xsd:double ;
+	schema:latitude "37.730051"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/LOWELLHIGHSCHOOL> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "LOWELL HIGH SCHOOL" ;
+	ont:category "High School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5368874/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/LOWELLHIGHSCHOOL/geo> ;
+	ont:geometry "POINT(-122.483402 37.730624)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/LOWELLHIGHSCHOOL/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.483402"^^xsd:double ;
+	schema:latitude "37.730624"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/HilltopSpecialServicesCenter> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Hilltop Special Services Center" ;
+	ont:category "County School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/HilltopSpecialServicesCenter/geo> ;
+	ont:geometry "POINT(-122.409397 37.750432)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/HilltopSpecialServicesCenter/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.409397"^^xsd:double ;
+	schema:latitude "37.750432"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/GatewayMiddleSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Gateway Middle School" ;
+	ont:category "Charter School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5155541/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/GatewayMiddleSchool/geo> ;
+	ont:geometry "POINT(-122.433438 37.792805)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/GatewayMiddleSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.433438"^^xsd:double ;
+	schema:latitude "37.792805"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/LilienthalClaire38WinfieldScottCampus> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Lilienthal, Claire (3-8 Winfield Scott Campus)" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/LilienthalClaire38WinfieldScottCampus/geo> ;
+	ont:geometry "POINT(-122.443198 37.803219)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/LilienthalClaire38WinfieldScottCampus/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.443198"^^xsd:double ;
+	schema:latitude "37.803219"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/WellsIdaBHighSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Wells, Ida B. High School" ;
+	ont:category "High School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/WellsIdaBHighSchool/geo> ;
+	ont:geometry "POINT(-122.434037 37.774986)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/WellsIdaBHighSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.434037"^^xsd:double ;
+	schema:latitude "37.774986"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/ChineseImmersionSchoolatDeAvila> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Chinese Immersion School at DeAvila" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/ChineseImmersionSchoolatDeAvila/geo> ;
+	ont:geometry "POINT(-122.444348 37.769734)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/ChineseImmersionSchoolatDeAvila/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.444348"^^xsd:double ;
+	schema:latitude "37.769734"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/APTOSMIDDLESCHOOL> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "APTOS MIDDLE SCHOOL" ;
+	ont:category "Middle School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5324408/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/APTOSMIDDLESCHOOL/geo> ;
+	ont:geometry "POINT(-122.466018 37.729694)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/APTOSMIDDLESCHOOL/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.466018"^^xsd:double ;
+	schema:latitude "37.729694"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/LincolnAbrahamHighSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Lincoln, Abraham High School" ;
+	ont:category "High School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/LincolnAbrahamHighSchool/geo> ;
+	ont:geometry "POINT(-122.480295 37.74656)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/LincolnAbrahamHighSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.480295"^^xsd:double ;
+	schema:latitude "37.74656"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/SUNSETELEMENTARYSCHOOL> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "SUNSET ELEMENTARY SCHOOL" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/4552619/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/SUNSETELEMENTARYSCHOOL/geo> ;
+	ont:geometry "POINT(-122.499523 37.750593)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/SUNSETELEMENTARYSCHOOL/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.499523"^^xsd:double ;
+	schema:latitude "37.750593"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/ChinJohnYehallElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Chin, John Yehall Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/ChinJohnYehallElementarySchool/geo> ;
+	ont:geometry "POINT(-122.403217 37.798611)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/ChinJohnYehallElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.403217"^^xsd:double ;
+	schema:latitude "37.798611"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/StocktonCommodoreEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Stockton, Commodore Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/StocktonCommodoreEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.409086 37.795045)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/StocktonCommodoreEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.409086"^^xsd:double ;
+	schema:latitude "37.795045"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/LauGordonJElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Lau, Gordon J. Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/LauGordonJElementarySchool/geo> ;
+	ont:geometry "POINT(-122.408925 37.794079)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/LauGordonJElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.408925"^^xsd:double ;
+	schema:latitude "37.794079"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/GalileoHighSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Galileo High School" ;
+	ont:category "High School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5351390/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/GalileoHighSchool/geo> ;
+	ont:geometry "POINT(-122.424479 37.803748)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/GalileoHighSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.424479"^^xsd:double ;
+	schema:latitude "37.803748"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/ParksRosaElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Parks, Rosa Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/ParksRosaElementarySchool/geo> ;
+	ont:geometry "POINT(-122.430012 37.783493)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/ParksRosaElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.430012"^^xsd:double ;
+	schema:latitude "37.783493"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/CivicCenterSecondarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Civic Center Secondary School" ;
+	ont:category "County School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/CivicCenterSecondarySchool/geo> ;
+	ont:geometry "POINT(-122.422878 37.780314)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/CivicCenterSecondarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.422878"^^xsd:double ;
+	schema:latitude "37.780314"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/LilienthalClaireK2MadisonCampus> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Lilienthal, Claire (K-2 Madison Campus)" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/LilienthalClaireK2MadisonCampus/geo> ;
+	ont:geometry "POINT(-122.458067 37.787226)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/LilienthalClaireK2MadisonCampus/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.458067"^^xsd:double ;
+	schema:latitude "37.787226"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/YuAliceFongAlternativeSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Yu, Alice Fong Alternative School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/YuAliceFongAlternativeSchool/geo> ;
+	ont:geometry "POINT(-122.469711 37.75891)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/YuAliceFongAlternativeSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.469711"^^xsd:double ;
+	schema:latitude "37.75891"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/NoriegaEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Noriega Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/NoriegaEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.503659 37.75385)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/NoriegaEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.503659"^^xsd:double ;
+	schema:latitude "37.75385"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/IndependenceHighSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Independence High School" ;
+	ont:category "High School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5158413/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/IndependenceHighSchool/geo> ;
+	ont:geometry "POINT(-122.499897 37.743402)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/IndependenceHighSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.499897"^^xsd:double ;
+	schema:latitude "37.743402"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/ClarendonElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Clarendon Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/4105825/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/ClarendonElementarySchool/geo> ;
+	ont:geometry "POINT(-122.456323 37.753757)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/ClarendonElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.456323"^^xsd:double ;
+	schema:latitude "37.753757"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/HARVEYMILKCIVILRIGHTSACADEMY> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "HARVEY MILK CIVIL RIGHTS ACADEMY" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5343828/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/HARVEYMILKCIVILRIGHTSACADEMY/geo> ;
+	ont:geometry "POINT(-122.436455 37.75898)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/HARVEYMILKCIVILRIGHTSACADEMY/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.436455"^^xsd:double ;
+	schema:latitude "37.75898"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/Rooftop58MayedaCampus> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Rooftop (5-8 Mayeda Campus)" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/Rooftop58MayedaCampus/geo> ;
+	ont:geometry "POINT(-122.44449 37.757408)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/Rooftop58MayedaCampus/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.44449"^^xsd:double ;
+	schema:latitude "37.757408"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/RooftopK4BurnettCampus> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Rooftop (K-4 Burnett Campus)" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/RooftopK4BurnettCampus/geo> ;
+	ont:geometry "POINT(-122.443917 37.754995)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/RooftopK4BurnettCampus/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.443917"^^xsd:double ;
+	schema:latitude "37.754995"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/MosconeGeorgeElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Moscone, George Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/MosconeGeorgeElementarySchool/geo> ;
+	ont:geometry "POINT(-122.412562 37.756999)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/MosconeGeorgeElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.412562"^^xsd:double ;
+	schema:latitude "37.756999"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/MahlerTheresaSEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Mahler, Theresa S. Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/MahlerTheresaSEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.428097 37.755274)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/MahlerTheresaSEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.428097"^^xsd:double ;
+	schema:latitude "37.755274"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/ChavezCesarElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Chavez, Cesar Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/ChavezCesarElementarySchool/geo> ;
+	ont:geometry "POINT(-122.415092 37.754899)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/ChavezCesarElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.415092"^^xsd:double ;
+	schema:latitude "37.754899"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/InternationalStudiesAcademy> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "International Studies Academy" ;
+	ont:category "High School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5359592/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/InternationalStudiesAcademy/geo> ;
+	ont:geometry "POINT(-122.400805 37.761826)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/InternationalStudiesAcademy/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.400805"^^xsd:double ;
+	schema:latitude "37.761826"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/MalcolmXElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Malcolm X Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/4139494/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/MalcolmXElementarySchool/geo> ;
+	ont:geometry "POINT(-122.381102 37.734206)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/MalcolmXElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.381102"^^xsd:double ;
+	schema:latitude "37.734206"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/MetropolitanArtsandTech> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Metropolitan Arts and Tech" ;
+	ont:category "Charter School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/MetropolitanArtsandTech/geo> ;
+	ont:geometry "POINT(-122.382241 37.732122)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/MetropolitanArtsandTech/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.382241"^^xsd:double ;
+	schema:latitude "37.732122"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/FlynnLeonardElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Flynn, Leonard Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/FlynnLeonardElementarySchool/geo> ;
+	ont:geometry "POINT(-122.411965 37.747738)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/FlynnLeonardElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.411965"^^xsd:double ;
+	schema:latitude "37.747738"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/AsawaRuthSanFranciscoSchooloftheArtsSOTA> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Asawa, Ruth - San Francisco School of the Arts (SOTA)" ;
+	ont:category "High School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/AsawaRuthSanFranciscoSchooloftheArtsSOTA/geo> ;
+	ont:geometry "POINT(-122.448667 37.745431)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/AsawaRuthSanFranciscoSchooloftheArtsSOTA/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.448667"^^xsd:double ;
+	schema:latitude "37.745431"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/CarverDrGeorgeWashingtonElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Carver, Dr. George Washington Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/CarverDrGeorgeWashingtonElementarySchool/geo> ;
+	ont:geometry "POINT(-122.38557 37.731843)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/CarverDrGeorgeWashingtonElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.38557"^^xsd:double ;
+	schema:latitude "37.731843"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/FiveKeysCharter> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Five Keys Charter" ;
+	ont:category "Charter School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/7231662/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/FiveKeysCharter/geo> ;
+	ont:geometry "POINT(-122.40218 37.777153)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/FiveKeysCharter/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.40218"^^xsd:double ;
+	schema:latitude "37.777153"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/TenderloinElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Tenderloin Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/TenderloinElementarySchool/geo> ;
+	ont:geometry "POINT(-122.419951 37.781855)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/TenderloinElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.419951"^^xsd:double ;
+	schema:latitude "37.781855"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/O'ConnellJohnHighSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "O'Connell, John High School" ;
+	ont:category "High School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/O'ConnellJohnHighSchool/geo> ;
+	ont:geometry "POINT(-122.414215 37.759517)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/O'ConnellJohnHighSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.414215"^^xsd:double ;
+	schema:latitude "37.759517"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/AcademyofArtsandSciences> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Academy of Arts and Sciences" ;
+	ont:category "High School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/7231609/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/AcademyofArtsandSciences/geo> ;
+	ont:geometry "POINT(-122.449485 37.745158)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/AcademyofArtsandSciences/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.449485"^^xsd:double ;
+	schema:latitude "37.745158"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/SFInternationalHighSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "S. F. International High School" ;
+	ont:category "High School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/SFInternationalHighSchool/geo> ;
+	ont:geometry "POINT(-122.40864 37.755246)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/SFInternationalHighSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.40864"^^xsd:double ;
+	schema:latitude "37.755246"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/CarmichaelBessieEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Carmichael, Bessie Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/CarmichaelBessieEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.406787 37.776573)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/CarmichaelBessieEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.406787"^^xsd:double ;
+	schema:latitude "37.776573"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/ChavezCesarPreschool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Chavez, Cesar Preschool" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/ChavezCesarPreschool/geo> ;
+	ont:geometry "POINT(-122.415083 37.754763)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/ChavezCesarPreschool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.415083"^^xsd:double ;
+	schema:latitude "37.754763"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/CobbDrWilliamPreschool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Cobb, Dr. William Preschool" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/CobbDrWilliamPreschool/geo> ;
+	ont:geometry "POINT(-122.439154 37.787992)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/CobbDrWilliamPreschool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.439154"^^xsd:double ;
+	schema:latitude "37.787992"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/DrewDrCharlesEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Drew, Dr. Charles Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/DrewDrCharlesEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.39388 37.731768)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/DrewDrCharlesEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.39388"^^xsd:double ;
+	schema:latitude "37.731768"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/SanchezPreschool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Sanchez Preschool" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/SanchezPreschool/geo> ;
+	ont:geometry "POINT(-122.430499 37.763168)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/SanchezPreschool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.430499"^^xsd:double ;
+	schema:latitude "37.763168"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/FlynnLeonardEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Flynn, Leonard Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/FlynnLeonardEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.411947 37.748043)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/FlynnLeonardEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.411947"^^xsd:double ;
+	schema:latitude "37.748043"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/GarfieldEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Garfield Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/GarfieldEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.406797 37.801902)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/GarfieldEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.406797"^^xsd:double ;
+	schema:latitude "37.801902"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/GrattanEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Grattan Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/GrattanEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.450397 37.763498)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/GrattanEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.450397"^^xsd:double ;
+	schema:latitude "37.763498"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/GuadalupeElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Guadalupe Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5354603/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/GuadalupeElementarySchool/geo> ;
+	ont:geometry "POINT(-122.434117 37.710315)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/GuadalupeElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.434117"^^xsd:double ;
+	schema:latitude "37.710315"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/HarteBretEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Harte, Bret Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/HarteBretEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.389804 37.718197)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/HarteBretEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.389804"^^xsd:double ;
+	schema:latitude "37.718197"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/KeyFrancisScottEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Key, Francis Scott Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/KeyFrancisScottEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.502273 37.757835)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/KeyFrancisScottEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.502273"^^xsd:double ;
+	schema:latitude "37.757835"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/TaylorERPreschool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Taylor, E.R. Preschool" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/TaylorERPreschool/geo> ;
+	ont:geometry "POINT(-122.40736 37.727413)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/TaylorERPreschool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.40736"^^xsd:double ;
+	schema:latitude "37.727413"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/LasAmericasEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Las Americas Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/LasAmericasEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.413248 37.757122)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/LasAmericasEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.413248"^^xsd:double ;
+	schema:latitude "37.757122"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/LauGordonJPreschool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Lau, Gordon J. Preschool" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/LauGordonJPreschool/geo> ;
+	ont:geometry "POINT(-122.40859 37.794153)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/LauGordonJPreschool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.40859"^^xsd:double ;
+	schema:latitude "37.794153"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/McCoppinFrankEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "McCoppin, Frank Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/McCoppinFrankEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.464238 37.776442)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/McCoppinFrankEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.464238"^^xsd:double ;
+	schema:latitude "37.776442"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/MonroeElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Monroe Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/5163361/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/MonroeElementarySchool/geo> ;
+	ont:geometry "POINT(-122.430289 37.725513)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/MonroeElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.430289"^^xsd:double ;
+	schema:latitude "37.725513"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/MuirJohnPreschool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Muir, John Preschool" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/MuirJohnPreschool/geo> ;
+	ont:geometry "POINT(-122.428774 37.77361)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/MuirJohnPreschool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.428774"^^xsd:double ;
+	schema:latitude "37.77361"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/ParkerJeanEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Parker, Jean Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/ParkerJeanEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.411201 37.797517)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/ParkerJeanEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.411201"^^xsd:double ;
+	schema:latitude "37.797517"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/ReddingEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Redding Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/ReddingEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.419396 37.789491)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/ReddingEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.419396"^^xsd:double ;
+	schema:latitude "37.789491"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/SFMontessoriEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "S. F. Montessori Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/SFMontessoriEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.433636 37.792776)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/SFMontessoriEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.433636"^^xsd:double ;
+	schema:latitude "37.792776"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/SFPublicMontessoriElementarySchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "S. F. Public Montessori Elementary School" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/SFPublicMontessoriElementarySchool/geo> ;
+	ont:geometry "POINT(-122.433935 37.792736)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/SFPublicMontessoriElementarySchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.433935"^^xsd:double ;
+	schema:latitude "37.792736"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/SerraJuniperoEarlyEducationSchool1> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Serra, Junipero Early Education School (1)" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/SerraJuniperoEarlyEducationSchool1/geo> ;
+	ont:geometry "POINT(-122.421512 37.736841)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/SerraJuniperoEarlyEducationSchool1/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.421512"^^xsd:double ;
+	schema:latitude "37.736841"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/SerraJuniperoEarlyEducationSchool2> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Serra, Junipero Early Education School (2)" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/SerraJuniperoEarlyEducationSchool2/geo> ;
+	ont:geometry "POINT(-122.422599 37.738458)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/SerraJuniperoEarlyEducationSchool2/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.422599"^^xsd:double ;
+	schema:latitude "37.738458"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/SpringValleyEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Spring Valley Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/SpringValleyEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.418873 37.793901)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/SpringValleyEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.418873"^^xsd:double ;
+	schema:latitude "37.793901"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/StarrKingPreschool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Starr King Preschool" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/StarrKingPreschool/geo> ;
+	ont:geometry "POINT(-122.399155 37.753043)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/StarrKingPreschool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.399155"^^xsd:double ;
+	schema:latitude "37.753043"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/SutroEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Sutro Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/SutroEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.471401 37.783481)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/SutroEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.471401"^^xsd:double ;
+	schema:latitude "37.783481"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/TenderloinEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Tenderloin Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/TenderloinEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.420014 37.781717)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/TenderloinEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.420014"^^xsd:double ;
+	schema:latitude "37.781717"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/WebsterDanielEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Webster, Daniel Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/WebsterDanielEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.395977 37.760394)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/WebsterDanielEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.395977"^^xsd:double ;
+	schema:latitude "37.760394"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/WeillRaphaelEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Weill, Raphael Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/WeillRaphaelEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.429773 37.783283)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/WeillRaphaelEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.429773"^^xsd:double ;
+	schema:latitude "37.783283"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/WoodsideLearningCenter> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Woodside Learning Center" ;
+	ont:category "County School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/WoodsideLearningCenter/geo> ;
+	ont:geometry "POINT(-122.452505 37.745927)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/WoodsideLearningCenter/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.452505"^^xsd:double ;
+	schema:latitude "37.745927"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/JeffersonOutOfSchoolOSTProgram> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Jefferson Out Of School (OST) Program" ;
+	ont:category "Elementary" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/JeffersonOutOfSchoolOSTProgram/geo> ;
+	ont:geometry "POINT(-122.396202 37.762479)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/JeffersonOutOfSchoolOSTProgram/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.396202"^^xsd:double ;
+	schema:latitude "37.762479"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/KIPPBayviewAcademy> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "KIPP Bayview Academy" ;
+	ont:category "Charter School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/7231664/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/KIPPBayviewAcademy/geo> ;
+	ont:geometry "POINT(-122.396363 37.719343)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/KIPPBayviewAcademy/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.396363"^^xsd:double ;
+	schema:latitude "37.719343"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/KIPPSFBayAcademy> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "KIPP SF Bay Academy" ;
+	ont:category "Charter School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/KIPPSFBayAcademy/geo> ;
+	ont:geometry "POINT(-122.437466 37.782999)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/KIPPSFBayAcademy/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.437466"^^xsd:double ;
+	schema:latitude "37.782999"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/LarkinStreetYouthServices> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Larkin Street Youth Services" ;
+	ont:category "County School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/LarkinStreetYouthServices/geo> ;
+	ont:geometry "POINT(-122.419201 37.788023)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/LarkinStreetYouthServices/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.419201"^^xsd:double ;
+	schema:latitude "37.788023"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/LeadershipCharterHighSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Leadership Charter High School" ;
+	ont:category "Charter School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/LeadershipCharterHighSchool/geo> ;
+	ont:geometry "POINT(-122.443262 37.721439)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/LeadershipCharterHighSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.443262"^^xsd:double ;
+	schema:latitude "37.721439"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/LifeLearningAcademyCharterSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Life Learning Academy Charter School" ;
+	ont:category "Charter School" ;
+	ont:dept "7"^^xsd:int ;
+	owl:sameAs <http://sws.geonames.org/7231607/> ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/LifeLearningAcademyCharterSchool/geo> ;
+	ont:geometry "POINT(-122.367929 37.825298)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/LifeLearningAcademyCharterSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.367929"^^xsd:double ;
+	schema:latitude "37.825298"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/PresidioEarlyEducationSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "Presidio Early Education School" ;
+	ont:category "Early Education" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/PresidioEarlyEducationSchool/geo> ;
+	ont:geometry "POINT(-122.460933 37.797817)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/PresidioEarlyEducationSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.460933"^^xsd:double ;
+	schema:latitude "37.797817"^^xsd:double .
+
+<http://www.semanticweb.org/group08/School/Public/CityArtsandTechHighSchool> a <http://www.semanticweb.org/group08/School/Public> ;
+	rdfs:label "City Arts and Tech High School" ;
+	ont:category "Charter School" ;
+	ont:dept "7"^^xsd:int ;
+	schema:geo <http://www.semanticweb.org/group08/School/Public/CityArtsandTechHighSchool/geo> ;
+	ont:geometry "POINT(-122.425108 37.718886)"^^geosp:wktLiteral .
+
+<http://www.semanticweb.org/group08/School/Public/CityArtsandTechHighSchool/geo> a schema:GeoCoordinates ;
+	schema:longitude "-122.425108"^^xsd:double ;
+	schema:latitude "37.718886"^^xsd:double .
