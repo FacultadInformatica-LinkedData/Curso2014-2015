@@ -70,9 +70,6 @@
         <DataProperty IRI="/accesibilidad"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="/hola"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="/horario"/>
     </Declaration>
     <Declaration>
@@ -126,8 +123,8 @@
         <Class IRI="http://schema.org/Place"/>
     </SubClassOf>
     <InverseObjectProperties>
-        <ObjectProperty IRI="/contineLugar"/>
         <ObjectProperty IRI="http://schema.org/address"/>
+        <ObjectProperty IRI="/contineLugar"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="/tieneDireccion"/>
@@ -251,6 +248,14 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="http://schema.org/name"/>
+        <Class IRI="/Barrio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/name"/>
+        <Class IRI="/Distrito"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/name"/>
         <Class IRI="http://schema.org/City"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -276,10 +281,6 @@
     <DataPropertyRange>
         <DataProperty IRI="/accesibilidad"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="/hola"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="/horario"/>
