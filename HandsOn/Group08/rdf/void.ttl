@@ -1,0 +1,65 @@
+@prefix base: <http:www.semanticweb.org/group08/>
+@prefix geosp: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+base:void a void:Dataset;
+    dcterms:title "Vocabulary of San Francisco Datasets (VoID)";
+    dcterms:description "The Vocabulary of San Francisco Datasets (VoID) which
+      is an RDF Schema vocabulary for expressing metadata about RDF datasets.";
+    dcterms:modified "2014-12-15"^^xsd:date;
+    vann:preferredNamespaceUri "http://rdfs.org/ns/void#";
+    vann:preferredNamespacePrefix "void";
+    void:uriSpace "http://www.semanticweb.org/group08/";
+    void:vocabulary
+        <http://schema.org/>,
+        <http://sws.geonames.org/>,
+        <http://www.opengis.net/ont/geosparql#>,
+        <http://dbpedia.org/resource/>;
+    void:classPartition
+        base:Building,
+        base:ServiceRequest,
+        base:Crime,
+        base:Mapping,
+        base:School,
+        base:PublicService;
+    foaf:homepage <https://github.com/FacultadInformatica-LinkedData/Curso2014-2015/tree/master/HandsOn/Group08>;
+    dcterms:created "2014-12-13"^^xsd:date;
+    dcterms:publisher "http://mayor2.dia.fi.upm.es/oeg-upm/index.php/es/universitystaff/289-afernandez";
+    dcterms:type <http://purl.org/adms/assettype/Ontology>;
+    dcterms:status <http://purl.org/adms/status/UnderDevelopment>;
+    dcterms:creator
+        <http://www.semanticweb.org/group08/void#alejandrofcarrera>,
+        <http://www.semanticweb.org/group08/void#baraalex>,
+        <http://www.semanticweb.org/group08/void#skgsergio>,
+        <http://www.semanticweb.org/group08/void#sansr> .
+
+<http://www.semanticweb.org/group08/void#ttl> a adms:SemanticDistribution;
+    dcterms:FileFormat <http://provenanceweb.org/format/freeformatter/mime/text/turtle>;
+    adms:accessURL "https://raw.githubusercontent.com/FacultadInformatica-LinkedData/
+      Curso2014-2015/master/HandsOn/Group08/rdf/void.ttl";
+    adms:status <http://purl.org/adms/status/Completed> .
+
+<http://http://www.semanticweb.org/group08/void#alejandrofcarrera> a foaf:Person;
+    foaf:name "Alejandro F. Carrera";
+    foaf:mbox <mailto:alej4fc@gmail.com> .
+
+<http://www.semanticweb.org/group08/void#baraalex> a foaf:Person;
+    foaf:name "Alejandro Barahona";
+    foaf:mbox <mailto:alex.grajera@gmail.com> .
+
+<http://www.semanticweb.org/group08/void#skgsergio> a foaf:Person;
+    foaf:name "Sergio Conde";
+    foaf:mbox <mailto:skgsergio@gmail.com> .
+
+<http://www.semanticweb.org/group08/void#sansr> a foaf:Person;
+    foaf:name "Sandra Saez Raspeño";
+    foaf:mbox <mailto:san.saezr@gmail.com> .
+
