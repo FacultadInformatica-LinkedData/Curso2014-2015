@@ -30,66 +30,72 @@
   <!--
 
     /Building/{buildid}
-    /Building#hasGeometry -> /Building/{buildid}/geometry
-
-    /Building/{buildid}/geometry
-    /Building/{buildid}/geometry#asWKT -> geosp:asWKT
+      ont:Properties
+        #geometry (geosp:wktLiteral)
 
     /ServiceRequest/{caseid}
-    /ServiceRequest/{caseid}#open -> xsd:date
-    /ServiceRequest/{caseid}#close -> xsd:date
-    /ServiceRequest/{caseid}#state -> xsd:boolean
-    /ServiceRequest/{caseid}#agency -> xsd:string
-    /ServiceRequest/{caseid}#request -> xsd:string
-    /ServiceRequest/{caseid}#address -> xsd:string
-    /ServiceRequest/{caseid}#neighborhood -> geon:Feature
-    /ServiceRequest/{caseid}#category -> xsd:string
-    /ServiceRequest/{caseid}#hasGeometry -> /ServiceRequest/{caseid}/geometry
-
-    /ServiceRequest/{caseid}/geometry
-    /ServiceRequest/{caseid}/geometry#asWKT -> geosp:asWKT
+      ont:Properties
+        #state (xsd:boolean)
+        #agency (xsd:string)
+        #request (xsd:string)
+        #category (xsd:string)
+        #geometry (geosp:wktLiteral)
+      schema:Properties
+        #startDate (xsd:date)
+        #endDate (xsd:date)
+        #location (schema:Place)
+        #geo (schema:GeoCoordinates)
 
     /Crime/{incidentid}
-    /Crime/{incidentid}#description -> xsd:string
-    /Crime/{incidentid}#category -> xsd:string
-    /Crime/{incidentid}#date -> xsd:date
-    /Crime/{incidentid}#district -> geon:Feature
-    /Crime/{incidentid}#state -> xsd:string
-    /Crime/{incidentid}#address -> xsd:string
-    /Crime/{incidentid}#hasGeometry -> /Crime/{caseid}/geometry
+      ont:Properties
+        #description (xsd:string)
+        #category (xsd:string)
+        #state (xsd:string)
+        #district (xsd:string)
+        #geometry (geosp:wktLiteral)
+      schema:Properties
+        #startDate (xsd:date)
+        #location (schema:Place)
+        #geo (schema:GeoCoordinates)
 
-    /Crime/{incidentid}/geometry
-    /Crime/{incidentid}/geometry#asWKT -> geosp:asWKT
-
-    /Mapping/{idincremental}
-    /Mapping/{idincremental}#zone -> xsd:string
-    /Mapping/{idincremental}#name -> rdfs:label
-    /Mapping/{idincremental}#shparea -> xsd:double
-    /Mapping/{idincremental}#shplen -> xsd:double
-    /Mapping/{idincremental}#media -> xsd:string
-    /Mapping/{idincremental}#hasGeometry -> /Mapping/{idincremental}/geometry
-
-    /Mapping/{idincremental}/geometry
-    /Mapping/{idincremental}/geometry#asWKT -> geosp:asWKT
+    /Mapping/{rowid}
+      ont:Properties
+        #zone (xsd:string)
+        #name (rdfs:label)
+        #shparea (xsd:double)
+        #shplen (xsd:double)
+        #media (xsd:string)
+        #geometry (geosp:wktLiteral)
 
     /School/Private/{uri_name}
-    /School/Private/{uri_name}#name -> rdfs:label
-    /School/Private/{uri_name}#category -> xsd:string
-    /School/Private/{uri_name}#children -> xsd:string
-    /School/Private/{uri_name}#address -> xsd:string
-    /School/Private/{uri_name}#hasBuilding -> /Building/{uri_name}
+      ont:Properties
+        #name (rdfs:label)
+        #category (xsd:string)
+        #children (xsd:string)
+        #geometry (geosp:wktLiteral)
+      schema:Properties
+        #location (schema:Place)
+        #geo (schema:GeoCoordinates)
+      owl:Properties
+        #sameAs (geonames:Feature)
 
     /School/Public/{uri_name}
-    /School/Public/{uri_name}#name -> rdfs:label
-    /School/Public/{uri_name}#category -> xsd:string
-    /School/Public/{uri_name}#department -> xsd:integer
-    /School/Public/{uri_name}#hasBuilding -> /Building/{uri_name}
+      ont:Properties
+        #name (rdfs:label)
+        #category (xsd:string)
+        #dept (xsd:integer)
+        #geometry (geosp:wktLiteral)
+      schema:Properties
+        #geo (schema:GeoCoordinates)
+      owl:Properties
+        #sameAs (geonames:Feature)
     
     /PublicService/{buildid}
-    /PublicService/{buildid}#name -> rdfs:label
-    /PublicService/{buildid}#category -> xsd:string
-    /PublicService/{buildid}#department -> xsd:integer
-    /PublicService/{buildid}#hasBuilding -> /Building/{buildid}
+      ont:Properties
+        #name (rdfs:label)
+        #category (xsd:string)
+        #department (xsd:integer)
+        #hasBuilding (ont:Building)
 
   -->
 
@@ -97,207 +103,180 @@
 
   <owl:Class rdf:about="&ont;/Building"/>
   
-  <owl:ObjectProperty rdf:about="&ont;#hasGeometry">
+  <owl:DatatypeProperty rdf:about="&ont;#geometry">
     <rdfs:domain rdf:resource="&ont;/Building"/>
-    <rdfs:range rdf:resource="&geosp;#hasGeometry"/>
-  </owl:ObjectProperty>
+    <rdfs:range rdf:resource="&geosp;#wktLiteral"/>
+  </owl:DatatypeProperty>
 
-  <!-- 311 Service Request Class -->
+  <!-- 311 Service Request Class (+ Event Properties) -->
 
   <owl:Class rdf:about="&ont;/ServiceRequest">
+    <owl:subClassOf rdf:about="&schema;/Event"/>
+  </owl:Class>
+
+  <owl:DatatypeProperty rdf:about="&ont;#state">
+    <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
+    <rdfs:range rdf:resource="&xsd;#boolean"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ont;#agency">
+    <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
+    <rdfs:range rdf:resource="&xsd;#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ont;#category">
+    <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
+    <rdfs:range rdf:resource="&xsd;#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ont;#request">
+    <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
+    <rdfs:range rdf:resource="&xsd;#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ont;#geometry">
+    <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
+    <rdfs:range rdf:resource="&geosp;#wktLiteral"/>
+  </owl:DatatypeProperty>
+
+  <!-- Crime Class (+ Event Properties) -->
+
+  <owl:Class rdf:about="&ont;/Crime">
+    <owl:subClassOf rdf:about="&schema;/Event"/>
+  </owl:Class>
+  
+  <owl:DatatypeProperty rdf:about="&ont;#description">
+    <rdfs:domain rdf:resource="&ont;/Crime"/>
+    <rdfs:range rdf:resource="&xsd;#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ont;#category">
+    <rdfs:domain rdf:resource="&ont;/Crime"/>
+    <rdfs:range rdf:resource="&xsd;#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ont;#district">
+    <rdfs:domain rdf:resource="&ont;/Crime"/>
+    <rdfs:range rdf:resource="&xsd;#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ont;#state">
+    <rdfs:domain rdf:resource="&ont;/Crime"/>
+    <rdfs:range rdf:resource="&xsd;#string"/>
+  </owl:DatatypeProperty>
+
+  <!-- Possible Mistake (wktLiteral) -->
+
+  <!-- Mapping Class (+ Place Properties) -->
+
+  <owl:Class rdf:about="&ont;/Mapping">
     <owl:subClassOf rdf:about="&schema;/Place"/>
   </owl:Class>
   
-  <owl:ObjectProperty rdf:about="&ont;#open">
-    <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
-    <rdfs:range rdf:resource="&schema;/startDate"/>
-  </owl:ObjectProperty>
-
-  <owl:ObjectProperty rdf:about="&ont;#close">
-    <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
-    <rdfs:range rdf:resource="&schema;/endDate"/>
-  </owl:ObjectProperty>
-
-  <owl:ObjectProperty rdf:about="&ont;#state">
-    <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
-    <rdfs:range rdf:resource="&xsd;#boolean"/>
-  </owl:ObjectProperty>
-
-  <owl:ObjectProperty rdf:about="&ont;#agency">
-    <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
-    <rdfs:range rdf:resource="&xsd;#string"/>
-  </owl:ObjectProperty>
-
-  <owl:ObjectProperty rdf:about="&ont;#category">
-    <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
-    <rdfs:range rdf:resource="&xsd;#string"/>
-  </owl:ObjectProperty>
-
-  <owl:ObjectProperty rdf:about="&ont;#request">
-    <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
-    <rdfs:range rdf:resource="&xsd;#string"/>
-  </owl:ObjectProperty>
-
-  <owl:ObjectProperty rdf:about="&ont;#geometry">
-    <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
-    <rdfs:range rdf:resource="&geosp;#wktLiteral"/>
-  </owl:ObjectProperty>
-
-  <!-- Crime Class -->
-
-  <owl:Class rdf:about="&ont;/Crime"/>
-  
-  <owl:ObjectProperty rdf:about="&ont;#description">
-    <rdfs:domain rdf:resource="&ont;/Crime"/>
-    <rdfs:range rdf:resource="&xsd;#string"/>
-  </owl:ObjectProperty>
-
-  <owl:ObjectProperty rdf:about="&ont;#category">
-    <rdfs:domain rdf:resource="&ont;/Crime"/>
-    <rdfs:range rdf:resource="&xsd;#string"/>
-  </owl:ObjectProperty>
-
-  <owl:ObjectProperty rdf:about="&ont;#date">
-    <rdfs:domain rdf:resource="&ont;/Crime"/>
-    <rdfs:range rdf:resource="&xsd;#date"/>
-  </owl:ObjectProperty>
-
-  <owl:ObjectProperty rdf:about="&ont;#district">
-    <rdfs:domain rdf:resource="&ont;/Crime"/>
-    <rdfs:range rdf:resource="&geon;#Feature"/>
-  </owl:ObjectProperty>
-
-  <owl:ObjectProperty rdf:about="&ont;#state">
-    <rdfs:domain rdf:resource="&ont;/Crime"/>
-    <rdfs:range rdf:resource="&xsd;#string"/>
-  </owl:ObjectProperty>
-
-  <owl:ObjectProperty rdf:about="&ont;#address">
-    <rdfs:domain rdf:resource="&ont;/Crime"/>
-    <rdfs:range rdf:resource="&xsd;#string"/>
-  </owl:ObjectProperty>
-
-  <owl:ObjectProperty rdf:about="&ont;#hasGeometry">
-    <rdfs:domain rdf:resource="&ont;/Crime"/>
-    <rdfs:range rdf:resource="&geosp;#hasGeometry"/>
-  </owl:ObjectProperty>
-
-  <!-- Mapping Class -->
-
-  <owl:Class rdf:about="&ont;/Mapping"/>
-  
-  <owl:ObjectProperty rdf:about="&ont;#zone">
+  <owl:DatatypeProperty rdf:about="&ont;#zone">
     <rdfs:domain rdf:resource="&ont;/Mapping"/>
     <rdfs:range rdf:resource="&xsd;#string"/>
-  </owl:ObjectProperty>
+  </owl:DatatypeProperty>
 
-  <owl:ObjectProperty rdf:about="&ont;#name">
+  <owl:DatatypeProperty rdf:about="&ont;#name">
     <rdfs:domain rdf:resource="&ont;/Mapping"/>
     <rdfs:range rdf:resource="&rdfs;#label"/>
-  </owl:ObjectProperty>
+  </owl:DatatypeProperty>
 
-  <owl:ObjectProperty rdf:about="&ont;#shparea">
+  <owl:DatatypeProperty rdf:about="&ont;#shparea">
     <rdfs:domain rdf:resource="&ont;/Mapping"/>
     <rdfs:range rdf:resource="&xsd;#double"/>
-  </owl:ObjectProperty>
+  </owl:DatatypeProperty>
 
-  <owl:ObjectProperty rdf:about="&ont;#shplen">
+  <owl:DatatypeProperty rdf:about="&ont;#shplen">
     <rdfs:domain rdf:resource="&ont;/Mapping"/>
     <rdfs:range rdf:resource="&geon;#double"/>
-  </owl:ObjectProperty>
+  </owl:DatatypeProperty>
 
-  <owl:ObjectProperty rdf:about="&ont;#media">
+  <owl:DatatypeProperty rdf:about="&ont;#media">
     <rdfs:domain rdf:resource="&ont;/Mapping"/>
     <rdfs:range rdf:resource="&xsd;#string"/>
-  </owl:ObjectProperty>
+  </owl:DatatypeProperty>
 
-  <owl:ObjectProperty rdf:about="&ont;#hasGeometry">
-    <rdfs:domain rdf:resource="&ont;/Mapping"/>
-    <rdfs:range rdf:resource="&geosp;#hasGeometry"/>
-  </owl:ObjectProperty>
+  <!-- School Class (+ Organization Properties) -->
 
-  <!-- School Class -->
+  <owl:Class rdf:about="&ont;/School">
+    <owl:subClassOf rdf:about="&schema;/Organization"/>
+  </owl:Class>
 
-  <owl:Class rdf:about="&ont;/School"/>
-
-  <!-- Private School Class -->
+  <!-- Private School Class (+ School Properties) -->
   
   <owl:Class rdf:about="&ont;/School/Private">
     <rdfs:subClassOf rdf:resource="&ont;/School"/>
   </owl:Class>
 
-  <owl:ObjectProperty rdf:about="&ont;#name">
+  <owl:DatatypeProperty rdf:about="&ont;#name">
     <rdfs:domain rdf:resource="&ont;/School/Private"/>
     <rdfs:range rdf:resource="&rdfs;#label"/>
-  </owl:ObjectProperty>
+  </owl:DatatypeProperty>
 
-  <owl:ObjectProperty rdf:about="&ont;#category">
+  <owl:DatatypeProperty rdf:about="&ont;#category">
     <rdfs:domain rdf:resource="&ont;/School/Private"/>
     <rdfs:range rdf:resource="&xsd;#string"/>
-  </owl:ObjectProperty>
+  </owl:DatatypeProperty>
 
-  <owl:ObjectProperty rdf:about="&ont;#children">
+  <owl:DatatypeProperty rdf:about="&ont;#children">
     <rdfs:domain rdf:resource="&ont;/School/Private"/>
     <rdfs:range rdf:resource="&xsd;#string"/>
-  </owl:ObjectProperty>
+  </owl:DatatypeProperty>
 
-  <owl:ObjectProperty rdf:about="&ont;#address">
+  <owl:DatatypeProperty rdf:about="&ont;#geometry">
     <rdfs:domain rdf:resource="&ont;/School/Private"/>
-    <rdfs:range rdf:resource="&xsd;#string"/>
-  </owl:ObjectProperty>
+    <rdfs:range rdf:resource="&geosp;#wktLiteral"/>
+  </owl:DatatypeProperty>
 
-  <owl:ObjectProperty rdf:about="&ont;#hasBuilding">
-    <rdfs:domain rdf:resource="&ont;/School/Private"/>
-    <rdfs:range rdf:resource="&ont;/Building"/>
-  </owl:ObjectProperty>
-
-  <!-- Public School Class -->
+  <!-- Public School Class (+ School Properties) -->
   
   <owl:Class rdf:about="&ont;/School/Public">
     <rdfs:subClassOf rdf:resource="&ont;/School"/>
   </owl:Class>
 
-  <owl:ObjectProperty rdf:about="&ont;#name">
+  <owl:DatatypeProperty rdf:about="&ont;#name">
     <rdfs:domain rdf:resource="&ont;/School/Public"/>
     <rdfs:range rdf:resource="&rdfs;#label"/>
-  </owl:ObjectProperty>
+  </owl:DatatypeProperty>
 
-  <owl:ObjectProperty rdf:about="&ont;#category">
+  <owl:DatatypeProperty rdf:about="&ont;#category">
     <rdfs:domain rdf:resource="&ont;/School/Public"/>
     <rdfs:range rdf:resource="&xsd;#string"/>
-  </owl:ObjectProperty>
+  </owl:DatatypeProperty>
 
-  <owl:ObjectProperty rdf:about="&ont;#department">
+  <owl:DatatypeProperty rdf:about="&ont;#dept">
     <rdfs:domain rdf:resource="&ont;/School/Public"/>
     <rdfs:range rdf:resource="&xsd;#integer"/>
-  </owl:ObjectProperty>
+  </owl:DatatypeProperty>
 
-  <owl:ObjectProperty rdf:about="&ont;#hasBuilding">
+  <owl:DatatypeProperty rdf:about="&ont;#geometry">
     <rdfs:domain rdf:resource="&ont;/School/Public"/>
-    <rdfs:range rdf:resource="&ont;/Building"/>
-  </owl:ObjectProperty>
+    <rdfs:range rdf:resource="&geosp;#wktLiteral"/>
+  </owl:DatatypeProperty>
 
-  <!-- Public Service Class -->
+  <!-- Public Building Class -->
   
-  <owl:Class rdf:about="&ont;/PublicService"/>
+  <owl:Class rdf:about="&ont;/PublicBuilding"/>
 
-  <owl:ObjectProperty rdf:about="&ont;#name">
-    <rdfs:domain rdf:resource="&ont;/PublicService"/>
+  <owl:DatatypeProperty rdf:about="&ont;#name">
+    <rdfs:domain rdf:resource="&ont;/PublicBuilding"/>
     <rdfs:range rdf:resource="&rdfs;#label"/>
-  </owl:ObjectProperty>
+  </owl:DatatypeProperty>
 
-  <owl:ObjectProperty rdf:about="&ont;#category">
-    <rdfs:domain rdf:resource="&ont;/PublicService"/>
+  <owl:DatatypeProperty rdf:about="&ont;#category">
+    <rdfs:domain rdf:resource="&ont;/PublicBuilding"/>
     <rdfs:range rdf:resource="&xsd;#string"/>
-  </owl:ObjectProperty>
+  </owl:DatatypeProperty>
 
-  <owl:ObjectProperty rdf:about="&ont;#department">
-    <rdfs:domain rdf:resource="&ont;/PublicService"/>
+  <owl:DatatypeProperty rdf:about="&ont;#department">
+    <rdfs:domain rdf:resource="&ont;/PublicBuilding"/>
     <rdfs:range rdf:resource="&xsd;#integer"/>
-  </owl:ObjectProperty>
+  </owl:DatatypeProperty>
 
   <owl:ObjectProperty rdf:about="&ont;#hasBuilding">
-    <rdfs:domain rdf:resource="&ont;/PublicService"/>
+    <rdfs:domain rdf:resource="&ont;/PublicBuilding"/>
     <rdfs:range rdf:resource="&ont;/Building"/>
   </owl:ObjectProperty>
 
