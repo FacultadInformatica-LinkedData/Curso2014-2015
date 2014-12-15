@@ -1,0 +1,1740 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns: <http://www.semanticweb.org/OntologyGroup12#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/Bibliobúsnúmero10.Recorridosemanal> a ns:LugarPrestamoLibros ;
+	ns:nombre "Bibliobús número 10. Recorrido semanal" ;
+	ns:Horario " Consulte en documentación asociada el detalle del horario de invierno. Octubre 14 a Mayo 15 " ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=734a6e6b06637310VgnVCM1000000b205a0aRCRD" ;
+	ns:Telefono "917 951 761 / Móvil: 639 624 276" ;
+	ns:Tipo "Bibliobús" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/Bibliobúsnúmero11.Recorridosemanal> a ns:LugarPrestamoLibros ;
+	ns:nombre "Bibliobús número 11. Recorrido semanal" ;
+	ns:Horario " Consulte en documentación asociada el detalle del horario de invierno. Octubre 14 a Mayo 15 " ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1d69b5f1cea37310VgnVCM1000000b205a0aRCRD" ;
+	ns:Telefono "917 951 761 / Móvil: 619 247 322" ;
+	ns:Tipo "Bibliobús" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/Bibliobúsnúmero12.Recorridosemanal> a ns:LugarPrestamoLibros ;
+	ns:nombre "Bibliobús número 12. Recorrido semanal" ;
+	ns:Horario " Consulte en documentación asociada el detalle del horario de invierno. Octubre 14 a Mayo 15 " ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7a70ded3cbb37310VgnVCM2000000c205a0aRCRD" ;
+	ns:Telefono "917 951 761 / Móvil: 639 624 280" ;
+	ns:Tipo "Bibliobús" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/Bibliobúsnúmero13.Recorridosemanal> a ns:LugarPrestamoLibros ;
+	ns:nombre "Bibliobús número 13. Recorrido semanal" ;
+	ns:Horario " Consulte en documentación asociada el detalle del horario de invierno. Octubre 14 a Mayo 15 " ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=18cc33935b957310VgnVCM2000000c205a0aRCRD" ;
+	ns:Telefono "917 951 761 / Móvil: 619 252 842" ;
+	ns:Tipo "Bibliobús" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/Bibliobúsnúmero2.Recorridoquincenal> a ns:LugarPrestamoLibros ;
+	ns:nombre "Bibliobús número 2. Recorrido quincenal" ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=88626db26d531410VgnVCM1000000b205a0aRCRD" ;
+	ns:Telefono "917 951 761 / 639 623 967" ;
+	ns:Tipo "Bibliobús" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/Bibliobúsnúmero6.Recorridosemanal> a ns:LugarPrestamoLibros ;
+	ns:nombre "Bibliobús número 6. Recorrido semanal" ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a92128420e037310VgnVCM1000000b205a0aRCRD" ;
+	ns:Telefono "917 951 761 / 639 623 978" ;
+	ns:Tipo "Bibliobús" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/Bibliobúsnúmero9.Recorridosemanal> a ns:LugarPrestamoLibros ;
+	ns:nombre "Bibliobús número 9. Recorrido semanal" ;
+	ns:Horario " Consulte en documentación asociada el detalle del horario de invierno. Octubre 14 a Mayo 15 " ;
+	ns:AccesibilidadParaMinusvalidos "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a60438972b537310VgnVCM1000000b205a0aRCRD" ;
+	ns:Telefono "917 951 761 / Móvil: 639 623 973" ;
+	ns:Tipo "Bibliobús" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaHistóricaMunicipal> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Histórica Municipal" ;
+	ns:Horario "  Horario : de lunes a viernes de 8:30 a 14:30 horas La Biblioteca Histórica permanecerá cerrada los días 24 y 31 de diciembre. " ;
+	ns:Equipamiento " Los  servicios que se prestan  son los siguientes:   Préstamo en Sala de investigación.   Consulta de la colección de referencia en la Sala de investigación.    Petición anticipada de documentos en  bibliotecah@madrid.es   Información bibliográfica por correo postal, correo electrónico y teléfono.    Reprografia.    Catálogo en línea    " ;
+	ns:Descripcion "  Fondos bibliográficos:   228.211 volúmenes, divididos en tres  Secciones :    Colecciones especiales:  Madrid, Teatro y Música (manuscritos e impresos de los siglos XVII a  XIX) - Bio-bibliografía (Colección Beltrán) - Paremiología - Raros - Veterinaria - Guerra Civil Española (Colección Tomás Borrás) - Lope de Vega - Cervantes - Toros.    Fondos generales:  Cuenta con ejemplares a partir del siglo XVI entre los que destacan obras de literatura española, especialmente del siglo XIX y primera mitad del siglo XX, arte e historia españoles, viajes por España, entre otros temas.   Información y referencia : Obras de consulta general y  especializada sobre los fondos de la Biblioteca ubicada en la sala de investigación. Libre acceso  " ;
+	ns:AccesibilidadParaMinusvalidos "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ccbc3d0b5e71c010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/CENTRO> a ns:Distrito ;
+	ns:NombreDistrito "CENTRO" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Centro_Centro" ;
+	ns:CodigoPostal "28015" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaHistóricaMunicipal> ns:estaEnDistrito <http://www.semanticweb.org/instances/CENTRO> ;
+	ns:Telefono "Secretaría: 915885737. Información y Referencia: 915885756, 914800557 y 915885744 " ;
+	ns:Email "bibliotecah@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:SanBernardo,VenturaRodríguez,PlazaEspaña,Noviciado> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas "Metro: San Bernardo , Ventura Rodríguez , Plaza España, Noviciado " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaHistóricaMunicipal> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:SanBernardo,VenturaRodríguez,PlazaEspaña,Noviciado> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:1,2,7,21,44,74,147,Circular,MinibúsM2> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus: 1 , 2 , 7 , 21 , 44 , 74 , 147 , Circular, Minibús M-2" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaHistóricaMunicipal> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:1,2,7,21,44,74,147,Circular,MinibúsM2> .
+
+<http://www.semanticweb.org/instances/Direccion/CONDEDUQUE> a ns:Direccion ;
+	ns:Calle "CONDE DUQUE" ;
+	ns:Numero "9" ;
+	ns:Latitud "4.042.737.760.210.630" ;
+	ns:Longitud "-37.106.116.887.809.800" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaHistóricaMunicipal> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/CONDEDUQUE> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaMusicalVíctorEspinós> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Musical Víctor Espinós" ;
+	ns:Horario " De lunes a viernes de 8.30 a 21.00 horas " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física). Sala de consulta y lectura - Préstamo de libros, partituras, CDs, CD-Rom y DVD - Préstamo de instrumentos - Zona de publicaciones periódicas - Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Salas de ensayo - Sala infantil - Sala juvenil - Reprografía" ;
+	ns:Descripcion "   Superficie  5.870 metros cuadrados    Puestos de lectura  219    Puestos de Internet  32  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d482270f58c6c310VgnVCM2000000c205a0aRCRD" ;
+	ns:estaEnDistrito <http://www.semanticweb.org/instances/CENTRO> ;
+	ns:Telefono """91 588 57 53 / 91 588 57 39 / 91 588 57 55                                
+91 588 57 60""" ;
+	ns:Email "bibliomusical@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:VenturaRodríguez,PlazadeEspaña,SanBernardoyNoviciado.Bus:1,2,7,21,44,74,147,Circular,MinibúsM2> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro : Ventura Rodríguez, Plaza de España, San Bernardo y Noviciado.  Bus : 1 , 2 , 7 , 21 , 44 , 74 , 147 , Circular, Minibús M-2" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaMusicalVíctorEspinós> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:VenturaRodríguez,PlazadeEspaña,SanBernardoyNoviciado.Bus:1,2,7,21,44,74,147,Circular,MinibúsM2> ;
+	ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/CONDEDUQUE> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaAcuña> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Acuña" ;
+	ns:Horario "  Sección de adultos:  de lunes a viernes de 9 a 21 horas. Sábados de 9 a 14 horas.   Seccin infantil/juvenil:  de lunes a viernes de 15 a 21 horas. Sábados de 9 a 14 horas.   Servicio de préstamo y acceso a internet:  lunes a viernes de 9 a 20:45 horas; sábados de 9 a 13:45 horas " ;
+	ns:Equipamiento "   Sala adultos o principal : capacidad: 60. Puestos de atención: 5.   Internet : capacidad: 4.    Sala infantil/juvenil : capacidad: 20. Puestos de atención: 2.   Hemeroteca : capacidad: 9.   " ;
+	ns:Descripcion "  Préstamo domiciliario:  carné gratuito presentando el  DNI,  u otro documento que acredite legalmente la identidad personal y para los menores de edad, con autorización del padre, la madre o tutor legal   Días de cierre de la Biblioteca 2014:      Sábados:  19 de abril; 3 de mayo; 5, 12, 19 y 26 de julio; 2, 9, 16, 23 Agosto; 6 y 13 de septiembre.   Domingos:  todos   Festivos:  1 y 6 de enero; 17 y 18 de abril; 1, 2 y 15 de mayo;19 de junio; 15 de agosto; 1 y 10 de noviembre; 6, 8 y 25 de diciembre.    Otros:  24 y 31 de diciembre   " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e9ad995a8bf5d010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/MONCLOA-ARAVACA> a ns:Distrito ;
+	ns:NombreDistrito "MONCLOA-ARAVACA" ;
+	owl:sameAs "http://dbpedia.org/resource/Moncloa-Aravaca" ;
+	ns:CodigoPostal "28008" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaAcuña> ns:estaEnDistrito <http://www.semanticweb.org/instances/MONCLOA-ARAVACA> ;
+	ns:Telefono """915 413 619                                       
+""" ;
+	ns:Email "bib.acuna@madrid.org" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Arg&uuml;elles(líneas3,4,6)> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro: Arg&uuml;elles (líneas 3, 4, 6)  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaAcuña> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Arg&uuml;elles(líneas3,4,6)> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:1,2,21,44,74,133,C> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus: 1, 2, 21, 44, 74, 133,  C  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaAcuña> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:1,2,21,44,74,133,C> .
+
+<http://www.semanticweb.org/instances/Direccion/QUINTANA> a ns:Direccion ;
+	ns:Calle "QUINTANA" ;
+	ns:Numero "9" ;
+	ns:Latitud "4.042.792.406.693.140" ;
+	ns:Longitud "-37.169.480.812.867.400" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaAcuña> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/QUINTANA> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCanillejas> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Canillejas" ;
+	ns:Horario "  Adultos:  lunes, jueves y viernes de 9 a 14 horas. Martes y miércoles de 16 a 20:45 horas.   La biblioteca infantil está cerrada hasta nuevo aviso. " ;
+	ns:Equipamiento "   Sala adultos o principal : capacidad: 30.   Audiovisuales y materiales especiales : capacidad: 2.   Internet : capacidad: 6.   Sala infantil/juvenil : capacidad: 32. Puestos de atención: 1.   Ordenadores multimedia : Capacidad: 2.  " ;
+	ns:Descripcion "  Préstamo domiciliario: c arné gratuito presentando el  DNI  u otro documento que acredite legalmente la identidad personal y, para los menores de edad, con autorización del padre, la madre o tutor legal " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a8cd995a8bf5d010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/SAN+BLAS-CANILLEJAS> a ns:Distrito ;
+	ns:NombreDistrito "SAN BLAS-CANILLEJAS" ;
+	owl:sameAs "http://dbpedia.org/resource/San_Blas_(Madrid)" ;
+	ns:CodigoPostal "28022" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCanillejas> ns:estaEnDistrito <http://www.semanticweb.org/instances/SAN+BLAS-CANILLEJAS> ;
+	ns:Telefono "917 424 499" ;
+	ns:Email "bib.canillejas@madrid.org" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:LasMusas(línea7)> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro: Las Musas (línea 7)  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCanillejas> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:LasMusas(línea7)> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:28,48,140> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus: 28, 48, 140 " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCanillejas> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:28,48,140> .
+
+<http://www.semanticweb.org/instances/Direccion/MUSAS> a ns:Direccion ;
+	ns:Calle "MUSAS" ;
+	ns:Numero "11" ;
+	ns:Latitud "4.043.776.263.645.110" ;
+	ns:Longitud "-36.083.782.410.803.900" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCanillejas> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/MUSAS> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCarabanchelLuisRosales> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Carabanchel Luis Rosales" ;
+	ns:Horario " De lunes a viernes de 9 a 21 horas.  Fines de semana y festivos, de 11 a 19 horas (excepto el 1 de mayo, 25 de diciembre, 1 de enero y fines de semana y festivos de agosto).   El 24 y 31 de diciembre la biblioteca abrirá de 9 a 14 horas. " ;
+	ns:Equipamiento "   Sala infantil:  Capacidad: 58. Adaptados para discapacitados: Pc con software para ciegos y zoom tex, lupas, y telelupas. Puestos de atención: 1. Otra información: 10 puestos multimedia + 2 catálogos de consulta.    Sala adultos o principal:  Capacidad: 161. Adaptados para discapacitados: Pc con sofware para ciegos y zoom tex. Puestos de atención: 2.    Sala juvenil:  Capacidad: 77. Adaptados para discapacitados: Pc con software para ciegos y zoom tex, lupas. Puestos de atención: 1. Otra información: 29 puestos internet + 2 catálogos de consulta.   Hemeroteca:  Capacidad: 21. Adaptados para discapacitados: Pc con software para ciegos y zoom Tex, lupas, y telelupas. Puestos de atención: 1.   Ordenadores multimedia:  Capacidad: 2. Puestos de atención: 1.  Internet: Capacidad: 45. Adaptados para discapacitados: 4 Puesto adaptado para ciegos con Software específico y Zoom Tex. Puestos de atención: 1.   Salón de actos:  Capacidad: 120. Adaptados para discapacitados: Bucle magnético para sordos. Otra información: proyector, Pantalla, Megafonía, Reproductor DVD.   Sala-taller:  Capacidad: 60. Otra información: Pizarra digital, proyector, portátil, Monitor TV.   Audiovisuales y materiales especiales:  Capacidad: 4. Puestos de atención: 1.   Zona de trabajos o servicios internos:  Adapatados para discapacitados: Mesa accesible.  " ;
+	ns:Descripcion "  Préstamo domiciliario:  Carné gratuito presentando el  D.N.I  u otro documento que acredite legalmente la identidad personal y, para los menores de edad, con autorización del padre, la madre o tutor legal.   Información adicional sobre horarios:  los fines de semana y festivos de 14:30 a 15:30 horas no se asignarán préstamos de libros ni acceso a Internet pero sí continuará abierta la sala de lectura. Todos los días los servicios de préstamo y acceso a Internet finalizarán 15 minutos antes del cierre.  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7a73f884ad3f9210VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/CARABANCHEL> a ns:Distrito ;
+	ns:NombreDistrito "CARABANCHEL" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Carabanchel" ;
+	ns:CodigoPostal "28044" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCarabanchelLuisRosales> ns:estaEnDistrito <http://www.semanticweb.org/instances/CARABANCHEL> ;
+	ns:Telefono """912 760 233                                                                  
+""" ;
+	ns:Email "bib.carabanchel@madrid.org" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:SanFrancisco(línea11),CarabanchelAlto(línea5)> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro: San Francisco (línea 11), Carabanchel Alto (línea 5)  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCarabanchelLuisRosales> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:SanFrancisco(línea11),CarabanchelAlto(línea5)> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:47,121,131> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus: 47, 121, 131 " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCarabanchelLuisRosales> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:47,121,131> .
+
+<http://www.semanticweb.org/instances/Direccion/ANTONIARODRIGUEZSACRISTAN> a ns:Direccion ;
+	ns:Calle "ANTONIA RODRIGUEZ SACRISTAN" ;
+	ns:Numero "7" ;
+	ns:Latitud "40.373.420.234.648.600" ;
+	ns:Longitud "-37.480.802.097.487.600" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCarabanchelLuisRosales> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/ANTONIARODRIGUEZSACRISTAN> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentral> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Central" ;
+	ns:Horario "  Sección de adultos:  de lunes a viernes de 9 a 21 horas. Sábado de 9 a 14 horas.   Sección infantil/juvenil:  de lunes a viernes de 15 a 21 horas. Sábados de 9 a 14 horas.   Sala de lectura:  de lunes a viernes de 9 a 21 horas. Sábados de 9 a 14 horas.   Servicio de préstamo y acceso a internet:  lunes a viernes de 9 a 20:45 horas. Sábados de 9 a 13:45 horas. La biblioteca estará cerrada los sábados de julio, agosto y primera quincena de septiembre. " ;
+	ns:Equipamiento "   Sala adultos o principal : capacidad: 102. Condiciones de acceso: libre acceso.    Hemeroteca : capacidad: 22. Puestos de atención: 1.    Internet : capacidad: 20. Puestos de atención: 2.   Sala infantil/juvenil : capacidad: 29. Puestos de atención: 2.    Salón de actos : condiciones de acceso: según aforo. Adaptación para discapacitados: no. Puestos de atención: 57.  Otra información: tiene como equipamiento 1 cañón, una mesa de sonido, un compacto VHS-DVD, un reproductor de Blu ray, un pc y una pantalla , para las realizar proyecciones.   Depósitos    Otras instalaciones : capacidad: 14. Puestos de atención: 2.    Sala-taller : puestos de atención: 20.  " ;
+	ns:Descripcion "  Préstamo domiciliario:  carné gratuito presentando el  DNI   u otro documento que acredite legalmente la identidad personal y, para los menores de edad, con autorización del padre, la madre o tutor legal.   Devolución de documentos:  Se podrá hacer en cualquiera de las Bibliotecas Públicas de la Red de Bibliotecas de la Comunidad de Madrid. " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5a2279262ef5d010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/CHAMBERI> a ns:Distrito ;
+	ns:NombreDistrito "CHAMBERI" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Chamberi" ;
+	ns:CodigoPostal "28010" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentral> ns:estaEnDistrito <http://www.semanticweb.org/instances/CHAMBERI> ;
+	ns:Telefono "914 459 782" ;
+	ns:Email "bib.central@madrid.org" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Iglesia(línea1)> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro: Iglesia (línea 1)  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentral> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Iglesia(línea1)> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:3,5,12,16,37,40,61,147,149> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus: 3, 5, 12, 16, 37, 40, 61, 147, 149 " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentral> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:3,5,12,16,37,40,61,147,149> .
+
+<http://www.semanticweb.org/instances/Direccion/FELIPEELHERMOSO> a ns:Direccion ;
+	ns:Calle "FELIPE EL HERMOSO" ;
+	ns:Numero "4" ;
+	ns:Latitud "4.043.539.063.992.490" ;
+	ns:Longitud "-36.996.132.452.669.000" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentral> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/FELIPEELHERMOSO> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentroPedroSalinas> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Centro Pedro Salinas" ;
+	ns:Horario "  Sección de adultos:  de lunes a viernes de 9 a  21 horas    Sección infantil/juvenil:  de lunes a viernes de 15 a 21 horas   Cierre del siervicio de préstamo:  15 minutos antes " ;
+	ns:Equipamiento "   Sala adultos o principal : Capacidad: 122. Puestos de atención: 5.   Internet : Capacidad: 18.   Salón de actos : Capacidad: 45.   Zona de trabajos o servicios internos : Capacidad: 5.   Sala infantil/juvenil : Capacidad: 72.   Hemeroteca : Capacidad: 29.  " ;
+	ns:Descripcion "  Préstamo domiciliario:  Carné gratuito presentando  DNI    u otro documento que acredite la identidad personal y, para los menores de edad, con autorización del padre, la madre o tutor legal. " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=67ed995a8bf5d010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/CENTRO> ns:CodigoPostal "28005" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentroPedroSalinas> ns:estaEnDistrito <http://www.semanticweb.org/instances/CENTRO> ;
+	ns:Telefono "913 665 407" ;
+	ns:Email "bib.centro@madrid.org" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:PuertaToledo(línea5)> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro: Puerta Toledo (línea 5)  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentroPedroSalinas> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:PuertaToledo(línea5)> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:3,17,18,23,35,41,60,148> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus: 3, 17, 18, 23, 35, 41, 60, 148 " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentroPedroSalinas> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:3,17,18,23,35,41,60,148> .
+
+<http://www.semanticweb.org/instances/Direccion/PUERTADETOLEDO> a ns:Direccion ;
+	ns:Calle "PUERTA DE TOLEDO" ;
+	ns:Numero "1" ;
+	ns:Latitud "4.040.711.374.218.030" ;
+	ns:Longitud "-37.110.231.390.549.100" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentroPedroSalinas> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/PUERTADETOLEDO> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaFuencarralElPardo.RafaelAlberti> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Fuencarral - El Pardo. Rafael Alberti" ;
+	ns:Horario "  Secciones de adultos, prensa y audiovisuales : de lunes a viernes de 9 a 21 horas. (Préstamo hasta las 20:45 horas).; Sábados de  9 a 14 horas (Préstamo hasta las 13:45 horas).    Sección infantil:  de lunes a viernes de 15 a 21 horas. (Préstamo hasta las 20:45 horas).; Sábados de  9 a 14 horas (Préstamo hasta las 13:45 horas)    Sala de lectura:  de lunes a viernes de 9 a 21 horas. Sábados de  9 a 14 horas  " ;
+	ns:Equipamiento "  Sala adultos o principal  Audiovisuales y materiales especiales  Internet  Sala infantil  Hemeroteca  Fondo Local  Ordenadores multimedia  Salón de actos  Zona de trabajos o servicios internos  Depósitos  Otras instalaciones  " ;
+	ns:Descripcion "  Préstamo domiciliario:  carné gratuito presentando el  DNI  u otro documento que acredite legalmente la identidad personal y, para los menores de edad, con autorización de padre, la madre o tutor legal.   Días cierre Biblioteca Año 2014:      Sábados:  19 de abril; 3 de mayo; 5, 12, 19 y 26 de julio; 2, 9, 16, 23 Agosto; 6 y 13 de septiembre.   Festivos:  1 y 6 de enero; 17 y 18 de abril; 1, 2 y 15 de mayo;19 de junio; 15 de agosto; 1 y 10 de noviembre; 6, 8 y 25 de diciembre.    Otros:  24 y 31 de diciembre  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=260e995a8bf5d010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/FUENCARRAL-EL+PARDO> a ns:Distrito ;
+	ns:NombreDistrito "FUENCARRAL-EL PARDO" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Fuencarral-El_Pardo" ;
+	ns:CodigoPostal "28034" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaFuencarralElPardo.RafaelAlberti> ns:estaEnDistrito <http://www.semanticweb.org/instances/FUENCARRAL-EL+PARDO> ;
+	ns:Telefono "917 319 552 / 917 319 553" ;
+	ns:Email "bib.fuencarral@madrid.org" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:HerreraOria(línea9)> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro: Herrera Oria (línea 9)  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaFuencarralElPardo.RafaelAlberti> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:HerreraOria(línea9)> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:67,83,124,133> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus: 67, 83, 124, 133  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaFuencarralElPardo.RafaelAlberti> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:67,83,124,133> .
+
+<http://www.semanticweb.org/instances/Direccion/SANGENJO> a ns:Direccion ;
+	ns:Calle "SANGENJO" ;
+	ns:Numero "38" ;
+	ns:Latitud "40.487.911.219.470.300" ;
+	ns:Longitud "-36.984.120.325.536.200" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaFuencarralElPardo.RafaelAlberti> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/SANGENJO> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaHortaleza> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Hortaleza" ;
+	ns:Horario " De lunes a jueves de 9 a 20:30 horas. Viernes de 9 a 14:30 horas  Información adicional: desde el 1 de julio al 31 de agosto ambos inclusive cerrada por vacaciones. " ;
+	ns:Equipamiento "  Sala adultos o principal: capacidad: 56. Puestos de atención: 1.  Audiovisuales y materiales especiales  Internet: capacidad: 4.  Sala infantil/juvenil: capacidad: 16. Puestos de atención: 1.  " ;
+	ns:Descripcion "  Préstamo domiciliario:  carné gratuito presentando el  DNI  u otro documento que acredite legalmente la identidad personal y, para los menores de edad, con autorización del padre, la madre o tutor legal " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e42e995a8bf5d010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/HORTALEZA> a ns:Distrito ;
+	ns:NombreDistrito "HORTALEZA" ;
+	owl:sameAs "http://dbpedia.org/resource/Hortaleza" ;
+	ns:CodigoPostal "28033" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaHortaleza> ns:estaEnDistrito <http://www.semanticweb.org/instances/HORTALEZA> ;
+	ns:Telefono "917 633 284" ;
+	ns:Email "bib.hortaleza@madrid.org" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:ParquedeSantaMaría(línea4)> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro: Parque de Santa María (línea 4)  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaHortaleza> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:ParquedeSantaMaría(línea4)> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:9,107> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus: 9, 107 " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaHortaleza> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:9,107> .
+
+<http://www.semanticweb.org/instances/Direccion/ABERTURA> a ns:Direccion ;
+	ns:Calle "ABERTURA" ;
+	ns:Numero "2" ;
+	ns:Latitud "40.477.196.015.327.300" ;
+	ns:Longitud "-36.495.889.651.502.700" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaHortaleza> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/ABERTURA> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaLatinaAntonioMingote> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Latina - Antonio Mingote" ;
+	ns:Horario "  Sección de adultos y sala de lectura:  de lunes  a viernes de  9 a 21 horas. Sábados de 9 a 14 horas.   Sección infantil/juvenil:  de lunes  a viernes de  15 a 21 horas. Sábados de 9 a 14 horas. " ;
+	ns:Equipamiento "   Sala adultos o principal : capacidad: 108. Puestos de atención: 6.   Internet : capacidad: 25.   Salón de actos : capacidad: 132.   Sala infantil/juvenil : capacidad: 49. Puestos de atención: 1. Otra información: El Auxiliar de Bibliotecas atiende las informaciones de los usuarios y cuando necesita ayuda recurre a los ayudantes de la sala general.   Hemeroteca : capacidad: 27.   Ordenadores multimedia : capacidad: 2. Otra información: 1 en adultos 1 en infantil.   Sala-taller : capacidad: 12. Otra información: en este taller hay DVD   Otras instalaciones : capacidad: 24. Otra información: 16 puestos de lectura informal y 10 de comiteca.   Audiovisuales y materiales especiales:  Capacidad: 2   " ;
+	ns:Descripcion "  Préstamos domiciliarios:  carné gratuito para todas las edades rellenando ficha de inscripción y presentando  DNI , pasaporte o autorización de padres o tutor para menores de edad.   Días de cierre de la Biblioteca 2014:      Sábados:  19 de abril; 3 de mayo; 5, 12, 19 y 26 de julio; 2, 9, 16, 23 Agosto; 6 y 13 de septiembre.   Domingos:  todos   Festivos:  1 y 6 de enero; 17 y 18 de abril; 1, 2 y 15 de mayo;19 de junio; 15 de agosto; 1 y 10 de noviembre; 6, 8 y 25 de diciembre.    Otros:  24 y 31 de diciembre   " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c73e995a8bf5d010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/LATINA> a ns:Distrito ;
+	ns:NombreDistrito "LATINA" ;
+	owl:sameAs "http://dbpedia.org/resource/Latina_(disambiguation)" ;
+	ns:CodigoPostal "28044" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaLatinaAntonioMingote> ns:estaEnDistrito <http://www.semanticweb.org/instances/LATINA> ;
+	ns:Telefono "915 093 625" ;
+	ns:Email "bib.latina@madrid.org" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Aluche(línea5)> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro: Aluche (línea 5)  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaLatinaAntonioMingote> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Aluche(línea5)> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:17,34,39,117,139> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus: 17, 34, 39, 117, 139  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaLatinaAntonioMingote> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:17,34,39,117,139> .
+
+<http://www.semanticweb.org/instances/Direccion/RAFAELFINAT> a ns:Direccion ;
+	ns:Calle "RAFAEL FINAT" ;
+	ns:Numero "51" ;
+	ns:Latitud "4.038.371.073.816.260" ;
+	ns:Longitud "-37.642.871.215.174.800" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaLatinaAntonioMingote> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/RAFAELFINAT> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMoratalaz> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Moratalaz" ;
+	ns:Horario " Sección de adultos  e infantil/juvenil: de lunes a viernes de 9 a 21 horas. Sábados de 9 a 14 horas.  Horario servicio de préstamo y acceso a Internet:  de lunes a viernes de 9 a 20:45 horas. Sábados de 9 a 13:45 horas.  " ;
+	ns:Equipamiento "   Sala adultos o principal : capacidad: 42. Adaptación discapacitados: rampa y baño. Puestos de atención: 6.   Internet : capacidad: 8.   Sala infantil/juvenil : capacidad: 32. Puestos de atención: 2.   Hemeroteca : capacidad: 13.   Ordenadores multimedia : capacidad: 1.  " ;
+	ns:Descripcion "  Préstamo domiciliario:  carné gratutito presentando el  D.N.I  u otro documento que acredite legalmente la identidad personal y, para los menores de edad, con autorización del padre, la madre o tutor legal. " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=457e995a8bf5d010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/MORATALAZ> a ns:Distrito ;
+	ns:NombreDistrito "MORATALAZ" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Moratalaz" ;
+	ns:CodigoPostal "28030" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMoratalaz> ns:estaEnDistrito <http://www.semanticweb.org/instances/MORATALAZ> ;
+	ns:Telefono "914 394 688" ;
+	ns:Email "bib.moratalaz@madrid.org" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:PicodeArtilleros(línea9)> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro: Pico de Artilleros (línea 9)  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMoratalaz> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:PicodeArtilleros(línea9)> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:8,20,30,32,71,100> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus: 8, 20, 30, 32, 71, 100 " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMoratalaz> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:8,20,30,32,71,100> .
+
+<http://www.semanticweb.org/instances/Direccion/CORREGIDORALONSODETOBAR> a ns:Direccion ;
+	ns:Calle "CORREGIDOR ALONSO DE TOBAR" ;
+	ns:Numero "5" ;
+	ns:Latitud "40.404.043.465.578.500" ;
+	ns:Longitud "-36.494.626.590.824.800" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMoratalaz> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/CORREGIDORALONSODETOBAR> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalAluche(Latina)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Aluche (Latina)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil  Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  712 metros cuadrados   Puestos de lectura:  130   Puestos de Internet:  18   Bibliotecarios:    " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7f0e3d0b5e71c010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/LATINA> ns:CodigoPostal "28047" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalAluche(Latina)> ns:estaEnDistrito <http://www.semanticweb.org/instances/LATINA> ;
+	ns:Telefono "91 719 89 96" ;
+	ns:Email "bpaluche@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Laguna,CasadeCampo,AlucheRENFE:Laguna,AlucheBus:25,31,138> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro : Laguna, Casa de Campo, Aluche  RENFE:  Laguna, Aluche   Bus : 25, 31, 138" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalAluche(Latina)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Laguna,CasadeCampo,AlucheRENFE:Laguna,AlucheBus:25,31,138> .
+
+<http://www.semanticweb.org/instances/Direccion/CAMARENA> a ns:Direccion ;
+	ns:Calle "CAMARENA" ;
+	ns:Numero "10" ;
+	ns:Latitud "4.039.597.072.367.930" ;
+	ns:Longitud "-37.562.716.852.987.800" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalAluche(Latina)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/CAMARENA> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalAnaMaríaMatute(Carabanchel)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Ana María Matute (Carabanchel)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de consulta y lectura - Salas de trabajo en grupo - Sala de actividades - Zona de publicaciones periódicas - Sala infantil-juvenil  Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de telelupa - Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  3.369 metros cuadrados   Puestos de lectura:  200   Puestos de Internet:  44   Bibliotecarios:    " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=628e3d0b5e71c010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/CARABANCHEL> ns:CodigoPostal "28019" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalAnaMaríaMatute(Carabanchel)> ns:estaEnDistrito <http://www.semanticweb.org/instances/CARABANCHEL> ;
+	ns:Telefono """91 588 08 30                                                              
+""" ;
+	ns:Email "bpanammatute@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:MarquésdeVadillo> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro : Marqués de Vadillo  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalAnaMaríaMatute(Carabanchel)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:MarquésdeVadillo> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:34,35,108,118,119yN7> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  34, 35, 108, 118, 119 y N7" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalAnaMaríaMatute(Carabanchel)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:34,35,108,118,119yN7> .
+
+<http://www.semanticweb.org/instances/Direccion/DELOSCOMUNEROSDECASTILLA> a ns:Direccion ;
+	ns:Calle "DE LOS COMUNEROS DE CASTILLA" ;
+	ns:Numero "30" ;
+	ns:Latitud "403.975.850.662.447" ;
+	ns:Longitud "-37.207.386.328.562.300" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalAnaMaríaMatute(Carabanchel)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/DELOSCOMUNEROSDECASTILLA> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalBuenavista(Salamanca)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Buenavista (Salamanca)" ;
+	ns:Horario " De lunes a viernes de 9 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil.   Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  371 metros cuadrados   Puestos de lectura:  76   Puestos de Internet:  15  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c53e3d0b5e71c010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/SALAMANCA> a ns:Distrito ;
+	ns:NombreDistrito "SALAMANCA" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Salamanca" ;
+	ns:CodigoPostal "28028" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalBuenavista(Salamanca)> ns:estaEnDistrito <http://www.semanticweb.org/instances/SALAMANCA> ;
+	ns:Telefono "91 724 08 04" ;
+	ns:Email "bpbuenavista@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:DiegodeLeón,ManuelBecerra> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro:  Diego de León, Manuel Becerra  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalBuenavista(Salamanca)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:DiegodeLeón,ManuelBecerra> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:1,43,48,56,74,Circular> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  1, 43, 48, 56, 74, Circular" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalBuenavista(Salamanca)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:1,43,48,56,74,Circular> .
+
+<http://www.semanticweb.org/instances/Direccion/TOREROS> a ns:Direccion ;
+	ns:Calle "TOREROS" ;
+	ns:Numero "5" ;
+	ns:Latitud "4.043.199.309.720.510" ;
+	ns:Longitud "-3.670.929.243.543.710" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalBuenavista(Salamanca)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/TOREROS> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCanillejas(SanBlasCanillejas)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Canillejas (San Blas-Canillejas)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento "  Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil  Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  466 metros cuadrados   Puestos de lectura:  98   Puestos de Internet:  6   Bibliotecarios:  María Rosario Cabezuelo Jiménez (directora)  " ;
+	ns:AccesibilidadParaMinusvalidos "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=eb9e995a8bf5d010VgnVCM2000000c205a0aRCRD" ;
+	ns:estaEnDistrito <http://www.semanticweb.org/instances/SAN+BLAS-CANILLEJAS> ;
+	ns:Telefono "91 741 11 34" ;
+	ns:Email "bpcanillejas@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Canillejas,TorreArias> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro:  Canillejas, Torre Arias   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCanillejas(SanBlasCanillejas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Canillejas,TorreArias> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:77,105,140> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  77, 105, 140" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCanillejas(SanBlasCanillejas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:77,105,140> .
+
+<http://www.semanticweb.org/instances/Direccion/BOLTAÑA> a ns:Direccion ;
+	ns:Calle "BOLTAÑA" ;
+	ns:Numero "23" ;
+	ns:Latitud "4.044.640.229.188.280" ;
+	ns:Longitud "-36.117.933.204.271.000" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCanillejas(SanBlasCanillejas)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/BOLTAÑA> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalChamartín(Chamartín)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Chamartín (Chamartín)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil.   Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  222 metros cuadrados   Puestos de lectura:  84   Puestos de Internet:  17   Bibliotecarios:    " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0fce3d0b5e71c010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/CHAMARTIN> a ns:Distrito ;
+	ns:NombreDistrito "CHAMARTIN" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Chamartin" ;
+	ns:CodigoPostal "28002" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalChamartín(Chamartín)> ns:estaEnDistrito <http://www.semanticweb.org/instances/CHAMARTIN> ;
+	ns:Telefono "91 510 37 56" ;
+	ns:Email "bpchamartin@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:ConchaEspina,Prosperidad> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro:  Concha Espina, Prosperidad   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalChamartín(Chamartín)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:ConchaEspina,Prosperidad> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:9,16,29,52> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  9, 16, 29, 52" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalChamartín(Chamartín)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:9,16,29,52> .
+
+<http://www.semanticweb.org/instances/Direccion/MANTUANO> a ns:Direccion ;
+	ns:Calle "MANTUANO" ;
+	ns:Numero "51" ;
+	ns:Latitud "4.044.810.636.195.710" ;
+	ns:Longitud "-36.762.309.620.097.300" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalChamartín(Chamartín)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/MANTUANO> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCiudadLineal(CiudadLineal)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Ciudad Lineal (Ciudad Lineal)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil.   Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  483 metros cuadrados   Puestos de lectura:  112   Puestos de Internet:  10   Bibliotecarios:  Marina Sánchez González (directora)  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=82ce995a8bf5d010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/CIUDAD+LINEAL> a ns:Distrito ;
+	ns:NombreDistrito "CIUDAD LINEAL" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Ciudad_Lineal" ;
+	ns:CodigoPostal "28037" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCiudadLineal(CiudadLineal)> ns:estaEnDistrito <http://www.semanticweb.org/instances/CIUDAD+LINEAL> ;
+	ns:Telefono "915 887 566" ;
+	ns:Email "bpciudadlineal@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:CiudadLinealBus:4,38,48,70,77,105,109> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro:  Ciudad Lineal   Bus : 4, 38, 48, 70, 77, 105, 109" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCiudadLineal(CiudadLineal)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:CiudadLinealBus:4,38,48,70,77,105,109> .
+
+<http://www.semanticweb.org/instances/Direccion/HERMANOSGARCIANOBLEJAS> a ns:Direccion ;
+	ns:Calle "HERMANOS GARCIA NOBLEJAS" ;
+	ns:Numero "14" ;
+	ns:Latitud "4.043.641.736.294.720" ;
+	ns:Longitud "-3.637.346.971.302.500" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCiudadLineal(CiudadLineal)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/HERMANOSGARCIANOBLEJAS> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCondeDuque(Centro)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Conde Duque (Centro)" ;
+	ns:Horario " De lunes a viernes de 8.30 a 21.00 horas " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura - Préstamo de libros, CDs, CD-Rom y DVD - Zona de publicaciones periódicas.  Servicios:  Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Sala infantil - Sala Juvenil - Reprografía " ;
+	ns:Descripcion "   Superficie:  5.870 metros cuadrados   Puestos de lectura:  227   Puestos de Internet:  26   Bibliotecarios : María Teresa Artigas Cano de Santayana (directora)  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=13ec3d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	ns:estaEnDistrito <http://www.semanticweb.org/instances/CENTRO> ;
+	ns:Telefono "91 480 14 39" ;
+	ns:Email "bpcondeduque@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:VenturaRodríguez,PlazadeEspaña,SanBernardoyNoviciado.Bus:1,2,7,21,44,74,147,Circular,MinibúsM2> ns:Lineas " Metro:  Ventura Rodríguez, Plaza de España, San Bernardo y Noviciado.  Bus : 1, 2, 7, 21, 44, 74, 147, Circular, Minibús M-2" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCondeDuque(Centro)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:VenturaRodríguez,PlazadeEspaña,SanBernardoyNoviciado.Bus:1,2,7,21,44,74,147,Circular,MinibúsM2> .
+
+<http://www.semanticweb.org/instances/Direccion/CONDEDUQUE> ns:Latitud "4.042.738.668.300.470" ;
+	ns:Longitud "-37.105.999.955.473.600" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCondeDuque(Centro)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/CONDEDUQUE> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalDámasoAlonso(Chamartín)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Dámaso Alonso (Chamartín)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil.  Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de telelupa- Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  808 metros cuadrados   Puestos de lectura:  129   Puestos de Internet:  8   Bibliotecarios:  Carmen Manzano Guadaño (directora)  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5870007f8441f010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/CHAMARTIN> ns:CodigoPostal "28036" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalDámasoAlonso(Chamartín)> ns:estaEnDistrito <http://www.semanticweb.org/instances/CHAMARTIN> ;
+	ns:Telefono "91 350 31 50" ;
+	ns:Email "bpdamasoalonso@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:PlazadeCastilla,DuquedePastrana> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro:  Plaza de Castilla , Duque de Pastrana   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalDámasoAlonso(Chamartín)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:PlazadeCastilla,DuquedePastrana> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:70,107,129,174> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  70, 107, 129, 174" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalDámasoAlonso(Chamartín)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:70,107,129,174> .
+
+<http://www.semanticweb.org/instances/Direccion/MANUELFERRERO> a ns:Direccion ;
+	ns:Calle "MANUEL FERRERO" ;
+	ns:Numero "1" ;
+	ns:Latitud "40.467.453.379.213.100" ;
+	ns:Longitud "-36.846.112.774.442.700" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalDámasoAlonso(Chamartín)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/MANUELFERRERO> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalEugenioTrías.CasadeFierasdeElRetiro> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Eugenio Trías. Casa de Fieras de El Retiro" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas; sábados de 9,10 a 17,50 y domingos de 9,10 a 13,50. Los  fines de semana de agosto , la biblioteca permanecerá  cerrada.  " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de consulta y lectura - Salas de trabajo en grupo - Sala polivalente - Sala de publicaciones periódicas - Sala infantil - Sala de prelectores - Sala juvenil - Sala especializada en medio ambiente.   Servicios:  Préstamo de libros, multimedia y revistas - Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  3.794 metros cuadrados   Puestos de lectura:  185   Puestos de Internet:  39   Bibliotecarios:  Estela Gonzalo Muñoz (directora)  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e791bed05ceed310VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/RETIRO> a ns:Distrito ;
+	ns:NombreDistrito "RETIRO" ;
+	owl:sameAs "http://dbpedia.org/resource/Retiro" ;
+	ns:CodigoPostal "28009" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalEugenioTrías.CasadeFierasdeElRetiro> ns:estaEnDistrito <http://www.semanticweb.org/instances/RETIRO> ;
+	ns:Telefono "91 480 48 38" ;
+	ns:Email "bpeugeniotrias@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Ibiza> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro:  Ibiza  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalEugenioTrías.CasadeFierasdeElRetiro> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Ibiza> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:20,26,63,152yCircular> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  20, 26, 63, 152 y Circular" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalEugenioTrías.CasadeFierasdeElRetiro> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:20,26,63,152yCircular> .
+
+<http://www.semanticweb.org/instances/Direccion/FERNANNUÑEZ> a ns:Direccion ;
+	ns:Calle "FERNAN NUÑEZ" ;
+	ns:Numero "24" ;
+	ns:Latitud "404.166.091.081.099" ;
+	ns:Longitud "-36.795.930.368.034.800" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalEugenioTrías.CasadeFierasdeElRetiro> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/FERNANNUÑEZ> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalFranciscoAyala(Vicálvaro)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Francisco Ayala (Vicálvaro)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21,00 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios : Sala de Consulta y Lectura - Préstamo de libros, multimedia y publicaciones periódicas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de Telelupa - Zona de publicaciones periódicas.   Servicios :  Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Sala infantil - juvenil - Reprografía. " ;
+	ns:Descripcion "   Superficie:  1.600 metros cuadrados   Puestos de lectura:  205   Puestos de Internet:  11   Bibliotecarios:  Fernando Millán Sánchez (director)  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f05279262ef5d010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/VICALVARO> a ns:Distrito ;
+	ns:NombreDistrito "VICALVARO" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Vicalvaro" ;
+	ns:CodigoPostal "28032" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalFranciscoAyala(Vicálvaro)> ns:estaEnDistrito <http://www.semanticweb.org/instances/VICALVARO> ;
+	ns:Telefono "91 301 64 66" ;
+	ns:Email "bpfranciscoayala@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Valdebernardo> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro:  Valdebernardo   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalFranciscoAyala(Vicálvaro)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Valdebernardo> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:8,71,130> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  8, 71, 130" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalFranciscoAyala(Vicálvaro)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:8,71,130> .
+
+<http://www.semanticweb.org/instances/Direccion/INDALECIOPRIETO> a ns:Direccion ;
+	ns:Calle "INDALECIO PRIETO" ;
+	ns:Numero "21" ;
+	ns:Latitud "4.039.982.891.410.400" ;
+	ns:Longitud "-3.621.281.890.570.370" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalFranciscoAyala(Vicálvaro)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/INDALECIOPRIETO> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGabrielGarcíaMárquez(Usera)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Gabriel García Márquez (Usera)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas.   Servicios:  Préstamo de libros, multimedia (sólo películas) y revistas - Información bibliográfica - Animación a la lectura " ;
+	ns:Descripcion "   Superficie:     Puestos de lectura:  100   Puestos de Internet:  18   Bibliotecarios:  Luis Iglesias Cadarso  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e4bf3d0b5e71c010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/USERA> a ns:Distrito ;
+	ns:NombreDistrito "USERA" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Usera" ;
+	ns:CodigoPostal "28041" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGabrielGarcíaMárquez(Usera)> ns:estaEnDistrito <http://www.semanticweb.org/instances/USERA> ;
+	ns:Telefono "629 964 178" ;
+	ns:Email "bporcasur@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas "  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGabrielGarcíaMárquez(Usera)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:78,116Metro:SanFermínOrcasur> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  78, 116   Metro:  San Fermín - Orcasur  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGabrielGarcíaMárquez(Usera)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:78,116Metro:SanFermínOrcasur> .
+
+<http://www.semanticweb.org/instances/Direccion/PUEBLO> a ns:Direccion ;
+	ns:Calle "PUEBLO" ;
+	ns:Numero "2" ;
+	ns:Latitud "40.366.768.324.753.400" ;
+	ns:Longitud "-3.701.141.063.083.800" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGabrielGarcíaMárquez(Usera)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/PUEBLO> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGerardoDiego(VilladeVallecas)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Gerardo Diego (Villa de Vallecas)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil.   Servicios:  Préstamo de libros, multimedia y revistas (colección de libros en rumano) - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de telelupa- Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía  " ;
+	ns:Descripcion "   Superficie:  1.601 metros cuadrados   Puestos de lectura:  196   Puestos de Internet:  18   Bibliotecarios:  Javier Quevedo Arcos (director)  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ca903d0b5e71c010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/VILLA+DE+VALLECAS> a ns:Distrito ;
+	ns:NombreDistrito "VILLA DE VALLECAS" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Villa_de_Vallecas" ;
+	ns:CodigoPostal "28031" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGerardoDiego(VilladeVallecas)> ns:estaEnDistrito <http://www.semanticweb.org/instances/VILLA+DE+VALLECAS> ;
+	ns:Telefono "91 380 66 33" ;
+	ns:Email "bpgerardodiego@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:VilladeVallecas> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro:  Villa de Vallecas   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGerardoDiego(VilladeVallecas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:VilladeVallecas> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:54,58,103,130,142> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  54, 58, 103, 130, 142" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGerardoDiego(VilladeVallecas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:54,58,103,130,142> .
+
+<http://www.semanticweb.org/instances/Direccion/MONTEAYA> a ns:Direccion ;
+	ns:Calle "MONTE AYA" ;
+	ns:Numero "12" ;
+	ns:Latitud "4.037.790.196.240.430" ;
+	ns:Longitud "-36.227.296.605.039.500" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGerardoDiego(VilladeVallecas)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/MONTEAYA> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGloriaFuertes(Barajas)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Gloria Fuertes (Barajas)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil.   Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de telelupa- Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  672 metros cuadrados   Puestos de lectura:  119   Puestos de Internet:  9   Bibliotecarios:  M&ordf; Victoria Lázaro Castaño (directora)  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1f64c2c6e051c010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/BARAJAS> a ns:Distrito ;
+	ns:NombreDistrito "BARAJAS" ;
+	owl:sameAs "http://dbpedia.org/resource/Barajas_(district)" ;
+	ns:CodigoPostal "28042" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGloriaFuertes(Barajas)> ns:estaEnDistrito <http://www.semanticweb.org/instances/BARAJAS> ;
+	ns:Telefono "91 312 02 58" ;
+	ns:Email "bpgloriafuertes@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:AlamedadeOsuna> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro:  Alameda de Osuna   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGloriaFuertes(Barajas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:AlamedadeOsuna> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:105,112,115> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  105, 112, 115" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGloriaFuertes(Barajas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:105,112,115> .
+
+<http://www.semanticweb.org/instances/Direccion/LOGROÑO> a ns:Direccion ;
+	ns:Calle "LOGROÑO" ;
+	ns:Numero "179" ;
+	ns:Latitud "4.046.055.947.228.690" ;
+	ns:Longitud "-35.937.461.811.785.300" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGloriaFuertes(Barajas)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/LOGROÑO> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalHuertadelaSalud(Hortaleza)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Huerta de la Salud (Hortaleza)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil.   Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie : 450 metros cuadrados    Puestos de lectura : 77   Puestos de Internet:  7   " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9c5879262ef5d010VgnVCM1000000b205a0aRCRD" ;
+	ns:estaEnDistrito <http://www.semanticweb.org/instances/HORTALEZA> ;
+	ns:Telefono "91 764 52 43" ;
+	ns:Email "bphuertasalud@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:ParquedeSantaMaría> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro:  Parque de Santa María   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalHuertadelaSalud(Hortaleza)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:ParquedeSantaMaría> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:9,72,107,201> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  9, 72, 107, 201" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalHuertadelaSalud(Hortaleza)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:9,72,107,201> .
+
+<http://www.semanticweb.org/instances/Direccion/MARDELASANTILLAS> a ns:Direccion ;
+	ns:Calle "MAR DE LAS ANTILLAS" ;
+	ns:Numero "10" ;
+	ns:Latitud "4.047.571.688.103.060" ;
+	ns:Longitud "-364.667.257.750.353" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalHuertadelaSalud(Hortaleza)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/MARDELASANTILLAS> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalIslasFilipinas(CiudadLineal)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Islas Filipinas (Ciudad Lineal)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil.   Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de telelupa- Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  880 metros cuadrados   Puestos de lectura:  102   Puestos de Internet:  10   Bibliotecarios:  Mercedes De Diego Páez (directora)  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=697c598d1351c010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/CIUDAD+LINEAL> ns:CodigoPostal "28017" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalIslasFilipinas(CiudadLineal)> ns:estaEnDistrito <http://www.semanticweb.org/instances/CIUDAD+LINEAL> ;
+	ns:Telefono "91 403 63 22" ;
+	ns:Email "bpislasfilipinas@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/> ns:Lineas " " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalIslasFilipinas(CiudadLineal)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:15,28,110,113,210Metro:LaElipa> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  15, 28, 110, 113, 210  Metro:  La Elipa" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalIslasFilipinas(CiudadLineal)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:15,28,110,113,210Metro:LaElipa> .
+
+<http://www.semanticweb.org/instances/Direccion/NUESTRASEÑORADELVILLAR> a ns:Direccion ;
+	ns:Calle "NUESTRA SEÑORA DEL VILLAR" ;
+	ns:Numero "6" ;
+	ns:Latitud "4.042.342.659.084.210" ;
+	ns:Longitud "-3.651.841.641.389.480" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalIslasFilipinas(CiudadLineal)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/NUESTRASEÑORADELVILLAR> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalIvándeVargas(Centro)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Iván de Vargas (Centro)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas; sábados de 9,10 a 17,50 y domingos de 9,10 a 13,50. Los  fines de semana de agosto , la biblioteca permanecerá  cerrada.  " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Sala de actividades - Zona de publicaciones periódicas  - Sala infantil - juvenil - Sala de Internet - Sala Madrid   Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de telelupa- Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  2.884 metros cuadrados   Puestos de lectura:  164   Puestos de Internet:  18   Bibliotecarios:  Pilar Garrido Salcedo (directora)  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0b60e92be3c5e210VgnVCM1000000b205a0aRCRD" ;
+	ns:estaEnDistrito <http://www.semanticweb.org/instances/CENTRO> ;
+	ns:Telefono "917 586 211" ;
+	ns:Email "bpivandevargas@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Sol,Latina,ÓperaCercanías:Sol> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas "  Metro:  Sol, Latina, Ópera  Cercanías : Sol  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalIvándeVargas(Centro)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Sol,Latina,ÓperaCercanías:Sol> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:3,17,18,23,31,50,65> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  3, 17, 18, 23, 31, 50, 65 " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalIvándeVargas(Centro)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:3,17,18,23,31,50,65> .
+
+<http://www.semanticweb.org/instances/Direccion/SANJUSTO> a ns:Direccion ;
+	ns:Calle "SAN JUSTO" ;
+	ns:Numero "5" ;
+	ns:Latitud "4.041.410.290.844.660" ;
+	ns:Longitud "-37.098.591.212.735.800" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalIvándeVargas(Centro)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/SANJUSTO> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalJoséHierro(SanBlasCanillejas)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal José Hierro (San Blas-Canillejas)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Sala de actividades - Zona de publicaciones periódicas  - Sala infantil - juvenil - Comiteca.   Servicios:  Préstamo de libros, multimedia y revistas (colección de libros en rumano) - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de telelupa- Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía  " ;
+	ns:Descripcion "   Superficie:  1.866 metros cuadrados   Puestos de lectura:  224   Puestos de Internet:  13   Bibliotecarios:  María José Hervás Fernández (directora)  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=338879262ef5d010VgnVCM1000000b205a0aRCRD" ;
+	ns:estaEnDistrito <http://www.semanticweb.org/instances/SAN+BLAS-CANILLEJAS> ;
+	ns:Telefono "91 313 55 28" ;
+	ns:Email "bpjosehierro@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:LasMusas> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro:  Las Musas   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalJoséHierro(SanBlasCanillejas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:LasMusas> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:38,48,140,153Autobusesinterurbanos:286,288,289> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  38, 48, 140, 153   Autobuses interurbanos:  286, 288, 289" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalJoséHierro(SanBlasCanillejas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:38,48,140,153Autobusesinterurbanos:286,288,289> .
+
+<http://www.semanticweb.org/instances/Direccion/MARIASEVILLADIAGO> a ns:Direccion ;
+	ns:Calle "MARIA SEVILLA DIAGO" ;
+	ns:Numero "15" ;
+	ns:Latitud "40.433.291.625.973.600" ;
+	ns:Longitud "-36.105.662.311.927.400" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalJoséHierro(SanBlasCanillejas)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/MARIASEVILLADIAGO> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalJoséSaramago(FuencarralElPardo)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal José Saramago (Fuencarral-El Pardo)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía física (sólo en la planta baja).   Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil.   Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de telelupa- Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  1.276 metros cuadrados   Puestos de lectura:  204   Puestos de Internet:  17   Bibliotecarios:  Montserrat Cillero Perfecto (directora)   Antigua Biblioteca La Vaguada " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=70d879262ef5d010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/FUENCARRAL-EL+PARDO> ns:CodigoPostal "28029" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalJoséSaramago(FuencarralElPardo)> ns:estaEnDistrito <http://www.semanticweb.org/instances/FUENCARRAL-EL+PARDO> ;
+	ns:Telefono "91 588 68 91" ;
+	ns:Email "bpjosesaramago@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:BarriodelPilar,Peñagrande> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro:  Barrio del Pilar, Peñagrande   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalJoséSaramago(FuencarralElPardo)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:BarriodelPilar,Peñagrande> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:49,83,128,132,134,137> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  49, 83, 128, 132, 134, 137" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalJoséSaramago(FuencarralElPardo)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:49,83,128,132,134,137> .
+
+<http://www.semanticweb.org/instances/Direccion/MONFORTEDELEMOS> a ns:Direccion ;
+	ns:Calle "MONFORTE DE LEMOS" ;
+	ns:Numero "38" ;
+	ns:Latitud "4.047.860.087.334.550" ;
+	ns:Longitud "-37.094.408.342.979.900" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalJoséSaramago(FuencarralElPardo)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/MONFORTEDELEMOS> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalLaChata(Carabanchel)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal La Chata (Carabanchel)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil.   Servicios:  Préstamo de libros, multimedia y revistas (colección de libros en rumano) - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de telelupa- Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía  " ;
+	ns:Descripcion "   Superficie:  1.600 metros cuadrados   Puestos de lectura:  223   Puestos de Internet:  13   Bibliotecarios:  Hortensia Barderas Álvarez (directora)  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d9a879262ef5d010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/CARABANCHEL> ns:CodigoPostal "28025" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalLaChata(Carabanchel)> ns:estaEnDistrito <http://www.semanticweb.org/instances/CARABANCHEL> ;
+	ns:Telefono "91 422 05 33" ;
+	ns:Email "bplachata@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:EugeniadeMontijo,Carabanchel> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro:  Eugenia de Montijo, Carabanchel   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalLaChata(Carabanchel)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:EugeniadeMontijo,Carabanchel> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:34,35> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  34 , 35" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalLaChata(Carabanchel)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:34,35> .
+
+<http://www.semanticweb.org/instances/Direccion/GENERALRICARDOS> a ns:Direccion ;
+	ns:Calle "GENERAL RICARDOS" ;
+	ns:Numero "252" ;
+	ns:Latitud "4.038.330.593.504.340" ;
+	ns:Longitud "-37.420.633.861.175.700" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalLaChata(Carabanchel)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/GENERALRICARDOS> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalManuelVázquezMontalbán(Tetuán)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Manuel Vázquez Montalbán (Tetuán)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil.   Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de telelupa- Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  1.372 metros cuadrados   Puestos de lectura:  151   Puestos de Internet:  9   Bibliotecarios:  María Ángeles Salvador Durántez (directora)  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b5ca89e2c9e5d010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/TETUAN> a ns:Distrito ;
+	ns:NombreDistrito "TETUAN" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Tetuan" ;
+	ns:CodigoPostal "28039" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalManuelVázquezMontalbán(Tetuán)> ns:estaEnDistrito <http://www.semanticweb.org/instances/TETUAN> ;
+	ns:Telefono """91 398 07 23                                                                      
+91 398 07 26""" ;
+	ns:Email "bpvazquezmontalban@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:FrancosRodríguez> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro:  Francos Rodríguez   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalManuelVázquezMontalbán(Tetuán)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:FrancosRodríguez> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:44,64,126,127,128,132> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  44, 64, 126, 127, 128, 132" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalManuelVázquezMontalbán(Tetuán)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:44,64,126,127,128,132> .
+
+<http://www.semanticweb.org/instances/Direccion/FRANCOSRODRIGUEZ> a ns:Direccion ;
+	ns:Calle "FRANCOS RODRIGUEZ" ;
+	ns:Numero "67" ;
+	ns:Latitud "4.045.749.513.485.950" ;
+	ns:Longitud "-3.710.539.712.535.910" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalManuelVázquezMontalbán(Tetuán)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/FRANCOSRODRIGUEZ> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalMaríaZambrano(Tetuán)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal María Zambrano (Tetuán)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil.   Servicios:  Préstamo de libros, E-books, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  1.551 metros cuadrados   Puestos de lectura:  123   Puestos de Internet:  22   Bibliotecarios:  Elena Pinedo López (directora)  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=74703d0b5e71c010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/TETUAN> ns:CodigoPostal "28029" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalMaríaZambrano(Tetuán)> ns:estaEnDistrito <http://www.semanticweb.org/instances/TETUAN> ;
+	ns:Telefono "91 733 90 43" ;
+	ns:Email "bpmariazambrano@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Ventilla> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas "  Metro:  Ventilla  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalMaríaZambrano(Tetuán)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Ventilla> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:42> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:42" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalMaríaZambrano(Tetuán)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:42> .
+
+<http://www.semanticweb.org/instances/Direccion/DONOSO> a ns:Direccion ;
+	ns:Calle "DONOSO" ;
+	ns:Numero "5" ;
+	ns:Latitud "4.046.903.299.144.090" ;
+	ns:Longitud "-36.976.620.067.964.900" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalMaríaZambrano(Tetuán)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/DONOSO> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalMiguelDelibes(Moratalaz)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Miguel Delibes (Moratalaz)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil.   Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de telelupa- Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  1.894 metros cuadrados   Puestos de lectura:  258   Puestos de Internet:  14   Bibliotecarios:  Alfonso Rodríguez Ferrer (director)  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9e8f3d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	ns:estaEnDistrito <http://www.semanticweb.org/instances/MORATALAZ> ;
+	ns:Telefono "91 328 73 00" ;
+	ns:Email "bpmigueldelibes@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Vinateros> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro:  Vinateros   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalMiguelDelibes(Moratalaz)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Vinateros> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:20,30,32,71,113> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  20, 30, 32, 71, 113" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalMiguelDelibes(Moratalaz)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:20,30,32,71,113> .
+
+<http://www.semanticweb.org/instances/Direccion/ARROYOBELINCOSO> a ns:Direccion ;
+	ns:Calle "ARROYO BELINCOSO" ;
+	ns:Numero "11" ;
+	ns:Latitud "4.040.971.737.692.920" ;
+	ns:Longitud "-36.529.822.109.115.100" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalMiguelDelibes(Moratalaz)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/ARROYOBELINCOSO> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPabloNeruda(CiudadLineal)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Pablo Neruda (Ciudad Lineal)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura - Sala de actividades -  Zona de publicaciones periódicas  - Sala infantil - juvenil.   Servicios:  Préstamo de libros, multimedia y revistas (colección de libros en rumano) - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de telelupa- Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  1.500 metros cuadrados   Puestos de lectura:  198   Puestos de Internet:  14   Bibliotecarios:  Belén Meruelo González (directora)  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d5c548d20675e010VgnVCM1000000b205a0aRCRD" ;
+	ns:estaEnDistrito <http://www.semanticweb.org/instances/CIUDAD+LINEAL> ;
+	ns:Telefono "91 406 14 72" ;
+	ns:Email "bppabloneruda@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Ascao> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas "  Metro:  Ascao   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPabloNeruda(CiudadLineal)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Ascao> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:28,109> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  28, 109 " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPabloNeruda(CiudadLineal)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:28,109> .
+
+<http://www.semanticweb.org/instances/Direccion/ASCAO> a ns:Direccion ;
+	ns:Calle "ASCAO" ;
+	ns:Numero "4" ;
+	ns:Latitud "4.042.941.133.441.140" ;
+	ns:Longitud "-36.416.899.839.787.600" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPabloNeruda(CiudadLineal)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/ASCAO> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPortazgo(PuentedeVallecas)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Portazgo (Puente de Vallecas)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con discapacidad.   Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil.   Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de telelupa- Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  550 metros cuadrados   Puestos de lectura:  116   Puestos de Internet:  7  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=89a40a47f441f010VgnVCM2000000c205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/PUENTE+DE+VALLECAS> a ns:Distrito ;
+	ns:NombreDistrito "PUENTE DE VALLECAS" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Puente_de_Vallecas" ;
+	ns:CodigoPostal "28038" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPortazgo(PuentedeVallecas)> ns:estaEnDistrito <http://www.semanticweb.org/instances/PUENTE+DE+VALLECAS> ;
+	ns:Telefono "91 757 03 23" ;
+	ns:Email "bpportazgo@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Portazgo,BuenosAires> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro:  Portazgo, Buenos Aires   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPortazgo(PuentedeVallecas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Portazgo,BuenosAires> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:54,57,58,103,136,141,143> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  54, 57, 58, 103, 136, 141, 143" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPortazgo(PuentedeVallecas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:54,57,58,103,136,141,143> .
+
+<http://www.semanticweb.org/instances/Direccion/CANTALAPIEDRA> a ns:Direccion ;
+	ns:Calle "CANTALAPIEDRA" ;
+	ns:Numero "11" ;
+	ns:Latitud "4.039.330.714.657.690" ;
+	ns:Longitud "-36.554.041.181.586.000" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPortazgo(PuentedeVallecas)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/CANTALAPIEDRA> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPozodelTíoRaimundo(PuentedeVallecas)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Pozo del Tío Raimundo (Puente de Vallecas)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil.   Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  269 metros cuadrados   Puestos de lectura:  146   Puestos de Internet:  7   Bibliotecarios:  Eleuterio Gutiérrez Morcillo (director)  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d7203d0b5e71c010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/PUENTE+DE+VALLECAS> ns:CodigoPostal "28053" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPozodelTíoRaimundo(PuentedeVallecas)> ns:estaEnDistrito <http://www.semanticweb.org/instances/PUENTE+DE+VALLECAS> ;
+	ns:Telefono "91 507 07 34" ;
+	ns:Email "bppozotr@madrid.es" ;
+	ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:24,102> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  24, 102   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPozodelTíoRaimundo(PuentedeVallecas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:24,102> .
+
+<http://www.semanticweb.org/instances/Direccion/GLORIETAS> a ns:Direccion ;
+	ns:Calle "GLORIETAS" ;
+	ns:Numero "19" ;
+	ns:Latitud "403.735.856.436.473" ;
+	ns:Longitud "-36.602.546.064.905.300" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPozodelTíoRaimundo(PuentedeVallecas)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/GLORIETAS> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPíoBaroja(Arganzuela)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Pío Baroja (Arganzuela)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil.   Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de telelupa- Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  1.454 metros cuadrados   Puestos de lectura:  162   Puestos de Internet:  10   Bibliotecarios:  Teresa Salazar Rincón (directora)  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=17f879262ef5d010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/ARGANZUELA> a ns:Distrito ;
+	ns:NombreDistrito "ARGANZUELA" ;
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Arganzuela" ;
+	ns:CodigoPostal "28005" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPíoBaroja(Arganzuela)> ns:estaEnDistrito <http://www.semanticweb.org/instances/ARGANZUELA> ;
+	ns:Telefono "91 474 16 03" ;
+	ns:Email "bppiobaroja@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Pirámides> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro:  Pirámides   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPíoBaroja(Arganzuela)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Pirámides> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:18,23,34,35,36,116,118,119> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  18, 23, 34, 35, 36, 116, 118, 119   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPíoBaroja(Arganzuela)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:18,23,34,35,36,116,118,119> .
+
+<http://www.semanticweb.org/instances/Direccion/ARGANDA> a ns:Direccion ;
+	ns:Calle "ARGANDA" ;
+	ns:Numero "12" ;
+	ns:Latitud "4.040.003.652.682.000" ;
+	ns:Longitud "-37.074.488.154.950.500" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPíoBaroja(Arganzuela)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/ARGANDA> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalSanBlas(SanBlasCanillejas)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal San Blas (San Blas-Canillejas)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil.   Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  312 metros cuadrados   Puestos de lectura:  125   Puestos de Internet:  8   Bibliotecarios:  Jacqueline Martine Saint-Pé (directora)  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2e403d0b5e71c010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/SAN+BLAS-CANILLEJAS> ns:CodigoPostal "28037" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalSanBlas(SanBlasCanillejas)> ns:estaEnDistrito <http://www.semanticweb.org/instances/SAN+BLAS-CANILLEJAS> ;
+	ns:Telefono "91 313 52 97" ;
+	ns:Email "bpsanblas@madrid.es" ;
+	ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:4,38,48,70,106,140Metro:Alsacia(Línea2)> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  4, 38, 48, 70, 106, 140  Metro:  Alsacia (Línea 2)" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalSanBlas(SanBlasCanillejas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:4,38,48,70,106,140Metro:Alsacia(Línea2)> .
+
+<http://www.semanticweb.org/instances/Direccion/SANROMANDELVALLE> a ns:Direccion ;
+	ns:Calle "SAN ROMAN DEL VALLE" ;
+	ns:Numero "8" ;
+	ns:Latitud "40.420.231.627.534.900" ;
+	ns:Longitud "-36.218.113.860.909.000" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalSanBlas(SanBlasCanillejas)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/SANROMANDELVALLE> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalVallecas(PuentedeVallecas)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Vallecas (Puente de Vallecas)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento "  Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil.   Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  367 metros cuadrados   Puestos de lectura:  133   Puestos de Internet:  6   Bibliotecarios:  Paloma Gil Alonso (directora)  " ;
+	ns:AccesibilidadParaMinusvalidos "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=11c03d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	ns:estaEnDistrito <http://www.semanticweb.org/instances/PUENTE+DE+VALLECAS> ;
+	ns:Telefono "91 588 60 51" ;
+	ns:Email "bpvallecas@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:NuevaNumancia> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro:  Nueva Numancia   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalVallecas(PuentedeVallecas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:NuevaNumancia> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:10,24,54,57,58,111,136,310> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  10, 24, 54, 57, 58, 111, 136, 310" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalVallecas(PuentedeVallecas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:10,24,54,57,58,111,136,310> .
+
+<http://www.semanticweb.org/instances/Direccion/PUERTODELMONASTERIO> a ns:Direccion ;
+	ns:Calle "PUERTO DEL MONASTERIO" ;
+	ns:Numero "1" ;
+	ns:Latitud "4.039.501.488.341.380" ;
+	ns:Longitud "-3.665.565.995.938.500" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalVallecas(PuentedeVallecas)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/PUERTODELMONASTERIO> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalVicálvaro> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Vicálvaro" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas. " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Zona de publicaciones periódicas  - Sala infantil - juvenil.   Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  547 metros cuadrados   Puestos de lectura:  94   Puestos de Internet:  10   Bibliotecarios:  Julia Tebar González (directora)  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=67e03d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	ns:estaEnDistrito <http://www.semanticweb.org/instances/VICALVARO> ;
+	ns:Telefono "91 775 31 43" ;
+	ns:Email "bpvicalvaro@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:VicálvaroBus:4,100,106,130Renfe:Vicálvaro> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro : Vicálvaro   Bus : 4, 100, 106, 130   Renfe : Vicálvaro" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalVicálvaro> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:VicálvaroBus:4,100,106,130Renfe:Vicálvaro> .
+
+<http://www.semanticweb.org/instances/Direccion/VILLARDONDIEGO> a ns:Direccion ;
+	ns:Calle "VILLARDONDIEGO" ;
+	ns:Numero "36" ;
+	ns:Latitud "40.405.283.650.744.300" ;
+	ns:Longitud "-36.086.278.232.922.800" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalVicálvaro> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/VILLARDONDIEGO> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalÁngelGonzález(Latina)> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Municipal Ángel González (Latina)" ;
+	ns:Horario " De lunes a viernes de 8,30 a 21 horas; sábados de 9,10 a 17,50 y domingos de 9,10 a 13,50. Los  fines de semana de agosto , la biblioteca permanecerá  cerrada.  " ;
+	ns:Equipamiento " Accesible a personas con minusvalía (física).   Espacios:  Sala de Consulta y Lectura -  Sala de actividades - Zona de publicaciones periódicas  - Sala infantil - juvenil.   Servicios:  Préstamo de libros, multimedia y revistas - Préstamo de dispositivos de ayuda a la lectura (lupas para libros y discman para audiolibros) - Servicio de telelupa- Servicio de Acceso Público a Internet - Zona WiFi - Información bibliográfica - Animación a la lectura - Formación de usuarios - Reprografía " ;
+	ns:Descripcion "   Superficie:  2.811 metros cuadrados   Puestos de lectura:  182   Puestos de Internet:  29   Bibliotecarios:  María Sierra Gómez-Díaz (directora)  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ec750a2153ef9210VgnVCM2000000c205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/LATINA> ns:CodigoPostal "28024" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalÁngelGonzález(Latina)> ns:estaEnDistrito <http://www.semanticweb.org/instances/LATINA> ;
+	ns:Telefono "91 512 35 42" ;
+	ns:Email "bpangelgonzalez@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Campamento> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro:  Campamento   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalÁngelGonzález(Latina)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Campamento> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:25,36,39,65,121,131,138,H> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  25, 36, 39, 65, 121, 131, 138, H" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalÁngelGonzález(Latina)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:25,36,39,65,121,131,138,H> .
+
+<http://www.semanticweb.org/instances/Direccion/GRANJADETORREHERMOSA> a ns:Direccion ;
+	ns:Calle "GRANJA DE TORREHERMOSA" ;
+	ns:Numero "1" ;
+	ns:Latitud "40.397.074.625.115.900" ;
+	ns:Longitud "-37.664.885.474.841.500" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalÁngelGonzález(Latina)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/GRANJADETORREHERMOSA> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaRetiro> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Retiro" ;
+	ns:Horario "  Sección de adultos:  de lunes a viernes de 9 a 21 horas. Sábados de 9 a 14 horas. Servicio de préstamo y acceso a Internet: de lunes a viernes de 9 a 20:45 horas. Sábados de 9 a 13:45 horas.    Sección infantil:  de lunes a viernes de 9 a 21 horas. Sábados de 9 a 14 horas. Servicio de préstamo y acceso a Internet: de lunes a viernes de 15 a 20:45 horas. Sábados de 9 a 13:45 horas.    Sala de lectura:  de lunes a viernes de 9 a 21 horas. Sábados de 9 a 14 horas. " ;
+	ns:Equipamiento "   Sala adultos o principal : capacidad: 86.    Hemeroteca : capacidad: 24.   Internet : capacidad: 15.   Sala polivalente : capacidad: 8.   Sala-taller : capacidad: 18.   Ordenadores multimedia : capacidad: 2.   Salón de actos : capacidad: 74.   Zona de trabajos o servicios internos : puestos de atención: 11.   Sala infantil/juvenil : capacidad: 24.    Sala General (única):  capacidad: 39.  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=44213d0b5e71c010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/RETIRO> ns:CodigoPostal "28007" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaRetiro> ns:estaEnDistrito <http://www.semanticweb.org/instances/RETIRO> ;
+	ns:Telefono "915 019 146 " ;
+	ns:Email "bib.retiro@madrid.org" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Pacífico(línea1,6)> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro: Pacífico (línea 1, 6)  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaRetiro> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Pacífico(línea1,6)> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:10,14,24,32,37,54,56,57,63,143,145,156> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus: 10, 14, 24, 32, 37, 54, 56, 57, 63, 143, 145, 156 " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaRetiro> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:10,14,24,32,37,54,56,57,63,143,145,156> .
+
+<http://www.semanticweb.org/instances/Direccion/DOCTORESQUERDO> a ns:Direccion ;
+	ns:Calle "DOCTOR ESQUERDO" ;
+	ns:Numero "189" ;
+	ns:Latitud "4.040.354.316.970.940" ;
+	ns:Longitud "-3.672.367.247.007.090" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaRetiro> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/DOCTORESQUERDO> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaRuizEgea> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Ruiz Egea" ;
+	ns:Horario "  Sección de adultos:  de lunes a viernes de 9 a 21 horas.   Sección infantil/juvenil:  de lunes a viernes de 9 a 21 horas. " ;
+	ns:Equipamiento "   Hemeroteca : capacidad 8   Internet : capacidad 6  " ;
+	ns:Descripcion "  Préstamo domiciliario:  carné gratuito presentando el  D.N.I  u otro documento que acredite legalmente la identidad personal y, para los menores de edad, con autorización del padre, la madre o tutor legal " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b2413d0b5e71c010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/CHAMBERI> ns:CodigoPostal "28003" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaRuizEgea> ns:estaEnDistrito <http://www.semanticweb.org/instances/CHAMBERI> ;
+	ns:Telefono "915 349 029" ;
+	ns:Email "bib.ruizegea@madrid.org" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:CuatroCaminos(líneas1,2y6)> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro: Cuatro Caminos (líneas 1, 2 y 6)  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaRuizEgea> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:CuatroCaminos(líneas1,2y6)> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:C,3,37,42,45,64,124,127,128,149> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus:  C,  3, 37, 42, 45, 64, 124, 127, 128, 149 " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaRuizEgea> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:C,3,37,42,45,64,124,127,128,149> .
+
+<http://www.semanticweb.org/instances/Direccion/RAIMUNDOFERNANDEZVILLAVERDE> a ns:Direccion ;
+	ns:Calle "RAIMUNDO FERNANDEZ VILLAVERDE" ;
+	ns:Numero "6" ;
+	ns:Latitud "40.446.595.985.821.700" ;
+	ns:Longitud "-37.028.897.237.155.600" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaRuizEgea> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/RAIMUNDOFERNANDEZVILLAVERDE> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaSalamancaManuelAlvar> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Salamanca - Manuel Alvar" ;
+	ns:Horario "   Sección de adultos:  de lunes a viernes de 9 a 21 horas (Servicios bibliotecarios hasta las 20:45 horas).   Sección infantil/juvenil:  de lunes a viernes de 15 a 21 horas (Servicios bibliotecarios hasta las 20:45 horas).   Fines de semana y festivos:  de 11 a 19 horas  (Servicios bibliotecarios hasta las 18:45)   De 14:30 a 15:30 horas no se asignarán préstamos de libros ni acceso a internet pero sí continuará abierta la sala de lectura.    Cerrada:  fines de semana y festivos de agosto; 1 enero; 1 mayo y 25 diciembre   " ;
+	ns:Equipamiento "   Sala adultos o principal : Capacidad: 136. Puestos de atención: 2.    Audiovisuales y materiales especiales : capacidad: 6.   Hemeroteca : capacidad: 50. Puestos de atención: 3.   Sala infantil : capacidad: 32. Puestos de atención: 3.   Sala juvenil : capacidad: 58.   Internet : capacidad: 34. Puestos de atención: 1.   Ordenadores multimedia : capacidad: 6.   Salón de actos : capacidad: 78.  " ;
+	ns:Descripcion "  Préstamo domiciliario:  carné gratuito presentando el  D.N.I  u otro documento que acredite legalmente la identidad personal y, para los menores de edad, con autorización del padre, la madre o tutor legal " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d51979262ef5d010VgnVCM1000000b205a0aRCRD" ;
+	ns:estaEnDistrito <http://www.semanticweb.org/instances/SALAMANCA> ;
+	ns:Telefono "917 263 701 " ;
+	ns:Email "bib.salamanca@madrid.org" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:DiegodeLeón(líneas4,5,6)> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro: Diego de León (líneas 4, 5, 6)  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaSalamancaManuelAlvar> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:DiegodeLeón(líneas4,5,6)> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:1,12,43,48,56,74> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus: 1, 12, 43, 48, 56, 74 " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaSalamancaManuelAlvar> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:1,12,43,48,56,74> .
+
+<http://www.semanticweb.org/instances/Direccion/AZCONA> a ns:Direccion ;
+	ns:Calle "AZCONA" ;
+	ns:Numero "42" ;
+	ns:Latitud "4.043.437.388.116.330" ;
+	ns:Longitud "-3.668.960.389.290.820" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaSalamancaManuelAlvar> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/AZCONA> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaUseraJoséHierro> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Usera - José Hierro" ;
+	ns:Horario "  Sección de adultos:  de lunes a viernes de 9 a 21 horas.    Sección infantil/juvenil:  de lunes a viernes de 15 a 21 horas.    Servicio de préstamo y acceso a Internet:  de 15 a 20:45 horas.    Sección de adultos y sección infantil/juvenil:  fines de semana y festivos, 11 a 19 horas. Servicio de préstamo y acceso a Internet de 11 a 14:30 y de 15:30 a 18:45 horas.   Cerrada los días:  1 de enero, 1 de mayo, 25 de diciembre y fines de semana y festivos de agosto.  " ;
+	ns:Equipamiento "   Sala adultos o principal : capacidad: 188. Puestos de atención: 6.    Hemeroteca : capacidad: 26.    Internet : capacidad: 47.   Ordenadores multimedia : capacidad: 4.   Sala infantil/juvenil : capacidad: 52. Puestos de atención: 3.    Sala polivalente : capacidad: 30.    Sala-taller : capacidad: 10. Otra información: Hay 3 salas.   Audiovisuales y materiales especiales : capacidad: 3.  " ;
+	ns:Descripcion "  Préstamo domiciliario:  carné gratuito presentando el  D.N.I  u otro documento que acredite legalmente la identidad personal y, para los menores de edad, con autorización del padre, la madre o tutor legal " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=943979262ef5d010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/USERA> ns:CodigoPostal "28026" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaUseraJoséHierro> ns:estaEnDistrito <http://www.semanticweb.org/instances/USERA> ;
+	ns:Telefono "914 229 501" ;
+	ns:Email "bib.usera@madrid.org" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:PlazaElíptica(línea6)> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro: Plaza Elíptica (línea 6)  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaUseraJoséHierro> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:PlazaElíptica(línea6)> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:6,47,60,81> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus: 6, 47, 60, 81 " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaUseraJoséHierro> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:6,47,60,81> .
+
+<http://www.semanticweb.org/instances/Direccion/RAFAELAYBARRA> a ns:Direccion ;
+	ns:Calle "RAFAELA YBARRA" ;
+	ns:Numero "43" ;
+	ns:Latitud "4.038.187.274.336.690" ;
+	ns:Longitud "-3.710.628.092.812.140" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaUseraJoséHierro> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/RAFAELAYBARRA> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVallecas> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Vallecas" ;
+	ns:Horario " Sección general; Sección infantil y juvenil; Hemeroteca y Sala de exposiciones: de lunes a viernes de 9 a 21 horas.  " ;
+	ns:Descripcion "  Préstamo domiciliario:  Carné gratuito presentando el  D.N.I  u otro documento que acredite legalmente la identidad personal y, para los menores de edad, con autorización del padre, la madre o tutor legal " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=535979262ef5d010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/PUENTE+DE+VALLECAS> ns:CodigoPostal "28018" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVallecas> ns:estaEnDistrito <http://www.semanticweb.org/instances/PUENTE+DE+VALLECAS> ;
+	ns:Telefono """913 033 195               
+""" ;
+	ns:Email "bib.vallecas@madrid.org" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:MiguelHernández(línea1)> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro: Miguel Hernández (línea 1)  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVallecas> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:MiguelHernández(línea1)> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:10,54,57,144> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus: 10, 54, 57, 144 " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVallecas> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:10,54,57,144> .
+
+<http://www.semanticweb.org/instances/Direccion/RAFAELALBERTI> a ns:Direccion ;
+	ns:Calle "RAFAEL ALBERTI" ;
+	ns:Numero "36" ;
+	ns:Latitud "4.038.449.423.079.660" ;
+	ns:Longitud "-36.429.247.082.087.700" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVallecas> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/RAFAELALBERTI> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVilladeVallecasLuisMartínSantos> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Villa de Vallecas - Luis Martín Santos" ;
+	ns:Horario "  De lunes a viernes:  de 9 a 21 horas. No se asignarán préstamos ni acceso a Internet desde las 20:45 horas   Fines de semana y festivos:  de  11 a 19 horas. No se asignarán préstamos ni acceso a Internet desde las 18:45 horas   Navidad:  Días 24 y 31 de diciembre, de 9 a 21 horas   Agosto:  de lunes a viernes de 9 a 21 horas.    Cerrado:  1 de mayo, 25 de diciembre, 1 de enero, 15 de agosto y fines de semana de agosto " ;
+	ns:Equipamiento "   Sala adultos o principal : capacidad: 85. Condiciones de acceso: libre. Puestos de atención: 3.    Sala infantil/juvenil : capacidad: 54. Condiciones de acceso: libre. Puestos de atención: 3.    Internet : capacidad: 28. Puestos de atención: 3. Otra información: Puestos repartidos en las diferentes salas de la biblioteca.   Hemeroteca : capacidad: 20. Condiciones de acceso: libre.   Depósitos    Zona de trabajos o servicios internos : Capacidad: 4.    Sala polivalente : capacidad: 30.Otra información: Sala de audiovisuales y aula de formación.   Sala-taller : capacidad: 15.    Otras instalaciones : puestos de atención: 3. Otra información: vestíbulo  " ;
+	ns:Descripcion "  Préstamo domiciliario:  carné gratuito presentando el  D.N.I   u otro documento que acredite legalmente la identidad personal y, para los menores de edad, con autorización del padre, la madre o tutor legal " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=09ac38d60b41c010VgnVCM2000000c205a0aRCRD" ;
+	ns:estaEnDistrito <http://www.semanticweb.org/instances/VILLA+DE+VALLECAS> ;
+	ns:Telefono "912 760 231" ;
+	ns:Email "bib.villavallecas@madrid.org" ;
+	ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:58,63,145> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus: 58, 63, 145 " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVilladeVallecasLuisMartínSantos> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:58,63,145> .
+
+<http://www.semanticweb.org/instances/Direccion/ANTONIOMARIASEGOVIA> a ns:Direccion ;
+	ns:Calle "ANTONIO MARIA SEGOVIA" ;
+	ns:Numero "2" ;
+	ns:Latitud "403.810.580.116.937" ;
+	ns:Longitud "-36.137.699.969.673.700" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVilladeVallecasLuisMartínSantos> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/ANTONIOMARIASEGOVIA> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVillaverdeMaríaMoliner> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Pública Villaverde - María Moliner" ;
+	ns:Horario " Sección de adultos, infantil y juvenil, sección de periódicos y revistas: de lunes a viernes de 9 a 21 horas. Sábados de 9 a 14 horas.  Horario de servicio de préstamo y acceso a Internet: de lunes a viernes de 9 a 20:45 horas. Sábados de 9 a 13:45 horas.  " ;
+	ns:Equipamiento "   Sala adultos o principal : capacidad: 167. Adaptados para discapacitados: 1 OPAC Y 8 puestos de lectura.   Hemeroteca : capacidad: 24. Adaptados para discapacitados: 4 puestos de lectura.   Internet : capacidad: 41.   Sala infantil/juvenil : capacidad: 121. Adapt.discapacitados: 4 puestos de lectura.   Ordenadores multimedia : capacidad: 6.   Salón de actos : capacidad: 85.   Sala polivalente : capacidad: 20.  " ;
+	ns:Descripcion "  Préstamo domiciliario:  carné gratuito presentando el  D.N.I  y otro documento que acredite legalmente la identidad personal y, para los menores de edad, con autorización del padre, la madre o tutor legal   Días de cierre de la Biblioteca 2014:      Sábados:  19 de abril; 3 de mayo; 5, 12, 19 y 26 de julio; 2, 9, 16, 23 Agosto; 6 y 13 de septiembre.   Domingos:  todos   Festivos:  1 y 6 de enero; 17 y 18 de abril; 1, 2 y 15 de mayo;19 de junio; 15 de agosto; 1 y 10 de noviembre; 6, 8 y 25 de diciembre.    Otros:  24 y 31 de diciembre   " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=127979262ef5d010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/VILLAVERDE> a ns:Distrito ;
+	ns:NombreDistrito "VILLAVERDE" ;
+	owl:sameAs "http://dbpedia.org/resource/Villaverde_(Madrid)" ;
+	ns:CodigoPostal "28021" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVillaverdeMaríaMoliner> ns:estaEnDistrito <http://www.semanticweb.org/instances/VILLAVERDE> ;
+	ns:Telefono "917 230 194  " ;
+	ns:Email "bib.villaverde@madrid.org" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:VillaverdeAlto(línea3)> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro: Villaverde Alto (línea 3)   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVillaverdeMaríaMoliner> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:VillaverdeAlto(línea3)> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:22,76,86,130,131> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus: 22, 76, 86, 130, 131  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVillaverdeMaríaMoliner> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:22,76,86,130,131> .
+
+<http://www.semanticweb.org/instances/Direccion/VILLALONSO> a ns:Direccion ;
+	ns:Calle "VILLALONSO" ;
+	ns:Numero "16" ;
+	ns:Latitud "40.349.515.086.848.300" ;
+	ns:Longitud "-37.101.234.920.009.300" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVillaverdeMaríaMoliner> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/VILLALONSO> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaRegionaldeMadridJoaquínLeguina> a ns:LugarPrestamoLibros ;
+	ns:nombre "Biblioteca Regional de Madrid Joaquín Leguina" ;
+	ns:Horario "De lunes a viernes de 9 a 21 horas" ;
+	ns:Equipamiento "   Sala adultos o principal : capacidad: 107. Puestos de atención: 4.    Audiovisuales y materiales especiales : capacidad: 58. Puestos de atención: 2.  Hemeroteca : capacidad: 62. Puestos de atención: 2.    Internet : capacidad: 60. Puestos de atención: 4.   Fondo antiguo : capacidad: 20. Puestos de atención: 2.    Ordenadores multimedia : capacidad: 4.   Zona de trabajos o servicios internos    Salón de actos : capacidad: 145. Adapt.discapacitados: 5.    Sala polivalente    Depósitos    Otras instalaciones : puestos de atención: 2.   " ;
+	ns:Descripcion " Unicamente préstamo en sala " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d09979262ef5d010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/ARGANZUELA> ns:CodigoPostal "28045" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaRegionaldeMadridJoaquínLeguina> ns:estaEnDistrito <http://www.semanticweb.org/instances/ARGANZUELA> ;
+	ns:Telefono "917 208 850 / 917 208 860 " ;
+	ns:Email "biblio.regional@madrid.org" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Delicias(línea3),MéndezÁlvaro(línea6)> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro: Delicias (línea 3), Méndez Álvaro (línea 6)  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaRegionaldeMadridJoaquínLeguina> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Delicias(línea3),MéndezÁlvaro(línea6)> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:8,102> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus: 8 , 102  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaRegionaldeMadridJoaquínLeguina> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:8,102> .
+
+<http://www.semanticweb.org/instances/Direccion/RAMIREZDEPRADO> a ns:Direccion ;
+	ns:Calle "RAMIREZ DE PRADO" ;
+	ns:Numero "3" ;
+	ns:Latitud "40.399.898.401.147.500" ;
+	ns:Longitud "-36.900.541.585.894.700" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaRegionaldeMadridJoaquínLeguina> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/RAMIREZDEPRADO> ;
+	ns:Tipo "Biblioteca" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/CentroculturaldelBarriodeSanCristóbaldelosÁngeles> a ns:LugarPrestamoLibros ;
+	ns:nombre "Centro cultural del Barrio de San Cristóbal de los Ángeles" ;
+	ns:Horario "  De lunes a viernes de 9 a 21 horas  Sábados de 10 a 14 horas   " ;
+	ns:Equipamiento "  Bibiblioteca con sala infantil y bebeteca y sala informática adultos e informática infantil  Aulas de formación equipadas con recursos digitales  Espacio para mayores.    " ;
+	ns:Descripcion "  Requisitos de acceso    Carné del centro. Es gratuito y se obtiene de manera instantánea presentado  DNI  o equivalente  Los menores de 8 años acompañados deben ir acompañados.  Los menores de más de 8 años requieren autorización del padre / madre o tutor para obtener el carné del centro    Puestos de lectura    160 para adultos  40 infantiles  " ;
+	ns:AccesibilidadParaMinusvalidos "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dcdb3d0b5e71c010VgnVCM1000000b205a0aRCRD" ;
+	ns:estaEnDistrito <http://www.semanticweb.org/instances/VILLAVERDE> ;
+	ns:Telefono "917 966 048" ;
+	ns:Email "bsancristobal@gecesa.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:SanCristóbal(línea3)> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro: San Cristóbal (línea 3)  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/CentroculturaldelBarriodeSanCristóbaldelosÁngeles> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:SanCristóbal(línea3)> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:59,79> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus: 59, 79  " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/CentroculturaldelBarriodeSanCristóbaldelosÁngeles> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:59,79> .
+
+<http://www.semanticweb.org/instances/Direccion/ROCAFORT> a ns:Direccion ;
+	ns:Calle "ROCAFORT" ;
+	ns:Numero "101" ;
+	ns:Latitud "4.034.244.856.729.780" ;
+	ns:Longitud "-3.686.807.481.597.240" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/CentroculturaldelBarriodeSanCristóbaldelosÁngeles> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/ROCAFORT> ;
+	ns:Tipo "Centro" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/CentroSocialyCulturallaCasaEncendida> a ns:LugarPrestamoLibros ;
+	ns:nombre "Centro Social y Cultural la Casa Encendida" ;
+	ns:Horario "  De lunes a domingo de 10 a 22 horas (todos los días del año, excepto festividades nacionales y de la Comunidad de Madrid)  Exposiciones: de 10 a 21:45 horas  " ;
+	ns:Equipamiento "   Biblioteca  (consulta catálogo  http://catalogo.bibliotecas.obrasocialcajamadrid.es/ )   Sala de consulta y Hemeroteca: de lunes a domingos, de 10 a 21:15 horas  Mediateca y Sala de trabajo Ofimática: de lunes a domingos, de 10 a 21:15 horas  Biblioteca joven: de lunes a viernes, de 10 a 20:30, sábados y domingos de 10 a 13:30  Bebeteca: sábados y domingos de 10 a 13:30 horas     Estudio multimedia : cuenta con equipos profesionales para la edición de video con Final Cut Studio, Premiere, etc. Su uso tendrá un precio de cinco a ocho euros por turno de cinco horas dependiendo del tipo de asistencia técnica.   Laboratorio de radio:  dispone de un equipo completo de grabación y equipamiento profesional. Su uso tendrá un precio de diez euros por turnos de cinco horas.   Laboratorio fotográfico    Tienda solidaria:  consultar horario   Cafetería:  todos los días, excepto festivos, de 10 a 21:45 horas  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c27f8899fc81c010VgnVCM1000000b205a0aRCRD" .
+
+<http://www.semanticweb.org/instances/CENTRO> ns:CodigoPostal "28012" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/CentroSocialyCulturallaCasaEncendida> ns:estaEnDistrito <http://www.semanticweb.org/instances/CENTRO> ;
+	ns:Telefono """902 430 322                                 
+""" ;
+	ns:Email "casaencendida@cajamadrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Embajadores(línea3),Lavapies(línea3),Atocha(línea1)> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro: Embajadores (línea 3), Lavapies (línea 3), Atocha (línea 1)   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/CentroSocialyCulturallaCasaEncendida> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Embajadores(línea3),Lavapies(línea3),Atocha(línea1)> .
+
+<http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:27,34,36,41,68,69,119> a ns:TransportePublico , ns:Autobus ;
+	ns:Lineas "Bus: 27, 34, 36, 41, 68, 69, 119   " .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/CentroSocialyCulturallaCasaEncendida> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:27,34,36,41,68,69,119> .
+
+<http://www.semanticweb.org/instances/Direccion/VALENCIA> a ns:Direccion ;
+	ns:Calle "VALENCIA" ;
+	ns:Numero "2" ;
+	ns:Latitud "4.040.595.710.517.700" ;
+	ns:Longitud "-3.699.779.793.558.760" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/CentroSocialyCulturallaCasaEncendida> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/VALENCIA> ;
+	ns:Tipo "Centro" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/HemerotecaMunicipal> a ns:LugarPrestamoLibros ;
+	ns:nombre "Hemeroteca Municipal" ;
+	ns:Horario " Lunes a Viernes, de 9 a 21 horas (última petición hasta 20:30 horas) Agosto: Lunes a Viernes, de 9 a 14:30 horas (última petición hasta las 14 horas) Recogida de reprografía: Lunes a Viernes de 9 a 14 horas. " ;
+	ns:Equipamiento "  Los  servicios que se prestan  son los siguientes:    Consulta de publicaciones: colecciones microfilmadas, digitalizadas y en papel.   Reprografía   de publicaciones microfilmadas y en papel.   digitalización y descarga por el propio usuario de las publicaciones filmadas.   reproducción de fotocopias.  copia digital descargada en CD/DVD del fondo, previa petición, para los usuarios sólo de fuera de la Comunidad de Madrid.    Acceso a Hemerotecas Virtuales.     Las salas de consulta cuentan con conexión WiFi.   " ;
+	ns:Descripcion " Para consulta de los fondos es necesario la tarjeta de lector o un pase provisional de 10 días de validez  " ;
+	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=11951e79ee71c010VgnVCM1000000b205a0aRCRD" ;
+	ns:estaEnDistrito <http://www.semanticweb.org/instances/CENTRO> ;
+	ns:Telefono """91 513 31 64 / 91 588 57 75 / 91 588 57 72 (Información)                             
+91 588 57 73 (Reprografía)""" ;
+	ns:Email "hemeroteca@madrid.es" .
+
+<http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:SanBernardo,VenturaRodríguez,PlazadeEspaña,NoviciadoBus:1,2,7,21,44,74,147,Circular,MinibusM2> a ns:TransportePublico , ns:Metro ;
+	ns:Lineas " Metro : San Bernardo , Ventura Rodríguez, Plaza de España, Noviciado  Bus : 1, 2, 7, 21, 44, 74, 147, Circular, Minibus M-2" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/HemerotecaMunicipal> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:SanBernardo,VenturaRodríguez,PlazadeEspaña,NoviciadoBus:1,2,7,21,44,74,147,Circular,MinibusM2> .
+
+<http://www.semanticweb.org/instances/Direccion/CONDEDUQUE> ns:Numero "11" ;
+	ns:Latitud "40.427.938.443.518.200" ;
+	ns:Longitud "-3.710.240.346.719.510" .
+
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/HemerotecaMunicipal> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/CONDEDUQUE> ;
+	ns:Tipo "Hemeroteca" .
