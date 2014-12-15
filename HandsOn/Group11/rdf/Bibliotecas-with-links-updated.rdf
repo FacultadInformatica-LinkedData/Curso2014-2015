@@ -1,3 +1,4 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -87,8 +88,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28015" ;
 	<http://datos.chana.pro/enBarrio> "UNIVERSIDAD" ;
-	<http://datos.chana.pro/enLatitud> "40.42737760210632"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.7106116887809817"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.42737760210632"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7106116887809817"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "Secretaría: 915885737. Información y Referencia: 915885756, 914800557 y 915885744" ;
 	<http://datos.chana.pro/emailBiblioteca> "bibliotecah@madrid.es" .
 
@@ -111,8 +112,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28015" ;
 	<http://datos.chana.pro/enBarrio> "UNIVERSIDAD" ;
-	<http://datos.chana.pro/enLatitud> "40.42737760210632"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.7106116887809817"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.42737760210632"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7106116887809817"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 588 57 53 / 91 588 57 39 / 91 588 57 55 91 588 57 60" ;
 	<http://datos.chana.pro/emailBiblioteca> "bibliomusical@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/CENTRO> .
@@ -132,8 +133,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28008" ;
 	<http://datos.chana.pro/enBarrio> "ARGUELLES" ;
-	<http://datos.chana.pro/enLatitud> "40.42792406693144"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.7169480812867493"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.42792406693144"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7169480812867493"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "915 413 619" ;
 	<http://datos.chana.pro/tieneFax> "915 426 939" ;
 	<http://datos.chana.pro/emailBiblioteca> "bib.acuna@madrid.org" .
@@ -157,8 +158,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28022" ;
 	<http://datos.chana.pro/enBarrio> "CANILLEJAS" ;
-	<http://datos.chana.pro/enLatitud> "40.43776263645119"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6083782410803944"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.43776263645119"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6083782410803944"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "917 424 499" ;
 	<http://datos.chana.pro/tieneFax> "913 200 943" ;
 	<http://datos.chana.pro/emailBiblioteca> "bib.canillejas@madrid.org" .
@@ -182,8 +183,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28044" ;
 	<http://datos.chana.pro/enBarrio> "PUERTA BONITA" ;
-	<http://datos.chana.pro/enLatitud> "40.373420234648606"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.7480802097487653"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.373420234648606"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7480802097487653"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "912 760 233" ;
 	<http://datos.chana.pro/tieneFax> "914 613 331" ;
 	<http://datos.chana.pro/emailBiblioteca> "bib.carabanchel@madrid.org" .
@@ -207,8 +208,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28010" ;
 	<http://datos.chana.pro/enBarrio> "TRAFALGAR" ;
-	<http://datos.chana.pro/enLatitud> "40.43539063992494"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6996132452669075"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.43539063992494"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6996132452669075"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "914 459 782" ;
 	<http://datos.chana.pro/tieneFax> "914 472 444" ;
 	<http://datos.chana.pro/emailBiblioteca> "bib.central@madrid.org" .
@@ -232,8 +233,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28005" ;
 	<http://datos.chana.pro/enBarrio> "EMBAJADORES" ;
-	<http://datos.chana.pro/enLatitud> "40.40711374218031"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.7110231390549133"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.40711374218031"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7110231390549133"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "913 665 407" ;
 	<http://datos.chana.pro/tieneFax> "913 657 523" ;
 	<http://datos.chana.pro/emailBiblioteca> "bib.centro@madrid.org" ;
@@ -254,8 +255,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28034" ;
 	<http://datos.chana.pro/enBarrio> "LA PAZ" ;
-	<http://datos.chana.pro/enLatitud> "40.487911219470355"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6984120325536267"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.487911219470355"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6984120325536267"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "917 319 552 / 917 319 553" ;
 	<http://datos.chana.pro/tieneFax> "917 398 231" ;
 	<http://datos.chana.pro/emailBiblioteca> "bib.fuencarral@madrid.org" .
@@ -279,8 +280,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28033" ;
 	<http://datos.chana.pro/enBarrio> "PINAR DEL REY" ;
-	<http://datos.chana.pro/enLatitud> "40.477196015327394"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6495889651502766"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.477196015327394"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6495889651502766"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "917 633 284" ;
 	<http://datos.chana.pro/tieneFax> "917 633 284" ;
 	<http://datos.chana.pro/emailBiblioteca> "bib.hortaleza@madrid.org" .
@@ -304,8 +305,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28044" ;
 	<http://datos.chana.pro/enBarrio> "LAS AGUILAS" ;
-	<http://datos.chana.pro/enLatitud> "40.38371073816265"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.7642871215174827"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.38371073816265"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7642871215174827"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "915 093 625" ;
 	<http://datos.chana.pro/tieneFax> "917 068 193" ;
 	<http://datos.chana.pro/emailBiblioteca> "bib.latina@madrid.org" .
@@ -329,8 +330,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28030" ;
 	<http://datos.chana.pro/enBarrio> "FONTARRON" ;
-	<http://datos.chana.pro/enLatitud> "40.404043465578525"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6494626590824804"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.404043465578525"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6494626590824804"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "914 394 688" ;
 	<http://datos.chana.pro/tieneFax> "914 370 234" ;
 	<http://datos.chana.pro/emailBiblioteca> "bib.moratalaz@madrid.org" .
@@ -354,8 +355,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28047" ;
 	<http://datos.chana.pro/enBarrio> "ALUCHE" ;
-	<http://datos.chana.pro/enLatitud> "40.39597072367931"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.7562716852987847"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.39597072367931"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7562716852987847"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 719 89 96" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpaluche@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/LATINA> .
@@ -375,8 +376,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28019" ;
 	<http://datos.chana.pro/enBarrio> "SAN ISIDRO" ;
-	<http://datos.chana.pro/enLatitud> "40.3975850662447"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.7207386328562357"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.3975850662447"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7207386328562357"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 588 08 30" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpanammatute@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/CARABANCHEL> .
@@ -396,8 +397,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28028" ;
 	<http://datos.chana.pro/enBarrio> "GUINDALERA" ;
-	<http://datos.chana.pro/enLatitud> "40.43199309720514"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.670929243543714"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.43199309720514"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.670929243543714"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 724 08 04" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpbuenavista@madrid.es" .
 
@@ -420,8 +421,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28022" ;
 	<http://datos.chana.pro/enBarrio> "CANILLEJAS" ;
-	<http://datos.chana.pro/enLatitud> "40.44640229188281"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6117933204271098"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.44640229188281"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6117933204271098"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 741 11 34" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpcanillejas@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/SAN+BLAS-CANILLEJAS> .
@@ -441,8 +442,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28002" ;
 	<http://datos.chana.pro/enBarrio> "CIUDAD JARDIN" ;
-	<http://datos.chana.pro/enLatitud> "40.44810636195716"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6762309620097398"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.44810636195716"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6762309620097398"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 510 37 56" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpchamartin@madrid.es" .
 
@@ -465,8 +466,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28037" ;
 	<http://datos.chana.pro/enBarrio> "PUEBLO NUEVO" ;
-	<http://datos.chana.pro/enLatitud> "40.43641736294729"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.637346971302506"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.43641736294729"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.637346971302506"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "915 887 566" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpciudadlineal@madrid.es" .
 
@@ -489,8 +490,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28015" ;
 	<http://datos.chana.pro/enBarrio> "UNIVERSIDAD" ;
-	<http://datos.chana.pro/enLatitud> "40.42738668300474"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.7105999955473625"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.42738668300474"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7105999955473625"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 480 14 39" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpcondeduque@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/CENTRO> .
@@ -510,8 +511,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28036" ;
 	<http://datos.chana.pro/enBarrio> "CASTILLA" ;
-	<http://datos.chana.pro/enLatitud> "40.467453379213175"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6846112774442705"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.467453379213175"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6846112774442705"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 350 31 50" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpdamasoalonso@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/CHAMARTIN> .
@@ -531,8 +532,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28009" ;
 	<http://datos.chana.pro/enBarrio> "LOS JERONIMOS" ;
-	<http://datos.chana.pro/enLatitud> "40.4166091081099"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6795930368034804"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.4166091081099"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6795930368034804"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 480 48 38" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpeugeniotrias@madrid.es" .
 
@@ -555,8 +556,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28032" ;
 	<http://datos.chana.pro/enBarrio> "VALDEBERNARDO" ;
-	<http://datos.chana.pro/enLatitud> "40.39982891410407"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.621281890570377"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.39982891410407"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.621281890570377"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 301 64 66" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpfranciscoayala@madrid.es" .
 
@@ -579,8 +580,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28041" ;
 	<http://datos.chana.pro/enBarrio> "ORCASUR" ;
-	<http://datos.chana.pro/enLatitud> "40.366768324753416"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.701141063083806"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.366768324753416"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.701141063083806"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "629 964 178" ;
 	<http://datos.chana.pro/emailBiblioteca> "bporcasur@madrid.es" .
 
@@ -603,8 +604,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28031" ;
 	<http://datos.chana.pro/enBarrio> "CASCO HISTORICO VALLECAS" ;
-	<http://datos.chana.pro/enLatitud> "40.37790196240434"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6227296605039516"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.37790196240434"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6227296605039516"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 380 66 33" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpgerardodiego@madrid.es" .
 
@@ -627,8 +628,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28042" ;
 	<http://datos.chana.pro/enBarrio> "CORRALEJOS" ;
-	<http://datos.chana.pro/enLatitud> "40.46055947228695"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.5937461811785347"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.46055947228695"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.5937461811785347"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 312 02 58" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpgloriafuertes@madrid.es" .
 
@@ -651,8 +652,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28033" ;
 	<http://datos.chana.pro/enBarrio> "PINAR DEL REY" ;
-	<http://datos.chana.pro/enLatitud> "40.47571688103069"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.64667257750353"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.47571688103069"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.64667257750353"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 764 52 43" ;
 	<http://datos.chana.pro/emailBiblioteca> "bphuertasalud@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/HORTALEZA> .
@@ -672,8 +673,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28017" ;
 	<http://datos.chana.pro/enBarrio> "VENTAS" ;
-	<http://datos.chana.pro/enLatitud> "40.42342659084215"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.651841641389484"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.42342659084215"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.651841641389484"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 403 63 22" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpislasfilipinas@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/CIUDAD+LINEAL> .
@@ -693,8 +694,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28005" ;
 	<http://datos.chana.pro/enBarrio> "PALACIO" ;
-	<http://datos.chana.pro/enLatitud> "40.41410290844665"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.7098591212735883"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.41410290844665"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7098591212735883"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "917 586 211" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpivandevargas@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/CENTRO> .
@@ -714,8 +715,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28022" ;
 	<http://datos.chana.pro/enBarrio> "ROSAS" ;
-	<http://datos.chana.pro/enLatitud> "40.433291625973624"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6105662311927453"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.433291625973624"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6105662311927453"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 313 55 28" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpjosehierro@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/SAN+BLAS-CANILLEJAS> .
@@ -735,8 +736,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28029" ;
 	<http://datos.chana.pro/enBarrio> "EL PILAR" ;
-	<http://datos.chana.pro/enLatitud> "40.47860087334554"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.7094408342979954"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.47860087334554"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7094408342979954"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 588 68 91" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpjosesaramago@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/FUENCARRAL-EL+PARDO> .
@@ -756,8 +757,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28025" ;
 	<http://datos.chana.pro/enBarrio> "VISTA ALEGRE" ;
-	<http://datos.chana.pro/enLatitud> "40.38330593504341"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.7420633861175796"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.38330593504341"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7420633861175796"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 422 05 33" ;
 	<http://datos.chana.pro/emailBiblioteca> "bplachata@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/CARABANCHEL> .
@@ -777,8 +778,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28039" ;
 	<http://datos.chana.pro/enBarrio> "BELLAS VISTAS" ;
-	<http://datos.chana.pro/enLatitud> "40.45749513485957"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.710539712535917"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.45749513485957"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.710539712535917"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 398 07 23 91 398 07 26" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpvazquezmontalban@madrid.es" .
 
@@ -801,8 +802,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28029" ;
 	<http://datos.chana.pro/enBarrio> "ALMENARA" ;
-	<http://datos.chana.pro/enLatitud> "40.46903299144094"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6976620067964996"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.46903299144094"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6976620067964996"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 733 90 43" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpmariazambrano@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/TETUAN> .
@@ -822,8 +823,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28030" ;
 	<http://datos.chana.pro/enBarrio> "MEDIA LEGUA" ;
-	<http://datos.chana.pro/enLatitud> "40.40971737692924"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6529822109115133"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.40971737692924"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6529822109115133"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 328 73 00" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpmigueldelibes@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/MORATALAZ> .
@@ -843,8 +844,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28017" ;
 	<http://datos.chana.pro/enBarrio> "PUEBLO NUEVO" ;
-	<http://datos.chana.pro/enLatitud> "40.42941133441142"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6416899839787695"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.42941133441142"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6416899839787695"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 406 14 72" ;
 	<http://datos.chana.pro/emailBiblioteca> "bppabloneruda@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/CIUDAD+LINEAL> .
@@ -864,8 +865,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28038" ;
 	<http://datos.chana.pro/enBarrio> "NUMANCIA" ;
-	<http://datos.chana.pro/enLatitud> "40.39330714657693"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6554041181586046"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.39330714657693"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6554041181586046"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 757 03 23" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpportazgo@madrid.es" .
 
@@ -888,8 +889,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28053" ;
 	<http://datos.chana.pro/enBarrio> "ENTREVIAS" ;
-	<http://datos.chana.pro/enLatitud> "40.3735856436473"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6602546064905397"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.3735856436473"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6602546064905397"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 507 07 34" ;
 	<http://datos.chana.pro/emailBiblioteca> "bppozotr@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/PUENTE+DE+VALLECAS> .
@@ -909,8 +910,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28005" ;
 	<http://datos.chana.pro/enBarrio> "ACACIAS" ;
-	<http://datos.chana.pro/enLatitud> "40.40003652682007"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.7074488154950584"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.40003652682007"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7074488154950584"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 474 16 03" ;
 	<http://datos.chana.pro/emailBiblioteca> "bppiobaroja@madrid.es" .
 
@@ -933,8 +934,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28037" ;
 	<http://datos.chana.pro/enBarrio> "ARCOS" ;
-	<http://datos.chana.pro/enLatitud> "40.420231627534996"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6218113860909074"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.420231627534996"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6218113860909074"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 313 52 97" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpsanblas@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/SAN+BLAS-CANILLEJAS> .
@@ -954,8 +955,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28053" ;
 	<http://datos.chana.pro/enBarrio> "SAN DIEGO" ;
-	<http://datos.chana.pro/enLatitud> "40.39501488341387"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.665565995938502"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.39501488341387"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.665565995938502"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 588 60 51" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpvallecas@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/PUENTE+DE+VALLECAS> .
@@ -975,8 +976,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28032" ;
 	<http://datos.chana.pro/enBarrio> "CASCO HISTORICO VICALVARO" ;
-	<http://datos.chana.pro/enLatitud> "40.405283650744316"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6086278232922804"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.405283650744316"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6086278232922804"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 775 31 43" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpvicalvaro@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/VICALVARO> .
@@ -996,8 +997,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28024" ;
 	<http://datos.chana.pro/enBarrio> "ALUCHE" ;
-	<http://datos.chana.pro/enLatitud> "40.397074625115906"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.7664885474841556"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.397074625115906"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7664885474841556"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 512 35 42" ;
 	<http://datos.chana.pro/emailBiblioteca> "bpangelgonzalez@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/LATINA> .
@@ -1016,8 +1017,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28007" ;
 	<http://datos.chana.pro/enBarrio> "ADELFAS" ;
-	<http://datos.chana.pro/enLatitud> "40.40354316970943"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.672367247007098"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.40354316970943"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.672367247007098"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "915 019 146" ;
 	<http://datos.chana.pro/tieneFax> "915 018 130" ;
 	<http://datos.chana.pro/emailBiblioteca> "bib.retiro@madrid.org" ;
@@ -1038,8 +1039,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28003" ;
 	<http://datos.chana.pro/enBarrio> "RIOS ROSAS" ;
-	<http://datos.chana.pro/enLatitud> "40.446595985821794"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.7028897237155656"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.446595985821794"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7028897237155656"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "915 349 029" ;
 	<http://datos.chana.pro/tieneFax> "915 337 809" ;
 	<http://datos.chana.pro/emailBiblioteca> "bib.ruizegea@madrid.org" ;
@@ -1060,8 +1061,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28028" ;
 	<http://datos.chana.pro/enBarrio> "GUINDALERA" ;
-	<http://datos.chana.pro/enLatitud> "40.43437388116339"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.668960389290821"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.43437388116339"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.668960389290821"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "917 263 701" ;
 	<http://datos.chana.pro/tieneFax> "913 555 425" ;
 	<http://datos.chana.pro/emailBiblioteca> "bib.salamanca@madrid.org" ;
@@ -1082,8 +1083,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28026" ;
 	<http://datos.chana.pro/enBarrio> "PRADOLONGO" ;
-	<http://datos.chana.pro/enLatitud> "40.38187274336692"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.710628092812148"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.38187274336692"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.710628092812148"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "914 229 501" ;
 	<http://datos.chana.pro/tieneFax> "914 691 901" ;
 	<http://datos.chana.pro/emailBiblioteca> "bib.usera@madrid.org" ;
@@ -1103,8 +1104,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28018" ;
 	<http://datos.chana.pro/enBarrio> "PALOMERAS SURESTE" ;
-	<http://datos.chana.pro/enLatitud> "40.38449423079662"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6429247082087737"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.38449423079662"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6429247082087737"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "913 033 195" ;
 	<http://datos.chana.pro/tieneFax> "913 804 153" ;
 	<http://datos.chana.pro/emailBiblioteca> "bib.vallecas@madrid.org" ;
@@ -1125,8 +1126,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28031" ;
 	<http://datos.chana.pro/enBarrio> "SANTA EUGENIA" ;
-	<http://datos.chana.pro/enLatitud> "40.3810580116937"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6137699969673722"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.3810580116937"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6137699969673722"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "912 760 231" ;
 	<http://datos.chana.pro/tieneFax> "913 316 455" ;
 	<http://datos.chana.pro/emailBiblioteca> "bib.villavallecas@madrid.org" ;
@@ -1147,8 +1148,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28021" ;
 	<http://datos.chana.pro/enBarrio> "SAN ANDRES" ;
-	<http://datos.chana.pro/enLatitud> "40.349515086848335"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.7101234920009327"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.349515086848335"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7101234920009327"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "917 230 194" ;
 	<http://datos.chana.pro/tieneFax> "917 979 458" ;
 	<http://datos.chana.pro/emailBiblioteca> "bib.villaverde@madrid.org" .
@@ -1172,8 +1173,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28045" ;
 	<http://datos.chana.pro/enBarrio> "DELICIAS" ;
-	<http://datos.chana.pro/enLatitud> "40.399898401147595"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.6900541585894713"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.399898401147595"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6900541585894713"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "917 208 850 / 917 208 860" ;
 	<http://datos.chana.pro/tieneFax> "917 208 890" ;
 	<http://datos.chana.pro/emailBiblioteca> "biblio.regional@madrid.org" ;
@@ -1194,8 +1195,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28021" ;
 	<http://datos.chana.pro/enBarrio> "SAN CRISTOBAL" ;
-	<http://datos.chana.pro/enLatitud> "40.34244856729781"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.686807481597248"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.34244856729781"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.686807481597248"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "917 966 048" ;
 	<http://datos.chana.pro/emailBiblioteca> "bsancristobal@gecesa.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/VILLAVERDE> .
@@ -1214,8 +1215,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28012" ;
 	<http://datos.chana.pro/enBarrio> "EMBAJADORES" ;
-	<http://datos.chana.pro/enLatitud> "40.40595710517701"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.699779793558763"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.40595710517701"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.699779793558763"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "902 430 322" ;
 	<http://datos.chana.pro/tieneFax> "915 063 876" ;
 	<http://datos.chana.pro/emailBiblioteca> "casaencendida@cajamadrid.es" ;
@@ -1236,8 +1237,8 @@
 	<http://datos.chana.pro/situadaEnProvincia> "MADRID" ;
 	<http://datos.chana.pro/codigoPostal> "28015" ;
 	<http://datos.chana.pro/enBarrio> "UNIVERSIDAD" ;
-	<http://datos.chana.pro/enLatitud> "40.427938443518215"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	<http://datos.chana.pro/enLongitud> "-3.710240346719518"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:lat "40.427938443518215"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.710240346719518"^^<http://www.w3.org/2001/XMLSchema#double> ;
 	<http://datos.chana.pro/tieneTelefono> "91 513 31 64 / 91 588 57 75 / 91 588 57 72 (Información) 91 588 57 73 (Reprografía)" ;
 	<http://datos.chana.pro/emailBiblioteca> "hemeroteca@madrid.es" ;
 	<http://datos.chana.pro/enDistrito> <http://datos.chana.pro/CENTRO> .

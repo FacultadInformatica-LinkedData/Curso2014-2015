@@ -94,13 +94,7 @@
         <DataProperty IRI="#hasInstallationName"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasLatitude"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#hasLongDuration"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasLongitude"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasName"/>
@@ -132,6 +126,15 @@
     <Declaration>
         <DataProperty IRI="#isFree"/>
     </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+    </Declaration>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasBorough"/>
         <Class IRI="#Barrio"/>
@@ -148,6 +151,14 @@
         <ObjectProperty IRI="#hasProvince"/>
         <Class IRI="#Provincia"/>
     </ObjectPropertyDomain>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+    </SubDataPropertyOf>
     <DataPropertyDomain>
         <DataProperty IRI="#hasActivityTitle"/>
         <Class IRI="#Evento"/>
@@ -229,31 +240,7 @@
         <Class IRI="#Evento"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#hasLatitude"/>
-        <Class IRI="#Bibliobus"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#hasLatitude"/>
-        <Class IRI="#Biblioteca"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#hasLatitude"/>
-        <Class IRI="#Evento"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
         <DataProperty IRI="#hasLongDuration"/>
-        <Class IRI="#Evento"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#hasLongitude"/>
-        <Class IRI="#Bibliobus"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#hasLongitude"/>
-        <Class IRI="#Biblioteca"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#hasLongitude"/>
         <Class IRI="#Evento"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -350,6 +337,42 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#isFree"/>
+        <Class IRI="#Evento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+        <Class IRI="#Bibliobus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+        <Class IRI="#Biblioteca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+        <Class IRI="#Evento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+        <Class IRI="#Bibliobus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+        <Class IRI="#Biblioteca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+        <Class IRI="#Evento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+        <Class IRI="#Bibliobus"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+        <Class IRI="#Biblioteca"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
         <Class IRI="#Evento"/>
     </DataPropertyDomain>
     <DataPropertyRange>
@@ -405,16 +428,8 @@
         <Datatype abbreviatedIRI="xsd:anyURI"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#hasLatitude"/>
-        <Datatype abbreviatedIRI="xsd:float"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
         <DataProperty IRI="#hasLongDuration"/>
         <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#hasLongitude"/>
-        <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#hasName"/>
@@ -455,6 +470,18 @@
     <DataPropertyRange>
         <DataProperty IRI="#isFree"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
 </Ontology>
 
