@@ -260,7 +260,7 @@
 
   <owl:DatatypeProperty rdf:about="&ont;#geometry">
     <rdfs:domain rdf:resource="&ont;/School/Public"/>
-    <owl:onDataRange rdf:resource="&geosp;#wktLiteral"/>
+    <rdfs:range rdf:resource="&geosp;#wktLiteral"/>
   </owl:DatatypeProperty>
 
   <!-- Public Building Class -->
@@ -296,7 +296,7 @@
 
     <owl:DatatypeProperty rdf:about="&ont;#geometry">
     <rdfs:domain rdf:resource="&ont;/BusStop"/>
-    <owl:onDataRange rdf:resource="&geosp;#wktLiteral"/>
+    <rdfs:range rdf:resource="&geosp;#wktLiteral"/>
   </owl:DatatypeProperty>
 
 </rdf:RDF>
