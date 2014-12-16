@@ -68,17 +68,10 @@
 							</TR>
 
 							<TR>
-								<TD>Clase de la via</TD>
-								<TD>no</TD>
-								<TD>String</TD>
-								<TD>CALLE, PUENTE, AVENIDA</TD>
-							</TR>
-
-							<TR>
 								<TD>Nombre de la vía</TD>
 								<TD>si</TD>
 								<TD>String</TD>
-								<TD>ANDRES SEGOVIA</TD>
+								<TD>CALLE ANDRES SEGOVIA</TD>
 							</TR>
 
 							<TR>
@@ -239,14 +232,14 @@
 							<TR>
 								<TD>Codigo de distrito</TD>
 								<TD>si</TD>
-								<TD>int</TD>
-								<TD>1</TD>
+								<TD>int,URI</TD>
+								<TD>1,www.st-madrid.es/Distritos/1</TD>
 							</TR>
 							
 							<TR>
 								<TD>Nombre de barrio</TD>
 								<TD>si</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD>PALACIO</TD>
 							</TR>
 							
@@ -287,7 +280,7 @@
 							</TR>
 					
 							<TR>
-								<TD>idEntidad</TD>
+								<TD>PK</TD>
 								<TD>si</TD>
 								<TD>int</TD>
 								<TD>21.112, 7.048.490</TD>
@@ -331,15 +324,8 @@
 							<TR>
 								<TD>Nombre-via</TD>
 								<TD>si</TD>
-								<TD>String</TD>
-								<TD>SERRANO, GOYA</TD>
-							</TR>
-
-							<TR>
-								<TD>Clase-vial</TD>
-								<TD>no</TD>
-								<TD>String</TD>
-								<TD>CALLE, AVENIDA, PASEO, PLAZA, RONDA</TD>
+								<TD>String,URI</TD>
+								<TD>CALLE SERRANO,www.st-madrid.es/Viales/CALLE-SERRANO</TD>
 							</TR>
 
 							<TR>
@@ -373,15 +359,15 @@
 							<TR>
 								<TD>Barrio</TD>
 								<TD>si</TD>
-								<TD>String</TD>
-								<TD>CASTELLANA, RECOLECTOS</TD>
+								<TD>String,URI</TD>
+								<TD>CASTELLANA, www.st-madrid.es/Barrios/CASTELLANA</TD>
 							</TR>
 
 							<TR>
 								<TD>Distrito</TD>
 								<TD>si</TD>
-								<TD>String</TD>
-								<TD>SALAMANCA, CHAMARTIN</TD>
+								<TD>String,URI</TD>
+								<TD>SALAMANCA,www.st-madrid.es/Distritos/SALAMANCA</TD>
 							</TR>
 
 							<TR>
@@ -401,14 +387,14 @@
 							<TR>
 								<TD>Latitud</TD>
 								<TD>no</TD>
-								<TD>float</TD>
+								<TD>int</TD>
 								<TD>(40.40, 40.50)</TD>
 							</TR>
 
 							<TR>
 								<TD>Longitud</TD>
 								<TD>no</TD>
-								<TD>float</TD>
+								<TD>int</TD>
 								<TD>(-3.80, 3.64)</TD>
 							</TR>
 
@@ -451,7 +437,7 @@
 							</TR>
 							
 							<TR>
-								<TD>idEntidad</TD>
+								<TD>pk</TD>
 								<TD>no</TD>
 								<TD>int</TD>
 								<TD>1744</TD>
@@ -460,7 +446,7 @@
 							<TR>
 								<TD>Nombre</TD>
 								<TD>si</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD>Biblioteca Nacional de España</TD>
 							</TR>
 							
@@ -474,21 +460,21 @@
 							<TR>
 								<TD>Horario</TD>
 								<TD>no</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD>empty</TD>
 							</TR>
 							
 							<TR>
 								<TD>Transporte</TD>
 								<TD>no</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD>empty</TD>
 							</TR>
 							
 							<TR>
 								<TD>Description</TD>
 								<TD>no</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD>Funciones Reunir, catalogar y conservar los fondos bibliográficos producidos en cualquier lengua española u otro idioma, al servicio de la investigación, la cultura y la información.  Fomentar la investigación mediante el estudio, préstamo y reproducción de su fondo bibliográfico.  Difundir la información sobre la producción bibliográfica española a partir de las entradas derivadas del depósito legal.  </TD>
 							</TR>
 							
@@ -502,15 +488,8 @@
 							<TR>
 								<TD>Nombre-vial</TD>
 								<TD>si</TD>
-								<TD>string</TD>
-								<TD>RECOLETOS</TD>
-							</TR>
-							
-							<TR>
-								<TD>Clase-vial</TD>
-								<TD>no</TD>
-								<TD>string</TD>
-								<TD>PASEO</TD>
+								<TD>String,URI</TD>
+								<TD>PASEO RECOLETOS,www.st-madrid.es/Viales/PASEO+RECOLETOS</TD>
 							</TR>
 							
 							<TR>
@@ -523,19 +502,19 @@
 							<TR>
 								<TD>Localidad</TD>
 								<TD>no</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD>MADRID</TD>
 							</TR>
 							
 							<TR>
 								<TD>Provincia</TD>
 								<TD>no</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD>MADRID</TD>
 							</TR>
 							
 							<TR>
-								<TD>Código Postal</TD>
+								<TD>Codigo-postal</TD>
 								<TD>no</TD>
 								<TD>String</TD>
 								<TD>28001</TD>
@@ -544,26 +523,26 @@
 							<TR>
 								<TD>Barrio</TD>
 								<TD>si</TD>
-								<TD>string</TD>
-								<TD>RECOLETOS</TD>
+								<TD>String,URI</TD>
+								<TD>RECOLETOS,www.st-madrid.es/Barrios/RECOLETOS</TD>
 							</TR>
 							
 							<TR>
 								<TD>Distrito</TD>
 								<TD>si</TD>
-								<TD>string</TD>
-								<TD>SALAMANCA</TD>
+								<TD>String,URI</TD>
+								<TD>SALAMANCA,www.st-madrid.es/Distritos/SALAMANCA</TD>
 							</TR>
 							
 							<TR>
-								<TD>Coordenada-X</TD>
+								<TD>Coordenada-x</TD>
 								<TD>no</TD>
 								<TD>int</TD>
 								<TD>441505</TD>
 							</TR>
 							
 							<TR>
-								<TD>Coordenada-Y</TD>
+								<TD>Coordenada-y</TD>
 								<TD>no</TD>
 								<TD>int</TD>
 								<TD>4475144</TD>
@@ -580,27 +559,27 @@
 								<TD>Longitud</TD>
 								<TD>no</TD>
 								<TD>float</TD>
-								<TD>-3.690844141741069</TD>
+								<TD>'-3.690844141741069</TD>
 							</TR>
 							
 							<TR>
 								<TD>Email</TD>
 								<TD>no</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD>acceso@bne.es</TD>
 							</TR>
 							
 							<TR>
 								<TD>Tipo</TD>
 								<TD>no</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD>/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos</TD>
 							</TR>
 							
 							<TR>
 								<TD>EntityType</TD>
 								<TD>no</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD>MonumentosEdificiosArtisticos</TD>
 							</TR>
 						</TABLE>
@@ -622,7 +601,7 @@
 							</TR>
 							
 							<TR>
-								<TD>idEntidad</TD>
+								<TD>pk</TD>
 								<TD>no</TD>
 								<TD>int</TD>
 								<TD>2071</TD>
@@ -631,35 +610,35 @@
 							<TR>
 								<TD>Nombre</TD>
 								<TD>si</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD>Arte Publico (Museo al Aire Libre de la Castellana)</TD>
 							</TR>
 							
 							<TR>
 								<TD>Descripcion-entidad</TD>
 								<TD>no</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD>empty</TD>
 							</TR>
 							
 							<TR>
 								<TD>Horario</TD>
 								<TD>no</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD>empty</TD>
 							</TR>
 							
 							<TR>
 								<TD>Transporte</TD>
 								<TD>no</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD> Metro: Rubén Darío (línea 5)  Bus: 5, 14, 27, 45, 150 </TD>
 							</TR>
 							
 							<TR>
 								<TD>Description</TD>
 								<TD>no</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD>empty</TD>
 							</TR>
 							
@@ -673,15 +652,8 @@
 							<TR>
 								<TD>Nombre-vial</TD>
 								<TD>si</TD>
-								<TD>string</TD>
-								<TD>CASTELLANA</TD>
-							</TR>
-							
-							<TR>
-								<TD>Clase-vial</TD>
-								<TD>no</TD>
-								<TD>string</TD>
-								<TD>PASEO</TD>
+								<TD>String,URI</TD>
+								<TD>PASEO CASTELLANA,www.st-madrid.es/Viales/PASEO-CASTELLANA</TD>
 							</TR>
 							
 							<TR>
@@ -694,47 +666,47 @@
 							<TR>
 								<TD>Localidad</TD>
 								<TD>no</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD>MADRID</TD>
 							</TR>
 							
 							<TR>
 								<TD>Provincia</TD>
 								<TD>no</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD>MADRID</TD>
 							</TR>
 							
 							<TR>
-								<TD>Código Postal</TD>
+								<TD>Codigo-postal</TD>
 								<TD>no</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD>28046</TD>
 							</TR>
 							
 							<TR>
 								<TD>Barrio</TD>
 								<TD>si</TD>
-								<TD>string</TD>
-								<TD>CASTELLANA</TD>
+								<TD>String,URI</TD>
+								<TD>CASTELLANA,www.st-madrid.es/Barrios/CASTELLANA</TD>
 							</TR>
 							
 							<TR>
 								<TD>Distrito</TD>
 								<TD>si</TD>
-								<TD>string</TD>
-								<TD>SALAMANCA</TD>
+								<TD>String,URI</TD>
+								<TD>SALAMANCA,www.st-madrid.es/Distritos/salamanca</TD>
 							</TR>
 							
 							<TR>
-								<TD>Coordenada-X</TD>
+								<TD>Coordenada-x</TD>
 								<TD>no</TD>
 								<TD>int</TD>
 								<TD>441788</TD>
 							</TR>
 							
 							<TR>
-								<TD>Coordenada-Y</TD>
+								<TD>Coordenada-y</TD>
 								<TD>no</TD>
 								<TD>int</TD>
 								<TD>4476277</TD>
@@ -757,21 +729,21 @@
 							<TR>
 								<TD>Email</TD>
 								<TD>no</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD>smuseosm@madrid.es</TD>
 							</TR>
 							
 							<TR>
 								<TD>Tipo</TD>
 								<TD>no</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD>/contenido/entidadesYorganismos/MonumentosEdificiosArtisticos</TD>
 							</TR>
 
 							<TR>
 								<TD>EntityType</TD>
 								<TD>no</TD>
-								<TD>string</TD>
+								<TD>String</TD>
 								<TD>MonumentosEdificiosArtisticos</TD>
 							</TR>
 						</TABLE>
@@ -832,6 +804,7 @@
 									</UL>
 								<LI>Districts <A HREF="www.st-madrid.es/Distritos/">www.st-madrid.es/Distritos/</A></LI>
 								<LI>Neighborhoods: <A HREF="www.st-madrid.es/Barrios/">www.st-madrid.es/Barrios/</A></LI>
+                                <LI>Roads: <A HREF="www.st-madrid.es/Viales/">www.st-madrid.es/Viales/</A></LI>
 							</UL>
 						</BLOCKQUOTE></BLOCKQUOTE>
 					</H4>

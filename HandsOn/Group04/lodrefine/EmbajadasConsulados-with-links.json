@@ -1,0 +1,449 @@
+[
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column BARRIO to type http://www.st-madrid.es/Barrios",
+    "columnName": "BARRIO",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/barrios",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.st-madrid.es/Barrios",
+        "name": "http://www.st-madrid.es/Barrios"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column DISTRITO to type http://www.st-madrid.es/Distritos",
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/distritos",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.st-madrid.es/Distritos",
+        "name": "http://www.st-madrid.es/Distritos"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column CompleteName at index 7 based on column NOMBRE-VIA using expression grel:cells[\"CLASE-VIAL\"].value.trim() + \" \" + value.trim()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "CompleteName",
+    "columnInsertIndex": 7,
+    "baseColumnName": "NOMBRE-VIA",
+    "expression": "grel:cells[\"CLASE-VIAL\"].value.trim() + \" \" + value.trim()",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column CompleteName to type http://www.st-madrid.es/Viales",
+    "columnName": "CompleteName",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/vialidadesm",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.st-madrid.es/Viales",
+        "name": "http://www.st-madrid.es/Viales"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column http://www.st-madrid.es/Viales at index 8 based on column CompleteName using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "http://www.st-madrid.es/Viales",
+    "columnInsertIndex": 8,
+    "baseColumnName": "CompleteName",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column http://www.st-madrid.es/Barrios at index 15 based on column BARRIO using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "http://www.st-madrid.es/Barrios",
+    "columnInsertIndex": 15,
+    "baseColumnName": "BARRIO",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column http://www.st-madrid.es/Distritos at index 17 based on column DISTRITO using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "http://www.st-madrid.es/Distritos",
+    "columnInsertIndex": 17,
+    "baseColumnName": "DISTRITO",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.st-madrid.es/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"OrganismosEntidades/\" + cells[\"EntityType\"].value + \"/\" + value",
+          "isRowNumberCell": false,
+          "columnName": "PK",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.st-madrid.es/idEntidad",
+              "curie": "http://www.st-madrid.es/idEntidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PK"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/nombreEntidad",
+              "curie": "http://www.st-madrid.es/nombreEntidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/descripcionEntidad",
+              "curie": "http://www.st-madrid.es/descripcionEntidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION-ENTIDAD"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/horarioEntidad",
+              "curie": "http://www.st-madrid.es/horarioEntidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/transporte",
+              "curie": "http://www.st-madrid.es/transporte",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TRANSPORTE"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/descripcion",
+              "curie": "http://www.st-madrid.es/descripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/accesibilidad",
+              "curie": "http://www.st-madrid.es/accesibilidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/nombreVia",
+              "curie": "http://www.st-madrid.es/nombreVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/ClaseDeLaVia",
+              "curie": "http://www.st-madrid.es/ClaseDeLaVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CLASE-VIAL"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/numeroEntidadVia",
+              "curie": "http://www.st-madrid.es/numeroEntidadVia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NUM"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/localidad",
+              "curie": "http://www.st-madrid.es/localidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LOCALIDAD"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/provincia",
+              "curie": "http://www.st-madrid.es/provincia",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "PROVINCIA"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/codigoPostal",
+              "curie": "http://www.st-madrid.es/codigoPostal",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CODIGO-POSTAL"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/esParteDe",
+              "curie": "http://www.st-madrid.es/esParteDe",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Barrios/\" + value.trim().replace(\" \", \"-\")",
+                "isRowNumberCell": false,
+                "columnName": "http://www.st-madrid.es/Barrios",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.st-madrid.es/Barrios",
+                    "curie": "http://www.st-madrid.es/Barrios"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/esParteDe",
+              "curie": "http://www.st-madrid.es/esParteDe",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "http://www.st-madrid.es/Distritos",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.st-madrid.es/Distritos",
+                    "curie": "http://www.st-madrid.es/Distritos"
+                  }
+                ],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/coordenadaX",
+              "curie": "http://www.st-madrid.es/coordenadaX",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-X"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/coordenadaY",
+              "curie": "http://www.st-madrid.es/coordenadaY",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "COORDENADA-Y"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/latitud",
+              "curie": "http://www.st-madrid.es/latitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/longitud",
+              "curie": "http://www.st-madrid.es/longitud",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/email",
+              "curie": "http://www.st-madrid.es/email",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/tipo",
+              "curie": "http://www.st-madrid.es/tipo",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TIPO"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/tipoEntidad",
+              "curie": "http://www.st-madrid.es/tipoEntidad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EntityType"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/nombreVia",
+              "curie": "http://www.st-madrid.es/nombreVia",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI's via",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.st-madrid.es/Viales",
+                    "curie": "http://www.st-madrid.es/Viales"
+                  }
+                ],
+                "links": []
+              }
+            }
+          ]
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column http://www.st-madrid.es/Barrios to URI's Barrios",
+    "oldColumnName": "http://www.st-madrid.es/Barrios",
+    "newColumnName": "URI's Barrios"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column http://www.st-madrid.es/Distritos to URI's Distritos",
+    "oldColumnName": "http://www.st-madrid.es/Distritos",
+    "newColumnName": "URI's Distritos"
+  }
+]

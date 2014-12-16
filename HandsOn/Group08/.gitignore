@@ -1,4 +1,7 @@
 # Keep clean the repo
 *~
 .*
+<<<<<<< HEAD
+=======
 ontology/catalog-*.xml
+>>>>>>> f700df9d92b2a9557d7406c2ae9f623d1567afd5
