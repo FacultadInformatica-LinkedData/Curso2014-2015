@@ -1,0 +1,1135 @@
+
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DESCRIPCION-ENTIDAD",
+    "columnName": "DESCRIPCION-ENTIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPO-NUM",
+    "columnName": "TIPO-NUM"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PLANTA",
+    "columnName": "PLANTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PUERTA",
+    "columnName": "PUERTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ESCALERAS",
+    "columnName": "ESCALERAS"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ORIENTACION",
+    "columnName": "ORIENTACION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LOCALIDAD",
+    "columnName": "LOCALIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PROVINCIA",
+    "columnName": "PROVINCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORDENADA-X",
+    "columnName": "COORDENADA-X"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORDENADA-Y",
+    "columnName": "COORDENADA-Y"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FAX",
+    "columnName": "FAX"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column",
+    "columnName": "Column"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PK",
+    "columnName": "PK"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CLASE-VIAL",
+    "columnName": "CLASE-VIAL"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column BARRIO",
+    "columnName": "BARRIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DISTRITO-URI",
+    "columnName": "DISTRITO-URI"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPO",
+    "columnName": "TIPO"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column TRANSPORTE by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "Bus:",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column TRANSPORTE 2 by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "Renfe:",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TRANSPORTE 2 1 using expression grel:\"Bus:\" +value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE 2 1",
+    "expression": "grel:\"Bus:\" +value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TRANSPORTE 1 to METRO",
+    "oldColumnName": "TRANSPORTE 1",
+    "newColumnName": "METRO"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TRANSPORTE 2 to AUTOBUS",
+    "oldColumnName": "TRANSPORTE 2",
+    "newColumnName": "AUTOBUS"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column NOMBRE by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "guessCellType": true,
+    "removeOriginalColumn": false,
+    "mode": "separator",
+    "separator": "número",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column NOMBRE 1 by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE 1",
+    "guessCellType": true,
+    "removeOriginalColumn": false,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1",
+    "columnName": "NOMBRE 1"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1 2",
+    "columnName": "NOMBRE 1 2"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1 3",
+    "columnName": "NOMBRE 1 3"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1 4",
+    "columnName": "NOMBRE 1 4"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1 5",
+    "columnName": "NOMBRE 1 5"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1 6",
+    "columnName": "NOMBRE 1 6"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1 7",
+    "columnName": "NOMBRE 1 7"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1 8",
+    "columnName": "NOMBRE 1 8"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1 9",
+    "columnName": "NOMBRE 1 9"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1 10",
+    "columnName": "NOMBRE 1 10"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1 11",
+    "columnName": "NOMBRE 1 11"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 2",
+    "columnName": "NOMBRE 2"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column NOMBRE 1 1 to Tipo",
+    "oldColumnName": "NOMBRE 1 1",
+    "newColumnName": "Tipo"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/instances/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns",
+          "uri": "http://www.semanticweb.org/OntologyGroup12#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-literal",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE"
+        },
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"LugarPrestamoLibros/\"+replaceChars(value, \" -\", \"\")",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#LugarPrestamoLibros",
+              "curie": "ns:LugarPrestamoLibros"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#Horario",
+              "curie": "ns:Horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#Equipamiento",
+              "curie": "ns:Equipamiento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#Descripcion",
+              "curie": "ns:Descripcion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#AccesibilidadParaMinusvalidos",
+              "curie": "ns:AccesibilidadParaMinusvalidos",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#URL",
+              "curie": "ns:URL",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#estaEnDistrito",
+              "curie": "ns:estaEnDistrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#Distrito",
+                    "curie": "ns:Distrito"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "DISTRITO"
+                    }
+                  },
+                  {
+                    "uri": "http://www.w3.org/2002/07/owl#sameAs",
+                    "curie": "owl:sameAs",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "DISTRITO-URI"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#CodigoPostal",
+                    "curie": "ns:CodigoPostal",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "CODIGO-POSTAL"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#Telefono",
+              "curie": "ns:Telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#Email",
+              "curie": "ns:Email",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#accesibleDesde",
+              "curie": "ns:accesibleDesde",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"TransportePublico/Metro/\"+replaceChars(value, \" -\", \"\")",
+                "isRowNumberCell": false,
+                "columnName": "METRO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#TransportePublico",
+                    "curie": "ns:TransportePublico"
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#Metro",
+                    "curie": "ns:Metro"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "METRO"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#accesibleDesde",
+              "curie": "ns:accesibleDesde",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"TrasnportePublico/Autobus/\"+replaceChars(value, \" -\", \"\")",
+                "isRowNumberCell": false,
+                "columnName": "AUTOBUS",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#TransportePublico",
+                    "curie": "ns:TransportePublico"
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#Autobus",
+                    "curie": "ns:Autobus"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "AUTOBUS"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#tieneDireccion",
+              "curie": "ns:tieneDireccion",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Direccion/\"+replaceChars(value, \" -\", \"\")",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#Direccion",
+                    "curie": "ns:Direccion"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+                    "curie": "rdfs:label",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "NOMBRE-VIA"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#Numero",
+                    "curie": "ns:Numero",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "NUM"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#Latitud",
+                    "curie": "ns:Latitud",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "LATITUD"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#Longitud",
+                    "curie": "ns:Longitud",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "LONGITUD"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column DISTRITO to type null",
+    "columnName": "DISTRITO",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/dbpediaes3",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": null,
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "NOMBRE: judgment",
+          "omitBlank": false,
+          "columnName": "NOMBRE",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Centro Centro (http://es.dbpedia.org/resource/Centro_Centro) for cells containing \"CENTRO\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "CENTRO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Centro_Centro",
+      "name": "Centro Centro",
+      "score": 0.4615384340286255,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Moncloa-Aravaca (http://dbpedia.org/resource/Moncloa-Aravaca) for cells containing \"MONCLOA-ARAVACA\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "MONCLOA-ARAVACA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Moncloa-Aravaca",
+      "name": "Moncloa-Aravaca",
+      "score": 1,
+      "types": [
+        "http://schema.org/AdministrativeArea",
+        "http://schema.org/Place",
+        "http://www.ontologydesignpatterns.org/ont/d0.owl#Location",
+        "http://dbpedia.org/ontology/AdministrativeRegion",
+        "http://dbpedia.org/ontology/Place",
+        "http://dbpedia.org/ontology/PopulatedPlace",
+        "http://dbpedia.org/ontology/Region",
+        "http://dbpedia.org/ontology/Wikidata:Q532"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic San Blas-Canillejas (http://dbpedia.org/resource/San_Blas_(Madrid)) for cells containing \"SAN BLAS-CANILLEJAS\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "SAN BLAS-CANILLEJAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/San_Blas_(Madrid)",
+      "name": "San Blas-Canillejas",
+      "score": 1,
+      "types": [
+        "http://schema.org/AdministrativeArea",
+        "http://schema.org/Place",
+        "http://www.ontologydesignpatterns.org/ont/d0.owl#Location",
+        "http://dbpedia.org/ontology/AdministrativeRegion",
+        "http://dbpedia.org/ontology/Place",
+        "http://dbpedia.org/ontology/PopulatedPlace",
+        "http://dbpedia.org/ontology/Region",
+        "http://dbpedia.org/ontology/Wikidata:Q532"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Carabanchel (http://es.dbpedia.org/resource/Carabanchel) for cells containing \"CARABANCHEL\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "CARABANCHEL",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Carabanchel",
+      "name": "Carabanchel",
+      "score": 1,
+      "types": [
+        "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing",
+        "http://schema.org/AdministrativeArea",
+        "http://schema.org/Place",
+        "http://www.ontologydesignpatterns.org/ont/d0.owl#Location",
+        "http://dbpedia.org/ontology/AdministrativeRegion",
+        "http://dbpedia.org/ontology/Place",
+        "http://dbpedia.org/ontology/PopulatedPlace",
+        "http://dbpedia.org/ontology/Region",
+        "http://dbpedia.org/ontology/Wikidata:Q532"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Fuencarral-El Pardo (http://es.dbpedia.org/resource/Categoría:Fuencarral-El_Pardo) for cells containing \"FUENCARRAL-EL PARDO\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "FUENCARRAL-EL PARDO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Categoría:Fuencarral-El_Pardo",
+      "name": "Fuencarral-El Pardo",
+      "score": 1,
+      "types": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Hortaleza (http://dbpedia.org/resource/Hortaleza) for cells containing \"HORTALEZA\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "HORTALEZA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Hortaleza",
+      "name": "Hortaleza",
+      "score": 1,
+      "types": [
+        "http://schema.org/AdministrativeArea",
+        "http://schema.org/Place",
+        "http://www.ontologydesignpatterns.org/ont/d0.owl#Location",
+        "http://dbpedia.org/ontology/AdministrativeRegion",
+        "http://dbpedia.org/ontology/Place",
+        "http://dbpedia.org/ontology/PopulatedPlace",
+        "http://dbpedia.org/ontology/Region",
+        "http://dbpedia.org/ontology/Wikidata:Q532"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Latina (http://dbpedia.org/resource/Latina_(disambiguation)) for cells containing \"LATINA\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "LATINA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Latina_(disambiguation)",
+      "name": "Latina",
+      "score": 1,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Moratalaz (http://es.dbpedia.org/resource/Categoría:Moratalaz) for cells containing \"MORATALAZ\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "MORATALAZ",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Categoría:Moratalaz",
+      "name": "Moratalaz",
+      "score": 1,
+      "types": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Salamanca (http://es.dbpedia.org/resource/Categoría:Salamanca) for cells containing \"SALAMANCA\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "SALAMANCA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Categoría:Salamanca",
+      "name": "Salamanca",
+      "score": 0.5357142857142857,
+      "types": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Ciudad Lineal (http://es.dbpedia.org/resource/Categoría:Ciudad_Lineal) for cells containing \"CIUDAD LINEAL\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "CIUDAD LINEAL",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Categoría:Ciudad_Lineal",
+      "name": "Ciudad Lineal",
+      "score": 1,
+      "types": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Retiro (http://dbpedia.org/resource/Retiro) for cells containing \"RETIRO\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "columnName": "DISTRITO",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "RETIRO",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Retiro",
+      "name": "Retiro",
+      "score": 1,
+      "types": [
+        ""
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Usera (http://es.dbpedia.org/resource/Categoría:Usera) for cells containing \"USERA\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "columnName": "DISTRITO",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "USERA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Categoría:Usera",
+      "name": "Usera",
+      "score": 1,
+      "types": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Villa de Vallecas (http://es.dbpedia.org/resource/Categoría:Villa_de_Vallecas) for cells containing \"VILLA DE VALLECAS\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "columnName": "DISTRITO",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "VILLA DE VALLECAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Categoría:Villa_de_Vallecas",
+      "name": "Villa de Vallecas",
+      "score": 1,
+      "types": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Barajas (http://dbpedia.org/resource/Barajas_(district)) for cells containing \"BARAJAS\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "columnName": "DISTRITO",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "BARAJAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Barajas_(district)",
+      "name": "Barajas",
+      "score": 1,
+      "types": [
+        "http://schema.org/AdministrativeArea",
+        "http://schema.org/Place",
+        "http://www.ontologydesignpatterns.org/ont/d0.owl#Location",
+        "http://dbpedia.org/ontology/AdministrativeRegion",
+        "http://dbpedia.org/ontology/Place",
+        "http://dbpedia.org/ontology/PopulatedPlace",
+        "http://dbpedia.org/ontology/Region",
+        "http://dbpedia.org/ontology/Wikidata:Q532"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Puente de Vallecas (http://es.dbpedia.org/resource/Categoría:Puente_de_Vallecas) for cells containing \"PUENTE DE VALLECAS\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "columnName": "DISTRITO",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "PUENTE DE VALLECAS",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Categoría:Puente_de_Vallecas",
+      "name": "Puente de Vallecas",
+      "score": 1,
+      "types": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Arganzuela (http://es.dbpedia.org/resource/Categoría:Arganzuela) for cells containing \"ARGANZUELA\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "columnName": "DISTRITO",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "ARGANZUELA",
+    "judgment": "matched",
+    "match": {
+      "id": "http://es.dbpedia.org/resource/Categoría:Arganzuela",
+      "name": "Arganzuela",
+      "score": 1,
+      "types": [
+        "http://www.w3.org/2004/02/skos/core#Concept"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Match topic Villaverde (http://dbpedia.org/resource/Villaverde_(Madrid)) for cells containing \"VILLAVERDE\" in column DISTRITO",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "columnName": "DISTRITO",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "DISTRITO",
+    "similarValue": "VILLAVERDE",
+    "judgment": "matched",
+    "match": {
+      "id": "http://dbpedia.org/resource/Villaverde_(Madrid)",
+      "name": "Villaverde",
+      "score": 1,
+      "types": [
+        "http://schema.org/AdministrativeArea",
+        "http://schema.org/Place",
+        "http://www.ontologydesignpatterns.org/ont/d0.owl#Location",
+        "http://dbpedia.org/ontology/AdministrativeRegion",
+        "http://dbpedia.org/ontology/Place",
+        "http://dbpedia.org/ontology/PopulatedPlace",
+        "http://dbpedia.org/ontology/Region",
+        "http://dbpedia.org/ontology/Wikidata:Q532"
+      ]
+    },
+    "shareNewTopics": false
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column DISTRITO-URI at index 15 based on column DISTRITO using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "facets": [
+        {
+          "invert": false,
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "selectError": false,
+          "omitError": false,
+          "selectBlank": false,
+          "name": "DISTRITO: judgment",
+          "omitBlank": false,
+          "columnName": "DISTRITO",
+          "type": "list",
+          "selection": [
+            {
+              "v": {
+                "v": "matched",
+                "l": "matched"
+              }
+            }
+          ]
+        }
+      ],
+      "mode": "row-based"
+    },
+    "newColumnName": "DISTRITO-URI",
+    "columnInsertIndex": 15,
+    "baseColumnName": "DISTRITO",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  }
+]
