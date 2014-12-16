@@ -30,7 +30,7 @@
         <Class IRI="CentroCultural"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Direccion"/>
+        <Class IRI="http://www.w3.org/2006/vcard/ns#Address"/>
     </Declaration>
     <Declaration>
         <Class IRI="Distrito"/>
@@ -51,7 +51,7 @@
         <ObjectProperty IRI="estaEnDistrito"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="tieneDireccion"/>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#adr"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="AccesibilidadParaMinusvalidos"/>
@@ -60,7 +60,7 @@
         <DataProperty IRI="Calle"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="CodigoPostal"/>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#postal-code"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="Descripcion"/>
@@ -74,11 +74,14 @@
     <Declaration>
         <DataProperty IRI="Horario"/>
     </Declaration>
-    <Declaration>
-        <DataProperty IRI="Latitud"/>
+	<Declaration>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="Longitud"/>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="Nombre"/>
@@ -104,12 +107,12 @@
         <Class IRI="Metro"/>
         <Class IRI="TransportePublico"/>
     </SubClassOf>
-	<ObjectPropertyDomain>
-        <ObjectProperty IRI="tieneDireccion"/>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#adr"/>
         <Class IRI="CentroCultural"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="tieneDireccion"/>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#adr"/>
         <Class IRI="LugarPrestamoLibros"/>
     </ObjectPropertyDomain>
 	<ObjectPropertyDomain>
@@ -128,9 +131,9 @@
         <ObjectProperty IRI="accesibleDesde"/>
         <Class IRI="LugarPrestamoLibros"/>
     </ObjectPropertyDomain>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="tieneDireccion"/>
-        <Class IRI="Direccion"/>
+   <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#adr"/>
+        <Class IRI="http://www.w3.org/2006/vcard/ns#Address"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="accesibleDesde"/>
@@ -140,7 +143,15 @@
         <ObjectProperty IRI="estaEnDistrito"/>
         <Class IRI="Distrito"/>
     </ObjectPropertyRange>
-	<DataPropertyDomain>
+	<SubDataPropertyOf>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
         <DataProperty IRI="AccesibilidadParaMinusvalidos"/>
         <Class IRI="CentroCultural"/>
     </DataPropertyDomain>
@@ -150,14 +161,14 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="Calle"/>
-        <Class IRI="Direccion"/>
+        <Class IRI="http://www.w3.org/2006/vcard/ns#Address"/>
     </DataPropertyDomain>
 	<DataPropertyDomain>
         <DataProperty IRI="nombreDistrito"/>
         <Class IRI="Distrito"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="CodigoPostal"/>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#postal-code"/>
         <Class IRI="Distrito"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -190,11 +201,11 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="Latitud"/>
-        <Class IRI="Direccion"/>
+        <Class IRI="http://www.w3.org/2006/vcard/ns#Address"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="Longitud"/>
-        <Class IRI="Direccion"/>
+        <Class IRI="http://www.w3.org/2006/vcard/ns#Address"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="Nombre"/>
@@ -206,7 +217,7 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="Numero"/>
-        <Class IRI="Direccion"/>
+        <Class IRI="http://www.w3.org/2006/vcard/ns#Address"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="Telefono"/>
@@ -224,6 +235,30 @@
         <DataProperty IRI="Content-URL"/>
         <Class IRI="LugarPrestamoLibros"/>
     </DataPropertyDomain>
+	<DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+        <Class IRI="#CentroCultural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+        <Class IRI="#LugarPrestamoLibros"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+        <Class IRI="#CentroCultural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+        <Class IRI="#LugarPrestamoLibros"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+        <Class IRI="#CentroCultural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+        <Class IRI="#LugarPrestamoLibros"/>
+    </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="AccesibilidadParaMinusvalidos"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
@@ -233,7 +268,7 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="CodigoPostal"/>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#postal-code"/>
         <Datatype abbreviatedIRI="xsd:decimal"/>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -252,13 +287,17 @@
         <DataProperty IRI="Horario"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="Latitud"/>
-        <Datatype abbreviatedIRI="xsd:decimal"/>
+	<DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="Longitud"/>
-        <Datatype abbreviatedIRI="xsd:decimal"/>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="Nombre"/>
