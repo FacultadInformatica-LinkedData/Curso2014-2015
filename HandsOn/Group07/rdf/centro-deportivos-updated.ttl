@@ -14,8 +14,8 @@
 	schema:description "Tipo de Gestión  Directa, por parte del Ayuntamiento de Madrid   Superficie  53.700 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  2 Campos de Fútbol (de césped artificial) - 1 Campo de Fútbol 7 (de césped artificial) - Pista de Baloncesto - Pista de Fútbol Sala - Pista de Hockey Patines - 4 Pistas de Pádel (de cristal)- Pista Polideportiva - 2 Pistas de Tenis    Unidades Deportivas Cubiertas  Pabellón polideportivo - Piscina (vaso de 25 m. y vaso de enseñanza) - Sala multiusos - Sala de Musculación    Accesibilidad  Instalación adaptada, con ascensor y grúa de piscina    SERVICIOS     Deportes practicables  Baloncesto - Balonmano - Fútbol - Fútbol Sala - Fútbol 7 - Gimnasia Rítmica - Hockey Pista - Hockey Patines - Musculación - Natación - Pádel - Patinaje - Tenis - Voleibol    Uso de espacios deportivos  Campo de Fútbol - Campo de Fútbol 7 - Pabellón polideportivo - Piscina - Pista de Baloncesto - Pista de Fútbol Sala - Pista de Pádel - Pista de Hockey Patines - Pista de Tenis - Pista de Voleibol - Sala de Musculación - Pista de Pádel   Enseñanzas deportivas    Escuelas Pre-Infantiles  (de 3 a 5 años):   Matronatación - Natación peques  Escuelas Infantiles  (6 a 14 años, según modalidades): Aeróbic - Fútbol (masculino y femenino) - Fútbol Sala -Gimnasia Rítmica - Natación - Patinaje -  Salvamento acuático - Tenis  Clases para jóvenes   y adultos  (15 a 64 años, según modalidades):  Acondicionamiento físico   -  Acuagim - Acuapilates - Acuarrunning - Atención técnica personalizada - Ciclo sala - Circuito de salud - Combinada (Educación Física Permanente y deportes) - Estiramientos/Relax - Multideporte - Natación - Natación de compensación - Natación embarazadas - Natación Familiar - Pádel - Pilates - Tenis - Yoga     Actividades para Mayores de 65 años:  Actividad acuática - Actividades física combinada - Acuagim        Galería de imágenes" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2b7ee7510551c010VgnVCM2000000c205a0aRCRD" ;
-	ontology:latitud "40.372421418063425"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6574515621755173"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.372421418063425"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6574515621755173"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "917 854 751" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/REGUERADETOMATEROS> a schema:PostalAddress ;
@@ -53,8 +53,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid   Superficie parcela  13.505 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  2 Pistas de Pádel - 3 Pistas de Pádel (Cristal) - 2 Pistas de Tenis - Rocódromo   Unidades Deportivas Cubiertas   Pabellón polideportivo - Piscina (vaso 25 m. y vaso de enseñanza) - Sala de Musculación - 2 Salas multiusos - 2 Saunas    Accesibilidad:  instalación adaptada, con 1 ascensor, 1 plataforma y 1 grúa de piscina    SERVICIOS     Deportes practicables  Baloncesto - Balonmano - Bádminton - Escalada - Fútbol Sala - Musculación - Natación - Pádel -  Tenis    Uso de los espacios deportivos  Pabellón - Piscina - Pista de Pádel - Pista Polideportiva -  Sala de Musculación - Rocódromo -  Sauna    Enseñanzas deportivas    Escuelas Pre-Infantiles  (4 y 5 años): Natación peques  Escuelas infantiles  (6 a 14 años, según modalidades): Gimnasia Rítmica - Natación   Clases para jóvenes  (15 a 30 años): Fitness - Natación   Clases para adultos  (28 a 64 años): Acondicionamiento Físico-Deportivo -  Acuagim - Aeróbic - Ciclo Sala - Combinada Actividad Física - Fitness - Natación - Pádel - Pilates - Tonificación - Yoga  Actividades para Mayores de 65 años:  Actividad Acuática - Actividad Física" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=789fe8ae8d81c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.45211512813871"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.7832937390386396"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.45211512813871"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.7832937390386396"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "913 571 228" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARROYODEPOZUELO> a schema:PostalAddress ;
@@ -90,8 +90,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid   Superficie de parcela  139.600 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Campo de Fútbol (de césped artificial) - Circuito de Educación Vial - 2 Frontones cortos - Patinódromo - Piscinas (1 vaso de gemelas y 1 vaso infantil) - Pista de Atletismo - Pista de Hockey Patines - 4 Pistas de Pádel - Pista de Patinaje - 9 Pistas polideportivas - 9 Pistas de Tenis - 2 Pistas de Voley Playa - 19 Tenis de Mesa    Unidades Deportivas Cubiertas  Pabellón polideportivo- Piscinas (vaso de 50 m. y vaso de 25 m.) - Sala de Artes Marciales - Salas multiusos - Sala de Musculación - 2 Saunas   Accesibilidad  Instalacion prácticable, con grúa de piscina     SERVICIOS     Deportes practicables  Atletismo - Baloncesto -  Bádminton - Deportes de Pelota (Frontenis) - Educación Vial (infantil) - Fútbol - Fútbol Sala -  Hockey Patines - Musculación - Natación - Pádel - Patinaje Artístico - Tenis - Tenis de Mesa - Voleibol - Voley Playa (solo verano)   Uso de espacios deportivos  Campo de Fútbol - Frontón - Pabellón - Piscina - Pista de Atletismo - Pista de Hockey Patines - Pista de Pádel - Pista de Patinaje - Pista polideportiva - Pista de Tenis - Sala de Musculación - Sauna - Pista de Voley Playa (solo verano)   Enseñanzas deportivas   Escuelas Pre-Infantiles  (4 a 5 años, según modalidades): Natación peques - Polideportiva (Educación física de base) - Polideportiva (Gimnasia Suave)  Escuelas infantiles  ( 6 a 14 años, según modalidades): Actividades Subacuáticas - Aeróbic - Atletismo - Baloncesto - Fútbol - Gimnasia Artística - Gimnasia Rítmica - Hockey Patines - Judo - Karate Shyto - Natación -  Patinaje Artístico - Polideportiva - Tenis - Voleibol  Clases para jóvenes y adultos  (15 a 64 años, según modalidades): Acondicionamiento Físico Deportivo - Acuagim - Aeróbic - Acuapilates -  Atletismo -  Bailes de Salón - Baloncesto - Ciclo Sala - Fitness - G.A.P. - Gimnasia de Compensación - Gimnasia Rítmica - Judo - Karate Shyto - Natación - Natación Combinaa (acuarrunning) - Natación de Compensación - Natación Embarazadas - Pádel  - Pilates - Tenis  Actividad para Mayores de 65 años:  Actividad Física - Gimnasia Acuática - Natación - Pilates  Actividades para   Personas con discapacidad física:  Natación" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4506b0c40971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.382720517194784"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.773653600881568"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.382720517194784"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.773653600881568"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone """917 062 868                                                                                             
 917 062 869""" .
 
@@ -127,8 +127,8 @@
 	ontology:transportePublico "Bus: 17 , 25 , 119" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dd6426521e7f3110VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.39801608457685"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.7352725040539525"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.39801608457685"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.7352725040539525"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "685534621" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/VIACARPETANA> a schema:PostalAddress ;
@@ -164,8 +164,8 @@
 	schema:description "Forma de gestión:  Indirecta, por medio de concesión de la gestión de los servicios deportivos a la UTE Eductrade, S.A. e Iberconsulting Sport, S.A.  www.basicosportcenter.com/index.php    Superficie   8.455,41 m2    EQUIPAMIENTOS     Unidades Deportivas Cubiertas   Pabellón Polideportivo - Piscina (vaso de 25 m y vaso de enseñanza ) - Sala Multiusos - Sala de Musculación    Accesibilidad : instalación adaptada con 2 ascensores y 1 grúa de piscina    SERVICIOS     Deportes Practicables    Baloncesto - Balonmano - Fútbol Sala - Musculación - Natación   Uso de espacios deportivos  Pabellón Polideportivo - Piscina - Pista de Baloncesto - Pista de Balonmano - Pista de Fútbol Sala - Sala de Musculación    Enseñanzas Deportivas Escuelas Pre-infantiles  (18 meses a 5 años) :  Matronatación - Natación Peques - Educación Física de Base  Escuelas Infantiles  (6 a 14 años): Aeróbic - Baloncesto -  Fútbol Sala - Gimnasia Rítmica - Judo - Natación   Clases para jóvenes  (15 a 20 años) :  Aeróbic - Baloncesto - Balonmano - Ciclo Sala - Fútbol Sala - Gimnasia Rítmica - Judo - Natación  Clases para adultos:  Acondicionamiento Físico Deportivo - Acuagim - Aeróbic - Ciclo Sala - Combinada - Fitness - Fitness Acuático - GAP (Glúteos, Abdomen y Piernas) - Gimnasia Acuática - Gimnasia Suave - Musculación - Natación - Natación de Compensación - Natación Embarazadas - Pilates -Tonificación  Actividades para mayores de 65 años:  Acuagim - Actividad Física - Gimnasica Acuática - Natación  Actividades para personas con Discapacidad Física:  Actividad Física - Natación  Actividades para personas con Discapacidad Intelectual:  Actividad Física - Natación" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c90342b9fda34110VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.471254265861454"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6953256978963807"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.471254265861454"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6953256978963807"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "913 145 437" ;
 	schema:faxNumber "913 447 218" .
 
@@ -202,8 +202,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid   Superficie de parcela  11.866,00 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  2 Pistas polideportivas - 2 Pistas de Tenis - 2 Pistas de Pádel    Unidades Deportivas Cubiertas  Pabellón polideportivo - 2 Salas multiusos - Sala de Musculación   Accesibilidad:  instalación adaptada, con plataforma    SERVICIOS     Deportes practicables  Bádminton - Baloncesto -  Fútbol Sala - Musculación - Pádel - Tenis -  Voleibol   Uso de espacios deportivos  Pabellón - Pista de Pádel - Pista polideportiva - Pista de Tenis -  Sala de Musculación    Enseñanzas deportivas Escuelas infantiles  (6 a 14 años, según modalidades): Baloncesto - Curso polideportivo - Fútbol Sala - Gimnasia Rítmica - Kenpo (Karate) - Tenis - Tenis de Mesa.  Clases para Jóvenes y Adultos  (15 a 64 años) Acondicionamiento Físico - Aeróbic - Musculación - Pádel - Pilates - Tenis.  Actividades para Mayores de 65 años:  Actividad física" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9b26b0c40971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.39437715885103"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.691341060146108"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.39437715885103"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.691341060146108"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "915 288 879" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALICANTE> a schema:PostalAddress ;
@@ -239,8 +239,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  20.250 m2    EQUIPAMIENTOS     Unidades Deportivas al aire libre  4 Pistas de Pádel - 4 Pistas de Tenis    Unidades Deportivas Cubiertas  Pabellón polideportivo - Piscina (vaso de 25 m. y vaso de enseñanza) - 2 Sala multiusos -Sala de Musculación   Accesibilidad:  instalación adaptada con ascensor y grúa.    SERVICIOS      Deportes Practicables  Bádminton - Baloncesto - Balonmano - Fútbol Sala - Musculación - Natación - Pádel - Tenis - Voleibol   Uso de espacios deportivos  Pabellón - Piscina - Pista de Bádminton - Pista de Pádel - Pista polideportiva - Pista de Tenis - Sala Multiusos - Sala de Musculación      Enseñanzas Deportivas    Escuelas Pre-Infantiles  (2 a 5 años): Matronatación - Natación peques  Escuelas infantiles ( 6 a 14 años, según modalidades): Bádminton - Esgrima - Gimnasia Rítmica - Judo - Natación -  Pádel - Tenis  Clases para jóvenes  (15 A 20 años, según modalidades): Natación  Clases para adultos  (21 a 64 años): Acondicionamiento Físico Deportivo - Acuagim - Aeróbic - Combinada (EFP) - Fitness - Natación - Natación Embarazas - Pádel - Pilates - Tenis  Actividades para Mayores de 65 años:  Actividad Física - Natación  Actividades para Personas con discapacidad física:   Natación (infantil y adulto)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b86c79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.46301382809657"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.587693324074623"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.46301382809657"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.587693324074623"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "913 294 219 / 913 290 602" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/LOGROÑO> a schema:PostalAddress ;
@@ -276,8 +276,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  24.800 m2    EQUIPAMIENTOS     Unidades Deportivas al aire libre  Piscinas (vaso de 50 m. al aire libre y vestuarios cerrados pendiente a adecuación, vaso de recreo de 33 m. y vaso infantil en funcionamiento)   Unidades Deportivas Cubiertas  Piscina (vaso de 25 m.) - Sala de Musculación   Accesibilidad:  Instalación convertible, con 2 grúas de piscina    SERVICIOS      Deportes Practicables  Musculación - Natación - Submarinismo   Uso de espacios deportivos  Piscina - Sala de Musculación    Enseñanzas deportivas   Escuelas Pre-Infantiles:  (4 a 5 años, según modalidades) Natación peques   Escuelas Infantiles:  (6 a 14 años, según modalidades), Natación - Pirag&uuml;ismo - Salvamento Acuático  Clases para jóvenes:  (15 a 20 años) Natación   Clases para adultos (21 a 64 años): Acondicionamiento Físico Deportivo - Fitness - Natación - Salvamento Acuático   Mayores de 65 años  Actividad Física - Natación  Actividades para Personas con discapacidad física:  Actividades Acuáticas (Adultos)  Actividades para Personas con discapacidad intelectual:  Aeróbic (Adultos)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3876b0c40971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.41612628789201"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.733536573641621"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.41612628789201"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.733536573641621"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "914 630 050 / 914 649 889" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PUERTADELANGEL> a schema:PostalAddress ;
@@ -307,8 +307,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid   Superficie  4.900 m2    EQUIPAMIENTOS     Unidades Deportivas al aire libre  4 Pistas de Pádel (Cristal)   Unidades Deportivas Cubiertas  Pabellón Polideportivo - Piscina (vaso de 25 m. y vaso de enseñanza) - Fisio-Hidroterapia - Sala Multiusos - Sala de Musculación   Accesibilidad:  Instalación adaptada, con ascensor y grúa de piscina    SERVICIOS     Deportes Practicables  Baloncesto - Balonmano - Fútbol Sala - Musculación - Natación - Pádel - Unihockey - Voleibol    Uso de espacios deportivos  Pabellón - Piscina - Pista de Pádel - Sala de multiusos (Gimnasio) - Sala de Musculación    Enseñanzas Deportivas   Escuelas Pre-Infantiles  (2 a 5 años): Matronatación - Natación peques  Escuelas infantiles  (6 a 14 años, según modalidades): Natación - Pádel - Taekwondo - Unihockey - Voleibol  Clases para adultos  (21 a 64 áños): Acondicionamiento Físico Deportivo - Acuagim - Aeróbic - Fitness - GAP - Gimnasia de Compensación - Gimnasia suave - Natación - Natación de Compensación -  Natación de Embarazadas - Pádel - Pilates  Actividades para Mayores de 65 años:  Actividad Física - Natación  Actividades para Personas con discapacidad física:  Natación (adultos e infantil)    Servicio de Medicina deportiva  Escuela de Espalda - Fisioterapia del Deporte - Reconocimientos médicos para deportistas" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0fd38ed67151c010VgnVCM2000000c205a0aRCRD" ;
-	ontology:latitud "40.40207279862862"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6955325387824014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.40207279862862"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6955325387824014"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "915 063 616" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CANARIAS> a schema:PostalAddress ;
@@ -338,8 +338,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid   Superficie  69.800 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Frontón corto - Piscina (vaso de 50 m., vaso de recreo y vaso infantil) - 2 Pistas polideportivas (Tenis) - 2 Tenis de Mesa   Unidades Deportivas Cubiertas  Pabellón polideportivo - Piscina (vaso de 25 m. y vaso de enseñanza) - Sala multiusos (Aeróbic) -Sala de Halterofilia - Sala de Musculación    Accesibilidad:  instalación practicable, con 1 plataforma y 1 grúa de piscina    SERVICIOS     Deportes Practicables  Bádminton - Baloncesto - Balonmano - Deportes de Pelota (Frontón) - Fútbol Sala - Gimnasia Rítmica -  Halterofilia - Musculación - Natación -  Tenis - Tenis de Mesa   Uso de espacios deportivos  Frontón - Pabellón - Piscina - Pista Polideportiva - Pista de Tenis - Sala multiusos (Aeróbic) - Sala de Musculación - Tapiz de Gimnasia Rítmica - Tenis de Mesa   Enseñanzas Deportivas   Escuelas Pre-Infantiles  (de 2 a 5 años): Matronatación - Natación peques - Polideportiva (Educación Física de Base)  Escuelas infantiles  (6 a 14 años, según modalidades): Baloncesto - Karate Shyto- Natación - Pre-Tenis - Tenis - Salvamento Acuático   Clases para jóvenes  (15 a 20 años): Tenis  Clases para adultos  ( 21 a 64 años): Acondicionamiento Físico Deportivo - Acuagim - Aeróbic - G.A.P (Glúteos, Abdomen y Piernas) - Gimnasia Suave - Natación - Natación de Compensación - Natación de Embarazadas - Pilates - Tenis  Actividades para   Mayores de 65 años:  Actividad Física - Gimnasia Acuática - Natación  Actividades para Personas con discapacidad física:   Natación (infantil y adulto)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8e96b0c40971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.38168564475405"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.602348241287268"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.38168564475405"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.602348241287268"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "913 314 047" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/Valencia> a schema:PostalAddress ;
@@ -375,8 +375,8 @@
 	schema:description "Más información     Forma de gestión  Indirecta, por medio de concesión de la gestión de los servicios deportivos a la UTE formada por Carpa Servicios y Conservación, S.L. y Sport Studio Servicios Deportivos, S.L.   www.foruschamartin.es     Superficie  6.172 m2    EQUIPAMIENTOS      Unidades Deportivas Cubiertas    Pabellón polideportivo - Piscina  (vaso de 50 m. distribuido en calles de 25 m. y 22,5 m.) - 4 salas multiusos - Sala de Musculación     Accesibilidad:  instalación adaptada, con 1 ascensor y 1 grúa de piscina     SERVICIOS     Deportes Practicables  Bádminton - Baloncesto - Balonmano - Fútbol Sala - Natación - Musculación - Voleibol   Uso de espacios deportivos  Pabellón - Piscina - Sala de Musculación - Sala multiusos   Enseñanzas Deportivas Escuelas Pre-infantiles  (4 y 5 años): Natación Peques - Polideportiva (Educación Física de Base)  Escuelas Infantiles  (de 6 a 14 años): Aeróbic - Baloncesto - Gimnasia Rítmica - Judo - Natación - Polideportiva - Taekwondo  Clases para jóvenes  (de 15 a 20 años): Aeróbic - Baile - Baloncesto - Ciclo Sala - Natación - Pilates - Taekwondo  Clases para adultos  (de 21 a 64 años): Acondicionamiento Físico - Aeróbic - Ciclo Sala - Combinada - Fitness - GAP - Gimnasia de Compensación - Gimnasia Suave - Natación - Pilates - Tonificación - Yoga  Actividades para personas mayores de 65 años:  Actividad Física - Gimnasia de Compensación - Natación - Pilates  Actividades para personas con discapacidad:  Actividad Física - Natación (Infantiles y Adultos)" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5f8c79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.46113349830694"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.676208246061129"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.46113349830694"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.676208246061129"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "91 359 33 39" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PIOXII> a schema:PostalAddress ;
@@ -411,8 +411,8 @@
 	ontology:transportePublico "Metro: Legazpi Bus: 62, T-32" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=48fbf0c99a833310VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.385539006771225"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6898722494765366"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.385539006771225"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6898722494765366"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "915 276 741" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EMBAJADORES> a schema:PostalAddress ;
@@ -442,8 +442,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  1.700 m2     EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Pabellón polideportivo     SERVICIOS     Deportes practicables  Baloncesto - Fútbol Sala   Uso de espacios deportivos  Pabellón - Pista de Baloncesto - Pista de Fútbol Sala   Enseñanzas Deportivas   Escuelas Infantiles  (6 a 14 años, según modalidades): Gimnasia Rítmica  Clases para Jóvenes  (15 a 20 años, según modalidades): Gimnasia Rítmica  Clases para adultos  ( 21 a 64 años): Acondicionamiento Físico Deportivo - Aeróbic  - Fitness - Gimnasia de Compensación - Pilates  Actividades para Mayores de 65 años:   Actividad Física" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2be6b0c40971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.465920678080856"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.7189325594658573"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.465920678080856"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.7189325594658573"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "91 373 27 39" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ANTONIOMACHADO> a schema:PostalAddress ;
@@ -473,8 +473,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid   Superficie  36.000 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Campo de Fútbol (de césped artificial) - 2 Frontones cortos - Piscina (vaso infantil)  - Pista de Atletismo (3 calles) - 2 Pistas de Pádel - Pista de Patinaje - 2 Pistas polideportivas - 4 Pistas de Tenis - 2 Tenis Mesa   Unidades Deportivas Cubiertas  Pabellón polideportivo -  Piscina (vaso de 25 m) - Sala de Musculación    Accesibilidad:  instalación practicable, con 1 ascensor, 1 montacargas, 2 plataformas y 2 grúas de piscina    SERVICIOS     Deportes Practicables  Atletismo -  Baloncesto - Balonmano - Deportes de Pelota - Fútbol - Fútbol 7 - Fútbol Sala - Musculación - Pádel - Patinaje artístico - Tenis - Tenis Mesa   Uso de espacios deportivos  Campo de Fútbol - Frontón - Pabellón - Pista de Atletismo (3 calles) - Pista de Pádel - Pista de Pádel - Pista de Patinaje - Pista polideportiva - Pista de Tenis - Sala de Musculación    Enseñanzas deportivas   Escuelas Pre-infantiles(2 a 5 años):  Natación peques  Escuelas infantiles (6 a 14 años, según modalidades):  Baloncesto - Balonmano - Fútbol - Gimnasia Rítmica - Karate Shyto - Natación - Pretenis - Tenis   Clases para jóvenes (15 a 20 años, según modalidades):  Natación - Tenis   Clases para adultos (21 a 64 años):  Acondicionamiento Físico Deportivo - Aeróbic - Combinada de Compensación - Fitness - Fitness Acuático - GAP - Karate Shyto - Natación - Pádel- Pilates - Tenis    Actividades para Mayores de 65 años:  Actividad Física - Natación" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f5bc79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.43725652047252"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6484498132292025"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.43725652047252"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6484498132292025"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone """914 039 020                                                      
 914 039 021""" .
 
@@ -511,8 +511,8 @@
 	schema:description "Forma de gestión  Directa, por parte del Ayuntamiento de Madrid   Superficie  9.496 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Pista de Pádel (cristal)   Unidades Deportivas Cubiertas  Pabellón polideportivo - Piscina (vaso de 25 m. y vaso de enseñanza) - 2 Salas multiusos - Sala de Musculación - 2 Saunas - 1 Fisioterapia/Hidroterapia (fuera de servicio)   Accesibilidad:  Instalación adaptada, con 1 ascensor y 1 grúa de piscina    SERVICIOS     Deportes Practicables  Bádminton - Baloncesto - Fútbol Sala - Natación - Pádel - Voleibol - Bailes de Salón    Uso de espacios deportivos  Pabellón - Pádel - Piscina - Pistas polideportivas - Sala multiusos - Sauna     Enseñanzas deportivas   Escuelas Pre-Infantiles  ( 2 a 5 años): Matronatación - Natación peques  Escuelas infantiles  (6 a 14 años, según modalidades) :  Aeróbic - Baloncesto - Natación - Natación Sincronizada - Polideportiva - Salvamento Acuático  Clases para jóvenes  ( 15 a 20 años): Natación - Aeróbic  Clases para adultos  (21 a 64 años) :  Acondicionamiento Físico Deportivo - Acuagim - Acuarunning - Combinada (Educación Física Permanente y Deportes) - Estiramiento/Relax - Fitness - Gimnasia de Compensación - Natación - Natación de Compensación - Natación Embarazadas - Tonificación  Actividades para mayores de 65 años:  Actividad Fisica - Natación" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=380d5f463b81c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.40236125879463"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6772931748500297"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.40236125879463"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6772931748500297"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone """914 338 950                                           
 914 338 770""" .
 
@@ -549,8 +549,8 @@
 	schema:description "Superficie: 9.420 m2     EQUIPAMIENTOS     Unidades Deportivas cubiertas:  2 Salas Gimnasio - Sala de Musculación - Sala Polivalente    Accesibilidad:  instalación adaptada, con 1 ascensor    SERVICIOS     Enseñanzas deportivas: Escuelas infantiles:  Aeróbic - Gimnasia Rítmica - Karate  Clases para adultos:  Acondicionamiento Físico Deportivo - Aeróbic - Aikido - Karate - Kung Fu - Musculación - Sanda - Tai Chi - Yoga  Mayores de 65 años:  Actividad Física" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c737b0c40971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.400799189712316"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6778902970366896"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.400799189712316"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6778902970366896"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "91 433 27 58" ;
 	schema:faxNumber "91 552 28 78" .
 
@@ -575,8 +575,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  11.350 m2    EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Piscina (Vaso de 25 m. y vaso de enseñanza) - 2 Salas Multiusos   Accesibilidad:  Instalación adaptada, con 1 ascensor y 1 grúa de piscina    SERVICIOS      Deportes Practicables    Natación     Uso de espacios deportivos  Piscina     Enseñanzas deportivas Enseñanzas Pre-Infantiles  ( 2 a 5 años): Natación peques   Escuelas Infantiles  ( 6 a 14 años, según modalidades): Natación   Clases     para jóvenes  (15 a 20 años, según modalidades): Aeróbic - Natación - Salvamento Acuático    Clases para adultos  (De 21 a 64 años): Acuagim - Aeróbic - Combinada (Educación Física Permanente y Deportes) - Fitness - Fitness Acuático - Natación  - Natación Embarazadas  Actividades para     Mayores de 65 años:  Gimnasia Acuática - Natación  Actividades para    Personas con discapacidad física:  Natación  (infantil y adultos)" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9cdc79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.35634193991933"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.686595141820635"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.35634193991933"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.686595141820635"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone """913 172 966                                          
 913 172 957""" .
 
@@ -613,8 +613,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid   Superficie  2.660 m2     EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Pabellón polideportivo    Accesibilidad:  instalación adaptada    SERVICIOS     Deportes Practicables    Fútbol Sala - Baloncesto   Uso de espacios deportivos  Pabellón polideportivo" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=61ff5c2cdc41c010VgnVCM2000000c205a0aRCRD" ;
-	ontology:latitud "40.40652470221465"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.745889233801086"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.40652470221465"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.745889233801086"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "914 790 212" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/OLIVILLO> a schema:PostalAddress ;
@@ -644,8 +644,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  41.800 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre   1 Campo de Fútbol (de tierra) - 1 Campo de Fútbol (de césped artificial) - 2 Campos de Fútbol 7 (de tierra) - Piscina (vaso de 50 y vaso infantil) - Pista polideportiva - 2 Pistas de Tenis   Unidades Deportivas Cubiertas  Pabellón polideportivo - Piscina (vaso de 25 m y vaso de enseñanza) - 2 Salas mulitusos   Accesibilidad:  instalación practicable, con 1 ascensor y 1 grúa de piscina    SERVICIOS     Deportes Practicables  Baloncesto - Fútbol - Fútbol 7 - Fútbol Sala - Natación - Tenis - Voleibol   Uso de espacios deportivos  Campo de Fútbol - Campo de Fútbol 7 - Pabellón - Piscina - Pista de Bádminton - Pista de Baloncesto - Pista de Balonmano - Pista de Fútbol Sala - Pista de Tenis    Enseñanzas deportivas Escuelas Pre-Infantiles  (1 a 5 años): Matronatación (1 y 2 años) - Natación peques (3 a 5 años)   Escuelas Infantiles  ( 6 a 14 años, según modalidades): Fútbol - Natación - Tenis   Clases para adultos  ( 21 a 64 años): Acondicionamiento Físico Deportivo - Acuagim - Aeróbic -  Ciclo Sala - Combinada (Acondicionamiento / Ciclo) - Estiramientos relax - Fitness - Fitness Acuático/ Aquarunning - GAP (Glúteos, Abdomen y Piernas) - Gimnasia de Compensación - Natación - Natación de Compensación - Pilates - Tenis -   Actividades para Mayores de 65 años:  Fitness Acuático - Natación  Actividad para Personas con discapacidad física:  Natación de Compensación (Infantil)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1e57b0c40971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.378413212706285"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.674532317137481"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.378413212706285"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.674532317137481"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "917 854 214 / 917 867 064" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SUR> a schema:PostalAddress ;
@@ -669,8 +669,8 @@
 	schema:description "Forma de gestión  Indirecta, por medio de concesión de la gestión de los servicios deportivos a la empresa UTE Escuelas Pías (Clece, SA y Col. Lectiu Désport per a Tothom 10, SL)   www.cdmescuelassananton.com     Superficie  Planta Tercera: 971,29 m2 Planta Cuarta: 976,21 m2 Entreplanta Cuarta: 291,28 m2    EQUIPAMIENTOS       Unidades Deportivas Cubiertas  Piscina (vaso de 25 m y vaso de enseñanza) - Sala musculación - Zona Spa    Accesibilidad:  instalación adaptada, con 1 ascensor y 1 grúa de piscina    SERVICIOS     Deportes Practicables  Natación   Uso de espacios deportivos  Piscinas - Sala musculación - Zona Spa   Enseñanzas Deportivas Escuelas Pre-infantiles  (de 3 a 5 años): Matronatación - Natación Peques  Escuelas Infantiles  (de 6 a 14 años): Natación   Clases para jóvenes  (de 15 a 20 años): Acuagim - Natación  Clases para adultos  (de 21 a 65 años): Acuagim - Natación - Natación Embarazadas   Actividades para mayores de 65 años:  Acuagim - Natación  Actividades para personas con Discapacidad Física:  Natación  Actividades para personas con Discapacidad Intelectual:  Natación" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4f9aad5078828310VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.42382670120857"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.699010103263697"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.42382670120857"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.699010103263697"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "918 289 006" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FARMACIA> a schema:PostalAddress ;
@@ -706,8 +706,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid   Superficie  37.000 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Estanque, Barcas de paseo, Remo   Accesibilidad:  Instalación adaptada    SERVICIOS     Deportes Practicables  Pirag&uuml;ismo - Remo (recreativo y deportivo)   Uso de espacios deportivos  Barcas de recreo - Paseo en barco solar" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6487b0c40971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.418436005960814"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6845031319515718"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.418436005960814"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6845031319515718"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone """915 744 024          
 915 571 994""" .
 
@@ -738,8 +738,8 @@
 	schema:description "Forma de gestión:  Indirecta, por medio de concesión de la gestión de los servicios deportivos a la empresa Enjoy Wellness SL.  www.cdmfabianroncero.es      Superficie   4.400 m2     EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Piscina (vaso de 25 m y vaso de enseñanza) - Sala Multiusos - Sala Multiusos (cardio) - Sala Multiusos (Ciclo Sala) - Sala de Musculación    Accesibilidad:  instalación adaptada, con 1 ascensor y 1 grúa de piscina     SERVICIOS     Deportes Practicables  Musculación - Natación     Uso de espacios deportivos  Piscina - Sala de Musculación    Enseñanzas Deportivas Escuelas Pre-infantiles  (18 meses a 5 años): Matronatación - Natación Peques  Escuelas Infantiles  (6 a 14 años): Aeróbic - Natación -  Waterpolo  Clases para jóvenes ( 15 a 20 años): Acuagim - Aeróbic - Natación  Clases para adultos  (21 a 65 años): Acondicionamiento Físico Deportivo - Acuagim - Combinada (acuática) -  Fitness Acuático - GAP (Glúteos, Abdomen, Piernas) - Gimnasia Acuática - Natación - Natación Embarazadas - Pilates - Tonificación   Actividades para mayores de 65 años:  Acuagim - Actividad Física - Natación  Actividades para personas con Discapacidad Física:  Natación  Actividades para personas con Discapacidad Intelectual:  Natación" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=887e306502624110VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.44965684114441"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.597577201182505"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.44965684114441"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.597577201182505"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "917 462 995" ;
 	schema:faxNumber "917 424 311" .
 
@@ -776,8 +776,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  11.200 m2    EQUIPAMIENTOS     Unidades Deportivas al aire libre  Pista polideportiva- 2 Pistas de Tenis     Unidades Deportivas Cubiertas  Pabellón polideportivo - Piscina (vaso de 25 m.)- Sala multiusos - Sala de Musculación    Accesibilidad:  Instalación adaptada, con 1 ascensor, 1 plataforma y 1 grúa de piscina    SERVICIOS      Deportes practicables  Bádminton - Baloncesto - Fútbol Sala - Musculación - Natación - Voleibol   Uso de espacios deportivos  Pabellón - Piscina  - Pista de Bádminton - Pista de Tenis - Pista de Fútbol-Sala - Sala de Musculación   Enseñanzas Deportivas Escuelas Pre-Infantiles  (4 a 5 años, según modalidades): Natación peques  - Escuelas infantiles  (6 a 14 años, según modalidades): Baloncesto - Fútbol Sala - Natación -  Pretenis - Salvamento Acuático - Tenis  Clases para Jóvenes (15 a 20 años, según modalidades): Baloncesto   Clases para Adultos (21 a 64 años):  Acondicionamiento Físico Deportivo - Aeróbic - Combinada (Educación Física Permanente) - Fitness - Musculación - Natación - Natación embarazadas - Pilates - Tenis  Actividades para Mayores de 65 años:  Actividad Física - Natación  Actividades para personas con discapacidad física:  Natación (adultos)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=baa7b0c40971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.460935404623164"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.7121918299288628"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.460935404623164"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.7121918299288628"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "914 507 344 - 914 505 530" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANTOANGELDELAGUARDA> a schema:PostalAddress ;
@@ -801,8 +801,8 @@
 	schema:description "Forma de gestión:  Indirecta, por medio de concesión de la gestión de los servicios deportivos a Duet Spa &amp; Sports, S.L. - Global Health Consulting, S.L. - Proinosa Promoción e Ingeniería de Obras, S.A. - Unión Temporal de Empresas &quot;Centro Deportivo Francisco Fernández Ochoa UTE&quot;  www.duetsports.com     Superficie  7.706,41 m2        EQUIPAMIENTOS:     Unidades Deportivas al Aire Libre  2 Campos de Fútbol 7 (césped artificial) - Campo de Hockey Patines y Patinaje - 8 Pistas de Pádel - 6 Pistas de Tenis   Unidades Deportivas Cubiertas  Pabellón Polideportivo - Piscina (Vaso de 50 m.  distribuido en calles de 25 m., y vaso de enseñanza) - 3 Salas Multiusos - Sala de Musculación  -  Zona Termal   Accesibilidad:  instalación adaptada, con 2 ascensores y 2 grúas de piscina    SERVICIOS:     Deportes Practicables  Baloncesto - Balonmano - Fútbol - Fútbol Sala - Hockey Patines - Natación - Musculación - Patinaje - Pádel - Tenis - Voleibol     Uso de espacios deportivos  Campo de Fútbol 7 - Pabellón - Piscina - Pista de Baloncesto - Pista de Balonmano - Pista de Pádel - Pista de Patinaje - Pista de Tenis - Pista de Voleibol - Sala de Musculación - Sala Multiusos - Zona Termal   Enseñanzas Deportivas Escuelas  Preinfantiles  (hasta 5 años) :  Matronatación - Natación Peques - Educación Física de Base  Escuelas Infantiles  (de 6 a 14 años): Aeróbic - Baloncesto - Balonmano - Fútbol -  Gimnasia Rítmica -  Judo - Natación - Patinaje - Polideportiva - Tenis - Voleibol  Clases para jóvenes  (de 15 a 20): Aeróbic - Fútbol - Musculación - Natación - Pádel - Tenis  Clases para adultos  (de 21 a 64 años): Acondicionamiento Físico Deportivo - Acuagim - Aeróbic - Bailes de Salón - Ciclo Sala - Combinada - Estiramientos/Relax - Fitness - GAP (Glúteos, Abdomen y Piernas) - Gimnasia Suave - Musculación - Natación - Natación Embarazadas - Pádel - Patinaje - Pilates - Tenis   Actividades para mayores de 65 años:  Actividad Física - Actividad Acuática  Actividades para personas con Discapacidad Física:  Natación (Adultos)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aea1249dbda24110VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.36581776978113"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.740893980533789"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.36581776978113"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.740893980533789"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "911 250 051" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CATORCEOLIVAS> a schema:PostalAddress ;
@@ -832,8 +832,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid   Superficie  11.500 m2    EQUIPAMIENTOS      Unidades Deportivas al Aire Libre  Piscina (vaso de 50 m. y vaso infantil) - Pista de Voley Playa     Accesibilidad:  Instalación practicable     SERVICIOS      Deportes Practicables   Natación - Voley Playa     Uso de espacios deportivos  Piscina - Pista de Voley Playa - Tenis de Mesa" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=01d7b0c40971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.45358753138912"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.713093094582233"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.45358753138912"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.713093094582233"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "914 599 871" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NUMANCIA> a schema:PostalAddress ;
@@ -863,8 +863,8 @@
 	schema:description "Forma de gestión:  Indirecta, por medio de concesión de la gestión de los servicios deportivos a la empresa Centro Deportivo Fuente del Berro, S.L.   Superficie  2.845,79 m2      EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Piscina (vaso de 25 m.) - Sala Multiusos (Actividades) - Sala Multiusos (Ciclo) - Sala de Musculación    Accesibilidad:  instalación adaptada con 1 ascensor y 1 grúa de piscina    SERVICIOS     Deportes Practicables  Musculación - Natación   Uso de espacios deportivos  Piscina - Sala de Musculación   Enseñanzas Deportivas Escuelas Pre-Infantiles  (de 4 a 5 años): Natación Peques  Escuelas Infantiles  (de 6 a 14 años): Aeróbic - Judo - Natación -   Clases para jóvenes  (de 15 a 20 años): Aeróbic - Aerodance - Judo - Natación - Salvamento  Clases para adultos  (de 21 a 64 años): Aeróbic - Step - Gimnasia de Mantenimiento - Body Pump - GAP (Glúteos Abdominales y Piernas)/Streching - Acondicionamiento Físico - Pilates - Body Balance - Spinning - Natación - Natación de Compensación - Aquagym - Natación Embarazadas - Natación Postparto  Actividades para mayores de 65 años:  Actividad Física - Gimnasia Acuática - Natación  Actividades para personas con Discapacidad Física:  Natación (todos los grupos de edad)  Actividades para personas con Discapacidad Intelectual:  Natación (todos los grupos de edad)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f4a2318c05b24110VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.42171956854877"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6652515154670167"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.42171956854877"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6652515154670167"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "915 046 971" ;
 	schema:faxNumber "915 744 955" .
 
@@ -901,8 +901,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid   Superficie  8.630 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Bloque de Escalada - Campo de Fútbol (césped artificial, convertible en 2 campos de Fútbol 7) - Frontón corto - 2 Pistas de Baloncesto 3 x 3 - 4 Pistas de Frontenis - Pista de Fútbol 5 x 5 - 2 Pistas de Fútbol 1 x 1 (pistas panna)- Pista polideportiva  Unidades Deportivas Cubiertas  Pabellón polideportivo - Sala de Cardiovascular    Accesibilidad:  instalación adaptada    SERVICIOS     Deportes Practicables  Bádminton - Baloncesto - Baloncesto 3 x 3 - Balonmano - Deportes de Pelota (Frontenis) - Escalada - Fútbol - Fútbol 7 - Fútbol outdoor 5 x 5 - Fútbol 1 x 1 - Fútbol Sala - Voleibol   Uso de espacios deportivos  Bloque de Escalada - Campo de Fútbol - Campo de Fútbol 7 - Frontenis - Frontón corto - Pabellón - Pista de Baloncesto 3 x 3 - Pista de Fútbol 5 x 5 - Pista de Fútbol 1 x 1 - Pista de Fútbol Sala - Pista polideportiva    Enseñanzas deportivas  Escuelas Pre- infantiles  ( 3 a 5 años): Fútbol  Escuelas Infantiles  (6 a 14 años, según modalidades): Balonmano - Fútbol - Gimnasia Rítmica - Tenis Mesa   Clases para jóvenes  (15 a 20 años, según modalidades) :   Balonmano - Fútbol  Clases para adultos  (21 a 64 años): Acondicionamiento Físico - Combinada - Fitness - Pilates  Actividades para Mayores de 65 años:  Actividad Física" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=330d79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.357429678675295"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.691528804696943"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.357429678675295"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.691528804696943"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "913 180 435" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALIANZA> a schema:PostalAddress ;
@@ -926,8 +926,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  70.000 m2    EQUIPAMIENTOS     Unidades Deportivas al aire libre  Frontón largo - 10 Pistas de Tenis - 12 Pistas de Pádel    Unidades Deportivas Cubiertas  Pabellón polideportivo - Piscina (vaso de 25 m. y vaso de enseñanza) - Sala de Musculación   Accesibilidad:  instalación adaptada, con 2 ascensores y 1 grúa de piscina    SERVICIOS     Deportes practicables  Baloncesto - Balonmano - Fútbol Sala - Frontenis - Musculación - Natación - Tenis - Voleibol - Pádel    Uso de espacios deportivos  Frontón - Pabellón - Piscina - Pista de Baloncesto - Pista de Fútbol Sala - Pista polideportiva - Pista de Tenis - Pista de Pádel - Pista de Voleibol - Sala de Musculación    Enseñanzas Deportivas Escuelas Pre-Infantiles  (4 a 5 años): Natación peques  Escuelas infantiles  (6 a 14 años, según modalidades):   Aeróbic - Baloncesto - Balonmano -Fútbol - Gimnasia Rítmica - Natación -  Natación Sincronizada - Polideportiva - Salvamento Acuático - Tenis   Clases para jóvenes  (15 a 20 años, según modalidades): Tenis  Clases para adultos  (15 a 64 años): Acondicionamiento Físico Deportivo - Acuagim - Aeróbic - Bailes de Salón - Ciclo Sala - Fitness - G.A.P. (Glúteos, Abdomen y Piernas) - Natación - Natación de Compensación - Pádel - Pilates - Tenis    Actividades para Mayores de 65 años:  Actividad física - Acuagim - Natación  Actividades para Personas con discapacidad física:  Natación (infantil y adultos) - Polideportiva (infantil) - Pádel (adultos)     Actividades para Personas con discapacidad sensorial (sordos):  Pádel (adultos)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d92d79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.398465832065"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.7353834506869217"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.398465832065"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.7353834506869217"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "915 251 059" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/GALLUR> a schema:PostalAddress ;
@@ -957,8 +957,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid   Superficie  4.650 m2     EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Pista de Pádel (cristal) - Pista de Tenis - 2 Tenis de Mesa   Unidades Deportivas Cubiertas  Pabellón de Gimnasia - Pabellón polideportivo -  Piscina (2 vasos de 25 m.) - 2 Salas multiusos - Sala de Fisioterapia - Sala de Musculación    Accesibilidad:  instalación adaptada, con 2 ascensores, 1 plataforma y 1 grúa de piscina    SERVICIOS     Deportes practicables  Bádminton - Baloncesto - Ciclo Sala - Musculación - Natación - Pádel - Tenis - Tenis de Mesa   Uso de espacios deportivos  Pabellón - Piscina - Pista de Bádminton - Pista de Pádel - Pista polideportiva - Pista de Tenis - Sala Gimnasio - Sala de Musculación    Enseñanzas deportivas Escuelas Pre-Infantiles  (4 a 5 años): Natación peques  Escuelas Infantiles  (6 a 14 años, según modalidades): Aeróbic - Baloncesto - Boxeo - Gimnasia Rítmica - Karate Shyto - Natación - Natación Sincronizada - Pádel - Tenis  Clases para Jóvenes  (15 a 20 años, según modalidades): Gimnasia Rítmica - Natación  Clases para adultos  (21 a 64 años): Acondicionamiento Físico Deportivo - Aeróbic - Ciclo Sala - Combinada (Educación Física Permanente y Deportes) - Gim Jazz -  Karate Shyto - Natación - Natación de Compensación - Natación Embarazadas - Pádel - Pilates - Tenis  Actividades para   Mayores de 65 años:  Actividad Física - Natación  Actividades para   Personas con discapacidad física:  Natación (adultos)  Actividades para Personas con discapacidad física sensorial (sordos):  Actividad Física (mayores) - Natación (adultos y mayores)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c7cee7510551c010VgnVCM2000000c205a0aRCRD" ;
-	ontology:latitud "40.437945289676996"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.674502029997267"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.437945289676996"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.674502029997267"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "913 553 201" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PILARDEZARAGOZA> a schema:PostalAddress ;
@@ -988,8 +988,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  107.200 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Campo de Fútbol (de tierra) - Piscina (vaso de 50 m., vaso de enseñanza y vaso infantil) - 4 Pistas de Pádel - Pista polideportiva - 2 Pistas de Tenis   Unidades Deportivas Cubiertas  Pabellón polideportivo - Piscina (vaso de 25 m.)- Sala multiusos (Ciclo-Sala)  - Sala de Musculación   Accesibilidad:  Instalación adaptada, con 2 grúas de piscina    SERVICIOS     Deportes Practicables  Bádminton - Baloncesto - Balonmano - Ciclo Sala - Fútbol - Fútbol Sala - Fútbol 7 - Musculación - Natación - Pádel - Tenis -    Uso de espacios deportivos  Campo de Fútbol - Campo de Fútbol 7 - Pabellón - Piscina - Pista de Bádminton - Pista de Pádel - Pista polideportiva - Pista de Tenis   Enseñanzas Deportivas Escuelas Pre-Infantiles  (4 a 5 años):  Natación peques  Escuelas infantiles  (6 a 14 años, según modalidades): Bádminton - Gimnasia Rítmica - Karate Shyto - Natación - Pretenis  - Tenis   Clases para jóvenes  (15 a 20 años, según modalidades): Bádminton - Pádel - Karate Shyto - Natación - Tenis  Clases para adultos  (21 a 64 áños): Acondicionamiento Físico Deportivo - Aeróbic - Bádminton - Combinada Compensación - Estiramientos/Relax - Fitness - GAP (Glúteos, Abdomen y  Piernas) - Gimnasia Suave - Karate Shyto - Natación - Natación de Compensación - Natación embarazadas - Pádel - Pilates - Tenis  Actividades para mayores de 65 años:  Actividad física - Natación Actividades para Personas con discapacidad física: Natación (adultos e infantil)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=705d79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.47871885134567"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.652730062470741"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.47871885134567"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.652730062470741"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "913 821 965 / 913 818 260" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ESTACIONDEHORTALEZA> a schema:PostalAddress ;
@@ -1025,8 +1025,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  18.850 m2    EQUIPAMIENTOS     Unidades Deportivas al aire libre  Piscina (vaso de 50 m., vaso de recreo y vaso infantil)- 5 Pistas de Tenis    Unidades Deportivas Cubiertas  Pabellón polideportivo - Piscina (vaso de 25 m.) - 2 Salas multiusos (Gimnasios) - Sala de Musculación - 2 Saunas      Unidades auxiliares  Auditorio - Sala de Fisioterapia/Hidroterapia deportiva - 3 Salas de reuniones   Accesibilidad:  Instalación adaptada, con 2 ascensores, 2 plataformas y 1 grúa de piscina    SERVICIOS     Deportes Practicables  Bádminton - Baloncesto - Balonmano - Fútbol Sala - Musculación - Natación - Tenis - Waterpolo   Uso de espacios deportivos  Pabellón - Piscina - Pista polideportiva - Pista de Tenis - Sala multiusos (Gimnasio) - Sala de Musculación - Sauna    Enseñanzas Deportivas Escuelas Pre-Infantiles  (2 a 5 años):  Natación peques  Escuelas infantiles  (6 a 14 años, según modalidades): Baloncesto - Balonmano - Natación - Tenis   Clases para jóvenes  (15 a 20 años): Baloncesto - Natación - Salvamento Acuático  Clases para adultos  (21 a 64 años): Acondicionamiento Físico Deportivo - Acuagim - Combinada (Educación Física Permanente) - Fitness - Natación - Natación Compensación - Tenis  Actividades para Mayores de 65 años:  Actividad Física - Aquagim - Natación   Actividades para Personas con discapacidad física:  Natación    Servicio de Medicina deportiva  Acondicionamiento Cardiovascular - Escuela de Espalda - Fisioterapia del Deporte - Psicomotricidad infantil -  Reconocimientos Médicos para deportistas       Actividades Físico Deportivas para centros escolares  Aula Deportiva Municipal" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=177d79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.43214955342785"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.7369645992831364"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.43214955342785"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.7369645992831364"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone """915 413 716                               
 915 413 746""" .
 
@@ -1051,8 +1051,8 @@
 	schema:description "Forma de gestión  Indirecta, por medio de concesión de la gestión de los servicios deportivos a la empresa ADIP - La Almudena, S.L.   Superficie  6903,80 m2    EQUIPAMIENTOS       Unidades Deportivas Cubiertas  Piscina 25 m (8 calles) - Piscina de aprendizaje - Sala de Fisioterapia    Accesibilidad:  instalación adaptada, con 1 grúa de piscina    SERVICIOS     Deportes Practicables  Natación   Uso de espacios deportivos  Piscinas   Enseñanzas Deportivas Escuelas Pre-infantiles  (de 18 meses a 5 años): Matronatación - Natación Peques  Escuelas Infantiles  (de 6 a 14 años): Natación - Salvamento Acuático - Waterpolo  Clases para jóvenes:  Natación - Fitness Acuático - Salvamento Acuático  Clases para adultos:  Acuagim - Fitness Acuático - Gimnasia Acuática - Natación - Natación de Compensación - Natación Embarazadas   Actividades para mayores de 65 años:  Acuagim - Gimnasia Acuática - Natación  Actividades para personas con Discapacidad Física:  Natación  Actividades para personas con Discapacidad Intelectual:  Natación" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ff13318c05b24110VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.42060649869604"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6324237307227616"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.42060649869604"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6324237307227616"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "914 400 763" ;
 	schema:faxNumber "917 540 009" .
 
@@ -1083,8 +1083,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  9.900 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  2 Pistas de Pádel - 2 Pistas de Pádel (cristal) - 5 Pistas de Tenis   Accesibilidad:  Instalación convertible    SERVICIOS     Deportes Practicables  Pádel - Tenis - Tenis de Mesa   Uso de espacios deportivos  Pista de Pádel - Pista de Tenis   Enseñanzas Deportivas Escuelas infantiles  (6 a 14 años, según modalidades): Pádel - Pretenis - Tenis  Clases para jóvenes  (15 a 20 años, según modalidades): Pádel - Tenis  Clases para adultos  (21 a 64 años): Pádel - Tenis" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5a6842be9971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.43266791217288"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.731947836490648"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.43266791217288"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.731947836490648"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "917 588 677" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SENDADELREY> a schema:PostalAddress ;
@@ -1108,8 +1108,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  13.350 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Campo de Fútbol - 3 Pistas polideportivas - 3 Pistas de Tenis - 3 Pistas de Pádel    Unidades Deportivas Cubiertas  Sala multiusos (Gimnasio) - Sala de Musculación   Accesibilidad:  Instalación practicable, con 1 plataforma.    SERVICIOS     Deportes practicables  Balonmano - Fútbol - Fútbol Sala - Fútbol 7 - Musculación - Pádel - Tenis - Baloncesto      Uso de espacios deportivos  Campo de Fútbol - Campo de Fútbol 7 -  Pista de Pádel - Pista polideportiva - Pista de Tenis  - Sala de Musculación   Enseñanzas Deportivas Escuelas infantiles  (6 a 14 años, según modalidades): Fútbol, Tenis  Clases para adultos  (21 a 64 áños): Acondicionamiento Físico Deportivo - Gim Jazz - Pilates  Actividades para Mayores de 65 años:   Actividad Física" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a09842be9971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.41166321237764"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6856838249046104"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.41166321237764"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6856838249046104"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "914 201 154" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FERNANNU&Ntilde;EZ> a schema:PostalAddress ;
@@ -1133,8 +1133,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  159.000 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Bolera Asturiana - Campo de Béisbol -  2 Campos de Fútbol (de césped artificial) - 2 Campos de Fútbol 7 (de césped artificial) - Campo de Sófbol - 2 Circuitos de Aeromodelismo (Radiocontrol de asfalto / radio control de tierra, con cubierta) - Piscina (vaso de 50 metros, vaso de recreo y vaso infantil) - 4 Pistas de Pádel - Pista polideportiva - 10 Pistas de Tenis - 11 Tenis Mesa - Zona Nudista   Unidades Deportivas Cubiertas  Frontón - Pabellón polideportivo - 2 Salas multiusos (gimnasios) - Sala de Musculación    Accesibilidad:  Instalación convertible, con 1 grúa de piscina    SERVICIOS     Deportes Practicables  Bádminton - Baloncesto - Balonmano - Béisbol - Bolos Asturianos - Deportes de Pelota - Fútbol - Fútbol Sala - Fútbol 7 - Musculación - Natación - Pádel -  Pelota - Sófbol - Tenis - Tenis de Mesa - Voleibol   Uso de espacios deportivos  Bolera Asturiana - Campo de Béisbol - Campo de Fútbol - Campo de Fútbol 7 - Campo de Sófbol - Circuito de Radiocontrol - Frontón - Pabellón - Piscina - Pista de Bádminton - Pista de Pádel - Pista polideportiva - Pista de Tenis - Sala multiusos - Sala de Musculación   Enseñanzas Deportivas Escuelas infantiles ( 6 a 14 años, según modalidades): Béisbol y Sófbol - Bateo en Túnel - Fútbol - Pádel - Pretenis - Tenis - Tenis de Mesa   Clases para jóvenes  (15 a 20 años): Béisbol y Sófbol - Bateo en Túnel  Clases para adultos  (21 a 64 años): Acondicionamiento Físico Deportivo - Aeróbic - Combinada y Tonificación -  Béisbol y Sófbol -  Bateo en Túnel - Musculación - Pádel - Pilates - Tenis   Actividades para Mayores de 65 años:  Actividad Física - Frontenis - Pilates - Polideportiva" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f6b842be9971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.41659851888246"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.656478733128524"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.41659851888246"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.656478733128524"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "914 303 511" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PARQUEDELAELIPA> a schema:PostalAddress ;
@@ -1170,8 +1170,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  44.000 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Campo de Fútbol - Rocódromo    Unidades Deportivas Cubiertas  Pabellón polideportivo - Piscina (vaso de 25 m. y vaso de enseñanza) - Sala multiusos - Sala de Musculación     Accesibilidad:  Instalación adaptada, con 1 ascensor y 1 grúa de piscina    SERVICIOS     Deportes Practicables  Baloncesto - Fútbol - Fútbol Sala - Fútbol 7 - Escalada - Natación - Voleibol - Musculación   Uso de espacios deportivos  Campo de Fútbol - Campo de Fútbol 7 - Pabellón - Piscina - Pista de Baloncesto - Pista de Fútbol Sala - Pista polideportiva - Pista de Voleibol - Sala multiusos (Aeróbic) - Sala de Musculación -  Rocódromo   Enseñanzas Deportivas Escuelas Pre-Infantiles  (3 a 5 años): Matronatación - Natación peques - Polideportiva  Escuelas infantiles  (6 a 14 años, según modalidades): Aeróbic - Escalada - Fútbol - Gimnasia Rítmica - Natación - Polideportiva  Clases para jóvenes  (15 a 20 años, según modalidades): Natación  Clases para adultos  (21 a 64 años): Acondicionamiento Físico Deportivo - Acuarunning - Aeróbic - Ciclo Sala - Combinada  (Educación Física Permanente y Deportes) - Fitness - Fitness Acuático - Gimnasia Acuática - Musculación - Natación - Natación de Compensación - Natación Embarazadas - Natación Oposiciones - Pilates   Actividades para Mayores de 65 años:  Actividad Física - Gimnasia Acuática - Natación  Actividades para Personas con discapacidad física:  Natación" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=15efe8ae8d81c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.48442599932086"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.7144222564719858"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.48442599932086"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.7144222564719858"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "917 397 555" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MASO> a schema:PostalAddress ;
@@ -1207,8 +1207,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  18.100 m2   EQUIPAMIENTOS     Unidades Deportivas al aire libre  Frontón - Piscina (1 vaso de 50 metros, 1 vaso de recreo y 1 vaso infantil) - 2 Pistas de Pádel - 2 Pistas polideportivas    Unidades Deportivas Cubiertas  Pabellón polideportivo - Piscina (1 vaso de 25 m y 1 vaso de enseñanza) -  4 Pistas de Squash - 1 Sala de Musculación - 2 Salas multiusos   Accesibilidad:  instalación adaptada, con ascensor y grúa de piscina    SERVICIOS     Deportes practicables  Bádminton - Baloncesto - Balonmano - Deportes de Pelota - Fútbol 7 - Fútbol Sala - Musculación - Natación - Pádel -  Squash    Uso de espacios deportivos  Frontón - Pabellón - Piscina - Pista de Pádel - Pista polideportiva - Pista de Squash - Sala de Musculación    Enseñanzas Deportivas Escuelas Pre-Infantiles  (4-6 años): Natación peques  Escuelas Infantiles  (6 a 14 años): Balonmano - Gimnasia Rítmica - Natación  Clases para Jóvenes  (15 a 21 años): Aeróbic - Natación - Gimnasia Rítmica  Clases para adultos  (21 a 64 años): Acondicionamiento Físico Deportivo - Aeróbic - Combinada - Combinada de Compensación - Fitness - Gimnasia Acuática - Gimnasia de Compensación- Natación - Natación de Compensación - Pilates  Mayores de 65 años:  Actividad Acuática - Actividad Física  Personas con discapacidad física:  Actividad Acuática (Adultos)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=930942be9971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.38234955664604"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.746482524823702"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.38234955664604"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.746482524823702"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone """914 661 278                                           
 914 661 732""" .
 
@@ -1239,8 +1239,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid   Superficie  2.075 m2   EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Piscina (vaso de 25 m. y vaso de enseñanza) - Sala  de Musculación    Accesibilidad:  Instalación adaptada, con 1 grúa de piscina    SERVICIOS     Deportes practicables  Musculación - Natación   Uso de espacios deportivos  Piscina -  Sala de Musculación    Enseñanzas deportivas: Escuelas Pre-infantiles  (4 a 5 años): Natación peques  Escuelas Infantiles  (6 a 14 años): Natación  Clases para adultos  (21 a 64 años): Gimnasia Acuática - Natación - Natación de Compensación - Natación embarazadas   Mayores de 65 años:  Natación" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e92942be9971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.47876758357458"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.7086993281311904"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.47876758357458"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.7086993281311904"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "914 800 476" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONFORTEDELEMOS> a schema:PostalAddress ;
@@ -1270,8 +1270,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  80.000 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Lago   Accesibilidad:  instalación convertible    SERVICIOS     Deportes practicables  Pesca (sólo mayores de 65 años y personas con discapacidad, con licencia) - Pirag&uuml;ismo - Remo   Uso de espacios deportivos  Barcas de recreo - Paseo en motora   Enseñanzas Deportivas   Escuelas infantiles  (6 a 14 años, según modalidades): Pirag&uuml;ismo   Actividades Físico deportivas para centros escolares:   Aula Deportiva Municipal" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=cd9d79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.417013097503705"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.7314952685679943"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.417013097503705"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.7314952685679943"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "91 464 46 10" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EMBARCADERO> a schema:PostalAddress ;
@@ -1295,8 +1295,8 @@
 	schema:description "Forma de gestión  Indirecta, por medio de concesión de la gestión de los servicios deportivos a Eductrade, S.A. e Iberconsulting Sport, S.A. Unión Temporal de Empresas (Polideportivo Las Cruces)  http://www.basicosportcenter.com   Superficie  8.612,25 m2      EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  1 Campo de Fútbol (césped artificial) - 2 Campos de Fútbol 7  (césped artificial) - 5 Pistas de Tenis - 8 Pistas de Pádel    Unidades Deportivas Cubiertas  Pabellon Polideportivo - Piscina (vaso de 25 m y vaso de enseñanza) - 2 Salas Multiusos - Sala de Musculación    Accesibilidad:  instalación adaptada, con 1 ascensor y 1 grúa de piscina    SERVICIOS     Deportes Practicables  Baloncesto - Balonmano - Fútbol - Fútbol Sala - Musculación - Natación - Pádel - Tenis - Voleibol   Uso de espacios deportivos  Campo de Fútbol 7 - Campo de Fútbol - Pabellón - Pista de Baloncesto - Piscina - Pista de Balonmano - Pista de Fútbol Sala -  Pista de Pádel - Pista de Tenis - Pista de Voleibol - Sala de Musculación    Enseñanzas Deportivas Escuelas Pre-Infantiles  (de 18 meses a 5 años): Matronatación - Natación Peques - Educación Física de Base  Escuelas Infantiles  (de 6 a 14 años): Aeróbic - Baloncesto - Balonmano - Fútbol - Fútbol Sala - Gimnasia Rítmica - Judo - Natación - Pádel - Polideportiva - Pretenis - Tenis - Voleibol  Clases para jóvenes  (de 15 a 20 años): Aeróbic - Baloncesto - Balonmano - Ciclo Sala -  Fútbol - Fútbol Sala - Musculación - Natación - Pádel - Tenis - Voleibol  Clases para adultos (de 21 a 64 años):  Acondicionamiento Físico Deportivo - Acuagim - Aeróbic - Bailes de Salón - Ciclo Sala - Combinada - Defensa Personal - Fitness - Fitness Acuático - Fútbol - GAP (Glúteos, Abdomen y Piernas) Gimnasia Acuática - Natación - Natación de Compensación - Natación Embarazadas - Pádel - Pilates - Tenis   Actividades para mayores de 65 años:  Acuagim - Actividad Física - Actividad Acuática - Gimnasia Acuática - Gimnasia Suave - Natación  Actividades para personas con Discapacidad Física:  Actividad Física - Natación - Pádel - Tenis" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6a6952ff55b41110VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.379148937377394"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.756554762411969"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.379148937377394"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.756554762411969"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "911 288 330" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/POBLADOS> a schema:PostalAddress ;
@@ -1320,8 +1320,8 @@
 	schema:description "Forma de gestión:  Indirecta, por medio de concesión de la gestión de los servicios   deportivos  AQA los Prunos     Para acceder a este centro deportivo municipal de gestión indirecta únicamente serán válidos los abonos adquiridos en este centro.   EQUIPAMIENTOS:     Unidades deportivas al aire libre:  Pista polideportiva - 8 pistas de Pádel   Unidades deportivas cubiertas:  Piscina (vaso de 25 m. y vaso de enseñanza) - 4 pistas de Pádel - Sala multiusos (Ciclo Sala) - Sala multiusos (gimnasio) - 3 salas multiusos - Spa y zona termal   Accesibilidad:  instalación adaptada, con 1 ascensor" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e705dfa167204110VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.453257453448046"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6186956428199863"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.453257453448046"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6186956428199863"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "917 432 001" ;
 	schema:faxNumber "917 432 002" .
 
@@ -1352,8 +1352,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  61.500 m2    EQUIPAMIENTOS     Unidades Deportivas al aire libre  2 Campos de Fútbol (de césped artificial) - 2 Campos de Fútbol 7 (de césped artificial) - Piscinas (vaso 50 m., 2 vasos gemelos y 1 vaso infantil)  - Pista de Voley Playa - 3 Pistas de Tenis - 4 Pistas de Pádel - 4 Tenis de Mesa  Unidades Deportivas Cubiertas  Piscina (vaso de 25 m. y vaso de enseñanza) - Sala de Artes Marciales - Sala multiusos (Gimnasio) - Sala de Musculación   Accesibilidad:  Instalación adaptada, con 1 grúa de piscina    SERVICIOS     Deportes Practicables  Fútbol - Fútbol 7 - Musculación - Natación - Pádel - Tenis - Tenis de Mesa - Voley Playa   Uso de espacios deportivos  Campo de Fútbol - Campo de Fútbol 7 - Piscina - Pista de Tenis - Pista de Pádel - Pista de Voley Playa - Sala de Artes Marciales - Sala multiusos - Sala de Musculación  Enseñanzas Deportivas Escuelas Pre-Infantiles  (4 a 5 años): Matronatación, Natación peques  Escuelas infantiles  (6 a 14 años, según modalidades): Judo - Karate Kenpo - Natación - Padel - Pretenis - Tenis  Clases para Jóvenes  (15 a 20 años, según modalidades):Salvamento Acuático   Clases para adultos  (21 a 64 años): Acondicionamiento Físico Deportivo - Acuagim - Aeróbic - Fitness - Judo - Karate Kenpo - Natación - Natación de Compensación - Natación Embarazadas - Pádel - Pilates - Tenis  Actividades para Mayores de 65 años:  Natación - Actividad Física" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=64cd79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.464650948053816"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6275877145025817"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.464650948053816"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6275877145025817"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "913 003 612" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ELPROVENCIO> a schema:PostalAddress ;
@@ -1383,8 +1383,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  37.420 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Campo de Fútbol (césped artificial)   Unidades Deportivas Cubiertas  Pabellón polideportivo - Piscina (vaso de 25 m. y vaso de enseñanza) - Sala de Musculación - 2 Saunas - Sala multiusos (Aérobic)   Servicios auxiliares  Sala multiusos (aula)   Accesibilidad:  instalación adaptada, con 2 grúas de piscina    SERVICIOS      Deportes practicables  Bádminton - Baloncesto - Balonmano -  Ciclo Sala - Fútbol - Fútbol 7 - Fútbol Sala - Musculación - Natación -  Voleibol      Uso de espacios deportivos  Campo de Fútbol (césped artifical) - Campo de Fútbol 7 - Pabellón - Piscina - Pista de Bádminton - Pista de Baloncesto - Pista de Fútbol Sala - Pista de Voleibol -  Sala de Musculación - Sauna     Enseñanzas Deportivas Escuelas Pre-Infantiles  (3 a 5 años):  Natación peques - Polideportiva educación física de base  Escuelas infantiles  (6 a 14 años, según modalidades): Aeróbic - Bádminton -  Kárate Kempo - Natación - Polideportiva  Clases para Jóvenes  (15 a 20 años, según modalidades): Aeróbic - Bádminton - Natación - Voleibol - Salvamento  Clases para adultos (21 a 64 áños):  Acondicionamiento Físico Deportivo - Acuagim - Aeróbic -  Ciclosala - Fitness - Fitness Acuático - Gimnasia Acuática - Gimnasia de Compensación - Natación - Natación de Compensación - Natación embarazadas - Pilates  Actividades para Mayores de 65 años:  Actividad Física - Gimnasia Acuática - Natación  Actividades para Personas con discapacidad física:  Actividad Acuática (adultos)  Actividades para Personas con discapacidad intelectual:  Natación (adultos e infantil)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6b00e8ae8d81c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.40761501410649"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.7173807221939192"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.40761501410649"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.7173807221939192"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "913 642 240" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/IMPERIAL> a schema:PostalAddress ;
@@ -1414,8 +1414,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  9.071 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Campos de fútbol 7 (césped artificial)   Unidades Deportivas Cubiertas  Pabellón polideportivo - Sala de Musculación   Accesibilidad:  instalación adaptada     SERVICIOS     Deportes practicables  Badmintón - Baloncesto - Balonmano - Fútbol 7 - Fútbol Sala - Voleibol -  Musculación   Uso de espacios deportivos  Campos de Fútbol 7 - Pista de Bádminton - Pista de Baloncesto - Pista de Fútbol Sala - Pista de Voleibol - Sala de Musculación   Enseñanzas Deportivas   Escuelas infantiles  (6 a 14 años, según modalidades): Fútbol Sala - Taekwondo  Clases para adultos  (21 a 64 áños): Acondicionamiento Físico Deportivo - Musculación  Actividades para Mayores de 65 años:   Actividad Física" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ecd237c71d4a6110VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.37381855452167"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.623151468598157"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.37381855452167"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.623151468598157"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "913 053 451" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FUENTIDUEÑA> a schema:PostalAddress ;
@@ -1445,8 +1445,8 @@
 	schema:description "Forma de Gestión:  directa, por parte del Ayuntamiento de Madrid    Superficie:  108.300 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre:  campo de fútbol (de césped artificial), 3 pistas de fútbol sala, campo de tiro con arco, 2 frontones, piscina (3 vasos de 50 m. y una vaso infantil), pista de atletismo, pista de baloncesto, pista de patinaje, 6 pistas de tenis, pista de voley playa   Unidades Deportivas cubiertas:  pabellón polideportivo, piscina (vaso de 25 m.), sala de musculación, sala de artes marciales, sala multiusos (psicomotricidad), sala multiusos (ciclo sala)   Unidades con servicios auxiliares:  sala de reconocimientos médicos     Accesibilidad:  instalación practicable, con 1 ascensor y 2 grúas de piscina    SERVICIOS      Deportes practicables:  atletismo, baloncesto, balonmano, deportes de pelota, fútbol, fútbol sala, fútbol 7, musculación, natación, patinaje artístico, tenis, tiro con arco, voley playa   Uso de espacios deportivos:  campo de fútbol, campo de tiro con arco, frontón, pabellón, piscina , pista de atletismo, pista de baloncesto, pista de patinaje, pista polideportiva, pista de tenis    Enseñanzas Deportivas     Escuelas pre-Infantiles : natación peques (4 y 5 años), psicomotricidad (3 a 8 años)   Escuelas infantiles  (6 a 14 años, según modalidades): atletismo, baloncesto, fútbol ,  gimnasia rítmica, judo, karate shyto, natación , patinaje, polideportiva (educación física de base), tenis, tiro con arco   Clases para Jóvenes  ( 15 a 20 años, según modalidades): atletismo, baloncesto, fútbol, natación   Clases para adultos  (21 a 64 años): acondicionamiento físico deportivo, aeróbic, ciclo sala, combinada (educación física permanente y deportes), fitness, gimnasia acuática, gimnasia de compensación, glúteos, abdomen y piernas ( GAP ), judo, karate shyto, natación, natación de compensación, natación embarazadas, patinaje, pilates, tenis, tonificación con pesas   Actividades para mayores de 65 años:  actividad física, gimnasia acuática, natación  Actividades para personas con discapacidad física:  natación (infantiles)  - Actividades para personas con discapacidad intelectual:   atletismo, natación (adultos)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=dc9942be9971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.39885854572339"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.632432290214539"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.39885854572339"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.632432290214539"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone """917 727 100                                                                  
 917 727 121""" .
 
@@ -1477,8 +1477,8 @@
 	schema:description "Naturaleza Centro   Público * Gestión Club Natación Madrid Moscardó * Ayuntamiento de Madrid * Distrito de Usera   Superficie  13.800 m2     EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Piscina (vaso de 50 m. y vaso infantil) - 2 Pistas de Pádel - Pista de Voley Playa   Unidades Deportivas Cubiertas  Piscina (vaso de 25 m. y paso de enseñanza) - 2 Salas multiusos (Gimnasios)   Accesibilidad:  instalación adaptada, con 2 grúas de piscina    SERVICIOS     Deportes practicables  Natación - Pádel - Voley playa   Uso de espacios deportivos  Piscina - Pistas de Pádel    Enseñanzas deportivas Escuelas infantiles:   Natación - Pádel - Waterpolo  Clases para adultos:  Acuagim - Aeróbic  Bailes de Salón - Combinada - Natación - Pádel - Pilates  Actividades para Mayores de 65 años:  Actividad Acuática - Combinada" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=23c942be9971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.38942414641932"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.7059238918122555"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.38942414641932"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.7059238918122555"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "915 003 940" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ANDRESARTEAGA> a schema:PostalAddress ;
@@ -1514,8 +1514,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  100.200 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  3 Campos de Fútbol (de césped artificial) - Campo de Fútbol 7 (de césped artificial) - Piscina (2 vasos de 50 m. y vaso infantil) - Pista de Atletismo - 5 Pistas de Pádel - 2 Pistas Polideportivas - 8 Pistas de Tenis - 1 Pista de Voley Playa    Unidades Deportivas Cubiertas  Pabellón Jesús Rollán - Piscina (vaso 25 m. y vaso de enseñanza)  - 2 Salas de Musculación - Sala multiusos (Aeróbic) - Sala multiusos (Gimnasio) - Sala multiusos    Accesibilidad:  instalación practicable, con 1 ascensor y 1 grúa de piscina       SERVICIOS     Deportes practicables  Atletismo - Baloncesto - Bádminton - Balonmano - Fútbol - Fútbol Sala - Fútbol 7 - Musculación - Natación - Pádel - Tenis - Voleibol - Voley playa - Unihockey   Uso de espacios deportivos  Campo de Fútbol - Campo de Fútbol 7 - Pabellón - Piscina - Pista de Atletismo - Pista Polideportiva - Pista de Pádel - Pista de Tenis - Pista de Voley Playa - Sala multiusos - Sala de Musculación     Enseñanzas Deportivas Escuelas Pre-Infantiles  (3 a 5 años): Matronatación - Natación peques  Escuelas infantiles  (6 a 14 años, según modalidades): Atletismo - Baloncesto -  Fútbol - Gimnasia Rítmica - Natación - Polideportiva   Clases para jóvenes  (de 15 a 20 años): Baloncesto - Natación - Salvamento Acuático   Clases para adultos  (21 a 64 años): Acondicionamiento Físico Deportivo - Acuagim - Aeróbic - Combinada  (Educación Física Permanente y Deportes) - Fitness - Gimnasia de Compensacióin - Natación - Natación de Compensación - Natación embarazadas - Pádel - Pilates - Tenis  Actividades para Mayores de 65 años:  Actividad Física - Natación  Actividades para Personas con discapacidad sensorial (sordos):  Atletismo" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a11e79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.37558213858424"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.71245854352948"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.37558213858424"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.71245854352948"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "914 692 374" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/RAFAELAYBARRA> a schema:PostalAddress ;
@@ -1545,8 +1545,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  22.500 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  2 Campos de Fútbol 7 (de césped artificial) - Frontón (largo) - 2 Pistas de Pádel - Pista de Fútbol Sala - Pista de Tenis    Unidades Deportivas Cubiertas  Pabellón polideportivo - Piscina (vaso de 25 m.) - Sala de Musculación    Accesibilidad:  instalación adaptada, con 1 grúa de piscina    SERVICIOS     Deportes practicables  Bádminton - Baloncesto - Deportes de Pelota - Fútbol 7 - Fútbol Sala - Musculación - Natación - Pádel - Tenis - Voleibol    Uso de espacios deportivos  Campo de Fútbol 7 - Frontón - Pabellón - Piscina - Pista de Bádminton - Pista de Pádel - Pista polideportiva - Pista de Tenis    Enseñanzas Deportivas Escuelas Pre-Infantiles  (2 a 5 años): Matronatación - Natación peques  Escuelas infantiles  (6 a 14 años, según modalidades): Fútbol - Natación - Pádel  Clases para jóvenes  (de 15 a 20 años): Natación   Clases para adultos  (21 a 64 años): Acondicionamiento Físico Deportivo - Combinada  - Natación - Pádel - Pilates   Actividades para Mayores de 65 años:  Actividad Física - Gimnasia Acuática - Natación  Actividades para Personas con discapacidad física:  Natación" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=483e79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.37021993373859"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6994689006077444"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.37021993373859"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6994689006077444"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "913 171 062" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MOREJA> a schema:PostalAddress ;
@@ -1576,8 +1576,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  97.300 m2    EQUIPAMIENTOS     Unidades Deportivas al aire libre  2 Campos de Fútbol (césped artificial) - Frontón (corto) - Piscinas (1 vaso de 50 m- 2 vasos de recreo y 1 vaso infantil) - Pista de Atletismo - 4 Pistas de Pádel - 6 Pistas Polideportivas - 5 Pistas de Tenis- 2 Tenis de mesa   Unidades Deportivas Cubiertas  Pablellón polideportivo - Piscina ( 1 vaso de 25 m y 1 vaso de enseñanza) - Sala de Armas- Sala de Artes Marciales - Sala multiusos (Ciclo Sala) - Sala multiusos (Gimnasio) - Sala de Musculación   Unidades con Servicios Auxiliares  Aula - Sala de Acondicionamiento Cardiovascular y Reconocimiento Médico   Accesibilidad : instalación convertible, con 1 ascensor y 2 grúas de piscina    SERVICIOS     Deportes practicables  Atletismo - Bádminton-Baloncesto - Balonmano - Deportes de Pelota - Fútbol - Fútbol Sala - Musculación - Natación - Pádel - Tenis- Tenis de Mesa- Voleibol   Uso de espacios deportivos  Campo de Fútbol (césped artificial) - Frontón - Pabellón - Piscina - Pista de Atletismo - Pista de Pádel - Pista polideportiva - Pista de Tenis - Sala de Musculación - Tenis de Mesa   Enseñanzas Deportivas Escuelas Pre-Infantiles  (3 a 5 años): Matronatación - Natación peques  Escuelas infantiles  (6 a 14 años, según modalidades): Atletismo - Bádminton - Baloncesto - Esgrima - Fútbol - Gimnasia Rítmica - Judo - Natación - Pádel - Psicomotricidad -Tenis -Voleibol  Clases para Jóvenes  (15 a 21 años ): Bádminton - Baloncesto - Esgrima - Fútbol - Natación - Pádel - Tenis - Voleibol     Clases para adultos  (21 a 64 años): Acondicionamiento Físico Deportivo - Acuagim - Aeróbic - Ciclo Sala -Combinada/EFP (Educación Física Permanente) - Glúteos, Abdomen, Piernas (Glúteos, Abdomen y Piernas - GAP) - Judo - Natación - Natación embarazadas - Pádel - Pilates - Tenis  Actividades para Mayores de 65 años:  Actividad Acuática - Actividad Física  Actividades para Personas con discapacidad física:  Natación (adultos)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ee5e79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.382599021651856"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6337292699561834"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.382599021651856"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6337292699561834"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "917 774 901" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/TRANVIADEARGANDA> a schema:PostalAddress ;
@@ -1607,8 +1607,8 @@
 	schema:description "Forma de gestión  Indirecta, por medio de concesión de la gestión de los servicios deportivos a la empresa Serviocio Cultura, Deporte y Recreación, S.L.  http://www.serviocio.es/      Superficie  4.966,29 m2     EQUIPAMIENTOS      Unidades Deportivas al Aire Libre  Campo de Fútbol (césped artificial y señalizado para Fútbol 7) - 3 Pistas de Tenis - 4 Pistas de Pádel     Unidades Deportivas Cubiertas  Pabellón Polideportivo - 5 Salas multiusos - Sala de Musculación - 2 Saunas - Sala de Fisioterapia       Accesibilidad:  instalación adaptada, con 1 ascensor     SERVICIOS      Deportes Practicables  Bádminton - Baloncesto - Fútbol - Musculación - Pádel - Tenis     Uso de espacios deportivos  Campo de Fútbol 7 - Campo de Fútbol - Pabellón - Pista de Bádminton - Pista de Baloncesto - Pista de Fútbol Sala - Pista de Pádel - Pista de Tenis - Sauna - Sala de Musculación    Enseñanzas Deportivas Escuelas Infantiles  (de 6 a 14 años): Aeróbic - Artes Marciales - Baloncesto - Balonmano - Educación Física de Base - Fútbol - Fútbol Sala -  Pádel - Pretenis - Tenis  Clases para jóvenes  (de 15 a 20 años): Aeróbic - Artes Marciales - Fútbol - Musculación - Pádel - Tenis  Clases para adultos  (de 21 a 64 años): Acondicionamiento Físico Deportivo - Aeróbic - Artes Marciales - Ciclo Sala - Estiramientos/Relax - - Fitness - Gimnasia Suave - Musculación - Pádel - Pilates - Tenis - Tonificación   Actividades para mayores de 65 años:  Actividad Física  Actividades para personas con Discapacidad Física:  Actividad Física (todos los grupos de edad)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f86186e9a3624110VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.427629273303175"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6063181769844794"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.427629273303175"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6063181769844794"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "917 755 866" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NIZA> a schema:PostalAddress ;
@@ -1638,8 +1638,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  7.000 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Piscina (vaso de gemelas, vaso de recreo y vaso infantil)   Accesibilidad:  instalación adaptada, con 1 grúa de piscina    SERVICIOS     Deportes practicables  Natación   Uso de espacios deportivos  Piscina" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6c5a42be9971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.39865532340664"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.704959759845779"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.39865532340664"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.704959759845779"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "914 732 491" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ARGANDA> a schema:PostalAddress ;
@@ -1669,8 +1669,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  65.000 m2     EQUIPAMIENTOS     Unidades Deportivas al Aire Libre   Campo de Fútbol (césped artificial) - Campo de Fútbol 7 (césped artificial) - Piscina (vaso de 25 m. - vaso de recreo - vaso infantil) - Pista de Patinaje (con cubierta) -  2 Pistas polideportivas - 6 Pistas de Tenis  - 4 Pistas de Pádel   Unidades Deportivas Cubiertas  Pabellón polideportivo - Piscina (vaso de 25 m. - vaso de enseñanza) - Sala multiusos (aeróbic)   Unidades con Servicios Auxiliares :  Sala de Fisio-Hidroterapia   Accesibilidad : Instalación adaptada, con 1 ascensor y 2 grúas de piscina    SERVICIOS      Deportes practicables   Bádminton - Baloncesto - Balonmano - Fútbol - Fútbol Sala - Fútbol 7 - Natación - Patinaje - Pádel - Tenis Mesa - Tenis - Voleibol   Uso de espacios deportivos  Campo de Fútbol - Campo de Fútbol 7 - Pabellón - Piscina - Pista de Bádminton - Pista de Baloncesto - Pista de Fútbol Sala - Pista Patinaje - Pista Pádel - Pista polideportiva - Pista de Tenis - Tenis Mesa    Enseñanzas Deportivas:   Escuelas Pre-Infantiles  (de 2 a 5 años): Matronatación - Natación Peques  Escuelas Infantiles  (6 a 14 años, según modalidades): Fútbol Fútbol 7 - Freestyle - Natación - Pádel - Patinaje Artístico - Polideportiva- Pre-Tenis - Tenis - Tenis Mesa  Clases para Jóvenes  (de 15 a 20 años, según modalidades): Natación - Salvamento Acuático  Clases para Adultos  (de 21 a 64 años): Acuagim - Aeróbic - Bailes - Ciclo Sala - Combinada (Educación Física Permanente y Deportes) - Fitness - Natación - Natación de Compensación - Pádel - Pilates -Tenis   Actividades para Mayores de 65 años:  Actividad Física - Actividad Acuática - Baile  Actividades para personas con discapacidad física:  Actividad Acuática (adultos)" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=858e79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.34998997348078"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.7178413073202856"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.34998997348078"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.7178413073202856"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone """915 051 532                                              
 915 051 195""" .
 
@@ -1701,8 +1701,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid      Superficie  5.750 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Pista de Pádel (cristal)   Unidades Deportivas cubiertas  Piscina (vaso de 25 m.) - Sala multiusos (gimnasio) - Sala de Musculación - 2 saunas   Accesibilidad:  instalación adaptada, con 1 ascensor, 2 plataformas y 1 grúa de piscina    SERVICIOS     Deportes practicables  Musculación - Natación - Pádel   Uso de espacios deportivos  Piscina - Sala multiusos (gimnasio) - Sala de Musculación - Sauna - Pista de Pádel  Enseñanzas Deportivas Escuelas Pre-Infantiles  (4 a 5 años): Natación peques  Escuelas infantiles  (6 a 14 años, según modalidades): Karate Shyto - Natación  Clases para jóvenes  (15 a 20 años): Natación  Clases para adultos  (21 a 64 años): Acondicionamiento Físico Deportivo - Acuagim - Aeróbic -  Karate Shyto - Natación - Natación de Compensación - Natación embarazadas - Pilates  Actividades para Mayores de 65 años:  Actividad Física - Natación   Actividades para personas con discapacidad física:  Natación (Infantiles y Adultos)   Actividades para Personas con discapacidad intelectual:  Aeróbic - Natación (Adultos)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c77e0a47f441f010VgnVCM2000000c205a0aRCRD" ;
-	ontology:latitud "40.4592763472204"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.7021136988422567"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.4592763472204"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.7021136988422567"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "915 701 841" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/HIERBABUENA> a schema:PostalAddress ;
@@ -1732,8 +1732,8 @@
 	schema:description "Forma de gestión  Directa, por parte del Ayuntamiento de Madrid   Superficie  9.800 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Campo de Fútbol 7 - 6 Pistas de Pádel - 1 Pista de Tenis - 2 Pistas Polideportivas   Unidades Deportivas Cubiertas   Piscina (1 vaso de 25 m. y 1 vaso de enseñanza) -  Salas Multiusos -  Sala de Musculación - 2 Saunas   Accesibilidad:  Instalación adaptada, con 1 ascensor, 1 plataforma y 1 grúa de piscina.    SERVICIOS     Deportes practicables    Bádminton - Mini-basket - Musculación - Natación - Pádel - Tenis - Fútbol 7 - Fútbol Sala - Gimnasia Rítmica - Ciclo Sala   Uso de espacios deportivos  Piscina - Pista de Bádminton - Campo de Fútbol 7 - Pista de Pádel - Pista de Tenis - Sala de Musculación - Sauna - Fútbol Sala   Enseñanzas deportivas - Escuelas Pre-Infantiles  (3 a 5 años): Natación peques - Polideportiva (Educación Física de Base) -  Escuelas Infantiles  (6 a 14 años, según modalidades): Bádminton - Fútbol - Gimnasia Rítmica -  Natación - Pádel -  Tenis  -  Clases para Jóvenes  (15 a 20 años, según modalidades): Pádel -  Clases para Adultos  (21 a 64 años): Acondicionamiento Físico Deportivo - Acuagim - Aeróbic - Ciclo Sala - Combinada (Educación Física Permenente y Deportes) -  Fitness - G.A.P. -  Gimnasia Suave - Musculación - Natación - Natación de Compensación - Natación Embarazadas - Pádel - Pilates - Tenis -  Actividades para Mayores de 65 años:   Actividad Física - Natación -  Actividades para Personas con discapacidad física:  Natación (infantil y adultos)" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2cae79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.44910622626739"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.671618277009419"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.44910622626739"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.671618277009419"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "914 137 105" ;
 	schema:faxNumber "914 132 246" .
 
@@ -1764,8 +1764,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  3.300 m2     EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Piscina (1 vaso de 25 m. y 1 vaso de enseñanza) - Sala multiusos - Sala multiusos (gimnasio) - Sala de Musculación - Saunas - 3 Tenis de Mesa   Accesibilidad:  Instalación convertible con 1 grúa de piscina.    SERVICIOS     Deportes practicables  Musculación - Natación    Uso de espacios deportivos  Piscina - Sala de multiusos - Sala de Musculación - Sauna   Enseñanzas Deportivas Escuelas Pre-Infantiles  (2 a 5 años): Matronatación - Natación peques  Escuelas infantiles  (6 a 14 años, según modalidades): Natación   Clases para Jóvenes  (15 a 20 años, según modalidades): Natación  Clases para adultos  (21 a 64 años): Acondicionamiento Físico Deportivo - Acuagim - Aeróbic - Combinada / Educación Física Permanente - Ciclo Sala - Fitness - Gimnasia Suave - Musculación - Natación - Natación de Compensación - Natación de embarazadas - Pilates - Tonificación  Actividades para Mayores de 65 años:  Actividad Física - Gimnasia Acuática - Natación  Actividades para Personas con discapacidad física:  Natación (infantil y adultos)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a5fa42be9971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.43003240158625"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.638536354805483"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.43003240158625"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.638536354805483"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "913 770 251" ;
 	schema:faxNumber "914 079 631" .
 
@@ -1790,8 +1790,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  1.565 m2     EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Pabellón polideportivo - Piscina (1 vaso de 25 m. y 1 vaso de enseñanza) - 4 Pistas de Squash - Sala multiusos - Sala de Musculación   Accesibilidad:  Instalación adaptada, con 1 montacargas y 1 grúa de piscina.    SERVICIOS     Deportes Practicables  Baloncesto - Balonmano - Fútbol Sala - Musculación - Natación - Squash - Submarinismo - Voleibol   Uso de espacios deportivos  Pabellón - Piscina - Pista polideportiva - Pista de Squash - Sala multiusos- Sala de Musculación  Enseñanzas Deportivas Escuelas Pre-Infantiles  (4 y 5 años): Matronatación - Natación peques  Escuelas infantiles (6 a 14 años, según modalidades):  Baloncesto - Gimnasia Rítmica - Judo - Natación - Squash - Taekwondo  Clases para jóvenes  (15 a 20 según modalidades): Judo - Natación - Salvamento Acuático   Clases para adultos  (21 a 64 años): Acondicionamiento Físico Deportivo - Acuagim - Aeróbic - Combinada de Compensación - Combinada (Educación Física Permanente y Deportes) - Judo -Natación - Natación de Compensación - Natación de embarazadas - Pilates  Actividades para Mayores de 65 años:  Actividad Física - Natación  Actividades para Personas con discapacidad física:  Natación (adulto)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fb1b42be9971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.39146194707861"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6598636029775866"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.39146194707861"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6598636029775866"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "914 781 492" ;
 	schema:faxNumber "914 781 697" .
 
@@ -1822,8 +1822,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  8.500 m2     EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Pabellón polideportivo - Piscina (1 vaso de 25 m. y 1 vaso de enseñanza) - 2 Salas multiusos     Accesibilidad:   instalación adaptada, con 1 montacargas y 1 grúa de piscina.    SERVICIOS     Deportes practicables  Baloncesto - Balonmano - Fútbol Sala - Natación - Voleibol   Uso de espacios deportivos  Pabellón - Piscina - Sala multiusos    Enseñanzas Deportivas Escuelas Pre-Infantiles  (1 a 5 años): Matronatación - Natación peques  Escuelas infantiles  (6 a 14 años, según modalidades): Fútbol Sala - Natación   Clases para adultos  (21 a 64 años): Acondicionamiento Físico - Aeróbic - Acuagim - Ciclo Sala - GAP (Glúteos, Abdomen y Piernas) - Natación - Pilates  Actividades para Mayores de 65 años:  Gimnasia Acuática - Actividad Física - Natación  Actividades para Personas con discapacidad física:  Natación (infantil)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c2de79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.346220026067044"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.684337728806363"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.346220026067044"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.684337728806363"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "917 953 792" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/BENIMAMET> a schema:PostalAddress ;
@@ -1853,8 +1853,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  47.000 m2       EQUIPAMIENTOS     Unidades Deportivas al aire libre  Piscina (1 vaso de 50 m. y 1 vaso gemelas y 1 vaso infantil) -  5 Pistas polideportivas - 2 Tenis - 3 Tenis de Mesa   Unidades Deportivas Cubiertas  3 Pabellón polideportivo - Piscina (1 vaso de 25 m.) - Sala Multiusos - Sala Artes Marciales - Sala Musculación      Accesibilidad:  instalación convertible, con 1 ascensor y 1 grúa de piscina.       SERVICIOS     Deportes Practicables  Aikido - Baloncesto - Balonmano - Fútbol Sala - Hap Kido - Kárate - Lucha olímpica - Musculación - Natación - Taekwondo - Tenis      Uso de espacios deportivos  Pabellones- Piscina - Pistas polideportivas - Pistas de Tenis  Enseñanzas Deportivas Escuelas Pre-Infantiles  (3 a 5 años): Matronatación - Natación peques  Escuelas infantiles  (6 a 14 años, según modalidades): Baloncesto - Fútbol Sala - Gimnasia Artística - Gimnasia Rítmica - Hap Kido - Karate - Lucha - Natación - Taekwondo - Tenis  Clases para jóvenes  (15 a 20 años, según modalidades): Gimnasia Rítmica - Lucha - Natación - Tenis   Clases para adultos  (21 a 64 años): Acondicionamiento Físico Deportivo - Aikido - Combinada (Educación Física Permanente) - Gimnasia Suave - Lucha - Musculación - Natación - Tenis  Actividades para Mayores de 65 años:   Actividad Física - Natación   Actividades para Personas con discapacidad física:  Natación (infantil)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=424b42be9971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.428810107016545"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6113273589762334"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.428810107016545"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6113273589762334"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "913 209 818" ;
 	schema:faxNumber "917 414 055" .
 
@@ -1885,8 +1885,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  1000 m2     EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Sala de Artes Marciales - Sala de Musculación - Sala multiusos - Sauna   Accesibilidad:  instalación convertible     SERVICIOS     Deportes practicables  Karate - Musculación - Pilates - Actividad física   Uso de espacios deportivos  Sala de Musculación   Enseñanzas Deportivas   Escuelas   infantiles  (6 a 14 años, según modalidades): Kenpo  Clases para adultos  (21 a 64 áños): Ciclo Sala - GAP (Glúteos, Abdomen y Piernas) - Kenpo - Pilates   Servicio de Medicina deportiva  Psicomotricidad (infantil, de 3 a 8 años)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=69fe79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.34267317099495"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6914487380508842"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.34267317099495"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6914487380508842"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "917 950 911" ;
 	schema:faxNumber "917 109 357" .
 
@@ -1911,8 +1911,8 @@
 	schema:description "Forma de Gestión:  directa, por parte del Ayuntamiento de Madrid    Superficie:  10.000 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre:  piscina (1 vaso de 50 m. y 1 vaso infantil)   Accesibilidad:  instalación adaptada, con 1 grúa de piscina.    SERVICIOS     Deportes practicables:  natación   Uso de espacios deportivos:  piscina" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ee8b42be9971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.37530577421291"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6927010241442946"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.37530577421291"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6927010241442946"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "917 922 102" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANMARIO> a schema:PostalAddress ;
@@ -1942,8 +1942,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  11.000 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  2 Pistas de Pádel - 3 Pistas de Tenis    Unidades Deportivas Cubiertas  Piscina (1 vaso de 25 m. y 1 vaso de enseñanza) - Sala multiusos (gimnasio)   Accesibilidad:  instalación practicable, con 1 grúa de piscina.    SERVICIOS     Deportes Practicables  Natación - Pádel - Tenis   Uso de espacios deportivos  Piscina - Pista de Pádel - Pista de Tenis - Sala multiusos   Enseñanzas Deportivas Escuelas Pre-Infantiles  (2 a 5 años): Matronatación S/P - Matronatación - Natación peques  Escuelas infantiles  (6 a 14 años, según modalidades):  Natación - Pretenis -Tenis  Clases para jóvenes  (15 a 20 años, según modalidades): Natación  Clases para adultos  (21 a 64 años): Acondicionamiento Físico Deportivo - Acuagim - Aeróbic - Bailes - Combinada (Educación Física Permanente y Deportes) - Gimnasia Acuática  - Natación - Natación de Compensación - Natación embarazadas - Pádel - Pilates - Tenis  Actividades para Mayores de 65 años:  Natación -  Actividad Física - Acuagim" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=35bb42be9971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.44860270467461"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6589244965167103"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.44860270467461"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6589244965167103"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "914 164 259" ;
 	schema:faxNumber "914 164 259" .
 
@@ -1974,8 +1974,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  11.500 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Piscina (1 vaso en L y 1 vaso infantil) - 2 Pistas polideportivas - 4 Tenis de Mesa   Accesibilidad:  instalación adaptada, con 1 grúa de piscina.       SERVICIOS     Deportes practicables  Baloncesto - Balonmano - Fútbol Sala - Natación - Tenis de Mesa   Uso de espacios deportivos  Piscina - Pista polideportiva" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8bdb42be9971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.49809469315447"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.696358010199944"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.49809469315447"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.696358010199944"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "913 721 138" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALAMEDILLAS> a schema:PostalAddress ;
@@ -2005,8 +2005,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  12.000 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  15 Pistas de Tenis, 7 Tenis Mesa   Accesibilidad:  instalación adaptada    SERVICIOS     Deportes practicables  Tenis   Uso de espacios deportivos  Pistas de Tenis   Enseñanzas Deportivas Escuelas infantiles  (6 a 14 años, según modalidades): Tenis   Clases para adultos  (21 a 64 años): Tenis" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1ac06f065851c010VgnVCM2000000c205a0aRCRD" ;
-	ontology:latitud "40.421436625700565"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.735739625664774"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.421436625700565"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.735739625664774"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "914 649 617" ;
 	schema:faxNumber "914 649 617" .
 
@@ -2031,8 +2031,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  4.150 m2     EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Pabellón polideportivo - Piscina (1 vaso de 25 m.) - Sala de Musculación - Frontón corto - 2 Salas Multiusos   Accesibilidad:  instalación adaptada, con 1 ascensor, 1 plataforma y 1 grúa de piscina    SERVICIOS     Deportes practicables  Baloncesto - Balonmano - Deportes de Pelota - Fútbol Sala - Musculación - Natación - Voleibol   Uso de espacios deportivos  Frontón - Pabellón - Piscina - Pista polideportiva - Sala de Musculación - Sala multiusos   Enseñanzas Deportivas Escuelas Pre-Infantiles  (2 a 5 años): Natación peques  Escuelas Infantiles  (6 a 14 años, según modalidades): Aeróbic - Baloncesto - Karate Shyto - Natación   Clases para jóvenes  (15 a 20 años, según modalidades): Baloncesto - Natación  Clases para adultos  (21 a 64 años): Acondicionamiento Físico Deportivo - Acuagim - Aeróbic - Ciclo Sala - Fitness - Gimnasia Suave - Karate Shyto - Musculación - Natación - Pilates  Actividades para   Mayores de 65 años:  Actividad Física - Natación   Actividades para personas con discapacidad física:  Natación (infantil)" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=002f79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.46512519238624"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.6928208378255807"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.46512519238624"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6928208378255807"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "915 714 117" ;
 	schema:faxNumber "915 718 802" .
 
@@ -2063,8 +2063,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  47.000 m2    EQUIPAMIENTOS     Unidades Deportivas al aire libre  Campo de Fútbol 11 (de césped artificial) - 2 Campos de Fútbol 7 (de césped artificial) - 9 Pistas de Tenis - 10 Pistas de Pádel     Unidades Deportivas Cubiertas  Pabellón polideportivo - Piscina (1 vaso de 25 m. y 1 vaso de enseñanza) - Sala de Musculación - 2 Salas multiusos   Accesibilidad:  instalación adaptada, con 1 ascensor y 2 grúas de piscina     SERVICIOS     Deportes practicables  Baloncesto - Balonmano - Fútbol Sala - Fútbol 7 - Fútbol 11 - Musculación - Natación - Voleibol - Tenis - Pádel   Uso de espacios deportivos  Campo de Fútbol - Campo de Fútbol 7 - Pabellón - Piscina - Pista de Baloncesto - Pista de Balonmano - Pista de Fútbol Sala - Pista de Pádel - Pista de Tenis - Pista de Voleibol - Sala de Musculación - Sala multiusos   Enseñanzas Deportivas   Escuelas Pre-Infantiles  (2 a 5 años): Matronatación - Natación peques  Escuelas infantiles  (6 a 14 años, según modalidades): Baloncesto - Fútbol - Gimnasia Rítmica - Karate Shyto - Natación - Pádel - Polideportiva - Salvamento Acuático - Tenis  Clases para Jóvenes  (de 15 a 20, según modalidades): Aeróbic - Karate Shyto - Natación - Pádel - Salvamento Acuático - Tenis    Clases para adultos  (21 a 64 años): Acondicionamiento Físico Deportivo - Acuarunning - Aeróbic - Ciclo Sala - Combinada ( Educación Física Permanente y Deportes) - Fitness - Gimnasia Acuática - Karate Shyto - Natación - Natación de Compensación - Natación embarazadas/Post-parto - Pádel - Pilates - Tenis - Tonificación  Actividades para Mayores de 65 años:  Actividad Física - Natación - Gimnasia acuática   Actividades para Personas con discapacidad física:  Natación (infantil y adulto)  Actividades para Personas con discapacidad intelectual:  Natación - Pádel (infantil y adulto)  Actividades para Personas con discapacidad sensorial (sordos):  Natación (adulto)" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a64f79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.40418961057298"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.622901144863193"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.40418961057298"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.622901144863193"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "917 723 591" ;
 	schema:faxNumber "917 512 085" .
 
@@ -2101,8 +2101,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid    Superficie  4.500 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Piscina (vaso de recreo y vaso infantil)   Accesibilidad:  instalación convertible, con 1 grúa de piscina    SERVICIOS     Deportes Practicables  Natación   Uso de espacios deportivos  Piscina" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=282c42be9971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.390368919782446"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.657213682860775"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.390368919782446"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.657213682860775"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "913 030 608" ;
 	schema:faxNumber "913 030 608" .
 
@@ -2127,8 +2127,8 @@
 	schema:description "Forma de gestión  Indirecta, por medio de concesión de la gestión de los servicios deportivos a la empresa Centro Deportivo Municipal Vallehermoso, S.A.    Superficie  26.724 m2    EQUIPAMIENTOS     Unidades deportivas cubiertas : Pabellón - Piscina (vaso de 25 metros  y vaso de enseñanza) - Sala Fitness - 5 Salas Multiusos - Zona termal (spa, sauna y baño de vapor)   Unidades deportivas al aire libre:  Piscina (vaso de 25 metros) - 3 Pistas de Pádel - Zona termal (jacuzzi, spa y solarium)   Accesibilidad:  instalación accesible, con ascensor y grúa de piscina).   Otros equipamientos : aparcamiento gratuito para 400 plazas    SERVICIOS DEPORTIVOS     Deportes Practicables:   Bádminton - Baloncesto - Fútbol Sala - Judo - Natación   Uso de espacios deportivos:   Pista de Baloncesto -  Pista de Fútbol Sala - Pista de Bádminton - Pista de Voleibol  Piscina - (Tatami) Judo   Enseñanzas deportivas: Escuelas Preinfantiles   (3 a 5 años) : Matronatación - Natación peques . Educación Física de Base (polideportiva)  Infantiles   (de 6 a 14 años) : Bádminton - Baloncesto - Boxeo - Gimnasia Artística - Gimnasia Rítmica - Judo - Natación - Pádel - Polideportiva - Taekwondo - Voleibol  Jóvenes   (de 15 a 20 años) : Aeróbic (Adaptiv Aeróbic) - Baloncesto - Boxeo - Judo - Natación - Pádel - Taekwondo - Voleibol  Adultos   (de 21 a 64 años) : Acondicionamiento físico deportivo (Adaptiv Hit / Kangoo Boot) - Aeróbic (Adaptiv Aeróbic / Adaptiv Box / Adaptiv Step / Kango Power / Latino / Zumba) Acuagim (Adaptiv Aqua) - Boxeo - Capoeira - Ciclo sala (Adaptiv Bike) - Fitness (Corebar) - Judo - Natación - Natación embarazadas - Pádel - Pilates (Adaptiv Pilates / Fitball) - Tonificación (Adativ Core / Adaptiv Strength) Yoga  Mayores   (a partir de 65 años) : Aeróbic (Adaptiv Aeróbic / Latino) - Aquagim (Adaptiv Aqua) - Ciclo Sala (Adaptiv Bike) - Natación - Pilates (Adaptiv Pilates / Fitball) - Tonificación (Adaptiv Core / Adaptiv Strenght) - Yoga  Personas con Discapacidad : Natación" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=28906e8a84805410VgnVCM2000000c205a0aRCRD" ;
-	ontology:latitud "40.44064843863945"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.709053489027435"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.44064843863945"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.709053489027435"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "918 298 899" .
 
 <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FILIPINAS> a schema:PostalAddress ;
@@ -2164,8 +2164,8 @@
 	schema:description "Forma de Gestión  Directa, por parte del Ayuntamiento de Madrid   Superficie  71.000 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Campo de Fútbol - Piscina ( 2 vasos de 50 m. y 1 vaso infantil) - 2 Pistas de Baloncesto - Pista de Patinaje - 2 Pistas polideportivas - 6 Pistas de Tenis - Pista de Voley Playa - Zona Nudista   Unidades Deportivas Cubiertas  Pabellón polideportivo - Piscina - Sala de Musculación - Sala de Artes Marciales   Accesibilidad:  Instalación adaptada, con 1 ascensor y 1 grúa de piscina.     SERVICIOS     Deportes practicables  Bádminton - Baloncesto - Balonmano - Fútbol - Fútbol Sala - Fútbol 7 - Hockey Patines - Musculación - Natación - Patinaje Artístico - Tenis - Voleibol - Voley Playa   Uso de espacios deportivos  Campo de Fútbol - Pabellón - Piscina - Pista de Baloncesto - Pista de Balonmano - Pista de Patinaje - Pista polideportiva - Pista de Tenis - Pista de Voley Playa - Sala de Musculación   Enseñanzas deportivas Escuelas Pre-infantiles  (2 a 5 años): Matronatación - Natación peques  Escuelas Infantiles  (6 a 14 años):  Baloncesto - Fútbol - Gimnasia Rítmica - Judo -  Natación - Patinaje - Tenis - Waterpolo   Clases para jóvenes  (15 a 20 años)  :  Combinada (EF) - Fútbol - Natación    Clases para adultos  (21 a 64 años): Acondicionamiento Físico Deportivo - Aeróbic - Defensa Personal - Fitness - GAP (Glúteos, Abdomen y Piernas) - Judo - Natación - Natación Compensasión - Patinaje - Tenis  Actividades para Mayores de 65 años:  Gimnasia Acuática - Natación  Actividades para personas con discapacidad física:  Natación (infantil y adultos)   Servicio de Medicina Deportiva  Reconocimientos médicos para deportistas" ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e156b0c40971c010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.4789135943213"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.693540659747283"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.4789135943213"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.693540659747283"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "913 147 943" ;
 	schema:faxNumber "913 147 866" .
 
@@ -2192,8 +2192,8 @@
 	schema:description "Forma de gestión  Directa, por parte del Ayuntamiento de Madrid   Superficie  82.400 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Campo de Fútbol 11 (de césped artificial) - 2 Campos de Fútbol 7 (de césped artificial) - Piscina (1 vaso de 50 m. y 1 vaso infantil) - Pista de Atletismo - 2 Pistas polideportivas - 3 Pistas de Tenis - 4 Pistas de Pádel - 4 Tenis Mesa   Unidades Deportivas Cubiertas  Pabellón polideportivo - Piscina (1 vaso de 25 m. y 1 vaso de enseñanza)    Accesibilidad:  instalación convertible, con 1 grúa de piscina    SERVICIOS     Deportes practicables  Atletismo -  Baloncesto - Balonmano - Fútbol - Fútbol Sala - Fútbol 7 - Natación - Tenis - Pádel - Tenis de Mesa   Uso de espacios deportivos  Campo de Fútbol - Campo de Fútbol 7 - Pabellón - Piscina - Pista de Atletismo - Pista Polideportiva - Pista de Tenis - Pista de Pádel   Enseñanzas Deportivas Escuelas Pre-Infantiles  (4 a 5 años): Natación peques  Escuelas infantiles  (6 a 14 años, según modalidades): Fútbol - Karate Shyto - Natación - Pretenis - Tenis  Clases para adultos  (21 a 64 años): Acondicionamiento Físico Deportivo - Acuagim - Aeróbic - Combinada (Acondicionamiento Físico + Natación) - Karate Goju - Natación - Natación embarazadas - Tenis  Actividades para Mayores de 65 años:  Actividad Física - Gimnasia Acuática - Natación" ;
 	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4d6f79262ef5d010VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.40914061858403"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.603264732850392"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.40914061858403"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.603264732850392"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "917 769 874" ;
 	schema:faxNumber "917 769 900" .
 
@@ -2222,8 +2222,8 @@
 	schema:description "Cómo llegar     En metro:   línea 3 de Metro  estación San Fermín Orcasur . Recorrido peatonal señalizado 5 minutos a Caja Mágica.   En autobús:     línea 180 desde Legazpi,   que prestará servicio siempre que haya eventos en Caja Mágica y el volumen de público justifique su funcionamiento.   Otras líneas regulares:    Línea 78: Glorieta de Embajadores - Barrio San Fermín .A 550 metros, andando, 6 minutos  Línea 123: Plaza Legazpi - Villaverde Bajo. A 550 metros, andando, 6 minutos  Línea 23: Plaza Mayor - El Espinillo. A 250 metros, andando, 3 minutos  T32: Legazpi - Depuradora de La China (Mercamadrid). A 50 metros, andando, 1 minuto     Líneas nocturnas:     N12:  Cibeles - Los Rosales. A 250 metros andando, 3 minutos   N13:  Cibeles - San Cristobal. A 600 metros andando,  7 minutos   N14:  Cibeles - Villaverde Alto.A 600 metros andando, 7 minutos    En  cercanías RENFE : estación de Cercanías de  ORCASITAS, de la línea C5 . Desde estas estaciones se puede coger un autobús regular de la  EMT   (línea 78) y terminar el trayecto andando hasta Caja Mágica, para llegar en unos 15 o 20 minutos.   En bici:  por la misma puerta de Caja Mágica pasan 2 vías ciclistas principales    Oficina de la Bici de Madrid    Ver mapa de la Bici de Madrid      En coche:  el acceso en coche a Caja Mágica por el Camino de Perales se desaconseja para evitar problemas de congestión del tráfico y aparcamiento. Caja Mágica está situada en un barrio residencial y el acceso con vehículo privado está restringido por el Camino de Perales. El acceso al aparcamiento (público con capacidad limitada y al de VIPs) se realiza por la calle Embajadores." ;
 	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b7c3a201600ff110VgnVCM1000000b205a0aRCRD" ;
-	ontology:latitud "40.369079808434435"^^<http://www.w3.org/2001/XMLSchema#int> ;
-	ontology:longitud "-3.685252060454517"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:latitude "40.369079808434435"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.685252060454517"^^<http://www.w3.org/2001/XMLSchema#int> ;
 	schema:telephone "917 220 400" ;
 	schema:faxNumber "917 210 607" ;
 	schema:email "info@madridec.com" .
