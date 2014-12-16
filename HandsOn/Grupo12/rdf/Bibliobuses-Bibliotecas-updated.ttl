@@ -63,7 +63,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/CENTRO> a ns:Distrito ;
 	ns:NombreDistrito "CENTRO";
-	ns:CodigoPostal "28015"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://es.dbpedia.org/resource/Centro_Centro";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28015"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaHistóricaMunicipal> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/CENTRO> ;
 	ns:Telefono "Secretaría: 915885737. Información y Referencia: 915885756, 914800557 y 915885744 ";
@@ -79,13 +80,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaHistóricaMunicipal> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:1,2,7,21,44,74,147,Circular,MinibúsM2> .
 
-<http://www.semanticweb.org/instances/Direccion/CONDEDUQUE> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/CONDEDUQUE> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "CONDE DUQUE";
 	ns:Numero "9"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.042.737.760.210.630"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-37.106.116.887.809.800"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.042.737.760.210.630"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-37.106.116.887.809.800"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaHistóricaMunicipal> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/CONDEDUQUE> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaHistóricaMunicipal> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/CONDEDUQUE> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaMusicalVíctorEspinós> a ns:LugarPrestamoLibros ;
@@ -104,7 +105,7 @@
 	ns:Lineas "Metro : Ventura Rodríguez, Plaza de España, San Bernardo y Noviciado.  Bus : 1 , 2 , 7 , 21 , 44 , 74 , 147 , Circular, Minibús M-2".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaMusicalVíctorEspinós> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:VenturaRodríguez,PlazadeEspaña,SanBernardoyNoviciado.Bus:1,2,7,21,44,74,147,Circular,MinibúsM2> ;
-	ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/CONDEDUQUE> ;
+	<http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/CONDEDUQUE> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaAcuña> a ns:LugarPrestamoLibros ;
@@ -117,7 +118,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/MONCLOAARAVACA> a ns:Distrito ;
 	ns:NombreDistrito "MONCLOA-ARAVACA";
-	ns:CodigoPostal "28008"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://dbpedia.org/resource/Moncloa-Aravaca";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28008"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaAcuña> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/MONCLOAARAVACA> ;
 	ns:Telefono """915 413 619                                       
@@ -134,13 +136,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaAcuña> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:1,2,21,44,74,133,C> .
 
-<http://www.semanticweb.org/instances/Direccion/QUINTANA> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/QUINTANA> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "QUINTANA";
 	ns:Numero "9"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.042.792.406.693.140"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-37.169.480.812.867.400"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.042.792.406.693.140"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-37.169.480.812.867.400"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaAcuña> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/QUINTANA> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaAcuña> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/QUINTANA> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCanillejas> a ns:LugarPrestamoLibros ;
@@ -153,7 +155,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/SANBLASCANILLEJAS> a ns:Distrito ;
 	ns:NombreDistrito "SAN BLAS-CANILLEJAS";
-	ns:CodigoPostal "28022"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://dbpedia.org/resource/San_Blas_(Madrid)";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28022"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCanillejas> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/SANBLASCANILLEJAS> ;
 	ns:Telefono "917 424 499";
@@ -169,13 +172,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCanillejas> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:28,48,140> .
 
-<http://www.semanticweb.org/instances/Direccion/MUSAS> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/MUSAS> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "MUSAS";
 	ns:Numero "11"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.043.776.263.645.110"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.083.782.410.803.900"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.043.776.263.645.110"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.083.782.410.803.900"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCanillejas> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/MUSAS> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCanillejas> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/MUSAS> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCarabanchelLuisRosales> a ns:LugarPrestamoLibros ;
@@ -188,7 +191,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/CARABANCHEL> a ns:Distrito ;
 	ns:NombreDistrito "CARABANCHEL";
-	ns:CodigoPostal "28044"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://es.dbpedia.org/resource/Carabanchel";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28044"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCarabanchelLuisRosales> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/CARABANCHEL> ;
 	ns:Telefono """912 760 233                                                                  
@@ -205,13 +209,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCarabanchelLuisRosales> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:47,121,131> .
 
-<http://www.semanticweb.org/instances/Direccion/ANTONIARODRIGUEZSACRISTAN> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/ANTONIARODRIGUEZSACRISTAN> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "ANTONIA RODRIGUEZ SACRISTAN";
 	ns:Numero "7"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "40.373.420.234.648.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-37.480.802.097.487.600"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "40.373.420.234.648.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-37.480.802.097.487.600"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCarabanchelLuisRosales> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/ANTONIARODRIGUEZSACRISTAN> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCarabanchelLuisRosales> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/ANTONIARODRIGUEZSACRISTAN> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentral> a ns:LugarPrestamoLibros ;
@@ -224,7 +228,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/CHAMBERI> a ns:Distrito ;
 	ns:NombreDistrito "CHAMBERI";
-	ns:CodigoPostal "28010"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://es.dbpedia.org/resource/Chamberi";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28010"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentral> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/CHAMBERI> ;
 	ns:Telefono "914 459 782";
@@ -240,13 +245,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentral> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:3,5,12,16,37,40,61,147,149> .
 
-<http://www.semanticweb.org/instances/Direccion/FELIPEELHERMOSO> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/FELIPEELHERMOSO> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "FELIPE EL HERMOSO";
 	ns:Numero "4"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.043.539.063.992.490"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.996.132.452.669.000"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.043.539.063.992.490"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.996.132.452.669.000"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentral> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/FELIPEELHERMOSO> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentral> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/FELIPEELHERMOSO> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentroPedroSalinas> a ns:LugarPrestamoLibros ;
@@ -257,7 +262,7 @@
 	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=67ed995a8bf5d010VgnVCM2000000c205a0aRCRD".
 
-<http://www.semanticweb.org/instances/Distrito/CENTRO> ns:CodigoPostal "28005"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://www.semanticweb.org/instances/Distrito/CENTRO> <http://www.w3.org/2006/vcard/ns#postal-code> "28005"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentroPedroSalinas> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/CENTRO> ;
 	ns:Telefono "913 665 407";
@@ -273,13 +278,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentroPedroSalinas> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:3,17,18,23,35,41,60,148> .
 
-<http://www.semanticweb.org/instances/Direccion/PUERTADETOLEDO> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/PUERTADETOLEDO> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "PUERTA DE TOLEDO";
 	ns:Numero "1"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.040.711.374.218.030"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-37.110.231.390.549.100"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.040.711.374.218.030"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-37.110.231.390.549.100"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentroPedroSalinas> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/PUERTADETOLEDO> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentroPedroSalinas> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/PUERTADETOLEDO> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaFuencarralElPardo.RafaelAlberti> a ns:LugarPrestamoLibros ;
@@ -292,7 +297,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/FUENCARRALELPARDO> a ns:Distrito ;
 	ns:NombreDistrito "FUENCARRAL-EL PARDO";
-	ns:CodigoPostal "28034"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Fuencarral-El_Pardo";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28034"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaFuencarralElPardo.RafaelAlberti> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/FUENCARRALELPARDO> ;
 	ns:Telefono "917 319 552 / 917 319 553";
@@ -308,13 +314,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaFuencarralElPardo.RafaelAlberti> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:67,83,124,133> .
 
-<http://www.semanticweb.org/instances/Direccion/SANGENJO> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/SANGENJO> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "SANGENJO";
 	ns:Numero "38"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "40.487.911.219.470.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.984.120.325.536.200"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "40.487.911.219.470.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.984.120.325.536.200"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaFuencarralElPardo.RafaelAlberti> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/SANGENJO> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaFuencarralElPardo.RafaelAlberti> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/SANGENJO> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaHortaleza> a ns:LugarPrestamoLibros ;
@@ -327,7 +333,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/HORTALEZA> a ns:Distrito ;
 	ns:NombreDistrito "HORTALEZA";
-	ns:CodigoPostal "28033"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://dbpedia.org/resource/Hortaleza";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28033"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaHortaleza> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/HORTALEZA> ;
 	ns:Telefono "917 633 284";
@@ -343,13 +350,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaHortaleza> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:9,107> .
 
-<http://www.semanticweb.org/instances/Direccion/ABERTURA> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/ABERTURA> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "ABERTURA";
 	ns:Numero "2"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "40.477.196.015.327.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.495.889.651.502.700"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "40.477.196.015.327.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.495.889.651.502.700"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaHortaleza> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/ABERTURA> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaHortaleza> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/ABERTURA> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaLatinaAntonioMingote> a ns:LugarPrestamoLibros ;
@@ -362,7 +369,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/LATINA> a ns:Distrito ;
 	ns:NombreDistrito "LATINA";
-	ns:CodigoPostal "28044"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://dbpedia.org/resource/Latina_(disambiguation)";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28044"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaLatinaAntonioMingote> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/LATINA> ;
 	ns:Telefono "915 093 625";
@@ -378,13 +386,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaLatinaAntonioMingote> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:17,34,39,117,139> .
 
-<http://www.semanticweb.org/instances/Direccion/RAFAELFINAT> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/RAFAELFINAT> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "RAFAEL FINAT";
 	ns:Numero "51"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.038.371.073.816.260"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-37.642.871.215.174.800"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.038.371.073.816.260"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-37.642.871.215.174.800"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaLatinaAntonioMingote> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/RAFAELFINAT> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaLatinaAntonioMingote> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/RAFAELFINAT> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMoratalaz> a ns:LugarPrestamoLibros ;
@@ -397,7 +405,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/MORATALAZ> a ns:Distrito ;
 	ns:NombreDistrito "MORATALAZ";
-	ns:CodigoPostal "28030"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Moratalaz";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28030"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMoratalaz> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/MORATALAZ> ;
 	ns:Telefono "914 394 688";
@@ -413,13 +422,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMoratalaz> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:8,20,30,32,71,100> .
 
-<http://www.semanticweb.org/instances/Direccion/CORREGIDORALONSODETOBAR> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/CORREGIDORALONSODETOBAR> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "CORREGIDOR ALONSO DE TOBAR";
 	ns:Numero "5"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "40.404.043.465.578.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.494.626.590.824.800"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "40.404.043.465.578.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.494.626.590.824.800"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMoratalaz> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/CORREGIDORALONSODETOBAR> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMoratalaz> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/CORREGIDORALONSODETOBAR> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalAluche(Latina)> a ns:LugarPrestamoLibros ;
@@ -430,7 +439,7 @@
 	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7f0e3d0b5e71c010VgnVCM1000000b205a0aRCRD".
 
-<http://www.semanticweb.org/instances/Distrito/LATINA> ns:CodigoPostal "28047"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://www.semanticweb.org/instances/Distrito/LATINA> <http://www.w3.org/2006/vcard/ns#postal-code> "28047"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalAluche(Latina)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/LATINA> ;
 	ns:Telefono "91 719 89 96";
@@ -441,13 +450,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalAluche(Latina)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:Laguna,CasadeCampo,AlucheRENFE:Laguna,AlucheBus:25,31,138> .
 
-<http://www.semanticweb.org/instances/Direccion/CAMARENA> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/CAMARENA> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "CAMARENA";
 	ns:Numero "10"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.039.597.072.367.930"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-37.562.716.852.987.800"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.039.597.072.367.930"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-37.562.716.852.987.800"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalAluche(Latina)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/CAMARENA> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalAluche(Latina)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/CAMARENA> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalAnaMaríaMatute(Carabanchel)> a ns:LugarPrestamoLibros ;
@@ -458,7 +467,7 @@
 	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=628e3d0b5e71c010VgnVCM1000000b205a0aRCRD".
 
-<http://www.semanticweb.org/instances/Distrito/CARABANCHEL> ns:CodigoPostal "28019"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://www.semanticweb.org/instances/Distrito/CARABANCHEL> <http://www.w3.org/2006/vcard/ns#postal-code> "28019"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalAnaMaríaMatute(Carabanchel)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/CARABANCHEL> ;
 	ns:Telefono """91 588 08 30                                                              
@@ -475,13 +484,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalAnaMaríaMatute(Carabanchel)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:34,35,108,118,119yN7> .
 
-<http://www.semanticweb.org/instances/Direccion/DELOSCOMUNEROSDECASTILLA> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/DELOSCOMUNEROSDECASTILLA> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "DE LOS COMUNEROS DE CASTILLA";
 	ns:Numero "30"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "403.975.850.662.447"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-37.207.386.328.562.300"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "403.975.850.662.447"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-37.207.386.328.562.300"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalAnaMaríaMatute(Carabanchel)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/DELOSCOMUNEROSDECASTILLA> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalAnaMaríaMatute(Carabanchel)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/DELOSCOMUNEROSDECASTILLA> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalBuenavista(Salamanca)> a ns:LugarPrestamoLibros ;
@@ -494,7 +503,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/SALAMANCA> a ns:Distrito ;
 	ns:NombreDistrito "SALAMANCA";
-	ns:CodigoPostal "28028"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Salamanca";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28028"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalBuenavista(Salamanca)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/SALAMANCA> ;
 	ns:Telefono "91 724 08 04";
@@ -510,13 +520,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalBuenavista(Salamanca)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:1,43,48,56,74,Circular> .
 
-<http://www.semanticweb.org/instances/Direccion/TOREROS> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/TOREROS> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "TOREROS";
 	ns:Numero "5"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.043.199.309.720.510"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-3.670.929.243.543.710"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.043.199.309.720.510"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-3.670.929.243.543.710"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalBuenavista(Salamanca)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/TOREROS> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalBuenavista(Salamanca)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/TOREROS> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCanillejas(SanBlasCanillejas)> a ns:LugarPrestamoLibros ;
@@ -540,13 +550,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCanillejas(SanBlasCanillejas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:77,105,140> .
 
-<http://www.semanticweb.org/instances/Direccion/BOLTAÑA> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/BOLTAÑA> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "BOLTAÑA";
 	ns:Numero "23"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.044.640.229.188.280"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.117.933.204.271.000"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.044.640.229.188.280"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.117.933.204.271.000"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCanillejas(SanBlasCanillejas)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/BOLTAÑA> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCanillejas(SanBlasCanillejas)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/BOLTAÑA> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalChamartín(Chamartín)> a ns:LugarPrestamoLibros ;
@@ -559,7 +569,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/CHAMARTIN> a ns:Distrito ;
 	ns:NombreDistrito "CHAMARTIN";
-	ns:CodigoPostal "28002"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://es.dbpedia.org/resource/Chamartin";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28002"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalChamartín(Chamartín)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/CHAMARTIN> ;
 	ns:Telefono "91 510 37 56";
@@ -575,13 +586,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalChamartín(Chamartín)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:9,16,29,52> .
 
-<http://www.semanticweb.org/instances/Direccion/MANTUANO> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/MANTUANO> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "MANTUANO";
 	ns:Numero "51"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.044.810.636.195.710"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.762.309.620.097.300"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.044.810.636.195.710"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.762.309.620.097.300"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalChamartín(Chamartín)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/MANTUANO> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalChamartín(Chamartín)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/MANTUANO> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCiudadLineal(CiudadLineal)> a ns:LugarPrestamoLibros ;
@@ -594,7 +605,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/CIUDADLINEAL> a ns:Distrito ;
 	ns:NombreDistrito "CIUDAD LINEAL";
-	ns:CodigoPostal "28037"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Ciudad_Lineal";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28037"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCiudadLineal(CiudadLineal)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/CIUDADLINEAL> ;
 	ns:Telefono "915 887 566";
@@ -605,13 +617,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCiudadLineal(CiudadLineal)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:CiudadLinealBus:4,38,48,70,77,105,109> .
 
-<http://www.semanticweb.org/instances/Direccion/HERMANOSGARCIANOBLEJAS> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/HERMANOSGARCIANOBLEJAS> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "HERMANOS GARCIA NOBLEJAS";
 	ns:Numero "14"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.043.641.736.294.720"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-3.637.346.971.302.500"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.043.641.736.294.720"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-3.637.346.971.302.500"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCiudadLineal(CiudadLineal)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/HERMANOSGARCIANOBLEJAS> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCiudadLineal(CiudadLineal)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/HERMANOSGARCIANOBLEJAS> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCondeDuque(Centro)> a ns:LugarPrestamoLibros ;
@@ -629,10 +641,10 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCondeDuque(Centro)> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:VenturaRodríguez,PlazadeEspaña,SanBernardoyNoviciado.Bus:1,2,7,21,44,74,147,Circular,MinibúsM2> .
 
-<http://www.semanticweb.org/instances/Direccion/CONDEDUQUE> ns:Latitud "4.042.738.668.300.470"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-37.105.999.955.473.600"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://www.semanticweb.org/instances/Direccion/CONDEDUQUE> <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.042.738.668.300.470"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-37.105.999.955.473.600"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCondeDuque(Centro)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/CONDEDUQUE> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCondeDuque(Centro)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/CONDEDUQUE> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalDámasoAlonso(Chamartín)> a ns:LugarPrestamoLibros ;
@@ -643,7 +655,7 @@
 	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5870007f8441f010VgnVCM1000000b205a0aRCRD".
 
-<http://www.semanticweb.org/instances/Distrito/CHAMARTIN> ns:CodigoPostal "28036"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://www.semanticweb.org/instances/Distrito/CHAMARTIN> <http://www.w3.org/2006/vcard/ns#postal-code> "28036"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalDámasoAlonso(Chamartín)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/CHAMARTIN> ;
 	ns:Telefono "91 350 31 50";
@@ -659,13 +671,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalDámasoAlonso(Chamartín)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:70,107,129,174> .
 
-<http://www.semanticweb.org/instances/Direccion/MANUELFERRERO> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/MANUELFERRERO> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "MANUEL FERRERO";
 	ns:Numero "1"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "40.467.453.379.213.100"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.846.112.774.442.700"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "40.467.453.379.213.100"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.846.112.774.442.700"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalDámasoAlonso(Chamartín)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/MANUELFERRERO> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalDámasoAlonso(Chamartín)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/MANUELFERRERO> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalEugenioTrías.CasadeFierasdeElRetiro> a ns:LugarPrestamoLibros ;
@@ -678,7 +690,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/RETIRO> a ns:Distrito ;
 	ns:NombreDistrito "RETIRO";
-	ns:CodigoPostal "28009"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://dbpedia.org/resource/Retiro";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28009"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalEugenioTrías.CasadeFierasdeElRetiro> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/RETIRO> ;
 	ns:Telefono "91 480 48 38";
@@ -694,13 +707,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalEugenioTrías.CasadeFierasdeElRetiro> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:20,26,63,152yCircular> .
 
-<http://www.semanticweb.org/instances/Direccion/FERNANNUÑEZ> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/FERNANNUÑEZ> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "FERNAN NUÑEZ";
 	ns:Numero "24"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "404.166.091.081.099"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.795.930.368.034.800"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "404.166.091.081.099"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.795.930.368.034.800"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalEugenioTrías.CasadeFierasdeElRetiro> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/FERNANNUÑEZ> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalEugenioTrías.CasadeFierasdeElRetiro> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/FERNANNUÑEZ> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalFranciscoAyala(Vicálvaro)> a ns:LugarPrestamoLibros ;
@@ -713,7 +726,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/VICALVARO> a ns:Distrito ;
 	ns:NombreDistrito "VICALVARO";
-	ns:CodigoPostal "28032"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://es.dbpedia.org/resource/Vicalvaro";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28032"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalFranciscoAyala(Vicálvaro)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/VICALVARO> ;
 	ns:Telefono "91 301 64 66";
@@ -729,13 +743,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalFranciscoAyala(Vicálvaro)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:8,71,130> .
 
-<http://www.semanticweb.org/instances/Direccion/INDALECIOPRIETO> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/INDALECIOPRIETO> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "INDALECIO PRIETO";
 	ns:Numero "21"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.039.982.891.410.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-3.621.281.890.570.370"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.039.982.891.410.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-3.621.281.890.570.370"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalFranciscoAyala(Vicálvaro)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/INDALECIOPRIETO> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalFranciscoAyala(Vicálvaro)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/INDALECIOPRIETO> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGabrielGarcíaMárquez(Usera)> a ns:LugarPrestamoLibros ;
@@ -748,7 +762,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/USERA> a ns:Distrito ;
 	ns:NombreDistrito "USERA";
-	ns:CodigoPostal "28041"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Usera";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28041"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGabrielGarcíaMárquez(Usera)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/USERA> ;
 	ns:Telefono "629 964 178";
@@ -764,13 +779,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGabrielGarcíaMárquez(Usera)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:78,116Metro:SanFermínOrcasur> .
 
-<http://www.semanticweb.org/instances/Direccion/PUEBLO> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/PUEBLO> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "PUEBLO";
 	ns:Numero "2"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "40.366.768.324.753.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-3.701.141.063.083.800"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "40.366.768.324.753.400"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-3.701.141.063.083.800"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGabrielGarcíaMárquez(Usera)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/PUEBLO> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGabrielGarcíaMárquez(Usera)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/PUEBLO> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGerardoDiego(VilladeVallecas)> a ns:LugarPrestamoLibros ;
@@ -783,7 +798,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/VILLADEVALLECAS> a ns:Distrito ;
 	ns:NombreDistrito "VILLA DE VALLECAS";
-	ns:CodigoPostal "28031"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Villa_de_Vallecas";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28031"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGerardoDiego(VilladeVallecas)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/VILLADEVALLECAS> ;
 	ns:Telefono "91 380 66 33";
@@ -799,13 +815,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGerardoDiego(VilladeVallecas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:54,58,103,130,142> .
 
-<http://www.semanticweb.org/instances/Direccion/MONTEAYA> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/MONTEAYA> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "MONTE AYA";
 	ns:Numero "12"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.037.790.196.240.430"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.227.296.605.039.500"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.037.790.196.240.430"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.227.296.605.039.500"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGerardoDiego(VilladeVallecas)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/MONTEAYA> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGerardoDiego(VilladeVallecas)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/MONTEAYA> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGloriaFuertes(Barajas)> a ns:LugarPrestamoLibros ;
@@ -818,7 +834,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/BARAJAS> a ns:Distrito ;
 	ns:NombreDistrito "BARAJAS";
-	ns:CodigoPostal "28042"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://dbpedia.org/resource/Barajas_(district)";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28042"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGloriaFuertes(Barajas)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/BARAJAS> ;
 	ns:Telefono "91 312 02 58";
@@ -834,13 +851,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGloriaFuertes(Barajas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:105,112,115> .
 
-<http://www.semanticweb.org/instances/Direccion/LOGROÑO> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/LOGROÑO> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "LOGROÑO";
 	ns:Numero "179"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.046.055.947.228.690"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-35.937.461.811.785.300"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.046.055.947.228.690"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-35.937.461.811.785.300"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGloriaFuertes(Barajas)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/LOGROÑO> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGloriaFuertes(Barajas)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/LOGROÑO> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalHuertadelaSalud(Hortaleza)> a ns:LugarPrestamoLibros ;
@@ -864,13 +881,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalHuertadelaSalud(Hortaleza)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:9,72,107,201> .
 
-<http://www.semanticweb.org/instances/Direccion/MARDELASANTILLAS> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/MARDELASANTILLAS> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "MAR DE LAS ANTILLAS";
 	ns:Numero "10"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.047.571.688.103.060"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-364.667.257.750.353"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.047.571.688.103.060"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-364.667.257.750.353"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalHuertadelaSalud(Hortaleza)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/MARDELASANTILLAS> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalHuertadelaSalud(Hortaleza)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/MARDELASANTILLAS> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalIslasFilipinas(CiudadLineal)> a ns:LugarPrestamoLibros ;
@@ -881,7 +898,7 @@
 	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=697c598d1351c010VgnVCM1000000b205a0aRCRD".
 
-<http://www.semanticweb.org/instances/Distrito/CIUDADLINEAL> ns:CodigoPostal "28017"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://www.semanticweb.org/instances/Distrito/CIUDADLINEAL> <http://www.w3.org/2006/vcard/ns#postal-code> "28017"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalIslasFilipinas(CiudadLineal)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/CIUDADLINEAL> ;
 	ns:Telefono "91 403 63 22";
@@ -896,13 +913,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalIslasFilipinas(CiudadLineal)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:15,28,110,113,210Metro:LaElipa> .
 
-<http://www.semanticweb.org/instances/Direccion/NUESTRASEÑORADELVILLAR> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/NUESTRASEÑORADELVILLAR> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "NUESTRA SEÑORA DEL VILLAR";
 	ns:Numero "6"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.042.342.659.084.210"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-3.651.841.641.389.480"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.042.342.659.084.210"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-3.651.841.641.389.480"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalIslasFilipinas(CiudadLineal)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/NUESTRASEÑORADELVILLAR> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalIslasFilipinas(CiudadLineal)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/NUESTRASEÑORADELVILLAR> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalIvándeVargas(Centro)> a ns:LugarPrestamoLibros ;
@@ -926,13 +943,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalIvándeVargas(Centro)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:3,17,18,23,31,50,65> .
 
-<http://www.semanticweb.org/instances/Direccion/SANJUSTO> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/SANJUSTO> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "SAN JUSTO";
 	ns:Numero "5"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.041.410.290.844.660"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-37.098.591.212.735.800"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.041.410.290.844.660"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-37.098.591.212.735.800"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalIvándeVargas(Centro)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/SANJUSTO> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalIvándeVargas(Centro)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/SANJUSTO> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalJoséHierro(SanBlasCanillejas)> a ns:LugarPrestamoLibros ;
@@ -956,13 +973,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalJoséHierro(SanBlasCanillejas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:38,48,140,153Autobusesinterurbanos:286,288,289> .
 
-<http://www.semanticweb.org/instances/Direccion/MARIASEVILLADIAGO> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/MARIASEVILLADIAGO> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "MARIA SEVILLA DIAGO";
 	ns:Numero "15"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "40.433.291.625.973.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.105.662.311.927.400"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "40.433.291.625.973.600"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.105.662.311.927.400"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalJoséHierro(SanBlasCanillejas)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/MARIASEVILLADIAGO> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalJoséHierro(SanBlasCanillejas)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/MARIASEVILLADIAGO> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalJoséSaramago(FuencarralElPardo)> a ns:LugarPrestamoLibros ;
@@ -973,7 +990,7 @@
 	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=70d879262ef5d010VgnVCM1000000b205a0aRCRD".
 
-<http://www.semanticweb.org/instances/Distrito/FUENCARRALELPARDO> ns:CodigoPostal "28029"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://www.semanticweb.org/instances/Distrito/FUENCARRALELPARDO> <http://www.w3.org/2006/vcard/ns#postal-code> "28029"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalJoséSaramago(FuencarralElPardo)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/FUENCARRALELPARDO> ;
 	ns:Telefono "91 588 68 91";
@@ -989,13 +1006,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalJoséSaramago(FuencarralElPardo)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:49,83,128,132,134,137> .
 
-<http://www.semanticweb.org/instances/Direccion/MONFORTEDELEMOS> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/MONFORTEDELEMOS> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "MONFORTE DE LEMOS";
 	ns:Numero "38"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.047.860.087.334.550"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-37.094.408.342.979.900"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.047.860.087.334.550"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-37.094.408.342.979.900"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalJoséSaramago(FuencarralElPardo)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/MONFORTEDELEMOS> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalJoséSaramago(FuencarralElPardo)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/MONFORTEDELEMOS> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalLaChata(Carabanchel)> a ns:LugarPrestamoLibros ;
@@ -1006,7 +1023,7 @@
 	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d9a879262ef5d010VgnVCM1000000b205a0aRCRD".
 
-<http://www.semanticweb.org/instances/Distrito/CARABANCHEL> ns:CodigoPostal "28025"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://www.semanticweb.org/instances/Distrito/CARABANCHEL> <http://www.w3.org/2006/vcard/ns#postal-code> "28025"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalLaChata(Carabanchel)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/CARABANCHEL> ;
 	ns:Telefono "91 422 05 33";
@@ -1022,13 +1039,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalLaChata(Carabanchel)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:34,35> .
 
-<http://www.semanticweb.org/instances/Direccion/GENERALRICARDOS> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/GENERALRICARDOS> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "GENERAL RICARDOS";
 	ns:Numero "252"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.038.330.593.504.340"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-37.420.633.861.175.700"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.038.330.593.504.340"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-37.420.633.861.175.700"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalLaChata(Carabanchel)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/GENERALRICARDOS> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalLaChata(Carabanchel)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/GENERALRICARDOS> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalManuelVázquezMontalbán(Tetuán)> a ns:LugarPrestamoLibros ;
@@ -1041,7 +1058,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/TETUAN> a ns:Distrito ;
 	ns:NombreDistrito "TETUAN";
-	ns:CodigoPostal "28039"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://es.dbpedia.org/resource/Tetuan";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28039"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalManuelVázquezMontalbán(Tetuán)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/TETUAN> ;
 	ns:Telefono """91 398 07 23                                                                      
@@ -1058,13 +1076,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalManuelVázquezMontalbán(Tetuán)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:44,64,126,127,128,132> .
 
-<http://www.semanticweb.org/instances/Direccion/FRANCOSRODRIGUEZ> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/FRANCOSRODRIGUEZ> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "FRANCOS RODRIGUEZ";
 	ns:Numero "67"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.045.749.513.485.950"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-3.710.539.712.535.910"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.045.749.513.485.950"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-3.710.539.712.535.910"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalManuelVázquezMontalbán(Tetuán)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/FRANCOSRODRIGUEZ> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalManuelVázquezMontalbán(Tetuán)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/FRANCOSRODRIGUEZ> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalMaríaZambrano(Tetuán)> a ns:LugarPrestamoLibros ;
@@ -1075,7 +1093,7 @@
 	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=74703d0b5e71c010VgnVCM1000000b205a0aRCRD".
 
-<http://www.semanticweb.org/instances/Distrito/TETUAN> ns:CodigoPostal "28029"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://www.semanticweb.org/instances/Distrito/TETUAN> <http://www.w3.org/2006/vcard/ns#postal-code> "28029"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalMaríaZambrano(Tetuán)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/TETUAN> ;
 	ns:Telefono "91 733 90 43";
@@ -1091,13 +1109,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalMaríaZambrano(Tetuán)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:42> .
 
-<http://www.semanticweb.org/instances/Direccion/DONOSO> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/DONOSO> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "DONOSO";
 	ns:Numero "5"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.046.903.299.144.090"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.976.620.067.964.900"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.046.903.299.144.090"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.976.620.067.964.900"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalMaríaZambrano(Tetuán)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/DONOSO> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalMaríaZambrano(Tetuán)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/DONOSO> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalMiguelDelibes(Moratalaz)> a ns:LugarPrestamoLibros ;
@@ -1121,13 +1139,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalMiguelDelibes(Moratalaz)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:20,30,32,71,113> .
 
-<http://www.semanticweb.org/instances/Direccion/ARROYOBELINCOSO> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/ARROYOBELINCOSO> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "ARROYO BELINCOSO";
 	ns:Numero "11"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.040.971.737.692.920"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.529.822.109.115.100"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.040.971.737.692.920"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.529.822.109.115.100"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalMiguelDelibes(Moratalaz)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/ARROYOBELINCOSO> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalMiguelDelibes(Moratalaz)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/ARROYOBELINCOSO> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPabloNeruda(CiudadLineal)> a ns:LugarPrestamoLibros ;
@@ -1151,13 +1169,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPabloNeruda(CiudadLineal)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:28,109> .
 
-<http://www.semanticweb.org/instances/Direccion/ASCAO> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/ASCAO> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "ASCAO";
 	ns:Numero "4"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.042.941.133.441.140"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.416.899.839.787.600"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.042.941.133.441.140"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.416.899.839.787.600"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPabloNeruda(CiudadLineal)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/ASCAO> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPabloNeruda(CiudadLineal)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/ASCAO> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPortazgo(PuentedeVallecas)> a ns:LugarPrestamoLibros ;
@@ -1170,7 +1188,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/PUENTEDEVALLECAS> a ns:Distrito ;
 	ns:NombreDistrito "PUENTE DE VALLECAS";
-	ns:CodigoPostal "28038"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Puente_de_Vallecas";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28038"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPortazgo(PuentedeVallecas)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/PUENTEDEVALLECAS> ;
 	ns:Telefono "91 757 03 23";
@@ -1186,13 +1205,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPortazgo(PuentedeVallecas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:54,57,58,103,136,141,143> .
 
-<http://www.semanticweb.org/instances/Direccion/CANTALAPIEDRA> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/CANTALAPIEDRA> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "CANTALAPIEDRA";
 	ns:Numero "11"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.039.330.714.657.690"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.554.041.181.586.000"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.039.330.714.657.690"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.554.041.181.586.000"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPortazgo(PuentedeVallecas)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/CANTALAPIEDRA> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPortazgo(PuentedeVallecas)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/CANTALAPIEDRA> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPozodelTíoRaimundo(PuentedeVallecas)> a ns:LugarPrestamoLibros ;
@@ -1203,7 +1222,7 @@
 	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d7203d0b5e71c010VgnVCM1000000b205a0aRCRD".
 
-<http://www.semanticweb.org/instances/Distrito/PUENTEDEVALLECAS> ns:CodigoPostal "28053"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://www.semanticweb.org/instances/Distrito/PUENTEDEVALLECAS> <http://www.w3.org/2006/vcard/ns#postal-code> "28053"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPozodelTíoRaimundo(PuentedeVallecas)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/PUENTEDEVALLECAS> ;
 	ns:Telefono "91 507 07 34";
@@ -1215,13 +1234,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPozodelTíoRaimundo(PuentedeVallecas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:24,102> .
 
-<http://www.semanticweb.org/instances/Direccion/GLORIETAS> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/GLORIETAS> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "GLORIETAS";
 	ns:Numero "19"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "403.735.856.436.473"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.602.546.064.905.300"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "403.735.856.436.473"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.602.546.064.905.300"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPozodelTíoRaimundo(PuentedeVallecas)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/GLORIETAS> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPozodelTíoRaimundo(PuentedeVallecas)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/GLORIETAS> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPíoBaroja(Arganzuela)> a ns:LugarPrestamoLibros ;
@@ -1234,7 +1253,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/ARGANZUELA> a ns:Distrito ;
 	ns:NombreDistrito "ARGANZUELA";
-	ns:CodigoPostal "28005"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Arganzuela";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28005"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPíoBaroja(Arganzuela)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/ARGANZUELA> ;
 	ns:Telefono "91 474 16 03";
@@ -1250,13 +1270,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPíoBaroja(Arganzuela)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:18,23,34,35,36,116,118,119> .
 
-<http://www.semanticweb.org/instances/Direccion/ARGANDA> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/ARGANDA> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "ARGANDA";
 	ns:Numero "12"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.040.003.652.682.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-37.074.488.154.950.500"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.040.003.652.682.000"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-37.074.488.154.950.500"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPíoBaroja(Arganzuela)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/ARGANDA> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPíoBaroja(Arganzuela)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/ARGANDA> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalSanBlas(SanBlasCanillejas)> a ns:LugarPrestamoLibros ;
@@ -1267,7 +1287,7 @@
 	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2e403d0b5e71c010VgnVCM1000000b205a0aRCRD".
 
-<http://www.semanticweb.org/instances/Distrito/SANBLASCANILLEJAS> ns:CodigoPostal "28037"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://www.semanticweb.org/instances/Distrito/SANBLASCANILLEJAS> <http://www.w3.org/2006/vcard/ns#postal-code> "28037"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalSanBlas(SanBlasCanillejas)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/SANBLASCANILLEJAS> ;
 	ns:Telefono "91 313 52 97";
@@ -1279,13 +1299,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalSanBlas(SanBlasCanillejas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:4,38,48,70,106,140Metro:Alsacia(Línea2)> .
 
-<http://www.semanticweb.org/instances/Direccion/SANROMANDELVALLE> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/SANROMANDELVALLE> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "SAN ROMAN DEL VALLE";
 	ns:Numero "8"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "40.420.231.627.534.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.218.113.860.909.000"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "40.420.231.627.534.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.218.113.860.909.000"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalSanBlas(SanBlasCanillejas)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/SANROMANDELVALLE> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalSanBlas(SanBlasCanillejas)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/SANROMANDELVALLE> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalVallecas(PuentedeVallecas)> a ns:LugarPrestamoLibros ;
@@ -1309,13 +1329,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalVallecas(PuentedeVallecas)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:10,24,54,57,58,111,136,310> .
 
-<http://www.semanticweb.org/instances/Direccion/PUERTODELMONASTERIO> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/PUERTODELMONASTERIO> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "PUERTO DEL MONASTERIO";
 	ns:Numero "1"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.039.501.488.341.380"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-3.665.565.995.938.500"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.039.501.488.341.380"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-3.665.565.995.938.500"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalVallecas(PuentedeVallecas)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/PUERTODELMONASTERIO> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalVallecas(PuentedeVallecas)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/PUERTODELMONASTERIO> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalVicálvaro> a ns:LugarPrestamoLibros ;
@@ -1334,13 +1354,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalVicálvaro> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:VicálvaroBus:4,100,106,130Renfe:Vicálvaro> .
 
-<http://www.semanticweb.org/instances/Direccion/VILLARDONDIEGO> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/VILLARDONDIEGO> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "VILLARDONDIEGO";
 	ns:Numero "36"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "40.405.283.650.744.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.086.278.232.922.800"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "40.405.283.650.744.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.086.278.232.922.800"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalVicálvaro> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/VILLARDONDIEGO> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalVicálvaro> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/VILLARDONDIEGO> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalÁngelGonzález(Latina)> a ns:LugarPrestamoLibros ;
@@ -1351,7 +1371,7 @@
 	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=ec750a2153ef9210VgnVCM2000000c205a0aRCRD".
 
-<http://www.semanticweb.org/instances/Distrito/LATINA> ns:CodigoPostal "28024"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://www.semanticweb.org/instances/Distrito/LATINA> <http://www.w3.org/2006/vcard/ns#postal-code> "28024"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalÁngelGonzález(Latina)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/LATINA> ;
 	ns:Telefono "91 512 35 42";
@@ -1367,13 +1387,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalÁngelGonzález(Latina)> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:25,36,39,65,121,131,138,H> .
 
-<http://www.semanticweb.org/instances/Direccion/GRANJADETORREHERMOSA> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/GRANJADETORREHERMOSA> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "GRANJA DE TORREHERMOSA";
 	ns:Numero "1"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "40.397.074.625.115.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-37.664.885.474.841.500"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "40.397.074.625.115.900"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-37.664.885.474.841.500"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalÁngelGonzález(Latina)> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/GRANJADETORREHERMOSA> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalÁngelGonzález(Latina)> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/GRANJADETORREHERMOSA> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaRetiro> a ns:LugarPrestamoLibros ;
@@ -1383,7 +1403,7 @@
 	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=44213d0b5e71c010VgnVCM1000000b205a0aRCRD".
 
-<http://www.semanticweb.org/instances/Distrito/RETIRO> ns:CodigoPostal "28007"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://www.semanticweb.org/instances/Distrito/RETIRO> <http://www.w3.org/2006/vcard/ns#postal-code> "28007"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaRetiro> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/RETIRO> ;
 	ns:Telefono "915 019 146 ";
@@ -1399,13 +1419,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaRetiro> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:10,14,24,32,37,54,56,57,63,143,145,156> .
 
-<http://www.semanticweb.org/instances/Direccion/DOCTORESQUERDO> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/DOCTORESQUERDO> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "DOCTOR ESQUERDO";
 	ns:Numero "189"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.040.354.316.970.940"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-3.672.367.247.007.090"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.040.354.316.970.940"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-3.672.367.247.007.090"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaRetiro> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/DOCTORESQUERDO> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaRetiro> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/DOCTORESQUERDO> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaRuizEgea> a ns:LugarPrestamoLibros ;
@@ -1416,7 +1436,7 @@
 	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b2413d0b5e71c010VgnVCM1000000b205a0aRCRD".
 
-<http://www.semanticweb.org/instances/Distrito/CHAMBERI> ns:CodigoPostal "28003"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://www.semanticweb.org/instances/Distrito/CHAMBERI> <http://www.w3.org/2006/vcard/ns#postal-code> "28003"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaRuizEgea> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/CHAMBERI> ;
 	ns:Telefono "915 349 029";
@@ -1432,13 +1452,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaRuizEgea> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:C,3,37,42,45,64,124,127,128,149> .
 
-<http://www.semanticweb.org/instances/Direccion/RAIMUNDOFERNANDEZVILLAVERDE> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/RAIMUNDOFERNANDEZVILLAVERDE> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "RAIMUNDO FERNANDEZ VILLAVERDE";
 	ns:Numero "6"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "40.446.595.985.821.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-37.028.897.237.155.600"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "40.446.595.985.821.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-37.028.897.237.155.600"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaRuizEgea> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/RAIMUNDOFERNANDEZVILLAVERDE> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaRuizEgea> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/RAIMUNDOFERNANDEZVILLAVERDE> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaSalamancaManuelAlvar> a ns:LugarPrestamoLibros ;
@@ -1462,13 +1482,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaSalamancaManuelAlvar> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:1,12,43,48,56,74> .
 
-<http://www.semanticweb.org/instances/Direccion/AZCONA> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/AZCONA> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "AZCONA";
 	ns:Numero "42"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.043.437.388.116.330"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-3.668.960.389.290.820"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.043.437.388.116.330"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-3.668.960.389.290.820"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaSalamancaManuelAlvar> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/AZCONA> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaSalamancaManuelAlvar> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/AZCONA> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaUseraJoséHierro> a ns:LugarPrestamoLibros ;
@@ -1479,7 +1499,7 @@
 	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=943979262ef5d010VgnVCM1000000b205a0aRCRD".
 
-<http://www.semanticweb.org/instances/Distrito/USERA> ns:CodigoPostal "28026"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://www.semanticweb.org/instances/Distrito/USERA> <http://www.w3.org/2006/vcard/ns#postal-code> "28026"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaUseraJoséHierro> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/USERA> ;
 	ns:Telefono "914 229 501";
@@ -1495,13 +1515,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaUseraJoséHierro> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:6,47,60,81> .
 
-<http://www.semanticweb.org/instances/Direccion/RAFAELAYBARRA> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/RAFAELAYBARRA> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "RAFAELA YBARRA";
 	ns:Numero "43"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.038.187.274.336.690"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-3.710.628.092.812.140"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.038.187.274.336.690"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-3.710.628.092.812.140"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaUseraJoséHierro> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/RAFAELAYBARRA> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaUseraJoséHierro> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/RAFAELAYBARRA> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVallecas> a ns:LugarPrestamoLibros ;
@@ -1511,7 +1531,7 @@
 	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=535979262ef5d010VgnVCM1000000b205a0aRCRD".
 
-<http://www.semanticweb.org/instances/Distrito/PUENTEDEVALLECAS> ns:CodigoPostal "28018"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://www.semanticweb.org/instances/Distrito/PUENTEDEVALLECAS> <http://www.w3.org/2006/vcard/ns#postal-code> "28018"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVallecas> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/PUENTEDEVALLECAS> ;
 	ns:Telefono """913 033 195               
@@ -1528,13 +1548,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVallecas> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:10,54,57,144> .
 
-<http://www.semanticweb.org/instances/Direccion/RAFAELALBERTI> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/RAFAELALBERTI> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "RAFAEL ALBERTI";
 	ns:Numero "36"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.038.449.423.079.660"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.429.247.082.087.700"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.038.449.423.079.660"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.429.247.082.087.700"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVallecas> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/RAFAELALBERTI> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVallecas> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/RAFAELALBERTI> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVilladeVallecasLuisMartínSantos> a ns:LugarPrestamoLibros ;
@@ -1554,13 +1574,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVilladeVallecasLuisMartínSantos> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:58,63,145> .
 
-<http://www.semanticweb.org/instances/Direccion/ANTONIOMARIASEGOVIA> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/ANTONIOMARIASEGOVIA> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "ANTONIO MARIA SEGOVIA";
 	ns:Numero "2"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "403.810.580.116.937"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.137.699.969.673.700"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "403.810.580.116.937"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.137.699.969.673.700"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVilladeVallecasLuisMartínSantos> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/ANTONIOMARIASEGOVIA> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVilladeVallecasLuisMartínSantos> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/ANTONIOMARIASEGOVIA> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVillaverdeMaríaMoliner> a ns:LugarPrestamoLibros ;
@@ -1573,7 +1593,8 @@
 
 <http://www.semanticweb.org/instances/Distrito/VILLAVERDE> a ns:Distrito ;
 	ns:NombreDistrito "VILLAVERDE";
-	ns:CodigoPostal "28021"^^<http://www.w3.org/2001/XMLSchema#double> .
+	owl:sameAs "http://dbpedia.org/resource/Villaverde_(Madrid)";
+	<http://www.w3.org/2006/vcard/ns#postal-code> "28021"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVillaverdeMaríaMoliner> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/VILLAVERDE> ;
 	ns:Telefono "917 230 194  ";
@@ -1589,13 +1610,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVillaverdeMaríaMoliner> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:22,76,86,130,131> .
 
-<http://www.semanticweb.org/instances/Direccion/VILLALONSO> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/VILLALONSO> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "VILLALONSO";
 	ns:Numero "16"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "40.349.515.086.848.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-37.101.234.920.009.300"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "40.349.515.086.848.300"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-37.101.234.920.009.300"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVillaverdeMaríaMoliner> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/VILLALONSO> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVillaverdeMaríaMoliner> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/VILLALONSO> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaRegionaldeMadridJoaquínLeguina> a ns:LugarPrestamoLibros ;
@@ -1606,7 +1627,7 @@
 	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d09979262ef5d010VgnVCM1000000b205a0aRCRD".
 
-<http://www.semanticweb.org/instances/Distrito/ARGANZUELA> ns:CodigoPostal "28045"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://www.semanticweb.org/instances/Distrito/ARGANZUELA> <http://www.w3.org/2006/vcard/ns#postal-code> "28045"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaRegionaldeMadridJoaquínLeguina> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/ARGANZUELA> ;
 	ns:Telefono "917 208 850 / 917 208 860 ";
@@ -1622,13 +1643,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaRegionaldeMadridJoaquínLeguina> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:8,102> .
 
-<http://www.semanticweb.org/instances/Direccion/RAMIREZDEPRADO> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/RAMIREZDEPRADO> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "RAMIREZ DE PRADO";
 	ns:Numero "3"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "40.399.898.401.147.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-36.900.541.585.894.700"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "40.399.898.401.147.500"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-36.900.541.585.894.700"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaRegionaldeMadridJoaquínLeguina> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/RAMIREZDEPRADO> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaRegionaldeMadridJoaquínLeguina> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/RAMIREZDEPRADO> ;
 	ns:Tipo "Biblioteca".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/CentroculturaldelBarriodeSanCristóbaldelosÁngeles> a ns:LugarPrestamoLibros ;
@@ -1652,13 +1673,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/CentroculturaldelBarriodeSanCristóbaldelosÁngeles> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:59,79> .
 
-<http://www.semanticweb.org/instances/Direccion/ROCAFORT> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/ROCAFORT> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "ROCAFORT";
 	ns:Numero "101"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.034.244.856.729.780"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-3.686.807.481.597.240"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.034.244.856.729.780"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-3.686.807.481.597.240"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/CentroculturaldelBarriodeSanCristóbaldelosÁngeles> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/ROCAFORT> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/CentroculturaldelBarriodeSanCristóbaldelosÁngeles> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/ROCAFORT> ;
 	ns:Tipo "Centro".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/CentroSocialyCulturallaCasaEncendida> a ns:LugarPrestamoLibros ;
@@ -1668,7 +1689,7 @@
 	ns:AccesibilidadParaMinusvalidos "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
 	ns:URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c27f8899fc81c010VgnVCM1000000b205a0aRCRD".
 
-<http://www.semanticweb.org/instances/Distrito/CENTRO> ns:CodigoPostal "28012"^^<http://www.w3.org/2001/XMLSchema#double> .
+<http://www.semanticweb.org/instances/Distrito/CENTRO> <http://www.w3.org/2006/vcard/ns#postal-code> "28012"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/CentroSocialyCulturallaCasaEncendida> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/CENTRO> ;
 	ns:Telefono """902 430 322                                 
@@ -1685,13 +1706,13 @@
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/CentroSocialyCulturallaCasaEncendida> ns:accesibleDesde <http://www.semanticweb.org/instances/TrasnportePublico/Autobus/Bus:27,34,36,41,68,69,119> .
 
-<http://www.semanticweb.org/instances/Direccion/VALENCIA> a ns:Direccion ;
+<http://www.semanticweb.org/instances/Direccion/VALENCIA> a <http://www.w3.org/2006/vcard/ns#Address> ;
 	ns:Calle "VALENCIA";
 	ns:Numero "2"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "4.040.595.710.517.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-3.699.779.793.558.760"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "4.040.595.710.517.700"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-3.699.779.793.558.760"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/CentroSocialyCulturallaCasaEncendida> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/VALENCIA> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/CentroSocialyCulturallaCasaEncendida> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/VALENCIA> ;
 	ns:Tipo "Centro".
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/HemerotecaMunicipal> a ns:LugarPrestamoLibros ;
@@ -1712,8 +1733,8 @@
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/HemerotecaMunicipal> ns:accesibleDesde <http://www.semanticweb.org/instances/TransportePublico/Metro/Metro:SanBernardo,VenturaRodríguez,PlazadeEspaña,NoviciadoBus:1,2,7,21,44,74,147,Circular,MinibusM2> .
 
 <http://www.semanticweb.org/instances/Direccion/CONDEDUQUE> ns:Numero "11"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Latitud "40.427.938.443.518.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
-	ns:Longitud "-3.710.240.346.719.510"^^<http://www.w3.org/2001/XMLSchema#double> .
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "40.427.938.443.518.200"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-3.710.240.346.719.510"^^<http://www.w3.org/2001/XMLSchema#double> .
 
-<http://www.semanticweb.org/instances/LugarPrestamoLibros/HemerotecaMunicipal> ns:tieneDireccion <http://www.semanticweb.org/instances/Direccion/CONDEDUQUE> ;
+<http://www.semanticweb.org/instances/LugarPrestamoLibros/HemerotecaMunicipal> <http://www.w3.org/2006/vcard/ns#adr> <http://www.semanticweb.org/instances/Direccion/CONDEDUQUE> ;
 	ns:Tipo "Hemeroteca".
