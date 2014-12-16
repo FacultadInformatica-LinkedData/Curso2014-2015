@@ -97,6 +97,11 @@
         #department (xsd:integer)
         #hasBuilding (ont:Building)
 
+    /BusStop/{stopid}
+      ont:Properties
+        #name (rdfs:label)
+        #geometry (geosp:wktLiteral)
+
   -->
 
   <!-- Building Class -->
@@ -130,6 +135,11 @@
   </owl:DatatypeProperty>
 
   <owl:DatatypeProperty rdf:about="&ont;/ServiceRequest#request">
+    <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
+    <rdfs:range rdf:resource="&xsd;#string"/>
+  </owl:DatatypeProperty>
+
+  <owl:DatatypeProperty rdf:about="&ont;/ServiceRequest#media">
     <rdfs:domain rdf:resource="&ont;/ServiceRequest"/>
     <rdfs:range rdf:resource="&xsd;#string"/>
   </owl:DatatypeProperty>
@@ -275,5 +285,18 @@
     <rdfs:domain rdf:resource="&ont;/PublicBuilding"/>
     <rdfs:range rdf:resource="&ont;/Building"/>
   </owl:ObjectProperty>
+
+  <!-- Public Bus Stop Class -->
+  
+  <owl:Class rdf:about="&ont;/BusStop"/>
+
+  <owl:DatatypeProperty rdf:about="&rdfs;#label">
+    <rdfs:domain rdf:resource="&ont;/BusStop"/>
+  </owl:DatatypeProperty>
+
+    <owl:DatatypeProperty rdf:about="&ont;#geometry">
+    <rdfs:domain rdf:resource="&ont;/BusStop"/>
+    <owl:onDataRange rdf:resource="&geosp;#wktLiteral"/>
+  </owl:DatatypeProperty>
 
 </rdf:RDF>
