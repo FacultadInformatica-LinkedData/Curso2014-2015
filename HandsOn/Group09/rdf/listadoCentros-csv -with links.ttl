@@ -1,0 +1,3039 @@
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix tipo: <http://www.semanticweb.org/group9/ontology/tipo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.semanticweb.org/group9/ontology/ACADEMIA+B%C3%81SICA+DEL+AIRE+DE+LE%C3%93N> a tipo:centro ;
+	rdfs:label "ACADEMIA BÁSICA DEL AIRE DE LEÓN" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/FINCA+AER%C3%93DROMO+MILITAR+DE+LE%C3%93N> ;
+	vcard:hasTelephone "987843600" ;
+	vcard:hasEmail "24022331@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "Internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "CENTRO DOCENTE DE FORMACIÓN MILITAR" .
+
+<http://www.semanticweb.org/group9/ontology/VIRGEN+DEL+CAMINO+%28LA%29> a tipo:localidad ;
+	rdfs:label "VIRGEN DEL CAMINO (LA)" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/FINCA+AER%C3%93DROMO+MILITAR+DE+LE%C3%93N> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> a tipo:provincia ;
+	rdfs:label "LEON" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/FINCA+AER%C3%93DROMO+MILITAR+DE+LE%C3%93N> .
+
+<http://www.semanticweb.org/group9/ontology/FINCA+AER%C3%93DROMO+MILITAR+DE+LE%C3%93N> rdfs:label "FINCA AERÓDROMO MILITAR DE LEÓN" ;
+	vcard:postal-code "24198" ;
+	geo:lat_long "42,58554 ,-5,64611" .
+
+<http://www.semanticweb.org/group9/ontology/BERGIDUM> a tipo:centro ;
+	rdfs:label "BERGIDUM" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+LOS+DEPORTES%2C31> ;
+	vcard:hasURL <http://ceerbergidum.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987455063" ;
+	vcard:hasEmail "24016092@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "Internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION ESPECIAL" .
+
+<http://www.semanticweb.org/group9/ontology/FUENTES+NUEVAS> a tipo:localidad ;
+	rdfs:label "FUENTES NUEVAS" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LOS+DEPORTES%2C31> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LOS+DEPORTES%2C31> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+LOS+DEPORTES%2C31> rdfs:label "CALLE LOS DEPORTES,31" ;
+	vcard:postal-code "24411" ;
+	geo:lat_long "42,57244 ,-6,64077" .
+
+<http://www.semanticweb.org/group9/ontology/AGAPITO+MARAZUELA> a tipo:centro ;
+	rdfs:label "AGAPITO MARAZUELA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+PINTORES+Y+ESCULTORES+COULLAUT+VALERA%2C2> ;
+	vcard:hasURL <http://ceipagapitomarazuela.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "921470302" ;
+	vcard:hasEmail "40002881@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/SAN+ILDEFONSO+O+LA+GRANJA> a tipo:localidad ;
+	rdfs:label "SAN ILDEFONSO O LA GRANJA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+PINTORES+Y+ESCULTORES+COULLAUT+VALERA%2C2> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SEGOVIA> .
+
+<http://www.semanticweb.org/group9/ontology/SEGOVIA> a tipo:provincia ;
+	rdfs:label "SEGOVIA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+PINTORES+Y+ESCULTORES+COULLAUT+VALERA%2C2> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+PINTORES+Y+ESCULTORES+COULLAUT+VALERA%2C2> rdfs:label "CALLE PINTORES Y ESCULTORES COULLAUT VALERA,2" ;
+	vcard:postal-code "40100" ;
+	geo:lat_long "40,90339 ,-4,01138" .
+
+<http://www.semanticweb.org/group9/ontology/%C3%81LVAR+F%C3%81%C3%91EZ> a tipo:centro ;
+	rdfs:label "ÁLVAR FÁÑEZ" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+PALOMARES%2C32> ;
+	vcard:hasURL <http://ceipalvarfanez.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "983611232" ;
+	vcard:hasEmail "47001122@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/ISCAR> a tipo:localidad ;
+	rdfs:label "ISCAR" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+PALOMARES%2C32> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/VALLADOLID> .
+
+<http://www.semanticweb.org/group9/ontology/VALLADOLID> a tipo:provincia ;
+	rdfs:label "VALLADOLID" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+PALOMARES%2C32> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+PALOMARES%2C32> rdfs:label "CALLE PALOMARES,32" ;
+	vcard:postal-code "47420" ;
+	geo:lat_long "41,35974 ,-4,53138" .
+
+<http://www.semanticweb.org/group9/ontology/%C3%81LVAREZ+MORATO> a tipo:centro ;
+	rdfs:label "ÁLVAREZ MORATO" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/AVENIDA+DE+LA+SIERRA+DE+FRANCIA%2C58> ;
+	vcard:hasURL <http://ceipalvarezmorato.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "923592167" ;
+	vcard:hasEmail "37006452@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/SANTOS+%28LOS%29> a tipo:localidad ;
+	rdfs:label "SANTOS (LOS)" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+DE+LA+SIERRA+DE+FRANCIA%2C58> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SALAMANCA> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> a tipo:provincia ;
+	rdfs:label "SALAMANCA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+DE+LA+SIERRA+DE+FRANCIA%2C58> .
+
+<http://www.semanticweb.org/group9/ontology/AVENIDA+DE+LA+SIERRA+DE+FRANCIA%2C58> rdfs:label "AVENIDA DE LA SIERRA DE FRANCIA,58" ;
+	vcard:postal-code "37768" ;
+	geo:lat_long "40,54208 ,-5,80267" .
+
+<http://www.semanticweb.org/group9/ontology/ANA+DE+AUSTRIA> a tipo:centro ;
+	rdfs:label "ANA DE AUSTRIA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/AVENIDA+DE+LOS+CORTIJOS%2C2> ;
+	vcard:hasURL <http://ceipanadeaustria.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "983580326" ;
+	vcard:hasEmail "47011449@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/CIGALES> a tipo:localidad ;
+	rdfs:label "CIGALES" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+DE+LOS+CORTIJOS%2C2> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/VALLADOLID> .
+
+<http://www.semanticweb.org/group9/ontology/VALLADOLID> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+DE+LOS+CORTIJOS%2C2> .
+
+<http://www.semanticweb.org/group9/ontology/AVENIDA+DE+LOS+CORTIJOS%2C2> rdfs:label "AVENIDA DE LOS CORTIJOS,2" ;
+	vcard:postal-code "47270" ;
+	geo:lat_long "41,7575 ,-4,69603" .
+
+<http://www.semanticweb.org/group9/ontology/COLEGIO+P%C3%9ABLICO+DE+SANTIB%C3%81%C3%91EZ+DE+TERA> a tipo:centro ;
+	rdfs:label "COLEGIO PÚBLICO DE SANTIBÁÑEZ DE TERA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+GENERAL+MOLA%2C56> ;
+	vcard:hasTelephone "980658847" ;
+	vcard:hasEmail "49004175@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/SANTIBA%C3%91EZ+DE+TERA> a tipo:localidad ;
+	rdfs:label "SANTIBAÑEZ DE TERA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+GENERAL+MOLA%2C56> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/ZAMORA> .
+
+<http://www.semanticweb.org/group9/ontology/ZAMORA> a tipo:provincia ;
+	rdfs:label "ZAMORA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+GENERAL+MOLA%2C56> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+GENERAL+MOLA%2C56> rdfs:label "CALLE GENERAL MOLA,56" ;
+	vcard:postal-code "49625" ;
+	geo:lat_long "41,98206 ,-5,92278" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+ALBORADA> a tipo:centro ;
+	rdfs:label "CRA ALBORADA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+EL+MOLINO%2C1> ;
+	vcard:hasURL <http://craalborada.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987423710" ;
+	vcard:hasEmail "24018131@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/COLUMBRIANOS> a tipo:localidad ;
+	rdfs:label "COLUMBRIANOS" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+EL+MOLINO%2C1> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+EL+MOLINO%2C1> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+EL+MOLINO%2C1> rdfs:label "CALLE EL MOLINO,1" ;
+	vcard:postal-code "24490" ;
+	geo:lat_long "42,54075 ,-6,58526" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+BABIA> a tipo:centro ;
+	rdfs:label "CRA BABIA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CARRETERA+LE%C3%93N-VILLABLINO> ;
+	vcard:hasURL <http://crababia.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987488761" ;
+	vcard:hasEmail "24018052@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/HUERGAS+DE+BABIA> a tipo:localidad ;
+	rdfs:label "HUERGAS DE BABIA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CARRETERA+LE%C3%93N-VILLABLINO> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CARRETERA+LE%C3%93N-VILLABLINO> .
+
+<http://www.semanticweb.org/group9/ontology/CARRETERA+LE%C3%93N-VILLABLINO> rdfs:label "CARRETERA LEÓN-VILLABLINO" ;
+	vcard:postal-code "24143" ;
+	geo:lat_long "42,9547 ,-6,09705" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+CABRERA> a tipo:centro ;
+	rdfs:label "CRA CABRERA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CARRETERA+CASTROHINOJO> ;
+	vcard:hasURL <http://cracabrera.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987654664" ;
+	vcard:hasEmail "24018404@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/QUINTANILLA+DE+LOSADA> a tipo:localidad ;
+	rdfs:label "QUINTANILLA DE LOSADA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CARRETERA+CASTROHINOJO> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CARRETERA+CASTROHINOJO> .
+
+<http://www.semanticweb.org/group9/ontology/CARRETERA+CASTROHINOJO> rdfs:label "CARRETERA CASTROHINOJO" ;
+	vcard:postal-code "24743" ;
+	geo:lat_long "42,27814 ,-6,56028" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+CAMPO+DE+SALAMANCA> a tipo:centro ;
+	rdfs:label "CRA CAMPO DE SALAMANCA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+ERAS+DE+LA+IGLESIA%2C37> ;
+	vcard:hasTelephone "923342123" ;
+	vcard:hasEmail "37009428@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/BARBADILLO> a tipo:localidad ;
+	rdfs:label "BARBADILLO" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+ERAS+DE+LA+IGLESIA%2C37> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SALAMANCA> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+ERAS+DE+LA+IGLESIA%2C37> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+ERAS+DE+LA+IGLESIA%2C37> rdfs:label "CALLE ERAS DE LA IGLESIA,37" ;
+	vcard:postal-code "37440" ;
+	geo:lat_long "40,93299 ,-5,8822" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+CAMPOS+DE+CASTILLA> a tipo:centro ;
+	rdfs:label "CRA CAMPOS DE CASTILLA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+CARDENAL+ESPINOSA%2C1> ;
+	vcard:hasURL <http://cracamposdecastilla.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "920311026" ;
+	vcard:hasEmail "40004853@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/MARTIN+MU%C3%91OZ+DE+LAS+POSADAS> a tipo:localidad ;
+	rdfs:label "MARTIN MUÑOZ DE LAS POSADAS" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+CARDENAL+ESPINOSA%2C1> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SEGOVIA> .
+
+<http://www.semanticweb.org/group9/ontology/SEGOVIA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+CARDENAL+ESPINOSA%2C1> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+CARDENAL+ESPINOSA%2C1> rdfs:label "CALLE CARDENAL ESPINOSA,1" ;
+	vcard:postal-code "40446" ;
+	geo:lat_long "40,99532 ,-4,59564" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+DE+ARMELLADA> a tipo:centro ;
+	rdfs:label "CRA DE ARMELLADA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+PADRE+CES%C3%81REO%2C37> ;
+	vcard:hasURL <http://cradearmellada.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987363212" ;
+	vcard:hasEmail "24018039@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/ARMELLADA> a tipo:localidad ;
+	rdfs:label "ARMELLADA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+PADRE+CES%C3%81REO%2C37> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+PADRE+CES%C3%81REO%2C37> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+PADRE+CES%C3%81REO%2C37> rdfs:label "CALLE PADRE CESÁREO,37" ;
+	vcard:postal-code "24284" ;
+	geo:lat_long "42,55245 ,-5,86428" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+DE+LILLO+DEL+BIERZO> a tipo:centro ;
+	rdfs:label "CRA DE LILLO DEL BIERZO" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+TRAV.+FRAY+LUIS+DE+LE%C3%93N> ;
+	vcard:hasURL <http://cpdelillodelbierzo.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987550149" ;
+	vcard:hasEmail "24018301@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/LILLO+DEL+BIERZO> a tipo:localidad ;
+	rdfs:label "LILLO DEL BIERZO" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+TRAV.+FRAY+LUIS+DE+LE%C3%93N> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+TRAV.+FRAY+LUIS+DE+LE%C3%93N> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+TRAV.+FRAY+LUIS+DE+LE%C3%93N> rdfs:label "CALLE TRAV. FRAY LUIS DE LEÓN" ;
+	vcard:postal-code "24428" ;
+	geo:lat_long "42,78589 ,-6,6129" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+DE+NOCEDA> a tipo:centro ;
+	rdfs:label "CRA DE NOCEDA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+SAN+PEDRO> ;
+	vcard:hasTelephone "987517201" ;
+	vcard:hasEmail "24018325@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/NOCEDA> a tipo:localidad ;
+	rdfs:label "NOCEDA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+SAN+PEDRO> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+SAN+PEDRO> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+SAN+PEDRO> rdfs:label "CALLE SAN PEDRO" ;
+	vcard:postal-code "24319" ;
+	geo:lat_long "42,69939 ,-6,50827" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+DE+PUENTE+ALMUHEY> a tipo:centro ;
+	rdfs:label "CRA DE PUENTE ALMUHEY" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+EL+COLEGIO%2C16> ;
+	vcard:hasURL <http://crapuentealmuhey.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987716173" ;
+	vcard:hasEmail "24018386@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/PUENTE+ALMUHEY> a tipo:localidad ;
+	rdfs:label "PUENTE ALMUHEY" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+EL+COLEGIO%2C16> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+EL+COLEGIO%2C16> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+EL+COLEGIO%2C16> rdfs:label "CALLE EL COLEGIO,16" ;
+	vcard:postal-code "24880" ;
+	geo:lat_long "42,79067 ,-4,96106" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+DE+QUILOS> a tipo:centro ;
+	rdfs:label "CRA DE QUILOS" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/PLAZA+ALMIRANTE+CARRERO+BLANCO> ;
+	vcard:hasURL <http://craquilos.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987563151" ;
+	vcard:hasEmail "24018091@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/QUILOS> a tipo:localidad ;
+	rdfs:label "QUILOS" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PLAZA+ALMIRANTE+CARRERO+BLANCO> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PLAZA+ALMIRANTE+CARRERO+BLANCO> .
+
+<http://www.semanticweb.org/group9/ontology/PLAZA+ALMIRANTE+CARRERO+BLANCO> rdfs:label "PLAZA ALMIRANTE CARRERO BLANCO" ;
+	vcard:postal-code "24548" ;
+	geo:lat_long "42,63222 ,-6,7226" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+DE+QUINTANA+DE+RUEDA> a tipo:centro ;
+	rdfs:label "CRA DE QUINTANA DE RUEDA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+MAYOR%2C1> ;
+	vcard:hasURL <http://craquintanaderueda.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987337030" ;
+	vcard:hasEmail "24018398@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/QUINTANA+DE+RUEDA> a tipo:localidad ;
+	rdfs:label "QUINTANA DE RUEDA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+MAYOR%2C1> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+MAYOR%2C1> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+MAYOR%2C1> rdfs:label "CALLE MAYOR,1" ;
+	vcard:postal-code "24930" ;
+	geo:lat_long "42,57822 ,-5,26279" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+DE+TORAL+DE+MERAYO> a tipo:centro ;
+	rdfs:label "CRA DE TORAL DE MERAYO" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/PLAZA+EL+NOGALEDO> ;
+	vcard:hasURL <http://cradetoraldemerayo.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987421290" ;
+	vcard:hasEmail "24018192@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/TORAL+DE+MERAYO> a tipo:localidad ;
+	rdfs:label "TORAL DE MERAYO" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PLAZA+EL+NOGALEDO> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PLAZA+EL+NOGALEDO> .
+
+<http://www.semanticweb.org/group9/ontology/PLAZA+EL+NOGALEDO> rdfs:label "PLAZA EL NOGALEDO" ;
+	vcard:postal-code "24448" ;
+	geo:lat_long "42,52459 ,-6,63491" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+DE+TREMOR+DE+ARRIBA> a tipo:centro ;
+	rdfs:label "CRA DE TREMOR DE ARRIBA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+ESCOBAL%C3%93N%2C18> ;
+	vcard:hasURL <http://cratremordearriba.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987530158" ;
+	vcard:hasEmail "24018490@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/TREMOR+DE+ARRIBA> a tipo:localidad ;
+	rdfs:label "TREMOR DE ARRIBA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+ESCOBAL%C3%93N%2C18> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+ESCOBAL%C3%93N%2C18> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+ESCOBAL%C3%93N%2C18> rdfs:label "CALLE ESCOBALÓN,18" ;
+	vcard:postal-code "24377" ;
+	geo:lat_long "42,72565 ,-6,20804" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+DE+TROBAJO+DEL+CERECEDO> a tipo:centro ;
+	rdfs:label "CRA DE TROBAJO DEL CERECEDO" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+CALVO+SOTELO> ;
+	vcard:hasURL <http://cpdetrobajodecerecedo.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987260836" ;
+	vcard:hasEmail "24017990@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/TROBAJO+DEL+CERECEDO> a tipo:localidad ;
+	rdfs:label "TROBAJO DEL CERECEDO" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+CALVO+SOTELO> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+CALVO+SOTELO> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+CALVO+SOTELO> rdfs:label "CALLE CALVO SOTELO" ;
+	vcard:postal-code "24192" ;
+	geo:lat_long "42,56811 ,-5,57751" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+DE+VILLACEDR%C3%89> a tipo:centro ;
+	rdfs:label "CRA DE VILLACEDRÉ" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/AVENIDA+VIRGEN+DE+LOS+IMPOSIBLES> ;
+	vcard:hasURL <http://cravillacedre.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987206679" ;
+	vcard:hasEmail "24018519@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/VILLACEDRE> a tipo:localidad ;
+	rdfs:label "VILLACEDRE" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+VIRGEN+DE+LOS+IMPOSIBLES> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+VIRGEN+DE+LOS+IMPOSIBLES> .
+
+<http://www.semanticweb.org/group9/ontology/AVENIDA+VIRGEN+DE+LOS+IMPOSIBLES> rdfs:label "AVENIDA VIRGEN DE LOS IMPOSIBLES" ;
+	vcard:postal-code "24009" ;
+	geo:lat_long "42,55781 ,-5,59149" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+DE+VILLAGER+DE+LACIANA> a tipo:centro ;
+	rdfs:label "CRA DE VILLAGER DE LACIANA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+LA+FUENTE%2C11> ;
+	vcard:hasURL <http://cravillager.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987480764" ;
+	vcard:hasEmail "24018180@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/VILLAGER+DE+LACIANA> a tipo:localidad ;
+	rdfs:label "VILLAGER DE LACIANA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LA+FUENTE%2C11> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LA+FUENTE%2C11> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+LA+FUENTE%2C11> rdfs:label "CALLE LA FUENTE,11" ;
+	vcard:postal-code "24112" ;
+	geo:lat_long "42,94387 ,-6,34248" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+EL+REDONDAL> a tipo:centro ;
+	rdfs:label "CRA EL REDONDAL" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+ARROYO+JAL%C3%93N> ;
+	vcard:hasURL <http://craelredondal.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987510055" ;
+	vcard:hasEmail "24018209@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/MATACHANA> a tipo:localidad ;
+	rdfs:label "MATACHANA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+ARROYO+JAL%C3%93N> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+ARROYO+JAL%C3%93N> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+ARROYO+JAL%C3%93N> rdfs:label "CALLE ARROYO JALÓN" ;
+	vcard:postal-code "24314" ;
+	geo:lat_long "42,60295 ,-6,44001" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+ERIA-JAMUZ> a tipo:centro ;
+	rdfs:label "CRA ERIA-JAMUZ" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+JIM%C3%89NEZ+DE+JAMUZ> ;
+	vcard:hasURL <http://craeriajamuz.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987664402" ;
+	vcard:hasEmail "24018143@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/JIMENEZ+DE+JAMUZ> a tipo:localidad ;
+	rdfs:label "JIMENEZ DE JAMUZ" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+JIM%C3%89NEZ+DE+JAMUZ> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+JIM%C3%89NEZ+DE+JAMUZ> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+JIM%C3%89NEZ+DE+JAMUZ> rdfs:label "CALLE JIMÉNEZ DE JAMUZ" ;
+	vcard:postal-code "24767" ;
+	geo:lat_long "42,26392 ,-5,9291" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+FUENTEGUINALDO-AZABA> a tipo:centro ;
+	rdfs:label "CRA FUENTEGUINALDO-AZABA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+CRISTO%2C45> ;
+	vcard:hasURL <http://centros.educa.jcyl.es/crafuenteguinaldo> ;
+	vcard:hasTelephone "923471463" ;
+	vcard:hasEmail "37009854@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/FUENTEGUINALDO> a tipo:localidad ;
+	rdfs:label "FUENTEGUINALDO" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+CRISTO%2C45> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SALAMANCA> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+CRISTO%2C45> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+CRISTO%2C45> rdfs:label "CALLE CRISTO,45" ;
+	vcard:postal-code "37540" ;
+	geo:lat_long "40,43025 ,-6,6752" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+LA+DEMANDA> a tipo:centro ;
+	rdfs:label "CRA LA DEMANDA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+EL+PINAR> ;
+	vcard:hasURL <http://cralademanda.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "947388102" ;
+	vcard:hasEmail "09004798@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/HUERTA+DEL+REY> a tipo:localidad ;
+	rdfs:label "HUERTA DEL REY" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+EL+PINAR> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/BURGOS> .
+
+<http://www.semanticweb.org/group9/ontology/BURGOS> a tipo:provincia ;
+	rdfs:label "BURGOS" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+EL+PINAR> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+EL+PINAR> rdfs:label "CALLE EL PINAR" ;
+	vcard:postal-code "9430" ;
+	geo:lat_long "41,83795 ,-3,35345" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+LOS+ARRIBES> a tipo:centro ;
+	rdfs:label "CRA LOS ARRIBES" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+ERAS> ;
+	vcard:hasTelephone "923573165" ;
+	vcard:hasEmail "37009660@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/VILLARINO+DE+LA+AIRES> a tipo:localidad ;
+	rdfs:label "VILLARINO DE LA AIRES" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+ERAS> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SALAMANCA> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+ERAS> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+ERAS> rdfs:label "CALLE ERAS" ;
+	vcard:postal-code "37160" ;
+	geo:lat_long "41,26821 ,-6,46571" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+LOS+CARRASCALES> a tipo:centro ;
+	rdfs:label "CRA LOS CARRASCALES" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+VILLALBA> ;
+	vcard:hasURL <http://craloscarrascales.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "923382302" ;
+	vcard:hasEmail "37001739@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/MATILLA+DE+LOS+CA%C3%91OS+DEL+RIO> a tipo:localidad ;
+	rdfs:label "MATILLA DE LOS CAÑOS DEL RIO" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+VILLALBA> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SALAMANCA> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+VILLALBA> .
+
+<http://www.semanticweb.org/group9/ontology/CARRETERA+DE+VILLALBA> rdfs:label "CARRETERA DE VILLALBA" ;
+	vcard:postal-code "37450" ;
+	geo:lat_long "40,82299 ,-5,94568" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+NUEZ+DE+ALISTE> a tipo:centro ;
+	rdfs:label "CRA NUEZ DE ALISTE" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+LAS+ERAS> ;
+	vcard:hasURL <http://cranuezdealiste.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "980681242" ;
+	vcard:hasEmail "49007361@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/NUEZ> a tipo:localidad ;
+	rdfs:label "NUEZ" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LAS+ERAS> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/ZAMORA> .
+
+<http://www.semanticweb.org/group9/ontology/ZAMORA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LAS+ERAS> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+LAS+ERAS> rdfs:label "CALLE LAS ERAS" ;
+	vcard:postal-code "49516" ;
+	geo:lat_long "41,77597 ,-6,51531" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+RIBERA+DEL+PORMA> a tipo:centro ;
+	rdfs:label "CRA RIBERA DEL PORMA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+LOS+PALOMARES%2C1> ;
+	vcard:hasURL <http://crariberadelporma.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987319037" ;
+	vcard:hasEmail "24018465@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/SANTIBA%C3%91EZ+DE+PORMA> a tipo:localidad ;
+	rdfs:label "SANTIBAÑEZ DE PORMA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LOS+PALOMARES%2C1> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LOS+PALOMARES%2C1> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+LOS+PALOMARES%2C1> rdfs:label "CALLE LOS PALOMARES,1" ;
+	vcard:postal-code "24156" ;
+	geo:lat_long "42,58394 ,-5,43024" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+ROSA+CHACEL> a tipo:centro ;
+	rdfs:label "CRA ROSA CHACEL" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+ZONA+RESIDENCIAL+PILAR+HIDALGO> ;
+	vcard:hasURL <http://crarosachacel.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "947153040" ;
+	vcard:hasEmail "09008718@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/SONCILLO> a tipo:localidad ;
+	rdfs:label "SONCILLO" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+ZONA+RESIDENCIAL+PILAR+HIDALGO> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/BURGOS> .
+
+<http://www.semanticweb.org/group9/ontology/BURGOS> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+ZONA+RESIDENCIAL+PILAR+HIDALGO> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+ZONA+RESIDENCIAL+PILAR+HIDALGO> rdfs:label "CALLE ZONA RESIDENCIAL PILAR HIDALGO" ;
+	vcard:postal-code "9572" ;
+	geo:lat_long "42,96974 ,-3,78647" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+SANTA+ANA> a tipo:centro ;
+	rdfs:label "CRA SANTA ANA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+PROSILLO> ;
+	vcard:hasURL <http://crasantana.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987452665" ;
+	vcard:hasEmail "24018477@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/SILVAN> a tipo:localidad ;
+	rdfs:label "SILVAN" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+PROSILLO> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+PROSILLO> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+PROSILLO> rdfs:label "CALLE PROSILLO" ;
+	vcard:postal-code "24388" ;
+	geo:lat_long "42,33487 ,-6,67351" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+SANTA+B%C3%81RBARA> a tipo:centro ;
+	rdfs:label "CRA SANTA BÁRBARA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/PLAZA+DE+LAS+COLOMINAS> ;
+	vcard:hasURL <http://crasantabarbara.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987718388" ;
+	vcard:hasEmail "24018337@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/OLLEROS+DE+SABERO> a tipo:localidad ;
+	rdfs:label "OLLEROS DE SABERO" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PLAZA+DE+LAS+COLOMINAS> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PLAZA+DE+LAS+COLOMINAS> .
+
+<http://www.semanticweb.org/group9/ontology/PLAZA+DE+LAS+COLOMINAS> rdfs:label "PLAZA DE LAS COLOMINAS" ;
+	vcard:postal-code "24811" ;
+	geo:lat_long "42,83004 ,-5,18045" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+TRES+R%C3%8DOS> a tipo:centro ;
+	rdfs:label "CRA TRES RÍOS" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+LAS+ERAS%2C8> ;
+	vcard:hasURL <http://cra-tresrios.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987357700" ;
+	vcard:hasEmail "24018167@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/VILLANUEVA+DE+CARRIZO> a tipo:localidad ;
+	rdfs:label "VILLANUEVA DE CARRIZO" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LAS+ERAS%2C8> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LAS+ERAS%2C8> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+LAS+ERAS%2C8> rdfs:label "CALLE LAS ERAS,8" ;
+	vcard:postal-code "24270" ;
+	geo:lat_long "42,58268 ,-5,82414" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+VALLE+DEL+BOEZA> a tipo:centro ;
+	rdfs:label "CRA VALLE DEL BOEZA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+LA+CORREDERA> ;
+	vcard:hasURL <http://cravalledelboeza.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987517522" ;
+	vcard:hasEmail "24018040@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/VENTAS+DE+ALBARES+%28LAS%29> a tipo:localidad ;
+	rdfs:label "VENTAS DE ALBARES (LAS)" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LA+CORREDERA> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LA+CORREDERA> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+LA+CORREDERA> rdfs:label "CALLE LA CORREDERA" ;
+	vcard:postal-code "24317" ;
+	geo:lat_long "42,60386 ,-6,39027" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+VALVANERA> a tipo:centro ;
+	rdfs:label "CRA VALVANERA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+JORGE+MORO> ;
+	vcard:hasURL <http://cravalvanera.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "923594281" ;
+	vcard:hasEmail "37009593@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/SANTIBA%C3%91EZ+DE+BEJAR> a tipo:localidad ;
+	rdfs:label "SANTIBAÑEZ DE BEJAR" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+JORGE+MORO> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SALAMANCA> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+JORGE+MORO> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+JORGE+MORO> rdfs:label "CALLE JORGE MORO" ;
+	vcard:postal-code "37740" ;
+	geo:lat_long "40,48665 ,-5,61112" .
+
+<http://www.semanticweb.org/group9/ontology/CRA+V%C3%8DA+DE+LA+PLATA> a tipo:centro ;
+	rdfs:label "CRA VÍA DE LA PLATA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+RODR%C3%8DGUEZ+DE+LA+FUENTE> ;
+	vcard:hasURL <http://craviadelaplata.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "980643889" ;
+	vcard:hasEmail "49007371@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/SAN+CRISTOBAL+DE+ENTREVI%C3%91AS> a tipo:localidad ;
+	rdfs:label "SAN CRISTOBAL DE ENTREVIÑAS" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+RODR%C3%8DGUEZ+DE+LA+FUENTE> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/ZAMORA> .
+
+<http://www.semanticweb.org/group9/ontology/ZAMORA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+RODR%C3%8DGUEZ+DE+LA+FUENTE> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+RODR%C3%8DGUEZ+DE+LA+FUENTE> rdfs:label "CALLE RODRÍGUEZ DE LA FUENTE" ;
+	vcard:postal-code "49690" ;
+	geo:lat_long "42,04166 ,-5,64066" .
+
+<http://www.semanticweb.org/group9/ontology/FILIBERTO+VILLALOBOS> a tipo:centro ;
+	rdfs:label "FILIBERTO VILLALOBOS" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+FILIBERTO+VILLALOBOS> ;
+	vcard:hasURL <http://www.filibertovillalobos.com> ;
+	vcard:hasTelephone "923408172" ;
+	vcard:hasEmail "37000917@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/BEJAR> a tipo:localidad ;
+	rdfs:label "BEJAR" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+FILIBERTO+VILLALOBOS> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SALAMANCA> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+FILIBERTO+VILLALOBOS> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+FILIBERTO+VILLALOBOS> rdfs:label "CALLE FILIBERTO VILLALOBOS" ;
+	vcard:postal-code "37700" ;
+	geo:lat_long "40,38514 ,-5,76709" .
+
+<http://www.semanticweb.org/group9/ontology/GABRIEL+Y+GAL%C3%81N> a tipo:centro ;
+	rdfs:label "GABRIEL Y GALÁN" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+SALAMANCA%2C30> ;
+	vcard:hasURL <http://ceipgabrielygalan.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "923356681" ;
+	vcard:hasEmail "37007675@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/VILLORIA> a tipo:localidad ;
+	rdfs:label "VILLORIA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+SALAMANCA%2C30> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SALAMANCA> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+SALAMANCA%2C30> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+SALAMANCA%2C30> rdfs:label "CALLE SALAMANCA,30" ;
+	vcard:postal-code "37339" ;
+	geo:lat_long "40,97452 ,-5,65354" .
+
+<http://www.semanticweb.org/group9/ontology/GUMERSINDO+AZC%C3%81RATE> a tipo:centro ;
+	rdfs:label "GUMERSINDO AZCÁRATE" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+FRAGA+IRIBARNE%2C37> ;
+	vcard:hasURL <http://ceipgumersindoazcarate.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987212696" ;
+	vcard:hasEmail "24016894@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/ARMUNIA> a tipo:localidad ;
+	rdfs:label "ARMUNIA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+FRAGA+IRIBARNE%2C37> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+FRAGA+IRIBARNE%2C37> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+FRAGA+IRIBARNE%2C37> rdfs:label "CALLE FRAGA IRIBARNE,37" ;
+	vcard:postal-code "24009" ;
+	geo:lat_long "42,59001 ,-5,58885" .
+
+<http://www.semanticweb.org/group9/ontology/ISABEL+DE+CASTILLA> a tipo:centro ;
+	rdfs:label "ISABEL DE CASTILLA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/PASEO+DEL+ARTE%2C8> ;
+	vcard:hasURL <http://ceipisabeldecastilla.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "983559072" ;
+	vcard:hasEmail "47002588@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/SERRADA> a tipo:localidad ;
+	rdfs:label "SERRADA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PASEO+DEL+ARTE%2C8> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/VALLADOLID> .
+
+<http://www.semanticweb.org/group9/ontology/VALLADOLID> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PASEO+DEL+ARTE%2C8> .
+
+<http://www.semanticweb.org/group9/ontology/PASEO+DEL+ARTE%2C8> rdfs:label "PASEO DEL ARTE,8" ;
+	vcard:postal-code "47231" ;
+	geo:lat_long "41,45349 ,-4,86294" .
+
+<http://www.semanticweb.org/group9/ontology/LA+ANTIGUA> a tipo:centro ;
+	rdfs:label "LA ANTIGUA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+29+DE+AGOSTO%2C55> ;
+	vcard:hasURL <http://cplaantigua.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "923411037" ;
+	vcard:hasEmail "37000929@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/BEJAR> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+29+DE+AGOSTO%2C55> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+29+DE+AGOSTO%2C55> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+29+DE+AGOSTO%2C55> rdfs:label "CALLE 29 DE AGOSTO,55" ;
+	vcard:postal-code "37700" ;
+	geo:lat_long "40,38864 ,-5,77741" .
+
+<http://www.semanticweb.org/group9/ontology/LA+BIESCA> a tipo:centro ;
+	rdfs:label "LA BIESCA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/AVENIDA+DE+LA+MAGDALENA> ;
+	vcard:hasURL <http://cplabiesca.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987581177" ;
+	vcard:hasEmail "24016201@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/CANALES-LA+MAGDALENA> a tipo:localidad ;
+	rdfs:label "CANALES-LA MAGDALENA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+DE+LA+MAGDALENA> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+DE+LA+MAGDALENA> .
+
+<http://www.semanticweb.org/group9/ontology/AVENIDA+DE+LA+MAGDALENA> rdfs:label "AVENIDA DE LA MAGDALENA" ;
+	vcard:postal-code "24120" ;
+	geo:lat_long "42,78187 ,-5,8025" .
+
+<http://www.semanticweb.org/group9/ontology/LA+COGOLLA> a tipo:centro ;
+	rdfs:label "LA COGOLLA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+LA+EMISORA> ;
+	vcard:hasURL <http://cplacogolla.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987455434" ;
+	vcard:hasEmail "24008125@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/FUENTES+NUEVAS> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LA+EMISORA> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LA+EMISORA> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+LA+EMISORA> rdfs:label "CALLE LA EMISORA" ;
+	vcard:postal-code "24411" ;
+	geo:lat_long "42,57148 ,-6,63973" .
+
+<http://www.semanticweb.org/group9/ontology/LA+DEVESA> a tipo:centro ;
+	rdfs:label "LA DEVESA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+LAS+TRAPIECHAS> ;
+	vcard:hasURL <http://ceipladevesa.centros.educa.jcyl.es/> ;
+	vcard:hasTelephone "987490878" ;
+	vcard:hasEmail "24013959@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/CABOALLES+DE+ABAJO> a tipo:localidad ;
+	rdfs:label "CABOALLES DE ABAJO" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LAS+TRAPIECHAS> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LAS+TRAPIECHAS> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+LAS+TRAPIECHAS> rdfs:label "CALLE LAS TRAPIECHAS" ;
+	vcard:postal-code "24110" ;
+	geo:lat_long "42,95339 ,-6,37153" .
+
+<http://www.semanticweb.org/group9/ontology/LA+ESTACI%C3%93N+DEL+ESPINAR> a tipo:centro ;
+	rdfs:label "LA ESTACIÓN DEL ESPINAR" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/PLAZA+DEL+CANO> ;
+	vcard:hasTelephone "921188271" ;
+	vcard:hasEmail "40005006@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/ESTACION+DE+EL+ESPINAR> a tipo:localidad ;
+	rdfs:label "ESTACION DE EL ESPINAR" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PLAZA+DEL+CANO> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SEGOVIA> .
+
+<http://www.semanticweb.org/group9/ontology/SEGOVIA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PLAZA+DEL+CANO> .
+
+<http://www.semanticweb.org/group9/ontology/PLAZA+DEL+CANO> rdfs:label "PLAZA DEL CANO" ;
+	vcard:postal-code "40400" ;
+	geo:lat_long "40,74014 ,-4,18802" .
+
+<http://www.semanticweb.org/group9/ontology/LA+MORA%C3%91A> a tipo:centro ;
+	rdfs:label "LA MORAÑA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+DESCALZOS%2C87> ;
+	vcard:hasURL <http://cplamorana.com> ;
+	vcard:hasTelephone "920300075" ;
+	vcard:hasEmail "05000361@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/AREVALO> a tipo:localidad ;
+	rdfs:label "AREVALO" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+DESCALZOS%2C87> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/AVILA> .
+
+<http://www.semanticweb.org/group9/ontology/AVILA> a tipo:provincia ;
+	rdfs:label "AVILA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+DESCALZOS%2C87> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+DESCALZOS%2C87> rdfs:label "CALLE DESCALZOS,87" ;
+	vcard:postal-code "5200" ;
+	geo:lat_long "41,05662 ,-4,71395" .
+
+<http://www.semanticweb.org/group9/ontology/LA+PRADERA> a tipo:centro ;
+	rdfs:label "LA PRADERA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+ROBLEDO> ;
+	vcard:hasURL <http://ceiplapradera.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "921471720" ;
+	vcard:hasEmail "40002911@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/VALSAIN> a tipo:localidad ;
+	rdfs:label "VALSAIN" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+ROBLEDO> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SEGOVIA> .
+
+<http://www.semanticweb.org/group9/ontology/SEGOVIA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+ROBLEDO> .
+
+<http://www.semanticweb.org/group9/ontology/CARRETERA+DE+ROBLEDO> rdfs:label "CARRETERA DE ROBLEDO" ;
+	vcard:postal-code "40109" ;
+	geo:lat_long "40,87802 ,-4,02482" .
+
+<http://www.semanticweb.org/group9/ontology/LA+VILLA> a tipo:centro ;
+	rdfs:label "LA VILLA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+NUEVA%2C2> ;
+	vcard:hasURL <http://cplavilla.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "921140232" ;
+	vcard:hasEmail "40000926@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/CUELLAR> a tipo:localidad ;
+	rdfs:label "CUELLAR" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+NUEVA%2C2> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SEGOVIA> .
+
+<http://www.semanticweb.org/group9/ontology/SEGOVIA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+NUEVA%2C2> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+NUEVA%2C2> rdfs:label "CALLE NUEVA,2" ;
+	vcard:postal-code "40200" ;
+	geo:lat_long "41,40261 ,-4,31582" .
+
+<http://www.semanticweb.org/group9/ontology/LAS+ALAMEDAS> a tipo:centro ;
+	rdfs:label "LAS ALAMEDAS" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/AVENIDA+DEL+FERROCARRIL> ;
+	vcard:hasTelephone "987420456" ;
+	vcard:hasEmail "24008046@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/DEHESAS> a tipo:localidad ;
+	rdfs:label "DEHESAS" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+DEL+FERROCARRIL> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+DEL+FERROCARRIL> .
+
+<http://www.semanticweb.org/group9/ontology/AVENIDA+DEL+FERROCARRIL> rdfs:label "AVENIDA DEL FERROCARRIL" ;
+	vcard:postal-code "24390" ;
+	geo:lat_long "42,53983 ,-6,71528" .
+
+<http://www.semanticweb.org/group9/ontology/LOPE+DE+VEGA> a tipo:centro ;
+	rdfs:label "LOPE DE VEGA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+FRANCISCO+FERN%C3%81NDEZ+DIEZ%2C28> ;
+	vcard:hasURL <http://ceipvlopedevega.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987208216" ;
+	vcard:hasEmail "24005240@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/ARMUNIA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+FRANCISCO+FERN%C3%81NDEZ+DIEZ%2C28> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+FRANCISCO+FERN%C3%81NDEZ+DIEZ%2C28> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+FRANCISCO+FERN%C3%81NDEZ+DIEZ%2C28> rdfs:label "CALLE FRANCISCO FERNÁNDEZ DIEZ,28" ;
+	vcard:postal-code "24009" ;
+	geo:lat_long "42,58875 ,-5,58986" .
+
+<http://www.semanticweb.org/group9/ontology/LOS+ADILES> a tipo:centro ;
+	rdfs:label "LOS ADILES" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+EL+REMES%C3%93N> ;
+	vcard:hasURL <http://ceiplosadiles.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987307265" ;
+	vcard:hasEmail "24022171@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/VILLAOBISPO+DE+LAS+REGUERAS> a tipo:localidad ;
+	rdfs:label "VILLAOBISPO DE LAS REGUERAS" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+EL+REMES%C3%93N> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+EL+REMES%C3%93N> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+EL+REMES%C3%93N> rdfs:label "CALLE EL REMESÓN" ;
+	vcard:postal-code "24195" ;
+	geo:lat_long "42,6192 ,-5,54718" .
+
+<http://www.semanticweb.org/group9/ontology/LOS+AREVACOS> a tipo:centro ;
+	rdfs:label "LOS AREVACOS" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+TESO+NUEVO%2C13> ;
+	vcard:hasURL <http://www.losarevacos.com> ;
+	vcard:hasTelephone "920300416" ;
+	vcard:hasEmail "05005361@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/AREVALO> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+TESO+NUEVO%2C13> .
+
+<http://www.semanticweb.org/group9/ontology/AVILA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+TESO+NUEVO%2C13> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+TESO+NUEVO%2C13> rdfs:label "CALLE TESO NUEVO,13" ;
+	vcard:postal-code "5200" ;
+	geo:lat_long "41,05617 ,-4,71876" .
+
+<http://www.semanticweb.org/group9/ontology/MANUEL+BARRIO> a tipo:centro ;
+	rdfs:label "MANUEL BARRIO" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+CONXIAL> ;
+	vcard:hasTelephone "987483079" ;
+	vcard:hasEmail "24014216@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/VILLASECA+DE+LACIANA> a tipo:localidad ;
+	rdfs:label "VILLASECA DE LACIANA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+CONXIAL> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+CONXIAL> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+CONXIAL> rdfs:label "CALLE CONXIAL" ;
+	vcard:postal-code "24140" ;
+	geo:lat_long "42,94447 ,-6,25373" .
+
+<http://www.semanticweb.org/group9/ontology/MAR%C3%8DA+D%C3%8DAZ+MU%C3%91OZ> a tipo:centro ;
+	rdfs:label "MARÍA DÍAZ MUÑOZ" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+MONTE+MARIO> ;
+	vcard:hasURL <http://ceipmariadiazmunoz.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "923402830" ;
+	vcard:hasEmail "37000930@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/BEJAR> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+MONTE+MARIO> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+MONTE+MARIO> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+MONTE+MARIO> rdfs:label "CALLE MONTE MARIO" ;
+	vcard:postal-code "37700" ;
+	geo:lat_long "40,38808 ,-5,77295" .
+
+<http://www.semanticweb.org/group9/ontology/MARQU%C3%89S+DE+VALERO> a tipo:centro ;
+	rdfs:label "MARQUÉS DE VALERO" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+SOL%2C15> ;
+	vcard:hasURL <http://cpmarquesdevalero.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "923402132" ;
+	vcard:hasEmail "37000942@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/BEJAR> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+SOL%2C15> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+SOL%2C15> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+SOL%2C15> rdfs:label "CALLE SOL,15" ;
+	vcard:postal-code "37700" ;
+	geo:lat_long "40,38777 ,-5,75859" .
+
+<http://www.semanticweb.org/group9/ontology/MARQU%C3%89S+DEL+ARCO> a tipo:centro ;
+	rdfs:label "MARQUÉS DEL ARCO" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+DE+LOS+MAESTROS%2C2> ;
+	vcard:hasURL <http://ceipmarquesdelarco.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "921406583" ;
+	vcard:hasEmail "40002443@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/SAN+CRISTOBAL+DE+SEGOVIA> a tipo:localidad ;
+	rdfs:label "SAN CRISTOBAL DE SEGOVIA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+DE+LOS+MAESTROS%2C2> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SEGOVIA> .
+
+<http://www.semanticweb.org/group9/ontology/SEGOVIA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+DE+LOS+MAESTROS%2C2> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+DE+LOS+MAESTROS%2C2> rdfs:label "CALLE DE LOS MAESTROS,2" ;
+	vcard:postal-code "40194" ;
+	geo:lat_long "40,95321 ,-4,0787" .
+
+<http://www.semanticweb.org/group9/ontology/MART%C3%8DN+MONREAL> a tipo:centro ;
+	rdfs:label "MARTÍN MONREAL" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+SEVERO+OCHOA> ;
+	vcard:hasURL <http://cpmartinmonreal.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987375575" ;
+	vcard:hasEmail "24015397@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/VEGUELLINA+DE+ORBIGO> a tipo:localidad ;
+	rdfs:label "VEGUELLINA DE ORBIGO" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+SEVERO+OCHOA> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+SEVERO+OCHOA> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+SEVERO+OCHOA> rdfs:label "CALLE SEVERO OCHOA" ;
+	vcard:postal-code "24350" ;
+	geo:lat_long "42,43748 ,-5,88995" .
+
+<http://www.semanticweb.org/group9/ontology/MEN%C3%89NDEZ+PIDAL> a tipo:centro ;
+	rdfs:label "MENÉNDEZ PIDAL" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+BO.DE+LA+ESTACI%C3%93N+DE+MATALLANA> ;
+	vcard:hasURL <http://cpmenendezpidal.educa.jcyl.es> ;
+	vcard:hasTelephone "987591034" ;
+	vcard:hasEmail "24006712@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/ROBLES+DE+LA+VALCUEVA> a tipo:localidad ;
+	rdfs:label "ROBLES DE LA VALCUEVA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+BO.DE+LA+ESTACI%C3%93N+DE+MATALLANA> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+BO.DE+LA+ESTACI%C3%93N+DE+MATALLANA> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+BO.DE+LA+ESTACI%C3%93N+DE+MATALLANA> rdfs:label "CALLE BO.DE LA ESTACIÓN DE MATALLANA" ;
+	vcard:postal-code "24830" ;
+	geo:lat_long "42,84118 ,-5,52176" .
+
+<http://www.semanticweb.org/group9/ontology/MONTE+G%C3%81NDARA> a tipo:centro ;
+	rdfs:label "MONTE GÁNDARA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+MONTE+G%C3%81NDARA> ;
+	vcard:hasURL <http://ceipmontegandara.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "980620233" ;
+	vcard:hasEmail "49001630@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/PUENTE+%28EL%29> a tipo:localidad ;
+	rdfs:label "PUENTE (EL)" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+MONTE+G%C3%81NDARA> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/ZAMORA> .
+
+<http://www.semanticweb.org/group9/ontology/ZAMORA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+MONTE+G%C3%81NDARA> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+MONTE+G%C3%81NDARA> rdfs:label "CALLE MONTE GÁNDARA" ;
+	vcard:postal-code "49350" ;
+	geo:lat_long "42,08618 ,-6,64263" .
+
+<http://www.semanticweb.org/group9/ontology/NEVEROS> a tipo:centro ;
+	rdfs:label "NEVEROS" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+SIM%C3%93N+L%C3%93PEZ%2C9> ;
+	vcard:hasTelephone "923413201" ;
+	vcard:hasEmail "37001582@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/CANDELARIO> a tipo:localidad ;
+	rdfs:label "CANDELARIO" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+SIM%C3%93N+L%C3%93PEZ%2C9> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SALAMANCA> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+SIM%C3%93N+L%C3%93PEZ%2C9> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+SIM%C3%93N+L%C3%93PEZ%2C9> rdfs:label "CALLE SIMÓN LÓPEZ,9" ;
+	vcard:postal-code "37710" ;
+	geo:lat_long "40,3665 ,-5,74438" .
+
+<http://www.semanticweb.org/group9/ontology/NUESTRA+SE%C3%91ORA+DE+LAS+ALTICES> a tipo:centro ;
+	rdfs:label "NUESTRA SEÑORA DE LAS ALTICES" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+F%C3%89LIX+RODR%C3%8DGUEZ+DE+LA+FUENTE> ;
+	vcard:hasURL <http://cpnstrasradelasaltices.centros.educa.jcyl.es/> ;
+	vcard:hasTelephone "947126251" ;
+	vcard:hasEmail "09006497@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/VILLASANA+DE+MENA> a tipo:localidad ;
+	rdfs:label "VILLASANA DE MENA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+F%C3%89LIX+RODR%C3%8DGUEZ+DE+LA+FUENTE> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/BURGOS> .
+
+<http://www.semanticweb.org/group9/ontology/BURGOS> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+F%C3%89LIX+RODR%C3%8DGUEZ+DE+LA+FUENTE> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+F%C3%89LIX+RODR%C3%8DGUEZ+DE+LA+FUENTE> rdfs:label "CALLE FÉLIX RODRÍGUEZ DE LA FUENTE" ;
+	vcard:postal-code "9580" ;
+	geo:lat_long "43,09655 ,-3,28355" .
+
+<http://www.semanticweb.org/group9/ontology/NUESTRA+SE%C3%91ORA+DE+LOS+REMEDIOS> a tipo:centro ;
+	rdfs:label "NUESTRA SEÑORA DE LOS REMEDIOS" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/PLAZA+MIGUEL+DE+UNAMUNO%2C1> ;
+	vcard:hasURL <http://ceipnuestrasenoradelosremedios.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "923440103" ;
+	vcard:hasEmail "37002793@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/FUENTE+DE+SAN+ESTEBAN+%28LA%29> a tipo:localidad ;
+	rdfs:label "FUENTE DE SAN ESTEBAN (LA)" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PLAZA+MIGUEL+DE+UNAMUNO%2C1> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SALAMANCA> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PLAZA+MIGUEL+DE+UNAMUNO%2C1> .
+
+<http://www.semanticweb.org/group9/ontology/PLAZA+MIGUEL+DE+UNAMUNO%2C1> rdfs:label "PLAZA MIGUEL DE UNAMUNO,1" ;
+	vcard:postal-code "37200" ;
+	geo:lat_long "40,79946 ,-6,25596" .
+
+<http://www.semanticweb.org/group9/ontology/NUESTRA+SE%C3%91ORA+DE+RONTE> a tipo:centro ;
+	rdfs:label "NUESTRA SEÑORA DE RONTE" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+ABIA> ;
+	vcard:hasURL <http://ceipnuestrasenoraderonte.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "979817268" ;
+	vcard:hasEmail "34001364@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/OSORNO> a tipo:localidad ;
+	rdfs:label "OSORNO" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+ABIA> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/PALENCIA> .
+
+<http://www.semanticweb.org/group9/ontology/PALENCIA> a tipo:provincia ;
+	rdfs:label "PALENCIA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+ABIA> .
+
+<http://www.semanticweb.org/group9/ontology/CARRETERA+DE+ABIA> rdfs:label "CARRETERA DE ABIA" ;
+	vcard:postal-code "34460" ;
+	geo:lat_long "42,41345 ,-4,36086" .
+
+<http://www.semanticweb.org/group9/ontology/NUESTRA+SE%C3%91ORA+DEL+DUERO> a tipo:centro ;
+	rdfs:label "NUESTRA SEÑORA DEL DUERO" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+REAL%2C115> ;
+	vcard:hasURL <http://cpnuestrasenoradelduero.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "983405136" ;
+	vcard:hasEmail "47003167@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/PUENTE+DUERO-ESPARRAGAL> a tipo:localidad ;
+	rdfs:label "PUENTE DUERO-ESPARRAGAL" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+REAL%2C115> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/VALLADOLID> .
+
+<http://www.semanticweb.org/group9/ontology/VALLADOLID> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+REAL%2C115> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+REAL%2C115> rdfs:label "CALLE REAL,115" ;
+	vcard:postal-code "47152" ;
+	geo:lat_long "41,55289 ,-4,79148" .
+
+<http://www.semanticweb.org/group9/ontology/PADRE+MANJ%C3%93N> a tipo:centro ;
+	rdfs:label "PADRE MANJÓN" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+SAN+JUAN+BOSCO> ;
+	vcard:hasURL <http://cp-padremanjon.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987216466" ;
+	vcard:hasEmail "24005252@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/ARMUNIA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+SAN+JUAN+BOSCO> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+SAN+JUAN+BOSCO> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+SAN+JUAN+BOSCO> rdfs:label "CALLE SAN JUAN BOSCO" ;
+	vcard:postal-code "24009" ;
+	geo:lat_long "42,58145 ,-5,58523" .
+
+<http://www.semanticweb.org/group9/ontology/P%C3%8DO+DEL+R%C3%8DO+HORTEGA> a tipo:centro ;
+	rdfs:label "PÍO DEL RÍO HORTEGA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+SUBIDA+DISTRITO%2CI> ;
+	vcard:hasURL <http://cppiodelriohortega.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "983547103" ;
+	vcard:hasEmail "47002059@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/PORTILLO> a tipo:localidad ;
+	rdfs:label "PORTILLO" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+SUBIDA+DISTRITO%2CI> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/VALLADOLID> .
+
+<http://www.semanticweb.org/group9/ontology/VALLADOLID> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+SUBIDA+DISTRITO%2CI> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+SUBIDA+DISTRITO%2CI> rdfs:label "CALLE SUBIDA DISTRITO,I" ;
+	vcard:postal-code "47160" ;
+	geo:lat_long "41,47636 ,-4,59045" .
+
+<http://www.semanticweb.org/group9/ontology/PRINCESA+DE+ESPA%C3%91A> a tipo:centro ;
+	rdfs:label "PRINCESA DE ESPAÑA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+EL+SOTO> ;
+	vcard:hasURL <http://cpprincesadeespana.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "947131141" ;
+	vcard:hasEmail "09007143@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/VILLARCAYO> a tipo:localidad ;
+	rdfs:label "VILLARCAYO" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+EL+SOTO> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/BURGOS> .
+
+<http://www.semanticweb.org/group9/ontology/BURGOS> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+EL+SOTO> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+EL+SOTO> rdfs:label "CALLE EL SOTO" ;
+	vcard:postal-code "9550" ;
+	geo:lat_long "42,93959 ,-3,57408" .
+
+<http://www.semanticweb.org/group9/ontology/QUINTANADUEÑAS> a tipo:centro ;
+	rdfs:label "QUINTANADUEÑAS" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+DEL+PRADO%2C8> ;
+	vcard:hasURL <http://ceipquintanaduenas.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "947292501" ;
+	vcard:hasEmail "09012266@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" ;
+	a tipo:localidad ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+DEL+PRADO%2C8> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/BURGOS> .
+
+<http://www.semanticweb.org/group9/ontology/BURGOS> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+DEL+PRADO%2C8> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+DEL+PRADO%2C8> rdfs:label "CALLE DEL PRADO,8" ;
+	vcard:postal-code "9197" ;
+	geo:lat_long "42,38347 ,-3,73418" .
+
+<http://www.semanticweb.org/group9/ontology/RAFAEL+ALBERTI> a tipo:centro ;
+	rdfs:label "RAFAEL ALBERTI" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+TRASERA+DEL+TORMES> ;
+	vcard:hasURL <http://ceiprafaelalberti.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "923308445" ;
+	vcard:hasEmail "37009301@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/URBANIZACION+EL+ENCINAR> a tipo:localidad ;
+	rdfs:label "URBANIZACION EL ENCINAR" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+TRASERA+DEL+TORMES> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SALAMANCA> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+TRASERA+DEL+TORMES> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+TRASERA+DEL+TORMES> rdfs:label "CALLE TRASERA DEL TORMES" ;
+	vcard:postal-code "37190" ;
+	geo:lat_long "40,88365 ,-5,58653" .
+
+<http://www.semanticweb.org/group9/ontology/SAN+BERNARDO> a tipo:centro ;
+	rdfs:label "SAN BERNARDO" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/PLAZA+DE+SAN+BERNARDO> ;
+	vcard:hasURL <http://cpsanbernardo.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987467222" ;
+	vcard:hasEmail "24003528@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/SAN+MIGUEL+DE+LAS+DUE%C3%91AS> a tipo:localidad ;
+	rdfs:label "SAN MIGUEL DE LAS DUEÑAS" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PLAZA+DE+SAN+BERNARDO> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PLAZA+DE+SAN+BERNARDO> .
+
+<http://www.semanticweb.org/group9/ontology/PLAZA+DE+SAN+BERNARDO> rdfs:label "PLAZA DE SAN BERNARDO" ;
+	vcard:postal-code "24398" ;
+	geo:lat_long "42,58419 ,-6,523" .
+
+<http://www.semanticweb.org/group9/ontology/SAN+GIL> a tipo:centro ;
+	rdfs:label "SAN GIL" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+BAHAB%C3%93N> ;
+	vcard:hasURL <http://ceipsangil.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "921140554" ;
+	vcard:hasEmail "40004361@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/CUELLAR> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+BAHAB%C3%93N> .
+
+<http://www.semanticweb.org/group9/ontology/SEGOVIA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+BAHAB%C3%93N> .
+
+<http://www.semanticweb.org/group9/ontology/CARRETERA+DE+BAHAB%C3%93N> rdfs:label "CARRETERA DE BAHABÓN" ;
+	vcard:postal-code "40200" ;
+	geo:lat_long "41,4068 ,-4,31632" .
+
+<http://www.semanticweb.org/group9/ontology/SAN+JUAN+BAUTISTA+DE+RODILANA> a tipo:centro ;
+	rdfs:label "SAN JUAN BAUTISTA DE RODILANA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/PLAZA+ROSA+CHACEL> ;
+	vcard:hasURL <http://cpsanjuanbautista.centros.educa.jcyl.es/sitio/> ;
+	vcard:hasTelephone "983804200" ;
+	vcard:hasEmail "47002230@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/RODILANA> a tipo:localidad ;
+	rdfs:label "RODILANA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PLAZA+ROSA+CHACEL> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/VALLADOLID> .
+
+<http://www.semanticweb.org/group9/ontology/VALLADOLID> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PLAZA+ROSA+CHACEL> .
+
+<http://www.semanticweb.org/group9/ontology/PLAZA+ROSA+CHACEL> rdfs:label "PLAZA ROSA CHACEL" ;
+	vcard:postal-code "47492" ;
+	geo:lat_long "41,3715 ,-4,87832" .
+
+<http://www.semanticweb.org/group9/ontology/SAN+MIGUEL+ARC%C3%81NGEL> a tipo:centro ;
+	rdfs:label "SAN MIGUEL ARCÁNGEL" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/PLAZA+SANTA+MAR%C3%8DA> ;
+	vcard:hasTelephone "947150289" ;
+	vcard:hasEmail "09008585@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/ESCALADA> a tipo:localidad ;
+	rdfs:label "ESCALADA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PLAZA+SANTA+MAR%C3%8DA> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/BURGOS> .
+
+<http://www.semanticweb.org/group9/ontology/BURGOS> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PLAZA+SANTA+MAR%C3%8DA> .
+
+<http://www.semanticweb.org/group9/ontology/PLAZA+SANTA+MAR%C3%8DA> rdfs:label "PLAZA SANTA MARÍA" ;
+	vcard:postal-code "9145" ;
+	geo:lat_long "42,80079 ,-3,76994" .
+
+<http://www.semanticweb.org/group9/ontology/SAN+MIGUEL+ARC%C3%81NGEL> tipo:situadoEn <http://www.semanticweb.org/group9/ontology/AVENIDA+DE+GALICIA> ;
+	vcard:hasTelephone "987584021" ;
+	vcard:hasEmail "24016286@educa.jcyl.es" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" .
+
+<http://www.semanticweb.org/group9/ontology/CIÑERA> a tipo:localidad ;
+	rdfs:label "CIÑERA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+DE+GALICIA> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+DE+GALICIA> .
+
+<http://www.semanticweb.org/group9/ontology/AVENIDA+DE+GALICIA> rdfs:label "AVENIDA DE GALICIA" ;
+	vcard:postal-code "24660" ;
+	geo:lat_long "42,88747 ,-5,63925" .
+
+<http://www.semanticweb.org/group9/ontology/SAN+RAFAEL> a tipo:centro ;
+	rdfs:label "SAN RAFAEL" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+CARLOS+MENDOZA> ;
+	vcard:hasURL <http://ceipsanrafael.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "921171887" ;
+	vcard:hasEmail "40001189@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" ;
+	a tipo:localidad ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+CARLOS+MENDOZA> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SEGOVIA> .
+
+<http://www.semanticweb.org/group9/ontology/SEGOVIA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+CARLOS+MENDOZA> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+CARLOS+MENDOZA> rdfs:label "CALLE CARLOS MENDOZA" ;
+	vcard:postal-code "40410" ;
+	geo:lat_long "40,71079 ,-4,18655" .
+
+<http://www.semanticweb.org/group9/ontology/SAN+TIRSO> a tipo:centro ;
+	rdfs:label "SAN TIRSO" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/AVENIDA+R%C3%8DO+CURUE%C3%91O%2C54> ;
+	vcard:hasURL <http://cpsantotirso.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987741138" ;
+	vcard:hasEmail "24013467@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/VECILLA+DE+CURUE%C3%91O+%28LA%29> a tipo:localidad ;
+	rdfs:label "VECILLA DE CURUEÑO (LA)" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+R%C3%8DO+CURUE%C3%91O%2C54> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+R%C3%8DO+CURUE%C3%91O%2C54> .
+
+<http://www.semanticweb.org/group9/ontology/AVENIDA+R%C3%8DO+CURUE%C3%91O%2C54> rdfs:label "AVENIDA RÍO CURUEÑO,54" ;
+	vcard:postal-code "24840" ;
+	geo:lat_long "42,85293 ,-5,41037" .
+
+<http://www.semanticweb.org/group9/ontology/SANTA+B%C3%81RBARA> a tipo:centro ;
+	rdfs:label "SANTA BÁRBARA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/PLAZA+DEL+CAMPO> ;
+	vcard:hasURL <http://cpsantabarbaramatarrosa.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987525004" ;
+	vcard:hasEmail "24011811@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/MATARROSA+DEL+SIL> a tipo:localidad ;
+	rdfs:label "MATARROSA DEL SIL" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PLAZA+DEL+CAMPO> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PLAZA+DEL+CAMPO> .
+
+<http://www.semanticweb.org/group9/ontology/PLAZA+DEL+CAMPO> rdfs:label "PLAZA DEL CAMPO" ;
+	vcard:postal-code "24460" ;
+	geo:lat_long "42,75557 ,-6,53111" .
+
+<http://www.semanticweb.org/group9/ontology/SANTA+CLARA> a tipo:centro ;
+	rdfs:label "SANTA CLARA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+DOCTOR+G%C3%93MEZ+GONZ%C3%81LEZ> ;
+	vcard:hasURL <http://ceipsantaclara.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "921141082" ;
+	vcard:hasEmail "40000975@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/CUELLAR> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+DOCTOR+G%C3%93MEZ+GONZ%C3%81LEZ> .
+
+<http://www.semanticweb.org/group9/ontology/SEGOVIA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+DOCTOR+G%C3%93MEZ+GONZ%C3%81LEZ> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+DOCTOR+G%C3%93MEZ+GONZ%C3%81LEZ> rdfs:label "CALLE DOCTOR GÓMEZ GONZÁLEZ" ;
+	vcard:postal-code "40200" ;
+	geo:lat_long "41,3952 ,-4,3089" .
+
+<http://www.semanticweb.org/group9/ontology/SANTA+MAR%C3%8DA+DE+ARBAS> a tipo:centro ;
+	rdfs:label "SANTA MARÍA DE ARBAS" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/AVENIDA+LA+TERCIA%2C4> ;
+	vcard:hasURL <http://ceipsantamariadearbas.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987598290" ;
+	vcard:hasEmail "24009683@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/VILLAMANIN+DE+LA+TERCIA> a tipo:localidad ;
+	rdfs:label "VILLAMANIN DE LA TERCIA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+LA+TERCIA%2C4> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+LA+TERCIA%2C4> .
+
+<http://www.semanticweb.org/group9/ontology/AVENIDA+LA+TERCIA%2C4> rdfs:label "AVENIDA LA TERCIA,4" ;
+	vcard:postal-code "24680" ;
+	geo:lat_long "42,93945 ,-5,6549" .
+
+<http://www.semanticweb.org/group9/ontology/TREPALIO> a tipo:centro ;
+	rdfs:label "TREPALIO" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+EDUARDO+PASTRANA%2C30> ;
+	vcard:hasURL <http://cptrepalio.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987800278" ;
+	vcard:hasEmail "24010077@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/TROBAJO+DEL+CAMINO> a tipo:localidad ;
+	rdfs:label "TROBAJO DEL CAMINO" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+EDUARDO+PASTRANA%2C30> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+EDUARDO+PASTRANA%2C30> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+EDUARDO+PASTRANA%2C30> rdfs:label "CALLE EDUARDO PASTRANA,30" ;
+	vcard:postal-code "24010" ;
+	geo:lat_long "42,59382 ,-5,60735" .
+
+<http://www.semanticweb.org/group9/ontology/VALLE+DE+LOSA> a tipo:centro ;
+	rdfs:label "VALLE DE LOSA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+BARRIO+SAN+JUAN> ;
+	vcard:hasURL <http://cpvalledelosa.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "947194155" ;
+	vcard:hasEmail "09003290@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/QUINCOCES+DE+YUSO> a tipo:localidad ;
+	rdfs:label "QUINCOCES DE YUSO" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+BARRIO+SAN+JUAN> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/BURGOS> .
+
+<http://www.semanticweb.org/group9/ontology/BURGOS> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+BARRIO+SAN+JUAN> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+BARRIO+SAN+JUAN> rdfs:label "CALLE BARRIO SAN JUAN" ;
+	vcard:postal-code "9510" ;
+	geo:lat_long "42,98966 ,-3,24377" .
+
+<http://www.semanticweb.org/group9/ontology/VALLE+DE+TOBALINA> a tipo:centro ;
+	rdfs:label "VALLE DE TOBALINA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+MAYOR%2C194> ;
+	vcard:hasTelephone "947358753" ;
+	vcard:hasEmail "09006539@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/QUINTANA+MARTIN+GALINDEZ> a tipo:localidad ;
+	rdfs:label "QUINTANA MARTIN GALINDEZ" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+MAYOR%2C194> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/BURGOS> .
+
+<http://www.semanticweb.org/group9/ontology/BURGOS> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+MAYOR%2C194> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+MAYOR%2C194> rdfs:label "CALLE MAYOR,194" ;
+	vcard:postal-code "9210" ;
+	geo:lat_long "42,79353 ,-3,26969" .
+
+<http://www.semanticweb.org/group9/ontology/VILLA+DE+FELIPE+II> a tipo:centro ;
+	rdfs:label "VILLA DE FELIPE II" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+ERAS> ;
+	vcard:hasURL <http://ceipvilladefelipeii.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "923356692" ;
+	vcard:hasEmail "37007687@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/VILLORUELA> a tipo:localidad ;
+	rdfs:label "VILLORUELA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+ERAS> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SALAMANCA> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+ERAS> vcard:postal-code "37338" ;
+	geo:lat_long "41,00676 ,-5,39225" .
+
+<http://www.semanticweb.org/group9/ontology/VILLA+ROMANA> a tipo:centro ;
+	rdfs:label "VILLA ROMANA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+MIGUEL+HERN%C3%81NDEZ> ;
+	vcard:hasURL <http://ceipvillaromana.centros.educa.jcyl.es/sitio/> ;
+	vcard:hasTelephone "987285282" ;
+	vcard:hasEmail "24022249@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/NAVATEJERA> a tipo:localidad ;
+	rdfs:label "NAVATEJERA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+MIGUEL+HERN%C3%81NDEZ> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+MIGUEL+HERN%C3%81NDEZ> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+MIGUEL+HERN%C3%81NDEZ> rdfs:label "CALLE MIGUEL HERNÁNDEZ" ;
+	vcard:postal-code "24193" ;
+	geo:lat_long "42,63075 ,-5,5649" .
+
+<http://www.semanticweb.org/group9/ontology/VIRGEN+DE+LAS+ERAS> a tipo:centro ;
+	rdfs:label "VIRGEN DE LAS ERAS" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+AGUILAR> ;
+	vcard:hasURL <http://ceipvirgendelaseras.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "947453032" ;
+	vcard:hasEmail "09005754@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/SANTIBAÑEZ-ZARZAGUDA> a tipo:localidad ;
+	rdfs:label "SANTIBAÑEZ-ZARZAGUDA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+AGUILAR> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/BURGOS> .
+
+<http://www.semanticweb.org/group9/ontology/BURGOS> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+AGUILAR> .
+
+<http://www.semanticweb.org/group9/ontology/CARRETERA+DE+AGUILAR> rdfs:label "CARRETERA DE AGUILAR" ;
+	vcard:postal-code "9150" ;
+	geo:lat_long "42,48014 ,-3,78342" .
+
+<http://www.semanticweb.org/group9/ontology/VIRGEN+DE+LOS+ESCUDEROS> a tipo:centro ;
+	rdfs:label "VIRGEN DE LOS ESCUDEROS" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+LOS+ESCUDEROS> ;
+	vcard:hasURL <http://ceipvirgendelosescuderos.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "947174139" ;
+	vcard:hasEmail "09005699@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "COLEGIO DE EDUCACION INFANTIL Y PRIMARIA" .
+
+<http://www.semanticweb.org/group9/ontology/SANTA+MARIA+DEL+CAMPO> a tipo:localidad ;
+	rdfs:label "SANTA MARIA DEL CAMPO" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+LOS+ESCUDEROS> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/BURGOS> .
+
+<http://www.semanticweb.org/group9/ontology/BURGOS> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+LOS+ESCUDEROS> .
+
+<http://www.semanticweb.org/group9/ontology/CARRETERA+DE+LOS+ESCUDEROS> rdfs:label "CARRETERA DE LOS ESCUDEROS" ;
+	vcard:postal-code "9342" ;
+	geo:lat_long "42,13027 ,-3,97106" .
+
+<http://www.semanticweb.org/group9/ontology/CAMINO+DE+SANTIAGO> a tipo:centro ;
+	rdfs:label "CAMINO DE SANTIAGO" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/AVENIDA+DE+LA+AVIACI%C3%93N> ;
+	vcard:hasURL <http://ceoaminodesantiago.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987300473" ;
+	vcard:hasEmail "24013315@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "CENTRO DE EDUCACIÓN OBLIGATORIA" .
+
+<http://www.semanticweb.org/group9/ontology/VIRGEN+DEL+CAMINO+%28LA%29> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+DE+LA+AVIACI%C3%93N> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+DE+LA+AVIACI%C3%93N> .
+
+<http://www.semanticweb.org/group9/ontology/AVENIDA+DE+LA+AVIACI%C3%93N> rdfs:label "AVENIDA DE LA AVIACIÓN" ;
+	vcard:postal-code "24198" ;
+	geo:lat_long "42,58278 ,-5,64312" .
+
+<http://www.semanticweb.org/group9/ontology/MIGUEL+DELIBES> a tipo:centro ;
+	rdfs:label "MIGUEL DELIBES" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+DE+SAN+JOS%C3%89+DE+CALASANZ> ;
+	vcard:hasURL <http://ceomigueldelibes.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "923555230" ;
+	vcard:hasEmail "37009532@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "CENTRO DE EDUCACIÓN OBLIGATORIA" .
+
+<http://www.semanticweb.org/group9/ontology/MACOTERA> a tipo:localidad ;
+	rdfs:label "MACOTERA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+DE+SAN+JOS%C3%89+DE+CALASANZ> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SALAMANCA> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+DE+SAN+JOS%C3%89+DE+CALASANZ> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+DE+SAN+JOS%C3%89+DE+CALASANZ> rdfs:label "CALLE DE SAN JOSÉ DE CALASANZ" ;
+	vcard:postal-code "37310" ;
+	geo:lat_long "40,82852 ,-5,28088" .
+
+<http://www.semanticweb.org/group9/ontology/SAN+JUAN> a tipo:centro ;
+	rdfs:label "SAN JUAN" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+MANUEL+GULLON> ;
+	vcard:hasURL <http://ceosanjuan.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987371109" ;
+	vcard:hasEmail "24001106@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "CENTRO DE EDUCACIÓN OBLIGATORIA" .
+
+<http://www.semanticweb.org/group9/ontology/BENAVIDES+DE+ORBIGO> a tipo:localidad ;
+	rdfs:label "BENAVIDES DE ORBIGO" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+MANUEL+GULLON> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+MANUEL+GULLON> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+MANUEL+GULLON> rdfs:label "CALLE MANUEL GULLON" ;
+	vcard:postal-code "24280" ;
+	geo:lat_long "42,5048 ,-5,89857" .
+
+<http://www.semanticweb.org/group9/ontology/ANTONIO+HERRERA> a tipo:centro ;
+	rdfs:label "ANTONIO HERRERA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+PALACIO%2C6> ;
+	vcard:hasURL <http://ceaantonioherrera.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "921142331" ;
+	vcard:hasEmail "40004804@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "CENTRO PUBLICO DE EDUCACION DE PERSONAS ADULTAS" .
+
+<http://www.semanticweb.org/group9/ontology/CUELLAR> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+PALACIO%2C6> .
+
+<http://www.semanticweb.org/group9/ontology/SEGOVIA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+PALACIO%2C6> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+PALACIO%2C6> rdfs:label "CALLE PALACIO,6" ;
+	vcard:postal-code "40200" ;
+	geo:lat_long "41,40122 ,-4,31632" .
+
+<http://www.semanticweb.org/group9/ontology/CENTRO+DE+ADULTOS+DE+AR%C3%89VALO> a tipo:centro ;
+	rdfs:label "CENTRO DE ADULTOS DE ARÉVALO" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/AVENIDA+SEVERO+OCHOA%2C2> ;
+	vcard:hasTelephone "920302259" ;
+	vcard:hasEmail "05006545@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "CENTRO PUBLICO DE EDUCACION DE PERSONAS ADULTAS" .
+
+<http://www.semanticweb.org/group9/ontology/AREVALO> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+SEVERO+OCHOA%2C2> .
+
+<http://www.semanticweb.org/group9/ontology/AVILA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+SEVERO+OCHOA%2C2> .
+
+<http://www.semanticweb.org/group9/ontology/AVENIDA+SEVERO+OCHOA%2C2> rdfs:label "AVENIDA SEVERO OCHOA,2" ;
+	vcard:postal-code "5200" ;
+	geo:lat_long "41,05499 ,-4,71447" .
+
+<http://www.semanticweb.org/group9/ontology/CENTRO+DE+ADULTOS+DE+SAN+ILDEFONSO+-+LA+GRANJA> a tipo:centro ;
+	rdfs:label "CENTRO DE ADULTOS DE SAN ILDEFONSO - LA GRANJA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/PLAZA+DE+MATADERO> ;
+	vcard:hasURL <http://cepasanildefonso.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "921472333" ;
+	vcard:hasEmail "40008378@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "CENTRO PUBLICO DE EDUCACION DE PERSONAS ADULTAS" .
+
+<http://www.semanticweb.org/group9/ontology/SAN+ILDEFONSO+O+LA+GRANJA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PLAZA+DE+MATADERO> .
+
+<http://www.semanticweb.org/group9/ontology/SEGOVIA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PLAZA+DE+MATADERO> .
+
+<http://www.semanticweb.org/group9/ontology/PLAZA+DE+MATADERO> rdfs:label "PLAZA DE MATADERO" ;
+	vcard:postal-code "40100" ;
+	geo:lat_long "40,9026 ,-4,0052" .
+
+<http://www.semanticweb.org/group9/ontology/CONCHA+CASADO> a tipo:centro ;
+	rdfs:label "CONCHA CASADO" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+CARDENAL+CISNEROS%2C51> ;
+	vcard:hasURL <http://cepasanandres.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987876610" ;
+	vcard:hasEmail "24018659@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "CENTRO PUBLICO DE EDUCACION DE PERSONAS ADULTAS" .
+
+<http://www.semanticweb.org/group9/ontology/TROBAJO+DEL+CAMINO> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+CARDENAL+CISNEROS%2C51> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+CARDENAL+CISNEROS%2C51> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+CARDENAL+CISNEROS%2C51> rdfs:label "CALLE CARDENAL CISNEROS,51" ;
+	vcard:postal-code "24010" ;
+	geo:lat_long "42,601 ,-5,59137" .
+
+<http://www.semanticweb.org/group9/ontology/MATEO+HERN%C3%81NDEZ> a tipo:centro ;
+	rdfs:label "MATEO HERNÁNDEZ" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+SAN+ANTONIO+DE+TEXAS%2C2> ;
+	vcard:hasTelephone "923401451" ;
+	vcard:hasEmail "37008746@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "CENTRO PUBLICO DE EDUCACION DE PERSONAS ADULTAS" .
+
+<http://www.semanticweb.org/group9/ontology/BEJAR> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+SAN+ANTONIO+DE+TEXAS%2C2> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+SAN+ANTONIO+DE+TEXAS%2C2> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+SAN+ANTONIO+DE+TEXAS%2C2> rdfs:label "CALLE SAN ANTONIO DE TEXAS,2" ;
+	vcard:postal-code "37700" ;
+	geo:lat_long "40,3875 ,-5,75996" .
+
+<http://www.semanticweb.org/group9/ontology/CIUDAD+DE+B%C3%89JAR> a tipo:centro ;
+	rdfs:label "CIUDAD DE BÉJAR" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+Z%C3%9A%C3%91IGA+RODR%C3%8DGUEZ%2C27> ;
+	vcard:hasURL <http://cifpbejar.centros.educa.jcyl.es/sitio/index.cgi> ;
+	vcard:hasTelephone "923400750" ;
+	vcard:hasEmail "37013626@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "CENTRO PUBLICO INTEGRADO DE FORMACION PROFESIONAL" .
+
+<http://www.semanticweb.org/group9/ontology/BEJAR> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+Z%C3%9A%C3%91IGA+RODR%C3%8DGUEZ%2C27> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+Z%C3%9A%C3%91IGA+RODR%C3%8DGUEZ%2C27> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+Z%C3%9A%C3%91IGA+RODR%C3%8DGUEZ%2C27> rdfs:label "CALLE ZÚÑIGA RODRÍGUEZ,27" ;
+	vcard:postal-code "37700" ;
+	geo:lat_long "40,38515 ,-5,76173" .
+
+<http://www.semanticweb.org/group9/ontology/AMOR+DE+DIOS> a tipo:centro ;
+	rdfs:label "AMOR DE DIOS" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/AVENIDA+EMILIO+ROMERO%2C45> ;
+	vcard:hasURL <http://www.colegioamordedios.com> ;
+	vcard:hasTelephone "920300126" ;
+	vcard:hasEmail "05000415@educa.jcyl.es" ;
+	tipo:Naturaleza "PRIVADO" ;
+	tipo:Internado "Internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "Concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "CENTRO PRIVADO DE EDUCACION INFANTIL PRIMARIA Y SECUNDARIA" .
+
+<http://www.semanticweb.org/group9/ontology/AREVALO> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+EMILIO+ROMERO%2C45> .
+
+<http://www.semanticweb.org/group9/ontology/AVILA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+EMILIO+ROMERO%2C45> .
+
+<http://www.semanticweb.org/group9/ontology/AVENIDA+EMILIO+ROMERO%2C45> rdfs:label "AVENIDA EMILIO ROMERO,45" ;
+	vcard:postal-code "5200" ;
+	geo:lat_long "41,05608 ,-4,71383" .
+
+<http://www.semanticweb.org/group9/ontology/LA+ASUNCI%C3%93N> a tipo:centro ;
+	rdfs:label "LA ASUNCIÓN" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+LA+ASUNCI%C3%93N%2C6> ;
+	vcard:hasURL <http://www.ponfeasuncion.es> ;
+	vcard:hasTelephone "987411868" ;
+	vcard:hasEmail "24008061@educa.jcyl.es" ;
+	tipo:Naturaleza "PRIVADO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "Concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "CENTRO PRIVADO DE EDUCACION INFANTIL PRIMARIA Y SECUNDARIA" .
+
+<http://www.semanticweb.org/group9/ontology/FLORES+DEL+SIL> a tipo:localidad ;
+	rdfs:label "FLORES DEL SIL" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LA+ASUNCI%C3%93N%2C6> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LA+ASUNCI%C3%93N%2C6> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+LA+ASUNCI%C3%93N%2C6> rdfs:label "CALLE LA ASUNCIÓN,6" ;
+	vcard:postal-code "24403" ;
+	geo:lat_long "42,54509 ,-6,61177" .
+
+<http://www.semanticweb.org/group9/ontology/MAR%C3%8DA+AUXILIADORA> a tipo:centro ;
+	rdfs:label "MARÍA AUXILIADORA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+RONDA+DE+NAVARRA%2C33> ;
+	vcard:hasURL <http://www.salesianasbejar.org> ;
+	vcard:hasTelephone "923401110" ;
+	vcard:hasEmail "37000978@educa.jcyl.es" ;
+	tipo:Naturaleza "PRIVADO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "Concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "CENTRO PRIVADO DE EDUCACION INFANTIL PRIMARIA Y SECUNDARIA" .
+
+<http://www.semanticweb.org/group9/ontology/BEJAR> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+RONDA+DE+NAVARRA%2C33> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+RONDA+DE+NAVARRA%2C33> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+RONDA+DE+NAVARRA%2C33> rdfs:label "CALLE RONDA DE NAVARRA,33" ;
+	vcard:postal-code "37700" ;
+	geo:lat_long "40,38795 ,-5,76578" .
+
+<http://www.semanticweb.org/group9/ontology/NUESTRA+SE%C3%91ORA+DEL+CASTA%C3%91AR> a tipo:centro ;
+	rdfs:label "NUESTRA SEÑORA DEL CASTAÑAR" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+COL%C3%93N%2C8> ;
+	vcard:hasTelephone "923400363" ;
+	vcard:hasEmail "37000981@educa.jcyl.es" ;
+	tipo:Naturaleza "PRIVADO" ;
+	tipo:Internado "Internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "Concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "CENTRO PRIVADO DE EDUCACION INFANTIL PRIMARIA Y SECUNDARIA" .
+
+<http://www.semanticweb.org/group9/ontology/BEJAR> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+COL%C3%93N%2C8> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+COL%C3%93N%2C8> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+COL%C3%93N%2C8> rdfs:label "CALLE COLÓN,8" ;
+	vcard:postal-code "37700" ;
+	geo:lat_long "40,38654 ,-5,7708" .
+
+<http://www.semanticweb.org/group9/ontology/SEMINARIO+AMOR+MISERICORDIOSO> a tipo:centro ;
+	rdfs:label "SEMINARIO AMOR MISERICORDIOSO" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+LAS+BODEGAS> ;
+	vcard:hasTelephone "987667066" ;
+	vcard:hasEmail "24000114@educa.jcyl.es" ;
+	tipo:Naturaleza "PRIVADO" ;
+	tipo:Internado "Internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "CENTRO PRIVADO DE EDUCACION PRIMARIA Y SECUNDARIA" .
+
+<http://www.semanticweb.org/group9/ontology/NORA+DEL+RIO+%28LA%29> a tipo:localidad ;
+	rdfs:label "NORA DEL RIO (LA)" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LAS+BODEGAS> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LAS+BODEGAS> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+LAS+BODEGAS> rdfs:label "CALLE LAS BODEGAS" ;
+	vcard:postal-code "24792" ;
+	geo:lat_long "42,16677 ,-5,82553" .
+
+<http://www.semanticweb.org/group9/ontology/SEMINARIO+SAN+GABRIEL> a tipo:centro ;
+	rdfs:label "SEMINARIO SAN GABRIEL" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+ARANDA-LA+AGUILERA> ;
+	vcard:hasURL <http://www.colegiosangabriel.es> ;
+	vcard:hasTelephone "947545006" ;
+	vcard:hasEmail "09000057@educa.jcyl.es" ;
+	tipo:Naturaleza "PRIVADO" ;
+	tipo:Internado "Internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "CENTRO PRIVADO DE EDUCACION PRIMARIA Y SECUNDARIA" .
+
+<http://www.semanticweb.org/group9/ontology/AGUILERA+%28LA%29> a tipo:localidad ;
+	rdfs:label "AGUILERA (LA)" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+ARANDA-LA+AGUILERA> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/BURGOS> .
+
+<http://www.semanticweb.org/group9/ontology/BURGOS> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+ARANDA-LA+AGUILERA> .
+
+<http://www.semanticweb.org/group9/ontology/CARRETERA+DE+ARANDA-LA+AGUILERA> rdfs:label "CARRETERA DE ARANDA-LA AGUILERA" ;
+	vcard:postal-code "9440" ;
+	geo:lat_long "41,72392 ,-3,76831" .
+
+<http://www.semanticweb.org/group9/ontology/SEMINARIO+SAN+JUAN+BOSCO> a tipo:centro ;
+	rdfs:label "SEMINARIO SAN JUAN BOSCO" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/PASEO+DE+SAN+JUAN+BOSCO%2C1> ;
+	vcard:hasURL <http://www.salesianosarevalo.com> ;
+	vcard:hasTelephone "920300087" ;
+	vcard:hasEmail "05000397@educa.jcyl.es" ;
+	tipo:Naturaleza "PRIVADO" ;
+	tipo:Internado "Internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "CENTRO PRIVADO DE EDUCACION PRIMARIA Y SECUNDARIA" .
+
+<http://www.semanticweb.org/group9/ontology/AREVALO> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PASEO+DE+SAN+JUAN+BOSCO%2C1> .
+
+<http://www.semanticweb.org/group9/ontology/AVILA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PASEO+DE+SAN+JUAN+BOSCO%2C1> .
+
+<http://www.semanticweb.org/group9/ontology/PASEO+DE+SAN+JUAN+BOSCO%2C1> rdfs:label "PASEO DE SAN JUAN BOSCO,1" ;
+	vcard:postal-code "5200" ;
+	geo:lat_long "41,05507 ,-4,72037" .
+
+<http://www.semanticweb.org/group9/ontology/ARCO+IRIS> a tipo:centro ;
+	rdfs:label "ARCO IRIS" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+EL+OTERO> ;
+	vcard:hasTelephone "987285941" ;
+	vcard:hasEmail "24021932@educa.jcyl.es" ;
+	tipo:Naturaleza "PRIVADO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "CENTRO PRIVADO DE EDUCACION INFANTIL" .
+
+<http://www.semanticweb.org/group9/ontology/NAVATEJERA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+EL+OTERO> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+EL+OTERO> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+EL+OTERO> rdfs:label "CALLE EL OTERO" ;
+	vcard:postal-code "24193" ;
+	geo:lat_long "42,6248 ,-5,56734" .
+
+<http://www.semanticweb.org/group9/ontology/DUENDES> a tipo:centro ;
+	rdfs:label "DUENDES" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+CAMINO+DE+LA+ERMITA> ;
+	vcard:hasTelephone "983586555" ;
+	vcard:hasEmail "47007550@educa.jcyl.es" ;
+	tipo:Naturaleza "PRIVADO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "CENTRO PRIVADO DE EDUCACION INFANTIL" .
+
+<http://www.semanticweb.org/group9/ontology/CIGALES> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+CAMINO+DE+LA+ERMITA> .
+
+<http://www.semanticweb.org/group9/ontology/VALLADOLID> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+CAMINO+DE+LA+ERMITA> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+CAMINO+DE+LA+ERMITA> rdfs:label "CALLE CAMINO DE LA ERMITA" ;
+	vcard:postal-code "47270" ;
+	geo:lat_long "41,75641 ,-4,70423" .
+
+<http://www.semanticweb.org/group9/ontology/PIOLÍN> a tipo:centro ;
+	rdfs:label "PIOLÍN" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/URBANIZACION+SAN+LUIS%2C16> ;
+	vcard:hasTelephone "921470305" ;
+	vcard:hasEmail "40002923@educa.jcyl.es" ;
+	tipo:Naturaleza "PRIVADO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "CENTRO PRIVADO DE EDUCACION INFANTIL" .
+
+<http://www.semanticweb.org/group9/ontology/SAN+ILDEFONSO+O+LA+GRANJA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/URBANIZACION+SAN+LUIS%2C16> .
+
+<http://www.semanticweb.org/group9/ontology/SEGOVIA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/URBANIZACION+SAN+LUIS%2C16> .
+
+<http://www.semanticweb.org/group9/ontology/URBANIZACION+SAN+LUIS%2C16> rdfs:label "URBANIZACION SAN LUIS,16" ;
+	vcard:postal-code "40100" ;
+	geo:lat_long "40,91001 ,-4,00809" .
+
+<http://www.semanticweb.org/group9/ontology/LORENZO+MILANI> a tipo:centro ;
+	rdfs:label "LORENZO MILANI" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+PARAJE+ALDEHUELA+DE+LOS+GUZMANES> ;
+	vcard:hasURL <http://www..fpmilani.com> ;
+	vcard:hasTelephone "923180831" ;
+	vcard:hasEmail "37008394@educa.jcyl.es" ;
+	tipo:Naturaleza "PRIVADO" ;
+	tipo:Internado "Internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "Concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "CENTRO PRIVADO INTEGRADO DE FORMACION PROFESIONAL" .
+
+<http://www.semanticweb.org/group9/ontology/ALDEHUELA+DE+LOS+GUZMANES> a tipo:localidad ;
+	rdfs:label "ALDEHUELA DE LOS GUZMANES" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+PARAJE+ALDEHUELA+DE+LOS+GUZMANES> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SALAMANCA> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+PARAJE+ALDEHUELA+DE+LOS+GUZMANES> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+PARAJE+ALDEHUELA+DE+LOS+GUZMANES> rdfs:label "CALLE PARAJE ALDEHUELA DE LOS GUZMANES" ;
+	vcard:postal-code "37193" ;
+	geo:lat_long "40,96638 ,-5,62486" .
+
+<http://www.semanticweb.org/group9/ontology/SAN+GABRIEL> a tipo:centro ;
+	rdfs:label "SAN GABRIEL" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CARRETERA+DE+ARANDA-LA+AGUILERA> ;
+	vcard:hasURL <http://www.colegiosangabriel.es> ;
+	vcard:hasTelephone "947545006" ;
+	vcard:hasEmail "09012072@educa.jcyl.es" ;
+	tipo:Naturaleza "PRIVADO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "Tiene Ruta" ;
+	tipo:Concertado "Concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "CENTRO PRIVADO INTEGRADO DE FORMACION PROFESIONAL" .
+
+<http://www.semanticweb.org/group9/ontology/CENTRO+DE+FORMACI%C3%93N+AGRARIA+DE+ALM%C3%81ZCARA> a tipo:centro ;
+	rdfs:label "CENTRO DE FORMACIÓN AGRARIA DE ALMÁZCARA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/FINCA+LA+DEHESA> ;
+	vcard:hasURL <http://cfaalmazcara.centros.educa.jcyl.es> ;
+	vcard:hasTelephone "987467377" ;
+	vcard:hasEmail "24016237@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "Internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "ESCUELA DE CAPACITACION AGRARIA" .
+
+<http://www.semanticweb.org/group9/ontology/ALMAZCARA> a tipo:localidad ;
+	rdfs:label "ALMAZCARA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/FINCA+LA+DEHESA> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/LEON> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/FINCA+LA+DEHESA> .
+
+<http://www.semanticweb.org/group9/ontology/FINCA+LA+DEHESA> rdfs:label "FINCA LA DEHESA" ;
+	vcard:postal-code "24398" ;
+	geo:lat_long "42,59427 ,-6,50487" .
+
+<http://www.semanticweb.org/group9/ontology/AGAPITO+MARAZUELA> tipo:situadoEn <http://www.semanticweb.org/group9/ontology/PASEO+JUAN+DE+VILLANUEVA%2C3> ;
+	vcard:hasTelephone "921470703" ;
+	vcard:hasEmail "40008500@educa.jcyl.es" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "ESCUELA DE EDUCACION INFANTIL" .
+
+<http://www.semanticweb.org/group9/ontology/SAN+ILDEFONSO+O+LA+GRANJA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PASEO+JUAN+DE+VILLANUEVA%2C3> .
+
+<http://www.semanticweb.org/group9/ontology/SEGOVIA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PASEO+JUAN+DE+VILLANUEVA%2C3> .
+
+<http://www.semanticweb.org/group9/ontology/PASEO+JUAN+DE+VILLANUEVA%2C3> rdfs:label "PASEO JUAN DE VILLANUEVA,3" ;
+	vcard:postal-code "40100" ;
+	geo:lat_long "40,90193 ,-4,01132" .
+
+<http://www.semanticweb.org/group9/ontology/ALTO+SOL> a tipo:centro ;
+	rdfs:label "ALTO SOL" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+LA+SANTINA%2C2> ;
+	vcard:hasTelephone "987286217" ;
+	vcard:hasEmail "24022316@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "ESCUELA DE EDUCACION INFANTIL" .
+
+<http://www.semanticweb.org/group9/ontology/NAVATEJERA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LA+SANTINA%2C2> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LA+SANTINA%2C2> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+LA+SANTINA%2C2> rdfs:label "CALLE LA SANTINA,2" ;
+	vcard:postal-code "24193" ;
+	geo:lat_long "42,63421 ,-5,56296" .
+
+<http://www.semanticweb.org/group9/ontology/AREVALILLO> a tipo:centro ;
+	rdfs:label "AREVALILLO" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+REYES+CAT%C3%93LICOS%2C4> ;
+	vcard:hasURL <http://www.guarderias-infantiles.com/guarderias-avila/guarderias-arevalillo/> ;
+	vcard:hasTelephone "920328033" ;
+	vcard:hasEmail "05009819@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "ESCUELA DE EDUCACION INFANTIL" .
+
+<http://www.semanticweb.org/group9/ontology/AREVALO> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+REYES+CAT%C3%93LICOS%2C4> .
+
+<http://www.semanticweb.org/group9/ontology/AVILA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+REYES+CAT%C3%93LICOS%2C4> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+REYES+CAT%C3%93LICOS%2C4> rdfs:label "CALLE REYES CATÓLICOS,4" ;
+	vcard:postal-code "5200" ;
+	geo:lat_long "41,05323 ,-4,71726" .
+
+<http://www.semanticweb.org/group9/ontology/BARTOLILL@S> a tipo:centro ;
+	rdfs:label "BARTOLILL@S" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/AVENIDA+SIERRA+DE+FRANCIA%2C56> ;
+	vcard:hasURL <http://www.todoeduca.com/> ;
+	vcard:hasTelephone "923592129" ;
+	vcard:hasEmail "37013730@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "ESCUELA DE EDUCACION INFANTIL" .
+
+<http://www.semanticweb.org/group9/ontology/SANTOS+%28LOS%29> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+SIERRA+DE+FRANCIA%2C56> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+SIERRA+DE+FRANCIA%2C56> .
+
+<http://www.semanticweb.org/group9/ontology/AVENIDA+SIERRA+DE+FRANCIA%2C56> rdfs:label "AVENIDA SIERRA DE FRANCIA,56" ;
+	vcard:postal-code "37768" ;
+	geo:lat_long "40,54208 ,-5,80267" .
+
+<http://www.semanticweb.org/group9/ontology/EL+BOSQUE+DEL+ENCINAR> a tipo:centro ;
+	rdfs:label "EL BOSQUE DEL ENCINAR" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/PASEO+DE+PONIENTE%2C2> ;
+	vcard:hasTelephone "618742149" ;
+	vcard:hasEmail "37013638@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "ESCUELA DE EDUCACION INFANTIL" .
+
+<http://www.semanticweb.org/group9/ontology/TERRADILLOS> a tipo:localidad ;
+	rdfs:label "TERRADILLOS" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PASEO+DE+PONIENTE%2C2> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SALAMANCA> .
+
+<http://www.semanticweb.org/group9/ontology/SALAMANCA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/PASEO+DE+PONIENTE%2C2> .
+
+<http://www.semanticweb.org/group9/ontology/PASEO+DE+PONIENTE%2C2> rdfs:label "PASEO DE PONIENTE,2" ;
+	vcard:postal-code "37882" ;
+	geo:lat_long "40,87997 ,-5,58245" .
+
+<http://www.semanticweb.org/group9/ontology/EL+JARDIN+DE+LA+VEGA> a tipo:centro ;
+	rdfs:label "EL JARDIN DE LA VEGA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/AVENIDA+DEL+ESCRIBANO> ;
+	vcard:hasTelephone "987370003" ;
+	vcard:hasEmail "24022407@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "ESCUELA DE EDUCACION INFANTIL" .
+
+<http://www.semanticweb.org/group9/ontology/BENAVIDES+DE+ORBIGO> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+DEL+ESCRIBANO> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/AVENIDA+DEL+ESCRIBANO> .
+
+<http://www.semanticweb.org/group9/ontology/AVENIDA+DEL+ESCRIBANO> rdfs:label "AVENIDA DEL ESCRIBANO" ;
+	vcard:postal-code "24280" ;
+	geo:lat_long "42,59873 ,-5,5671" .
+
+<http://www.semanticweb.org/group9/ontology/EL+VALLE+DE+LOS+PITUFOS> a tipo:centro ;
+	rdfs:label "EL VALLE DE LOS PITUFOS" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+PLAZA%2C1> ;
+	vcard:hasTelephone "975250289" ;
+	vcard:hasEmail "42007304@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "ESCUELA DE EDUCACION INFANTIL" .
+
+<http://www.semanticweb.org/group9/ontology/TERA> a tipo:localidad ;
+	rdfs:label "TERA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+PLAZA%2C1> ;
+	tipo:estaLocalizadaEn <http://www.semanticweb.org/group9/ontology/SORIA> .
+
+<http://www.semanticweb.org/group9/ontology/SORIA> a tipo:provincia ;
+	rdfs:label "SORIA" ;
+	tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+PLAZA%2C1> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+PLAZA%2C1> rdfs:label "CALLE PLAZA,1" ;
+	vcard:postal-code "42169" ;
+	geo:lat_long "41,94663 ,-2,47903" .
+
+<http://www.semanticweb.org/group9/ontology/ESCUELA+INFANTIL+DE+%C3%8DSCAR> a tipo:centro ;
+	rdfs:label "ESCUELA INFANTIL DE ÍSCAR" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+PALOMARES%2C45> ;
+	vcard:hasTelephone "983612664" ;
+	vcard:hasEmail "47011051@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "ESCUELA DE EDUCACION INFANTIL" .
+
+<http://www.semanticweb.org/group9/ontology/ISCAR> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+PALOMARES%2C45> .
+
+<http://www.semanticweb.org/group9/ontology/VALLADOLID> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+PALOMARES%2C45> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+PALOMARES%2C45> rdfs:label "CALLE PALOMARES,45" ;
+	vcard:postal-code "47420" ;
+	geo:lat_long "41,3599 ,-4,5313" .
+
+<http://www.semanticweb.org/group9/ontology/HERMANA+CARMEN+G%C3%93MEZ> a tipo:centro ;
+	rdfs:label "HERMANA CARMEN GÓMEZ" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+LIMONAR+DE+CUBA> ;
+	vcard:hasTelephone "987840017" ;
+	vcard:hasEmail "24022067@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Mañana y tarde" ;
+	tipo:Denominacion "ESCUELA DE EDUCACION INFANTIL" .
+
+<http://www.semanticweb.org/group9/ontology/TROBAJO+DEL+CAMINO> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LIMONAR+DE+CUBA> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LIMONAR+DE+CUBA> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+LIMONAR+DE+CUBA> rdfs:label "CALLE LIMONAR DE CUBA" ;
+	vcard:postal-code "24010" ;
+	geo:lat_long "42,59449 ,-5,60707" .
+
+<http://www.semanticweb.org/group9/ontology/LA+CASITA+DE+PAULA> a tipo:centro ;
+	rdfs:label "LA CASITA DE PAULA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+ESTRELLA+POLAR%2C18> ;
+	vcard:hasTelephone "947292865" ;
+	vcard:hasEmail "09012357@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "ESCUELA DE EDUCACION INFANTIL" .
+
+<http://www.semanticweb.org/group9/ontology/QUINTANADUEÑAS> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+ESTRELLA+POLAR%2C18> .
+
+<http://www.semanticweb.org/group9/ontology/BURGOS> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+ESTRELLA+POLAR%2C18> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+ESTRELLA+POLAR%2C18> rdfs:label "CALLE ESTRELLA POLAR,18" ;
+	vcard:postal-code "9197" ;
+	geo:lat_long "42,38802 ,-3,7326" .
+
+<http://www.semanticweb.org/group9/ontology/MI+COLE> a tipo:centro ;
+	rdfs:label "MI COLE" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+ALF%C3%89REZ+SANTIUSTE%2C5> ;
+	vcard:hasTelephone "947174132" ;
+	vcard:hasEmail "09012539@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "ESCUELA DE EDUCACION INFANTIL" .
+
+<http://www.semanticweb.org/group9/ontology/SANTA+MARIA+DEL+CAMPO> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+ALF%C3%89REZ+SANTIUSTE%2C5> .
+
+<http://www.semanticweb.org/group9/ontology/BURGOS> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+ALF%C3%89REZ+SANTIUSTE%2C5> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+ALF%C3%89REZ+SANTIUSTE%2C5> rdfs:label "CALLE ALFÉREZ SANTIUSTE,5" ;
+	vcard:postal-code "9342" ;
+	geo:lat_long "42,34399 ,-3,69691" .
+
+<http://www.semanticweb.org/group9/ontology/NUEVO+AMANECER> a tipo:centro ;
+	rdfs:label "NUEVO AMANECER" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+RAM%C3%93N+Y+CAJAL%2C9> ;
+	vcard:hasTelephone "987307042" ;
+	vcard:hasEmail "24021956@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "ESCUELA DE EDUCACION INFANTIL" .
+
+<http://www.semanticweb.org/group9/ontology/VILLAOBISPO+DE+LAS+REGUERAS> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+RAM%C3%93N+Y+CAJAL%2C9> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+RAM%C3%93N+Y+CAJAL%2C9> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+RAM%C3%93N+Y+CAJAL%2C9> rdfs:label "CALLE RAMÓN Y CAJAL,9" ;
+	vcard:postal-code "24007" ;
+	geo:lat_long "42,61058 ,-5,55086" .
+
+<http://www.semanticweb.org/group9/ontology/SAN+FRANCISCO+DE+ASIS> a tipo:centro ;
+	rdfs:label "SAN FRANCISCO DE ASIS" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+MONTE+MARIO> ;
+	vcard:hasTelephone "923402121" ;
+	vcard:hasEmail "37013249@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "ESCUELA DE EDUCACION INFANTIL" .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+MONTE+MARIO> geo:lat_long "40,38499 ,-5,75173" .
+
+<http://www.semanticweb.org/group9/ontology/SANTA+MARGARITA> a tipo:centro ;
+	rdfs:label "SANTA MARGARITA" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+SAN+JUAN+BOSCO%2C6> ;
+	vcard:hasURL <http://www.aytoleon.es/> ;
+	vcard:hasTelephone "987204933" ;
+	vcard:hasEmail "24022389@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "ESCUELA DE EDUCACION INFANTIL" .
+
+<http://www.semanticweb.org/group9/ontology/ARMUNIA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+SAN+JUAN+BOSCO%2C6> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+SAN+JUAN+BOSCO%2C6> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+SAN+JUAN+BOSCO%2C6> rdfs:label "CALLE SAN JUAN BOSCO,6" ;
+	vcard:postal-code "24009" ;
+	geo:lat_long "42,58175 ,-5,58568" .
+
+<http://www.semanticweb.org/group9/ontology/TRAVIESOS> a tipo:centro ;
+	rdfs:label "TRAVIESOS" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CARRETERA+VALORIA+DEL+ALCOR> ;
+	vcard:hasTelephone "983586660" ;
+	vcard:hasEmail "47011504@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "Tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "ESCUELA DE EDUCACION INFANTIL" .
+
+<http://www.semanticweb.org/group9/ontology/CIGALES> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CARRETERA+VALORIA+DEL+ALCOR> .
+
+<http://www.semanticweb.org/group9/ontology/VALLADOLID> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CARRETERA+VALORIA+DEL+ALCOR> .
+
+<http://www.semanticweb.org/group9/ontology/CARRETERA+VALORIA+DEL+ALCOR> rdfs:label "CARRETERA VALORIA DEL ALCOR" ;
+	vcard:postal-code "47270" ;
+	geo:lat_long "41,76218 ,-4,70284" .
+
+<http://www.semanticweb.org/group9/ontology/CECILIO+DE+BENITO> a tipo:centro ;
+	rdfs:label "CECILIO DE BENITO" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+CHORRETONES%2C1> ;
+	vcard:hasTelephone "921140014" ;
+	vcard:hasEmail "40008317@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "ESCUELA DE MUSICA" .
+
+<http://www.semanticweb.org/group9/ontology/CUELLAR> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+CHORRETONES%2C1> .
+
+<http://www.semanticweb.org/group9/ontology/SEGOVIA> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+CHORRETONES%2C1> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+CHORRETONES%2C1> rdfs:label "CALLE CHORRETONES,1" ;
+	vcard:postal-code "40200" ;
+	geo:lat_long "41,39943 ,-4,31213" .
+
+<http://www.semanticweb.org/group9/ontology/ESCUELA+DE+M%C3%9ASICA+DE+ALFOZ+DE+QUINTANADUE%C3%91AS> a tipo:centro ;
+	rdfs:label "ESCUELA DE MÚSICA DE ALFOZ DE QUINTANADUEÑAS" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+LAS+VIOLETAS%2C1> ;
+	vcard:hasTelephone "619005740" ;
+	vcard:hasEmail "09012311@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "ESCUELA DE MUSICA" .
+
+<http://www.semanticweb.org/group9/ontology/QUINTANADUEÑAS> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LAS+VIOLETAS%2C1> .
+
+<http://www.semanticweb.org/group9/ontology/BURGOS> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+LAS+VIOLETAS%2C1> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+LAS+VIOLETAS%2C1> rdfs:label "CALLE LAS VIOLETAS,1" ;
+	vcard:postal-code "9197" ;
+	geo:lat_long "42,38503 ,-3,73494" .
+
+<http://www.semanticweb.org/group9/ontology/ESCUELA+DE+M%C3%9ASICA+DE+BENAVIDES+DE+%C3%93RBIGO> a tipo:centro ;
+	rdfs:label "ESCUELA DE MÚSICA DE BENAVIDES DE ÓRBIGO" ;
+	tipo:situadoEn <http://www.semanticweb.org/group9/ontology/CALLE+CONDE+LUNA%2C40> ;
+	vcard:hasTelephone "987370003" ;
+	vcard:hasEmail "24022146@educa.jcyl.es" ;
+	tipo:Naturaleza "PÚBLICO" ;
+	tipo:Internado "No es internado" ;
+	tipo:Ruta "No tiene ruta" ;
+	tipo:Concertado "No es concertado" ;
+	tipo:Comedor "No tiene comedor" ;
+	tipo:Horario "Solo Mañana" ;
+	tipo:Denominacion "ESCUELA DE MUSICA" .
+
+<http://www.semanticweb.org/group9/ontology/BENAVIDES+DE+ORBIGO> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+CONDE+LUNA%2C40> .
+
+<http://www.semanticweb.org/group9/ontology/LEON> tipo:formaParteDe <http://www.semanticweb.org/group9/ontology/CALLE+CONDE+LUNA%2C40> .
+
+<http://www.semanticweb.org/group9/ontology/CALLE+CONDE+LUNA%2C40> rdfs:label "CALLE CONDE LUNA,40" ;
+	vcard:postal-code "24280" ;
+	geo:lat_long "42,50206 ,-5,89379" .
