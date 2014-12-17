@@ -22,360 +22,186 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#Barrio"/>
+        <Class IRI="http://example.org/resources/Distrito"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Bus"/>
+        <Class IRI="http://example.org/resources/Provincia"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Direccion"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Direccion_GPS"/>
+        <Class IRI="http://www.w3.org/2003/01/geo/wgs84_pos/Localidad"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Direccion_Logica"/>
+        <ObjectProperty IRI="http://example.org/resources/Localidad"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Distrito"/>
+        <ObjectProperty IRI="http://purl.org/ctic/infraestructuras/localizacion#distrito"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Horario"/>
+        <ObjectProperty abbreviatedIRI="owl:sameAs"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Metro"/>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#locality"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Renfe"/>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#region"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Sitio"/>
+        <DataProperty IRI="http://example.org/resources/Renfe"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Trasporte"/>
+        <DataProperty IRI="http://purl.org/ctic/infraestructuras/localizacion#barrio"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#barrio_tiene"/>
+        <DataProperty IRI="http://purl.org/dc/terms/identifier"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#distrito_tiene"/>
+        <DataProperty IRI="#bus"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tiene_Nombre"/>
+        <DataProperty IRI="#equipamiento"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tiene_barrio"/>
+        <DataProperty IRI="#metro"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tiene_direccion"/>
+        <DataProperty abbreviatedIRI="rdfs:label"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tiene_distrito"/>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tiene_equipamiento"/>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#postal-code"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tiene_horario"/>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#street-address"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#tiene_trasporte"/>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#url"/>
     </Declaration>
-    <Declaration>
-        <DataProperty IRI="#CoordenadaX"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#CoordenadaY"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Latitud"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#Longitud"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#has_Barrio"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#has_Bus"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#has_Horario"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#has_Metro"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#has_Numero"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#has_distrito"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#has_equipamiento"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#has_nombre"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#has_nombre_via"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#has_renfe"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#has_type_via"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#postalcode"/>
-    </Declaration>
-    <SubClassOf>
-        <Class IRI="#Bus"/>
-        <Class IRI="#Trasporte"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Direccion"/>
-        <Class IRI="#Sitio"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Direccion_GPS"/>
-        <Class IRI="#Direccion"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Direccion_Logica"/>
-        <Class IRI="#Direccion"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Metro"/>
-        <Class IRI="#Trasporte"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Renfe"/>
-        <Class IRI="#Trasporte"/>
-    </SubClassOf>
-    <DisjointClasses>
-        <Class IRI="#Barrio"/>
-        <Class IRI="#Distrito"/>
-        <Class IRI="#Horario"/>
-        <Class IRI="#Sitio"/>
-        <Class IRI="#Trasporte"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Bus"/>
-        <Class IRI="#Metro"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Direccion_GPS"/>
-        <Class IRI="#Direccion_Logica"/>
-    </DisjointClasses>
-    <DisjointUnion>
-        <Class IRI="#Direccion"/>
-        <Class IRI="#Direccion_GPS"/>
-        <Class IRI="#Direccion_Logica"/>
-    </DisjointUnion>
-    <DisjointUnion>
-        <Class IRI="#Sitio"/>
-        <Class IRI="#Barrio"/>
-        <Class IRI="#Distrito"/>
-        <Class IRI="#Horario"/>
-        <Class IRI="#Trasporte"/>
-    </DisjointUnion>
-    <DisjointUnion>
-        <Class IRI="#Trasporte"/>
-        <Class IRI="#Bus"/>
-        <Class IRI="#Metro"/>
-        <Class IRI="#Renfe"/>
-    </DisjointUnion>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="http://example.org/resources/Localidad"/>
+    </ReflexiveObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#barrio_tiene"/>
-        <Class IRI="#Barrio"/>
+        <ObjectProperty IRI="http://example.org/resources/Localidad"/>
+        <Class IRI="http://www.w3.org/2003/01/geo/wgs84_pos/Localidad"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#distrito_tiene"/>
-        <Class IRI="#Distrito"/>
+        <ObjectProperty IRI="http://purl.org/ctic/infraestructuras/localizacion#distrito"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tiene_Nombre"/>
-        <Class IRI="#Sitio"/>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#locality"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tiene_barrio"/>
-        <Class IRI="#Sitio"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tiene_direccion"/>
-        <Class IRI="#Sitio"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tiene_distrito"/>
-        <Class IRI="#Sitio"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tiene_equipamiento"/>
-        <Class IRI="#Sitio"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tiene_horario"/>
-        <Class IRI="#Sitio"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#tiene_trasporte"/>
-        <Class IRI="#Sitio"/>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#region"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#barrio_tiene"/>
-        <Class IRI="#Distrito"/>
+        <ObjectProperty IRI="http://example.org/resources/Localidad"/>
+        <Class IRI="http://example.org/resources/Provincia"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#distrito_tiene"/>
-        <Class IRI="#Barrio"/>
+        <ObjectProperty IRI="http://purl.org/ctic/infraestructuras/localizacion#distrito"/>
+        <Class IRI="http://example.org/resources/Distrito"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#tiene_barrio"/>
-        <Class IRI="#Barrio"/>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#locality"/>
+        <Class IRI="http://www.w3.org/2003/01/geo/wgs84_pos/Localidad"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#tiene_direccion"/>
-        <Class IRI="#Direccion"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tiene_distrito"/>
-        <Class IRI="#Distrito"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tiene_horario"/>
-        <Class IRI="#Horario"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#tiene_trasporte"/>
-        <Class IRI="#Trasporte"/>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#region"/>
+        <Class IRI="http://example.org/resources/Provincia"/>
     </ObjectPropertyRange>
     <DataPropertyDomain>
-        <DataProperty IRI="#CoordenadaX"/>
-        <Class IRI="#Direccion_GPS"/>
+        <DataProperty IRI="http://example.org/resources/Renfe"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#CoordenadaY"/>
-        <Class IRI="#Direccion_GPS"/>
+        <DataProperty IRI="http://purl.org/ctic/infraestructuras/localizacion#barrio"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Latitud"/>
-        <Class IRI="#Direccion_GPS"/>
+        <DataProperty IRI="http://purl.org/dc/terms/identifier"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#Longitud"/>
-        <Class IRI="#Direccion_GPS"/>
+        <DataProperty IRI="#bus"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#has_Barrio"/>
-        <Class IRI="#Barrio"/>
+        <DataProperty IRI="#equipamiento"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#has_Bus"/>
-        <Class IRI="#Bus"/>
+        <DataProperty IRI="#metro"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#has_Horario"/>
-        <Class IRI="#Horario"/>
+        <DataProperty abbreviatedIRI="rdfs:label"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#has_Metro"/>
-        <Class IRI="#Metro"/>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#has_Numero"/>
-        <Class IRI="#Direccion_Logica"/>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#postal-code"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#has_distrito"/>
-        <Class IRI="#Distrito"/>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#street-address"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#has_equipamiento"/>
-        <Class IRI="#Sitio"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#has_nombre"/>
-        <Class IRI="#Sitio"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#has_nombre_via"/>
-        <Class IRI="#Direccion_Logica"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#has_renfe"/>
-        <Class IRI="#Renfe"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#has_type_via"/>
-        <Class IRI="#Direccion_Logica"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#postalcode"/>
-        <Class IRI="#Sitio"/>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#url"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty IRI="#CoordenadaX"/>
-        <Datatype abbreviatedIRI="xsd:decimal"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#CoordenadaY"/>
-        <Datatype abbreviatedIRI="xsd:decimal"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#Latitud"/>
-        <Datatype abbreviatedIRI="xsd:decimal"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#Longitud"/>
-        <Datatype abbreviatedIRI="xsd:decimal"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#has_Barrio"/>
+        <DataProperty IRI="http://example.org/resources/Renfe"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#has_Bus"/>
+        <DataProperty IRI="http://purl.org/ctic/infraestructuras/localizacion#barrio"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#has_Horario"/>
+        <DataProperty IRI="http://purl.org/dc/terms/identifier"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#bus"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#has_Metro"/>
+        <DataProperty IRI="#equipamiento"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#has_Numero"/>
-        <Datatype abbreviatedIRI="xsd:decimal"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#has_distrito"/>
+        <DataProperty IRI="#metro"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#has_equipamiento"/>
+        <DataProperty abbreviatedIRI="rdfs:label"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#has_nombre"/>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#has_nombre_via"/>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#postal-code"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#has_renfe"/>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#street-address"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#has_type_via"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#postalcode"/>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#url"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
 </Ontology>
