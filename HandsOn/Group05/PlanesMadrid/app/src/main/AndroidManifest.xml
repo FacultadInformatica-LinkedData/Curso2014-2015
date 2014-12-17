@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+    package="com.linkeddata.vktrsm.planesmadrid" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_em"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        tools:replace="icon, label"
+        android:largeHeap="true">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddPlanActivity"
+            android:label="@string/title_activity_add_plan" >
+        </activity>
+        <activity
+            android:name=".AddAppointmentActivity"
+            android:label="AddAppointmentActivity" >
+        </activity>
+    </application>
+
+</manifest>
