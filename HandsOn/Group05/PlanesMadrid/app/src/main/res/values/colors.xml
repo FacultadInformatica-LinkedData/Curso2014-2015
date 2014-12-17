@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#673ab7</color>
+    <color name="colorPrimaryDark">#512da8</color>
+    <color name="colorNewPlanToolbar">#f44336</color>
+    <color name="accent">#ffc400</color>
+    <color name="textColorPrimary">#D9FFFFFF</color>
+    <color name="windowBackgroundColor">#333333</color>
+    <color name="black_translucent">#80000000</color>
+
+</resources>

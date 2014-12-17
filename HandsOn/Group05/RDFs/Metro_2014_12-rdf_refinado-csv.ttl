@@ -1,0 +1,2892 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix admingeo: <http://data.ordnancesurvey.co.uk/ontology/admingeo/> .
+@prefix mibarrio: <> .
+
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PACIFICO> a schema:SubwayStation ;
+	schema:name "PACIFICO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" .
+
+<http://127.0.0.1:3333/mibarrio/City/MADRID> a schema:City ;
+	schema:name "MADRID" .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PACIFICO> schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PACIFICO> a geo:SpatialThing ;
+	geo:lat "40.40125674145831"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.675137368939774"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PACIFICO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PACIFICO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/HOSPITALDEFUENLABRADA> a schema:SubwayStation ;
+	schema:name "HOSPITAL DE FUENLABRADA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/HOSPITALDEFUENLABRADA> a geo:SpatialThing ;
+	geo:lat "40.285749445263065"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.816427072532433"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/HOSPITALDEFUENLABRADA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/HOSPITALDEFUENLABRADA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANTODOMINGO> a schema:SubwayStation ;
+	schema:name "SANTO DOMINGO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "2" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SANTODOMINGO> a geo:SpatialThing ;
+	geo:lat "40.421312736951315"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7079663482786454"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANTODOMINGO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/SANTODOMINGO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/TRIBUNAL> a schema:SubwayStation ;
+	schema:name "TRIBUNAL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/TRIBUNAL> a geo:SpatialThing ;
+	geo:lat "40.42598824984257"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7020857202682254"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/TRIBUNAL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/TRIBUNAL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MOSTOLESCENTRAL> a schema:SubwayStation ;
+	schema:name "MOSTOLES CENTRAL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/MOSTOLESCENTRAL> a geo:SpatialThing ;
+	geo:lat "40.32849814576706"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.863545439544514"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MOSTOLESCENTRAL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/MOSTOLESCENTRAL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALTODEEXTREMADURA> a schema:SubwayStation ;
+	schema:name "ALTO DE EXTREMADURA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ALTODEEXTREMADURA> a geo:SpatialThing ;
+	geo:lat "40.40992070260811"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.738937778190442"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALTODEEXTREMADURA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ALTODEEXTREMADURA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANCRISTOBAL> a schema:SubwayStation ;
+	schema:name "SAN CRISTOBAL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "3" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SANCRISTOBAL> a geo:SpatialThing ;
+	geo:lat "40.341536594687376"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6931914383216857"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANCRISTOBAL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/SANCRISTOBAL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CONGOSTO> a schema:SubwayStation ;
+	schema:name "CONGOSTO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CONGOSTO> a geo:SpatialThing ;
+	geo:lat "40.37238217005932"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6188505889390794"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CONGOSTO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CONGOSTO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/AEROPUERTOT1T2T3> a schema:SubwayStation ;
+	schema:name "AEROPUERTO T1 T2 T3" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "8" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/AEROPUERTOT1T2T3> a geo:SpatialThing ;
+	geo:lat "40.468645233506194"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.5695410720446614"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/AEROPUERTOT1T2T3> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/AEROPUERTOT1T2T3> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MANUELDEFALLA> a schema:SubwayStation ;
+	schema:name "MANUEL DE FALLA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/MANUELDEFALLA> a geo:SpatialThing ;
+	geo:lat "40.55048065335891"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6468833919727643"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MANUELDEFALLA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/MANUELDEFALLA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/HOSPITALSEVEROOCHOA> a schema:SubwayStation ;
+	schema:name "HOSPITAL SEVERO OCHOA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/HOSPITALSEVEROOCHOA> a geo:SpatialThing ;
+	geo:lat "40.32176659998117"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7679784363645195"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/HOSPITALSEVEROOCHOA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/HOSPITALSEVEROOCHOA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PALOSDELAFRONTERA> a schema:SubwayStation ;
+	schema:name "PALOS DE LA FRONTERA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "3" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PALOSDELAFRONTERA> a geo:SpatialThing ;
+	geo:lat "40.403071595618144"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6942347314494355"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PALOSDELAFRONTERA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PALOSDELAFRONTERA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LEGAZPI> a schema:SubwayStation ;
+	schema:name "LEGAZPI" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LEGAZPI> a geo:SpatialThing ;
+	geo:lat "40.391156669916555"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6950549588097577"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LEGAZPI> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LEGAZPI> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CUATROCAMINOS> a schema:SubwayStation ;
+	schema:name "CUATRO CAMINOS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "2" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CUATROCAMINOS> a geo:SpatialThing ;
+	geo:lat "40.44696802552654"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7039313162009213"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CUATROCAMINOS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CUATROCAMINOS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LORANCA> a schema:SubwayStation ;
+	schema:name "LORANCA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LORANCA> a geo:SpatialThing ;
+	geo:lat "40.296804866126685"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.837691913936109"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LORANCA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LORANCA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BAUNATAL> a schema:SubwayStation ;
+	schema:name "BAUNATAL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/BAUNATAL> a geo:SpatialThing ;
+	geo:lat "40.5544196503943"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.635133831173698"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BAUNATAL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/BAUNATAL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CAMPODELASNACIONES> a schema:SubwayStation ;
+	schema:name "CAMPO DE LAS NACIONES" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "8" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CAMPODELASNACIONES> a geo:SpatialThing ;
+	geo:lat "40.463892345701076"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.616210056882399"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CAMPODELASNACIONES> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CAMPODELASNACIONES> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/OPORTO> a schema:SubwayStation ;
+	schema:name "OPORTO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/OPORTO> a geo:SpatialThing ;
+	geo:lat "40.38846483353539"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7312687755134606"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/OPORTO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/OPORTO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/AVENIDADEAMERICA> a schema:SubwayStation ;
+	schema:name "AVENIDA DE AMERICA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/AVENIDADEAMERICA> a geo:SpatialThing ;
+	geo:lat "40.438032878263236"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.676471949590629"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/AVENIDADEAMERICA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/AVENIDADEAMERICA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CRUZDELRAYO> a schema:SubwayStation ;
+	schema:name "CRUZ DEL RAYO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CRUZDELRAYO> a geo:SpatialThing ;
+	geo:lat "40.4442658780325"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.678220656951523"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CRUZDELRAYO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CRUZDELRAYO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANFRANCISCO> a schema:SubwayStation ;
+	schema:name "SAN FRANCISCO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "11" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SANFRANCISCO> a geo:SpatialThing ;
+	geo:lat "40.37359505652825"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.739106228508547"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANFRANCISCO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/SANFRANCISCO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MARDECRISTAL> a schema:SubwayStation ;
+	schema:name "MAR DE CRISTAL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "8" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/MARDECRISTAL> a geo:SpatialThing ;
+	geo:lat "40.46938489719267"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.638330918372557"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MARDECRISTAL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/MARDECRISTAL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CONDEDECASAL> a schema:SubwayStation ;
+	schema:name "CONDE DE CASAL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CONDEDECASAL> a geo:SpatialThing ;
+	geo:lat "40.40696897461864"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6704096277412406"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CONDEDECASAL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CONDEDECASAL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PLAZADEESPANA> a schema:SubwayStation ;
+	schema:name "PLAZA DE ESPANA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "3" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PLAZADEESPANA> a geo:SpatialThing ;
+	geo:lat "40.42340997260346"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.711206491780546"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PLAZADEESPANA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PLAZADEESPANA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/TETUAN> a schema:SubwayStation ;
+	schema:name "TETUAN" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/TETUAN> a geo:SpatialThing ;
+	geo:lat "40.46055194922595"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.698258347036883"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/TETUAN> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/TETUAN> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ARTILLEROS> a schema:SubwayStation ;
+	schema:name "ARTILLEROS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ARTILLEROS> a geo:SpatialThing ;
+	geo:lat "40.40522132054802"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.641813751306118"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ARTILLEROS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ARTILLEROS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/HOSPITALDELHENARES> a schema:SubwayStation ;
+	schema:name "HOSPITAL DEL HENARES" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/HOSPITALDELHENARES> a geo:SpatialThing ;
+	geo:lat "40.41760497755307"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.5345387045961227"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/HOSPITALDELHENARES> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/HOSPITALDELHENARES> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MENDEZALVARO> a schema:SubwayStation ;
+	schema:name "MENDEZ ALVARO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/MENDEZALVARO> a geo:SpatialThing ;
+	geo:lat "40.39537424655571"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6781422516936098"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MENDEZALVARO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/MENDEZALVARO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAGUNA> a schema:SubwayStation ;
+	schema:name "LAGUNA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LAGUNA> a geo:SpatialThing ;
+	geo:lat "40.399228600963696"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7443003669171224"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAGUNA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LAGUNA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PLAZADECASTILLA> a schema:SubwayStation ;
+	schema:name "PLAZA DE CASTILLA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PLAZADECASTILLA> a geo:SpatialThing ;
+	geo:lat "40.466894966109415"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6891351660270066"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PLAZADECASTILLA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PLAZADECASTILLA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/COSLADACENTRAL> a schema:SubwayStation ;
+	schema:name "COSLADA CENTRAL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/COSLADACENTRAL> a geo:SpatialThing ;
+	geo:lat "40.42373097112736"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.5611932328329394"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/COSLADACENTRAL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/COSLADACENTRAL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAALMUDENA> a schema:SubwayStation ;
+	schema:name "LA ALMUDENA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "2" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LAALMUDENA> a geo:SpatialThing ;
+	geo:lat "40.42361458294594"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.639147589169747"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAALMUDENA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LAALMUDENA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/HOSPITALINFANTASOFIA> a schema:SubwayStation ;
+	schema:name "HOSPITAL INFANTA SOFIA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/HOSPITALINFANTASOFIA> a geo:SpatialThing ;
+	geo:lat "40.55976346809929"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.611465763726152"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/HOSPITALINFANTASOFIA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/HOSPITALINFANTASOFIA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/HENARES> a schema:SubwayStation ;
+	schema:name "HENARES" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/HENARES> a geo:SpatialThing ;
+	geo:lat "40.417764870720255"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.5271847602105475"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/HENARES> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/HENARES> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/GREGORIOMARANON> a schema:SubwayStation ;
+	schema:name "GREGORIO MARANON" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/GREGORIOMARANON> a geo:SpatialThing ;
+	geo:lat "40.43825029488139"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6914955044434783"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/GREGORIOMARANON> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/GREGORIOMARANON> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/RIVASURBANIZACIONES> a schema:SubwayStation ;
+	schema:name "RIVAS URBANIZACIONES" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/RIVASURBANIZACIONES> a geo:SpatialThing ;
+	geo:lat "40.36676993738754"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.5472814834020223"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/RIVASURBANIZACIONES> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/RIVASURBANIZACIONES> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PARQUEOESTE> a schema:SubwayStation ;
+	schema:name "PARQUE OESTE" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PARQUEOESTE> a geo:SpatialThing ;
+	geo:lat "40.34589179085773"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.849343417868749"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PARQUEOESTE> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PARQUEOESTE> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/JARAMA> a schema:SubwayStation ;
+	schema:name "JARAMA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/JARAMA> a geo:SpatialThing ;
+	geo:lat "40.42293472815007"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.5255040558533493"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/JARAMA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/JARAMA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VILLADEVALLECAS> a schema:SubwayStation ;
+	schema:name "VILLA DE VALLECAS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/VILLADEVALLECAS> a geo:SpatialThing ;
+	geo:lat "40.37959431567341"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.621308020750173"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VILLADEVALLECAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/VILLADEVALLECAS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/DIEGODELEON> a schema:SubwayStation ;
+	schema:name "DIEGO DE LEON" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/DIEGODELEON> a geo:SpatialThing ;
+	geo:lat "40.43235204390378"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.674269294153686"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/DIEGODELEON> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/DIEGODELEON> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/HOSPITAL12DEOCTUBRE> a schema:SubwayStation ;
+	schema:name "HOSPITAL 12 DE OCTUBRE" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "3" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/HOSPITAL12DEOCTUBRE> a geo:SpatialThing ;
+	geo:lat "40.375025573938096"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6958551103632624"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/HOSPITAL12DEOCTUBRE> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/HOSPITAL12DEOCTUBRE> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/REPUBLICAARGENTINA> a schema:SubwayStation ;
+	schema:name "REPUBLICA ARGENTINA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/REPUBLICAARGENTINA> a geo:SpatialThing ;
+	geo:lat "40.44379000259904"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.684064551057651"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/REPUBLICAARGENTINA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/REPUBLICAARGENTINA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/URGEL> a schema:SubwayStation ;
+	schema:name "URGEL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/URGEL> a geo:SpatialThing ;
+	geo:lat "40.39335085291281"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7236156360295825"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/URGEL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/URGEL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VENTAS> a schema:SubwayStation ;
+	schema:name "VENTAS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/VENTAS> a geo:SpatialThing ;
+	geo:lat "40.430882194294526"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6636087511113766"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VENTAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/VENTAS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ISLASFILIPINAS> a schema:SubwayStation ;
+	schema:name "ISLAS FILIPINAS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ISLASFILIPINAS> a geo:SpatialThing ;
+	geo:lat "40.43906103202648"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7137413598671962"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ISLASFILIPINAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ISLASFILIPINAS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ARTUROSORIA> a schema:SubwayStation ;
+	schema:name "ARTURO SORIA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ARTUROSORIA> a geo:SpatialThing ;
+	geo:lat "40.45582547206542"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6561881277156516"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ARTUROSORIA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ARTUROSORIA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BARAJAS> a schema:SubwayStation ;
+	schema:name "BARAJAS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "8" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/BARAJAS> a geo:SpatialThing ;
+	geo:lat "40.475769670406116"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.5825311306716694"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BARAJAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/BARAJAS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAVAPIES> a schema:SubwayStation ;
+	schema:name "LAVAPIES" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "3" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LAVAPIES> a geo:SpatialThing ;
+	geo:lat "40.408508807234305"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.700914061323349"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAVAPIES> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LAVAPIES> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MONTECARMELO> a schema:SubwayStation ;
+	schema:name "MONTECARMELO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/MONTECARMELO> a geo:SpatialThing ;
+	geo:lat "40.505251377338965"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.695759283071379"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MONTECARMELO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/MONTECARMELO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANNICASIO> a schema:SubwayStation ;
+	schema:name "SAN NICASIO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SANNICASIO> a geo:SpatialThing ;
+	geo:lat "40.3361555690427"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7758763425167072"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANNICASIO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/SANNICASIO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VILLAVERDEALTO> a schema:SubwayStation ;
+	schema:name "VILLAVERDE ALTO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "3" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/VILLAVERDEALTO> a geo:SpatialThing ;
+	geo:lat "40.341224196811964"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.711990998942114"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VILLAVERDEALTO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/VILLAVERDEALTO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAMORALEJA> a schema:SubwayStation ;
+	schema:name "LA MORALEJA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LAMORALEJA> a geo:SpatialThing ;
+	geo:lat "40.53194913028556"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6355710093918283"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAMORALEJA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LAMORALEJA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/RIVASFUTURA> a schema:SubwayStation ;
+	schema:name "RIVAS FUTURA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/RIVASFUTURA> a geo:SpatialThing ;
+	geo:lat "40.341342100625035"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.5247997631686228"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/RIVASFUTURA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/RIVASFUTURA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAELIPA> a schema:SubwayStation ;
+	schema:name "LA ELIPA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "2" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LAELIPA> a geo:SpatialThing ;
+	geo:lat "40.426614180295644"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6505285024367073"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAELIPA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LAELIPA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VALDECARROS> a schema:SubwayStation ;
+	schema:name "VALDECARROS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/VALDECARROS> a geo:SpatialThing ;
+	geo:lat "40.360066094786674"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.593169841297621"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VALDECARROS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/VALDECARROS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ELCAPRICHO> a schema:SubwayStation ;
+	schema:name "EL CAPRICHO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ELCAPRICHO> a geo:SpatialThing ;
+	geo:lat "40.4534680040023"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.594013972226353"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ELCAPRICHO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ELCAPRICHO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BEGONA> a schema:SubwayStation ;
+	schema:name "BEGONA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/BEGONA> a geo:SpatialThing ;
+	geo:lat "40.48040991774922"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.685851905815314"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BEGONA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/BEGONA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PARQUEDELASAVENIDAS> a schema:SubwayStation ;
+	schema:name "PARQUE DE LAS AVENIDAS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PARQUEDELASAVENIDAS> a geo:SpatialThing ;
+	geo:lat "40.439444413228046"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6629736889308107"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PARQUEDELASAVENIDAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PARQUEDELASAVENIDAS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAGRANJA> a schema:SubwayStation ;
+	schema:name "LA GRANJA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LAGRANJA> a geo:SpatialThing ;
+	geo:lat "40.52759499700287"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.658599537222745"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAGRANJA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LAGRANJA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SOL> a schema:SubwayStation ;
+	schema:name "SOL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SOL> a geo:SpatialThing ;
+	geo:lat "40.4168729535334"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.703263952716334"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SOL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/SOL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/RUBENDARIO> a schema:SubwayStation ;
+	schema:name "RUBEN DARIO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/RUBENDARIO> a geo:SpatialThing ;
+	geo:lat "40.43315383183627"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6895451317420838"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/RUBENDARIO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/RUBENDARIO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/RIVASVACIAMADRID> a schema:SubwayStation ;
+	schema:name "RIVAS VACIAMADRID" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/RIVASVACIAMADRID> a geo:SpatialThing ;
+	geo:lat "40.32836977288053"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.520602745225861"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/RIVASVACIAMADRID> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/RIVASVACIAMADRID> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANBLAS> a schema:SubwayStation ;
+	schema:name "SAN BLAS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SANBLAS> a geo:SpatialThing ;
+	geo:lat "40.427986323585394"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6154696111204454"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANBLAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/SANBLAS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VALDEBERNARDO> a schema:SubwayStation ;
+	schema:name "VALDEBERNARDO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/VALDEBERNARDO> a geo:SpatialThing ;
+	geo:lat "40.40004360175914"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6215666819315797"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VALDEBERNARDO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/VALDEBERNARDO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/EMPALME> a schema:SubwayStation ;
+	schema:name "EMPALME" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/EMPALME> a geo:SpatialThing ;
+	geo:lat "40.390568589226135"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7653543649538515"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/EMPALME> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/EMPALME> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SUANZES> a schema:SubwayStation ;
+	schema:name "SUANZES" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SUANZES> a geo:SpatialThing ;
+	geo:lat "40.44084415226601"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.626847452003059"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SUANZES> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/SUANZES> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/TRESOLIVOS> a schema:SubwayStation ;
+	schema:name "TRES OLIVOS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/TRESOLIVOS> a geo:SpatialThing ;
+	geo:lat "40.5012006729737"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6952099548681736"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/TRESOLIVOS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/TRESOLIVOS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/EUGENIADEMONTIJO> a schema:SubwayStation ;
+	schema:name "EUGENIA DE MONTIJO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/EUGENIADEMONTIJO> a geo:SpatialThing ;
+	geo:lat "40.38438197265499"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7512174782001138"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/EUGENIADEMONTIJO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/EUGENIADEMONTIJO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/OPANEL> a schema:SubwayStation ;
+	schema:name "OPANEL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/OPANEL> a geo:SpatialThing ;
+	geo:lat "40.386903364839974"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.723134267624081"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/OPANEL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/OPANEL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SOL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "2" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SOL> geo:lat "40.416845928117105"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7032636713195033"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAGO> a schema:SubwayStation ;
+	schema:name "LAGO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LAGO> a geo:SpatialThing ;
+	geo:lat "40.41641023588192"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7356377227797393"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAGO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LAGO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MIRASIERRA> a schema:SubwayStation ;
+	schema:name "MIRASIERRA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/MIRASIERRA> a geo:SpatialThing ;
+	geo:lat "40.491417008731375"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7158651954710034"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MIRASIERRA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/MIRASIERRA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VALDEACEDERAS> a schema:SubwayStation ;
+	schema:name "VALDEACEDERAS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/VALDEACEDERAS> a geo:SpatialThing ;
+	geo:lat "40.46441801935108"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6950664719440036"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VALDEACEDERAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/VALDEACEDERAS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CARTAGENA> a schema:SubwayStation ;
+	schema:name "CARTAGENA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CARTAGENA> a geo:SpatialThing ;
+	geo:lat "40.439337323784756"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.672157759763834"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CARTAGENA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CARTAGENA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LOSESPARTALES> a schema:SubwayStation ;
+	schema:name "LOS ESPARTALES" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LOSESPARTALES> a geo:SpatialThing ;
+	geo:lat "40.32422152310413"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.718203887331696"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LOSESPARTALES> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LOSESPARTALES> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/NUEVOSMINISTERIOS> a schema:SubwayStation ;
+	schema:name "NUEVOS MINISTERIOS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/NUEVOSMINISTERIOS> a geo:SpatialThing ;
+	geo:lat "40.446578103714806"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6924180916734253"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/NUEVOSMINISTERIOS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/NUEVOSMINISTERIOS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/AVENIDADELAPAZ> a schema:SubwayStation ;
+	schema:name "AVENIDA DE LA PAZ" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/AVENIDADELAPAZ> a geo:SpatialThing ;
+	geo:lat "40.45353571190591"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6611898411345964"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/AVENIDADELAPAZ> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/AVENIDADELAPAZ> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LASTABLAS> a schema:SubwayStation ;
+	schema:name "LAS TABLAS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LASTABLAS> a geo:SpatialThing ;
+	geo:lat "40.508325691313956"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6694467924419247"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LASTABLAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LASTABLAS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MANUELBECERRA> a schema:SubwayStation ;
+	schema:name "MANUEL BECERRA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/MANUELBECERRA> a geo:SpatialThing ;
+	geo:lat "40.42790392572708"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.669214579831321"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MANUELBECERRA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/MANUELBECERRA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALUCHE> a schema:SubwayStation ;
+	schema:name "ALUCHE" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ALUCHE> a geo:SpatialThing ;
+	geo:lat "40.38562557538846"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7608096588055564"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALUCHE> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ALUCHE> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PLAZAELIPTICA> a schema:SubwayStation ;
+	schema:name "PLAZA ELIPTICA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PLAZAELIPTICA> a geo:SpatialThing ;
+	geo:lat "40.38459968553263"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7183735312226474"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PLAZAELIPTICA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PLAZAELIPTICA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ANTONIOMACHADO> a schema:SubwayStation ;
+	schema:name "ANTONIO MACHADO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ANTONIOMACHADO> a geo:SpatialThing ;
+	geo:lat "40.47021657551088"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7177043711182876"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ANTONIOMACHADO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ANTONIOMACHADO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SAINZDEBARANDA> a schema:SubwayStation ;
+	schema:name "SAINZ DE BARANDA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SAINZDEBARANDA> a geo:SpatialThing ;
+	geo:lat "40.41502821291708"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6695231036306226"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SAINZDEBARANDA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/SAINZDEBARANDA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MIGUELHERNANDEZ> a schema:SubwayStation ;
+	schema:name "MIGUEL HERNANDEZ" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/MIGUELHERNANDEZ> a geo:SpatialThing ;
+	geo:lat "40.387314991857345"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6395112303825465"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MIGUELHERNANDEZ> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/MIGUELHERNANDEZ> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PINARDELREY> a schema:SubwayStation ;
+	schema:name "PINAR DEL REY" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "8" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PINARDELREY> a geo:SpatialThing ;
+	geo:lat "40.46799398048667"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6486745798490077"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PINARDELREY> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PINARDELREY> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALONSODEMENDOZA> a schema:SubwayStation ;
+	schema:name "ALONSO DE MENDOZA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ALONSODEMENDOZA> a geo:SpatialThing ;
+	geo:lat "40.30080780607303"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.736641509233372"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALONSODEMENDOZA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ALONSODEMENDOZA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALSACIA> a schema:SubwayStation ;
+	schema:name "ALSACIA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "2" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ALSACIA> a geo:SpatialThing ;
+	geo:lat "40.418285507185765"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.623514407657664"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALSACIA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ALSACIA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BUENOSAIRES> a schema:SubwayStation ;
+	schema:name "BUENOS AIRES" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/BUENOSAIRES> a geo:SpatialThing ;
+	geo:lat "40.39155880753551"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6539143451038445"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BUENOSAIRES> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/BUENOSAIRES> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALONSOCANO> a schema:SubwayStation ;
+	schema:name "ALONSO CANO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ALONSOCANO> a geo:SpatialThing ;
+	geo:lat "40.43837479022226"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6992550842523215"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALONSOCANO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ALONSOCANO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALTODELARENAL> a schema:SubwayStation ;
+	schema:name "ALTO DEL ARENAL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ALTODELARENAL> a geo:SpatialThing ;
+	geo:lat "40.38976976218558"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6452252885953738"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALTODELARENAL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ALTODELARENAL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/AVENIDADEAMERICA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/AVENIDADEAMERICA> geo:lat "40.438031843253"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.676648799468696"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/DIEGODELEON> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/DIEGODELEON> geo:lat "40.432945358819744"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.672942973597095"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PINARDECHAMARTIN> a schema:SubwayStation ;
+	schema:name "PINAR DE CHAMARTIN" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PINARDECHAMARTIN> a geo:SpatialThing ;
+	geo:lat "40.48013418425884"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.666771656823872"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PINARDECHAMARTIN> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PINARDECHAMARTIN> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CASADECAMPO> a schema:SubwayStation ;
+	schema:name "CASA DE CAMPO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CASADECAMPO> a geo:SpatialThing ;
+	geo:lat "40.403236902379156"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7610196925677366"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CASADECAMPO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CASADECAMPO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ARGUELLES> a schema:SubwayStation ;
+	schema:name "ARGUELLES" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ARGUELLES> a geo:SpatialThing ;
+	geo:lat "40.43059684414788"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.715962579973822"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ARGUELLES> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ARGUELLES> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PRADILLO> a schema:SubwayStation ;
+	schema:name "PRADILLO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PRADILLO> a geo:SpatialThing ;
+	geo:lat "40.32167716657807"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.8648944963859337"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PRADILLO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PRADILLO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/NUEVOSMINISTERIOS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "8" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/NUEVOSMINISTERIOS> geo:lat "40.44655107837536"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.692417814325485"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ESPERANZA> a schema:SubwayStation ;
+	schema:name "ESPERANZA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ESPERANZA> a geo:SpatialThing ;
+	geo:lat "40.45944241498234"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.64582062640135"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ESPERANZA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ESPERANZA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ATOCHA> a schema:SubwayStation ;
+	schema:name "ATOCHA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ATOCHA> a geo:SpatialThing ;
+	geo:lat "40.40884785306371"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.69249088895368"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ATOCHA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ATOCHA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PORTAZGO> a schema:SubwayStation ;
+	schema:name "PORTAZGO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PORTAZGO> a geo:SpatialThing ;
+	geo:lat "40.392657866069065"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.658685216624016"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PORTAZGO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PORTAZGO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/NOVICIADO> a schema:SubwayStation ;
+	schema:name "NOVICIADO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "2" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/NOVICIADO> a geo:SpatialThing ;
+	geo:lat "40.42483857792767"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7074256850643508"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/NOVICIADO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/NOVICIADO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LEGANESCENTRAL> a schema:SubwayStation ;
+	schema:name "LEGANES CENTRAL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LEGANESCENTRAL> a geo:SpatialThing ;
+	geo:lat "40.32897722527568"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.771544569800793"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LEGANESCENTRAL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LEGANESCENTRAL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/TIRSODEMOLINA> a schema:SubwayStation ;
+	schema:name "TIRSO DE MOLINA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/TIRSODEMOLINA> a geo:SpatialThing ;
+	geo:lat "40.412341872810984"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7046664800540814"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/TIRSODEMOLINA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/TIRSODEMOLINA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ELCASAR> a schema:SubwayStation ;
+	schema:name "EL CASAR" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ELCASAR> a geo:SpatialThing ;
+	geo:lat "40.318624275975935"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7098585856755197"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ELCASAR> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ELCASAR> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ANTONMARTIN> a schema:SubwayStation ;
+	schema:name "ANTON MARTIN" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ANTONMARTIN> a geo:SpatialThing ;
+	geo:lat "40.412464088048"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6993757471110227"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ANTONMARTIN> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ANTONMARTIN> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VENTILLA> a schema:SubwayStation ;
+	schema:name "VENTILLA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/VENTILLA> a geo:SpatialThing ;
+	geo:lat "40.469431089926225"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6958849055022736"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VENTILLA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/VENTILLA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CARABANCHEL> a schema:SubwayStation ;
+	schema:name "CARABANCHEL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CARABANCHEL> a geo:SpatialThing ;
+	geo:lat "40.3878193811018"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.744881666184908"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CARABANCHEL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CARABANCHEL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALONSOMARTINEZ> a schema:SubwayStation ;
+	schema:name "ALONSO MARTINEZ" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ALONSOMARTINEZ> a geo:SpatialThing ;
+	geo:lat "40.42852689821103"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.696441603597934"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALONSOMARTINEZ> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ALONSOMARTINEZ> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/GUZMANELBUENO> a schema:SubwayStation ;
+	schema:name "GUZMAN EL BUENO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/GUZMANELBUENO> a geo:SpatialThing ;
+	geo:lat "40.44632218588149"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7122969830212873"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/GUZMANELBUENO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/GUZMANELBUENO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CASADECAMPO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CASADECAMPO> geo:lat "40.40320086887072"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.761019286756125"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ACACIAS> a schema:SubwayStation ;
+	schema:name "ACACIAS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ACACIAS> a geo:SpatialThing ;
+	geo:lat "40.403870250308834"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.706652236625238"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ACACIAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ACACIAS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/GREGORIOMARANON> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/GREGORIOMARANON> geo:lat "40.437530887144206"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6912759030333055"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LACOMA> a schema:SubwayStation ;
+	schema:name "LACOMA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LACOMA> a geo:SpatialThing ;
+	geo:lat "40.48501195658861"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7230534541332743"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LACOMA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LACOMA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/AEROPUERTOT4> a schema:SubwayStation ;
+	schema:name "AEROPUERTO T4" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "8" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/AEROPUERTOT4> a geo:SpatialThing ;
+	geo:lat "40.4917601055005"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.593254090068511"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/AEROPUERTOT4> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/AEROPUERTOT4> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PUEBLONUEVO> a schema:SubwayStation ;
+	schema:name "PUEBLO NUEVO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PUEBLONUEVO> a geo:SpatialThing ;
+	geo:lat "40.43569328401266"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6428344086472495"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PUEBLONUEVO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PUEBLONUEVO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SIERRADEGUADALUPE> a schema:SubwayStation ;
+	schema:name "SIERRA DE GUADALUPE" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SIERRADEGUADALUPE> a geo:SpatialThing ;
+	geo:lat "40.38216152701732"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6247245215857298"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SIERRADEGUADALUPE> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/SIERRADEGUADALUPE> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ELCARMEN> a schema:SubwayStation ;
+	schema:name "EL CARMEN" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ELCARMEN> a geo:SpatialThing ;
+	geo:lat "40.431889605558915"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6575823705144552"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ELCARMEN> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ELCARMEN> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ATOCHARENFE> a schema:SubwayStation ;
+	schema:name "ATOCHA RENFE" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ATOCHARENFE> a geo:SpatialThing ;
+	geo:lat "40.4065871509325"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.689379999079354"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ATOCHARENFE> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ATOCHARENFE> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PRINCIPEPIO> a schema:SubwayStation ;
+	schema:name "PRINCIPE PIO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "R" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PRINCIPEPIO> a geo:SpatialThing ;
+	geo:lat "40.420993132404384"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7203282872388663"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PRINCIPEPIO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PRINCIPEPIO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SOL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "3" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SOL> geo:lat "40.41680989422852"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.703263296124321"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ABRANTES> a schema:SubwayStation ;
+	schema:name "ABRANTES" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "11" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ABRANTES> a geo:SpatialThing ;
+	geo:lat "40.38082829675677"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7279111645272467"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ABRANTES> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ABRANTES> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/QUINTANA> a schema:SubwayStation ;
+	schema:name "QUINTANA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/QUINTANA> a geo:SpatialThing ;
+	geo:lat "40.43357790585855"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.647365171210328"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/QUINTANA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/QUINTANA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CONCHAESPINA> a schema:SubwayStation ;
+	schema:name "CONCHA ESPINA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CONCHAESPINA> a geo:SpatialThing ;
+	geo:lat "40.45144194562"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6773847353781695"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CONCHAESPINA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CONCHAESPINA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ESTADIOOLIMPICO> a schema:SubwayStation ;
+	schema:name "ESTADIO OLIMPICO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ESTADIOOLIMPICO> a geo:SpatialThing ;
+	geo:lat "40.433391179933935"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6001566507331892"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ESTADIOOLIMPICO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ESTADIOOLIMPICO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CALLAO> a schema:SubwayStation ;
+	schema:name "CALLAO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CALLAO> a geo:SpatialThing ;
+	geo:lat "40.42008354939492"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7056666802311384"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CALLAO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CALLAO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ESTRELLA> a schema:SubwayStation ;
+	schema:name "ESTRELLA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ESTRELLA> a geo:SpatialThing ;
+	geo:lat "40.4114691025468"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.661791538169238"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ESTRELLA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ESTRELLA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PIOXII> a schema:SubwayStation ;
+	schema:name "PIO XII" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PIOXII> a geo:SpatialThing ;
+	geo:lat "40.46300073130351"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6758023487125158"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PIOXII> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PIOXII> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BILBAO> a schema:SubwayStation ;
+	schema:name "BILBAO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/BILBAO> a geo:SpatialThing ;
+	geo:lat "40.42884979760451"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7011487737245687"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BILBAO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/BILBAO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/AVENIDADEGUADALAJARA> a schema:SubwayStation ;
+	schema:name "AVENIDA DE GUADALAJARA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "2" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/AVENIDADEGUADALAJARA> a geo:SpatialThing ;
+	geo:lat "40.42239172554295"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6120708332680076"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/AVENIDADEGUADALAJARA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/AVENIDADEGUADALAJARA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MANUELAMALASANA> a schema:SubwayStation ;
+	schema:name "MANUELA MALASANA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/MANUELAMALASANA> a geo:SpatialThing ;
+	geo:lat "40.30902580533031"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.86402699670702"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MANUELAMALASANA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/MANUELAMALASANA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CHAMARTIN> a schema:SubwayStation ;
+	schema:name "CHAMARTIN" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CHAMARTIN> a geo:SpatialThing ;
+	geo:lat "40.47202385189198"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6825932834610664"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CHAMARTIN> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CHAMARTIN> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PAVONES> a schema:SubwayStation ;
+	schema:name "PAVONES" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PAVONES> a geo:SpatialThing ;
+	geo:lat "40.40051048036962"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.635122750979477"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PAVONES> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PAVONES> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PUEBLONUEVO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PUEBLONUEVO> geo:lat "40.43565724979443"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.642834065461776"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANTIAGOBERNABEU> a schema:SubwayStation ;
+	schema:name "SANTIAGO BERNABEU" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SANTIAGOBERNABEU> a geo:SpatialThing ;
+	geo:lat "40.45158126575142"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.690382074089246"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANTIAGOBERNABEU> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/SANTIAGOBERNABEU> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VICALVARO> a schema:SubwayStation ;
+	schema:name "VICALVARO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/VICALVARO> a geo:SpatialThing ;
+	geo:lat "40.404210317117695"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6088656365690928"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VICALVARO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/VICALVARO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/NUEVOSMINISTERIOS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/NUEVOSMINISTERIOS> geo:lat "40.44661413750054"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.692418461471261"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ARROYOCULEBRO> a schema:SubwayStation ;
+	schema:name "ARROYO CULEBRO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ARROYOCULEBRO> a geo:SpatialThing ;
+	geo:lat "40.288740302237066"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.756828055465867"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ARROYOCULEBRO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ARROYOCULEBRO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PRINCIPEPIO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PRINCIPEPIO> geo:lat "40.42106519986175"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7203290559510442"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CIUDADDELOSANGELES> a schema:SubwayStation ;
+	schema:name "CIUDAD DE LOS ANGELES" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "3" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CIUDADDELOSANGELES> a geo:SpatialThing ;
+	geo:lat "40.35957925666222"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.693635296503236"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CIUDADDELOSANGELES> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CIUDADDELOSANGELES> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CANAL> a schema:SubwayStation ;
+	schema:name "CANAL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CANAL> a geo:SpatialThing ;
+	geo:lat "40.438700901399365"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.704894460792601"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CANAL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CANAL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANCIPRIANO> a schema:SubwayStation ;
+	schema:name "SAN CIPRIANO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SANCIPRIANO> a geo:SpatialThing ;
+	geo:lat "40.403811726230394"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.602404009705041"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANCIPRIANO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/SANCIPRIANO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALONSOMARTINEZ> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ALONSOMARTINEZ> geo:lat "40.428283174141846"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6950244127053398"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CHAMARTIN> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CHAMARTIN> geo:lat "40.472095919293594"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6825940132187314"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PANBENDITO> a schema:SubwayStation ;
+	schema:name "PAN BENDITO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "11" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PANBENDITO> a geo:SpatialThing ;
+	geo:lat "40.37586074559566"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7341716840943375"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PANBENDITO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PANBENDITO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/NUNEZDEBALBOA> a schema:SubwayStation ;
+	schema:name "NUNEZ DE BALBOA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/NUNEZDEBALBOA> a geo:SpatialThing ;
+	geo:lat "40.43255430040624"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.67972995771758"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/NUNEZDEBALBOA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/NUNEZDEBALBOA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/OPORTO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/OPORTO> geo:lat "40.388464460996076"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7313276815409306"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ASCAO> a schema:SubwayStation ;
+	schema:name "ASCAO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ASCAO> a geo:SpatialThing ;
+	geo:lat "40.43019861136028"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6410608433050236"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ASCAO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ASCAO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/RETIRO> a schema:SubwayStation ;
+	schema:name "RETIRO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "2" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/RETIRO> a geo:SpatialThing ;
+	geo:lat "40.420299503037164"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.686254794252373"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/RETIRO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/RETIRO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VENTAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "2" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/VENTAS> geo:lat "40.43088185592945"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6636676949825366"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/JOAQUINVILUMBRALES> a schema:SubwayStation ;
+	schema:name "JOAQUIN VILUMBRALES" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/JOAQUINVILUMBRALES> a geo:SpatialThing ;
+	geo:lat "40.34984226936704"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.807202284716327"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/JOAQUINVILUMBRALES> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/JOAQUINVILUMBRALES> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BILBAO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/BILBAO> geo:lat "40.42905069586836"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7021883013519576"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CANAL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "2" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CANAL> geo:lat "40.438407000568155"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7043372264788177"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CIUDADLINEAL> a schema:SubwayStation ;
+	schema:name "CIUDAD LINEAL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CIUDADLINEAL> a geo:SpatialThing ;
+	geo:lat "40.438043489632165"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6381640947720557"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CIUDADLINEAL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CIUDADLINEAL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/RIOSROSAS> a schema:SubwayStation ;
+	schema:name "RIOS ROSAS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/RIOSROSAS> a geo:SpatialThing ;
+	geo:lat "40.44191919420917"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7015911244457245"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/RIOSROSAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/RIOSROSAS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/NUEVANUMANCIA> a schema:SubwayStation ;
+	schema:name "NUEVA NUMANCIA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/NUEVANUMANCIA> a geo:SpatialThing ;
+	geo:lat "40.39553656988687"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.664145356963981"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/NUEVANUMANCIA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/NUEVANUMANCIA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PUERTADEARGANDA> a schema:SubwayStation ;
+	schema:name "PUERTA DE ARGANDA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PUERTADEARGANDA> a geo:SpatialThing ;
+	geo:lat "40.40131344602211"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.5959828631938597"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PUERTADEARGANDA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PUERTADEARGANDA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/DIEGODELEON> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/DIEGODELEON> geo:lat "40.43467231561307"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6749645070082146"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MONCLOA> a schema:SubwayStation ;
+	schema:name "MONCLOA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/MONCLOA> a geo:SpatialThing ;
+	geo:lat "40.43496257297453"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7194516039643917"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MONCLOA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/MONCLOA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/GETAFECENTRAL> a schema:SubwayStation ;
+	schema:name "GETAFE CENTRAL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/GETAFECENTRAL> a geo:SpatialThing ;
+	geo:lat "40.30992367706035"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.734033825917272"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/GETAFECENTRAL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/GETAFECENTRAL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PUERTADETOLEDO> a schema:SubwayStation ;
+	schema:name "PUERTA DE TOLEDO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PUERTADETOLEDO> a geo:SpatialThing ;
+	geo:lat "40.40703244851561"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7110576393307793"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PUERTADETOLEDO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PUERTADETOLEDO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PLAZADEESPANA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PLAZADEESPANA> geo:lat "40.42408586956348"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7097047167296044"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LEGAZPI> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "3" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LEGAZPI> geo:lat "40.39114723645119"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.695125556785026"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PITIS> a schema:SubwayStation ;
+	schema:name "PITIS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PITIS> a geo:SpatialThing ;
+	geo:lat "40.495102127210394"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7258995124576386"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PITIS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PITIS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANFERNANDO> a schema:SubwayStation ;
+	schema:name "SAN FERNANDO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SANFERNANDO> a geo:SpatialThing ;
+	geo:lat "40.424411776218186"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.535417769337362"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANFERNANDO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/SANFERNANDO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BANCODEESPANA> a schema:SubwayStation ;
+	schema:name "BANCO DE ESPANA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "2" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/BANCODEESPANA> a geo:SpatialThing ;
+	geo:lat "40.41922043347424"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6949665000028693"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BANCODEESPANA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/BANCODEESPANA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LASSUERTES> a schema:SubwayStation ;
+	schema:name "LAS SUERTES" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LASSUERTES> a geo:SpatialThing ;
+	geo:lat "40.363222521329554"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.5995338929148137"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LASSUERTES> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LASSUERTES> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PARQUELISBOA> a schema:SubwayStation ;
+	schema:name "PARQUE LISBOA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PARQUELISBOA> a geo:SpatialThing ;
+	geo:lat "40.34968065645224"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.82120109523051"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PARQUELISBOA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PARQUELISBOA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/JULIANBESTEIRO> a schema:SubwayStation ;
+	schema:name "JULIAN BESTEIRO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/JULIANBESTEIRO> a geo:SpatialThing ;
+	geo:lat "40.33474132707299"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7526680306408298"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/JULIANBESTEIRO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/JULIANBESTEIRO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MENENDEZPELAYO> a schema:SubwayStation ;
+	schema:name "MENENDEZ PELAYO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/MENENDEZPELAYO> a geo:SpatialThing ;
+	geo:lat "40.40444766175837"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.680990950831421"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MENENDEZPELAYO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/MENENDEZPELAYO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LASROSAS> a schema:SubwayStation ;
+	schema:name "LAS ROSAS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "2" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LASROSAS> a geo:SpatialThing ;
+	geo:lat "40.42374407461544"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.603312660169485"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LASROSAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LASROSAS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VALDEZARZA> a schema:SubwayStation ;
+	schema:name "VALDEZARZA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/VALDEZARZA> a geo:SpatialThing ;
+	geo:lat "40.46482187020762"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.715983800961631"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VALDEZARZA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/VALDEZARZA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MANOTERAS> a schema:SubwayStation ;
+	schema:name "MANOTERAS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/MANOTERAS> a geo:SpatialThing ;
+	geo:lat "40.476868155535264"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6629051638999885"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MANOTERAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/MANOTERAS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/NUNEZDEBALBOA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/NUNEZDEBALBOA> geo:lat "40.43155470422416"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6796609448436803"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SEVILLA> a schema:SubwayStation ;
+	schema:name "SEVILLA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "2" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SEVILLA> a geo:SpatialThing ;
+	geo:lat "40.41805041634745"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.699256783373693"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SEVILLA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/SEVILLA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PLAZAELIPTICA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "11" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PLAZAELIPTICA> geo:lat "40.38460041732617"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.718255725562412"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/GRANVIA> a schema:SubwayStation ;
+	schema:name "GRAN VIA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/GRANVIA> a geo:SpatialThing ;
+	geo:lat "40.41998089186693"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7018110884609574"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/GRANVIA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/GRANVIA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PUERTADELSUR> a schema:SubwayStation ;
+	schema:name "PUERTA DEL SUR" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PUERTADELSUR> a geo:SpatialThing ;
+	geo:lat "40.34542677853863"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.8124952599273105"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PUERTADELSUR> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PUERTADELSUR> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANBERNARDO> a schema:SubwayStation ;
+	schema:name "SAN BERNARDO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SANBERNARDO> a geo:SpatialThing ;
+	geo:lat "40.42966004060878"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7056842453656524"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANBERNARDO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/SANBERNARDO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VISTAALEGRE> a schema:SubwayStation ;
+	schema:name "VISTA ALEGRE" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/VISTAALEGRE> a geo:SpatialThing ;
+	geo:lat "40.388842832017616"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7398266508291504"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VISTAALEGRE> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/VISTAALEGRE> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PINARDECHAMARTIN> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PINARDECHAMARTIN> geo:lat "40.480133980071855"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6668070489569375"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/GUZMANELBUENO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/GUZMANELBUENO> geo:lat "40.446358219515204"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.712297363431821"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAPOVEDA> a schema:SubwayStation ;
+	schema:name "LA POVEDA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LAPOVEDA> a geo:SpatialThing ;
+	geo:lat "40.319015132480565"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.4774526391285843"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAPOVEDA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LAPOVEDA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PARQUEEUROPA> a schema:SubwayStation ;
+	schema:name "PARQUE EUROPA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PARQUEEUROPA> a geo:SpatialThing ;
+	geo:lat "40.28517161548538"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.806326592469152"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PARQUEEUROPA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PARQUEEUROPA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/AVENIDADEAMERICA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/AVENIDADEAMERICA> geo:lat "40.43803218828648"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.676589849510356"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/COLON> a schema:SubwayStation ;
+	schema:name "COLON" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/COLON> a geo:SpatialThing ;
+	geo:lat "40.42541533737568"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.69101038799368"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/COLON> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/COLON> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BARRIODELACONCEPCION> a schema:SubwayStation ;
+	schema:name "BARRIO DE LA CONCEPCION" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/BARRIODELACONCEPCION> a geo:SpatialThing ;
+	geo:lat "40.43909238459439"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6520047159864566"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BARRIODELACONCEPCION> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/BARRIODELACONCEPCION> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ELCARRASCAL> a schema:SubwayStation ;
+	schema:name "EL CARRASCAL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ELCARRASCAL> a geo:SpatialThing ;
+	geo:lat "40.33663271563503"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7401861399196927"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ELCARRASCAL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ELCARRASCAL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CHUECA> a schema:SubwayStation ;
+	schema:name "CHUECA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CHUECA> a geo:SpatialThing ;
+	geo:lat "40.422925175776896"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6976215707393187"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CHUECA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CHUECA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/FUENCARRAL> a schema:SubwayStation ;
+	schema:name "FUENCARRAL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/FUENCARRAL> a geo:SpatialThing ;
+	geo:lat "40.495079868005874"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6928338450754943"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/FUENCARRAL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/FUENCARRAL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/TRIBUNAL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/TRIBUNAL> geo:lat "40.426183365064986"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7011092950034614"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALVARADO> a schema:SubwayStation ;
+	schema:name "ALVARADO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ALVARADO> a geo:SpatialThing ;
+	geo:lat "40.45033211451537"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7033178125635438"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALVARADO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ALVARADO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/TORREARIAS> a schema:SubwayStation ;
+	schema:name "TORRE ARIAS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/TORREARIAS> a geo:SpatialThing ;
+	geo:lat "40.44374395830959"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6170047347741927"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/TORREARIAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/TORREARIAS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/GOYA> a schema:SubwayStation ;
+	schema:name "GOYA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "2" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/GOYA> a geo:SpatialThing ;
+	geo:lat "40.42454062624169"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6759123812326258"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/GOYA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/GOYA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/AVENIDADEAMERICA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/AVENIDADEAMERICA> geo:lat "40.438032533289885"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.676530899551006"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/RONDADELACOMUNICACION> a schema:SubwayStation ;
+	schema:name "RONDA DE LA COMUNICACION" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/RONDADELACOMUNICACION> a geo:SpatialThing ;
+	geo:lat "40.515535221645685"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.662778265647421"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/RONDADELACOMUNICACION> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/RONDADELACOMUNICACION> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MONCLOA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "3" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/MONCLOA> geo:lat "40.43501662344703"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.719452180080623"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PLAZADECASTILLA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PLAZADECASTILLA> geo:lat "40.466895247396884"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6890879860012036"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/AVDA.DELAILUSTRACION> a schema:SubwayStation ;
+	schema:name "AVDA. DE LA ILUSTRACION" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/AVDA.DELAILUSTRACION> a geo:SpatialThing ;
+	geo:lat "40.48009500002723"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7184112647167886"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/AVDA.DELAILUSTRACION> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/AVDA.DELAILUSTRACION> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CANILLEJAS> a schema:SubwayStation ;
+	schema:name "CANILLEJAS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CANILLEJAS> a geo:SpatialThing ;
+	geo:lat "40.44942144215434"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.608164961766647"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CANILLEJAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CANILLEJAS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VELAZQUEZ> a schema:SubwayStation ;
+	schema:name "VELAZQUEZ" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/VELAZQUEZ> a geo:SpatialThing ;
+	geo:lat "40.425030979720276"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6829196062285985"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VELAZQUEZ> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/VELAZQUEZ> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SERRANO> a schema:SubwayStation ;
+	schema:name "SERRANO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SERRANO> a geo:SpatialThing ;
+	geo:lat "40.42543238545867"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.686637037145088"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SERRANO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/SERRANO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CUATROCAMINOS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CUATROCAMINOS> geo:lat "40.44696773829664"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.703978482140975"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/GOYA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/GOYA> geo:lat "40.42480536443969"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6768581011593215"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PACIFICO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PACIFICO> geo:lat "40.40206599506193"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6738609535364106"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAGAVIA> a schema:SubwayStation ;
+	schema:name "LA GAVIA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LAGAVIA> a geo:SpatialThing ;
+	geo:lat "40.37018557467113"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.61347110873574"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAGAVIA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LAGAVIA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ARGANDADELREY> a schema:SubwayStation ;
+	schema:name "ARGANDA DEL REY" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ARGANDADELREY> a geo:SpatialThing ;
+	geo:lat "40.3036658577812"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.4475260692511793"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ARGANDADELREY> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ARGANDADELREY> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BATAN> a schema:SubwayStation ;
+	schema:name "BATAN" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/BATAN> a geo:SpatialThing ;
+	geo:lat "40.407856234953144"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.753116589250486"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BATAN> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/BATAN> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/METROPOLITANO> a schema:SubwayStation ;
+	schema:name "METROPOLITANO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/METROPOLITANO> a geo:SpatialThing ;
+	geo:lat "40.446431150760525"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.719432375373863"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/METROPOLITANO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/METROPOLITANO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/AVIACIONESPANOLA> a schema:SubwayStation ;
+	schema:name "AVIACION ESPANOLA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/AVIACIONESPANOLA> a geo:SpatialThing ;
+	geo:lat "40.38363332651039"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7839254246933263"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/AVIACIONESPANOLA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/AVIACIONESPANOLA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/IBIZA> a schema:SubwayStation ;
+	schema:name "IBIZA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/IBIZA> a geo:SpatialThing ;
+	geo:lat "40.41838980895368"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6785854635642874"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/IBIZA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/IBIZA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BARRIODELPILAR> a schema:SubwayStation ;
+	schema:name "BARRIO DEL PILAR" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/BARRIODELPILAR> a geo:SpatialThing ;
+	geo:lat "40.476882449874864"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.703170088449048"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BARRIODELPILAR> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/BARRIODELPILAR> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CANILLAS> a schema:SubwayStation ;
+	schema:name "CANILLAS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CANILLAS> a geo:SpatialThing ;
+	geo:lat "40.46380536350123"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.635600584738448"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CANILLAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CANILLAS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ARGUELLES> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "3" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ARGUELLES> geo:lat "40.43065983011964"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7159750373526372"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MARQUESDELAVALDAVIA> a schema:SubwayStation ;
+	schema:name "MARQUES DE LA VALDAVIA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/MARQUESDELAVALDAVIA> a geo:SpatialThing ;
+	geo:lat "40.54102004433109"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6373926197882787"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MARQUESDELAVALDAVIA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/MARQUESDELAVALDAVIA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/FRANCOSRODRIGUEZ> a schema:SubwayStation ;
+	schema:name "FRANCOS RODRIGUEZ" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/FRANCOSRODRIGUEZ> a geo:SpatialThing ;
+	geo:lat "40.45647472583504"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7123923977382236"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/FRANCOSRODRIGUEZ> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/FRANCOSRODRIGUEZ> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/COLONIAJARDIN> a schema:SubwayStation ;
+	schema:name "COLONIA JARDIN" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/COLONIAJARDIN> a geo:SpatialThing ;
+	geo:lat "40.396975403947295"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.774618022017095"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/COLONIAJARDIN> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/COLONIAJARDIN> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LISTA> a schema:SubwayStation ;
+	schema:name "LISTA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LISTA> a geo:SpatialThing ;
+	geo:lat "40.42916516037262"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6754163781556333"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LISTA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LISTA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CUATROCAMINOS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CUATROCAMINOS> geo:lat "40.44696838453681"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7038723587748987"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SAINZDEBARANDA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SAINZDEBARANDA> geo:lat "40.41506424707161"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6695234608035796"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MARQUESDEVADILLO> a schema:SubwayStation ;
+	schema:name "MARQUES DE VADILLO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/MARQUESDEVADILLO> a geo:SpatialThing ;
+	geo:lat "40.397353467438805"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7159638187452613"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MARQUESDEVADILLO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/MARQUESDEVADILLO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PRINCIPEPIO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PRINCIPEPIO> geo:lat "40.421029166133174"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7203286715946082"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/GRANVIA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/GRANVIA> geo:lat "40.42000791727693"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7018113693076806"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CUATROVIENTOS> a schema:SubwayStation ;
+	schema:name "CUATRO VIENTOS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CUATROVIENTOS> a geo:SpatialThing ;
+	geo:lat "40.377698631654795"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.791525485827724"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CUATROVIENTOS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CUATROVIENTOS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CASADELRELOJ> a schema:SubwayStation ;
+	schema:name "CASA DEL RELOJ" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CASADELRELOJ> a geo:SpatialThing ;
+	geo:lat "40.32659790646591"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.75942842266733"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CASADELRELOJ> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CASADELRELOJ> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/OPERA> a schema:SubwayStation ;
+	schema:name "OPERA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "2" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/OPERA> a geo:SpatialThing ;
+	geo:lat "40.41808754185801"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7094295122270493"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/OPERA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/OPERA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PENAGRANDE> a schema:SubwayStation ;
+	schema:name "PENAGRANDE" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PENAGRANDE> a geo:SpatialThing ;
+	geo:lat "40.47592185478177"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7158303635103915"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PENAGRANDE> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PENAGRANDE> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CUZCO> a schema:SubwayStation ;
+	schema:name "CUZCO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CUZCO> a geo:SpatialThing ;
+	geo:lat "40.45842219033371"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6898623851105183"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CUZCO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CUZCO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VILLAVERDEBAJOCRUCE> a schema:SubwayStation ;
+	schema:name "VILLAVERDE BAJO CRUCE" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "3" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/VILLAVERDEBAJOCRUCE> a geo:SpatialThing ;
+	geo:lat "40.35089133294532"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.692651337574659"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VILLAVERDEBAJOCRUCE> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/VILLAVERDEBAJOCRUCE> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LASMUSAS> a schema:SubwayStation ;
+	schema:name "LAS MUSAS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LASMUSAS> a geo:SpatialThing ;
+	geo:lat "40.43298141874559"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6078871348400607"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LASMUSAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LASMUSAS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANBERNARDO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "2" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SANBERNARDO> geo:lat "40.430012017632926"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7055818211365636"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MANUELBECERRA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "2" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/MANUELBECERRA> geo:lat "40.427903652767455"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.66926173279445"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/O'DONNELL> a schema:SubwayStation ;
+	schema:name "O'DONNELL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/O'DONNELL> a geo:SpatialThing ;
+	geo:lat "40.422889451815756"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6685990565440196"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/O'DONNELL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/O'DONNELL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ELBERCIAL> a schema:SubwayStation ;
+	schema:name "EL BERCIAL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ELBERCIAL> a geo:SpatialThing ;
+	geo:lat "40.329068971088006"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7296384824724718"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ELBERCIAL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ELBERCIAL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/FUENLABRADACENTRAL> a schema:SubwayStation ;
+	schema:name "FUENLABRADA CENTRAL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/FUENLABRADACENTRAL> a geo:SpatialThing ;
+	geo:lat "40.28267346196854"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.798909375207058"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/FUENLABRADACENTRAL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/FUENLABRADACENTRAL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/COLOMBIA> a schema:SubwayStation ;
+	schema:name "COLOMBIA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/COLOMBIA> a geo:SpatialThing ;
+	geo:lat "40.457489525792404"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6769501193498826"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/COLOMBIA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/COLOMBIA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LALATINA> a schema:SubwayStation ;
+	schema:name "LA LATINA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LALATINA> a geo:SpatialThing ;
+	geo:lat "40.411275431706784"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7081675838043617"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LALATINA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LALATINA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALAMEDADEOSUNA> a schema:SubwayStation ;
+	schema:name "ALAMEDA DE OSUNA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ALAMEDADEOSUNA> a geo:SpatialThing ;
+	geo:lat "40.457789434241064"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.5875298560645428"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALAMEDADEOSUNA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ALAMEDADEOSUNA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/GARCIANOBLEJAS> a schema:SubwayStation ;
+	schema:name "GARCIA NOBLEJAS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/GARCIANOBLEJAS> a geo:SpatialThing ;
+	geo:lat "40.42842150201045"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6333103721205955"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/GARCIANOBLEJAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/GARCIANOBLEJAS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PROSPERIDAD> a schema:SubwayStation ;
+	schema:name "PROSPERIDAD" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PROSPERIDAD> a geo:SpatialThing ;
+	geo:lat "40.444186658327624"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6748238340971913"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PROSPERIDAD> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PROSPERIDAD> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/IGLESIA> a schema:SubwayStation ;
+	schema:name "IGLESIA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/IGLESIA> a geo:SpatialThing ;
+	geo:lat "40.434916971729535"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6989834588230206"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/IGLESIA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/IGLESIA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CONSERVATORIO> a schema:SubwayStation ;
+	schema:name "CONSERVATORIO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CONSERVATORIO> a geo:SpatialThing ;
+	geo:lat "40.29324463564865"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7457717238868806"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CONSERVATORIO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CONSERVATORIO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BAMBU> a schema:SubwayStation ;
+	schema:name "BAMBU" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/BAMBU> a geo:SpatialThing ;
+	geo:lat "40.47680811803293"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6763772815477234"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BAMBU> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/BAMBU> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PARQUEDESANTAMARIA> a schema:SubwayStation ;
+	schema:name "PARQUE DE SANTA MARIA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PARQUEDESANTAMARIA> a geo:SpatialThing ;
+	geo:lat "40.47711223138429"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6452466668251837"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PARQUEDESANTAMARIA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PARQUEDESANTAMARIA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/JUANDELACIERVA> a schema:SubwayStation ;
+	schema:name "JUAN DE LA CIERVA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/JUANDELACIERVA> a geo:SpatialThing ;
+	geo:lat "40.311799686142244"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7222501553757494"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/JUANDELACIERVA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/JUANDELACIERVA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CAMPAMENTO> a schema:SubwayStation ;
+	schema:name "CAMPAMENTO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CAMPAMENTO> a geo:SpatialThing ;
+	geo:lat "40.39480242011578"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7681359812057247"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CAMPAMENTO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CAMPAMENTO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALFONSOXIII> a schema:SubwayStation ;
+	schema:name "ALFONSO XIII" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ALFONSOXIII> a geo:SpatialThing ;
+	geo:lat "40.448244779709626"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6679186579899956"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALFONSOXIII> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ALFONSOXIII> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/COLOMBIA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "8" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/COLOMBIA> geo:lat "40.45633706451893"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6768324073355148"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/QUEVEDO> a schema:SubwayStation ;
+	schema:name "QUEVEDO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "2" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/QUEVEDO> a geo:SpatialThing ;
+	geo:lat "40.433217779751516"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.704342027104579"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/QUEVEDO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/QUEVEDO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VENTURARODRIGUEZ> a schema:SubwayStation ;
+	schema:name "VENTURA RODRIGUEZ" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "3" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/VENTURARODRIGUEZ> a geo:SpatialThing ;
+	geo:lat "40.427081061632386"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.71341429173834"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VENTURARODRIGUEZ> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/VENTURARODRIGUEZ> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/DELICIAS> a schema:SubwayStation ;
+	schema:name "DELICIAS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "3" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/DELICIAS> a geo:SpatialThing ;
+	geo:lat "40.399900598863226"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.694202156550914"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/DELICIAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/DELICIAS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ARGANZUELA-PLANETARIO> a schema:SubwayStation ;
+	schema:name "ARGANZUELA-PLANETARIO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ARGANZUELA-PLANETARIO> a geo:SpatialThing ;
+	geo:lat "40.39309596001727"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.688641470416205"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ARGANZUELA-PLANETARIO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ARGANZUELA-PLANETARIO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/HORTALEZA> a schema:SubwayStation ;
+	schema:name "HORTALEZA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/HORTALEZA> a geo:SpatialThing ;
+	geo:lat "40.47536836577263"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6525796426092887"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/HORTALEZA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/HORTALEZA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/MARDECRISTAL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/MARDECRISTAL> geo:lat "40.46942093123173"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6383312595599535"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANFERMIN-ORCASUR> a schema:SubwayStation ;
+	schema:name "SAN FERMIN-ORCASUR" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "3" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SANFERMIN-ORCASUR> a geo:SpatialThing ;
+	geo:lat "40.36999055068376"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.694177844478536"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANFERMIN-ORCASUR> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/SANFERMIN-ORCASUR> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ARGUELLES> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ARGUELLES> geo:lat "40.43052477674069"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.715961815664065"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CARABANCHELALTO> a schema:SubwayStation ;
+	schema:name "CARABANCHEL ALTO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "11" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CARABANCHELALTO> a geo:SpatialThing ;
+	geo:lat "40.37197192088226"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.751915969142416"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CARABANCHELALTO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CARABANCHELALTO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PRINCIPEDEVERGARA> a schema:SubwayStation ;
+	schema:name "PRINCIPE DE VERGARA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PRINCIPEDEVERGARA> a geo:SpatialThing ;
+	geo:lat "40.424172860731126"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6802467804402337"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PRINCIPEDEVERGARA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PRINCIPEDEVERGARA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SIMANCAS> a schema:SubwayStation ;
+	schema:name "SIMANCAS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SIMANCAS> a geo:SpatialThing ;
+	geo:lat "40.42798532116267"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6257259881240316"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SIMANCAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/SIMANCAS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CIUDADUNIVERSITARIA> a schema:SubwayStation ;
+	schema:name "CIUDAD UNIVERSITARIA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CIUDADUNIVERSITARIA> a geo:SpatialThing ;
+	geo:lat "40.44355626984068"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7267950750797425"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CIUDADUNIVERSITARIA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CIUDADUNIVERSITARIA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/HOSPITALDEMOSTOLES> a schema:SubwayStation ;
+	schema:name "HOSPITAL DE MOSTOLES" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/HOSPITALDEMOSTOLES> a geo:SpatialThing ;
+	geo:lat "40.31652217091693"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.8747150351383035"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/HOSPITALDEMOSTOLES> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/HOSPITALDEMOSTOLES> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CARPETANA> a schema:SubwayStation ;
+	schema:name "CARPETANA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CARPETANA> a geo:SpatialThing ;
+	geo:lat "40.39270021015217"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7410000091062043"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CARPETANA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/CARPETANA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ESTRECHO> a schema:SubwayStation ;
+	schema:name "ESTRECHO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ESTRECHO> a geo:SpatialThing ;
+	geo:lat "40.4542798096964"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7030287548801475"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ESTRECHO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ESTRECHO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/EMBAJADORES> a schema:SubwayStation ;
+	schema:name "EMBAJADORES" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "3" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/EMBAJADORES> a geo:SpatialThing ;
+	geo:lat "40.40511967929685"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7026819979669257"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/EMBAJADORES> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/EMBAJADORES> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/REYESCATOLICOS> a schema:SubwayStation ;
+	schema:name "REYES CATOLICOS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/REYESCATOLICOS> a geo:SpatialThing ;
+	geo:lat "40.55037550528663"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.623403338680384"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/REYESCATOLICOS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/REYESCATOLICOS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PUENTEDEVALLECAS> a schema:SubwayStation ;
+	schema:name "PUENTE DE VALLECAS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PUENTEDEVALLECAS> a geo:SpatialThing ;
+	geo:lat "40.39819293417765"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.669061708657388"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PUENTEDEVALLECAS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PUENTEDEVALLECAS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BARRIODELPUERTO> a schema:SubwayStation ;
+	schema:name "BARRIO DEL PUERTO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/BARRIODELPUERTO> a geo:SpatialThing ;
+	geo:lat "40.42249362802511"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.5691987965666954"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/BARRIODELPUERTO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/BARRIODELPUERTO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/CALLAO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "3" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/CALLAO> geo:lat "40.42012859170676"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7056671508823"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALCORCONCENTRAL> a schema:SubwayStation ;
+	schema:name "ALCORCON CENTRAL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ALCORCONCENTRAL> a geo:SpatialThing ;
+	geo:lat "40.35008253979741"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.8317801756667986"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALCORCONCENTRAL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ALCORCONCENTRAL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PRINCIPEDEVERGARA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "2" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PRINCIPEDEVERGARA> geo:lat "40.42293931962459"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6801282615934703"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/OPERA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/OPERA> geo:lat "40.418087975777055"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7093587936603294"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LUCERO> a schema:SubwayStation ;
+	schema:name "LUCERO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LUCERO> a geo:SpatialThing ;
+	geo:lat "40.40509578552482"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7453431392210117"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LUCERO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LUCERO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANLORENZO> a schema:SubwayStation ;
+	schema:name "SAN LORENZO" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/SANLORENZO> a geo:SpatialThing ;
+	geo:lat "40.474468050879565"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.639582355296153"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/SANLORENZO> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/SANLORENZO> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/USERA> a schema:SubwayStation ;
+	schema:name "USERA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/USERA> a geo:SpatialThing ;
+	geo:lat "40.387093833022185"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.706901012764277"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/USERA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/USERA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VINATEROS> a schema:SubwayStation ;
+	schema:name "VINATEROS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/VINATEROS> a geo:SpatialThing ;
+	geo:lat "40.41024127184873"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6527397719478243"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/VINATEROS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/VINATEROS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PARQUEDELOSESTADOS> a schema:SubwayStation ;
+	schema:name "PARQUE DE LOS ESTADOS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PARQUEDELOSESTADOS> a geo:SpatialThing ;
+	geo:lat "40.28683637867598"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.786982314234991"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PARQUEDELOSESTADOS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PARQUEDELOSESTADOS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/OPERA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "R" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/OPERA> geo:lat "40.41808840965286"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7092880750920783"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALMENDRALES> a schema:SubwayStation ;
+	schema:name "ALMENDRALES" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "3" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ALMENDRALES> a geo:SpatialThing ;
+	geo:lat "40.384066948658585"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6979745196405482"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALMENDRALES> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/ALMENDRALES> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/ALONSOMARTINEZ> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "4" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/ALONSOMARTINEZ> geo:lat "40.42771904662575"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6959499264843716"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAPESETA> a schema:SubwayStation ;
+	schema:name "LA PESETA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "11" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LAPESETA> a geo:SpatialThing ;
+	geo:lat "40.36421856882589"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7569060298081776"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAPESETA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LAPESETA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LARAMBLA> a schema:SubwayStation ;
+	schema:name "LA RAMBLA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "7" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LARAMBLA> a geo:SpatialThing ;
+	geo:lat "40.42514594640941"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.5479311684597126"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LARAMBLA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LARAMBLA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAFORTUNA> a schema:SubwayStation ;
+	schema:name "LA FORTUNA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "11" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/LAFORTUNA> a geo:SpatialThing ;
+	geo:lat "40.35795351445639"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7778337856292503"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/LAFORTUNA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/LAFORTUNA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PLAZADECASTILLA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "1" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PLAZADECASTILLA> geo:lat "40.46689468480269"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.689182346052143"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/HERRERAORIA> a schema:SubwayStation ;
+	schema:name "HERRERA ORIA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/HERRERAORIA> a geo:SpatialThing ;
+	geo:lat "40.48465763315051"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.707522399369353"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/HERRERAORIA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/HERRERAORIA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/UNIVERSIDADREYJUANCARLOS> a schema:SubwayStation ;
+	schema:name "UNIVERSIDAD REY JUAN CARLOS" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "12" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/UNIVERSIDADREYJUANCARLOS> a geo:SpatialThing ;
+	geo:lat "40.33511805874597"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.8721885540074115"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/UNIVERSIDADREYJUANCARLOS> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/UNIVERSIDADREYJUANCARLOS> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PUERTADELANGEL> a schema:SubwayStation ;
+	schema:name "PUERTA DEL ANGEL" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "6" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PUERTADELANGEL> a geo:SpatialThing ;
+	geo:lat "40.413895775966544"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7272419612096934"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PUERTADELANGEL> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PUERTADELANGEL> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/DUQUEDEPASTRANA> a schema:SubwayStation ;
+	schema:name "DUQUE DE PASTRANA" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "9" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/DUQUEDEPASTRANA> a geo:SpatialThing ;
+	geo:lat "40.46762058495208"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6791750861644044"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/DUQUEDEPASTRANA> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/DUQUEDEPASTRANA> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PIRAMIDES> a schema:SubwayStation ;
+	schema:name "PIRAMIDES" ;
+	<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "5" ;
+	schema:containedIn <http://127.0.0.1:3333/mibarrio/City/MADRID> .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PIRAMIDES> a geo:SpatialThing ;
+	geo:lat "40.40259795902546"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.711388079281904"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PIRAMIDES> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://127.0.0.1:3333/mibarrio/Spatial/PIRAMIDES> .
+
+<http://127.0.0.1:3333/mibarrio/SubwayStation/PUERTADELSUR> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine> "10" .
+
+<http://127.0.0.1:3333/mibarrio/Spatial/PUERTADELSUR> geo:lat "40.345240249069484"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.8121162393379575"^^<http://www.w3.org/2001/XMLSchema#double> .
