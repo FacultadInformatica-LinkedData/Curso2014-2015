@@ -63,6 +63,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/CENTRO> a ns:Distrito ;
 	ns:NombreDistrito "CENTRO";
+	owl:sameAs "http://es.dbpedia.org/resource/Centro_Centro";
 	ns:CodigoPostal "28015"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaHistóricaMunicipal> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/CENTRO> ;
@@ -117,6 +118,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/MONCLOAARAVACA> a ns:Distrito ;
 	ns:NombreDistrito "MONCLOA-ARAVACA";
+	owl:sameAs "http://dbpedia.org/resource/Moncloa-Aravaca";
 	ns:CodigoPostal "28008"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaAcuña> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/MONCLOAARAVACA> ;
@@ -153,6 +155,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/SANBLASCANILLEJAS> a ns:Distrito ;
 	ns:NombreDistrito "SAN BLAS-CANILLEJAS";
+	owl:sameAs "http://dbpedia.org/resource/San_Blas_(Madrid)";
 	ns:CodigoPostal "28022"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCanillejas> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/SANBLASCANILLEJAS> ;
@@ -188,6 +191,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/CARABANCHEL> a ns:Distrito ;
 	ns:NombreDistrito "CARABANCHEL";
+	owl:sameAs "http://es.dbpedia.org/resource/Carabanchel";
 	ns:CodigoPostal "28044"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCarabanchelLuisRosales> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/CARABANCHEL> ;
@@ -224,6 +228,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/CHAMBERI> a ns:Distrito ;
 	ns:NombreDistrito "CHAMBERI";
+	owl:sameAs "http://es.dbpedia.org/resource/Chamberi";
 	ns:CodigoPostal "28010"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaCentral> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/CHAMBERI> ;
@@ -292,6 +297,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/FUENCARRALELPARDO> a ns:Distrito ;
 	ns:NombreDistrito "FUENCARRAL-EL PARDO";
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Fuencarral-El_Pardo";
 	ns:CodigoPostal "28034"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaFuencarralElPardo.RafaelAlberti> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/FUENCARRALELPARDO> ;
@@ -327,6 +333,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/HORTALEZA> a ns:Distrito ;
 	ns:NombreDistrito "HORTALEZA";
+	owl:sameAs "http://dbpedia.org/resource/Hortaleza";
 	ns:CodigoPostal "28033"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaHortaleza> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/HORTALEZA> ;
@@ -362,6 +369,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/LATINA> a ns:Distrito ;
 	ns:NombreDistrito "LATINA";
+	owl:sameAs "http://dbpedia.org/resource/Latina_(disambiguation)";
 	ns:CodigoPostal "28044"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaLatinaAntonioMingote> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/LATINA> ;
@@ -397,6 +405,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/MORATALAZ> a ns:Distrito ;
 	ns:NombreDistrito "MORATALAZ";
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Moratalaz";
 	ns:CodigoPostal "28030"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMoratalaz> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/MORATALAZ> ;
@@ -494,6 +503,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/SALAMANCA> a ns:Distrito ;
 	ns:NombreDistrito "SALAMANCA";
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Salamanca";
 	ns:CodigoPostal "28028"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalBuenavista(Salamanca)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/SALAMANCA> ;
@@ -559,6 +569,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/CHAMARTIN> a ns:Distrito ;
 	ns:NombreDistrito "CHAMARTIN";
+	owl:sameAs "http://es.dbpedia.org/resource/Chamartin";
 	ns:CodigoPostal "28002"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalChamartín(Chamartín)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/CHAMARTIN> ;
@@ -594,6 +605,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/CIUDADLINEAL> a ns:Distrito ;
 	ns:NombreDistrito "CIUDAD LINEAL";
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Ciudad_Lineal";
 	ns:CodigoPostal "28037"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalCiudadLineal(CiudadLineal)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/CIUDADLINEAL> ;
@@ -678,6 +690,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/RETIRO> a ns:Distrito ;
 	ns:NombreDistrito "RETIRO";
+	owl:sameAs "http://dbpedia.org/resource/Retiro";
 	ns:CodigoPostal "28009"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalEugenioTrías.CasadeFierasdeElRetiro> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/RETIRO> ;
@@ -713,6 +726,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/VICALVARO> a ns:Distrito ;
 	ns:NombreDistrito "VICALVARO";
+	owl:sameAs "http://es.dbpedia.org/resource/Vicalvaro";
 	ns:CodigoPostal "28032"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalFranciscoAyala(Vicálvaro)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/VICALVARO> ;
@@ -748,6 +762,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/USERA> a ns:Distrito ;
 	ns:NombreDistrito "USERA";
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Usera";
 	ns:CodigoPostal "28041"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGabrielGarcíaMárquez(Usera)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/USERA> ;
@@ -783,6 +798,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/VILLADEVALLECAS> a ns:Distrito ;
 	ns:NombreDistrito "VILLA DE VALLECAS";
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Villa_de_Vallecas";
 	ns:CodigoPostal "28031"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGerardoDiego(VilladeVallecas)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/VILLADEVALLECAS> ;
@@ -818,6 +834,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/BARAJAS> a ns:Distrito ;
 	ns:NombreDistrito "BARAJAS";
+	owl:sameAs "http://dbpedia.org/resource/Barajas_(district)";
 	ns:CodigoPostal "28042"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalGloriaFuertes(Barajas)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/BARAJAS> ;
@@ -1041,6 +1058,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/TETUAN> a ns:Distrito ;
 	ns:NombreDistrito "TETUAN";
+	owl:sameAs "http://es.dbpedia.org/resource/Tetuan";
 	ns:CodigoPostal "28039"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalManuelVázquezMontalbán(Tetuán)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/TETUAN> ;
@@ -1170,6 +1188,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/PUENTEDEVALLECAS> a ns:Distrito ;
 	ns:NombreDistrito "PUENTE DE VALLECAS";
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Puente_de_Vallecas";
 	ns:CodigoPostal "28038"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPortazgo(PuentedeVallecas)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/PUENTEDEVALLECAS> ;
@@ -1234,6 +1253,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/ARGANZUELA> a ns:Distrito ;
 	ns:NombreDistrito "ARGANZUELA";
+	owl:sameAs "http://es.dbpedia.org/resource/Categoría:Arganzuela";
 	ns:CodigoPostal "28005"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaMunicipalPíoBaroja(Arganzuela)> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/ARGANZUELA> ;
@@ -1573,6 +1593,7 @@
 
 <http://www.semanticweb.org/instances/Distrito/VILLAVERDE> a ns:Distrito ;
 	ns:NombreDistrito "VILLAVERDE";
+	owl:sameAs "http://dbpedia.org/resource/Villaverde_(Madrid)";
 	ns:CodigoPostal "28021"^^<http://www.w3.org/2001/XMLSchema#double> .
 
 <http://www.semanticweb.org/instances/LugarPrestamoLibros/BibliotecaPúblicaVillaverdeMaríaMoliner> ns:estaEnDistrito <http://www.semanticweb.org/instances/Distrito/VILLAVERDE> ;

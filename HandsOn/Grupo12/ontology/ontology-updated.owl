@@ -16,21 +16,16 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      ontologyIRI="http://www.semanticweb.org/OntologyGroup12#">
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
         <Class IRI="Autobus"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Tipo"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="CentroCultural"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://www.w3.org/2006/vcard/ns#Address"/>
     </Declaration>
     <Declaration>
         <Class IRI="Distrito"/>
@@ -42,7 +37,13 @@
         <Class IRI="Metro"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Tipo"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="TransportePublico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/2006/vcard/ns#Address"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="accesibleDesde"/>
@@ -60,7 +61,7 @@
         <DataProperty IRI="Calle"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#postal-code"/>
+        <DataProperty IRI="Content-URL"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="Descripcion"/>
@@ -74,15 +75,6 @@
     <Declaration>
         <DataProperty IRI="Horario"/>
     </Declaration>
-	<Declaration>
-        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
-    </Declaration>
     <Declaration>
         <DataProperty IRI="Nombre"/>
     </Declaration>
@@ -93,57 +85,65 @@
         <DataProperty IRI="Telefono"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="Content-URL"/>
+        <DataProperty IRI="Tipo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#postal-code"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="Autobus"/>
         <Class IRI="TransportePublico"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="Tipo"/>
-        <Class IRI="LugarPrestamoLibros"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="Metro"/>
         <Class IRI="TransportePublico"/>
     </SubClassOf>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#adr"/>
-        <Class IRI="CentroCultural"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#adr"/>
-        <Class IRI="LugarPrestamoLibros"/>
-    </ObjectPropertyDomain>
-	<ObjectPropertyDomain>
-        <ObjectProperty IRI="estaEnDistrito"/>
-        <Class IRI="CentroCultural"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="estaEnDistrito"/>
-        <Class IRI="LugarPrestamoLibros"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="accesibleDesde"/>
-        <Class IRI="CentroCultural"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="accesibleDesde"/>
-        <Class IRI="LugarPrestamoLibros"/>
-    </ObjectPropertyDomain>
-   <ObjectPropertyRange>
-        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#adr"/>
-        <Class IRI="http://www.w3.org/2006/vcard/ns#Address"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="accesibleDesde"/>
         <Class IRI="TransportePublico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="estaEnDistrito"/>
+        <Class IRI="Distrito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#adr"/>
+        <Class IRI="http://www.w3.org/2006/vcard/ns#Address"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="accesibleDesde"/>
+        <Class IRI="CentroCultural"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="accesibleDesde"/>
+        <Class IRI="LugarPrestamoLibros"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="estaEnDistrito"/>
-        <Class IRI="Distrito"/>
+        <Class IRI="CentroCultural"/>
     </ObjectPropertyRange>
-	<SubDataPropertyOf>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="estaEnDistrito"/>
+        <Class IRI="LugarPrestamoLibros"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#adr"/>
+        <Class IRI="CentroCultural"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#adr"/>
+        <Class IRI="LugarPrestamoLibros"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
         <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
         <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
     </SubDataPropertyOf>
@@ -163,13 +163,13 @@
         <DataProperty IRI="Calle"/>
         <Class IRI="http://www.w3.org/2006/vcard/ns#Address"/>
     </DataPropertyDomain>
-	<DataPropertyDomain>
-        <DataProperty IRI="nombreDistrito"/>
-        <Class IRI="Distrito"/>
+    <DataPropertyDomain>
+        <DataProperty IRI="Content-URL"/>
+        <Class IRI="CentroCultural"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#postal-code"/>
-        <Class IRI="Distrito"/>
+        <DataProperty IRI="Content-URL"/>
+        <Class IRI="LugarPrestamoLibros"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="Descripcion"/>
@@ -179,7 +179,7 @@
         <DataProperty IRI="Email"/>
         <Class IRI="CentroCultural"/>
     </DataPropertyDomain>
-	<DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="Email"/>
         <Class IRI="LugarPrestamoLibros"/>
     </DataPropertyDomain>
@@ -223,41 +223,17 @@
         <DataProperty IRI="Telefono"/>
         <Class IRI="CentroCultural"/>
     </DataPropertyDomain>
-	<DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="Telefono"/>
         <Class IRI="LugarPrestamoLibros"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="Content-URL"/>
-        <Class IRI="CentroCultural"/>
+        <DataProperty IRI="nombreDistrito"/>
+        <Class IRI="Distrito"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="Content-URL"/>
-        <Class IRI="LugarPrestamoLibros"/>
-    </DataPropertyDomain>
-	<DataPropertyDomain>
-        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
-        <Class IRI="#CentroCultural"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
-        <Class IRI="#LugarPrestamoLibros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
-        <Class IRI="#CentroCultural"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
-        <Class IRI="#LugarPrestamoLibros"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
-        <Class IRI="#CentroCultural"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
-        <Class IRI="#LugarPrestamoLibros"/>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#postal-code"/>
+        <Class IRI="Distrito"/>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="AccesibilidadParaMinusvalidos"/>
@@ -268,8 +244,8 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#postal-code"/>
-        <Datatype abbreviatedIRI="xsd:decimal"/>
+        <DataProperty IRI="Content-URL"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="Descripcion"/>
@@ -287,18 +263,6 @@
         <DataProperty IRI="Horario"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
-	<DataPropertyRange>
-        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
-        <Datatype abbreviatedIRI="xsd:float"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
-        <Datatype abbreviatedIRI="xsd:float"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
-        <Datatype abbreviatedIRI="xsd:float"/>
-    </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="Nombre"/>
         <Datatype abbreviatedIRI="xsd:string"/>
@@ -312,12 +276,24 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="Content-URL"/>
-        <Datatype abbreviatedIRI="xsd:string"/>
-    </DataPropertyRange>
-	<DataPropertyRange>
         <DataProperty IRI="Tipo"/>
         <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#postal-code"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
     </DataPropertyRange>
 </Ontology>
 
