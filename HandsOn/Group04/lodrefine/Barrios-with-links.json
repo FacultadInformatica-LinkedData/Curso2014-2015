@@ -1,0 +1,49 @@
+[
+  {
+    "op": "core/column-addition",
+    "description": "Create column idDistritoBarrio at index 2 based on column Codigo de distrito al que pertenece using expression grel:value + \":\" + cells[\"Codigo de barrio\"].value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "idDistritoBarrio",
+    "columnInsertIndex": 2,
+    "baseColumnName": "Codigo de distrito al que pertenece",
+    "expression": "grel:value + \":\" + cells[\"Codigo de barrio\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column Codigo de distrito al que pertenece to type http://www.st-madrid.es/Distritos",
+    "columnName": "Codigo de distrito al que pertenece",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/distritos-barrios",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": {
+        "id": "http://www.st-madrid.es/Distritos",
+        "name": "http://www.st-madrid.es/Distritos"
+      },
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column URI's Distritos at index 2 based on column Codigo de distrito al que pertenece using expression grel:cell.recon.match.id",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "URI's Distritos",
+    "columnInsertIndex": 2,
+    "baseColumnName": "Codigo de distrito al que pertenece",
+    "expression": "grel:cell.recon.match.id",
+    "onError": "set-to-blank"
+  }
+]
