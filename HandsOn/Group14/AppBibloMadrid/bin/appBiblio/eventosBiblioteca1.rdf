@@ -1,0 +1,1687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/0">
+	<vcard:TITLE>Charla sobre coaching en la Biblioteca P�blica Municipal Iv�n de Vargas</vcard:TITLE>
+	<vcard:KEY>7635629</vcard:KEY>
+	<vcard:Other>Wed Oct 29 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Charla sobre coaching en la Biblioteca P�blica Municipal Iv�n de Vargas</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ConferenciasColoquios</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Iv�n de Vargas (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/1">
+	<vcard:TITLE>Charla sobre oratoria en la Biblioteca P�blica Municipal Iv�n de Vargas</vcard:TITLE>
+	<vcard:KEY>7635493</vcard:KEY>
+	<vcard:Other>Wed Oct 22 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Charla sobre oratoria en la Biblioteca P�blica Municipal Iv�n de Vargas</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ConferenciasColoquios</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Iv�n de Vargas (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/2">
+	<vcard:TITLE>Charla: C�mo mejorar tus actividades sociales, en la Biblioteca P�blica Municipal Ana Mar�a Matute</vcard:TITLE>
+	<vcard:KEY>7668467</vcard:KEY>
+	<vcard:Other>Wed Oct 22 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Charla: C�mo mejorar tus habilidades sociales, en la Biblioteca P�blica Municipal Ana Mar�a Matute</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Ana Mar�a Matute (Carabanchel)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/3">
+	<vcard:TITLE>Charlas en ingl�s, en la Biblioteca P�blica Municipal �ngel Gonz�lez</vcard:TITLE>
+	<vcard:KEY>7687401</vcard:KEY>
+	<vcard:Other>Thu Nov 06 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Charlas en ingl�s, en la Biblioteca P�blica Municipal �ngel Gonz�lez</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal �ngel Gonz�lez (Latina)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/4">
+	<vcard:TITLE>Ciclo de conferencias sobre historia de la moda del siglo XX</vcard:TITLE>
+	<vcard:KEY>7610596</vcard:KEY>
+	<vcard:Other>Tue Nov 25 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Ciclo de conferencias sobre historia de la moda del siglo XX</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ConferenciasColoquios</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Pablo Neruda (Ciudad Lineal)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/5">
+	<vcard:TITLE>Ciclo de conferencias sobre historia de la moda del siglo XX</vcard:TITLE>
+	<vcard:KEY>7610572</vcard:KEY>
+	<vcard:Other>Wed Oct 01 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Ciclo de conferencias sobre historia de la moda del siglo XX</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ConferenciasColoquios</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/6">
+	<vcard:TITLE>Ciclo de conferencias sobre protocolo</vcard:TITLE>
+	<vcard:KEY>7610636</vcard:KEY>
+	<vcard:Other>Mon Oct 06 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Ciclo de conferencias sobre protocolo en la Biblioteca P�blica Municipal Pablo Neruda</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ConferenciasColoquios</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Pablo Neruda (Ciudad Lineal)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/7">
+	<vcard:TITLE>Club de lectura</vcard:TITLE>
+	<vcard:KEY>7299726</vcard:KEY>
+	<vcard:Other>Wed Oct 01 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Club de lectura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Buenavista (Salamanca)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/8">
+	<vcard:TITLE>Club de lectura</vcard:TITLE>
+	<vcard:KEY>7300275</vcard:KEY>
+	<vcard:Other>Fri Oct 03 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Club de lectura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Jos� Saramago (Fuencarral-El Pardo)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/9">
+	<vcard:TITLE>Club de lectura</vcard:TITLE>
+	<vcard:KEY>7295383</vcard:KEY>
+	<vcard:Other>Mon Oct 06 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Club de lectura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal �ngel Gonz�lez (Latina)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/10">
+	<vcard:TITLE>Club de lectura</vcard:TITLE>
+	<vcard:KEY>7299453</vcard:KEY>
+	<vcard:Other>Tue Oct 07 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Club de lectura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Canillejas (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/11">
+	<vcard:TITLE>Club de lectura</vcard:TITLE>
+	<vcard:KEY>7300003</vcard:KEY>
+	<vcard:Other>Wed Oct 01 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Club de lectura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Iv�n de Vargas (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/12">
+	<vcard:TITLE>Club de lectura</vcard:TITLE>
+	<vcard:KEY>7300548</vcard:KEY>
+	<vcard:Other>Thu Oct 09 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Club de lectura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal P�o Baroja (Arganzuela)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/13">
+	<vcard:TITLE>Club de lectura</vcard:TITLE>
+	<vcard:KEY>7301092</vcard:KEY>
+	<vcard:Other>Tue Oct 14 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Club de lectura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal D�maso Alonso (Chamart�n)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/14">
+	<vcard:TITLE>Club de lectura</vcard:TITLE>
+	<vcard:KEY>7301638</vcard:KEY>
+	<vcard:Other>Wed Oct 08 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Club de lectura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Miguel Delibes (Moratalaz)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/15">
+	<vcard:TITLE>Club de lectura</vcard:TITLE>
+	<vcard:KEY>7301911</vcard:KEY>
+	<vcard:Other>Wed Oct 08 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Club de lectura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal La Chata (Carabanchel)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/16">
+	<vcard:TITLE>Club de lectura</vcard:TITLE>
+	<vcard:KEY>7302184</vcard:KEY>
+	<vcard:Other>Tue Oct 28 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Club de lectura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Gloria Fuertes (Barajas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/17">
+	<vcard:TITLE>Club de lectura</vcard:TITLE>
+	<vcard:KEY>7300820</vcard:KEY>
+	<vcard:Other>Thu Oct 09 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Club de lectura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Francisco Ayala (Vic�lvaro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/18">
+	<vcard:TITLE>Club de lectura</vcard:TITLE>
+	<vcard:KEY>7302456</vcard:KEY>
+	<vcard:Other>Wed Oct 15 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Club de lectura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Canillejas (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/19">
+	<vcard:TITLE>Club de lectura</vcard:TITLE>
+	<vcard:KEY>7299178</vcard:KEY>
+	<vcard:Other>Tue Oct 07 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Club de lectura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Chamart�n (Chamart�n)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/20">
+	<vcard:TITLE>Club de lectura</vcard:TITLE>
+	<vcard:KEY>7301093</vcard:KEY>
+	<vcard:Other>Tue Oct 14 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Club de lectura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Islas Filipinas (Ciudad Lineal)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/21">
+	<vcard:TITLE>Club de lectura</vcard:TITLE>
+	<vcard:KEY>7302730</vcard:KEY>
+	<vcard:Other>Thu Oct 23 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Club de lectura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Jos� Saramago (Fuencarral-El Pardo)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/22">
+	<vcard:TITLE>Club de lectura con el autor Antonio G�mez Rufo en la Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:TITLE>
+	<vcard:KEY>7635605</vcard:KEY>
+	<vcard:Other>Thu Oct 23 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Club de lectura con el autor Antonio G�mez Rufo en la Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/23">
+	<vcard:TITLE>Club virtual de lectura del Holocausto, en la Biblioteca P�blica Municipal Conde Duque</vcard:TITLE>
+	<vcard:KEY>7630009</vcard:KEY>
+	<vcard:Other>Thu Oct 23 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Club virtual de lectura del Holocausto, en la Biblioteca P�blica Municipal Conde Duque</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Conde Duque (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/24">
+	<vcard:TITLE>Concurso de cartas breves Soy de Tetu�n, en la Biblioteca P�blica Municipal Mar�a Zambrano</vcard:TITLE>
+	<vcard:KEY>7682426</vcard:KEY>
+	<vcard:Other>Mon Oct 20 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Concurso de cartas breves Soy de Tetu�n, en la Biblioteca P�blica Municipal Mar�a Zambrano</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/RecitalesPresentacionesActosLiterarios</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Mar�a Zambrano (Tetu�n)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/25">
+	<vcard:TITLE>Conferencia II Rep�blica, Esperanza de un pueblo, en la Biblioteca P�blica Municipal Jos� Hierro.</vcard:TITLE>
+	<vcard:KEY>7628632</vcard:KEY>
+	<vcard:Other>Thu Oct 30 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Conferencia  II Rep�blica, Esperanza de un pueblo, en la Biblioteca P�blica Municipal Jos� Hierro.</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ConferenciasColoquios</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Jos� Hierro (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/26">
+	<vcard:TITLE>Conferencia: El Madrid desaparecido</vcard:TITLE>
+	<vcard:KEY>7684971</vcard:KEY>
+	<vcard:Other>Thu Nov 13 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Ciclo de conferencias sobre Historia de Madrid, de la Biblioteca P�blica Municipal Huerta de la Salud</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ConferenciasColoquios</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Huerta de la Salud (Hortaleza)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/27">
+	<vcard:TITLE>Conferencia: Historia de la Casa de Fieras, en la Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:TITLE>
+	<vcard:KEY>7671944</vcard:KEY>
+	<vcard:Other>Fri Oct 17 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Conferencia: Historia de la Casa de Fieras, en la Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ConferenciasColoquios</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/28">
+	<vcard:TITLE>Conferencia: Historia del pueblo y distrito de Hortaleza</vcard:TITLE>
+	<vcard:KEY>7685004</vcard:KEY>
+	<vcard:Other>Thu Dec 04 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Ciclo de conferencias sobre Historia de Madrid, de la Biblioteca P�blica Municipal Huerta de la Salud</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ConferenciasColoquios</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Huerta de la Salud (Hortaleza)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/29">
+	<vcard:TITLE>Conferencia: Los or�genes de Madrid</vcard:TITLE>
+	<vcard:KEY>7684963</vcard:KEY>
+	<vcard:Other>Thu Nov 06 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Ciclo de conferencias sobre Historia de Madrid, de la Biblioteca P�blica Municipal Huerta de la Salud</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ConferenciasColoquios</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Huerta de la Salud (Hortaleza)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/30">
+	<vcard:TITLE>Conferencia: Un paseo por el Madrid de Antonio Palacios</vcard:TITLE>
+	<vcard:KEY>7684978</vcard:KEY>
+	<vcard:Other>Thu Nov 20 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Ciclo de conferencias sobre Historia de Madrid, de la Biblioteca P�blica Municipal Huerta de la Salud</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ConferenciasColoquios</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Huerta de la Salud (Hortaleza)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/31">
+	<vcard:TITLE>Conferencia: �Madrid se divierte!: Historia del ocio de los madrile�os</vcard:TITLE>
+	<vcard:KEY>7684990</vcard:KEY>
+	<vcard:Other>Thu Nov 27 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Ciclo de conferencias sobre Historia de Madrid, de la Biblioteca P�blica Municipal Huerta de la Salud</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ConferenciasColoquios</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Huerta de la Salud (Hortaleza)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/32">
+	<vcard:TITLE>Conferencias sobre psicolog�a: Me quiero / No me quiero</vcard:TITLE>
+	<vcard:KEY>7636046</vcard:KEY>
+	<vcard:Other>Fri Oct 24 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Conferencias sobre psicolog�a en la Biblioteca P�blica Municipal Pozo del T�o Raimundo</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ConferenciasColoquios</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Pozo del T�o Raimundo (Puente de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/33">
+	<vcard:TITLE>Conferencias sobre psicolog�a: �Encantado de conocerme?</vcard:TITLE>
+	<vcard:KEY>7636036</vcard:KEY>
+	<vcard:Other>Fri Oct 17 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Conferencias sobre psicolog�a en la Biblioteca P�blica Municipal Pozo del T�o Raimundo</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ConferenciasColoquios</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Pozo del T�o Raimundo (Puente de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/34">
+	<vcard:TITLE>Cuentos de bolsillo por La Bibliobici de los cuentos</vcard:TITLE>
+	<vcard:KEY>7305808</vcard:KEY>
+	<vcard:Other>Tue Oct 21 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Vic�lvaro</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Vic�lvaro</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/35">
+	<vcard:TITLE>Cuentos en kamishibai, por Arantxa Ca�ada</vcard:TITLE>
+	<vcard:KEY>7288701</vcard:KEY>
+	<vcard:Other>Wed Oct 29 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Jos� Saramago</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Jos� Saramago (Fuencarral-El Pardo)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/36">
+	<vcard:TITLE>Cuentos en kamishibai, por Arantxa Ca�adas</vcard:TITLE>
+	<vcard:KEY>7291663</vcard:KEY>
+	<vcard:Other>Mon Oct 20 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Miguel Delibes</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Miguel Delibes (Moratalaz)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/37">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7292842</vcard:KEY>
+	<vcard:Other>Tue Nov 25 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Vallecas</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Vallecas (Puente de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/38">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7644540</vcard:KEY>
+	<vcard:Other>Wed Nov 26 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Iv�n de Vargas.</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Iv�n de Vargas (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/39">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7276348</vcard:KEY>
+	<vcard:Other>Wed Nov 26 00:00:00 CET 2014</vcard:Other>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Iv�n de Vargas (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/40">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7304237</vcard:KEY>
+	<vcard:Other>Wed Dec 10 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Jos� Hierro</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Jos� Hierro (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/41">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7304235</vcard:KEY>
+	<vcard:Other>Wed Nov 12 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Jos� Hierro</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Jos� Hierro (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/42">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7279015</vcard:KEY>
+	<vcard:Other>Tue Dec 02 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal P�o Baroja</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal P�o Baroja (Arganzuela)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/43">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7279014</vcard:KEY>
+	<vcard:Other>Tue Nov 04 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal P�o Baroja</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal P�o Baroja (Arganzuela)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/44">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7420407</vcard:KEY>
+	<vcard:Other>Tue Nov 04 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Gabriel Garc�a M�rquez</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Gabriel Garc�a M�rquez (Usera)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/45">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7658091</vcard:KEY>
+	<vcard:Other>Fri Dec 05 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Gabriel Garc�a M�rquez</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Gabriel Garc�a M�rquez (Usera)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/46">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7304050</vcard:KEY>
+	<vcard:Other>Wed Dec 10 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Eugenio Trias. Casa de Fieras de El Retiro</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/47">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7598371</vcard:KEY>
+	<vcard:Other>Wed Nov 12 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Eugenio Trias. Casa de Fieras de El Retiro</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/48">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7284598</vcard:KEY>
+	<vcard:Other>Wed Nov 19 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Islas Filipinas</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Islas Filipinas (Ciudad Lineal)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/49">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7284599</vcard:KEY>
+	<vcard:Other>Wed Dec 10 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Islas Filipinas</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Islas Filipinas (Ciudad Lineal)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/50">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7291323</vcard:KEY>
+	<vcard:Other>Thu Dec 11 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal �ngel Gonz�lez</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal �ngel Gonz�lez (Latina)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/51">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7291322</vcard:KEY>
+	<vcard:Other>Thu Nov 20 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal �ngel Gonz�lez</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal �ngel Gonz�lez (Latina)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/52">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7279019</vcard:KEY>
+	<vcard:Other>Tue Nov 04 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Gloria Fuertes</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Gloria Fuertes (Barajas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/53">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7279020</vcard:KEY>
+	<vcard:Other>Tue Dec 02 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Gloria Fuertes</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Gloria Fuertes (Barajas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/54">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7279232</vcard:KEY>
+	<vcard:Other>Tue Dec 09 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Ciudad Lineal</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Ciudad Lineal (Ciudad Lineal)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/55">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7279222</vcard:KEY>
+	<vcard:Other>Tue Nov 11 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Ciudad Lineal</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Ciudad Lineal (Ciudad Lineal)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/56">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7288704</vcard:KEY>
+	<vcard:Other>Wed Nov 12 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Jos� Saramago</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Jos� Saramago (Fuencarral-El Pardo)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/57">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7288678</vcard:KEY>
+	<vcard:Other>Thu Nov 27 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Pablo Neruda</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Pablo Neruda (Ciudad Lineal)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/58">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7305880</vcard:KEY>
+	<vcard:Other>Fri Dec 12 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Gerardo Diego</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Gerardo Diego (Villa de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/59">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7305872</vcard:KEY>
+	<vcard:Other>Fri Nov 14 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Gerardo Diego</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Gerardo Diego (Villa de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/60">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7303897</vcard:KEY>
+	<vcard:Other>Thu Dec 04 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Portazgo</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Portazgo (Puente de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/61">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7303895</vcard:KEY>
+	<vcard:Other>Thu Nov 06 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Portazgo</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Portazgo (Puente de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/62">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7305726</vcard:KEY>
+	<vcard:Other>Wed Nov 05 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Francisco Ayala</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Francisco Ayala (Vic�lvaro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/63">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7305728</vcard:KEY>
+	<vcard:Other>Thu Dec 04 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Francisco Ayala</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Francisco Ayala (Vic�lvaro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/64">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7305809</vcard:KEY>
+	<vcard:Other>Tue Nov 18 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Vic�lvaro</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Vic�lvaro</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/65">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7598360</vcard:KEY>
+	<vcard:Other>Wed Dec 03 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Buenavista</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Buenavista (Salamanca)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/66">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7304078</vcard:KEY>
+	<vcard:Other>Thu Nov 06 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Buenavista</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Buenavista (Salamanca)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/67">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7303843</vcard:KEY>
+	<vcard:Other>Mon Dec 01 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Pozo del T�o Raimundo</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Pozo del T�o Raimundo (Puente de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/68">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7303840</vcard:KEY>
+	<vcard:Other>Mon Nov 03 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Pozo del T�o Raimundo</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Pozo del T�o Raimundo (Puente de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/69">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7276415</vcard:KEY>
+	<vcard:Other>Fri Nov 21 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal D�maso Alonso</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal D�maso Alonso (Chamart�n)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/70">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7279032</vcard:KEY>
+	<vcard:Other>Wed Dec 03 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Ana Mar�a Matute</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Ana Mar�a Matute (Carabanchel)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/71">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7279030</vcard:KEY>
+	<vcard:Other>Wed Nov 05 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Ana Mar�a Matute</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Ana Mar�a Matute (Carabanchel)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/72">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7304157</vcard:KEY>
+	<vcard:Other>Wed Dec 03 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Canillejas</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Canillejas (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/73">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7304148</vcard:KEY>
+	<vcard:Other>Wed Nov 05 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Canillejas</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Canillejas (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/74">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7304386</vcard:KEY>
+	<vcard:Other>Fri Oct 24 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal San Blas</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal San Blas (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/75">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7304404</vcard:KEY>
+	<vcard:Other>Mon Nov 24 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal San Blas</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal San Blas (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/76">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7304407</vcard:KEY>
+	<vcard:Other>Mon Dec 15 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal San Blas</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal San Blas (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/77">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7292129</vcard:KEY>
+	<vcard:Other>Mon Nov 17 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Miguel Delibes</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Miguel Delibes (Moratalaz)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/78">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7292497</vcard:KEY>
+	<vcard:Other>Mon Dec 01 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Miguel Delibes</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Miguel Delibes (Moratalaz)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/79">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7305577</vcard:KEY>
+	<vcard:Other>Fri Nov 07 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal V�zquez Montalb�n</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Manuel V�zquez Montalb�n (Tetu�n)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/80">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7305578</vcard:KEY>
+	<vcard:Other>Fri Dec 12 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal V�zquez Montalb�n</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Manuel V�zquez Montalb�n (Tetu�n)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/81">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7278282</vcard:KEY>
+	<vcard:Other>Fri Nov 07 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Conde Duque</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Conde Duque (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/82">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7278535</vcard:KEY>
+	<vcard:Other>Fri Dec 12 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Conde Duque</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Conde Duque (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/83">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7305673</vcard:KEY>
+	<vcard:Other>Thu Nov 27 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Mar�a Zambrano</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Mar�a Zambrano (Tetu�n)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/84">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7289052</vcard:KEY>
+	<vcard:Other>Thu Nov 13 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Huerta de la Salud</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Huerta de la Salud (Hortaleza)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/85">
+	<vcard:TITLE>Cuentos infantiles</vcard:TITLE>
+	<vcard:KEY>7289057</vcard:KEY>
+	<vcard:Other>Thu Dec 11 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Huerta de la Salud</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Huerta de la Salud (Hortaleza)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/86">
+	<vcard:TITLE>Cuentos infantiles  de fin de semana</vcard:TITLE>
+	<vcard:KEY>7292791</vcard:KEY>
+	<vcard:Other>Sat Nov 08 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal �ngel Gonz�lez</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal �ngel Gonz�lez (Latina)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/87">
+	<vcard:TITLE>Cuentos infantiles  de fin de semana</vcard:TITLE>
+	<vcard:KEY>7292793</vcard:KEY>
+	<vcard:Other>Sat Dec 13 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal �ngel Gonz�lez</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal �ngel Gonz�lez (Latina)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/88">
+	<vcard:TITLE>Cuentos infantiles de fin de semana</vcard:TITLE>
+	<vcard:KEY>7644535</vcard:KEY>
+	<vcard:Other>Sat Nov 15 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Iv�n de Vargas.</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Iv�n de Vargas (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/89">
+	<vcard:TITLE>Cuentos infantiles de fin de semana</vcard:TITLE>
+	<vcard:KEY>7644549</vcard:KEY>
+	<vcard:Other>Sat Dec 13 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Iv�n de Vargas.</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Iv�n de Vargas (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/90">
+	<vcard:TITLE>Cuentos infantiles de fin de semana</vcard:TITLE>
+	<vcard:KEY>7276379</vcard:KEY>
+	<vcard:Other>Sat Dec 13 00:00:00 CET 2014</vcard:Other>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Iv�n de Vargas (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/91">
+	<vcard:TITLE>Cuentos infantiles de fin de semana</vcard:TITLE>
+	<vcard:KEY>7276377</vcard:KEY>
+	<vcard:Other>Sat Nov 15 00:00:00 CET 2014</vcard:Other>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Iv�n de Vargas (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/92">
+	<vcard:TITLE>Cuentos infantiles de fin de semana</vcard:TITLE>
+	<vcard:KEY>7304446</vcard:KEY>
+	<vcard:Other>Sat Nov 22 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Eugenio Trias. Casa de Fieras de El Retiro</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/93">
+	<vcard:TITLE>Cuentos m�gicos, por M�nica Burkholz</vcard:TITLE>
+	<vcard:KEY>7288677</vcard:KEY>
+	<vcard:Other>Thu Oct 30 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Pablo Neruda</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Pablo Neruda (Ciudad Lineal)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/94">
+	<vcard:TITLE>El camino que no iba a ninguna parte, por Mana de Luis</vcard:TITLE>
+	<vcard:KEY>7304037</vcard:KEY>
+	<vcard:Other>Wed Oct 29 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Eugenio Trias. Casa de Fieras de El Retiro</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/95">
+	<vcard:TITLE>El duende verde y el duende azul, por Mana de Luis</vcard:TITLE>
+	<vcard:KEY>7305669</vcard:KEY>
+	<vcard:Other>Thu Oct 30 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Mar�a Zambrano</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Mar�a Zambrano (Tetu�n)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/96">
+	<vcard:TITLE>El hombre de los sombreros por Mana de Luis</vcard:TITLE>
+	<vcard:KEY>7276414</vcard:KEY>
+	<vcard:Other>Fri Oct 24 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal D�maso Alonso</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal D�maso Alonso (Chamart�n)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/97">
+	<vcard:TITLE>El hombre de los sombreros, por Mana de Luis</vcard:TITLE>
+	<vcard:KEY>7305868</vcard:KEY>
+	<vcard:Other>Fri Oct 17 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Gerardo Diego</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Gerardo Diego (Villa de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/98">
+	<vcard:TITLE>El oso que necesitaba un abrazo, por Mana de Luis</vcard:TITLE>
+	<vcard:KEY>7304439</vcard:KEY>
+	<vcard:Other>Sat Oct 18 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Eugenio Trias. Casa de Fieras de El Retiro</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/99">
+	<vcard:TITLE>Exposici�n de Esculturas de Fernando P�rez</vcard:TITLE>
+	<vcard:KEY>7583771</vcard:KEY>
+	<vcard:Other>Tue Sep 23 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Exposici�n de  Esculturas de Fernando P�rez, en la Biblioteca P�blica Municipal Mar�a Zambrano</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/Exposiciones</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Mar�a Zambrano (Tetu�n)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/100">
+	<vcard:TITLE>Exposici�n Retratos del imaginario.</vcard:TITLE>
+	<vcard:KEY>7612687</vcard:KEY>
+	<vcard:Other>Mon Sep 15 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Exposici�n Retratos del imaginario: ilustraciones de cuentos infantiles, en la Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro.</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/Exposiciones</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/101">
+	<vcard:TITLE>Exposici�n: 25 a�os (1989-2014). Biblioteca de Canillejas en la Calle Bolta�a</vcard:TITLE>
+	<vcard:KEY>7387942</vcard:KEY>
+	<vcard:Other>Mon Mar 10 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Exposici�n: 25 a�os (1989-2014) Biblioteca de Canillejas en la Calle Bolta�a</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/Exposiciones</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Canillejas (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/102">
+	<vcard:TITLE>Exposici�n: La II Rep�blica, esperanza de un pueblo</vcard:TITLE>
+	<vcard:KEY>7668469</vcard:KEY>
+	<vcard:Other>Tue Nov 11 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Exposici�n: La II Rep�blica, esperanza de un pueblo.</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Pablo Neruda (Ciudad Lineal)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/103">
+	<vcard:TITLE>Exposici�n: La II Rep�blica, esperanza de un pueblo.</vcard:TITLE>
+	<vcard:KEY>7610528</vcard:KEY>
+	<vcard:Other>Wed Oct 01 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Exposici�n: La II Rep�blica, esperanza de un pueblo.</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Jos� Hierro (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/104">
+	<vcard:TITLE>Exposici�n: Leer y escribir con Ana Frank, en la Biblioteca P�blica Municipal Conde Duque</vcard:TITLE>
+	<vcard:KEY>7647295</vcard:KEY>
+	<vcard:Other>Tue Sep 30 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Exposici�n: Leer y escribir con Ana Frank, en la Biblioteca P�blica Municipal Conde Duque</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/Exposiciones</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Conde Duque (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/105">
+	<vcard:TITLE>Exposici�n: Por los caminos de El Quijote</vcard:TITLE>
+	<vcard:KEY>7621740</vcard:KEY>
+	<vcard:Other>Mon Sep 01 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Exposici�n: Por los caminos de El Quijote, en la Biblioteca P�blica Municipal Ana Mar�a Matute.</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/Exposiciones</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Ana Mar�a Matute (Carabanchel)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/106">
+	<vcard:TITLE>FLIC. Exposici�n de paraguas ilustrados</vcard:TITLE>
+	<vcard:KEY>7581687</vcard:KEY>
+	<vcard:Other>Tue Nov 11 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>FLIC. Exposici�n de paraguas ilustrados</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/Exposiciones</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Gerardo Diego (Villa de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/107">
+	<vcard:TITLE>FLIC. Exposici�n de paraguas ilustrados</vcard:TITLE>
+	<vcard:KEY>7581677</vcard:KEY>
+	<vcard:Other>Mon Oct 13 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>FLIC. Exposici�n de paraguas ilustrados</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/Exposiciones</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Francisco Ayala (Vic�lvaro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/108">
+	<vcard:TITLE>Hora del cuento: La noche de los cambios, en Biblioteca P�blica Municipal Ana Mar�a Matute</vcard:TITLE>
+	<vcard:KEY>7670692</vcard:KEY>
+	<vcard:Other>Wed Nov 19 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>La Hora del cuento, en Biblioteca P�blica Municipal Ana Mar�a Matute</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Ana Mar�a Matute (Carabanchel)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/109">
+	<vcard:TITLE>La Hora del cuento en la Biblioteca P�blica Municipal Jos� Saramago</vcard:TITLE>
+	<vcard:KEY>7627983</vcard:KEY>
+	<vcard:Other>Tue Oct 07 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>La Hora del cuento en la Biblioteca P�blica Municipal Jos� Saramago</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Jos� Saramago (Fuencarral-El Pardo)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/110">
+	<vcard:TITLE>Marat�n de cuentos. D�a de la Biblioteca, en la Biblioteca P�blica Municipal Jos� Hierro</vcard:TITLE>
+	<vcard:KEY>7683805</vcard:KEY>
+	<vcard:Other>Fri Oct 24 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Marat�n de cuentos. D�a de la Biblioteca, en la Biblioteca P�blica Municipal Jos� Hierro</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Jos� Hierro (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/111">
+	<vcard:TITLE>Mi plan de empresa.</vcard:TITLE>
+	<vcard:KEY>7635547</vcard:KEY>
+	<vcard:Other>Mon Oct 27 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Taller sobre b�squeda de empleo en la Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/112">
+	<vcard:TITLE>Palote, el mu�eco m�gico, por Mana de Luis</vcard:TITLE>
+	<vcard:KEY>7278935</vcard:KEY>
+	<vcard:Other>Fri Oct 17 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal P�o Baroja</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal P�o Baroja (Arganzuela)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/113">
+	<vcard:TITLE>Presentaci�n del libro Historia de los lugares p�blicos de Vallecas, Jos� Molina Bl�zquez</vcard:TITLE>
+	<vcard:KEY>7636933</vcard:KEY>
+	<vcard:Other>Wed Oct 22 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Presentaciones de libros en las bibliotecas</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/RecitalesPresentacionesActosLiterarios</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Pozo del T�o Raimundo (Puente de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/114">
+	<vcard:TITLE>Presentaci�n del libro: Las piedras de Chihaya, Sergio Vega</vcard:TITLE>
+	<vcard:KEY>7570094</vcard:KEY>
+	<vcard:Other>Fri Oct 24 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Presentaciones de libros en las bibliotecas</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/RecitalesPresentacionesActosLiterarios</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Jos� Saramago (Fuencarral-El Pardo)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/115">
+	<vcard:TITLE>Presentaci�n del libro: Olvidada de m�, Marga Clark</vcard:TITLE>
+	<vcard:KEY>7635587</vcard:KEY>
+	<vcard:Other>Mon Oct 20 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Presentaciones de libros en las bibliotecas</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/RecitalesPresentacionesActosLiterarios</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/116">
+	<vcard:TITLE>Proyecci�n y coloquio sobre el documental Las maestra de la Rep�blica, en la Biblioteca P�blica Municipal Jos� Hierro</vcard:TITLE>
+	<vcard:KEY>7672024</vcard:KEY>
+	<vcard:Other>Thu Oct 23 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Proyecci�n y coloquio sobre el documental Las maestras de la Rep�blica, en la Biblioteca P�blica Municipal Jos� Hierro.</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ConferenciasColoquios</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Jos� Hierro (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/117">
+	<vcard:TITLE>Sapos, ranitas y m�gicas varitas, por M�nica Burkholz</vcard:TITLE>
+	<vcard:KEY>7292832</vcard:KEY>
+	<vcard:Other>Tue Oct 28 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal Vallecas</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Vallecas (Puente de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/118">
+	<vcard:TITLE>Sapos, ranitas y m�gicas varitas, por M�nica Burkholz</vcard:TITLE>
+	<vcard:KEY>7291320</vcard:KEY>
+	<vcard:Other>Thu Oct 23 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Cuentos infantiles en la Biblioteca P�blica Municipal �ngel Gonz�lez</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal �ngel Gonz�lez (Latina)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/119">
+	<vcard:TITLE>Taller de c�mic</vcard:TITLE>
+	<vcard:KEY>7625138</vcard:KEY>
+	<vcard:Other>Mon Oct 06 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller de c�mic</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Francisco Ayala (Vic�lvaro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/120">
+	<vcard:TITLE>Taller de C�mic</vcard:TITLE>
+	<vcard:KEY>7313693</vcard:KEY>
+	<vcard:Other>Thu Oct 02 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller de c�mic</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Ana Mar�a Matute (Carabanchel)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/121">
+	<vcard:TITLE>Taller de escritura</vcard:TITLE>
+	<vcard:KEY>7309288</vcard:KEY>
+	<vcard:Other>Fri Oct 10 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller de escritura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Conde Duque (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/122">
+	<vcard:TITLE>Taller de escritura</vcard:TITLE>
+	<vcard:KEY>7307300</vcard:KEY>
+	<vcard:Other>Tue Oct 07 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller de escritura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Pablo Neruda (Ciudad Lineal)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/123">
+	<vcard:TITLE>Taller de escritura</vcard:TITLE>
+	<vcard:KEY>7310252</vcard:KEY>
+	<vcard:Other>Fri Oct 10 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller de escritura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Ciudad Lineal (Ciudad Lineal)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/124">
+	<vcard:TITLE>Taller de escritura</vcard:TITLE>
+	<vcard:KEY>7308558</vcard:KEY>
+	<vcard:Other>Thu Oct 09 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller de escritura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal La Chata (Carabanchel)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/125">
+	<vcard:TITLE>Taller de escritura</vcard:TITLE>
+	<vcard:KEY>7309956</vcard:KEY>
+	<vcard:Other>Mon Oct 06 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller de escritura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Manuel V�zquez Montalb�n (Tetu�n)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/126">
+	<vcard:TITLE>Taller de escritura</vcard:TITLE>
+	<vcard:KEY>7310140</vcard:KEY>
+	<vcard:Other>Thu Oct 09 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller de escritura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Gerardo Diego (Villa de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/127">
+	<vcard:TITLE>Taller de escritura</vcard:TITLE>
+	<vcard:KEY>7309597</vcard:KEY>
+	<vcard:Other>Thu Oct 09 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller de escritura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Pozo del T�o Raimundo (Puente de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/128">
+	<vcard:TITLE>Taller de escritura</vcard:TITLE>
+	<vcard:KEY>7309954</vcard:KEY>
+	<vcard:Other>Mon Oct 06 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller de escritura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Ana Mar�a Matute (Carabanchel)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/129">
+	<vcard:TITLE>Taller de escritura</vcard:TITLE>
+	<vcard:KEY>7309875</vcard:KEY>
+	<vcard:Other>Mon Oct 06 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller de escritura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal P�o Baroja (Arganzuela)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/130">
+	<vcard:TITLE>Taller de escritura</vcard:TITLE>
+	<vcard:KEY>7308282</vcard:KEY>
+	<vcard:Other>Wed Oct 08 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller de escritura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal �ngel Gonz�lez (Latina)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/131">
+	<vcard:TITLE>Taller de escritura</vcard:TITLE>
+	<vcard:KEY>7310083</vcard:KEY>
+	<vcard:Other>Tue Oct 07 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller de escritura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Jos� Hierro (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/132">
+	<vcard:TITLE>Taller de escritura</vcard:TITLE>
+	<vcard:KEY>7308193</vcard:KEY>
+	<vcard:Other>Wed Oct 08 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller de escritura</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal D�maso Alonso (Chamart�n)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/133">
+	<vcard:TITLE>Taller de m�sica y cine</vcard:TITLE>
+	<vcard:KEY>7311227</vcard:KEY>
+	<vcard:Other>Wed Oct 01 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller de m�sica y cine</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Jos� Hierro (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/134">
+	<vcard:TITLE>Taller de m�sica y cine</vcard:TITLE>
+	<vcard:KEY>7311122</vcard:KEY>
+	<vcard:Other>Tue Oct 07 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller de m�sica y cine</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Ana Mar�a Matute (Carabanchel)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/135">
+	<vcard:TITLE>Taller de m�sica y cine</vcard:TITLE>
+	<vcard:KEY>7310642</vcard:KEY>
+	<vcard:Other>Mon Oct 06 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller de m�sica y cine</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca Musical V�ctor Espin�s</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/136">
+	<vcard:TITLE>Taller de m�sica y cine</vcard:TITLE>
+	<vcard:KEY>7311301</vcard:KEY>
+	<vcard:Other>Thu Oct 02 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller de m�sica y cine</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Gloria Fuertes (Barajas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/137">
+	<vcard:TITLE>Taller de poes�a</vcard:TITLE>
+	<vcard:KEY>7312506</vcard:KEY>
+	<vcard:Other>Mon Oct 06 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller de poes�a</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Manuel V�zquez Montalb�n (Tetu�n)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/138">
+	<vcard:TITLE>Taller de poes�a</vcard:TITLE>
+	<vcard:KEY>7312857</vcard:KEY>
+	<vcard:Other>Tue Oct 07 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller de poes�a</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Iv�n de Vargas (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/139">
+	<vcard:TITLE>Taller de poes�a, en la Biblioteca P�blica Municipal �ngel Gonz�lez</vcard:TITLE>
+	<vcard:KEY>7688118</vcard:KEY>
+	<vcard:Other>Wed Nov 05 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Taller de poes�a, en la Biblioteca P�blica Municipal �ngel Gonz�lez</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal �ngel Gonz�lez (Latina)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/140">
+	<vcard:TITLE>Taller infantil: Bienvenido primeros lectores</vcard:TITLE>
+	<vcard:KEY>7622003</vcard:KEY>
+	<vcard:Other>Thu Oct 23 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller infantil: Bienvenidos primeros lectores en la Biblioteca P�blica Municipal Gerardo Diego.</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Gerardo Diego (Villa de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/141">
+	<vcard:TITLE>Taller infantil: Bienvenidos primeros lectores en el d�a de la biblioteca</vcard:TITLE>
+	<vcard:KEY>7670947</vcard:KEY>
+	<vcard:Other>Fri Oct 24 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller infantil: Bienvenidos primeros lectores en la Biblioteca P�blica Municipal Gerardo Diego.</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CuentacuentosTiteresMarionetas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Gerardo Diego (Villa de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/142">
+	<vcard:TITLE>Taller infantil: Liberando a las fieras, en la Biblioteca P�blica Municipal Eugenio Tr�as</vcard:TITLE>
+	<vcard:KEY>7672038</vcard:KEY>
+	<vcard:Other>Fri Oct 17 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller infantil: Liberando a las fieras, en la Biblioteca P�blica Municipal Eugenio Tr�as</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ActividadesInfantiles</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/143">
+	<vcard:TITLE>Taller: Lengua �rabe , en la Biblioteca P�blica Municipal �ngel Gonz�lez</vcard:TITLE>
+	<vcard:KEY>7677869</vcard:KEY>
+	<vcard:Other>Wed Oct 22 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller: Lengua �rabe, en la Biblioteca P�blica Municipal �ngel Gonz�lez</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal �ngel Gonz�lez (Latina)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/144">
+	<vcard:TITLE>Taller: Lengua egipcia del imperio medio y copto, en la Biblioteca P�blica Municipal Iv�n de Vargas</vcard:TITLE>
+	<vcard:KEY>7629927</vcard:KEY>
+	<vcard:Other>Thu Oct 09 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller: Lengua egipcia del imperio medio y copto, en la Biblioteca P�blica Municipal Iv�n de Vargas</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Iv�n de Vargas (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/145">
+	<vcard:TITLE>Talleres Biling�es Infantiles</vcard:TITLE>
+	<vcard:KEY>7279391</vcard:KEY>
+	<vcard:Other>Wed Oct 08 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Talleres Biling�es Infantiles</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ActividadesInfantiles</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Iv�n de Vargas (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/146">
+	<vcard:TITLE>Talleres Biling�es Infantiles</vcard:TITLE>
+	<vcard:KEY>7274394</vcard:KEY>
+	<vcard:Other>Tue Oct 07 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Talleres Biling�es Infantiles</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ActividadesInfantiles</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Canillejas (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/147">
+	<vcard:TITLE>Talleres Biling�es Infantiles</vcard:TITLE>
+	<vcard:KEY>7284600</vcard:KEY>
+	<vcard:Other>Thu Oct 09 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Talleres Biling�es Infantiles</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ActividadesInfantiles</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal P�o Baroja (Arganzuela)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/148">
+	<vcard:TITLE>Talleres Biling�es Infantiles</vcard:TITLE>
+	<vcard:KEY>7278640</vcard:KEY>
+	<vcard:Other>Tue Oct 07 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Talleres Biling�es Infantiles</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ActividadesInfantiles</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Mar�a Zambrano (Tetu�n)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/149">
+	<vcard:TITLE>Talleres Biling�es Infantiles</vcard:TITLE>
+	<vcard:KEY>7276419</vcard:KEY>
+	<vcard:Other>Mon Oct 06 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Talleres Biling�es Infantiles</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ActividadesInfantiles</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Jos� Hierro (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/150">
+	<vcard:TITLE>Talleres Biling�es Infantiles</vcard:TITLE>
+	<vcard:KEY>7282170</vcard:KEY>
+	<vcard:Other>Fri Oct 10 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Talleres Biling�es Infantiles</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ActividadesInfantiles</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Ana Mar�a Matute (Carabanchel)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/151">
+	<vcard:TITLE>Talleres Biling�es Infantiles</vcard:TITLE>
+	<vcard:KEY>7277861</vcard:KEY>
+	<vcard:Other>Thu Oct 09 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Talleres Biling�es Infantiles</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ActividadesInfantiles</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Jos� Saramago (Fuencarral-El Pardo)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/152">
+	<vcard:TITLE>Talleres Biling�es Infantiles</vcard:TITLE>
+	<vcard:KEY>7279225</vcard:KEY>
+	<vcard:Other>Tue Oct 07 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Talleres Biling�es Infantiles</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ActividadesInfantiles</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Gerardo Diego (Villa de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/153">
+	<vcard:TITLE>Talleres Biling�es Infantiles</vcard:TITLE>
+	<vcard:KEY>7280375</vcard:KEY>
+	<vcard:Other>Wed Oct 08 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Talleres Biling�es Infantiles</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ActividadesInfantiles</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/154">
+	<vcard:TITLE>Talleres Biling�es Infantiles</vcard:TITLE>
+	<vcard:KEY>7274951</vcard:KEY>
+	<vcard:Other>Mon Oct 06 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Talleres Biling�es Infantiles</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ActividadesInfantiles</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Conde Duque (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/155">
+	<vcard:TITLE>Talleres de Animaci�n Musical</vcard:TITLE>
+	<vcard:KEY>7290894</vcard:KEY>
+	<vcard:Other>Tue Oct 07 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Talleres de Animaci�n Musical</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ActividadesInfantiles</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Jos� Hierro (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/156">
+	<vcard:TITLE>Talleres de Animaci�n Musical</vcard:TITLE>
+	<vcard:KEY>7289963</vcard:KEY>
+	<vcard:Other>Wed Oct 08 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Talleres de Animaci�n Musical</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ActividadesInfantiles</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Manuel V�zquez Montalb�n (Tetu�n)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/157">
+	<vcard:TITLE>Talleres de Animaci�n Musical</vcard:TITLE>
+	<vcard:KEY>7290267</vcard:KEY>
+	<vcard:Other>Mon Oct 06 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Talleres de Animaci�n Musical</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/ActividadesInfantiles</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Gloria Fuertes (Barajas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/158">
+	<vcard:TITLE>Talleres de inform�tica b�sica</vcard:TITLE>
+	<vcard:KEY>7312819</vcard:KEY>
+	<vcard:Other>Wed Dec 10 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Talleres de inform�tica b�sica</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Pozo del T�o Raimundo (Puente de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/159">
+	<vcard:TITLE>Talleres de inform�tica b�sica</vcard:TITLE>
+	<vcard:KEY>7312210</vcard:KEY>
+	<vcard:Other>Mon Oct 06 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Talleres de inform�tica b�sica</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal D�maso Alonso (Chamart�n)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/160">
+	<vcard:TITLE>Talleres de inform�tica b�sica</vcard:TITLE>
+	<vcard:KEY>7312433</vcard:KEY>
+	<vcard:Other>Mon Oct 20 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Talleres de inform�tica b�sica</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Islas Filipinas (Ciudad Lineal)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/161">
+	<vcard:TITLE>Talleres de inform�tica b�sica</vcard:TITLE>
+	<vcard:KEY>7312475</vcard:KEY>
+	<vcard:Other>Mon Nov 03 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Talleres de inform�tica b�sica</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Gerardo Diego (Villa de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/162">
+	<vcard:TITLE>Talleres de inform�tica b�sica</vcard:TITLE>
+	<vcard:KEY>7312826</vcard:KEY>
+	<vcard:Other>Wed Dec 10 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Talleres de inform�tica b�sica</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Miguel Delibes (Moratalaz)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/163">
+	<vcard:TITLE>Talleres de inform�tica b�sica</vcard:TITLE>
+	<vcard:KEY>7312781</vcard:KEY>
+	<vcard:Other>Mon Dec 01 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Talleres de inform�tica b�sica</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Manuel V�zquez Montalb�n (Tetu�n)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/164">
+	<vcard:TITLE>Talleres de inform�tica b�sica</vcard:TITLE>
+	<vcard:KEY>7312488</vcard:KEY>
+	<vcard:Other>Mon Nov 17 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Talleres de inform�tica b�sica</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Jos� Hierro (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/165">
+	<vcard:TITLE>Talleres de inform�tica b�sica</vcard:TITLE>
+	<vcard:KEY>7312456</vcard:KEY>
+	<vcard:Other>Mon Nov 03 00:00:00 CET 2014</vcard:Other>
+	<vcard:NAME>Talleres de inform�tica b�sica</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal �ngel Gonz�lez (Latina)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/166">
+	<vcard:TITLE>Talleres de inform�tica b�sica</vcard:TITLE>
+	<vcard:KEY>7312387</vcard:KEY>
+	<vcard:Other>Mon Oct 06 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Talleres de inform�tica b�sica</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Pablo Neruda (Ciudad Lineal)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/167">
+	<vcard:TITLE>Tertulias de psicolog�a pr�ctica.</vcard:TITLE>
+	<vcard:KEY>7423094</vcard:KEY>
+	<vcard:Other>Tue Oct 07 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Tertulias de psicolog�a pr�ctica</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Conde Duque (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/168">
+	<vcard:TITLE>Tertulias de psicolog�a pr�ctica.</vcard:TITLE>
+	<vcard:KEY>7423108</vcard:KEY>
+	<vcard:Other>Wed Oct 08 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Tertulias de psicolog�a pr�ctica</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Ciudad Lineal (Ciudad Lineal)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/169">
+	<vcard:TITLE>Tertulias de psicolog�a pr�ctica.</vcard:TITLE>
+	<vcard:KEY>7379479</vcard:KEY>
+	<vcard:Other>Mon Oct 06 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Tertulias de psicolog�a pr�ctica</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Miguel Delibes (Moratalaz)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/170">
+	<vcard:TITLE>Tertulias de psicolog�a pr�ctica.</vcard:TITLE>
+	<vcard:KEY>7379492</vcard:KEY>
+	<vcard:Other>Tue Oct 07 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Tertulias de psicolog�a pr�ctica</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Gloria Fuertes (Barajas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/171">
+	<vcard:TITLE>Tertulias de psicolog�a pr�ctica.</vcard:TITLE>
+	<vcard:KEY>7379706</vcard:KEY>
+	<vcard:Other>Wed Oct 08 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Tertulias de psicolog�a pr�ctica</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Mar�a Zambrano (Tetu�n)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/172">
+	<vcard:TITLE>Tertulias en ingl�s</vcard:TITLE>
+	<vcard:KEY>7274959</vcard:KEY>
+	<vcard:Other>Wed Oct 08 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Tertulias en ingl�s</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Conde Duque (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/173">
+	<vcard:TITLE>Tertulias en ingl�s</vcard:TITLE>
+	<vcard:KEY>7291363</vcard:KEY>
+	<vcard:Other>Tue Oct 07 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Tertulias en ingl�s</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Pozo del T�o Raimundo (Puente de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/174">
+	<vcard:TITLE>Tertulias en ingl�s</vcard:TITLE>
+	<vcard:KEY>7284672</vcard:KEY>
+	<vcard:Other>Tue Oct 07 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Tertulias en ingl�s</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Mar�a Zambrano (Tetu�n)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/175">
+	<vcard:TITLE>Tertulias en ingl�s</vcard:TITLE>
+	<vcard:KEY>7278830</vcard:KEY>
+	<vcard:Other>Wed Oct 08 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Tertulias en ingl�s</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Iv�n de Vargas (Centro)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/176">
+	<vcard:TITLE>Tertulias en ingl�s</vcard:TITLE>
+	<vcard:KEY>7274652</vcard:KEY>
+	<vcard:Other>Thu Oct 09 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Tertulias en ingl�s</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Canillejas (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/177">
+	<vcard:TITLE>Tertulias en ingl�s</vcard:TITLE>
+	<vcard:KEY>7274059</vcard:KEY>
+	<vcard:Other>Thu Oct 09 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Tertulias en ingl�s</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal �ngel Gonz�lez (Latina)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/178">
+	<vcard:TITLE>Tertulias en ingl�s</vcard:TITLE>
+	<vcard:KEY>7279454</vcard:KEY>
+	<vcard:Other>Fri Oct 10 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Tertulias en ingl�s</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Miguel Delibes (Moratalaz)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/179">
+	<vcard:TITLE>Tertulias en ingl�s</vcard:TITLE>
+	<vcard:KEY>7276378</vcard:KEY>
+	<vcard:Other>Mon Oct 06 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Tertulias en ingl�s</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Gerardo Diego (Villa de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/180">
+	<vcard:TITLE>Tertulias en ingl�s</vcard:TITLE>
+	<vcard:KEY>7628066</vcard:KEY>
+	<vcard:Other>Wed Oct 01 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Tertulias en ingl�s</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Jos� Saramago (Fuencarral-El Pardo)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/181">
+	<vcard:TITLE>Tertulias en ingl�s</vcard:TITLE>
+	<vcard:KEY>7278046</vcard:KEY>
+	<vcard:Other>Wed Oct 08 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Tertulias en ingl�s</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Gloria Fuertes (Barajas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/182">
+	<vcard:TITLE>Tertulias en ingl�s</vcard:TITLE>
+	<vcard:KEY>7306002</vcard:KEY>
+	<vcard:Other>Thu Oct 09 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Tertulias en ingl�s</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Jos� Hierro (San Blas-Canillejas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/183">
+	<vcard:TITLE>Tertulias en ingl�s</vcard:TITLE>
+	<vcard:KEY>7284942</vcard:KEY>
+	<vcard:Other>Fri Oct 10 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Tertulias en ingl�s</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Pablo Neruda (Ciudad Lineal)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/184">
+	<vcard:TITLE>Tertulias en ingl�s</vcard:TITLE>
+	<vcard:KEY>7286071</vcard:KEY>
+	<vcard:Other>Mon Oct 06 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Tertulias en ingl�s</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Portazgo (Puente de Vallecas)</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/185">
+	<vcard:TITLE>Visita a la Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:TITLE>
+	<vcard:KEY>7672404</vcard:KEY>
+	<vcard:Other>Fri Oct 17 00:00:00 CEST 2014</vcard:Other>
+	<vcard:CATEGORIES>/contenido/actividades/VisitasGuiadasTuristicas</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:Locality>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://exmple.com/biblioteca/186">
+	<vcard:TITLE>�C�mo encontrar una idea de negocio?</vcard:TITLE>
+	<vcard:KEY>7635546</vcard:KEY>
+	<vcard:Other>Mon Oct 20 00:00:00 CEST 2014</vcard:Other>
+	<vcard:NAME>Taller sobre b�squeda de empleo en la Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:NAME>
+	<vcard:CATEGORIES>/contenido/actividades/CursosTalleres</vcard:CATEGORIES>
+	<vcard:Locality>Biblioteca P�blica Municipal Eugenio Tr�as. Casa de Fieras de El Retiro</vcard:Locality>
+</rdf:Description>
+
+</rdf:RDF>
