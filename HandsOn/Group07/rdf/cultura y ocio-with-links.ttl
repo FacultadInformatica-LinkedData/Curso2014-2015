@@ -1,0 +1,158 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://sandbox.linkeddata.es/onto/Group07#CentrosCulturales/5> a rdf:Cultura-Ocio ;
+	rdf:ID-EVENTO "7663646" ;
+	rdf:TITULO "Actividad para niños. Circo twister" ;
+	rdf:GRATUITO "0" ;
+	rdf:LARGA-DURACION "1" ;
+	rdf:DIAS-SEMANA "L,M,X,J,V,S,D" ;
+	rdf:FECHA "2014-09-26 00:00:00.0" ;
+	rdf:FECHA-FIN "2014-10-12 23:59:00.0" ;
+	rdf:HORA "00:00" ;
+	rdf:DESCRIPCION """ Espectáculo tanto para niños como para mayores. 
+ Tendrá lugar en la calle Camino de la Suerte con vuelta a la avenida del Ensanche de Vallecas (solar) """ ;
+	rdf:CONTENT-URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=53b9d9d0a90d8410VgnVCM1000000b205a0aRCRD" ;
+	rdf:TITULO-ACTIVIDAD "Actividades para niños. Distrito de Vallecas. Octubre 2014" ;
+	rdf:URL-ACTIVIDAD "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fcb5095d480d8410VgnVCM1000000b205a0aRCRD" ;
+	rdf:TIPO "/contenido/actividades/Circos" .
+
+<http://sandbox.linkeddata.es/onto/Group07#CentrosCulturales/39> a rdf:Cultura-Ocio ;
+	rdf:ID-EVENTO "7663762" ;
+	rdf:TITULO "Actuación de la Banda de Gaitas de la Xuntanza de Galegos en Alcobendas" ;
+	rdf:GRATUITO "0" ;
+	rdf:LARGA-DURACION "0" ;
+	rdf:DIAS-SEMANA "L,M,X,J,V,S,D" ;
+	rdf:FECHA "2014-10-18 00:00:00.0" ;
+	rdf:FECHA-FIN "2014-10-18 23:59:00.0" ;
+	rdf:HORA "12:30" ;
+	rdf:DESCRIPCION "Tendrá lugar en el Bulevar del Paseo de Federico García Lorca." ;
+	rdf:CONTENT-URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=26c9e6854a0d8410VgnVCM1000000b205a0aRCRD" ;
+	rdf:TITULO-ACTIVIDAD "Actividades. IV Semana de Galicia en Villa de Vallecas. Octubre 2014" ;
+	rdf:URL-ACTIVIDAD "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d513d9d0a90d8410VgnVCM1000000b205a0aRCRD" ;
+	rdf:TIPO "/contenido/actividades/Exposiciones" .
+
+<http://sandbox.linkeddata.es/onto/Group07#CentrosCulturales/255> a rdf:Cultura-Ocio ;
+	rdf:ID-EVENTO "7641728" ;
+	rdf:TITULO "Espíritu y Luz, exposición de pintura al óleo y gráfica" ;
+	rdf:GRATUITO "1" ;
+	rdf:LARGA-DURACION "1" ;
+	rdf:DIAS-SEMANA "L,M,X,J,V,S" ;
+	rdf:FECHA "2014-10-02 00:00:00.0" ;
+	rdf:FECHA-FIN "2014-10-30 23:59:00.0" ;
+	rdf:HORA "00:00" ;
+	rdf:DESCRIPCION "Por Ivo Tchotchen y Rumy  Sarayska patrocinado pro la Asociación TANGRA." ;
+	rdf:CONTENT-URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=805ea3728a888410VgnVCM2000000c205a0aRCRD" ;
+	rdf:TITULO-ACTIVIDAD "Espíritu y Luz, exposición de pintura al óleo y gráfica." ;
+	rdf:URL-ACTIVIDAD "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=4d18a3728a888410VgnVCM2000000c205a0aRCRD" ;
+	rdf:TIPO "/contenido/actividades/Exposiciones" .
+
+<http://sandbox.linkeddata.es/onto/Group07#CentrosCulturales/260> a rdf:Cultura-Ocio ;
+	rdf:ID-EVENTO "7663740" ;
+	rdf:TITULO "Exposición de cerámica y pintura de artistas gallegos" ;
+	rdf:GRATUITO "0" ;
+	rdf:LARGA-DURACION "1" ;
+	rdf:DIAS-SEMANA "L,M,X,J,V,S,D" ;
+	rdf:FECHA "2014-10-16 00:00:00.0" ;
+	rdf:FECHA-FIN "2014-10-26 23:59:00.0" ;
+	rdf:HORA "00:00" ;
+	rdf:DESCRIPCION "Tendrá lugar en la carpa situada en la calle Rayo Vallecano de Madrid con vuelta a la calle Real de Arganda." ;
+	rdf:CONTENT-URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a8d6d9d0a90d8410VgnVCM1000000b205a0aRCRD" ;
+	rdf:TITULO-ACTIVIDAD "Actividades. IV Semana de Galicia en Villa de Vallecas. Octubre 2014" ;
+	rdf:URL-ACTIVIDAD "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d513d9d0a90d8410VgnVCM1000000b205a0aRCRD" ;
+	rdf:TIPO "/contenido/actividades/Exposiciones" .
+
+<http://sandbox.linkeddata.es/onto/Group07#CentrosCulturales/366> a rdf:Cultura-Ocio ;
+	rdf:ID-EVENTO "7154199" ;
+	rdf:TITULO "IV Carrera de los Emprendedores" ;
+	rdf:GRATUITO "0" ;
+	rdf:LARGA-DURACION "0" ;
+	rdf:DIAS-SEMANA "L,M,X,J,V,S,D" ;
+	rdf:FECHA "2014-11-23 00:00:00.0" ;
+	rdf:FECHA-FIN "2014-11-23 23:59:00.0" ;
+	rdf:HORA "09:00" ;
+	rdf:CONTENT-URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8f8bda38ffad1410VgnVCM1000000b205a0aRCRD" ;
+	rdf:TITULO-ACTIVIDAD "IV Carrera de los Emprendedores" ;
+	rdf:URL-ACTIVIDAD "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5b21e7c38aad1410VgnVCM1000000b205a0aRCRD" .
+
+<http://sandbox.linkeddata.es/onto/Group07#CentrosCulturales/423> a rdf:Cultura-Ocio ;
+	rdf:ID-EVENTO "7624021" ;
+	rdf:TITULO "Madrid Activa en Fuencarral - El Pardo. El alquimista del sonido" ;
+	rdf:GRATUITO "1" ;
+	rdf:LARGA-DURACION "0" ;
+	rdf:DIAS-SEMANA "L,M,X,J,V,S,D" ;
+	rdf:FECHA "2014-10-12 00:00:00.0" ;
+	rdf:FECHA-FIN "2014-10-12 23:59:00.0" ;
+	rdf:HORA "12:00" ;
+	rdf:DESCRIPCION """ Teatro de calle. 
+ Compañía: La Llave Inglesa """ ;
+	rdf:CONTENT-URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=3a456b5b75638410VgnVCM2000000c205a0aRCRD" ;
+	rdf:TITULO-ACTIVIDAD "Programa Madrid Activa. Distrito de Fuencarral - El Pardo" ;
+	rdf:URL-ACTIVIDAD "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9bced01e09b18410VgnVCM2000000c205a0aRCRD" ;
+	rdf:TIPO "/contenido/actividades/ObrasTeatro" .
+
+<http://sandbox.linkeddata.es/onto/Group07#CentrosCulturales/649> a rdf:Cultura-Ocio ;
+	rdf:ID-EVENTO "7632227" ;
+	rdf:TITULO "Programa Madrid Activa. Espinazo o callos" ;
+	rdf:GRATUITO "1" ;
+	rdf:LARGA-DURACION "0" ;
+	rdf:DIAS-SEMANA "L,M,X,J,V,S,D" ;
+	rdf:FECHA "2014-11-15 00:00:00.0" ;
+	rdf:FECHA-FIN "2014-11-15 23:59:00.0" ;
+	rdf:HORA "17:00" ;
+	rdf:DESCRIPCION """ Microteatro. 6 pases. 
+  Compañía : Pez Limbo """ ;
+	rdf:CONTENT-URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=abe03a8bd1f58410VgnVCM1000000b205a0aRCRD" ;
+	rdf:TITULO-ACTIVIDAD "Programa Madrid Activa. Distrito de Retiro" ;
+	rdf:URL-ACTIVIDAD "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=0d193ba478b18410VgnVCM1000000b205a0aRCRD" ;
+	rdf:TIPO "/contenido/actividades/ObrasTeatro" .
+
+<http://sandbox.linkeddata.es/onto/Group07#CentrosCulturales/765> a rdf:Cultura-Ocio ;
+	rdf:ID-EVENTO "7654587" ;
+	rdf:TITULO "Visita guiada al Museo Lázaro Galdiano" ;
+	rdf:GRATUITO "0" ;
+	rdf:LARGA-DURACION "0" ;
+	rdf:DIAS-SEMANA "L,M,X,J,V,S,D" ;
+	rdf:FECHA "2014-10-22 00:00:00.0" ;
+	rdf:FECHA-FIN "2014-10-22 23:59:00.0" ;
+	rdf:HORA "11:30" ;
+	rdf:CONTENT-URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=adb5160bf60c8410VgnVCM1000000b205a0aRCRD" ;
+	rdf:TITULO-ACTIVIDAD "Visita guiada al Museo Lázaro Galdiano" ;
+	rdf:URL-ACTIVIDAD "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e665160bf60c8410VgnVCM1000000b205a0aRCRD" .
+
+<http://sandbox.linkeddata.es/onto/Group07#CentrosCulturales/766> a rdf:Cultura-Ocio ;
+	rdf:ID-EVENTO "7640882" ;
+	rdf:TITULO "Visita guiada gratuita. Campofrio." ;
+	rdf:GRATUITO "1" ;
+	rdf:LARGA-DURACION "0" ;
+	rdf:DIAS-SEMANA "L,M,X,J,V,S,D" ;
+	rdf:FECHA "2014-10-21 00:00:00.0" ;
+	rdf:FECHA-FIN "2014-10-21 23:59:00.0" ;
+	rdf:HORA "10:00" ;
+	rdf:DESCRIPCION "Visia guiada a la fábrica de CAMPOFRIO. Lugar de encuentro calle San Norberto 19. Metro San Cristóbal / Autobús 79  Plazas: 24 Inscripciones en Centro cultural  " ;
+	rdf:CONTENT-URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2117e13675888410VgnVCM2000000c205a0aRCRD" ;
+	rdf:TITULO-ACTIVIDAD "Visita guiada gratuita. Campofrio." ;
+	rdf:URL-ACTIVIDAD "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c8f32e2df2888410VgnVCM1000000b205a0aRCRD" ;
+	rdf:TIPO "/contenido/actividades/VisitasGuiadasTuristicas" .
+
+<http://sandbox.linkeddata.es/onto/Group07#CentrosCulturales/767> a rdf:Cultura-Ocio ;
+	rdf:ID-EVENTO "7641373" ;
+	rdf:TITULO "Visita guiada gratuita. Museo de Tradiciones Populares." ;
+	rdf:GRATUITO "1" ;
+	rdf:LARGA-DURACION "0" ;
+	rdf:DIAS-SEMANA "L,M,X,J,V,S,D" ;
+	rdf:FECHA "2014-10-29 00:00:00.0" ;
+	rdf:FECHA-FIN "2014-10-29 23:59:00.0" ;
+	rdf:HORA "11:30" ;
+	rdf:DESCRIPCION """ Duración de la visita 1 hora. PUNTO DE ENCUENTRO: en la puerta del museo 10 minutos antes. 
+ Calle Carlos Arniches 3-5  Metro: La Latina, Tirso de Molina.  """ ;
+	rdf:CONTENT-URL "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=21caeaaef8888410VgnVCM2000000c205a0aRCRD" ;
+	rdf:TITULO-ACTIVIDAD "Visita guiada gratuita. Museo de Tradiciones Populares." ;
+	rdf:URL-ACTIVIDAD "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=1ccd566813946010VgnVCM100000dc0ca8c0RCRD&vgnextoid=19d499f148888410VgnVCM2000000c205a0aRCRD" .
+
+<http://sandbox.linkeddata.es/onto/Group07#CentrosCulturales/802> a rdf:Cultura-Ocio .
+
+<http://sandbox.linkeddata.es/onto/Group07#CentrosCulturales/803> a rdf:Cultura-Ocio .

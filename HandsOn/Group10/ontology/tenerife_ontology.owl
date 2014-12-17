@@ -55,6 +55,9 @@
         <ObjectProperty IRI="#pertenece_a"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#se_llega"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#tiene_actividad"/>
     </Declaration>
     <Declaration>
@@ -104,6 +107,10 @@
         <Class IRI="#Lugar"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#se_llega"/>
+        <Class IRI="#Lugar"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#tiene_actividad"/>
         <Class IRI="#Lugar"/>
     </ObjectPropertyDomain>
@@ -122,6 +129,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#pertenece_a"/>
         <Class IRI="#Municipio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#se_llega"/>
+        <Class IRI="#ComoLlegar"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#tiene_actividad"/>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+    <!-- Biblioteca Class & Properties -->
+
+    <rdf:Description rdf:about="http://www.example.com/Biblioteca">
+        <rdfs:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class" />
+        <rdfs:subClassOf rdf:resource="http://schema.org/Library" />
+        <rdfs:comment>Represents a Library in Madrid</rdfs:comment>
+    </rdf:Description>
+
+    <!--
+    
+    IMPORTANTE: relacion Biblioteca - Evento
+
+    La clase Library posee una propiedad denominada event que cuyo rango
+    son recursos de clase Event por lo que nuestros eventos deben de ser
+    de dicho tipo o de alguna subclase (en nuestro caso de Literary Event)
+    
+    -->
+
+    <rdf:Description rdf:about="http://www.example.com/BibliotecaID">
+        <rdfs:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+        <rdfs:domain rdf:resource="http://www.example.com/Biblioteca" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#String" />
+        <rdfs:comment>Unique Identifier of the library</rdfs:comment>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.example.com/Equipamiento">
+        <rdfs:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+        <rdfs:domain rdf:resource="http://www.example.com/Biblioteca" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#String" />
+        <rdfs:comment>Servicios que presta la bibioteca</rdfs:comment>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.example.com/Transporte">
+        <rdfs:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+        <rdfs:domain rdf:resource="http://www.example.com/Biblioteca" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#String" />
+        <rdfs:comment>Metodos de transporte para llegar a la biblioteca</rdfs:comment>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.example.com/Tipo">
+        <rdfs:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+        <rdfs:domain rdf:resource="http://www.example.com/Biblioteca" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#String" />
+        <rdfs:comment>Biblioteca Publica o Bibliobus</rdfs:comment>
+    </rdf:Description>
+
+    <!-- 
+    
+    #----------- Reutilizacion de Propiedades de lib:Library -----------#
+    #
+    # Hemos conseguido mapear de manera directa las siguientes propiedades
+    # definidas en el documento analisys.html referidas a la Biblioteca.
+    # Todas las entidades son superclases de las que deriva Library
+    #
+    # Descripcion Entidad => Thing.description
+    # Horarios => Library.openingHours
+    # Calle,Localidad,CP,Barrio, Distrito, Numero => Organization.address
+    # Content-URL => Thing.url
+    # Coordenada X,Y Latitud,Longitug => Place.GeoCoordinates
+    # Telefono => Place.telephone
+    # Fax => Organization.faxNumber
+    # Email => Organization.email
+    #
+    # El resto de atributos se omiten dado que son irrelevantes, poseen
+    # demasiados elementos nulos o su mapeo no es util de cada a la 
+    # ontologia.
+    
+    -->
+
+
+    <!-- Evento Class & Properties -->
+
+    <rdf:Description rdf:about="http://www.example.com/Evento">
+        <rdfs:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class" />
+        <rdfs:subClassOf rdf:resource="http://schema.org/LiteraryEvent" />
+        <rdfs:comment>Represent a Event scheduled in a Library</rdfs:comment>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.example.com/EventoID">
+        <rdfs:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+        <rdfs:domain rdf:resource="http://www.example.com/Evento" />
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#String" />
+        <rdfs:comment>Unique Identifier of the event</rdfs:comment>
+    </rdf:Description>
+
+    <!--
+    
+    # IMPORTANTE: relacion Evento - Biblioteca
+    #
+    # La clase Event posee la propiedad location cuyo rango son elementos
+    # de clase Place que es a su vez una superclase de Library.
+    # A través de esta relacion tambien podemos omitir otras propiedades
+    # como Coordenada X,Y, Latitud, Longitud, URL de la instalacion.
+
+    # ----------- Reutilizacion de Propiedades de evn:LiteraryEvent -----------#
+    #
+    # Hemos conseguido mapear de manera directa las siguientes propiedades
+    # definidas en el documento analisys.html referidas a los Eventos.
+    # Todas las entidades son superclases de las que deriva LiteraryEvent
+    #
+    # Titulo => Thing.name
+    # Fecha (inicio) => Event.startDate
+    # Fecha Fin => Event.endDate
+    # Hora => Event.doorTime
+    # Content-URL => Thing.url
+    # Descripcion Entidad => Thing.description
+    #
+    # El resto de atributos se omiten dado que son irrelevantes, poseen
+    # demasiados elementos nulos o su mapeo no es util de cada a la 
+    # ontologia.
+    #--------------------------------------------------------------------------#
+    
+    -->
+
+</rdf:RDF>

@@ -1,0 +1,773 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+
+<http://www.st-madrid.es/Barrios/PALACIO> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "PALACIO             " ;
+	<http://www.st-madrid.es/superficie> "1471085"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5754"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/IMPERIAL> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "IMPERIAL            " ;
+	<http://www.st-madrid.es/superficie> "967500"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4557"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/PACIFICO> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "PACIFICO            " ;
+	<http://www.st-madrid.es/superficie> "750065"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4005"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/RECOLETOS> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "RECOLETOS           " ;
+	<http://www.st-madrid.es/superficie> "870857"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3927"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/EL-VISO> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "EL VISO             " ;
+	<http://www.st-madrid.es/superficie> "1708046"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5269"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/BELLAS-VISTAS> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "BELLAS VISTAS       " ;
+	<http://www.st-madrid.es/superficie> "716261"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3443"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/GAZTAMBIDE> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "GAZTAMBIDE          " ;
+	<http://www.st-madrid.es/superficie> "506596"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "2969"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/EL-PARDO> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "EL PARDO            " ;
+	<http://www.st-madrid.es/superficie> "187642916"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "87125"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/CASA-DE-CAMPO> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "CASA DE CAMPO       " ;
+	<http://www.st-madrid.es/superficie> "17470075"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "19233"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/LOS-CARMENES> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "LOS CARMENES        " ;
+	<http://www.st-madrid.es/superficie> "1292235"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "6186"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/COMILLAS> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "COMILLAS            " ;
+	<http://www.st-madrid.es/superficie> "665999"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4257"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/ORCASITAS> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "ORCASITAS           " ;
+	<http://www.st-madrid.es/superficie> "1356371"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4664"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/ENTREVIAS> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "ENTREVIAS           " ;
+	<http://www.st-madrid.es/superficie> "5996932"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "11057"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/PAVONES> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "PAVONES             " ;
+	<http://www.st-madrid.es/superficie> "1016979"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4134"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/VENTAS> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "VENTAS              " ;
+	<http://www.st-madrid.es/superficie> "3198045"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "8207"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/PALOMAS> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "PALOMAS             " ;
+	<http://www.st-madrid.es/superficie> "1128602"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4988"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/SAN-ANDRES> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "SAN ANDRES          " ;
+	<http://www.st-madrid.es/superficie> "9192451"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "13710"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/CASCO-H.VALLECAS> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "18"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "CASCO H.VALLECAS    " ;
+	<http://www.st-madrid.es/superficie> "49359337"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "31924"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/CASCO-H.VICALVARO> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "19"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "CASCO H.VICALVARO   " ;
+	<http://www.st-madrid.es/superficie> "32924620"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "33326"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/SIMANCAS> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "SIMANCAS            " ;
+	<http://www.st-madrid.es/superficie> "2278418"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "6678"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/ALAMEDA-DE-OSUNA> <http://www.st-madrid.es/codigoBarrio> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "ALAMEDA DE OSUNA    " ;
+	<http://www.st-madrid.es/superficie> "1961904"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "6043"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/EMBAJADORES> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "EMBAJADORES         " ;
+	<http://www.st-madrid.es/superficie> "1032822"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4267"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/ACACIAS> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "ACACIAS             " ;
+	<http://www.st-madrid.es/superficie> "1074172"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3950"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/ADELFAS> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "ADELFAS             " ;
+	<http://www.st-madrid.es/superficie> "640692"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3584"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/GOYA> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "GOYA                " ;
+	<http://www.st-madrid.es/superficie> "771228"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3473"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/PROSPERIDAD> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "PROSPERIDAD         " ;
+	<http://www.st-madrid.es/superficie> "1043284"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5250"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/CUATRO-CAMINOS> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "CUATRO CAMINOS      " ;
+	<http://www.st-madrid.es/superficie> "1193509"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4366"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/ARAPILES> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "ARAPILES            " ;
+	<http://www.st-madrid.es/superficie> "578534"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3096"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/FUENTELARREINA> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "FUENTELARREINA      " ;
+	<http://www.st-madrid.es/superficie> "1382646"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "7691"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/ARGUELLES> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "ARGUELLES           " ;
+	<http://www.st-madrid.es/superficie> "755758"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5245"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/PUERTA-DEL-ANGEL> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "PUERTA DEL ANGEL    " ;
+	<http://www.st-madrid.es/superficie> "1374799"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5373"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/OPAÑEL> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "OPAÑEL              " ;
+	<http://www.st-madrid.es/superficie> "1106597"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4492"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/ORCASUR> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "ORCASUR             " ;
+	<http://www.st-madrid.es/superficie> "1384234"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5962"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/SAN-DIEGO> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "SAN DIEGO           " ;
+	<http://www.st-madrid.es/superficie> "1069944"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4726"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/HORCAJO> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "HORCAJO             " ;
+	<http://www.st-madrid.es/superficie> "745503"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3901"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/PUEBLO-NUEVO> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "PUEBLO NUEVO        " ;
+	<http://www.st-madrid.es/superficie> "2319230"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "7746"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/PIOVERA> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "PIOVERA             " ;
+	<http://www.st-madrid.es/superficie> "3139060"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "7812"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/SAN-CRISTOBAL> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "SAN CRISTOBAL       " ;
+	<http://www.st-madrid.es/superficie> "1106718"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4810"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/SANTA-EUGENIA> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "18"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "SANTA EUGENIA       " ;
+	<http://www.st-madrid.es/superficie> "2070637"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "6831"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/AMBROZ> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "19"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "AMBROZ              " ;
+	<http://www.st-madrid.es/superficie> "2354258"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "8336"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/HELLIN> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "HELLIN              " ;
+	<http://www.st-madrid.es/superficie> "549031"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3988"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/AEROPUERTO> <http://www.st-madrid.es/codigoBarrio> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "AEROPUERTO          " ;
+	<http://www.st-madrid.es/superficie> "25132277"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "26448"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/CORTES> <http://www.st-madrid.es/codigoBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "CORTES              " ;
+	<http://www.st-madrid.es/superficie> "592070"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3731"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/CHOPERA> <http://www.st-madrid.es/codigoBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "CHOPERA             " ;
+	<http://www.st-madrid.es/superficie> "566358"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3203"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/ESTRELLA> <http://www.st-madrid.es/codigoBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "ESTRELLA            " ;
+	<http://www.st-madrid.es/superficie> "1025805"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4441"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/FUENTE-DEL-BERRO> <http://www.st-madrid.es/codigoBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "FUENTE DEL BERRO    " ;
+	<http://www.st-madrid.es/superficie> "852579"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3886"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/CIUDAD-JARDIN> <http://www.st-madrid.es/codigoBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "CIUDAD JARDIN       " ;
+	<http://www.st-madrid.es/superficie> "762371"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3915"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/CASTILLEJOS> <http://www.st-madrid.es/codigoBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "CASTILLEJOS         " ;
+	<http://www.st-madrid.es/superficie> "708501"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3556"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/TRAFALGAR> <http://www.st-madrid.es/codigoBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "TRAFALGAR           " ;
+	<http://www.st-madrid.es/superficie> "611950"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3505"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/PEÑA-GRANDE> <http://www.st-madrid.es/codigoBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "PEÑA GRANDE         " ;
+	<http://www.st-madrid.es/superficie> "2890405"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "7331"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/CIUDAD-UNIVERSITARIA> <http://www.st-madrid.es/codigoBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "CIUDAD UNIVERSITARIA" ;
+	<http://www.st-madrid.es/superficie> "14248243"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "19453"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/LUCERO> <http://www.st-madrid.es/codigoBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "LUCERO              " ;
+	<http://www.st-madrid.es/superficie> "1679450"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5498"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/SAN-ISIDRO> <http://www.st-madrid.es/codigoBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "SAN ISIDRO          " ;
+	<http://www.st-madrid.es/superficie> "1899346"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "6149"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/SAN-FERMIN> <http://www.st-madrid.es/codigoBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "SAN FERMIN          " ;
+	<http://www.st-madrid.es/superficie> "1463692"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5836"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/PALOMERAS-BAJAS> <http://www.st-madrid.es/codigoBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "PALOMERAS BAJAS     " ;
+	<http://www.st-madrid.es/superficie> "1724430"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5649"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/MARROQUINA> <http://www.st-madrid.es/codigoBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "MARROQUINA          " ;
+	<http://www.st-madrid.es/superficie> "1789256"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "6746"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/QUINTANA> <http://www.st-madrid.es/codigoBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "QUINTANA            " ;
+	<http://www.st-madrid.es/superficie> "722756"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4440"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/CANILLAS> <http://www.st-madrid.es/codigoBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "CANILLAS            " ;
+	<http://www.st-madrid.es/superficie> "2516943"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "7532"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/BUTARQUE> <http://www.st-madrid.es/codigoBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "BUTARQUE            " ;
+	<http://www.st-madrid.es/superficie> "6425005"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "12719"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/AMPOSTA> <http://www.st-madrid.es/codigoBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "AMPOSTA             " ;
+	<http://www.st-madrid.es/superficie> "370250"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3097"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/CASCO-H.BARAJAS> <http://www.st-madrid.es/codigoBarrio> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "CASCO H.BARAJAS     " ;
+	<http://www.st-madrid.es/superficie> "609202"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4033"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/JUSTICIA> <http://www.st-madrid.es/codigoBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "JUSTICIA            " ;
+	<http://www.st-madrid.es/superficie> "742034"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3598"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/LEGAZPI> <http://www.st-madrid.es/codigoBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "LEGAZPI             " ;
+	<http://www.st-madrid.es/superficie> "1396410"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5120"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/IBIZA> <http://www.st-madrid.es/codigoBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "IBIZA               " ;
+	<http://www.st-madrid.es/superficie> "490863"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "2913"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/GUINDALERA> <http://www.st-madrid.es/codigoBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "GUINDALERA          " ;
+	<http://www.st-madrid.es/superficie> "1598962"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5194"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/HISPANOAMERICA> <http://www.st-madrid.es/codigoBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "HISPANOAMERICA      " ;
+	<http://www.st-madrid.es/superficie> "1707406"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "6068"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/ALMENARA> <http://www.st-madrid.es/codigoBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "ALMENARA            " ;
+	<http://www.st-madrid.es/superficie> "999369"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4011"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/ALMAGRO> <http://www.st-madrid.es/codigoBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "ALMAGRO             " ;
+	<http://www.st-madrid.es/superficie> "937095"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4071"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/EL-PILAR> <http://www.st-madrid.es/codigoBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "EL PILAR            " ;
+	<http://www.st-madrid.es/superficie> "1359881"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5155"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/VALDEZARZA> <http://www.st-madrid.es/codigoBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "VALDEZARZA          " ;
+	<http://www.st-madrid.es/superficie> "1397672"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5352"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/ALUCHE> <http://www.st-madrid.es/codigoBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "ALUCHE              " ;
+	<http://www.st-madrid.es/superficie> "2849829"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "7267"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/VISTA-ALEGRE> <http://www.st-madrid.es/codigoBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "VISTA ALEGRE        " ;
+	<http://www.st-madrid.es/superficie> "1589877"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "6433"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/ALMENDRALES> <http://www.st-madrid.es/codigoBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "ALMENDRALES         " ;
+	<http://www.st-madrid.es/superficie> "772281"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3692"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/PALOMERAS-SURESTE> <http://www.st-madrid.es/codigoBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "PALOMERAS SURESTE   " ;
+	<http://www.st-madrid.es/superficie> "3118722"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "7827"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/MEDIA-LEGUA> <http://www.st-madrid.es/codigoBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "MEDIA LEGUA         " ;
+	<http://www.st-madrid.es/superficie> "999539"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4674"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/CONCEPCION> <http://www.st-madrid.es/codigoBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "CONCEPCION          " ;
+	<http://www.st-madrid.es/superficie> "885875"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5777"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/PINAR-DEL-REY> <http://www.st-madrid.es/codigoBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "PINAR DEL REY       " ;
+	<http://www.st-madrid.es/superficie> "2632846"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "8271"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/LOS-ROSALES> <http://www.st-madrid.es/codigoBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "LOS ROSALES         " ;
+	<http://www.st-madrid.es/superficie> "1510919"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5442"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/ARCOS> <http://www.st-madrid.es/codigoBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "ARCOS               " ;
+	<http://www.st-madrid.es/superficie> "1305192"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5074"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/TIMON> <http://www.st-madrid.es/codigoBarrio> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "TIMON               " ;
+	<http://www.st-madrid.es/superficie> "9595252"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "15415"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/UNIVERSIDAD> <http://www.st-madrid.es/codigoBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "UNIVERSIDAD         " ;
+	<http://www.st-madrid.es/superficie> "947641"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4060"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/DELICIAS> <http://www.st-madrid.es/codigoBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "DELICIAS            " ;
+	<http://www.st-madrid.es/superficie> "1057730"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4755"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/LOS-JERONIMOS> <http://www.st-madrid.es/codigoBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "LOS JERONIMOS       " ;
+	<http://www.st-madrid.es/superficie> "1900627"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5259"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/LISTA> <http://www.st-madrid.es/codigoBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "LISTA               " ;
+	<http://www.st-madrid.es/superficie> "520399"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3232"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/NUEVA-ESPAÑA> <http://www.st-madrid.es/codigoBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "NUEVA ESPAÑA        " ;
+	<http://www.st-madrid.es/superficie> "1788654"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5588"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/VALDEACEDERAS> <http://www.st-madrid.es/codigoBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "VALDEACEDERAS       " ;
+	<http://www.st-madrid.es/superficie> "1163421"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5024"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/RIOS-ROSAS> <http://www.st-madrid.es/codigoBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "RIOS ROSAS          " ;
+	<http://www.st-madrid.es/superficie> "971220"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4060"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/LA-PAZ> <http://www.st-madrid.es/codigoBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "LA PAZ              " ;
+	<http://www.st-madrid.es/superficie> "2159243"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "6347"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/VALDEMARIN> <http://www.st-madrid.es/codigoBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "VALDEMARIN          " ;
+	<http://www.st-madrid.es/superficie> "3305105"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "8300"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/CAMPAMENTO> <http://www.st-madrid.es/codigoBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "CAMPAMENTO          " ;
+	<http://www.st-madrid.es/superficie> "9157875"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "16619"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/PUERTA-BONITA> <http://www.st-madrid.es/codigoBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "PUERTA BONITA       " ;
+	<http://www.st-madrid.es/superficie> "1607994"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5982"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/MOSCARDO> <http://www.st-madrid.es/codigoBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "MOSCARDO            " ;
+	<http://www.st-madrid.es/superficie> "908875"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4248"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/PORTAZGO> <http://www.st-madrid.es/codigoBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "PORTAZGO            " ;
+	<http://www.st-madrid.es/superficie> "1245274"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4834"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/FONTARRON> <http://www.st-madrid.es/codigoBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "FONTARRON           " ;
+	<http://www.st-madrid.es/superficie> "964574"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "6220"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/SAN-PASCUAL> <http://www.st-madrid.es/codigoBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "SAN PASCUAL         " ;
+	<http://www.st-madrid.es/superficie> "1052925"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4458"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/APOSTOL-SANTIAGO> <http://www.st-madrid.es/codigoBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "APOSTOL SANTIAGO    " ;
+	<http://www.st-madrid.es/superficie> "1204621"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4726"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/LOS-ANGELES> <http://www.st-madrid.es/codigoBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "LOS ANGELES         " ;
+	<http://www.st-madrid.es/superficie> "1944811"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5713"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/ROSAS> <http://www.st-madrid.es/codigoBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "ROSAS               " ;
+	<http://www.st-madrid.es/superficie> "9388024"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "15290"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/CORRALEJOS> <http://www.st-madrid.es/codigoBarrio> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "21"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "CORRALEJOS          " ;
+	<http://www.st-madrid.es/superficie> "4633048"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "9753"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/SOL> <http://www.st-madrid.es/codigoBarrio> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "SOL                 " ;
+	<http://www.st-madrid.es/superficie> "445128"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "2716"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/PALOS-DE-MOGUER> <http://www.st-madrid.es/codigoBarrio> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "PALOS DE MOGUER     " ;
+	<http://www.st-madrid.es/superficie> "643542"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3615"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/NIÑO-JESUS> <http://www.st-madrid.es/codigoBarrio> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "NIÑO JESUS          " ;
+	<http://www.st-madrid.es/superficie> "643202"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3548"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/CASTELLANA> <http://www.st-madrid.es/codigoBarrio> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "CASTELLANA          " ;
+	<http://www.st-madrid.es/superficie> "773230"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3745"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/CASTILLA> <http://www.st-madrid.es/codigoBarrio> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "CASTILLA            " ;
+	<http://www.st-madrid.es/superficie> "2160431"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "6783"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/BERRUGUETE> <http://www.st-madrid.es/codigoBarrio> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "BERRUGUETE          " ;
+	<http://www.st-madrid.es/superficie> "607050"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3417"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/VALLEHERMOSO> <http://www.st-madrid.es/codigoBarrio> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "VALLEHERMOSO        " ;
+	<http://www.st-madrid.es/superficie> "1068709"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4221"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/VALVERDE> <http://www.st-madrid.es/codigoBarrio> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "VALVERDE            " ;
+	<http://www.st-madrid.es/superficie> "8977802"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "12223"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/EL-PLANTIO> <http://www.st-madrid.es/codigoBarrio> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "EL PLANTIO          " ;
+	<http://www.st-madrid.es/superficie> "3554549"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "9995"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/CUATRO-VIENTOS> <http://www.st-madrid.es/codigoBarrio> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "CUATRO VIENTOS      " ;
+	<http://www.st-madrid.es/superficie> "5419612"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "10146"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/BUENAVISTA> <http://www.st-madrid.es/codigoBarrio> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "BUENAVISTA          " ;
+	<http://www.st-madrid.es/superficie> "5613749"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "11612"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/ZOFIO> <http://www.st-madrid.es/codigoBarrio> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "ZOFIO               " ;
+	<http://www.st-madrid.es/superficie> "775103"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3743"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/NUMANCIA> <http://www.st-madrid.es/codigoBarrio> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "NUMANCIA            " ;
+	<http://www.st-madrid.es/superficie> "1849172"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5364"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/VINATEROS> <http://www.st-madrid.es/codigoBarrio> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "14"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "VINATEROS           " ;
+	<http://www.st-madrid.es/superficie> "593979"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3721"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/SAN-JUAN-BAUTISTA> <http://www.st-madrid.es/codigoBarrio> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "SAN JUAN BAUTISTA   " ;
+	<http://www.st-madrid.es/superficie> "1010843"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4012"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/VALDEFUENTES> <http://www.st-madrid.es/codigoBarrio> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "VALDEFUENTES        " ;
+	<http://www.st-madrid.es/superficie> "16778055"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "18779"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/REJAS> <http://www.st-madrid.es/codigoBarrio> "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "REJAS               " ;
+	<http://www.st-madrid.es/superficie> "5007305"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "13360"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/ATOCHA> <http://www.st-madrid.es/codigoBarrio> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "ATOCHA              " ;
+	<http://www.st-madrid.es/superficie> "775561"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4999"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/MIRASIERRA> <http://www.st-madrid.es/codigoBarrio> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "MIRASIERRA          " ;
+	<http://www.st-madrid.es/superficie> "6975186"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "13135"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/ARAVACA> <http://www.st-madrid.es/codigoBarrio> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "ARAVACA             " ;
+	<http://www.st-madrid.es/superficie> "5855800"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "10853"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/LAS-AGUILAS> <http://www.st-madrid.es/codigoBarrio> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "LAS AGUILAS         " ;
+	<http://www.st-madrid.es/superficie> "3609338"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "7626"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/ABRANTES> <http://www.st-madrid.es/codigoBarrio> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "ABRANTES            " ;
+	<http://www.st-madrid.es/superficie> "1564207"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5494"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/PRADOLONGO> <http://www.st-madrid.es/codigoBarrio> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "PRADOLONGO          " ;
+	<http://www.st-madrid.es/superficie> "1095654"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "4785"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/COLINA> <http://www.st-madrid.es/codigoBarrio> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "COLINA              " ;
+	<http://www.st-madrid.es/superficie> "559702"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "3175"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/CANILLEJAS> <http://www.st-madrid.es/codigoBarrio> "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "CANILLEJAS          " ;
+	<http://www.st-madrid.es/superficie> "1598075"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5428"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/EL-GOLOSO> <http://www.st-madrid.es/codigoBarrio> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "EL GOLOSO           " ;
+	<http://www.st-madrid.es/superficie> "26509171"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "26489"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/ATALAYA> <http://www.st-madrid.es/codigoBarrio> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "ATALAYA             " ;
+	<http://www.st-madrid.es/superficie> "248887"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "2240"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/EL-SALVADOR> <http://www.st-madrid.es/codigoBarrio> "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "EL SALVADOR         " ;
+	<http://www.st-madrid.es/superficie> "1881765"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "6571"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://www.st-madrid.es/Barrios/COSTILLARES> <http://www.st-madrid.es/codigoBarrio> "9"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/codigoDistrito> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/nombreBarrio> "COSTILLARES         " ;
+	<http://www.st-madrid.es/superficie> "1427052"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.st-madrid.es/perimetro> "5635"^^<http://www.w3.org/2001/XMLSchema#int> .

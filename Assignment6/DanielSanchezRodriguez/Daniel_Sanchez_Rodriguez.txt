@@ -1,0 +1,42 @@
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX property: <http://example.org/myVocabulary#>
+
+SELECT (SUM(?accidentes) AS ?total) WHERE {
+?obs a qb:Observation;
+   property:numberOfAccidents ?accidentes.
+}
+
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX property: <http://example.org/myVocabulary#>
+
+SELECT ?tipoAccidentes ?accidentes WHERE {
+?obs a qb:Observation;
+   property:relatedDistrict "USERA";
+   property:hasAccidentType ?tipoAccidentes;
+   property:numberOfAccidents ?accidentes.
+}
+
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX property: <http://example.org/myVocabulary#>
+
+SELECT ?distrito ?accidentes WHERE {
+?obs a qb:Observation;
+   property:hasAccidentType property:MultipleCollision;
+   property:relatedDistrict ?distrito;
+   property:numberOfAccidents ?accidentes.
+}
+
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX property: <http://example.org/myVocabulary#>
+
+SELECT ?distrito ?accidentes WHERE {
+?obs a qb:Observation;
+   property:hasAccidentType property:BicycleFall;
+   property:numberOfAccidents ?accidentes;
+   property:relatedDistrict ?distrito.
+
+} ORDER BY DESC(?accidentes) LIMIT 3
+
