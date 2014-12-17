@@ -30,7 +30,6 @@ public class ShellBiblioApp extends Shell{
 	private Button btOk;
 	private Button btTodo; 
 	private Button btReset;
-	private Button grafo;
 	private Consultas consultas;
 	private int numPag=0;
 	private Button btNextResults;
@@ -100,7 +99,7 @@ public class ShellBiblioApp extends Shell{
 		    label.setText("Eventos Biblioteca: ");
 		    tipoEvento= new Combo(this, SWT.READ_ONLY);
 		    tipoEvento.setEnabled(false);
-		    tipoEvento.setItems(new String[]{"A","B"});
+		    tipoEvento.setItems(new String[]{"0","1", "2", "3", "4", "5", "6", "7", "8"});
 		    this.pack();
 		    Label nombreBiblio =new Label(this, SWT.CENTER);
 		    nombreBiblio.setText("Biblioteca: ");
@@ -118,8 +117,7 @@ public class ShellBiblioApp extends Shell{
 		    btReset=new Button(this, SWT.NONE);
 		    btReset.setText("Reset");
 		    btReset.setEnabled(false);
-		    grafo=new Button(this, SWT.NONE);
-		    grafo.setText("Mostrar grafo de datos");
+
 		    
 		    
 		    
@@ -140,8 +138,10 @@ public class ShellBiblioApp extends Shell{
 		    public void widgetSelected(SelectionEvent e) {
 		    	
 		    	String buscar="";
+		    	System.out.println(" Tipo Busqueda: "+tipoBusqueda.getSelectionIndex());
+		    	System.out.println("Tipo evento"+ tipoEvento.getSelectionIndex());
 		    	switch(tipoBusqueda.getSelectionIndex()){
-		    		case 1:
+		    		case 0:
 		    			buscar+="/contenido/actividades";
 		    			switch(tipoEvento.getSelectionIndex()){
 		    			case NINGUNA: 
@@ -170,7 +170,7 @@ public class ShellBiblioApp extends Shell{
 		    			}
 		    		break;
 		    		
-		    		case 0: 
+		    		case 1: 
 		    			buscar+=biblioteca.getText();
 		    			break;
 		    		case 2:
@@ -197,6 +197,7 @@ public class ShellBiblioApp extends Shell{
 					public void widgetSelected(SelectionEvent e) {
 						if(numPag<resultados.size()-1){
 							numPag++;
+							System.out.println(numPag +" \n"+resultados.get(numPag));
 							eventosMostrar.setText(resultados.get(numPag));
 							dialogShell.redraw();
 							}
@@ -296,27 +297,32 @@ public class ShellBiblioApp extends Shell{
 }
 	public List<String> generarResultados(List<String> res){
 		List<String> resultsDivided=new ArrayList<String>();;
-		int max=max=res.size()%10;
+		int max=(res.size())%10;
 		String mensaje="";
-		if( res.size()<10)
+		if( res.size()<10){
 			if(res.size()==0){
 				mensaje+="No hay resultados";
 				resultsDivided.add(mensaje);
+				return resultsDivided;
 			}
+			
 			for(int i=0; i<res.size();i++){
 				String mostrar=" ";
-				for(int j=0; j<10;j++){
+				mostrar+=res.get(i)+"\n \n";
+				resultsDivided.add(mostrar);
+			}
+			return resultsDivided;
+			
+		}
+		else{
+		
+			for(int i=0;i<max;i++){
+				String mostrar=" ";
+				for(int j=i*10; j<10;j++){
 					mostrar+=res.get(j)+"\n \n";
 				}
 				resultsDivided.add(mostrar);
 			}
-		
-		for(int i=0;i<max;i++){
-			String mostrar=" ";
-			for(int j=0; j<10;j++){
-				mostrar+=res.get(j)+"\n \n";
-			}
-			resultsDivided.add(mostrar);
 		}
 		return resultsDivided;
 	}
