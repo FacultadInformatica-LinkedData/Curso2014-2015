@@ -37,11 +37,11 @@ public class Consultas
 	private static String filename;
 	private static Model model;
 	private static InputStream in;
-	private static final int CONSULTA_FECHA = 0;
+	private static final int CONSULTA_FECHA = 2;
 	
-	private static final int CONSULTA_TIPO = 1;
+	private static final int CONSULTA_TIPO = 0;
 	
-	private static final int CONSULTA_BIBLIOTECA = 2;
+	private static final int CONSULTA_BIBLIOTECA = 1;
 //	public static String foafNS = "http://xmlns.com/foaf/0.1#";
 //	public static String foafEmailURI = foafNS+"email";
 //	public static String foafKnowsURI = foafNS+"knows";
@@ -80,7 +80,7 @@ public class Consultas
 	//	    model.read(new FileInputStream(filename),null,"TTL");
 		model.read(in, null);
 		
-		List<String> resultados= mostrarTodo();
+		List<String> resultados= consulta("/contenido/actividades/CursosTalleres", 0);
 		
 		System.out.println("Resultados Array devuelto : ");
 		for(int i=0; i<resultados.size(); i++){
