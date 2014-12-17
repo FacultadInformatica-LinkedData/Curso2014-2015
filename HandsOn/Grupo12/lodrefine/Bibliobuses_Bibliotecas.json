@@ -1,0 +1,225 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DESCRIPCION-ENTIDAD",
+    "columnName": "DESCRIPCION-ENTIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPO-NUM",
+    "columnName": "TIPO-NUM"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PLANTA",
+    "columnName": "PLANTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PUERTA",
+    "columnName": "PUERTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ESCALERAS",
+    "columnName": "ESCALERAS"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ORIENTACION",
+    "columnName": "ORIENTACION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LOCALIDAD",
+    "columnName": "LOCALIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PROVINCIA",
+    "columnName": "PROVINCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORDENADA-X",
+    "columnName": "COORDENADA-X"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORDENADA-Y",
+    "columnName": "COORDENADA-Y"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FAX",
+    "columnName": "FAX"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column",
+    "columnName": "Column"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column TRANSPORTE by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "Bus:",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column TRANSPORTE 2 by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "Renfe:",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TRANSPORTE 2 1 using expression grel:\"Bus:\" +value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE 2 1",
+    "expression": "grel:\"Bus:\" +value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TRANSPORTE 2 2",
+    "columnName": "TRANSPORTE 2 2"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TRANSPORTE 2 1 to TRANSPORTE 2",
+    "oldColumnName": "TRANSPORTE 2 1",
+    "newColumnName": "TRANSPORTE 2"
+  }
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TRANSPORTE 1 to METRO",
+    "oldColumnName": "TRANSPORTE 1",
+    "newColumnName": "METRO"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TRANSPORTE 2 to AUTOBUS",
+    "oldColumnName": "TRANSPORTE 2",
+    "newColumnName": "AUTOBUS"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column NOMBRE by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "guessCellType": true,
+    "removeOriginalColumn": false,
+    "mode": "separator",
+    "separator": "número",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column NOMBRE 1 by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE 1",
+    "guessCellType": true,
+    "removeOriginalColumn": false,
+    "mode": "separator",
+    "separator": " ",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1",
+    "columnName": "NOMBRE 1"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1 2",
+    "columnName": "NOMBRE 1 2"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1 3",
+    "columnName": "NOMBRE 1 3"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1 4",
+    "columnName": "NOMBRE 1 4"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1 5",
+    "columnName": "NOMBRE 1 5"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1 6",
+    "columnName": "NOMBRE 1 6"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1 7",
+    "columnName": "NOMBRE 1 7"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1 8",
+    "columnName": "NOMBRE 1 8"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1 9",
+    "columnName": "NOMBRE 1 9"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1 10",
+    "columnName": "NOMBRE 1 10"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 1 11",
+    "columnName": "NOMBRE 1 11"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 2",
+    "columnName": "NOMBRE 2"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column NOMBRE 1 1 to Tipo",
+    "oldColumnName": "NOMBRE 1 1",
+    "newColumnName": "Tipo"
+  }
+]
+]

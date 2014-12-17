@@ -1,0 +1,426 @@
+@prefix : <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio> .
+
+<http://www.semanticweb.org/root/ontologies/2014/11/mibarrio> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://data.ordnancesurvey.co.uk/ontology/admingeo/district
+
+<http://data.ordnancesurvey.co.uk/ontology/admingeo/district> rdf:type owl:ObjectProperty ;
+                                                              
+                                                              rdfs:label "district"@en ;
+                                                              
+                                                              rdfs:isDefinedBy "http://www.ordnancesurvey.co.uk/docs/ontologies/admingeo.owl"@en ;
+                                                              
+                                                              rdfs:comment "this relates counties and european regions to the districts, unitary authorites, metropolitan districts and London boroughs they contain."@en ;
+                                                              
+                                                              rdfs:range <http://data.ordnancesurvey.co.uk/ontology/admingeo/District> ;
+                                                              
+                                                              rdfs:domain <http://schema.org/City> .
+
+
+
+###  http://schema.org/address
+
+<http://schema.org/address> rdf:type owl:ObjectProperty ;
+                            
+                            rdfs:label "Address"@en ;
+                            
+                            rdfs:comment "Physical address of the item."@en ;
+                            
+                            rdfs:domain <http://schema.org/Place> ;
+                            
+                            rdfs:isDefinedBy <http://schema.org/Place> ;
+                            
+                            rdfs:range <http://schema.org/PostalAddress> .
+
+
+
+###  http://schema.org/containedIn
+
+<http://schema.org/containedIn> rdf:type owl:ObjectProperty ;
+                                
+                                rdfs:label "Contained in"@en ;
+                                
+                                rdfs:comment "The basic containment relation between places."@en ;
+                                
+                                rdfs:domain <http://schema.org/Place> ;
+                                
+                                rdfs:isDefinedBy <http://schema.org/Place> ;
+                                
+                                rdfs:range <http://schema.org/Place> .
+
+
+
+###  http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates
+
+:geoCoordinates rdf:type owl:ObjectProperty ;
+                
+                rdfs:label "Geo Coordinates"@en ;
+                
+                rdfs:comment "Geo coordinates (lat,long)"@en ;
+                
+                rdfs:domain <http://schema.org/Place> ;
+                
+                rdfs:isDefinedBy <http://schema.org/Place> ;
+                
+                rdfs:range <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://schema.org/addressLocality
+
+<http://schema.org/addressLocality> rdf:type owl:DatatypeProperty ;
+                                    
+                                    rdfs:label "Address Locality"@en ;
+                                    
+                                    rdfs:comment "The locality. For example, Mountain View."@en ;
+                                    
+                                    rdfs:isDefinedBy <http://schema.org/PostalAddress> ;
+                                    
+                                    rdfs:domain <http://schema.org/PostalAddress> ;
+                                    
+                                    rdfs:range xsd:string .
+
+
+
+###  http://schema.org/addressRegion
+
+<http://schema.org/addressRegion> rdf:type owl:DatatypeProperty ;
+                                  
+                                  rdfs:label "Address Region"@en ;
+                                  
+                                  rdfs:comment "The region. For example, CA."@en ;
+                                  
+                                  rdfs:domain <http://schema.org/PostalAddress> ;
+                                  
+                                  rdfs:isDefinedBy <http://schema.org/PostalAddress> ;
+                                  
+                                  rdfs:range xsd:string .
+
+
+
+###  http://schema.org/description
+
+<http://schema.org/description> rdf:type owl:DatatypeProperty ;
+                                
+                                rdfs:label "Description"@en ;
+                                
+                                rdfs:comment "A short description of the item."@en ;
+                                
+                                rdfs:domain <http://schema.org/Thing> ;
+                                
+                                rdfs:isDefinedBy <http://schema.org/Thing> ;
+                                
+                                rdfs:range xsd:string .
+
+
+
+###  http://schema.org/name
+
+<http://schema.org/name> rdf:type owl:DatatypeProperty ;
+                         
+                         rdfs:label "Name"@en ;
+                         
+                         rdfs:comment "The name of the item."@en ;
+                         
+                         rdfs:domain <http://schema.org/Thing> ;
+                         
+                         rdfs:isDefinedBy <http://schema.org/Thing> ;
+                         
+                         rdfs:range xsd:string .
+
+
+
+###  http://schema.org/streetAddress
+
+<http://schema.org/streetAddress> rdf:type owl:DatatypeProperty ;
+                                  
+                                  rdfs:label "Street Address"@en ;
+                                  
+                                  rdfs:comment "The street address. For example, 1600 Amphitheatre Pkwy."@en ;
+                                  
+                                  rdfs:isDefinedBy <http://schema.org/PostalAddress> ;
+                                  
+                                  rdfs:domain <http://schema.org/PostalAddress> ;
+                                  
+                                  rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#activity
+
+:activity rdf:type owl:DatatypeProperty ;
+          
+          rdfs:label "Activity"@en ;
+          
+          rdfs:comment "Type of activity that perform local businesses"@en ;
+          
+          rdfs:domain <http://schema.org/LocalBusiness> ;
+          
+          rdfs:isDefinedBy <http://schema.org/LocalBusiness> ;
+          
+          rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#transportLine
+
+:transportLine rdf:type owl:DatatypeProperty ;
+               
+               rdfs:label "Transport Line"@en ;
+               
+               rdfs:comment "Defines the name of the line."@en ;
+               
+               rdfs:domain <http://schema.org/BusStop> ;
+               
+               rdfs:isDefinedBy <http://schema.org/BusStop> ,
+                                <http://schema.org/SubwayStation> ;
+               
+               rdfs:domain <http://schema.org/SubwayStation> ;
+               
+               rdfs:isDefinedBy <http://schema.org/TrainStation> ;
+               
+               rdfs:domain <http://schema.org/TrainStation> ;
+               
+               rdfs:range xsd:string .
+
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#lat
+
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> rdf:type owl:DatatypeProperty ;
+                                              
+                                              rdfs:label "Latitude"@en ;
+                                              
+                                              rdfs:comment "The WGS84 latitude of a SpatialThing (decimal degrees)."@en ;
+                                              
+                                              rdfs:range xsd:decimal ;
+                                              
+                                              rdfs:isDefinedBy <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ;
+                                              
+                                              rdfs:domain <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#long
+
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> rdf:type owl:DatatypeProperty ;
+                                               
+                                               rdfs:label "Longitude"@en ;
+                                               
+                                               rdfs:comment "The WGS84 longitude of a SpatialThing (decimal degrees)."@en ;
+                                               
+                                               rdfs:range xsd:decimal ;
+                                               
+                                               rdfs:isDefinedBy <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ;
+                                               
+                                               rdfs:domain <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://data.ordnancesurvey.co.uk/ontology/admingeo/District
+
+<http://data.ordnancesurvey.co.uk/ontology/admingeo/District> rdf:type owl:Class ;
+                                                              
+                                                              rdfs:label "District"@en ;
+                                                              
+                                                              rdfs:subClassOf <http://schema.org/Thing> ;
+                                                              
+                                                              rdfs:comment "Districts are local administrative units and have at various times been used in all four countries of the UK. The only current references to districts however are found in metropolitan and non-metropolitan districts in England, and district council areas in Northern Ireland."@en ;
+                                                              
+                                                              rdfs:isDefinedBy <http://data.ordnancesurvey.co.uk/ontology/admingeo/District> .
+
+
+
+###  http://schema.org/AdministrativeArea
+
+<http://schema.org/AdministrativeArea> rdf:type owl:Class ;
+                                       
+                                       rdfs:label "Administrative Area"@en ;
+                                       
+                                       rdfs:subClassOf <http://schema.org/Place> ;
+                                       
+                                       rdfs:isDefinedBy <http://schema.org/AdministrativeArea> .
+
+
+
+###  http://schema.org/BusStop
+
+<http://schema.org/BusStop> rdf:type owl:Class ;
+                            
+                            rdfs:label "Bus Stop"@en ;
+                            
+                            rdfs:subClassOf <http://schema.org/CivicStructure> ;
+                            
+                            rdfs:isDefinedBy <http://schema.org/BusStop> .
+
+
+
+###  http://schema.org/City
+
+<http://schema.org/City> rdf:type owl:Class ;
+                         
+                         rdfs:label "City"@en ;
+                         
+                         rdfs:subClassOf <http://schema.org/AdministrativeArea> ;
+                         
+                         rdfs:isDefinedBy <http://schema.org/City> .
+
+
+
+###  http://schema.org/CivicStructure
+
+<http://schema.org/CivicStructure> rdf:type owl:Class ;
+                                   
+                                   rdfs:label "Civic Structure"@en ;
+                                   
+                                   rdfs:subClassOf <http://schema.org/Place> ;
+                                   
+                                   rdfs:isDefinedBy <http://schema.org/CivicStructure> .
+
+
+
+###  http://schema.org/LocalBusiness
+
+<http://schema.org/LocalBusiness> rdf:type owl:Class ;
+                                  
+                                  rdfs:label "Local Business"@en ;
+                                  
+                                  rdfs:subClassOf <http://schema.org/Place> ;
+                                  
+                                  rdfs:isDefinedBy <http://schema.org/LocalBusiness> .
+
+
+
+###  http://schema.org/Place
+
+<http://schema.org/Place> rdf:type owl:Class ;
+                          
+                          rdfs:label "Place"@en ;
+                          
+                          rdfs:subClassOf <http://schema.org/Thing> ;
+                          
+                          rdfs:isDefinedBy <http://schema.org/Place> .
+
+
+
+###  http://schema.org/PostalAddress
+
+<http://schema.org/PostalAddress> rdf:type owl:Class ;
+                                  
+                                  rdfs:label "Postal Address"@en ;
+                                  
+                                  rdfs:subClassOf <http://schema.org/Thing> ;
+                                  
+                                  rdfs:isDefinedBy <http://schema.org/PostalAddress> .
+
+
+
+###  http://schema.org/SubwayStation
+
+<http://schema.org/SubwayStation> rdf:type owl:Class ;
+                                  
+                                  rdfs:label "Subway Station"@en ;
+                                  
+                                  rdfs:subClassOf <http://schema.org/CivicStructure> ;
+                                  
+                                  rdfs:isDefinedBy <http://schema.org/SubwayStation> .
+
+
+
+###  http://schema.org/Thing
+
+<http://schema.org/Thing> rdf:type owl:Class ;
+                          
+                          rdfs:label "Thing"@en ;
+                          
+                          rdfs:isDefinedBy <http://schema.org/Thing> .
+
+
+
+###  http://schema.org/TrainStation
+
+<http://schema.org/TrainStation> rdf:type owl:Class ;
+                                 
+                                 rdfs:label "Train Station"@en ;
+                                 
+                                 rdfs:subClassOf <http://schema.org/CivicStructure> ;
+                                 
+                                 rdfs:isDefinedBy <http://schema.org/TrainStation> .
+
+
+
+###  http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#Library
+
+:Library rdf:type owl:Class ;
+         
+         rdfs:label "Library"@en ;
+         
+         rdfs:subClassOf <http://schema.org/CivicStructure> ;
+         
+         rdfs:comment "Library"@en ;
+         
+         rdfs:isDefinedBy :Library .
+
+
+
+###  http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility
+
+:SportFacility rdf:type owl:Class ;
+               
+               rdfs:label "Sport Facility"@en ;
+               
+               rdfs:subClassOf <http://schema.org/CivicStructure> ;
+               
+               rdfs:isDefinedBy :SportFacility .
+
+
+
+###  http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
+
+<http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> rdf:type owl:Class ;
+                                                       
+                                                       rdfs:label "Spatial Thing"@en ;
+                                                       
+                                                       rdfs:subClassOf <http://schema.org/Thing> ;
+                                                       
+                                                       rdfs:comment "Anything with spatial extent, i.e. size, shape, or position. e.g. people, places, bowling balls, as well as abstract areas like cubes."@en ;
+                                                       
+                                                       rdfs:isDefinedBy <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+
+
+
+
+###  Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net
+

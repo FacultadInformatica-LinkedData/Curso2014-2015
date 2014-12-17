@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/opt/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-40229c4ebd1a9e37cea0a8ef7ceb1e5ba737fbd1.jar" />
+    </item>
+    <item
+        jar="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/pre-dexed/debug/classes-dc4e04bbd71b67e796ba614ad902072a86fdc7a7.jar" />
+    </item>
+    <item
+        jar="/home/viktor/Proyectos/PlanesMadrid/app/libs/iri-0.8.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="cc78b59e2539c78af923c12939d8d1cde44b5cc1">
+        <dex dex="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/pre-dexed/debug/iri-0.8-4311eeca47c82bb394f1082171955e8c645fd130.jar" />
+    </item>
+    <item
+        jar="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/exploded-aar/com.daimajia.easing/library/1.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="e88a9ed27f98f8c0701d03d5553ce6111ca34a5b">
+        <dex dex="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/pre-dexed/debug/classes-ebcfddcb09ef106c08938bb88fcb89a80f04efef.jar" />
+    </item>
+    <item
+        jar="/home/viktor/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/pre-dexed/debug/library-2.4.0-2cb9d304c1845b0b1bd19d7a4a167553b180337e.jar" />
+    </item>
+    <item
+        jar="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/pre-dexed/debug/classes-2a182ddf608b95f3996e280aba467bc6115309fb.jar" />
+    </item>
+    <item
+        jar="/home/viktor/Proyectos/PlanesMadrid/app/libs/icu4j-3.4.5.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="300633b5d32bba8638ab3434f1525ff3705aaa49">
+        <dex dex="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/pre-dexed/debug/icu4j-3.4.5-0f02e99a37796cf79d4e89a11bffb214202abce0.jar" />
+    </item>
+    <item
+        jar="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/pre-dexed/debug/classes-b94052831d1646baded5de1a24537fe3ecfbece3.jar" />
+    </item>
+    <item
+        jar="/home/viktor/Proyectos/PlanesMadrid/app/libs/slf4j-android-1.6.1-RC1.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="a0b527e8aabcc1f1e97d1674dc3f4f0794ec5df1">
+        <dex dex="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/pre-dexed/debug/slf4j-android-1.6.1-RC1-0fb904ced8aca4d463cf296b9c72b164e1875d8d.jar" />
+    </item>
+    <item
+        jar="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/pre-dexed/debug/classes-82c6b13b57e4a6d25b5ef7faa566a6abb7273643.jar" />
+    </item>
+    <item
+        jar="/home/viktor/Proyectos/PlanesMadrid/app/libs/androjena_0.5.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="82144794adc5ce4425c0ee55909ee68ec716dc94">
+        <dex dex="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/pre-dexed/debug/androjena_0.5-42f29c62336edff7a76852c6e5f1771dc96fa89d.jar" />
+    </item>
+    <item
+        jar="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-2c0c85d14a5666da808dd8ba596c214030d3f178.jar" />
+    </item>
+    <item
+        jar="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/exploded-aar/com.daimajia.androidanimations/library/1.1.3/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="8cec50fc9cc847bad0d6ed7d93814f4b34744521">
+        <dex dex="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/pre-dexed/debug/classes-be27e2bc61f830546306c86fadf3bd46e85bd685.jar" />
+    </item>
+    <item
+        jar="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/exploded-aar/com.shamanland/fab/0.0.6/classes.jar"
+        jumboMode="false"
+        revision="21.0.2"
+        sha1="e388595587aab9cb9f919f90de90b1831db908f5">
+        <dex dex="/home/viktor/Proyectos/PlanesMadrid/app/build/intermediates/pre-dexed/debug/classes-62091b18665889e8a1bb04fd60d41fa44820508c.jar" />
+    </item>
+
+</items>

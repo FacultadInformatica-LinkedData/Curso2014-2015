@@ -16,18 +16,13 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      ontologyIRI="http://www.semanticweb.org/OntologyGroup12#">
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
         <Class IRI="Autobus"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Bibliobus"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Biblioteca"/>
     </Declaration>
     <Declaration>
         <Class IRI="CentroCultural"/>
@@ -57,13 +52,16 @@
         <ObjectProperty IRI="tieneDireccion"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="AccesoParaMinusvalidos"/>
+        <DataProperty IRI="AccesibilidadParaMinusvalidos"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="Calle"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="CodigoPostal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Content-URL"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="Descripcion"/>
@@ -93,19 +91,11 @@
         <DataProperty IRI="Telefono"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="URL"/>
+        <DataProperty IRI="Tipo"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="Autobus"/>
         <Class IRI="TransportePublico"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Bibliobus"/>
-        <Class IRI="LugarPrestamoLibros"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="Biblioteca"/>
-        <Class IRI="LugarPrestamoLibros"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="Metro"/>
@@ -113,15 +103,11 @@
     </SubClassOf>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="accesibleDesde"/>
-        <Class IRI="CentroCultural"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="accesibleDesde"/>
-        <Class IRI="LugarPrestamoLibros"/>
+        <Class IRI="TransportePublico"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="estaEnDistrito"/>
-        <Class IRI="Direccion"/>
+        <Class IRI="Distrito"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="tieneDireccion"/>
@@ -129,11 +115,19 @@
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="accesibleDesde"/>
-        <Class IRI="TransportePublico"/>
+        <Class IRI="CentroCultural"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="accesibleDesde"/>
+        <Class IRI="LugarPrestamoLibros"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="estaEnDistrito"/>
-        <Class IRI="Distrito"/>
+        <Class IRI="CentroCultural"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="estaEnDistrito"/>
+        <Class IRI="LugarPrestamoLibros"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="tieneDireccion"/>
@@ -144,11 +138,11 @@
         <Class IRI="LugarPrestamoLibros"/>
     </ObjectPropertyRange>
     <DataPropertyDomain>
-        <DataProperty IRI="AccesoParaMinusvalidos"/>
+        <DataProperty IRI="AccesibilidadParaMinusvalidos"/>
         <Class IRI="CentroCultural"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="AccesoParaMinusvalidos"/>
+        <DataProperty IRI="AccesibilidadParaMinusvalidos"/>
         <Class IRI="LugarPrestamoLibros"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -160,8 +154,12 @@
         <Class IRI="Distrito"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="Descripcion"/>
+        <DataProperty IRI="Content-URL"/>
         <Class IRI="CentroCultural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Content-URL"/>
+        <Class IRI="LugarPrestamoLibros"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="Descripcion"/>
@@ -169,7 +167,11 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="Email"/>
-        <Class IRI="Direccion"/>
+        <Class IRI="CentroCultural"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Email"/>
+        <Class IRI="LugarPrestamoLibros"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="Equipamiento"/>
@@ -209,18 +211,18 @@
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="Telefono"/>
-        <Class IRI="Direccion"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="URL"/>
         <Class IRI="CentroCultural"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="URL"/>
+        <DataProperty IRI="Telefono"/>
         <Class IRI="LugarPrestamoLibros"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="nombreDistrito"/>
+        <Class IRI="Distrito"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty IRI="AccesoParaMinusvalidos"/>
+        <DataProperty IRI="AccesibilidadParaMinusvalidos"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -232,6 +234,10 @@
         <Datatype abbreviatedIRI="xsd:decimal"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="Content-URL"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="Descripcion"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
@@ -268,7 +274,7 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="URL"/>
+        <DataProperty IRI="Tipo"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
 </Ontology>
