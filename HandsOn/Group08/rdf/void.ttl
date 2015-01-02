@@ -1,4 +1,4 @@
-@prefix base: <http:www.semanticweb.org/group08/>
+@prefix base: <http:www.semanticweb.org/group08/> .
 @prefix geosp: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -62,4 +62,3 @@ base:void a void:Dataset;
 <http://www.semanticweb.org/group08/void#sansr> a foaf:Person;
     foaf:name "Sandra Saez Raspeño";
     foaf:mbox <mailto:san.saezr@gmail.com> .
-
