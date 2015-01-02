@@ -29,14 +29,14 @@ tomcat_pwd="/opt/tomcat"
 sesame_pwd="/opt/sesame"
 
 # Command run function
-verbose=1
+verbose=0
 
 run() {
     echo -e "\t$@"
     if [ $verbose -eq 1 ]; then
 	$@
     else
-	$@ > /dev/null
+	$@ > /dev/null 2>&1
     fi
 
     if [ $? -ne 0 ]; then
