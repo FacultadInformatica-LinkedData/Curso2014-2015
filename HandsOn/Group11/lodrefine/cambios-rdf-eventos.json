@@ -1,0 +1,375 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PRECIO",
+    "columnName": "PRECIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORDENADA-X",
+    "columnName": "COORDENADA-X"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORDENADA-Y",
+    "columnName": "COORDENADA-Y"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPO",
+    "columnName": "TIPO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column",
+    "columnName": "Column"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column ﻿ ID-EVENTO to ID-EVENTO",
+    "oldColumnName": "﻿ ID-EVENTO",
+    "newColumnName": "ID-EVENTO"
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column URI-EVENTO at index 15 based on column NOMBRE-INSTALACION using expression grel:\"http://datos.chana.pro/bibliteca/\"+value.split(\" \").join(\"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "newColumnName": "URI-EVENTO",
+    "columnInsertIndex": 15,
+    "baseColumnName": "NOMBRE-INSTALACION",
+    "expression": "grel:\"http://datos.chana.pro/bibliteca/\"+value.split(\" \").join(\"\")",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.chana.pro/evento/",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ID-EVENTO",
+          "rdfTypes": [
+            {
+              "uri": "http://datos.chana.pro/evento",
+              "curie": "http://datos.chana.pro/evento"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.chana.pro/ocurreEn",
+              "curie": "http://datos.chana.pro/ocurreEn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI-EVENTO",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column URI-EVENTO to URI-BIBLIOTECA",
+    "oldColumnName": "URI-EVENTO",
+    "newColumnName": "URI-BIBLIOTECA"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.chana.pro/evento/",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ID-EVENTO",
+          "rdfTypes": [
+            {
+              "uri": "http://datos.chana.pro/evento",
+              "curie": "http://datos.chana.pro/evento"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.chana.pro/ocurreEn",
+              "curie": "http://datos.chana.pro/ocurreEn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI-BIBLIOTECA",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://datos.chana.pro/evento/",
+      "prefixes": [
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": false,
+          "columnName": "ID-EVENTO",
+          "rdfTypes": [
+            {
+              "uri": "http://datos.chana.pro/evento",
+              "curie": "http://datos.chana.pro/evento"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://datos.chana.pro/ocurreEn",
+              "curie": "http://datos.chana.pro/ocurreEn",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URI-BIBLIOTECA",
+                "rdfTypes": [],
+                "links": []
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/tituloEvento",
+              "curie": "http://datos.chana.pro/tituloEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/esGratuito",
+              "curie": "http://datos.chana.pro/esGratuito",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "GRATUITO"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/tieneDuracion",
+              "curie": "http://datos.chana.pro/tieneDuracion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "LARGA-DURACION"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/diasSemana",
+              "curie": "http://datos.chana.pro/diasSemana",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-SEMANA"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/horaEvento",
+              "curie": "http://datos.chana.pro/horaEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORA"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/diasExcluidosEvento",
+              "curie": "http://datos.chana.pro/diasExcluidosEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DIAS-EXCLUIDOS"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/fechaInicioEvento",
+              "curie": "http://datos.chana.pro/fechaInicioEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "FECHA"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/fechaFinEvento",
+              "curie": "http://datos.chana.pro/fechaFinEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#dateTime",
+                "columnName": "FECHA-FIN"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/descripcionEvento",
+              "curie": "http://datos.chana.pro/descripcionEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "DESCRIPCION"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/urlEvento",
+              "curie": "http://datos.chana.pro/urlEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/tituloActividad",
+              "curie": "http://datos.chana.pro/tituloActividad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TITULO-ACTIVIDAD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/urlActividad",
+              "curie": "http://datos.chana.pro/urlActividad",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URL-ACTIVIDAD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/urlInstalacion",
+              "curie": "http://datos.chana.pro/urlInstalacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "URL-INSTALACION"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/nombreInstalacion",
+              "curie": "http://datos.chana.pro/nombreInstalacion",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-INSTALACION"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/latitudEvento",
+              "curie": "http://datos.chana.pro/latitudEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LATITUD"
+              }
+            },
+            {
+              "uri": "http://datos.chana.pro/longitudEvento",
+              "curie": "http://datos.chana.pro/longitudEvento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#double",
+                "columnName": "LONGITUD"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

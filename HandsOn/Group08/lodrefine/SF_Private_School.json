@@ -1,0 +1,149 @@
+[
+  {
+    "op": "core/column-addition",
+    "description": "Create column asWKT at index 6 based on column LONWGS84 using expression grel:\"POINT(\"+value+\" \"+cells[\"LATWGS84\"].value+\")\"",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "asWKT",
+    "columnInsertIndex": 6,
+    "baseColumnName": "LONWGS84",
+    "expression": "grel:\"POINT(\"+value+\" \"+cells[\"LATWGS84\"].value+\")\"",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LATWGS84",
+    "columnName": "LATWGS84"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LONWGS84",
+    "columnName": "LONWGS84"
+  },
+    {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/group08/School/Private/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "ont",
+          "uri": "http://www.semanticweb.org/group08/Building/School/Private#"
+        },
+        {
+          "name": "xsd",
+          "uri": "http://www.w3.org/2001/XMLSchema#"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        },
+        {
+          "name": "geosp",
+          "uri": "http://www.opengis.net/ont/geosparql#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\")",
+          "isRowNumberCell": false,
+          "columnName": "NAME",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Private#name",
+              "curie": "ont:name",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NAME"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Private#type",
+              "curie": "ont:type",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TYPE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Private#children",
+              "curie": "ont:children",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CHILDREN"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Private#address",
+              "curie": "ont:address",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "ADDRESS"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/group08/Building/School/Private#hasBuilding",
+              "curie": "ont:hasBuilding",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\")+\"/Building\"",
+                "isRowNumberCell": false,
+                "columnName": "NAME",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.opengis.net/ont/geosparql#hasGeometry",
+                    "curie": "geosp:hasGeometry",
+                    "target": {
+                      "nodeType": "cell-as-resource",
+                      "expression": "replace(replace(replace(value,\" \",\"\"),\",\",\"\"),\".\",\"\")+\"/Building/geometry\"",
+                      "isRowNumberCell": false,
+                      "columnName": "NAME",
+                      "rdfTypes": [],
+                      "links": [
+                        {
+                          "uri": "http://www.opengis.net/ont/geosparql#asWKT",
+                          "curie": "geosp:asWKT",
+                          "target": {
+                            "nodeType": "cell-as-literal",
+                            "expression": "value",
+                            "isRowNumberCell": false,
+                            "columnName": "asWKT"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

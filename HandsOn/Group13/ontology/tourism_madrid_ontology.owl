@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://example.org/ontology/TourismMadrid#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://example.org/ontology/TourismMadrid#">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="Accessibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Address"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Coordinates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Email"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Locality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Monument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Museum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Schedule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Telephone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TourismOffice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TouristInformationPoint"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="HasAddress"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="HasCoordinates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="HasEmail"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="HasLocality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="HasSchedule"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="HasTelephone"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="IsAccesible"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="HasAddress"/>
+        <Class IRI="Address"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="HasCoordinates"/>
+        <Class IRI="Coordinates"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="HasEmail"/>
+        <Class IRI="Email"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="HasLocality"/>
+        <Class IRI="Locality"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="HasSchedule"/>
+        <Class IRI="Schedule"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="HasTelephone"/>
+        <Class IRI="Telephone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="IsAccesible"/>
+        <Class IRI="Accessibility"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="HasAddress"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="HasEmail"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="HasLocality"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="HasSchedule"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="HasTelephone"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="IsAccesible"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

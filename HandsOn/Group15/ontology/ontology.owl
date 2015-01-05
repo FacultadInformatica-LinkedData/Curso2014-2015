@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/asus1/ontologies/2014/10/untitled-ontology-2"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/asus1/ontologies/2014/10/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://example.org/resources/Distrito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://example.org/resources/Provincia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/2003/01/geo/wgs84_pos/Localidad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://example.org/resources/Localidad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/ctic/infraestructuras/localizacion#distrito"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="owl:sameAs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#locality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#region"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://example.org/resources/Renfe"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/ctic/infraestructuras/localizacion#barrio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://purl.org/dc/terms/identifier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#bus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#equipamiento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#metro"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="rdfs:label"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#postal-code"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#street-address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#url"/>
+    </Declaration>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="http://example.org/resources/Localidad"/>
+    </ReflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://example.org/resources/Localidad"/>
+        <Class IRI="http://www.w3.org/2003/01/geo/wgs84_pos/Localidad"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://purl.org/ctic/infraestructuras/localizacion#distrito"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#locality"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#region"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://example.org/resources/Localidad"/>
+        <Class IRI="http://example.org/resources/Provincia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://purl.org/ctic/infraestructuras/localizacion#distrito"/>
+        <Class IRI="http://example.org/resources/Distrito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#locality"/>
+        <Class IRI="http://www.w3.org/2003/01/geo/wgs84_pos/Localidad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.w3.org/2006/vcard/ns#region"/>
+        <Class IRI="http://example.org/resources/Provincia"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://example.org/resources/Renfe"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/ctic/infraestructuras/localizacion#barrio"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://purl.org/dc/terms/identifier"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#bus"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#equipamiento"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#metro"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="rdfs:label"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#postal-code"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#street-address"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#url"/>
+        <Class IRI="http://example.org/resources/InstalacionDeportiva/InstalacionesDeportivas"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://example.org/resources/Renfe"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/ctic/infraestructuras/localizacion#barrio"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://purl.org/dc/terms/identifier"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#bus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#equipamiento"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#metro"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="rdfs:label"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/2003/01/geo/wgs84_pos#lat_long"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#postal-code"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#street-address"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.w3.org/2006/vcard/ns#url"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->

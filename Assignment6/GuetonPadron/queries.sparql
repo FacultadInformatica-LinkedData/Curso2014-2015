@@ -1,0 +1,61 @@
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+select (SUM(?accidents) AS ?nAccidents)
+where {
+    ?obs a qb:Observation ;
+    mv:numberOfAccidents ?accidents . 
+} 
+
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+select ?accidentType ?accidents
+where {
+    ?obs a qb:Observation ;
+    mv:relatedDistrict 'USERA';
+    mv:hasAccidentType ?accidentType;
+    mv:numberOfAccidents ?accidents . 
+} 
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX qb: <http://purl.org/linked-data/cube#>
+
+select ?district ?accidents
+where {
+    ?obs a qb:Observation ;
+    mv:relatedDistrict ?district;
+    mv:hasAccidentType mv:MultipleCollision;
+    mv:numberOfAccidents ?accidents . 
+}
+
+
+
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> 
+PREFIX qb: <http://purl.org/linked-data/cube#> 
+
+SELECT ?district ?maxAccidents
+WHERE {
+ ?obs2 a qb:Observation ;
+   mv:relatedDistrict ?district ;
+   mv:hasAccidentType mv:BicycleFall ;
+   mv:numberOfAccidents ?maxAccidents.
+   
+{
+
+SELECT (MAX(?accidents) AS ?maxAccidents) WHERE { 
+
+?obs a qb:Observation ; 
+     mv:hasAccidentType mv:BicycleFall ;
+     mv:relatedDistrict ?district ;
+     mv:numberOfAccidents ?accidents .
+} 
+}
+}
+
+

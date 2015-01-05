@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Application Requirements</title>
+</head>
+
+<body>
+  <h1>Application Requirements</h1>
+  <dl>
+    <dt><b>Requisito 1</b></dt>
+    <dd><b><u>Localización:
+      </u></b>Una vez se haya obtenido la localización del usuario La aplicación enseñara en un mapa todos los lugares cercanos al usuario.
+    </dd>
+    <dd><b><u>Requisitos de Datos:
+      </u></b>Los datos escogidos (Centro de Salud, Polideportivos y Sitios culturales) poseen los datos necesarios (latitud y longitud) para su correcta localización.
+    </dd>
+    <dt><b>Requisito  2</b></dt>
+    <dd><b><u>Lugar Seleccionado:
+      </u></b>Al seleccionar uno de los lugares nos enseñara todos los datos relacionados de dicho lugar (dirección, horarios, descripción), en una ventana.
+    </dd>
+    <dd><b><u>Requisitos de Datos:
+      </u></b>En el momento de seleccionar un lugar enseñaremos los datos que tengan los lugares, para ello consultaremos todos los datos de ese lugar en especifico dentro de nuestro Dataset.
+    </dd>
+    <dt><b>Requisito  3</b></dt>
+    <dd><b><u>Búsqueda de un Lugar:
+      </u></b>La interfaz dispondrá de una entrada de texto donde cualquier usuario podrá realizar una búsqueda de cualquier lugar, dependiendo de los parámetros de búsqueda que ponga el usuario, esta entrada de texto estará en la pagina de inicio.
+    </dd>
+    <dd><b><u>Requisitos de Datos:
+      </u></b>En este caso haremos consultas los nombres de todos los lugares que se encuentran en nuestro Dataset.
+    </dd>
+    <dt><b>Requisito  4</b></dt>
+    <dd><b><u>Resultado de la Búsqueda:
+      </u></b>Se mostrara los lugares devueltos por la búsqueda en forma de lista, pudiendo seleccionar una de ellas y la cual te enseñaría la información de dicho lugar.
+    </dd>
+    <dd><b><u>Requisitos de Datos:
+      </u></b>En este caso presentaremos los datos obtenidos de la consulta.
+    </dd>
+    <dt><b>Requisito  5</b></dt>
+    <dd><b><u>Lista de Lugares Cercanos:
+      </u></b>Nos enseñara en una lista los nombres de los lugares mas cercanos al usuario, pudiendo hacer un filtro y que le enseño lo que al usuario le interese.
+    </dd>
+    <dd><b><u>Requisitos de Datos:
+      </u></b>En este caso tendríamos que consultar los campos de datos que nos permitan calcular la localización de un lugar respecto a la posición del usuario, por otro lado si hay un filtro también tendríamos que buscar en un Dataset en concreto.
+    </dd>
+    <dt><b>Requisito  6</b></dt>
+    <dd><b><u>Seleccionar Favoritos:
+      </u></b>Una vez seleccionado un lugar, el usuario tendrá la disponibilidad de guardar ese lugar como favorito para poder consultar lo en un futuro.
+    </dd>
+    <dd><b><u>Requisitos de Datos:
+      </u></b>En este requisito no es necesario realizar consultas.
+    </dd>
+    <dt><b>Requisito  7</b></dt>
+    <dd><b><u>Favoritos:
+      </u></b>Se mostrara en una lista todos los lugares favoritos del usuario, pudiendo seleccionar cualquier lugar y que se muestre toda la información relacionada de dicho lugar.
+    </dd>
+    <dd><b><u>Requisitos de Datos:
+      </u></b>En este requisito no es necesario realizar consultas, pero si una referencia al campo del Dataset donde se guarda los datos de dicho lugar.
+    </dd>
+  </dl>
+
+  <h2><p>Mock-ups: </h2>
+  <h3>Pantalla de inicio </h3>
+  <img SRC="https://dl.dropbox.com/s/6z0so6b46qgxeuu/Slide1-all.PNG?dl=0">
+  <h3>Home</h3>
+  <img SRC="https://dl.dropbox.com/s/qlw653worpjdr00/Slide2-home.PNG?dl=0">
+  <h3>Centros de Salud</h3>
+  <img SRC="https://dl.dropbox.com/s/3fkzsb11qorbshb/Slide3-centrosDeSalud.PNG?dl=0">
+  <h3>Maps</h3>
+  <img SRC="https://dl.dropbox.com/s/yq9raz7mt6ltstb/Slide4-maps.PNG?dl=0">
+</body>
+
+</html>

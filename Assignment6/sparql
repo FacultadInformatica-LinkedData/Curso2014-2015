@@ -1,0 +1,8 @@
+
+1)select (SUM(?Concept) AS ?total) where {?x <http://example.org/myVocabulary#numberOfAccidents> ?Concept}
+-------
+2)PREFIX qb: <http://purl.org/linked-data/cube#>
+select distinct ?x   ?z where {?x a qb:Observation . ?x <http://example.org/myVocabulary#relatedDistrict> ?p . ?x <http://example.org/myVocabulary#numberOfAccidents>  ?z. FILTER(?p = "USERA")}
+------------
+3)PREFIX qb: <http://purl.org/linked-data/cube#>
+select distinct ?x ?z where {?x a qb:Observation . ?x <http://example.org/myVocabulary#hasAccidentType> <http://example.org/myVocabulary#MultipleCollision> . ?x <http://example.org/myVocabulary#numberOfAccidents>  ?z } 

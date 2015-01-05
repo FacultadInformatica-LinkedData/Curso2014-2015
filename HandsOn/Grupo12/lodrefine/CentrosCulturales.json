@@ -1,0 +1,497 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DESCRIPCION-ENTIDAD",
+    "columnName": "DESCRIPCION-ENTIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column DESCRIPCION",
+    "columnName": "DESCRIPCION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPO-NUM",
+    "columnName": "TIPO-NUM"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PLANTA",
+    "columnName": "PLANTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PUERTA",
+    "columnName": "PUERTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ESCALERAS",
+    "columnName": "ESCALERAS"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ORIENTACION",
+    "columnName": "ORIENTACION"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column LOCALIDAD",
+    "columnName": "LOCALIDAD"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PROVINCIA",
+    "columnName": "PROVINCIA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORDENADA-X",
+    "columnName": "COORDENADA-X"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column COORDENADA-Y",
+    "columnName": "COORDENADA-Y"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FAX",
+    "columnName": "FAX"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column",
+    "columnName": "Column"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column NOMBRE by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "(",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column NOMBRE 2",
+    "columnName": "NOMBRE 2"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column NOMBRE 1 to NOMBRE",
+    "oldColumnName": "NOMBRE 1",
+    "newColumnName": "NOMBRE"
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column TRANSPORTE by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "Bus:",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column TRANSPORTE 2 by separator",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "Renfe:",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TRANSPORTE 2 1 using expression grel:\"Bus:\" +value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TRANSPORTE 2 1",
+    "expression": "grel:\"Bus:\" +value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TRANSPORTE 2 2",
+    "columnName": "TRANSPORTE 2 2"
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE to type null",
+    "columnName": "NOMBRE",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/agendaeventos",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": null,
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/recon",
+    "description": "Reconcile cells in column NOMBRE to type null",
+    "columnName": "NOMBRE",
+    "config": {
+      "mode": "standard-service",
+      "service": "http://127.0.0.1:3333/extension/rdf-extension/services/agenda",
+      "identifierSpace": "http://www.ietf.org/rfc/rfc3986",
+      "schemaSpace": "http://www.ietf.org/rfc/rfc3986",
+      "type": null,
+      "autoMatch": true,
+      "columnDetails": []
+    },
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    }
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "description": "Mark to create one single new topic for all cells containing \"Centro Conde Duque\" in column NOMBRE",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NOMBRE",
+    "similarValue": "Centro Conde Duque",
+    "judgment": "new",
+    "shareNewTopics": true
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PK",
+    "columnName": "PK"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TRANSPORTE 1 to METRO",
+    "oldColumnName": "TRANSPORTE 1",
+    "newColumnName": "METRO"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TRANSPORTE 2 to AUTOBUS",
+    "oldColumnName": "TRANSPORTE 2",
+    "newColumnName": "AUTOBUS"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column CLASE-VIAL",
+    "columnName": "CLASE-VIAL"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column BARRIO",
+    "columnName": "BARRIO"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPO",
+    "columnName": "TIPO"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.semanticweb.org/instances/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "ns",
+          "uri": "http://www.semanticweb.org/OntologyGroup12#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"CentroCultural/\"+replaceChars(value, \" -\", \"\")",
+          "isRowNumberCell": false,
+          "columnName": "NOMBRE",
+          "rdfTypes": [
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#CentroCultural",
+              "curie": "ns:CentroCultural"
+            }
+          ],
+          "links": [
+            {
+              "uri": "http://www.w3.org/2000/01/rdf-schema#label",
+              "curie": "rdfs:label",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#Horario",
+              "curie": "ns:Horario",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "HORARIO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#Equipamiento",
+              "curie": "ns:Equipamiento",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EQUIPAMIENTO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#AccesibilidadParaMinusvalidos",
+              "curie": "ns:AccesibilidadParaMinusvalidos",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#boolean",
+                "columnName": "ACCESIBILIDAD"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#Content-URL",
+              "curie": "ns:Content-URL",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "CONTENT-URL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#estaEnDistrito",
+              "curie": "ns:estaEnDistrito",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Distrito/\"+replaceChars(value, \" -\", \"\")",
+                "isRowNumberCell": false,
+                "columnName": "DISTRITO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#Distrito",
+                    "curie": "ns:Distrito"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#Distirto",
+                    "curie": "ns:Distirto",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "DISTRITO"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#CodigoPostal",
+                    "curie": "ns:CodigoPostal",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "CODIGO-POSTAL"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#Telefono",
+              "curie": "ns:Telefono",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "TELEFONO"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#Email",
+              "curie": "ns:Email",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "EMAIL"
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#accesibleDesde",
+              "curie": "ns:accesibleDesde",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"TransportePublico/Metro/\"+replaceChars(value, \" -\", \"\")",
+                "isRowNumberCell": false,
+                "columnName": "METRO",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#Metro",
+                    "curie": "ns:Metro"
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#TransportePublico",
+                    "curie": "ns:TransportePublico"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#Metro",
+                    "curie": "ns:Metro",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "METRO"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#accesibleDesde",
+              "curie": "ns:accesibleDesde",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"TransportePublico/Autobus/\"+replaceChars(value, \" -\", \"\")",
+                "isRowNumberCell": false,
+                "columnName": "AUTOBUS",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#Autobus",
+                    "curie": "ns:Autobus"
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#TransportePublico",
+                    "curie": "ns:TransportePublico"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#Autobus",
+                    "curie": "ns:Autobus",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "AUTOBUS"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uri": "http://www.semanticweb.org/OntologyGroup12#tieneDireccion",
+              "curie": "ns:tieneDireccion",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Direccion/\"+replaceChars(value, \" -\", \"\")",
+                "isRowNumberCell": false,
+                "columnName": "NOMBRE-VIA",
+                "rdfTypes": [
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#Direccion",
+                    "curie": "ns:Direccion"
+                  }
+                ],
+                "links": [
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#Calle",
+                    "curie": "ns:Calle",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "NOMBRE-VIA"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#Numero",
+                    "curie": "ns:Numero",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "NUM"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#Latitud",
+                    "curie": "ns:Latitud",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "LATITUD"
+                    }
+                  },
+                  {
+                    "uri": "http://www.semanticweb.org/OntologyGroup12#Longitud",
+                    "curie": "ns:Longitud",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "LONGITUD"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

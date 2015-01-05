@@ -1,0 +1,132 @@
+
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix world_ont: <http://example.linkeddata.es/world_ont#> .
+@prefix world_instances: <http://example.linkeddata.es/instances/> .
+@base <http://example.linkeddata.es/> .
+
+# Map for City Table
+<TriplesMapCity>
+        a rr:TriplesMap;
+        
+        rr:logicalTable [ rr:tableName  "City" ];
+        
+        # Resource URI Naming
+        rr:subjectMap [ 
+         		rr:termType rr:IRI;	
+                rr:template "http://example.linkeddata.es/instances/City/{ID}";
+                rr:class world_ont:City
+		];
+		
+		# Resource Properties
+		rr:predicateObjectMap [
+			rr:predicate [ rr:constant world_ont:hasName ];
+			rr:objectMap [ rr:termType rr:Literal; rr:column "Name"; ];
+		];
+		rr:predicateObjectMap [
+			rr:predicate [ rr:constant world_ont:hasDistrict ];
+			rr:objectMap [ rr:termType rr:Literal; rr:column "District"; ];
+		];
+		rr:predicateObjectMap [
+			rr:predicate [ rr:constant world_ont:hasCountryCode ];
+			rr:objectMap [ rr:termType rr:Literal; rr:column "CountryCode"; ];
+		];
+		rr:predicateObjectMap [
+			rr:predicateMap [ rr:constant world_ont:hasPopulation ];
+			rr:objectMap [ rr:termType rr:Literal; rr:column "Population"; ];
+		] .
+
+# Map for Country Table
+<TriplesMapCountry>
+		a rr:TriplesMap;
+        
+        rr:logicalTable [ rr:tableName  "Country" ];
+        
+        # Resource URI Naming
+        rr:subjectMap [ 
+         		rr:termType rr:IRI;	
+                rr:template "http://example.linkeddata.es/instances/Country/{Code}";
+                rr:class world_ont:Country
+		];
+
+		# Resource Properties
+		rr:predicateObjectMap [
+			rr:predicate [ rr:constant world_ont:hasName ];
+			rr:objectMap [ rr:termType rr:Literal; rr:column "Name"; ];
+		];
+		rr:predicateObjectMap [
+			rr:predicate [ rr:constant world_ont:hasContinent ];
+			rr:objectMap [ rr:termType rr:Literal; rr:column "Continent"; ];
+		];
+		rr:predicateObjectMap [
+			rr:predicate [ rr:constant world_ont:hasRegion ];
+			rr:objectMap [ rr:termType rr:Literal; rr:column "Region"; ];
+		];
+		rr:predicateObjectMap [
+			rr:predicateMap [ rr:constant world_ont:hasSurfaceArea ];
+			rr:objectMap [ rr:termType rr:Literal; rr:column "SurfaceArea"; ];
+		];
+		rr:predicateObjectMap [
+			rr:predicate [ rr:constant world_ont:hasIndepYear ];
+			rr:objectMap [ rr:termType rr:Literal; rr:column "IndepYear"; ];
+		];
+		rr:predicateObjectMap [
+			rr:predicate [ rr:constant world_ont:hasPopulation ];
+			rr:objectMap [ rr:termType rr:Literal; rr:column "Population"; ];
+		];
+		rr:predicateObjectMap [
+			rr:predicate [ rr:constant world_ont:hasLifeExpectancy ];
+			rr:objectMap [ rr:termType rr:Literal; rr:column "LifeExpectancy"; ];
+		];
+		rr:predicateObjectMap [
+			rr:predicateMap [ rr:constant world_ont:hasGNP ];
+			rr:objectMap [ rr:termType rr:Literal; rr:column "GNP"; ];
+		];
+		rr:predicateObjectMap [
+			rr:predicateMap [ rr:constant world_ont:hasGNPOld ];
+			rr:objectMap [ rr:termType rr:Literal; rr:column "GNPOld"; ];
+		];
+		rr:predicateObjectMap [
+			rr:predicateMap [ rr:constant world_ont:hasGovernmentForm ];
+			rr:objectMap [ rr:termType rr:Literal; rr:column "GovernmentForm"; ];
+		];
+		rr:predicateObjectMap [
+			rr:predicate [ rr:constant world_ont:hasHeadOfState ];
+			rr:objectMap [ rr:termType rr:Literal; rr:column "HeadOfState"; ];
+		];
+		rr:predicateObjectMap [
+			rr:predicate [ rr:constant world_ont:hasCapital ];
+			rr:objectMap [ rr:termType rr:Literal; rr:column "Capital"; ];
+		];
+		rr:predicateObjectMap [
+			rr:predicate [ rr:constant world_ont:hasCode2 ];
+			rr:objectMap [ rr:termType rr:Literal; rr:column "Code2"; ];
+		] .
+
+# LinkMap for Country-Language Table
+<LinkMapCountryLanguage>
+		a rr:TriplesMap;
+        
+        rr:logicalTable [ rr:tableName  "CountryLanguage" ];
+        
+        # Resource URI Naming
+        rr:subjectMap [ 
+         		rr:termType rr:IRI;	
+                rr:template "http://example.linkeddata.es/instances/Country/{CountryCode}";
+                rr:class world_ont:CountryCode
+		];
+
+		# Resource Properties
+		rr:predicateObjectMap [
+			rr:predicateMap [ rr:constant world_ont:hasLanguage ];
+			rr:objectMap [ rr:template rr:Literal; rr:column "Language"; ];
+		];
+		rr:predicateObjectMap [
+			rr:predicate [ rr:constant world_ont:isOfficial ];
+			rr:objectMap [ rr:termType rr:Literal; rr:column "IsOfficial"; ];
+		];
+		rr:predicateObjectMap [
+			rr:predicate [ rr:constant world_ont:hasPercentage ];
+			rr:objectMap [ rr:termType rr:Literal; rr:column "Percentage"; ];
+		] .
+
+

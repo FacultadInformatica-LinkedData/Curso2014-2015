@@ -1,0 +1,441 @@
+[
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Nombre acentuado del barrio",
+    "columnName": "Nombre acentuado del barrio"
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Codigo de distrito al que pertenece using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Codigo de distrito al que pertenece",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Codigo de barrio using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Codigo de barrio",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Nombre de barrio using expression value.toString()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Nombre de barrio",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Superficie (m2) using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Superficie (m2)",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column Perimetro (m) using expression value.toNumber()",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Perimetro (m)",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-addition",
+    "description": "Create column idDistritoBarrio at index 2 based on column Codigo de distrito al que pertenece using expression grel:value + \":\" + cells[\"Codigo de barrio\"].value",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "newColumnName": "idDistritoBarrio",
+    "columnInsertIndex": 2,
+    "baseColumnName": "Codigo de distrito al que pertenece",
+    "expression": "grel:value + \":\" + cells[\"Codigo de barrio\"].value",
+    "onError": "set-to-blank"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column idDistritoBarrio",
+    "columnName": "idDistritoBarrio"
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.st-madrid.es/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": []
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.st-madrid.es/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "value",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.st-madrid.es/codigoBarrio/",
+              "curie": "http://www.st-madrid.es/codigoBarrio/",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Barrios/\" + value",
+                "isRowNumberCell": false,
+                "columnName": "Codigo de barrio",
+                "rdfTypes": [],
+                "links": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.st-madrid.es/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Barrios/\"",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.st-madrid.es/codigoBarrio/",
+              "curie": "http://www.st-madrid.es/codigoBarrio/",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Barrios/\" + value.trim() + \"/\"",
+                "isRowNumberCell": false,
+                "columnName": "Nombre de barrio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.st-madrid.es/superficie/",
+                    "curie": "http://www.st-madrid.es/superficie/",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                      "columnName": "Superficie (m2)"
+                    }
+                  },
+                  {
+                    "uri": "http://www.st-madrid.es/perimetro/",
+                    "curie": "http://www.st-madrid.es/perimetro/",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                      "columnName": "Perimetro (m)"
+                    }
+                  },
+                  {
+                    "uri": "http://www.st-madrid/codigoBarrio",
+                    "curie": "http://www.st-madrid/codigoBarrio",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Codigo de barrio"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.st-madrid.es/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Barrios/\"",
+          "isRowNumberCell": true,
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.st-madrid.es/codigoBarrio/",
+              "curie": "http://www.st-madrid.es/codigoBarrio/",
+              "target": {
+                "nodeType": "cell-as-resource",
+                "expression": "\"Barrios/\" + value.trim().replace(\" \", \"-\") + \"/\"",
+                "isRowNumberCell": false,
+                "columnName": "Nombre de barrio",
+                "rdfTypes": [],
+                "links": [
+                  {
+                    "uri": "http://www.st-madrid.es/superficie/",
+                    "curie": "http://www.st-madrid.es/superficie/",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                      "columnName": "Superficie (m2)"
+                    }
+                  },
+                  {
+                    "uri": "http://www.st-madrid/perimetro",
+                    "curie": "http://www.st-madrid/perimetro",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                      "columnName": "Perimetro (m)"
+                    }
+                  },
+                  {
+                    "uri": "http://www.st-madrid/codigoBarrio",
+                    "curie": "http://www.st-madrid/codigoBarrio",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Codigo de barrio"
+                    }
+                  },
+                  {
+                    "uri": "http://www.st-madrid.es/esParteDe",
+                    "curie": "http://www.st-madrid.es/esParteDe",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value",
+                      "isRowNumberCell": false,
+                      "columnName": "Codigo de distrito al que pertenece"
+                    }
+                  },
+                  {
+                    "uri": "http://www.st-madrid.es/nombreBarrio",
+                    "curie": "http://www.st-madrid.es/nombreBarrio",
+                    "target": {
+                      "nodeType": "cell-as-literal",
+                      "expression": "value.trim()",
+                      "isRowNumberCell": false,
+                      "columnName": "Nombre de barrio"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "op": "rdf-extension/save-rdf-schema",
+    "description": "Save RDF schema skeleton",
+    "schema": {
+      "baseUri": "http://www.st-madrid.es/",
+      "prefixes": [
+        {
+          "name": "rdfs",
+          "uri": "http://www.w3.org/2000/01/rdf-schema#"
+        },
+        {
+          "name": "foaf",
+          "uri": "http://xmlns.com/foaf/0.1/"
+        },
+        {
+          "name": "owl",
+          "uri": "http://www.w3.org/2002/07/owl#"
+        },
+        {
+          "name": "rdf",
+          "uri": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        }
+      ],
+      "rootNodes": [
+        {
+          "nodeType": "cell-as-resource",
+          "expression": "\"Barrios/\" + value.trim().replace(\" \", \"-\")",
+          "isRowNumberCell": false,
+          "columnName": "Nombre de barrio",
+          "rdfTypes": [],
+          "links": [
+            {
+              "uri": "http://www.st-madrid.es/codigoBarrio",
+              "curie": "http://www.st-madrid.es/codigoBarrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Codigo de barrio"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/codigoDistrito",
+              "curie": "http://www.st-madrid.es/codigoDistrito",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Codigo de distrito al que pertenece"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/nombreBarrio",
+              "curie": "http://www.st-madrid.es/nombreBarrio",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "columnName": "Nombre de barrio"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/superficie",
+              "curie": "http://www.st-madrid.es/superficie",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Superficie (m2)"
+              }
+            },
+            {
+              "uri": "http://www.st-madrid.es/perimetro",
+              "curie": "http://www.st-madrid.es/perimetro",
+              "target": {
+                "nodeType": "cell-as-literal",
+                "expression": "value",
+                "isRowNumberCell": false,
+                "valueType": "http://www.w3.org/2001/XMLSchema#int",
+                "columnName": "Perimetro (m)"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

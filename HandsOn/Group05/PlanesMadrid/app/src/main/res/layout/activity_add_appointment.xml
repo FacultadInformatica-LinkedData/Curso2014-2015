@@ -1,0 +1,175 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c9c9c9"
+    android:orientation="vertical"
+    tools:context="com.linkeddata.vktrsm.planesmadrid.addAppointmentActivity">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="?attr/colorPrimaryDark">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Nombre:"
+            android:id="@+id/tName"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/etName"
+                android:layout_gravity="center_horizontal"
+                android:layout_toEndOf="@+id/tName"
+                android:layout_toRightOf="@+id/tName"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Duracion:"
+                android:id="@+id/tStart"
+                android:layout_marginRight="10dp"/>
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBarDuration"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Minutos"
+                android:id="@+id/tvMinutes"
+                android:layout_gravity="center_horizontal"/>
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/relative_layout_add">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Ubicacion"
+            android:id="@+id/tvType"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="36dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/GymButton"
+            android:src="@drawable/ic_gym"
+            android:layout_below="@+id/tvType"
+            android:layout_alignRight="@+id/tvType"
+            android:layout_alignEnd="@+id/tvType"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/LibraryButton"
+            android:src="@drawable/ic_book"
+            android:layout_alignTop="@+id/GymButton"
+            android:layout_toRightOf="@+id/GymButton"
+            android:layout_toEndOf="@+id/GymButton"
+            android:layout_marginLeft="25dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/LocalButton"
+            android:src="@drawable/ic_shop"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="35dp"
+            android:layout_alignTop="@+id/LibraryButton"
+            android:layout_toRightOf="@+id/LibraryButton"
+            android:layout_toEndOf="@+id/LibraryButton" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crear"
+            android:id="@+id/buttonCreate"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/GymButton"
+            android:layout_alignStart="@+id/GymButton"
+            android:layout_marginBottom="38dp"
+            android:background="#5CB85C"
+            android:layout_alignRight="@+id/LocalButton"
+            android:layout_alignEnd="@+id/LocalButton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Transporte:"
+            android:id="@+id/textView"
+            android:layout_below="@+id/GymButton"
+            android:layout_alignLeft="@+id/tvType"
+            android:layout_alignStart="@+id/tvType"
+            android:layout_marginTop="40dp"/>
+
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignLeft="@+id/buttonCreate"
+                    android:layout_alignStart="@+id/buttonCreate">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transporte Publico"
+            android:id="@+id/rbPublicTransport"
+            android:layout_below="@+id/textView"
+            android:layout_toLeftOf="@+id/LocalButton"
+            android:layout_toStartOf="@+id/LocalButton"
+            android:checked="true"
+            android:textColor="#ff000000"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transporte Privado"
+            android:id="@+id/rbPrivateTransport"
+            android:checked="false"
+            android:layout_below="@+id/rbPublicTransport"
+            android:layout_alignLeft="@+id/rbPublicTransport"
+            android:layout_alignStart="@+id/rbPublicTransport"
+            android:singleLine="false"
+            android:textColor="#ff000000"/>
+        </RadioGroup>
+
+    </RelativeLayout>
+
+</LinearLayout>

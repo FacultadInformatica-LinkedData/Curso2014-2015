@@ -1,0 +1,1178 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ontology: <http://sandbox.linkeddata.es/onto/Group07/> .
+
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/LaboratoriodeSaludPublica> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "9353"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Laboratorio de Salud Publica" ;
+	ontology:horario "De lunes a viernes de 9 a 14 horas" ;
+	ontology:transportePublico "Metro: Canillas , Mar de Cristal Bus: 73, 120" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2abb4291ae91f010VgnVCM2000000c205a0aRCRD" ;
+	schema:latitude "40.46838219200181"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6371890080545435"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone """915 887 001 (Centralita)      
+915 887 084 (Información)""" ;
+	schema:email "msplaboratorio@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EMIGRANTES> a schema:PostalAddress ;
+	schema:streetAddress "EMIGRANTES" ;
+	schema:postalCode "28043"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "20"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/LaboratoriodeSaludPublica> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CANILLAS> a ontology:Barrio ;
+	schema:name "CANILLAS" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EMIGRANTES> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/HORTALEZA> a ontology:Distrito ;
+	schema:name "HORTALEZA" ;
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CANILLAS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> a schema:City ;
+	schema:name "MADRID" ;
+	ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/HORTALEZA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/HORTALEZA> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CANILLAS> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/HORTALEZA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EMIGRANTES> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CANILLAS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/LaboratoriodeSaludPublica> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EMIGRANTES> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeProteccionAnimal> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "9422"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Centro de Proteccion Animal" ;
+	ontology:horario "De lunes a viernes de 9,30 a 15,30 horas.   Los días 24 y 31 de diciembre no se abrirá el Centro.  Las adopciones, el control antirrábico de animales, la entrega de animales por sus propietarios, la búsqueda de animales perdidos no identificados, tienen su horario especial." ;
+	ontology:transportePublico "Bus: 35, 155, 118  Metro: La Peseta (L 11) Autobuses interurbanos: 483-486-487 (parada en  Ctra . Barrio de la Fortuna  n&ordm;  21, Instituto San José)" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6a177a7e0a61c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.363546309643375"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.778110067286688"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:email "mspsveterinarios@madrid.es / mspcpa@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/BARRIODELAFORTUNA> a schema:PostalAddress ;
+	schema:streetAddress "BARRIO DE LA FORTUNA" ;
+	schema:postalCode "28054"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "33"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CARRETERA" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeProteccionAnimal> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CUATROVIENTOS> a ontology:Barrio ;
+	schema:name "CUATRO VIENTOS" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/BARRIODELAFORTUNA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> a ontology:Distrito ;
+	schema:name "LATINA" ;
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CUATROVIENTOS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CUATROVIENTOS> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/BARRIODELAFORTUNA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CUATROVIENTOS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeProteccionAnimal> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/BARRIODELAFORTUNA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/OrganismoAutonomoMadridSalud> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "4535271"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Organismo Autonomo Madrid Salud" ;
+	ontology:horario "De lunes a viernes de 8:30 a 14 horas Cerrado: los días 24 y 31 de diciembre" ;
+	ontology:transportePublico "Metro: Sainz de Baranda Bus: 15, 30, 215" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7a47c15bfb031110VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.41836406011968"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.664405142151528"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone """914 801 333              
+914 801 334""" ;
+	schema:email "msgerencia@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/JUANESPLANDIU> a schema:PostalAddress ;
+	schema:streetAddress "JUAN ESPLANDIU" ;
+	schema:postalCode "28007"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/OrganismoAutonomoMadridSalud> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ESTRELLA> a ontology:Barrio ;
+	schema:name "ESTRELLA" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/JUANESPLANDIU> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/RETIRO> a ontology:Distrito ;
+	schema:name "RETIRO" ;
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ESTRELLA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/RETIRO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/RETIRO> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ESTRELLA> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/RETIRO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/JUANESPLANDIU> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ESTRELLA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/OrganismoAutonomoMadridSalud> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/JUANESPLANDIU> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/UnidadTecnicadeControldeVectores(ratas,cucarachas)> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "9420"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Unidad Tecnica de Control de Vectores (ratas, cucarachas)" ;
+	ontology:horario "De lunes a viernes de 9 a 14 horas" ;
+	ontology:transportePublico "Bus: 47 Metro: La Fortuna (L 11)" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9cdd224e0d61c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.363546309643375"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.778110067286688"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "915 113 089" ;
+	schema:email "mspvectores@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/BARRIODELAFORTUNA> ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/UnidadTecnicadeControldeVectores(ratas,cucarachas)> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/UnidadTecnicadeControldeVectores(ratas,cucarachas)> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/BARRIODELAFORTUNA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentroConcertadodeAtencionalasDrogodependencias(CCAD)Fucar(CruzRoja)> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "5855213"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Centro Concertado de Atencion a las Drogodependencias (CCAD) Fucar (Cruz Roja)" ;
+	ontology:horario "De lunes a viernes de 8 a 17 horas" ;
+	schema:description "Forma de acceso:  Directo" ;
+	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c5dc3e042111c210VgnVCM2000000c205a0aRCRD" ;
+	schema:latitude "40.4119727880399"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.695693389670018"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "914 291 960" ;
+	schema:email "ctdfucar@cruzroja.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FUCAR> a schema:PostalAddress ;
+	schema:streetAddress "FUCAR" ;
+	schema:postalCode "28014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentroConcertadodeAtencionalasDrogodependencias(CCAD)Fucar(CruzRoja)> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CORTES> a ontology:Barrio ;
+	schema:name "CORTES" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FUCAR> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CENTRO> a ontology:Distrito ;
+	schema:name "CENTRO" ;
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CORTES> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/CENTRO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CENTRO> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CORTES> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/CENTRO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FUCAR> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CORTES> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentroConcertadodeAtencionalasDrogodependencias(CCAD)Fucar(CruzRoja)> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FUCAR> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentroConcertadodeAtencionalasDrogodependencias(CCAD)SantaHortensia(CaritasMadrid)> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "134929"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Centro Concertado de Atencion a las Drogodependencias (CCAD) Santa Hortensia (Caritas Madrid)" ;
+	ontology:horario "De lunes a viernes de 9 a 18 horas" ;
+	ontology:transportePublico "Bus: 9 , 40 , 72 , 73 Metro: Alfonso XIII (L4)" ;
+	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=13ba654d9d91f010VgnVCM2000000c205a0aRCRD" ;
+	schema:latitude "40.44589847767542"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6701595067996826"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "917 440 599" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANTAHORTENSIA> a schema:PostalAddress ;
+	schema:streetAddress "SANTA HORTENSIA" ;
+	schema:postalCode "28002"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentroConcertadodeAtencionalasDrogodependencias(CCAD)SantaHortensia(CaritasMadrid)> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PROSPERIDAD> a ontology:Barrio ;
+	schema:name "PROSPERIDAD" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANTAHORTENSIA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMARTIN> a ontology:Distrito ;
+	schema:name "CHAMARTIN" ;
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PROSPERIDAD> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMARTIN> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMARTIN> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PROSPERIDAD> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMARTIN> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANTAHORTENSIA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PROSPERIDAD> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentroConcertadodeAtencionalasDrogodependencias(CCAD)SantaHortensia(CaritasMadrid)> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SANTAHORTENSIA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deLatina> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "11862"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Centro de Atencion a las Drogodependencias (CAD) de Latina" ;
+	ontology:horario "De lunes a jueves de 8 a 20,30 horas  Viernes de 8 a 15,30 horas" ;
+	ontology:transportePublico "Bus: 25 , 31, 138 Metro: Laguna (L 6), Casa de Campo (L 10)" ;
+	schema:description "Acceso : directo, a traves de los servicios municipales, servicios de salud o entidades comunitarias   Ámbito de actuación:  - Distrito de Latina - Distrito de Moncloa - Aravaca: salvo los barrios de Ciudad Universitaria, Puerta de Hierro, Ciudad de los Poetas y Valdezarza" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=7bc4d4985261c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.39597072367931"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.7562716852987847"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "917 198 989" ;
+	schema:email "cadlatina@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CAMARENA> a schema:PostalAddress ;
+	schema:streetAddress "CAMARENA" ;
+	schema:postalCode "28047"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deLatina> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ALUCHE> a ontology:Barrio ;
+	schema:name "ALUCHE" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CAMARENA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ALUCHE> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ALUCHE> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CAMARENA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ALUCHE> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deLatina> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CAMARENA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deVillaverde> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "11863"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Centro de Atencion a las Drogodependencias (CAD) de Villaverde" ;
+	ontology:horario "De lunes a jueves de 8 a 20,30 horas  Viernes de 8 a 15,30 horas" ;
+	ontology:transportePublico "Bus: 76 Renfe: Cercanías Puente Alcocer" ;
+	schema:description "Acceso : Directo - A través de los servicios municipales, servicios de salud o entidades comunitarias.   Ámbito de Actuación  - Distrito de Villaverde. - Distrito de Usera. - Distrito de Carabanchel." ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=b465d4985261c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.35231468998616"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.717783527602668"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "917 231 110" ;
+	schema:email "cadvillaverde@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/VERDEVIENTO> a schema:PostalAddress ;
+	schema:streetAddress "VERDE VIENTO" ;
+	schema:postalCode "28021"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deVillaverde> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANANDRES> a ontology:Barrio ;
+	schema:name "SAN ANDRES" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/VERDEVIENTO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLAVERDE> a ontology:Distrito ;
+	schema:name "VILLAVERDE" ;
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANANDRES> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLAVERDE> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLAVERDE> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANANDRES> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLAVERDE> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/VERDEVIENTO> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANANDRES> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deVillaverde> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/VERDEVIENTO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deVallecas> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "11864"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Centro de Atencion a las Drogodependencias (CAD) de Vallecas" ;
+	ontology:horario "De lunes a jueves de 8 a 20,30 horas  Viernes de 8 a 15,30 horas" ;
+	ontology:transportePublico "Bus: 10, 24, 54, 57, 58, 111, 136, 140, 310 Metro: Nueva Numancia (L1)" ;
+	schema:description "Acceso:  directo, a traves de los servicios municipales, servicios de salud o entidades comunitarias   Ámbito de actuación  - Distrito de Villa de Vallecas - Distrito de Puente de Vallecas - Distrito de Moratalaz" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=6e35d4985261c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.39501488341387"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.665565995938502"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "914 801 486" ;
+	schema:email "cadvallecas@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CONCORDIA> a schema:PostalAddress ;
+	schema:streetAddress "CONCORDIA" ;
+	schema:postalCode "28053"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deVallecas> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANDIEGO> a ontology:Barrio ;
+	schema:name "SAN DIEGO" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CONCORDIA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/PUENTEDEVALLECAS> a ontology:Distrito ;
+	schema:name "PUENTE DE VALLECAS" ;
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANDIEGO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/PUENTEDEVALLECAS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/PUENTEDEVALLECAS> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/SANDIEGO> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/PUENTEDEVALLECAS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CONCORDIA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/SANDIEGO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deVallecas> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CONCORDIA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deTetuan> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "11866"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Centro de Atencion a las Drogodependencias (CAD) de Tetuan" ;
+	ontology:horario "De lunes a jueves de 8 a 20,30 horas  Viernes de 8 a 15,30 horas" ;
+	ontology:transportePublico "Bus: 42 Metro: Ventilla (L 9), Valdeacederas (L 1)" ;
+	schema:description "Acceso:  directo, a traves de los servicios municipales, servicios de salud o entidades comunitarias   Ámbito de actuación  - Distrito de Tetuán - Distrito de Fuencarral-El Pardo" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1815d4985261c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.47084721439769"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.701561801865397"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "913 235 920" ;
+	schema:email "cadtetuan@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PINOSALTA> a schema:PostalAddress ;
+	schema:streetAddress "PINOS ALTA" ;
+	schema:postalCode "28029"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "122"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deTetuan> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ALMENARA> a ontology:Barrio ;
+	schema:name "ALMENARA" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PINOSALTA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/TETUAN> a ontology:Distrito ;
+	schema:name "TETUAN" ;
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ALMENARA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/TETUAN> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/TETUAN> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ALMENARA> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/TETUAN> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PINOSALTA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ALMENARA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deTetuan> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/PINOSALTA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deHortaleza> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "11887"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Centro de Atencion a las Drogodependencias (CAD) de Hortaleza" ;
+	ontology:horario "De lunes a jueves de 8 a 20,30 horas  Viernes de 8 a 15,30 horas" ;
+	ontology:transportePublico "Bus: 73, 87, 104, 112, 120, 125, 153, 172 Metro: Mar de Cristal (L 4, 8)" ;
+	schema:description "Acceso:  directo, a través de los servicios municipales, servicios de salud o entidades comunitarias   Ámbito de actuación:  - Distrito de Hortaleza - Distrito de Chamartín - Distrito de Barajas" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=25a4d4985261c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.468288815918534"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.636150078507109"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "913 822 530" ;
+	schema:email "cadhortaleza@madrid. es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MINAYA> a schema:PostalAddress ;
+	schema:streetAddress "MINAYA" ;
+	schema:postalCode "28043"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deHortaleza> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CANILLAS> ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MINAYA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MINAYA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CANILLAS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deHortaleza> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MINAYA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deArganzuela> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "11867"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Centro de Atencion a las Drogodependencias (CAD) de Arganzuela" ;
+	ontology:horario "De lunes a jueves de 8 a 20,30 horas  Viernes de 8 a 15,30 horas" ;
+	ontology:transportePublico "Bus: 6 , 8 , 18 , 19 , 22 , 45 , 47 , 76 , 78 , 79 , 85 , 86 , 88 , 123 , 148 , 247 Metro: Legazpi (L 3 y 6)" ;
+	schema:description "Forma de acceso : directo, a través de los servicios municipales, servicios de salud o entidades comunitarias.   Ámbito de actuación:  - Distrito de Arganzuela - Distrito de Centro - Distrito de Retiro - Distrito de Salamanca - Distrito de Chamberí" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=de74d4985261c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.39305745803064"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6980673403694104"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone """915 886 186                  
+915 886 189""" ;
+	schema:email "cadarganzuela@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CHOPERA> a schema:PostalAddress ;
+	schema:streetAddress "CHOPERA" ;
+	schema:postalCode "28045"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "12"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "PASEO" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deArganzuela> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CHOPERA> a ontology:Barrio ;
+	schema:name "CHOPERA" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CHOPERA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> a ontology:Distrito ;
+	schema:name "ARGANZUELA" ;
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CHOPERA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CHOPERA> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CHOPERA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CHOPERA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deArganzuela> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CHOPERA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deSanBlas> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "11865"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Centro de Atencion a las Drogodependencias (CAD) de San Blas" ;
+	ontology:horario "De lunes a jueves de 8 a 20,30 horas  Viernes de 8 a 15,30 horas" ;
+	ontology:transportePublico "Bus: 77, 104, 105, 775 Metro: Suances (L 5)" ;
+	schema:description "Acceso:  directo, a traves de los servicios municipales, servicios de salud o entidades comunitarias   Ámbito de actuación  - Distrito de San Blas - Distrito de Ciudad Lineal - Distrito de Vicálvaro" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c1f4d4985261c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.44097774609991"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6271316821262958"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "917 434 771" ;
+	schema:email "cadsanblas@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALCALA> a schema:PostalAddress ;
+	schema:streetAddress "ALCALA" ;
+	schema:postalCode "28027"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "527"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deSanBlas> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ELSALVADOR> a ontology:Barrio ;
+	schema:name "EL SALVADOR" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALCALA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALCALA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ELSALVADOR> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionalasDrogodependencias(CAD)deSanBlas> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/ALCALA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodePatologiaDual> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "163279"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Centro de Patologia Dual" ;
+	ontology:transportePublico "Metro: Arturo Soria, Avda de la Paz  Bus: 9, 70, 72, 73," ;
+	schema:description "El Centro de Patología Dual da respuesta a determinados perfiles cada vez más numerosos dentro de la población drogodependiente, aquellos que presentan un trastorno mental asociado a su problema de adicción.  Este centro se concibe como una unidad hospitalaria de apoyo dónde se realiza el abordaje terapéutico integral tanto de la psicopatología concomitante como de la conducta adictiva,. de aquellos pacientes que requieran un proceso de contención y estabilización intensivo de su patología a fin de poder facilitarles una buena evolución en el tratamiento, en coordinación con el equipo del centro de atención    CENTRO DE DÍA DE PATOLOGÍA DUAL     Ofrece una segunda etapa abierta, para los pacientes dados de alta de la Unidad de Patología Dual, en un contexto terapéutico de hospital de día, con las mismas características de entorno hospitalario e intervención intensiva que el dispositivo de ingreso. Conecta los dos enfoques clásicos: residencial y ambulatorio.  Capacidad: 20 plazas  Tiempo de estancia: Máximo 3 meses" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c2169475d381c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.45680646874779"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6611039641981273"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "914 156 000" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/LOPEZDEHOYOS> a schema:PostalAddress ;
+	schema:streetAddress "LOPEZ DE HOYOS" ;
+	schema:postalCode "28043"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "259"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodePatologiaDual> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/COLINA> a ontology:Barrio ;
+	schema:name "COLINA" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/LOPEZDEHOYOS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CIUDADLINEAL> a ontology:Distrito ;
+	schema:name "CIUDAD LINEAL" ;
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/COLINA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/CIUDADLINEAL> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CIUDADLINEAL> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/COLINA> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/CIUDADLINEAL> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/LOPEZDEHOYOS> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/COLINA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodePatologiaDual> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/LOPEZDEHOYOS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionBasicaSociosanitariaaDrogodependientes> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "11899"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Centro de Atencion Basica Sociosanitaria a Drogodependientes" ;
+	ontology:horario "De lunes a domingo de 21 a 8 horas" ;
+	ontology:transportePublico "Metro: Antón Martín , Atocha  Bus: 6 , 26 , 32  Renfe: Atocha" ;
+	schema:description "Información Complementaria:    Drogodependientes en fase activa, ó en Programa de Metadona  Personas sin hogar  Pueden pernoctar" ;
+	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a946d4985261c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.4119727880399"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.695693389670018"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "91 369 12 71" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FUCAR> ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionBasicaSociosanitariaaDrogodependientes> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeAtencionBasicaSociosanitariaaDrogodependientes> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FUCAR> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/UnidadmovilMadroño> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "4795428"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Unidad movil Madroño" ;
+	ontology:horario "De lunes a viernes de 16 a 17,30 horas  Sábado, domingo y festivo de 13 a 14,30 horas" ;
+	ontology:accesibilidad "0"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d360361d139f7110VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.42054836583698"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.7179660205926224"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "647 304 366" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/REY> a schema:PostalAddress ;
+	schema:streetAddress "REY" ;
+	schema:postalCode "28008"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "PASEO" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/UnidadmovilMadroño> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ARGUELLES> a ontology:Barrio ;
+	schema:name "ARGUELLES" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/REY> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> a ontology:Distrito ;
+	schema:name "MONCLOA-ARAVACA" ;
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ARGUELLES> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ARGUELLES> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/MONCLOA-ARAVACA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/REY> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ARGUELLES> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/UnidadmovilMadroño> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/REY> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludCentro> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "8882"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "CMS Centro Madrid Salud Centro" ;
+	ontology:horario "De lunes a viernes de 9 a 20 horas   Anticoncepción de urgencia  (pildora postcoital):  De lunes a viernes de 9 a 20 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro.  Vacunación:   Con cita previa  Consulta de VIH Y ETS mañanas de 9:30 a 10:30 horas de lunes a jueves y tardes de 16 a 17 horas, lunes y miercoles (no se precisa cita previa)" ;
+	ontology:transportePublico "Metro: Callao Bus: 1 , 2 , 44 , 46 , 74 , 75 , 133 , 146 , 147 , 148 , 202" ;
+	schema:description "ÁMBITO DE INFLUENCIA:    Distrito de Centro: Palacio, Embajadores, Universidad, Cortes, Sol, Justicia  Distrito de Moncloa: Casa de Campo, Arg&uuml;elles, Ciudad Universitaria, Valdezarza, Valdemarín, El Plantío, Aravaca   Los programas marco de salud de abordaje prioritario que desarrollan los Centros Madrid Salud son:   Alimentación, actividad física y salud  Salud sexual y reproductiva  Prevención y promoción de la salud en el ámbito educativo  Envejecimiento activo y saludable  Salud materno-infantil  Deshabituación tabáquica  Prevención y promoción de Salud Mental o Psicohigiene  Desigualdades sociales en salud  Entorno urbano y salud   Los que se desarrollan en el Centro Madrid Salud de Centro actualmente los puede consultar en:  Centro Madrid Salud de Centro" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=9b824b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.419201879815446"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.7069422925635527"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "CITACIONES: 915 889 661 / 915 889 660" ;
+	schema:email "cmscentro@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NAVASDETOLOSA> a schema:PostalAddress ;
+	schema:streetAddress "NAVAS DE TOLOSA" ;
+	schema:postalCode "28013"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludCentro> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/SOL> a ontology:Barrio ;
+	schema:name "SOL" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NAVASDETOLOSA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CENTRO> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/SOL> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/SOL> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/CENTRO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NAVASDETOLOSA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/SOL> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludCentro> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NAVASDETOLOSA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludArganzuela> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "8866"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "CMS Centro Madrid Salud Arganzuela" ;
+	ontology:horario "De lunes a viernes de 8:30 a 20:30 horas    Anticoncepción de urgencia  (pildora postcoital):  De lunes a viernes de 9 a 20 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro.   Vacunación : cita previa" ;
+	ontology:transportePublico "Metro: Puerta de Toledo, Acacias, Pirámides  Bus: 3, 6, 17, 18, 23, 34, 35, 36, 41, 60, 62, 116, 118, 119, 148 y circular  Renfe: Pirámides" ;
+	schema:description "Ámbito de influencia:   - Distrito de Arganzuela: Imperial, Acacias, Chopera, Legazpi, Delicias, Palos de Moguer, Atocha, Comillas  Los  programas marco  de salud de abordaje prioritario que desarrollan los Centros Madrid Salud son:   Alimentación, actividad física y salud  Salud sexual y reproductiva  Prevención y promoción de la salud en el ámbito educativo  Envejecimiento activo y saludable  Salud materno-infantil  Deshabituación tabáquica  Prevención y promoción de Salud Mental o Psicohigiene  Desigualdades sociales en salud  Entorno urbano y salud   Los que se desarrollan en el Centro Madrid Salud de Arganzuela actualmente los puede consultar en:  Centro Madrid Salud de Arganzuela" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=fe324b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.40569156269297"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.710819612821558"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "CITACIONES: 913 541 826/ 913 541 784/ 913 541 785" ;
+	schema:email "cmsarganzuela@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CONCEJALBENITOMARTINLOZANO> a schema:PostalAddress ;
+	schema:streetAddress "CONCEJAL BENITO MARTIN LOZANO" ;
+	schema:postalCode "28005"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludArganzuela> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ACACIAS> a ontology:Barrio ;
+	schema:name "ACACIAS" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CONCEJALBENITOMARTINLOZANO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ACACIAS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ACACIAS> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/ARGANZUELA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CONCEJALBENITOMARTINLOZANO> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ACACIAS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludArganzuela> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CONCEJALBENITOMARTINLOZANO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludFuencarral> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "8867"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "CMS Centro Madrid Salud Fuencarral" ;
+	ontology:horario "De lunes a viernes de 8:30 a 20:30 horas   Anticoncepción de urgencia  (pildora postcoital):  De lunes a viernes de 9 a 20 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro.   Vacunación:  con cita previa" ;
+	ontology:transportePublico "Metro: Barrio del Pilar  Bus: 83 , 128 , 132 , 134, 137, 49  Interurbano: 602" ;
+	schema:description "Ámbito de influencia:   Distrito de Fuencarral - El Pardo.    Los programas marco de salud de abordaje prioritario que desarrollan los Centros Madrid Salud son:   Alimentación, actividad física y salud  Salud sexual y reproductiva  Prevención y promoción de la salud en el ámbito educativo  Envejecimiento activo y saludable  Salud materno-infantil  Deshabituación tabáquica  Prevención y promoción de Salud Mental o Psicohigiene  Desigualdades sociales en salud  Entorno urbano y salud   Los que se desarrollan en el Centro Madrid Salud de Fuencarral actualmente los puede consultar en:  http://www.madridsalud.es/centros/fuencarral.php" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8ef24b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.47860087334554"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.7094408342979954"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "CITACIONES: 91 588 68 71 / 91 588 68 73" ;
+	schema:email "cmsfuencarral@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONFORTEDELEMOS> a schema:PostalAddress ;
+	schema:streetAddress "MONFORTE DE LEMOS" ;
+	schema:postalCode "28029"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "38"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "AVENIDA" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludFuencarral> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ELPILAR> a ontology:Barrio ;
+	schema:name "EL PILAR" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONFORTEDELEMOS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> a ontology:Distrito ;
+	schema:name "FUENCARRAL-EL PARDO" ;
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ELPILAR> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ELPILAR> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/FUENCARRAL-ELPARDO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONFORTEDELEMOS> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ELPILAR> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludFuencarral> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONFORTEDELEMOS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeSaludBucodental.MadridSalud> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "8939"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Centro de Salud Bucodental. Madrid Salud" ;
+	ontology:horario "De lunes a viernes de 8,30 a 13,45 (es necesario pedir cita previa antes de acudir al centro)" ;
+	ontology:transportePublico "Metro: Ciudad de los Ángeles salida calle Tertulia (L 3)  Bus: 22, 23, 59, 85, 79 y 123  Renfe: Villaverde Bajo" ;
+	schema:description "Ámbito de influencia : atención a todos los escolares de Madrid  Ofrece atención bucodental a niños/as  entre los 5  y los 14 años  que consiste en:   exploración completa con detección de alteraciones  enseñanza de cepillado y control de placa bacteriana,   aplicación de cubetas de flúor semestrales y selladores de fosas y fisuras en molares definitivos  revisiones periódicas  control de dieta y orientación terapéutica.   Estas actividades son muy sencillas, bien aceptadas por el niño, indoloras y muy efectivas para reducir el nivel de caries dental en la población infantil.  El Centro de Salud Bucodental dispone también de medios para poder realizar otras pruebas diagnósticas (radiología) y terapéuticas (obturaciones) si se consideran oportunas." ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=08784b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.35940720387406"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.690771730176704"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone """Recepción: 915 88 87 80         
+Secretaría: 914 80 10 40""" ;
+	schema:email "mspbucodental@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FELICIDAD> a schema:PostalAddress ;
+	schema:streetAddress "FELICIDAD" ;
+	schema:postalCode "28041"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "17"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "AVENIDA" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeSaludBucodental.MadridSalud> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeSaludBucodental.MadridSalud> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FELICIDAD> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeDiagnosticoMedico> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "8889"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Centro de Diagnostico Medico" ;
+	ontology:horario "Citas: de lunes a viernes de 9 a 14 horas  Programa Prevención del Sida: de lunes a viernes de 8 a 15 horas." ;
+	ontology:transportePublico "Metro: Manuel Becerra  Bus: 1 , 2 , 12 , 21 , 43 , 48 , 53 , 56 , 74 , 146 , 210 , C" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=5a057a7e0a61c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.428976927386806"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6721607026353884"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone """915 885 100 / 06 (Citas)            
+915 885 109  (Encargado del complejo sanitario)""" ;
+	schema:email "mspdiagnostico@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONTESA> a schema:PostalAddress ;
+	schema:streetAddress "MONTESA" ;
+	schema:postalCode "28006"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "22"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeDiagnosticoMedico> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LISTA> a ontology:Barrio ;
+	schema:name "LISTA" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONTESA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/SALAMANCA> a ontology:Distrito ;
+	schema:name "SALAMANCA" ;
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LISTA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/SALAMANCA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/SALAMANCA> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LISTA> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/SALAMANCA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONTESA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LISTA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodeDiagnosticoMedico> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONTESA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodePrevenciondeDeterioroCognitivo> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "183742"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Centro de Prevencion de Deterioro Cognitivo" ;
+	ontology:horario "De lunes a viernes de 9 a 14 horas" ;
+	ontology:transportePublico "Metro: Manuel Becerra (Líneas 2 y 6), Lista (Línea 4)  Bus: C1, C2, 1, 2, 12, 15, 21, 26, 29, 30, 38, 43, 48, 53, 56, 61, 63, 120, 71, 74, 106, 110, 143, 146, 152, 210." ;
+	schema:description "El centro va dirigido a toda la población de la ciudad de Madrid mayor de 65 años. También va dirigido a menores de 65 años que presenten alteraciones cognitivas o de memoria. No está orientado al tratamiento de personas ya diagnosticadas de demencia. No es un Centro de Día. El Centro está formado por un equipo de profesionales de:   Neurología  Neuropsicología  Psiquiatría  Psicología  Medicina Interna  Medicina General  Enfermería  Trabajo Social  Auxiliar Sanitario  Administración     Cartera de Servicios    Evaluación neuropsicológica.  Evaluación neurológica y psiquiátrica  Análisis clínicos habituales y específicos  Pruebas de imagen (RMN)  Diagnóstico -Informe Clínico  Educación Para la Salud individual y grupal  Información-Asesoramiento-Orientación (usuarios/ familiares/ entidades)  Apoyo a tramitación de ayudas y recursos  Estimulación cognitiva individual en el domicilio  Estimulación cognitiva grupal  Estimulación cognitiva con ordenador  Orientación terapéutica farmacológica  Seguimiento del Proceso    El Centro pertenece al Servicio de Prevención y Promoción de la Salud del Instituto de Salud Pública de Madrid Salud, Ayuntamiento de Madrid." ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=492338d60b41c010VgnVCM2000000c205a0aRCRD" ;
+	schema:latitude "40.428976927386806"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6721607026353884"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone """915 885 801      
+915 885 810""" ;
+	schema:email "mspcognitiva@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONTESA> ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodePrevenciondeDeterioroCognitivo> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentrodePrevenciondeDeterioroCognitivo> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONTESA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentroMadridSaludInternacional.CentrodeVacunacionInternacional> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "4614547"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Centro Madrid Salud Internacional. Centro de Vacunacion Internacional" ;
+	ontology:horario "De lunes a viernes de 8,30 a 13 horas  Es necesario pedir  cita previa  (salvo para la emisión de duplicados de certificado internacional de vacunación de  aquellas personas que anteriormente fueron vacunadas en el Centro)" ;
+	ontology:transportePublico "Metro: Manuel Becerra , Lista , Diego de León Bus: 1, 2, 12, 15, 21, 26, 29, 30, 38, 43, 48, 53, 56, 61, 63, C1, C2, 71, 74, 106, 110, 210, 143, 146, 152 y 215." ;
+	schema:description "Es conveniente acudir al centro al menos con un mes de antelación al viaje.  Se debe aportar al médico la máxima información sobre el viaje que se va a realizar: zonas a visitar, duración, tipo de viaje.  Para la expedición de duplicados de cartilla de fiebre amarilla a aquellas personas que anteriormente fueron vacunados en nuestro Centro no será necesario solicitar  cita previa.  El horario será de  9 a 13,30 horas  en días laborables." ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=8fe90c576ddc3110VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.428976927386806"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6721607026353884"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone """Usuarios que llaman desde el municipio de Madrid.   010                                        
+Usuarios que llaman desde fuera del municipio de Madrid.    91 529 82 10""" ;
+	schema:email "mspinternacional@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONTESAEdificioAPlta.Baja> a schema:PostalAddress ;
+	schema:streetAddress "MONTESA Edificio A Plta. Baja" ;
+	schema:postalCode "28006"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "22"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentroMadridSaludInternacional.CentrodeVacunacionInternacional> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LISTA> ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONTESAEdificioAPlta.Baja> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONTESAEdificioAPlta.Baja> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LISTA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CentroMadridSaludInternacional.CentrodeVacunacionInternacional> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONTESAEdificioAPlta.Baja> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludVicalvaro> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "8877"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "CMS Centro Madrid Salud Vicalvaro" ;
+	ontology:horario "De lunes a viernes de 8:30 a 20:30 horas   Anticoncepción de urgencia (pildora postcoital):   De lunes a viernes de 8:30 a 20 horas, excepto martes y jueves de 14 a 20 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro .    Vacunación:  con cita previa" ;
+	ontology:transportePublico "Metro: Vicálvaro  Bus: 4 , 100 , 106 , 130" ;
+	schema:description "Ámbito de influencia:    Distrito de Moratalaz: Pavones, Horcajo, Marroquina, Media Legua, Fontarrón, Vinateros     Distrito de Vicálvaro: Casco Histórico de Vicálvaro, Ambroz    Los programas marco de salud de abordaje prioritario que desarrollan los Centros Madrid Salud son:     Alimentación, actividad física y salud   Salud sexual y reproductiva  Prevención y promoción de la salud en el ámbito educativo  Envejecimiento activo y saludable  Salud materno-infantil  Deshabituación tabáquica  Prevención y promoción de Salud Mental o Psicohigiene  Desigualdades sociales en salud  Entorno urbano y salud   Los que se desarrollan en el Centro Madrid Salud de Vicálvaro actualmente los puede consultar en:  http://www.madridsalud.es/centros/vicalvaro.php" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=1eb34b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.40760589417718"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.610734756927216"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "Citaciones: 917 602 401 / 917 753 260 / 917 753 262" ;
+	schema:email "cmsvicalvaro@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CALAHORRA> a schema:PostalAddress ;
+	schema:streetAddress "CALAHORRA" ;
+	schema:postalCode "28032"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "11 B"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludVicalvaro> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/AMBROZ> a ontology:Barrio ;
+	schema:name "AMBROZ" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CALAHORRA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/VICALVARO> a ontology:Distrito ;
+	schema:name "VICALVARO" ;
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/AMBROZ> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/VICALVARO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/VICALVARO> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/AMBROZ> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/VICALVARO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CALAHORRA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/AMBROZ> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludVicalvaro> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CALAHORRA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludCiudadLineal> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "8881"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "CMS Centro Madrid Salud Ciudad Lineal" ;
+	ontology:horario "De lunes a viernes de 8:30 a 20:30 horas   Anticoncepción de urgencia (pildora postcoital):   De lunes a viernes de 9 a 20 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro .    Vacunación:  con cita previa" ;
+	ontology:transportePublico "Bus: 28, 15, 106, 110, 113, 210  Metro: La Elipa (línea 2), Ascao (línea 7), Pueblo Nuevo (líneas 7 y 5)" ;
+	schema:description "Ámbito de influencia:   Distrito de Ciudad Lineal. Ventas, Pueblo Nuevo, Quintana, Concepción, San Pascual, San Juan Bautista, Colina, Atalaya, Costillares    Los programas marco de salud de abordaje prioritario que desarrollan los Centros Madrid Salud son:   Alimentación, actividad física y salud  Salud sexual y reproductiva  Prevención y promoción de la salud en el ámbito educativo  Envejecimiento activo y saludable  Salud materno-infantil  Deshabituación tabáquica  Prevención y promoción de Salud Mental o Psicohigiene  Desigualdades sociales en salud  Entorno urbano y salud   Los que se desarrollan en el Centro Madrid Salud de Ciudad Lineal actualmente los puede consultar en:  http://www.madridsalud.es/centros/cLineal.php" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=38d24b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.427642192384596"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6471432101293173"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "Citaciones: 914 066 594/ 914 061 578" ;
+	schema:email "cmsciudadlineal@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/DEAGUSTÍNGONZALEZ> a schema:PostalAddress ;
+	schema:streetAddress "DE AGUSTÍN GONZALEZ" ;
+	schema:postalCode "28017"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "PLAZA" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludCiudadLineal> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/VENTAS> a ontology:Barrio ;
+	schema:name "VENTAS" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/DEAGUSTÍNGONZALEZ> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CIUDADLINEAL> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/VENTAS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/VENTAS> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/CIUDADLINEAL> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/DEAGUSTÍNGONZALEZ> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/VENTAS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludCiudadLineal> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/DEAGUSTÍNGONZALEZ> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludVilladeVallecas> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "8873"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "CMS Centro Madrid Salud Villa de Vallecas" ;
+	ontology:horario "De lunes a viernes de 8:30 a 20:30 horas   Anticoncepción de urgencia  (pildora postcoital):  De lunes a viernes de 9 a 20 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro.   Vacunación:  con cita previa" ;
+	ontology:transportePublico "Metro: Villa de Vallecas  Bus: 54 , 58 , 130 , 143" ;
+	schema:description "Ámbito de influencia:   Distrito de Villa de Vallecas. Barrios:   Casco histórico de Villa de Vallecas  Santa Eugenia  El Ensanche     Los programas marco de salud de abordaje prioritario que desarrollan los Centros Madrid Salud son:   Alimentación, actividad física y salud  Salud sexual y reproductiva  Prevención y promoción de la salud en el ámbito educativo  Envejecimiento activo y saludable  Salud materno-infantil  Deshabituación tabáquica  Prevención y promoción de Salud Mental o Psicohigiene  Desigualdades sociales en salud  Entorno urbano y salud   Los que se desarrollan en el Centro Madrid Salud de Villa de Vallecas actualmente los puede consultar en:  http://www.madridsalud.es/centros/vallecasv.php" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=64e34b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.37978858026883"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.622040199057613"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "CITACIONES: 917 791 312 / 913 807 910" ;
+	schema:email "cmsvallecasv@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SIERRAGADOR> a schema:PostalAddress ;
+	schema:streetAddress "SIERRA GADOR" ;
+	schema:postalCode "28031"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "68"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludVilladeVallecas> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASCOH.VALLECAS> a ontology:Barrio ;
+	schema:name "CASCO H.VALLECAS" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SIERRAGADOR> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLADEVALLECAS> a ontology:Distrito ;
+	schema:name "VILLA DE VALLECAS" ;
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASCOH.VALLECAS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLADEVALLECAS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLADEVALLECAS> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/CASCOH.VALLECAS> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLADEVALLECAS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SIERRAGADOR> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/CASCOH.VALLECAS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludVilladeVallecas> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/SIERRAGADOR> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludVillaverde> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "6017257"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "CMS Centro Madrid Salud Villaverde" ;
+	ontology:horario "De lunes a viernes de 8:30 a 18 horas   Anticoncepción de urgencia  (pildora postcoital):  De lunes a viernes de 8:30 a 18 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro.  Vacunación: cita previa" ;
+	ontology:transportePublico "Metro: Ciudad de los Ángeles salida calle Tertulia (L 3)  Bus: 22, 23, 59, 85, 79 y 123  Renfe: Villaverde Bajo" ;
+	schema:description "Ámbito de influencia:   Distrito Villaverde Barrios:   San Andrés, (Villaverde Alto)  San Cristobal (San Cristobal de los Ángeles)  Butarque (Nuevo Rosales)  Los Rosales (Villaverde Bajo y El Espinillo)  Los Ángeles (Ciudad de los Ángeles)   Nuestros programas son los siguientes:   Alimentación, actividad física y salud  Salud sexual y reproductiva  Prevención y promoción de la salud en el ámbito educativo  Envejecimiento activo y saludable  Salud materno-infantil  Deshabituación tabáquica  Prevención y promoción de Salud Mental o Psicohigiene  Desigualdades sociales en salud  Entorno urbano y salud en colaboración con el Centro Madrid Salud Usera   Los que se desarrollan en el Centro Madrid Salud de Villaverde actualmente los puede consultar en:  Centro Madrid Salud de Villaverde" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=df3d7f073900f210VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.35940720387406"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.690771730176704"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "Recepción: 914 80 49 39 / 915 88 92 60" ;
+	schema:email "cmsvillaverde@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FELICIDAD> ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludVillaverde> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSROSALES> a ontology:Barrio ;
+	schema:name "LOS ROSALES" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FELICIDAD> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLAVERDE> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSROSALES> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSROSALES> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/VILLAVERDE> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FELICIDAD> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/LOSROSALES> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludVillaverde> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/FELICIDAD> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludCarabanchel> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "8880"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "CMS Centro Madrid Salud Carabanchel" ;
+	ontology:horario "De lunes a viernes de 8:30 a 20:30 horas   Anticoncepción de urgencia  (pildora postcoital): De lunes a viernes de 8:30 a 20 horas, excepto martes hasta las 15 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro.   Vacunación : Cita previa" ;
+	ontology:transportePublico "Bus: 34 , 35" ;
+	schema:description "Ámbito de influencia:   - Distrito de Carabanchel: Comillas, Abrantes, Buenavista, Opañel, Puerta Bonita, Vista Alegre, San Isidro.  Los programas marco de salud de abordaje prioritario que desarrollan los Centros Madrid Salud son:   Alimentación, actividad física y salud  Salud sexual y reproductiva  Prevención y promoción de la salud en el ámbito educativo  Envejecimiento activo y saludable  Salud materno-infantil  Deshabituación tabáquica  Prevención y promoción de Salud Mental o Psicohigiene  Desigualdades sociales en salud  Entorno urbano y salud   Los que se desarrollan en el Centro Madrid Salud de Carabanchel actualmente los puede consultar en:  Centro Madrid Salud de Carabanchel" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=45624b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.37830205060461"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.748252006016631"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "CITACIONES:913 696 072 / 913 602 200" ;
+	schema:email "cmscarabanchel@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EUGENIADEMONTIJO> a schema:PostalAddress ;
+	schema:streetAddress "EUGENIA DE MONTIJO" ;
+	schema:postalCode "28025"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "90"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludCarabanchel> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/VISTAALEGRE> a ontology:Barrio ;
+	schema:name "VISTA ALEGRE" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EUGENIADEMONTIJO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CARABANCHEL> a ontology:Distrito ;
+	schema:name "CARABANCHEL" ;
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/VISTAALEGRE> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/CARABANCHEL> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CARABANCHEL> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/VISTAALEGRE> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/CARABANCHEL> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EUGENIADEMONTIJO> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/VISTAALEGRE> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludCarabanchel> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EUGENIADEMONTIJO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludUsera> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "8878"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "CMS Centro Madrid Salud Usera" ;
+	ontology:horario "De lunes a viernes de 8:30 a 20:30 horas   Anticoncepción de urgencia (pildora postcoital):   De lunes a viernes de 8:30 a 20 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro.   Vacunación: con cita previa" ;
+	ontology:transportePublico "Bus: 6 , 60 , 78 , 81  Metro: Plaza Elíptica" ;
+	schema:description "Ámbito de influencia:   Distrito de Usera: Orcasitas, Orcasur, San Fermín, Almendrales, Moscardó, Zofío, Pradolongo    En los Centros Madrid Salud se realiza:   Alimentación, actividad física y salud  Salud sexual y reproductiva  Prevención y promoción de la salud en el ámbito educativo  Envejecimiento activo y saludable  Salud materno-infantil  Deshabituación tabáquica  Prevención y promoción de Salud Mental o Psicohigiene  Desigualdades sociales en salud  Entorno urbano y salud   Los que se desarrollan en el Centro Madrid Salud de Usera actualmente los puede consultar en:  http://www.madridsalud.es/centros/usera.php" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=c7934b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.37773347929677"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.7156736251996945"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "CITACIONES: 914 607 199 / 914 609 850 / 914 607 200" ;
+	schema:email "cmsusera@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/AVENA> a schema:PostalAddress ;
+	schema:streetAddress "AVENA" ;
+	schema:postalCode "28026"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludUsera> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ZOFIO> a ontology:Barrio ;
+	schema:name "ZOFIO" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/AVENA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> a ontology:Distrito ;
+	schema:name "USERA" ;
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ZOFIO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ZOFIO> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/USERA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/AVENA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ZOFIO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludUsera> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/AVENA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludChamberi> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "8870"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "CMS Centro Madrid Salud Chamberi" ;
+	ontology:horario "De lunes a viernes de 8:30 a 20:30 horas   Anticoncepción de urgencia  (pildora postcoital):  De lunes a viernes de 9 a 20 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro.   Vacunación:  con cita previa" ;
+	ontology:transportePublico "Metro: Iglesia   Bus: 3 , 5 , 16 , 40 , 61 , 147" ;
+	schema:description "Ámbito de Influencia:   Distrito de Chamartín: Barrios de Prosperidad, El Viso y Ciudad Jardín   Distrito de Chamberí.   Los programas marco de salud de abordaje prioritario que desarrollan los Centros Madrid Salud son:   Alimentación, actividad física y salud  Salud sexual y reproductiva  Prevención y promoción de la salud en el ámbito educativo  Envejecimiento activo y saludable  Salud materno-infantil  Deshabituación tabáquica  Prevención y promoción de Salud Mental o Psicohigiene  Desigualdades sociales en salud  Entorno urbano y salud   Los que se desarrollan en el Centro Madrid Salud de Chamberí actualmente los puede consultar en:  http://www.madridsalud.es/centros/chamberi.php" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=e1b24b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.43353205080221"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6970827354853677"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "CITACIONES:  915 886 784 / 915 886 783" ;
+	schema:faxNumber "915 886 790" ;
+	schema:email "cmschamberi@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/RAFAELCALVO> a schema:PostalAddress ;
+	schema:streetAddress "RAFAEL CALVO" ;
+	schema:postalCode "28010"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludChamberi> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ALMAGRO> a ontology:Barrio ;
+	schema:name "ALMAGRO" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/RAFAELCALVO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMBERI> a ontology:Distrito ;
+	schema:name "CHAMBERI" ;
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ALMAGRO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMBERI> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMBERI> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ALMAGRO> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/CHAMBERI> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/RAFAELCALVO> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ALMAGRO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludChamberi> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/RAFAELCALVO> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludJoven> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "163281"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "CMS Centro Madrid Salud Joven" ;
+	ontology:horario "De lunes a viernes de 9 a 20 horas" ;
+	ontology:transportePublico "Metro: Callao  Bus: 1 , 2 , 44 , 46 , 74 , 75 , 133 , 146 , 147 , 148" ;
+	schema:description "&iquest;Quién puede acudir al Centro?   Menores de 21 años, salvo para consejo de  VIH  que es hasta 24 años. Preferiblemente con cita previa.  Los mayores de 20 pueden acudir a la red de los 16 Centros Madrid Salud ( CMS ), donde también se atiende a población joven, sin límite de edad, y se ofrecen servicios similares. Ver relación de centros en información relacionada.   &iquest;Para qué se puede acudir al Centro Joven?   En el  CMSJ  puedes encontrar apoyo en las siguientes áreas:     Salud sexual y reproductiva     Métodos anticonceptivos  : Pedir cita previa. Preferiblemente acudir con la pareja    Información sobre métodos   consejo anticonceptivo   análisis de sangre si procede   inicio y seguimiento del método (preservativo, pastilla, anillo, parche, doble método, etc...)      Píldora de Anticoncepción de Urgencia : A demanda, en el horario del centro. Información y prescripción de la pastilla de forma gratuita.    Test de embarazo: Prueba gratuita      Información sobre la  interrupción voluntaria del embarazo ( IVE ):  Control gratuito post- IVE      Consejo de   VIH     e Infecciones de Trasmisión sexual ( ITS ).  Puede ser con cita previa, llamando por teléfono, o a demanda (acudiendo sin cita) Los horarios en los que se atiende  a demanda  son: De lunes a viernes de 9 a 12 horas y de 15 a 18 horas.    Prueba de  VIH  . Análisis. Mañanas: martes y jueves de 9 a 10 horas, Tardes: lunes, martes y miércoles de 15 a 18 horas   Test rápido de  VIH  .Si procede     Consulta de sexología  : Información, apoyo y tratamiento de los problemas sexuales. Cita previa.       Ginecología de la adolescencia:  control ginecológico, alteraciones de la regla, etc...      Asesoría de drogas  : información y apoyo sobre el consumo de drogas.  Consejos para  dejar de fumar.     Maltrato y abusos:   Detección y apoyo a las situaciones de violencia de género.   Educación maternal y preparación al parto : Información y apoyo durante el embarazo.  Grupos de embarazadas adolescentes.      Salud mental. Con cita previa     Apoyo y orientación emocional     Apoyo y orientación familiar" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=a139ac2e6481c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.41922883312708"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.7069543620889194"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "CITACIONES: 915 889 677 / 915 889 678" ;
+	schema:email "cmsjoven@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NAVASDETOLOSA> ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludJoven> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludJoven> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/NAVASDETOLOSA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludLatina> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "8876"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "CMS Centro Madrid Salud Latina" ;
+	ontology:horario "De lunes a viernes de 8:30 a 14:30 horas.   Anticoncepción de urgencia (pildora postcoital):   De lunes a viernes de 9 a 14:30 horas, tardes no hay servicio. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro.    Vacunación:  con cita previa" ;
+	ontology:transportePublico "Metro: Alto de Extremadura Bus: 31 , 33 , 36 , 39 , 65" ;
+	schema:description "ÁMBITO DE INFLUENCIA:   Distrito de Latina.   Los programas marco de salud de abordaje prioritario que desarrollan los Centros Madrid Salud son:   Alimentación, actividad física y salud  Salud sexual y reproductiva  Prevención y promoción de la salud en el ámbito educativo  Envejecimiento activo y saludable  Salud materno-infantil  Deshabituación tabáquica  Prevención y promoción de Salud Mental o Psicohigiene  Desigualdades sociales en salud  Entorno urbano y salud   Los que se desarrollan en el Centro Madrid Salud de Latina actualmente los puede consultar en:  http://www.madridsalud.es/centros/latina.php" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=d4234b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.40955885950758"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.7391695341734"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "CITACIONES: 915 262 565 / 914 649 972 / 914 794 666" ;
+	schema:email "cmslatina@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EXTREMADURA> a schema:PostalAddress ;
+	schema:streetAddress "EXTREMADURA" ;
+	schema:postalCode "28011"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "147"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "PASEO" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludLatina> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PUERTADELANGEL> a ontology:Barrio ;
+	schema:name "PUERTA DEL ANGEL" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EXTREMADURA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PUERTADELANGEL> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/PUERTADELANGEL> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/LATINA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EXTREMADURA> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/PUERTADELANGEL> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludLatina> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/EXTREMADURA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludPuentedeVallecas> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "148488"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "CMS Centro Madrid Salud Puente de Vallecas" ;
+	ontology:horario "De lunes a viernes de 8:30 a 20:30 horas   Anticoncepción de urgencia  (pildora postcoital):  De lunes a viernes de 9 a 20 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro." ;
+	ontology:transportePublico "Metro: Nueva Numancia  Bus: 10 , 24 , 54 , 57 , 58 , 111 , 140" ;
+	schema:description "Ámbito de influencia:     -  Distrito de Puente de Vallecas: Entrevías, Palomeras Bajas, Numancia, San Diego, Palomeras Altas, Portazgo     Los programas marco de salud de abordaje prioritario que desarrollan los Centros Madrid Salud son:   Alimentación, actividad física y salud  Salud sexual y reproductiva  Prevención y promoción de la salud en el ámbito educativo  Envejecimiento activo y saludable  Salud materno-infantil  Deshabituación tabáquica  Prevención y promoción de Salud Mental o Psicohigiene  Desigualdades sociales en salud  Entorno urbano y salud   Los que se desarrollan en el Centro Madrid Salud de Puente de Vallecas actualmente los puede consultar en:  http://www.madridsalud.es/centros/puenteva.php" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=f759ac2e6481c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.39525784370076"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.665615521144969"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "CITACIONES: 915 886 016 / 915 133 025" ;
+	schema:email "cmsvallecasp@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CONCORDIA> ontology:number "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludPuentedeVallecas> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludPuentedeVallecas> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CONCORDIA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludSanBlas> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "4645539"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "CMS Centro Madrid Salud San Blas" ;
+	ontology:horario "De lunes a viernes de 8:30 a 20:30 horas    Anticoncepción de urgencia (pildora postcoital):  Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro.   De lunes a viernes de 9 a 15 horas.   Lunes de 15 a 20 horas.   Martes y jueves de 15 a 17 horas." ;
+	ontology:transportePublico "Autobus: 38, 48, 106  Metro: San Blas, Simancas" ;
+	schema:description "Ámbito de influencia:  Barrios de Simancas, Salvador, Hellín, Amposta, Arcos y Rosas  Los programas marco de salud de abordaje prioritario que desarrollan los Centros Madrid Salud son:   Alimentación, actividad física y salud  Salud sexual y reproductiva  Prevención y promoción de la salud en el ámbito educativo  Envejecimiento activo y saludable  Salud materno-infantil  Deshabituación tabáquica  Prevención y promoción de Salud Mental o Psicohigiene  Desigualdades sociales en salud  Entorno urbano y salud   Los que se desarrollan en el Centro Madrid Salud de San Blas actualmente los puede consultar en:  http://www.madridsalud.es/centros/sblas.php" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=40b3b8facf715110VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.42273298805746"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6257362568065243"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "CITACIONES: 917 609 656/47" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/POBLADURADELVALLE> a schema:PostalAddress ;
+	schema:streetAddress "POBLADURA DEL VALLE" ;
+	schema:postalCode "28037"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "13 B"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludSanBlas> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/AMPOSTA> a ontology:Barrio ;
+	schema:name "AMPOSTA" ;
+	ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/POBLADURADELVALLE> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/SANBLAS-CANILLEJAS> a ontology:Distrito ;
+	schema:name "SAN BLAS-CANILLEJAS" ;
+	ontology:tieneBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/AMPOSTA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> ontology:tieneDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/SANBLAS-CANILLEJAS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Distrito/SANBLAS-CANILLEJAS> ontology:estaEnCiudad <http://sandbox.linkeddata.es/onto/Group07/Ciudad/MADRID> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/AMPOSTA> ontology:estaEnDistrito <http://sandbox.linkeddata.es/onto/Group07/Distrito/SANBLAS-CANILLEJAS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/POBLADURADELVALLE> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/AMPOSTA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludSanBlas> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/POBLADURADELVALLE> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludTetuan> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "8871"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "CMS Centro Madrid Salud Tetuan" ;
+	ontology:horario "De lunes a viernes de 8:30 a 20:30 horas   Anticoncepción de urgencia (pildora postcoital):   De lunes a viernes de 8:30 a 20 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro.   Vacunación:  con cita previa" ;
+	ontology:transportePublico "Metro: Valdeacederas  Bus: 42 , 49 , 124" ;
+	schema:description "Ámbito de influencia:    Distrito de Chamartín: Barrios de Hispanoamérica , Nueva España y Castilla  Distrito de Tetuán.   Los programas marco de salud de abordaje prioritario que desarrollan los Centros Madrid Salud son:   Alimentación, actividad física y salud  Salud sexual y reproductiva  Prevención y promoción de la salud en el ámbito educativo  Envejecimiento activo y saludable  Salud materno-infantil  Deshabituación tabáquica  Prevención y promoción de Salud Mental o Psicohigiene  Desigualdades sociales en salud  Entorno urbano y salud   Los que se desarrollan en el Centro Madrid Salud de Tetuán actualmente los puede consultar en:  http://www.madridsalud.es/centros/tetuan.php" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=71734b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.46548064796593"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6936383781020643"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "CITACIONES: 915 886 675/ 915 886 689" ;
+	schema:email "cmstetuan@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/AGUILEÑAS> a schema:PostalAddress ;
+	schema:streetAddress "AGUILEÑAS" ;
+	schema:postalCode "28029"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludTetuan> .
+
+<http://sandbox.linkeddata.es/onto/Group07/Barrio/ALMENARA> ontology:tieneDireccion <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/AGUILEÑAS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/AGUILEÑAS> ontology:estaEnBarrio <http://sandbox.linkeddata.es/onto/Group07/Barrio/ALMENARA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludTetuan> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/AGUILEÑAS> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludRetiro> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "8872"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "CMS Centro Madrid Salud Retiro" ;
+	ontology:horario "De lunes a viernes de 9 a 15 horas    Anticoncepción de urgencia  (píldora postcoital): de lunes a viernes de 9 a 15 horas. Si necesita atención poscoital hasta las 20 horas, se atenderá en la misma dirección por los profesionales del  CMS  de Puente de Vallecas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto telefónico con el centro.   Vacunación:  con cita previa" ;
+	ontology:transportePublico "Metro: Nueva Numancia  Bus: 10 , 24, 54, 57, 58, 111, 140" ;
+	schema:description "Ámbito de influencia:   Distrito de Retiro: Pacífico, Adelfas, Estrella, Ibiza, Jerónimos, Niño Jesús   Distrito de Salamanca: Recoletos, Goya, Fuente del Berro, Guindalera, Lista, Castellana   Los programas marco de salud de abordaje prioritario que desarrollan los Centros Madrid Salud son:   Alimentación, actividad física y salud  Salud sexual y reproductiva  Prevención y promoción de la salud en el ámbito educativo  Envejecimiento activo y saludable  Salud materno-infantil  Prevención y promoción de Salud Mental o Psicohigiene  Desigualdades sociales en salud  Entorno urbano y salud   Los que se desarrollan en el Centro Madrid Salud de Retiro actualmente los puede consultar en:  http://www.madridsalud.es/centros/retiro.php" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=2b434b6faa61c010VgnVCM1000000b205a0aRCRD" ;
+	schema:latitude "40.39525784370076"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.665615521144969"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "CITACIONES: 913 601 530" ;
+	schema:email "cmsretiro@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CONCORDIA> ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludRetiro> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludRetiro> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/CONCORDIA> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludHortaleza> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "17433"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "CMS Centro Madrid Salud Hortaleza" ;
+	ontology:horario "De lunes a viernes de 8:30 a 20:30 horas   Anticoncepción de urgencia (pildora postcoital):   De lunes a viernes de 9 a 17 horas. Para evitar esperas innecesarias, le sugerimos se ponga en contacto teléfonico con el centro.   Vacunación:  con cita previa" ;
+	ontology:transportePublico "Bus: 73 , 120 , 122  Metro: L 4, estación Canillas" ;
+	schema:description "Ámbito de influencia:   Distrito de Hortaleza  Distrito de Barajas.   Los programas marco de salud de abordaje prioritario que desarrollan los Centros Madrid Salud son:   Alimentación, actividad física y salud  Salud sexual y reproductiva  Prevención y promoción de la salud en el ámbito educativo  Envejecimiento activo y saludable  Deshabituación tabáquica  Prevención y promoción de Salud Mental o Psicohigiene  Desigualdades sociales en salud  Entorno urbano y salud   Los que se desarrollan en el Centro Madrid Salud de Hortaleza actualmente los puede consultar en:  http://www.madridsalud.es/centros/hortaleza.php" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=aec4e35bba51c010VgnVCM2000000c205a0aRCRD" ;
+	schema:latitude "40.46218555303646"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.627022202641673"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "CITACIONES: 917 489 197 / 917 489 207" ;
+	schema:email "cmshortaleza@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/JUANCLEMENTENUÑEZ> a schema:PostalAddress ;
+	schema:streetAddress "JUAN CLEMENTE NUÑEZ" ;
+	schema:postalCode "28043"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:number "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	ontology:tipoVia "CALLE" ;
+	ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludHortaleza> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/CMSCentroMadridSaludHortaleza> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/JUANCLEMENTENUÑEZ> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/ServiciodeInmunoprofilaxisdelaRabiaHumana> a ontology:CentrosSalud , schema:Place ;
+	ontology:pk "8835"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:name "Servicio de Inmunoprofilaxis de la Rabia Humana" ;
+	ontology:horario "De lunes a viernes de 9 a 14 horas" ;
+	ontology:transportePublico "Metro: Manuel Becerra Bus: 1 , 2 , 12 , 21 , 43 , 48 , 53 , 56 , 74 , 146 , 210 , C" ;
+	ontology:accesibilidad "1"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	schema:url "http://www.madrid.es/vgn-ext-templating/v/index.jsp?vgnextchannel=9e4c43db40317010VgnVCM100000dc0ca8c0RCRD&vgnextoid=706f34c0e2c5f010VgnVCM2000000c205a0aRCRD" ;
+	schema:latitude "40.428976927386806"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:longitude "-3.6721607026353884"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	schema:telephone "915 885 960 / 915 885 180 / 915 885 949" ;
+	schema:email "mspinternacional@madrid.es" .
+
+<http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONTESA> ontology:contieneLugar <http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/ServiciodeInmunoprofilaxisdelaRabiaHumana> .
+
+<http://sandbox.linkeddata.es/onto/Group07/CentrosSalud/ServiciodeInmunoprofilaxisdelaRabiaHumana> schema:address <http://sandbox.linkeddata.es/onto/Group07/PostalAddress/MONTESA> .

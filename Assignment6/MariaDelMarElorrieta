@@ -1,0 +1,165 @@
+Query 1 : How many accidents were in Madrid in 2013
+
+PREFIX rs: <http://purl.org/linked-data/cube#>
+PREFIX rsp: <http://example.org/myVocabulary#>
+
+SELECT (SUM(?accidents) AS ?total) 
+WHERE 
+{
+ ?observation a rs:Observation;
+ rsp:numberOfAccidents ?accidents .
+}
+
+Resultado:
+
+total
+11749
+
+-------------------------------------------------------------
+
+Query 2 : Number of accidents in Usera for each type of accident 
+
+PREFIX rs: <http://purl.org/linked-data/cube#>
+PREFIX rsp: <http://example.org/myVocabulary#>
+
+SELECT ?accidents ?type 
+
+WHERE 
+{
+   ?observation a rs:Observation;
+   rsp:relatedDistrict "USERA";
+   rsp:hasAccidentType ?type;
+   rsp:numberOfAccidents ?accidents .
+}
+
+Resultado:
+
+accidents					type
+"204"^^<http://www.w3.org/2001/XMLSchema#int>	http://example.org/myVocabulary#DoubleCollision
+"28"^^<http://www.w3.org/2001/XMLSchema#int>	http://example.org/myVocabulary#MultipleCollision
+"70"^^<http://www.w3.org/2001/XMLSchema#int>	http://example.org/myVocabulary#CollisionWithObject
+"59"^^<http://www.w3.org/2001/XMLSchema#int>	http://example.org/myVocabulary#RunOver
+"2"^^<http://www.w3.org/2001/XMLSchema#int>	http://example.org/myVocabulary#Overturn
+"13"^^<http://www.w3.org/2001/XMLSchema#int>	http://example.org/myVocabulary#MotorcycleFall
+"5"^^<http://www.w3.org/2001/XMLSchema#int>	http://example.org/myVocabulary#MopedFall
+"1"^^<http://www.w3.org/2001/XMLSchema#int>	http://example.org/myVocabulary#BicycleFall
+"3"^^<http://www.w3.org/2001/XMLSchema#int>	http://example.org/myVocabulary#BusPassengerFall
+"2"^^<http://www.w3.org/2001/XMLSchema#int>	http://example.org/myVocabulary#OtherCause
+
+----------------------------------------------------------------
+
+Query 3 : Number of multiple collisions for each district
+
+
+PREFIX rs: <http://purl.org/linked-data/cube#>
+PREFIX rsp: <http://example.org/myVocabulary#>
+
+
+SELECT ?accidents ?district 
+WHERE 
+{
+   ?observation a rs:Observation;
+   rsp:relatedDistrict ?district;
+   rsp:hasAccidentType rsp:MultipleCollision;
+   rsp:numberOfAccidents ?accidents .
+}
+
+
+Resultado:
+
+accidents					district
+"4"^^<http://www.w3.org/2001/XMLSchema#int>	BARAJAS
+"4"^^<http://www.w3.org/2001/XMLSchema#int>	VICALVARO
+"4"^^<http://www.w3.org/2001/XMLSchema#int>	VILLA DE VALLECAS
+"11"^^<http://www.w3.org/2001/XMLSchema#int>	VILLAVERDE
+"14"^^<http://www.w3.org/2001/XMLSchema#int>	MORATALAZ
+"16"^^<http://www.w3.org/2001/XMLSchema#int>	SAN BLAS
+"18"^^<http://www.w3.org/2001/XMLSchema#int>	HORTALEZA
+"28"^^<http://www.w3.org/2001/XMLSchema#int>	USERA
+"29"^^<http://www.w3.org/2001/XMLSchema#int>	LATINA
+"30"^^<http://www.w3.org/2001/XMLSchema#int>	CHAMBERI
+"33"^^<http://www.w3.org/2001/XMLSchema#int>	CENTRO
+"35"^^<http://www.w3.org/2001/XMLSchema#int>	TETUAN
+"37"^^<http://www.w3.org/2001/XMLSchema#int>	PUENTE DE VALLECAS
+"40"^^<http://www.w3.org/2001/XMLSchema#int>	CARABANCHEL
+"42"^^<http://www.w3.org/2001/XMLSchema#int>	FUENCARRAL-EL PARDO
+"50"^^<http://www.w3.org/2001/XMLSchema#int>	ARGANZUELA
+"52"^^<http://www.w3.org/2001/XMLSchema#int>	CIUDAD LINEAL
+"59"^^<http://www.w3.org/2001/XMLSchema#int>	RETIRO
+"65"^^<http://www.w3.org/2001/XMLSchema#int>	MONCLOA-ARAVACA
+"70"^^<http://www.w3.org/2001/XMLSchema#int>	SALAMANCA
+"82"^^<http://www.w3.org/2001/XMLSchema#int>	CHAMARTIN
+
+-----------------------------------------------------------------------------
+
+Query 4 : District were the number of bicycle falls was higher in 2013 
+
+PREFIX rs: <http://purl.org/linked-data/cube#>
+PREFIX rsp: <http://example.org/myVocabulary#>
+
+SELECT ?district ?max 
+WHERE 
+{
+  ?observation a rs:Observation;
+  rsp:relatedDistrict ?district;
+  rsp:hasAccidentType rsp:BicycleFall;
+  rsp:numberOfAccidents ?max
+    {
+       SELECT (MAX(?accidents) AS ?max) 
+       WHERE 
+       {
+        ?observation a rs:Observation;
+ 	rsp:relatedDistrict ?district;
+	rsp:hasAccidentType rsp:BicycleFall;
+ 	rsp:numberOfAccidents ?accidents .
+
+       }
+    }
+} 
+
+Resultados
+
+district	max
+FUENCARRAL-EL PARDO	"13"^^<http://www.w3.org/2001/XMLSchema#int>
+MONCLOA-ARAVACA	"13"^^<http://www.w3.org/2001/XMLSchema#int>
+SAN BLAS	"13"^^<http://www.w3.org/2001/XMLSchema#int>
+
+----------------------------------------------------------------------------------------
+
+Query 5 : Give me the districts with more than 500 accidents in 2013
+
+PREFIX rs: <http://purl.org/linked-data/cube#>
+PREFIX rsp: <http://example.org/myVocabulary#>
+
+
+SELECT ?district ?accidents
+{
+ {SELECT ?district (SUM(xsd:double(?accident)) AS ?accidents) 
+    WHERE 
+     {
+      ?observation a rs:Observation;
+      rsp:relatedDistrict ?district;
+      rsp:numberOfAccidents ?accident .
+     }
+   }
+    FILTER(?accidents> 500)
+} 
+ ORDER BY ASC(?accidents)
+
+Resultados
+
+district	accidents
+SAN BLAS	518
+LATINA		530
+RETIRO		593
+TETUAN		594
+ARGANZUELA	631
+PUENTE DE VALLECAS	651
+FUENCARRAL-EL PARDO	682
+MONCLOA-ARAVACA	702
+CARABANCHEL	709
+CHAMBERI	715
+CIUDAD LINEAL	750
+CHAMARTIN	844
+CENTRO		926
+SALAMANCA	982

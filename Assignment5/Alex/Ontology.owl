@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <Ontology rdf:about="http://www.example.com/ontologies/myontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#IdiomaPertenecientePais -->
+
+    <ObjectProperty rdf:about="http://www.example.com/ontologies/myontology#IdiomaPertenecientePais">
+        <rdfs:range rdf:resource="http://www.example.com/ontologies/myontology#Country"/>
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#CountryLanguage"/>
+        <inverseOf rdf:resource="http://www.example.com/ontologies/myontology#tieneIdioma"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#PertencePais -->
+
+    <ObjectProperty rdf:about="http://www.example.com/ontologies/myontology#PertencePais">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#City"/>
+        <rdfs:range rdf:resource="http://www.example.com/ontologies/myontology#Country"/>
+        <inverseOf rdf:resource="http://www.example.com/ontologies/myontology#tieneCiudad"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#tieneCiudad -->
+
+    <ObjectProperty rdf:about="http://www.example.com/ontologies/myontology#tieneCiudad">
+        <rdfs:range rdf:resource="http://www.example.com/ontologies/myontology#City"/>
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#Country"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#tieneIdioma -->
+
+    <ObjectProperty rdf:about="http://www.example.com/ontologies/myontology#tieneIdioma">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#Country"/>
+        <rdfs:range rdf:resource="http://www.example.com/ontologies/myontology#CountryLanguage"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#Capital -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#Capital">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#Country"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#Code -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#Code">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#Country"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#Code2 -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#Code2">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#Country"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#Continent -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#Continent">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#Country"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#CountryCode -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#CountryCode">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#CountryLanguage"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#CountryCodeCity -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#CountryCodeCity">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#City"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#DistrictCity -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#DistrictCity">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#City"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#GNP -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#GNP">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#Country"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#GNPOId -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#GNPOId">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#Country"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#GovernmentForm -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#GovernmentForm">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#Country"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#HeadOfState -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#HeadOfState">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#Country"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#ID-City -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#ID-City">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#City"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#IndepYear -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#IndepYear">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#Country"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#IsOfficial -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#IsOfficial">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#CountryLanguage"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#Language -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#Language">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#CountryLanguage"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#LifeExpectancy -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#LifeExpectancy">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#Country"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#LocalName -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#LocalName">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#Country"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#Name-City -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#Name-City">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#City"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#NameCountry -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#NameCountry">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#Country"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#Percentage -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#Percentage">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#CountryLanguage"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#Population -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#Population">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#Country"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#PopulationCity -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#PopulationCity">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#City"/>
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#Region -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#Region">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#Country"/>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#SurfaceArea -->
+
+    <DatatypeProperty rdf:about="http://www.example.com/ontologies/myontology#SurfaceArea">
+        <rdfs:domain rdf:resource="http://www.example.com/ontologies/myontology#Country"/>
+        <rdfs:range rdf:resource="&xsd;float"/>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#City -->
+
+    <Class rdf:about="http://www.example.com/ontologies/myontology#City">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <rdfs:comment>Entidad ciudad</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#Country -->
+
+    <Class rdf:about="http://www.example.com/ontologies/myontology#Country">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <rdfs:comment>entidad País</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.example.com/ontologies/myontology#CountryLanguage -->
+
+    <Class rdf:about="http://www.example.com/ontologies/myontology#CountryLanguage">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <rdfs:comment>Entidad Idioma</rdfs:comment>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

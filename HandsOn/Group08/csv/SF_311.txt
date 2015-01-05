@@ -1,0 +1,17 @@
+
+SF_311_3Months
+
+CaseID . Number (Non Unique . Greater than 0)
+Opened . Date (blank)
+Closed . Date (blank)
+Updated . Date (blank)
+Status . Boolean (open or closed)
+Responsible Agency . String
+Category . String [Enumeration]
+Request Type . String [Enumeration]
+Request Details . String [Enumeration]
+Address . String
+Supervisor District . Number
+Neighborhood . String
+Point . String . (Non Unique . Geometry - Point (lat, lng))
+Media URL . String (URL, blank)

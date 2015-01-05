@@ -1,0 +1,8 @@
+Column					Type		Comments/Range									Poblems
+-------------------------------------------------------------------------------------------------------------------------------------
+Facility_I				String		Unique,Not Null					
+Facility_N				String		Unique,Not Null
+DEPTNAME				String		Value = SF Unified School District (SFUSD)		
+DEPT 					Integer		Value = 7
+SCHOOL_TYP				String		Not Unique,Not Null
+geometry				String		Unique??,Not Null								Coordenadas estan dentro de la ciudad?,Son unicos

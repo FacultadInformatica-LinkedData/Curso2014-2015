@@ -1,0 +1,7 @@
+| Column    | Type    | Comments / Range       | Problems                                                            |
+|-----------+---------+------------------------+---------------------------------------------------------------------|
+| land_id   | String  | Not unique?            | Seems unique but there is one duplicated occurence                  |
+| land_name | String  | Not unique             |                                                                     |
+| category  | String  | Not unique, 14 choices |                                                                     |
+| dept      | Integer | 0 - 370                |                                                                     |
+| geometry  | String  | Not unique             | One duplicated, can't consider unique (land under land for example) |

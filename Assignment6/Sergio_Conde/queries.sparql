@@ -1,0 +1,79 @@
+## How many accidents were there in Madrid in 2013?
+
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX mn: <http://example.org/resources/>
+
+SELECT (SUM(?a) AS ?total) WHERE {
+  ?obs a qb:Observation;
+    mv:numberOfAccidents ?a;
+    qb:dataSet mn:MyDataset.
+}
+
+## Give me the number of accidents in Usera for each type of accident
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX mn: <http://example.org/resources/>
+
+SELECT ?type ?number WHERE {
+  ?obs a qb:Observation;
+    mv:relatedDistrict ?district;
+    mv:hasAccidentType ?type;
+    mv:numberOfAccidents ?number;
+    qb:dataSet mn:MyDataset.
+
+  FILTER regex(?district, "USERA")
+}
+
+## Give me the number of multiple collisions for each district
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX mn: <http://example.org/resources/>
+
+SELECT ?district ?multipleCollisions WHERE {
+  ?obs a qb:Observation;
+    mv:relatedDistrict ?district;
+    mv:hasAccidentType mv:MultipleCollision;
+    mv:numberOfAccidents ?multipleCollisions;
+    qb:dataSet mn:MyDataset.
+}
+
+## Which is the district were the number of bicycle falls was higher in 2013?
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX mn: <http://example.org/resources/>
+
+SELECT ?district ?maxBicycleFalls WHERE {
+  {
+    SELECT MAX(?num) AS ?maxBicycleFalls WHERE {
+      ?obs a qb:Observation;
+        mv:hasAccidentType mv:BicycleFall;
+        mv:numberOfAccidents ?num;
+        qb:dataSet mn:MyDataset.
+      }
+    }
+
+  ?obs a qb:Observation;
+    mv:relatedDistrict ?district;
+    mv:hasAccidentType mv:BicycleFall;
+    mv:numberOfAccidents ?maxBicycleFalls;
+    qb:dataSet mn:MyDataset.
+}
+
+## Give me the districts with more than 500 accidents in 2013
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX mv: <http://example.org/myVocabulary#>
+PREFIX mn: <http://example.org/resources/>
+
+SELECT ?district ?numAccidents WHERE {
+  {
+    SELECT ?district (SUM(xsd:integer(?numTypeAccidents)) AS ?numAccidents) WHERE {
+      ?obs a qb:Observation;
+        mv:relatedDistrict ?district;
+        mv:numberOfAccidents ?numTypeAccidents;
+        qb:dataSet mn:MyDataset.
+    } GROUP BY ?district
+  }
+
+  FILTER(?numAccidents > 500)
+} ORDER BY DESC (?numAccidents)

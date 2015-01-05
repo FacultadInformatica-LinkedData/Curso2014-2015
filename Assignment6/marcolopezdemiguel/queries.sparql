@@ -1,0 +1,78 @@
+Queries:
+
+
+-  How many accidents were in Madrid in 2013?
+
+PREFIX year: <http://example.org/resources/year>
+PREFIX property: <http://example.org/myVocabulary#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT (SUM(?x) AS ?NumeroTotalAccidentes) WHERE{
+    ?obs a qb:Observation;
+        property:numberOfAccidents ?x.
+}
+
+
+-  Give me the number of accidents in Usera for each type of
+accident
+PREFIX year: <http://example.org/resources/year>
+PREFIX property: <http://example.org/myVocabulary#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT * WHERE{
+    ?PoblacionTipoAccidente <http://example.org/myVocabulary#relatedDistrict> 'USERA';
+    property:numberOfAccidents ?x.
+}
+
+
+-  Give me the number of multiple collisions for each district
+PREFIX year: <http://example.org/resources/year>
+PREFIX property: <http://example.org/myVocabulary#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT ?district ?accidentesMultiples WHERE{
+    ?PoblacionTipoAccidente <http://example.org/myVocabulary#hasAccidentType> ?d;
+    property:hasAccidentType <http://example.org/myVocabulary#MultipleCollision>;
+    property:relatedDistrict ?district;
+    property:numberOfAccidents ?accidentesMultiples.
+    
+}
+
+-  Which is the district were the number of bicycle falls was
+higher in 2013?
+PREFIX year: <http://example.org/resources/year>
+PREFIX property: <http://example.org/myVocabulary#>
+PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT ?district WHERE{
+    ?PoblacionTipoAccidente <http://example.org/myVocabulary#hasAccidentType> ?d;
+    property:hasAccidentType <http://example.org/myVocabulary#BicycleFall>;
+    property:relatedDistrict ?district;
+    property:numberOfAccidents ?numeroAccidentes.
+    { 
+	SELECT (MAX(?numeroAccidentes) AS ?numeroAccidentes) WHERE 
+		{
+			?obs a qb:Observation ;
+            property:numberOfAccidents ?numeroAccidentes;
+			property:hasAccidentType property:BicycleFall.
+		} 
+	}
+}
+
+
+-  Give me the districts with more than 500 accidents in 2013
+
+PREFIX property: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT ?district ?numeroAccidentes WHERE
+{
+	{
+		SELECT ?district SUM(xsd:int(?numeroAccidentes)) AS ?numeroAccidentes WHERE
+		{
+			?obs a qb:Observation ;
+			property:numberOfAccidents ?numeroAccidentes;
+			property:relatedDistrict ?district.
+		}
+	}
+	FILTER(?numeroAccidentes > 500)	
+}

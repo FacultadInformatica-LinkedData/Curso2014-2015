@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title>datasetRequirements</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta name="title" content="datasetRequirements"/>
+    <meta name="author" content="Grupo08"/>
+    <meta name="description" content="Dataset requirements of Semantic Web HandsOn"/>
+    <meta name="keywords" content=""/>
+    <style type="text/css">
+      html { font-size: 12pt; }
+      .title  { text-align: center; }
+      .todo   { color: red; }
+      .done   { color: green; }
+      .tag    { background-color: #add8e6; font-weight:normal }
+      .timestamp { color: #bebebe; }
+      .timestamp-kwd { color: #5f9ea0; }
+      .right  { margin-left:auto; margin-right:0px;  text-align:right; }
+      .left   { margin-left:0px;  margin-right:auto; text-align:left; }
+      .center { margin-left:auto; margin-right:auto; text-align:center; }
+    </style>
+  </head>
+  <body>
+    <div id="content">
+      <h1 class="title">Group 08 - Dataset Requirements</h1>
+      <div id="table-of-contents">
+        <h2>Table of Contents</h2>
+        <div id="text-table-of-contents">
+          <ul>
+            <li><a href="#sec-0">0 Datasets</a></li>
+            <li><a href="#sec-1">1 Smart Cities Domain</a></li>
+            <li><a href="#sec-2">2 Data are available in a CSV file</a></li>
+            <li><a href="#sec-3">3 Data have a open license</a></li>
+            <li><a href="#sec-4">4 Data can easily linked with real-wold entities</a></li>
+            <li><a href="#sec-5">5 Documentation exist for the data (optional)</a></li>
+            <li><a href="#sec-6">6 Data can come from multiple data sources (optional)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="sec-0">
+        <h2>0. Datasets</h2>
+        <p>The chosen datasets about San Francisco City are (click to download original):</p>
+        <ul>
+          <li><a href="https://data.sfgov.org/api/views/vw6y-z8j6/rows.csv?accessType=DOWNLOAD">311 Service Requests</a></li>
+          <li><a href="https://data.sfgov.org/api/views/tmnf-yvry/rows.csv?accessType=DOWNLOAD">Crime</a></li>
+          <li><a href="https://data.sfgov.org/download/mici-sct2/ZIP">GIS Mapping</a></li>
+          <li><a href="http://archives.sfmta.com/transitdata/google_transit.zip">GTFS Public Transport</a></li>
+          <li><a href="https://data.sfgov.org/download/nt8v-6azn/ZIP">Public Buildings</a></li>
+          <li><a href="https://data.sfgov.org/download/7ygx-tr8p/ZIP">Public</a> and <a href="https://data.sfgov.org/download/64n6-x2xf/ZIP">Private</a> Schools
+          </li>
+        </ul>
+      </div>
+      <div id="sec-1">
+        <h2>1. Smart Cities Domain</h2>
+        <p>The chosen datasets have some properties in the context of smart cities for this task:</p>
+        <ul>
+          <li>Since they promote the cooperation and use of data by the comunity users.</li>
+          <li>To contibute to raise life quality of the users.</li>
+          <li>Each one have geospatial representation for link with real world.</li>
+          <li>Finally, they promote the proposed smart cities requirements in the hands on.</li>
+        </ul>
+      </div>
+      <div id="sec-2">
+        <h2>2. Data are available in a CSV file</h2>
+        <p>Some datasets have Shapefile or similar format.</p>
+        <p>We have used GDAL Library, Google Fusion Tables and Open Refine to convert them to CSV.</p>
+      </div>
+      <div id="sec-3">
+        <h2>3. Data have a open license</h2>
+        <p>The license in all cases is CC0 1.0 Universal. Datasets are available online for free.</p>
+      </div>
+      <div id="sec-4">
+        <h2>4. Data can easily linked with real-wold entities</h2>
+        <p>The link in all cases is GPS coordinates.</p>
+        <p>For example, Both public and private schools are physical buildings.</p>
+      </div>
+      <div id="sec-5">
+        <h2>5. Documentation exist for the data (optional)</h2>
+        <p>GTFS Public Transport dataset have documentation at Google due to it is Generic format. <a href="https://developers.google.com/transit/gtfs/reference?hl=en">[Link to Google Documentation]</a></p>
+        <p>311 Service Request dataset have documentation because it use 311 Standard. <a href="http://wiki.open311.org/GeoReport_v2">[Link to Open311 Documentation]</a></p></p>
+        <p>Zoning GIS use Planning Department's Map Library Summaries of the Zoning District codes. <a href="http://www.sf-planning.org/index.aspx?page=1580">[Link to GIS Documentation]</a></p></p>
+      </div>
+      <div id="sec-6">
+        <h2>6. Data can come from multiple data sources (optional)</h2>
+        <p>Datasets from: City and County of San Francisco</p>
+        <ul>
+          <li>San Francisco Public Schools - Points</li>
+          <li>Private Schools (Points)</li>
+          <li>San Francisco City Lands - Current</li>
+          <li>SFPD Incidents - Previous Three Months</li>
+        </ul>
+        <p>Datasets from: City and County of San Francisco Planning Department</p>
+        <ul>
+          <li>Zoning Districts</li>
+        </ul>
+        <p>Datasets from: San Francisco 311</p>
+        <ul>
+          <li>Case Data from San Francisco 311</li>
+        </ul>
+        <p>Datasets from: San Francisco Municipal Transportation Agency</p>
+        <ul>
+          <li>GTFS for San Francisco (Contributor: Andrew Hyder)</li>
+        </ul>
+      </div>
+    </div>
+    <div id="postamble">
+      <p class="timestamp">Date: 2014-10-19</p>
+    </div>
+  </body>
+</html>

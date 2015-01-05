@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://sandbox.linkeddata.es/onto/Group07"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://sandbox.linkeddata.es/onto/Group07">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="/Barrio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/CentrosDeportivos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/CentrosSalud"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Distrito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/PostalAddress"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/contineLugar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/estaEnBarrio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/estaEnCiudad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/estaEnDistrito"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/tieneBarrio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/tieneDireccion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/tieneDistrito"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://schema.org/address"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/accesibilidad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/horario"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/pk"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/tipoVia"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/transportePublico"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/faxNumber"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/latitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/longitude"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/postalCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/streetAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/telephone"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/url/url"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="/CentrosDeportivos"/>
+        <Class IRI="http://schema.org/Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/CentrosSalud"/>
+        <Class IRI="http://schema.org/Place"/>
+    </SubClassOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://schema.org/address"/>
+        <ObjectProperty IRI="/contineLugar"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/tieneDireccion"/>
+        <ObjectProperty IRI="/estaEnBarrio"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/tieneDistrito"/>
+        <ObjectProperty IRI="/estaEnCiudad"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/estaEnDistrito"/>
+        <ObjectProperty IRI="/tieneBarrio"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/contineLugar"/>
+        <Class IRI="http://schema.org/PostalAddress"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/estaEnBarrio"/>
+        <Class IRI="http://schema.org/PostalAddress"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/estaEnCiudad"/>
+        <Class IRI="/Distrito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/estaEnDistrito"/>
+        <Class IRI="/Barrio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/tieneBarrio"/>
+        <Class IRI="/Distrito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/tieneDireccion"/>
+        <Class IRI="/Barrio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/tieneDistrito"/>
+        <Class IRI="http://schema.org/City"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://schema.org/address"/>
+        <Class IRI="http://schema.org/Place"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/contineLugar"/>
+        <Class IRI="http://schema.org/Place"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/estaEnBarrio"/>
+        <Class IRI="/Barrio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/estaEnCiudad"/>
+        <Class IRI="http://schema.org/City"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/estaEnDistrito"/>
+        <Class IRI="/Distrito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/tieneBarrio"/>
+        <Class IRI="/Barrio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/tieneDireccion"/>
+        <Class IRI="http://schema.org/PostalAddress"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/tieneDistrito"/>
+        <Class IRI="/Distrito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://schema.org/address"/>
+        <Class IRI="http://schema.org/PostalAddress"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="/accesibilidad"/>
+        <Class IRI="http://schema.org/Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/horario"/>
+        <Class IRI="http://schema.org/Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/number"/>
+        <Class IRI="http://schema.org/PostalAddress"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/pk"/>
+        <Class IRI="http://schema.org/Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/tipoVia"/>
+        <Class IRI="http://schema.org/PostalAddress"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/transportePublico"/>
+        <Class IRI="http://schema.org/Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/description"/>
+        <Class IRI="http://schema.org/Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/email"/>
+        <Class IRI="http://schema.org/Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/faxNumber"/>
+        <Class IRI="http://schema.org/Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/latitude"/>
+        <Class IRI="http://schema.org/Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/longitude"/>
+        <Class IRI="http://schema.org/Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/name"/>
+        <Class IRI="/Barrio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/name"/>
+        <Class IRI="/Distrito"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/name"/>
+        <Class IRI="http://schema.org/City"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/name"/>
+        <Class IRI="http://schema.org/Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/postalCode"/>
+        <Class IRI="http://schema.org/PostalAddress"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/streetAddress"/>
+        <Class IRI="http://schema.org/PostalAddress"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/telephone"/>
+        <Class IRI="http://schema.org/Place"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/url/url"/>
+        <Class IRI="http://schema.org/Place"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="/accesibilidad"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/horario"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/number"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/pk"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/tipoVia"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/transportePublico"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://schema.org/description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://schema.org/email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://schema.org/faxNumber"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://schema.org/latitude"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://schema.org/longitude"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://schema.org/name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://schema.org/postalCode"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://schema.org/streetAddress"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://schema.org/telephone"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://schema.org/url/url"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

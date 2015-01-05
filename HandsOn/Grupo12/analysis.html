@@ -1,0 +1,1515 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 14 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<h1>Analyse Data Set</h1>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<body lang=ES-TRAD>
+
+<div class=WordSection1>
+
+<p class=MsoNormal><b><u><span style='font-size:16.0pt;line-height:115%'>AGENDA
+EVENTOS CULTURALES</span></u></b></p>
+
+<table class=MsoTableLightShadingAccent1 border=1 cellspacing=0 cellpadding=0
+ width=550 style='width:412.75pt;border-collapse:collapse;border:none'>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border-top:solid #4F81BD 1.0pt;
+  border-left:none;border-bottom:solid #4F81BD 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>COLUMNA</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border-top:solid #4F81BD 1.0pt;
+  border-left:none;border-bottom:solid #4F81BD 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>TIPO</span></b></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border-top:solid #4F81BD 1.0pt;
+  border-left:none;border-bottom:solid #4F81BD 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>RANGO</span></b></p>
+  </td>
+  <td width=124 nowrap valign=top style='width:93.05pt;border-top:solid #4F81BD 1.0pt;
+  border-left:none;border-bottom:solid #4F81BD 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>PROBLEMS</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'> ID-EVENTO</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=294 nowrap colspan=2 valign=top style='width:220.6pt;border:none;
+  background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>6,100,000 — 7,700,000</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>TITULO</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique</span></p>
+  </td>
+  <td width=124 nowrap valign=top style='width:93.05pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>GRATUITO</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Binary</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>0-1</span></p>
+  </td>
+  <td width=124 nowrap valign=top style='width:93.05pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>LARGA-DURACION</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Binary</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>0-1</span></p>
+  </td>
+  <td width=124 nowrap valign=top style='width:93.05pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>DIAS-SEMANA</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=294 nowrap colspan=2 valign=top style='width:220.6pt;border:none;
+  background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique, empty values</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>FECHA</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Date</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique</span></p>
+  </td>
+  <td width=124 nowrap valign=top style='width:93.05pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>FECHA-FIN</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Date</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique</span></p>
+  </td>
+  <td width=124 nowrap valign=top style='width:93.05pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>HORA</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Time</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique</span></p>
+  </td>
+  <td width=124 nowrap valign=top style='width:93.05pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>CONTENT-URL</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+  <td width=124 nowrap valign=top style='width:93.05pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>URL-INSTALACION</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique</span></p>
+  </td>
+  <td width=124 nowrap valign=top style='width:93.05pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>NOMBRE-INSTALACION</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique</span></p>
+  </td>
+  <td width=124 nowrap valign=top style='width:93.05pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>LATITUD</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Decimal</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+  <td width=124 nowrap valign=top style='width:93.05pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>LONGITUD</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Decimal</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+  <td width=124 nowrap valign=top style='width:93.05pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;border-bottom:
+  solid #4F81BD 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>TIPO</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;border-bottom:
+  solid #4F81BD 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=294 nowrap colspan=2 valign=top style='width:220.6pt;border:none;
+  border-bottom:solid #4F81BD 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique, empty values</span></p>
+  </td>
+ </tr>
+</table>
+
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><u><span style='font-size:16.0pt;line-height:115%'>CENTROS
+CULTURALES</span></u></b></p>
+
+<table class=MsoTableLightShadingAccent1 border=1 cellspacing=0 cellpadding=0
+ width=584 style='width:437.75pt;border-collapse:collapse;border:none'>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border-top:solid #4F81BD 1.0pt;
+  border-left:none;border-bottom:solid #4F81BD 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>COLUMNA</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border-top:solid #4F81BD 1.0pt;
+  border-left:none;border-bottom:solid #4F81BD 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>TIPO</span></b></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border-top:solid #4F81BD 1.0pt;
+  border-left:none;border-bottom:solid #4F81BD 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>RANGO</span></b></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border-top:solid #4F81BD 1.0pt;
+  border-left:none;border-bottom:solid #4F81BD 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>PROBLEMS</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>PK</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=327 nowrap colspan=2 valign=top style='width:245.6pt;border:none;
+  background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>1,000 — 7,500,000</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>NOMBRE</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>HORARIO</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique, empty values</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>EQUIPAMIENTO</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique, empty values</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>TRANSPORTE</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=327 nowrap colspan=2 valign=top style='width:245.6pt;border:none;
+  background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique, empty values</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>ACCESIBILIDAD</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Binary</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>0-1</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>CONTENT-URL</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>NOMBRE-VIA</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>CLASE-VIAL</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>NUMERO</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Decimal</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Varios formatos, algún dato incorrecto</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>CODIGO POSTAL</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Decimal</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>DISTRITO</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=327 nowrap colspan=2 valign=top style='width:245.6pt;border:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>LATITUD</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Decimal</span></p>
+  </td>
+  <td width=327 nowrap colspan=2 valign=top style='width:245.6pt;border:none;
+  background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>LONGITUD</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Decimal</span></p>
+  </td>
+  <td width=327 nowrap colspan=2 valign=top style='width:245.6pt;border:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>TELEFONO</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=327 nowrap colspan=2 valign=top style='width:245.6pt;border:none;
+  background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>EMAIL</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=327 nowrap colspan=2 valign=top style='width:245.6pt;border:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;border-bottom:
+  solid #4F81BD 1.0pt;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>TIPO</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;border-bottom:
+  solid #4F81BD 1.0pt;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=327 nowrap colspan=2 valign=top style='width:245.6pt;border:none;
+  border-bottom:solid #4F81BD 1.0pt;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><u><span style='font-size:16.0pt;line-height:115%'>BIBLIOBUSES-BIBLIOTECAS</span></u></b></p>
+
+<table class=MsoTableLightShadingAccent1 border=1 cellspacing=0 cellpadding=0
+ width=584 style='width:437.75pt;border-collapse:collapse;border:none'>
+ <tr style='height:15.0pt'>
+  <td width=121 nowrap valign=top style='width:90.45pt;border-top:solid #4F81BD 1.0pt;
+  border-left:none;border-bottom:solid #4F81BD 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>COLUMNA</span></b></p>
+  </td>
+  <td width=76 nowrap valign=top style='width:2.0cm;border-top:solid #4F81BD 1.0pt;
+  border-left:none;border-bottom:solid #4F81BD 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>TIPO</span></b></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.6pt;border-top:solid #4F81BD 1.0pt;
+  border-left:none;border-bottom:solid #4F81BD 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>RANGO</span></b></p>
+  </td>
+  <td width=217 nowrap valign=top style='width:163.0pt;border-top:solid #4F81BD 1.0pt;
+  border-left:none;border-bottom:solid #4F81BD 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>PROBLEMS</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=121 nowrap valign=top style='width:90.45pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>PK</span></b></p>
+  </td>
+  <td width=76 nowrap valign=top style='width:2.0cm;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=387 nowrap colspan=2 valign=top style='width:290.6pt;border:none;
+  background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>1,000 — 7,500,000</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=121 nowrap valign=top style='width:90.45pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>NOMBRE             </span></b></p>
+  </td>
+  <td width=76 nowrap valign=top style='width:2.0cm;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.6pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+  <td width=217 nowrap valign=top style='width:163.0pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=121 nowrap valign=top style='width:90.45pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>HORARIO</span></b></p>
+  </td>
+  <td width=76 nowrap valign=top style='width:2.0cm;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.6pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique, empty values</span></p>
+  </td>
+  <td width=217 nowrap valign=top style='width:163.0pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=121 nowrap valign=top style='width:90.45pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>EQUIPAMIENTO</span></b></p>
+  </td>
+  <td width=76 nowrap valign=top style='width:2.0cm;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.6pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique, empty values</span></p>
+  </td>
+  <td width=217 nowrap valign=top style='width:163.0pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=121 nowrap valign=top style='width:90.45pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>TRANSPORTE</span></b></p>
+  </td>
+  <td width=76 nowrap valign=top style='width:2.0cm;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=387 nowrap colspan=2 valign=top style='width:290.6pt;border:none;
+  background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique, empty values</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=121 nowrap valign=top style='width:90.45pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>DESCRIPCION</span></b></p>
+  </td>
+  <td width=76 nowrap valign=top style='width:2.0cm;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=387 nowrap colspan=2 valign=top style='width:290.6pt;border:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique, empty values</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=121 nowrap valign=top style='width:90.45pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>ACCESIBILIDAD</span></b></p>
+  </td>
+  <td width=76 nowrap valign=top style='width:2.0cm;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Binary</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.6pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>0-1</span></p>
+  </td>
+  <td width=217 nowrap valign=top style='width:163.0pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=121 nowrap valign=top style='width:90.45pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>CONTENT-URL</span></b></p>
+  </td>
+  <td width=76 nowrap valign=top style='width:2.0cm;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.6pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+  <td width=217 nowrap valign=top style='width:163.0pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=121 nowrap valign=top style='width:90.45pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>CONTENT-URL</span></b></p>
+  </td>
+  <td width=76 nowrap valign=top style='width:2.0cm;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.6pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+  <td width=217 nowrap valign=top style='width:163.0pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=121 nowrap valign=top style='width:90.45pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>NOMBRE-VIA</span></b></p>
+  </td>
+  <td width=76 nowrap valign=top style='width:2.0cm;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.6pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not Unique, empty values</span></p>
+  </td>
+  <td width=217 nowrap valign=top style='width:163.0pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Bibliobuses (servicio itinerante)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=121 nowrap valign=top style='width:90.45pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>CLASE-VIAL</span></b></p>
+  </td>
+  <td width=76 nowrap valign=top style='width:2.0cm;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.6pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique, empty values</span></p>
+  </td>
+  <td width=217 nowrap valign=top style='width:163.0pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Bibliobuses (servicio itinerante)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=121 nowrap valign=top style='width:90.45pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>NUMERO</span></b></p>
+  </td>
+  <td width=76 nowrap valign=top style='width:2.0cm;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Decimal</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.6pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique, empty values</span></p>
+  </td>
+  <td width=217 nowrap valign=top style='width:163.0pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Bibliobuses (servicio itinerante), varios
+  formatos</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=121 nowrap valign=top style='width:90.45pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>CODIGO POSTAL</span></b></p>
+  </td>
+  <td width=76 nowrap valign=top style='width:2.0cm;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Decimal</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.6pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique, empty values</span></p>
+  </td>
+  <td width=217 nowrap valign=top style='width:163.0pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Bibliobuses (servicio itinerante)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=121 nowrap valign=top style='width:90.45pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>DISTRITO</span></b></p>
+  </td>
+  <td width=76 nowrap valign=top style='width:2.0cm;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.6pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique, empty values</span></p>
+  </td>
+  <td width=217 nowrap valign=top style='width:163.0pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Bibliobuses (servicio itinerante)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=121 nowrap valign=top style='width:90.45pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>LATITUD</span></b></p>
+  </td>
+  <td width=76 nowrap valign=top style='width:2.0cm;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Decimal</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.6pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique, empty values</span></p>
+  </td>
+  <td width=217 nowrap valign=top style='width:163.0pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Bibliobuses (servicio itinerante)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=121 nowrap valign=top style='width:90.45pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>LONGITUD</span></b></p>
+  </td>
+  <td width=76 nowrap valign=top style='width:2.0cm;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Decimal</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.6pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique, empty values</span></p>
+  </td>
+  <td width=217 nowrap valign=top style='width:163.0pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Bibliobuses (servicio itinerante)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=121 nowrap valign=top style='width:90.45pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>TELEFONO</span></b></p>
+  </td>
+  <td width=76 nowrap valign=top style='width:2.0cm;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.6pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+  <td width=217 nowrap valign=top style='width:163.0pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=121 nowrap valign=top style='width:90.45pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>EMAIL</span></b></p>
+  </td>
+  <td width=76 nowrap valign=top style='width:2.0cm;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.6pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique, empty values</span></p>
+  </td>
+  <td width=217 nowrap valign=top style='width:163.0pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Bibliobuses (servicio itinerante)</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=121 nowrap valign=top style='width:90.45pt;border:none;border-bottom:
+  solid #4F81BD 1.0pt;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>TIPO</span></b></p>
+  </td>
+  <td width=76 nowrap valign=top style='width:2.0cm;border:none;border-bottom:
+  solid #4F81BD 1.0pt;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=387 nowrap colspan=2 valign=top style='width:290.6pt;border:none;
+  border-bottom:solid #4F81BD 1.0pt;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+ </tr>
+</table>
+
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><b><u><span style='font-size:16.0pt;line-height:115%'>APARCAMIENTOS
+PÚBLICOS</span></u></b></p>
+
+<table class=MsoTableLightShadingAccent1 border=1 cellspacing=0 cellpadding=0
+ width=584 style='width:437.75pt;border-collapse:collapse;border:none'>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border-top:solid #4F81BD 1.0pt;
+  border-left:none;border-bottom:solid #4F81BD 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>COLUMNA</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border-top:solid #4F81BD 1.0pt;
+  border-left:none;border-bottom:solid #4F81BD 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>TIPO</span></b></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border-top:solid #4F81BD 1.0pt;
+  border-left:none;border-bottom:solid #4F81BD 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>RANGO</span></b></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border-top:solid #4F81BD 1.0pt;
+  border-left:none;border-bottom:solid #4F81BD 1.0pt;border-right:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>PROBLEMS</span></b></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>PK</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=327 nowrap colspan=2 valign=top style='width:245.6pt;border:none;
+  background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>1,000 — 7,500,000</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>NOMBRE</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>HORARIO</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique, empty values</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>EQUIPAMIENTO</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique, empty values</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>TRANSPORTE</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=327 nowrap colspan=2 valign=top style='width:245.6pt;border:none;
+  background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique, empty values</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>DESCRIPCION</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=327 nowrap colspan=2 valign=top style='width:245.6pt;border:none;
+  padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique, empty values</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>ACCESIBILIDAD</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Binary</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>0-1</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>CONTENT-URL</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>CONTENT-URL</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>NOMBRE-VIA</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not Unique</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'></td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>CLASE-VIAL</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>NUMERO</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Decimal</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Varios formatos</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>CODIGO POSTAL</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Decimal</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>DISTRITO</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Not unique</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>LATITUD</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Decimal</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;background:
+  #D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>LONGITUD</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Decimal</span></p>
+  </td>
+  <td width=170 nowrap valign=top style='width:127.55pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+  <td width=157 nowrap valign=top style='width:118.05pt;border:none;padding:
+  0cm 5.4pt 0cm 5.4pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr style='height:15.0pt'>
+  <td width=162 nowrap valign=top style='width:121.25pt;border:none;border-bottom:
+  solid #4F81BD 1.0pt;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span style='color:black'>TIPO</span></b></p>
+  </td>
+  <td width=95 nowrap valign=top style='width:70.9pt;border:none;border-bottom:
+  solid #4F81BD 1.0pt;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>String</span></p>
+  </td>
+  <td width=327 nowrap colspan=2 valign=top style='width:245.6pt;border:none;
+  border-bottom:solid #4F81BD 1.0pt;background:#D3DFEE;padding:0cm 5.4pt 0cm 5.4pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span style='color:black'>Unique</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<hr size="8px" color="black" />
+
+<h1>Analyse Licensing of the Data Source</h1>
+
+<h2>
+	<strong>
+			<A href="http://datos.madrid.es/egob/catalogo/aviso-legal">Condiciones generales para la modalidad general de puesta a disposición de los documentos reutilizables del Ayuntamiento de Madrid.</A>
+	</strong>
+</h2>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<hr size="8px" color="black" />
+
+<h1>The resource naming strategy defined</h1>
+
+<br>• Hash URIs for ontological terms, slash URIs for individuals<br>
+<br>• Domain:
+<blockquote>	-http://www.semanticweb.org/</blockquote>
+<br>• Ontological terms path:<br>
+<blockquote>	- http://www.semanticweb.org/OntologyGroup12#</blockquote>
+<br>• Individuals path:<br>
+<blockquote>	- http://www.semanticweb.org/instances</blockquote>
+<br>• Ontological terms pattern:<br>
+<blockquote>	- http://www.semanticweb.org/OntologyGroup12#<term_name></blockquote>
+<br>• Individuals pattern:<br>
+<blockquote>	- http://www.semanticweb.org/instances/<resource_type>/<resource_name></blockquote>
+
+
+</body>
+
+</body>
+
+</html>

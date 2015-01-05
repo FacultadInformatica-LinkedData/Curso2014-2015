@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE uridef[
+  <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns">
+  <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema">
+  <!ENTITY owl "http://www.w3.org/2002/07/owl">
+  <!ENTITY xsd "http://www.w3.org/2001/XMLSchema">  
+  <!ENTITY purl "http://purl.org/dc/elements/1.1">
+  <!ENTITY ont "http://world.linkeddata.es">
+]>
+
+<rdf:RDF xmlns:rdf="&rdf;#" xmlns:rdfs="&rdfs;#" xmlns:owl="&owl;#"
+    xmlns:xsd="&xsd;#" xmlns:purl="&purl;/">
+
+    <owl:Ontology rdf:about="http://world.linkeddata.es/">
+        <owl:versionInfo>1.0.0</owl:versionInfo>
+        <rdfs:label>R2RML Assignment Ontology</rdfs:label>
+        <purl:title>R2RML Assignment Ontology</purl:title>
+        <purl:creator>Alejandro F. Carrera</purl:creator>
+    </owl:Ontology>
+
+    <owl:Class rdf:about="&ont;/Language">
+        <rdfs:label>Language of Country Language</rdfs:label>
+    </owl:Class>
+
+    <owl:ObjectProperty rdf:about="&ont;/Language#isOfficial">
+        <rdfs:domain rdf:resource="&ont;/Language"/>
+        <rdfs:range rdf:resource="&xsd;#string"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&ont;/Language#Percentage">
+        <rdfs:domain rdf:resource="&ont;/Language"/>
+        <rdfs:range rdf:resource="&xsd;#double"/>
+    </owl:ObjectProperty>
+
+    <owl:Class rdf:about="&ont;/CountryLanguage">
+        <rdfs:label>Country Language</rdfs:label>
+    </owl:Class>
+
+    <owl:ObjectProperty rdf:about="&ont;/CountryLanguage#language">
+        <rdfs:domain rdf:resource="&ont;/CountryLanguage"/>
+        <rdfs:range rdf:resource="&ont;/Language"/>
+    </owl:ObjectProperty>
+
+    <owl:Class rdf:about="&ont;/City">
+        <rdfs:label>World City</rdfs:label>
+    </owl:Class>
+
+    <owl:ObjectProperty rdf:about="&rdfs;#label">
+        <rdfs:domain rdf:resource="&ont;/City"/>
+        <rdfs:range rdf:resource="&rdfs;#label"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&ont;/City#inDistrict">
+        <rdfs:domain rdf:resource="&ont;/City"/>
+        <rdfs:range rdf:resource="&xsd;#string"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&ont;/City#hasPopulation">
+        <rdfs:domain rdf:resource="&ont;/City"/>
+        <rdfs:range rdf:resource="&xsd;#integer"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&ont;/City#inCountry">
+        <rdfs:domain rdf:resource="&ont;/City"/>
+        <rdfs:range rdf:resource="&ont;/Country"/>
+    </owl:ObjectProperty>
+
+    <owl:Class rdf:about="&ont;/Country">
+        <rdfs:label>World Country</rdfs:label>
+    </owl:Class>
+
+    <owl:ObjectProperty rdf:about="&rdfs;#label">
+        <rdfs:domain rdf:resource="&ont;/Country"/>
+        <rdfs:range rdf:resource="&rdfs;#label"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&ont;/Country#inContinent">
+        <rdfs:domain rdf:resource="&ont;/Country"/>
+        <rdfs:range rdf:resource="&xsd;#string"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&ont;/Country#hasLanguage">
+        <rdfs:domain rdf:resource="&ont;/Country"/>
+        <rdfs:range rdf:resource="&ont;/CountryLanguage"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&ont;/Country#region">
+        <rdfs:domain rdf:resource="&ont;/Country"/>
+        <rdfs:range rdf:resource="&xsd;#string"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&ont;/Country#hasAnotherCode">
+        <rdfs:domain rdf:resource="&ont;/Country"/>
+        <rdfs:range rdf:resource="&xsd;#string"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&ont;/Country#independentAt">
+        <rdfs:domain rdf:resource="&ont;/Country"/>
+        <rdfs:range rdf:resource="&xsd;#integer"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&ont;/Country#governedBy">
+        <rdfs:domain rdf:resource="&ont;/Country"/>
+        <rdfs:range rdf:resource="&xsd;#string"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&ont;/Country#capital">
+        <rdfs:domain rdf:resource="&ont;/Country"/>
+        <rdfs:range rdf:resource="&ont;/City"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&ont;/Country#name">
+        <rdfs:domain rdf:resource="&ont;/Country"/>
+        <rdfs:range rdf:resource="&xsd;#string"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&ont;/Country#lifeExpectancy">
+        <rdfs:domain rdf:resource="&ont;/Country"/>
+        <rdfs:range rdf:resource="&xsd;#double"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&ont;/Country#hasSurface">
+        <rdfs:domain rdf:resource="&ont;/Country"/>
+        <rdfs:range rdf:resource="&xsd;#double"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&ont;/Country#hadGnpOld">
+        <rdfs:domain rdf:resource="&ont;/Country"/>
+        <rdfs:range rdf:resource="&xsd;#double"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&ont;/Country#hasGnp">
+        <rdfs:domain rdf:resource="&ont;/Country"/>
+        <rdfs:range rdf:resource="&xsd;#double"/>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="&ont;/Country#hasPopulation">
+        <rdfs:domain rdf:resource="&ont;/Country"/>
+        <rdfs:range rdf:resource="&xsd;#integer"/>
+    </owl:ObjectProperty>
+
+</rdf:RDF>

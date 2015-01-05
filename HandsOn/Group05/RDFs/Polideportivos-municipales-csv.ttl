@@ -1,0 +1,1377 @@
+@prefix schema: <http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix admingeo: <http://data.ordnancesurvey.co.uk/ontology/admingeo/> .
+@prefix mibarrio: <> .
+
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalAlbertoGarc�a> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Alberto Garc�a" ;
+	schema:description "Tipo de Gesti�n  Directa, por parte del Ayuntamiento de Madrid   Superficie  53.700 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  2 Campos de F�tbol (de c�sped artificial) - 1 Campo de F�tbol 7 (de c�sped artificial) - Pista de Baloncesto - Pista de F�tbol Sala - Pista de Hockey Patines - 4 Pistas de P�del (de cristal)- Pista Polideportiva - 2 Pistas de Tenis    Unidades Deportivas Cubiertas  Pabell�n polideportivo - Piscina (vaso de 25 m. y vaso de ense�anza) - Sala multiusos - Sala de Musculaci�n    Accesibilidad  Instalaci�n adaptada, con ascensor y gr�a de piscina    SERVICIOS     Deportes practicables  Baloncesto - Balonmano - F�tbol - F�tbol Sala - F�tbol 7 - Gimnasia R�tmica - Hockey Pista - Hockey Patines - Musculaci�n - Nataci�n - P�del - Patinaje - Tenis - Voleibol    Uso de espacios deportivos  Campo de F�tbol - Campo de F�tbol 7 - Pabell�n polideportivo - Piscina - Pista de Baloncesto - Pista de F�tbol Sala - Pista de P�del - Pista de Hockey Patines - Pista de Tenis - Pista de Voleibol - Sala de Musculaci�n - Pista de P�del   Ense�anzas deportivas    Escuelas Pre-Infantiles  (de 3 a 5 a�os):   Matronataci�n - Nataci�n peques  Escuelas Infantiles  (6 a 14 a�os, seg�n modalidades): Aer�bic - F�tbol (masculino y femenino) - F�tbol Sala -Gimnasia R�tmica - Nataci�n - Patinaje -  Salvamento acu�tico - Tenis  Clases para j�venes   y adultos  (15 a 64 a�os, seg�n modalidades):  Acondicionamiento f�sico   -  Acuagim - Acuapilates - Acuarrunning - Atenci�n t�cnica personalizada - Ciclo sala - Circuito de salud - Combinada (Educaci�n F�sica Permanente y deportes) - Estiramientos/Relax - Multideporte - Nataci�n - Nataci�n de compensaci�n - Nataci�n embarazadas - Nataci�n Familiar - P�del - Pilates - Tenis - Yoga     Actividades para Mayores de 65 a�os:  Actividad acu�tica - Actividades f�sica combinada - Acuagim        Galer�a de im�genes" .
+
+<http://localhost:3333/mibarrio/City/MADRID> a schema:City ;
+	schema:name "MADRID" .
+
+<http://localhost:3333/mibarrio/District/PUENTEDEVALLECAS> a admingeo:District ;
+	schema:name "PUENTE DE VALLECAS" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/PUENTEDEVALLECAS> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalAlbertoGarc�a> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalAlbertoGarc�a> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE REGUERA DE TOMATEROS, 39 B" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalAlbertoGarc�a> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalAlbertoGarc�a> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalAlbertoGarc�a> a geo:SpatialThing ;
+	geo:lat "40.372421418063425"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6574515621755173"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalAlbertoGarc�a> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalAlbertoGarc�a> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalAlfredoGoyeneche> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Alfredo Goyeneche" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid   Superficie parcela  13.505 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  2 Pistas de P�del - 3 Pistas de P�del (Cristal) - 2 Pistas de Tenis - Roc�dromo   Unidades Deportivas Cubiertas   Pabell�n polideportivo - Piscina (vaso 25 m. y vaso de ense�anza) - Sala de Musculaci�n - 2 Salas multiusos - 2 Saunas    Accesibilidad:  instalaci�n adaptada, con 1 ascensor, 1 plataforma y 1 gr�a de piscina    SERVICIOS     Deportes practicables  Baloncesto - Balonmano - B�dminton - Escalada - F�tbol Sala - Musculaci�n - Nataci�n - P�del -  Tenis    Uso de los espacios deportivos  Pabell�n - Piscina - Pista de P�del - Pista Polideportiva -  Sala de Musculaci�n - Roc�dromo -  Sauna    Ense�anzas deportivas    Escuelas Pre-Infantiles  (4 y 5 a�os): Nataci�n peques  Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): Gimnasia R�tmica - Nataci�n   Clases para j�venes  (15 a 30 a�os): Fitness - Nataci�n   Clases para adultos  (28 a 64 a�os): Acondicionamiento F�sico-Deportivo -  Acuagim - Aer�bic - Ciclo Sala - Combinada Actividad F�sica - Fitness - Nataci�n - P�del - Pilates - Tonificaci�n - Yoga  Actividades para Mayores de 65 a�os:  Actividad Acu�tica - Actividad F�sica" .
+
+<http://localhost:3333/mibarrio/District/MONCLOA-ARAVACA> a admingeo:District ;
+	schema:name "MONCLOA-ARAVACA" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/MONCLOA-ARAVACA> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalAlfredoGoyeneche> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalAlfredoGoyeneche> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE ARROYO DE POZUELO, 99" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalAlfredoGoyeneche> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalAlfredoGoyeneche> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalAlfredoGoyeneche> a geo:SpatialThing ;
+	geo:lat "40.45211512813871"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7832937390386396"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalAlfredoGoyeneche> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalAlfredoGoyeneche> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalAluche> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Aluche" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid   Superficie de parcela  139.600 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Campo de F�tbol (de c�sped artificial) - Circuito de Educaci�n Vial - 2 Frontones cortos - Patin�dromo - Piscinas (1 vaso de gemelas y 1 vaso infantil) - Pista de Atletismo - Pista de Hockey Patines - 4 Pistas de P�del - Pista de Patinaje - 9 Pistas polideportivas - 9 Pistas de Tenis - 2 Pistas de Voley Playa - 19 Tenis de Mesa    Unidades Deportivas Cubiertas  Pabell�n polideportivo- Piscinas (vaso de 50 m. y vaso de 25 m.) - Sala de Artes Marciales - Salas multiusos - Sala de Musculaci�n - 2 Saunas   Accesibilidad  Instalacion pr�cticable, con gr�a de piscina     SERVICIOS     Deportes practicables  Atletismo - Baloncesto -  B�dminton - Deportes de Pelota (Frontenis) - Educaci�n Vial (infantil) - F�tbol - F�tbol Sala -  Hockey Patines - Musculaci�n - Nataci�n - P�del - Patinaje Art�stico - Tenis - Tenis de Mesa - Voleibol - Voley Playa (solo verano)   Uso de espacios deportivos  Campo de F�tbol - Front�n - Pabell�n - Piscina - Pista de Atletismo - Pista de Hockey Patines - Pista de P�del - Pista de Patinaje - Pista polideportiva - Pista de Tenis - Sala de Musculaci�n - Sauna - Pista de Voley Playa (solo verano)   Ense�anzas deportivas   Escuelas Pre-Infantiles  (4 a 5 a�os, seg�n modalidades): Nataci�n peques - Polideportiva (Educaci�n f�sica de base) - Polideportiva (Gimnasia Suave)  Escuelas infantiles  ( 6 a 14 a�os, seg�n modalidades): Actividades Subacu�ticas - Aer�bic - Atletismo - Baloncesto - F�tbol - Gimnasia Art�stica - Gimnasia R�tmica - Hockey Patines - Judo - Karate Shyto - Nataci�n -  Patinaje Art�stico - Polideportiva - Tenis - Voleibol  Clases para j�venes y adultos  (15 a 64 a�os, seg�n modalidades): Acondicionamiento F�sico Deportivo - Acuagim - Aer�bic - Acuapilates -  Atletismo -  Bailes de Sal�n - Baloncesto - Ciclo Sala - Fitness - G.A.P. - Gimnasia de Compensaci�n - Gimnasia R�tmica - Judo - Karate Shyto - Nataci�n - Nataci�n Combinaa (acuarrunning) - Nataci�n de Compensaci�n - Nataci�n Embarazadas - P�del  - Pilates - Tenis  Actividad para Mayores de 65 a�os:  Actividad F�sica - Gimnasia Acu�tica - Nataci�n - Pilates  Actividades para   Personas con discapacidad f�sica:  Nataci�n" .
+
+<http://localhost:3333/mibarrio/District/LATINA> a admingeo:District ;
+	schema:name "LATINA" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/LATINA> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalAluche> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalAluche> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "AVENIDA GENERAL FANJUL, 14" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalAluche> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalAluche> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalAluche> a geo:SpatialThing ;
+	geo:lat "40.382720517194784"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.773653600881568"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalAluche> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalAluche> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalAntiguoCan�dromo> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Antiguo Can�dromo" .
+
+<http://localhost:3333/mibarrio/District/CARABANCHEL> a admingeo:District ;
+	schema:name "CARABANCHEL" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/CARABANCHEL> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalAntiguoCan�dromo> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalAntiguoCan�dromo> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE VIA CARPETANA, 57" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalAntiguoCan�dromo> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalAntiguoCan�dromo> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalAntiguoCan�dromo> a geo:SpatialThing ;
+	geo:lat "40.39801608457685"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7352725040539525"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalAntiguoCan�dromo> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalAntiguoCan�dromo> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalAntonioD�azMiguel> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Antonio D�az Miguel" ;
+	schema:description "Forma de gesti�n:  Indirecta, por medio de concesi�n de la gesti�n de los servicios deportivos a la UTE Eductrade, S.A. e Iberconsulting Sport, S.A.  www.basicosportcenter.com/index.php    Superficie   8.455,41 m2    EQUIPAMIENTOS     Unidades Deportivas Cubiertas   Pabell�n Polideportivo - Piscina (vaso de 25 m y vaso de ense�anza ) - Sala Multiusos - Sala de Musculaci�n    Accesibilidad : instalaci�n adaptada con 2 ascensores y 1 gr�a de piscina    SERVICIOS     Deportes Practicables    Baloncesto - Balonmano - F�tbol Sala - Musculaci�n - Nataci�n   Uso de espacios deportivos  Pabell�n Polideportivo - Piscina - Pista de Baloncesto - Pista de Balonmano - Pista de F�tbol Sala - Sala de Musculaci�n    Ense�anzas Deportivas Escuelas Pre-infantiles  (18 meses a 5 a�os) :  Matronataci�n - Nataci�n Peques - Educaci�n F�sica de Base  Escuelas Infantiles  (6 a 14 a�os): Aer�bic - Baloncesto -  F�tbol Sala - Gimnasia R�tmica - Judo - Nataci�n   Clases para j�venes  (15 a 20 a�os) :  Aer�bic - Baloncesto - Balonmano - Ciclo Sala - F�tbol Sala - Gimnasia R�tmica - Judo - Nataci�n  Clases para adultos:  Acondicionamiento F�sico Deportivo - Acuagim - Aer�bic - Ciclo Sala - Combinada - Fitness - Fitness Acu�tico - GAP (Gl�teos, Abdomen y Piernas) - Gimnasia Acu�tica - Gimnasia Suave - Musculaci�n - Nataci�n - Nataci�n de Compensaci�n - Nataci�n Embarazadas - Pilates -Tonificaci�n  Actividades para mayores de 65 a�os:  Acuagim - Actividad F�sica - Gimnasica Acu�tica - Nataci�n  Actividades para personas con Discapacidad F�sica:  Actividad F�sica - Nataci�n  Actividades para personas con Discapacidad Intelectual:  Actividad F�sica - Nataci�n" .
+
+<http://localhost:3333/mibarrio/District/TETUAN> a admingeo:District ;
+	schema:name "TETUAN" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/TETUAN> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalAntonioD�azMiguel> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalAntonioD�azMiguel> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE JOAQUIN DICENTA, 1" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalAntonioD�azMiguel> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalAntonioD�azMiguel> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalAntonioD�azMiguel> a geo:SpatialThing ;
+	geo:lat "40.471254265861454"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6953256978963807"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalAntonioD�azMiguel> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalAntonioD�azMiguel> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalArganzuela> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Arganzuela" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid   Superficie de parcela  11.866,00 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  2 Pistas polideportivas - 2 Pistas de Tenis - 2 Pistas de P�del    Unidades Deportivas Cubiertas  Pabell�n polideportivo - 2 Salas multiusos - Sala de Musculaci�n   Accesibilidad:  instalaci�n adaptada, con plataforma    SERVICIOS     Deportes practicables  B�dminton - Baloncesto -  F�tbol Sala - Musculaci�n - P�del - Tenis -  Voleibol   Uso de espacios deportivos  Pabell�n - Pista de P�del - Pista polideportiva - Pista de Tenis -  Sala de Musculaci�n    Ense�anzas deportivas Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): Baloncesto - Curso polideportivo - F�tbol Sala - Gimnasia R�tmica - Kenpo (Karate) - Tenis - Tenis de Mesa.  Clases para J�venes y Adultos  (15 a 64 a�os) Acondicionamiento F�sico - Aer�bic - Musculaci�n - P�del - Pilates - Tenis.  Actividades para Mayores de 65 a�os:  Actividad f�sica" .
+
+<http://localhost:3333/mibarrio/District/ARGANZUELA> a admingeo:District ;
+	schema:name "ARGANZUELA" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/ARGANZUELA> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalArganzuela> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalArganzuela> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE ALICANTE, 14" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalArganzuela> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalArganzuela> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalArganzuela> a geo:SpatialThing ;
+	geo:lat "40.39437715885103"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.691341060146108"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalArganzuela> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalArganzuela> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalBarajas> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Barajas" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  17.346 m2    EQUIPAMIENTOS     Unidades Deportivas al aire libre  4 Pistas de P�del - 4 Pistas de Tenis    Unidades Deportivas Cubiertas  Pabell�n polideportivo - Piscina (vaso de 25 m. y vaso de ense�anza) - 2 Salas multiusos -Sala de Musculaci�n   Accesibilidad:  instalaci�n adaptada con ascensor y gr�a.    SERVICIOS      Deportes Practicables  Baloncesto - Balonmano - F�tbol Sala - Musculaci�n - Nataci�n - P�del - Tenis - Voleibol   Uso de espacios deportivos  Pabell�n - Piscina - Pista de P�del - Pista polideportiva - Pista de Tenis - Sala Multiusos - Sala de Musculaci�n      Ense�anzas Deportivas    Escuelas Pre-Infantiles  (3 a 5 a�os): Matronataci�n - Nataci�n peques  Escuelas infantiles ( 6 a 14 a�os, seg�n modalidades): B�dminton - Baloncesto -  Esgrima - Gimnasia R�tmica - Judo - Nataci�n -  P�del - Pretenis (iniciaci�n a deportes de raqueta) - Tenis  Clases para j�venes y Adultos  (15 a 64 a�os, seg�n modalidades):  Acondicionamiento F�sico Deportivo - Acuagim - Acuarunning - Aer�bic - Ciclo Sala - Combinada (Acondicionamiento f�si Deportivo + Nataci�n) - Fitness - Judo - Nataci�n - Nataci�n Embarazas - Nataci�n Juvenil - P�del - P�del juvenil - Pilates - Tenis  Actividades para Mayores de 65 a�os:  Actividad F�sica - Actividad Acu�tica - Nataci�n - Pilates  Actividades para Personas con discapacidad f�sica:   Nataci�n (infantil y adulto)   Oficina de Promoci�n Deportiva  Juegos deportivos municipales - Torneos y circuitos municipales - Copas de primavera - Informaci�n sobre escuelas de promoci�n deportiva   Servicio de Medicina Deportiva  Psicomotricidad Infantil" .
+
+<http://localhost:3333/mibarrio/District/BARAJAS> a admingeo:District ;
+	schema:name "BARAJAS" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/BARAJAS> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalBarajas> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalBarajas> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "AVENIDA LOGRO�O, 70" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalBarajas> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalBarajas> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalBarajas> a geo:SpatialThing ;
+	geo:lat "40.46301382809657"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.587693324074623"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalBarajas> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalBarajas> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalCasadeCampo> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Casa de Campo" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  24.800 m2    EQUIPAMIENTOS     Unidades Deportivas al aire libre  Piscinas (vaso de 50 m. al aire libre y vestuarios cerrados pendiente a adecuaci�n, vaso de recreo de 33 m. y vaso infantil en funcionamiento)   Unidades Deportivas Cubiertas  Piscina (vaso de 25 m.) - Sala de Musculaci�n   Accesibilidad:  Instalaci�n convertible, con 2 gr�as de piscina    SERVICIOS      Deportes Practicables  Musculaci�n - Nataci�n - Submarinismo   Uso de espacios deportivos  Piscina - Sala de Musculaci�n    Ense�anzas deportivas   Escuelas Pre-Infantiles:  (4 a 5 a�os, seg�n modalidades) Nataci�n peques   Escuelas Infantiles:  (6 a 14 a�os, seg�n modalidades), Nataci�n - Pirag&uuml;ismo - Salvamento Acu�tico  Clases para j�venes:  (15 a 20 a�os) Nataci�n   Clases para adultos (21 a 64 a�os): Acondicionamiento F�sico Deportivo - Fitness - Nataci�n - Salvamento Acu�tico   Mayores de 65 a�os  Actividad F�sica - Nataci�n  Actividades para Personas con discapacidad f�sica:  Actividades Acu�ticas (Adultos)  Actividades para Personas con discapacidad intelectual:  Aer�bic (Adultos)" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalCasadeCampo> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "PASEO PUERTA DEL ANGEL, 7" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalCasadeCampo> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalCasadeCampo> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalCasadeCampo> a geo:SpatialThing ;
+	geo:lat "40.41612628789201"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.733536573641621"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalCasadeCampo> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalCasadeCampo> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalCentroIntegradoArganzuela> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Centro Integrado Arganzuela" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid   Superficie  4.900 m2    EQUIPAMIENTOS     Unidades Deportivas al aire libre  4 Pistas de P�del (Cristal)   Unidades Deportivas Cubiertas  Pabell�n Polideportivo - Piscina (vaso de 25 m. y vaso de ense�anza) - Fisio-Hidroterapia - Sala Multiusos - Sala de Musculaci�n   Accesibilidad:  Instalaci�n adaptada, con ascensor y gr�a de piscina    SERVICIOS     Deportes Practicables  Baloncesto - Balonmano - F�tbol Sala - Musculaci�n - Nataci�n - P�del - Unihockey - Voleibol    Uso de espacios deportivos  Pabell�n - Piscina - Pista de P�del - Sala de multiusos (Gimnasio) - Sala de Musculaci�n    Ense�anzas Deportivas   Escuelas Pre-Infantiles  (2 a 5 a�os): Matronataci�n - Nataci�n peques  Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): Nataci�n - P�del - Taekwondo - Unihockey - Voleibol  Clases para adultos  (21 a 64 ��os): Acondicionamiento F�sico Deportivo - Acuagim - Aer�bic - Fitness - GAP - Gimnasia de Compensaci�n - Gimnasia suave - Nataci�n - Nataci�n de Compensaci�n -  Nataci�n de Embarazadas - P�del - Pilates  Actividades para Mayores de 65 a�os:  Actividad F�sica - Nataci�n  Actividades para Personas con discapacidad f�sica:  Nataci�n (adultos e infantil)    Servicio de Medicina deportiva  Escuela de Espalda - Fisioterapia del Deporte - Reconocimientos m�dicos para deportistas" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalCentroIntegradoArganzuela> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE CANARIAS, 17" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalCentroIntegradoArganzuela> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalCentroIntegradoArganzuela> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalCentroIntegradoArganzuela> a geo:SpatialThing ;
+	geo:lat "40.40207279862862"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6955325387824014"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalCentroIntegradoArganzuela> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalCentroIntegradoArganzuela> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalCerroAlmod�var> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Cerro Almod�var" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid   Superficie  69.800 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Front�n corto - Piscina (vaso de 50 m., vaso de recreo y vaso infantil) - 2 Pistas polideportivas (Tenis) - 2 Tenis de Mesa   Unidades Deportivas Cubiertas  Pabell�n polideportivo - Piscina (vaso de 25 m. y vaso de ense�anza) - Sala multiusos (Aer�bic) -Sala de Halterofilia - Sala de Musculaci�n    Accesibilidad:  instalaci�n practicable, con 1 plataforma y 1 gr�a de piscina    SERVICIOS     Deportes Practicables  B�dminton - Baloncesto - Balonmano - Deportes de Pelota (Front�n) - F�tbol Sala - Gimnasia R�tmica -  Halterofilia - Musculaci�n - Nataci�n -  Tenis - Tenis de Mesa   Uso de espacios deportivos  Front�n - Pabell�n - Piscina - Pista Polideportiva - Pista de Tenis - Sala multiusos (Aer�bic) - Sala de Musculaci�n - Tapiz de Gimnasia R�tmica - Tenis de Mesa   Ense�anzas Deportivas   Escuelas Pre-Infantiles  (de 2 a 5 a�os): Matronataci�n - Nataci�n peques - Polideportiva (Educaci�n F�sica de Base)  Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): Baloncesto - Karate Shyto- Nataci�n - Pre-Tenis - Tenis - Salvamento Acu�tico   Clases para j�venes  (15 a 20 a�os): Tenis  Clases para adultos  ( 21 a 64 a�os): Acondicionamiento F�sico Deportivo - Acuagim - Aer�bic - G.A.P (Gl�teos, Abdomen y Piernas) - Gimnasia Suave - Nataci�n - Nataci�n de Compensaci�n - Nataci�n de Embarazadas - Pilates - Tenis  Actividades para   Mayores de 65 a�os:  Actividad F�sica - Gimnasia Acu�tica - Nataci�n  Actividades para Personas con discapacidad f�sica:   Nataci�n (infantil y adulto)" .
+
+<http://localhost:3333/mibarrio/District/VILLADEVALLECAS> a admingeo:District ;
+	schema:name "VILLA DE VALLECAS" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/VILLADEVALLECAS> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalCerroAlmod�var> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalCerroAlmod�var> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "Carretera Valencia, km 9,500" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalCerroAlmod�var> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalCerroAlmod�var> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalCerroAlmod�var> a geo:SpatialThing ;
+	geo:lat "40.38168564475405"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.602348241287268"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalCerroAlmod�var> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalCerroAlmod�var> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalChamart�n> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Chamart�n" ;
+	schema:description "M�s informaci�n     Forma de gesti�n  Indirecta, por medio de concesi�n de la gesti�n de los servicios deportivos a la UTE formada por Carpa Servicios y Conservaci�n, S.L. y Sport Studio Servicios Deportivos, S.L.   www.foruschamartin.es     Superficie  6.172 m2    EQUIPAMIENTOS      Unidades Deportivas Cubiertas    Pabell�n polideportivo - Piscina  (vaso de 50 m. distribuido en calles de 25 m. y 22,5 m.) - 4 salas multiusos - Sala de Musculaci�n     Accesibilidad:  instalaci�n adaptada, con 1 ascensor y 1 gr�a de piscina     SERVICIOS     Deportes Practicables  B�dminton - Baloncesto - Balonmano - F�tbol Sala - Nataci�n - Musculaci�n - Voleibol   Uso de espacios deportivos  Pabell�n - Piscina - Sala de Musculaci�n - Sala multiusos   Ense�anzas Deportivas Escuelas Pre-infantiles  (4 y 5 a�os): Nataci�n Peques - Polideportiva (Educaci�n F�sica de Base)  Escuelas Infantiles  (de 6 a 14 a�os): Aer�bic - Baloncesto - Gimnasia R�tmica - Judo - Nataci�n - Polideportiva - Taekwondo  Clases para j�venes  (de 15 a 20 a�os): Aer�bic - Baile - Baloncesto - Ciclo Sala - Nataci�n - Pilates - Taekwondo  Clases para adultos  (de 21 a 64 a�os): Acondicionamiento F�sico - Aer�bic - Ciclo Sala - Combinada - Fitness - GAP - Gimnasia de Compensaci�n - Gimnasia Suave - Nataci�n - Pilates - Tonificaci�n - Yoga  Actividades para personas mayores de 65 a�os:  Actividad F�sica - Gimnasia de Compensaci�n - Nataci�n - Pilates  Actividades para personas con discapacidad:  Actividad F�sica - Nataci�n (Infantiles y Adultos)" .
+
+<http://localhost:3333/mibarrio/District/CHAMARTIN> a admingeo:District ;
+	schema:name "CHAMARTIN" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/CHAMARTIN> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalChamart�n> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalChamart�n> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "AVENIDA PIO XII, 2" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalChamart�n> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalChamart�n> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalChamart�n> a geo:SpatialThing ;
+	geo:lat "40.46113349830694"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.676208246061129"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalChamart�n> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalChamart�n> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalCircuitoBMX> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Circuito BMX" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalCircuitoBMX> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE EMBAJADORES, 316" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalCircuitoBMX> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalCircuitoBMX> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalCircuitoBMX> a geo:SpatialThing ;
+	geo:lat "40.385539006771225"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6898722494765366"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalCircuitoBMX> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalCircuitoBMX> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalCiudaddeLosPoetas> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Ciudad de Los Poetas" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  1.700 m2     EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Pabell�n polideportivo     SERVICIOS     Deportes practicables  Baloncesto - F�tbol Sala   Uso de espacios deportivos  Pabell�n - Pista de Baloncesto - Pista de F�tbol Sala   Ense�anzas Deportivas   Escuelas Infantiles  (6 a 14 a�os, seg�n modalidades): Gimnasia R�tmica  Clases para J�venes  (15 a 20 a�os, seg�n modalidades): Gimnasia R�tmica  Clases para adultos  ( 21 a 64 a�os): Acondicionamiento F�sico Deportivo - Aer�bic  - Fitness - Gimnasia de Compensaci�n - Pilates  Actividades para Mayores de 65 a�os:   Actividad F�sica" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalCiudaddeLosPoetas> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE ANTONIO MACHADO, 12" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalCiudaddeLosPoetas> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalCiudaddeLosPoetas> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalCiudaddeLosPoetas> a geo:SpatialThing ;
+	geo:lat "40.465920678080856"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7189325594658573"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalCiudaddeLosPoetas> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalCiudaddeLosPoetas> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalConcepci�n> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Concepci�n" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid   Superficie  36.000 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Campo de F�tbol (de c�sped artificial) - 2 Frontones cortos - Piscina (vaso infantil)  - Pista de Atletismo (3 calles) - 2 Pistas de P�del - Pista de Patinaje - 2 Pistas polideportivas - 4 Pistas de Tenis - 2 Tenis Mesa   Unidades Deportivas Cubiertas  Pabell�n polideportivo -  Piscina (vaso de 25 m) - Sala de Musculaci�n    Accesibilidad:  instalaci�n practicable, con 1 ascensor, 1 montacargas, 2 plataformas y 2 gr�as de piscina    SERVICIOS     Deportes Practicables  Atletismo -  Baloncesto - Balonmano - Deportes de Pelota - F�tbol - F�tbol 7 - F�tbol Sala - Musculaci�n - P�del - Patinaje art�stico - Tenis - Tenis Mesa   Uso de espacios deportivos  Campo de F�tbol - Front�n - Pabell�n - Pista de Atletismo (3 calles) - Pista de P�del - Pista de P�del - Pista de Patinaje - Pista polideportiva - Pista de Tenis - Sala de Musculaci�n    Ense�anzas deportivas   Escuelas Pre-infantiles(2 a 5 a�os):  Nataci�n peques  Escuelas infantiles (6 a 14 a�os, seg�n modalidades):  Baloncesto - Balonmano - F�tbol - Gimnasia R�tmica - Karate Shyto - Nataci�n - Pretenis - Tenis   Clases para j�venes (15 a 20 a�os, seg�n modalidades):  Nataci�n - Tenis   Clases para adultos (21 a 64 a�os):  Acondicionamiento F�sico Deportivo - Aer�bic - Combinada de Compensaci�n - Fitness - Fitness Acu�tico - GAP - Karate Shyto - Nataci�n - P�del- Pilates - Tenis    Actividades para Mayores de 65 a�os:  Actividad F�sica - Nataci�n" .
+
+<http://localhost:3333/mibarrio/District/CIUDADLINEAL> a admingeo:District ;
+	schema:name "CIUDAD LINEAL" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/CIUDADLINEAL> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalConcepci�n> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalConcepci�n> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE JOSE DEL HIERRO, 5" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalConcepci�n> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalConcepci�n> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalConcepci�n> a geo:SpatialThing ;
+	geo:lat "40.43725652047252"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6484498132292025"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalConcepci�n> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalConcepci�n> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalDaoizyVelarde1> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Daoiz y Velarde 1" ;
+	schema:description "Forma de gesti�n  Directa, por parte del Ayuntamiento de Madrid   Superficie  9.496 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Pista de P�del (cristal)   Unidades Deportivas Cubiertas  Pabell�n polideportivo - Piscina (vaso de 25 m. y vaso de ense�anza) - 2 Salas multiusos - Sala de Musculaci�n - 2 Saunas - 1 Fisioterapia/Hidroterapia (fuera de servicio)   Accesibilidad:  Instalaci�n adaptada, con 1 ascensor y 1 gr�a de piscina    SERVICIOS     Deportes Practicables  B�dminton - Baloncesto - F�tbol Sala - Nataci�n - P�del - Voleibol - Bailes de Sal�n    Uso de espacios deportivos  Pabell�n - P�del - Piscina - Pistas polideportivas - Sala multiusos - Sauna     Ense�anzas deportivas   Escuelas Pre-Infantiles  ( 2 a 5 a�os): Matronataci�n - Nataci�n peques  Escuelas infantiles  (6 a 14 a�os, seg�n modalidades) :  Aer�bic - Baloncesto - Nataci�n - Nataci�n Sincronizada - Polideportiva - Salvamento Acu�tico  Clases para j�venes  ( 15 a 20 a�os): Nataci�n - Aer�bic  Clases para adultos  (21 a 64 a�os) :  Acondicionamiento F�sico Deportivo - Acuagim - Acuarunning - Combinada (Educaci�n F�sica Permanente y Deportes) - Estiramiento/Relax - Fitness - Gimnasia de Compensaci�n - Nataci�n - Nataci�n de Compensaci�n - Nataci�n Embarazadas - Tonificaci�n  Actividades para mayores de 65 a�os:  Actividad Fisica - Nataci�n" .
+
+<http://localhost:3333/mibarrio/District/RETIRO> a admingeo:District ;
+	schema:name "RETIRO" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/RETIRO> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalDaoizyVelarde1> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalDaoizyVelarde1> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "AVENIDA CIUDAD DE BARCELONA, 162" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalDaoizyVelarde1> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalDaoizyVelarde1> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalDaoizyVelarde1> a geo:SpatialThing ;
+	geo:lat "40.40236125879463"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6772931748500297"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalDaoizyVelarde1> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalDaoizyVelarde1> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalDao�zyVelarde2> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Dao�z y Velarde 2" ;
+	schema:description "Superficie: 9.420 m2     EQUIPAMIENTOS     Unidades Deportivas cubiertas:  2 Salas Gimnasio - Sala de Musculaci�n - Sala Polivalente    Accesibilidad:  instalaci�n adaptada, con 1 ascensor    SERVICIOS     Ense�anzas deportivas: Escuelas infantiles:  Aer�bic - Gimnasia R�tmica - Karate  Clases para adultos:  Acondicionamiento F�sico Deportivo - Aer�bic - Aikido - Karate - Kung Fu - Musculaci�n - Sanda - Tai Chi - Yoga  Mayores de 65 a�os:  Actividad F�sica" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalDao�zyVelarde2> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE ALBERCHE, 21" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalDao�zyVelarde2> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalDao�zyVelarde2> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalDao�zyVelarde2> a geo:SpatialThing ;
+	geo:lat "40.400799189712316"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6778902970366896"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalDao�zyVelarde2> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalDao�zyVelarde2> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalElEspinillo> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal El Espinillo" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  11.350 m2    EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Piscina (Vaso de 25 m. y vaso de ense�anza) - 2 Salas Multiusos   Accesibilidad:  Instalaci�n adaptada, con 1 ascensor y 1 gr�a de piscina    SERVICIOS      Deportes Practicables    Nataci�n     Uso de espacios deportivos  Piscina     Ense�anzas deportivas Ense�anzas Pre-Infantiles  ( 2 a 5 a�os): Nataci�n peques   Escuelas Infantiles  ( 6 a 14 a�os, seg�n modalidades): Nataci�n   Clases     para j�venes  (15 a 20 a�os, seg�n modalidades): Aer�bic - Nataci�n - Salvamento Acu�tico    Clases para adultos  (De 21 a 64 a�os): Acuagim - Aer�bic - Combinada (Educaci�n F�sica Permanente y Deportes) - Fitness - Fitness Acu�tico - Nataci�n  - Nataci�n Embarazadas  Actividades para     Mayores de 65 a�os:  Gimnasia Acu�tica - Nataci�n  Actividades para    Personas con discapacidad f�sica:  Nataci�n  (infantil y adultos)" .
+
+<http://localhost:3333/mibarrio/District/VILLAVERDE> a admingeo:District ;
+	schema:name "VILLAVERDE" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/VILLAVERDE> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalElEspinillo> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalElEspinillo> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CARRETERA VILLAVERDE A VALLECAS, 19" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalElEspinillo> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalElEspinillo> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalElEspinillo> a geo:SpatialThing ;
+	geo:lat "40.35634193991933"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.686595141820635"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalElEspinillo> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalElEspinillo> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalElOlivillo> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal El Olivillo" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid   Superficie  2.660 m2     EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Pabell�n polideportivo    Accesibilidad:  instalaci�n adaptada    SERVICIOS     Deportes Practicables    F�tbol Sala - Baloncesto   Uso de espacios deportivos  Pabell�n polideportivo" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalElOlivillo> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE OLIVILLO, 4" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalElOlivillo> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalElOlivillo> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalElOlivillo> a geo:SpatialThing ;
+	geo:lat "40.40652470221465"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.745889233801086"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalElOlivillo> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalElOlivillo> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalEntrev�as> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Entrev�as" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  41.800 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre   1 Campo de F�tbol (de tierra) - 1 Campo de F�tbol (de c�sped artificial) - 2 Campos de F�tbol 7 (de tierra) - Piscina (vaso de 50 y vaso infantil) - Pista polideportiva - 2 Pistas de Tenis   Unidades Deportivas Cubiertas  Pabell�n polideportivo - Piscina (vaso de 25 m y vaso de ense�anza) - 2 Salas mulitusos   Accesibilidad:  instalaci�n practicable, con 1 ascensor y 1 gr�a de piscina    SERVICIOS     Deportes Practicables  Baloncesto - F�tbol - F�tbol 7 - F�tbol Sala - Nataci�n - Tenis - Voleibol   Uso de espacios deportivos  Campo de F�tbol - Campo de F�tbol 7 - Pabell�n - Piscina - Pista de B�dminton - Pista de Baloncesto - Pista de Balonmano - Pista de F�tbol Sala - Pista de Tenis    Ense�anzas deportivas Escuelas Pre-Infantiles  (1 a 5 a�os): Matronataci�n (1 y 2 a�os) - Nataci�n peques (3 a 5 a�os)   Escuelas Infantiles  ( 6 a 14 a�os, seg�n modalidades): F�tbol - Nataci�n - Tenis   Clases para adultos  ( 21 a 64 a�os): Acondicionamiento F�sico Deportivo - Acuagim - Aer�bic -  Ciclo Sala - Combinada (Acondicionamiento / Ciclo) - Estiramientos relax - Fitness - Fitness Acu�tico/ Aquarunning - GAP (Gl�teos, Abdomen y Piernas) - Gimnasia de Compensaci�n - Nataci�n - Nataci�n de Compensaci�n - Pilates - Tenis -   Actividades para Mayores de 65 a�os:  Fitness Acu�tico - Nataci�n  Actividad para Personas con discapacidad f�sica:  Nataci�n de Compensaci�n (Infantil)" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalEntrev�as> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "RONDA SUR, 4" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalEntrev�as> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalEntrev�as> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalEntrev�as> a geo:SpatialThing ;
+	geo:lat "40.378413212706285"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.674532317137481"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalEntrev�as> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalEntrev�as> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalEscuelasdeSanAnt�n> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Escuelas de San Ant�n" ;
+	schema:description "Forma de gesti�n  Indirecta, por medio de concesi�n de la gesti�n de los servicios deportivos a la empresa UTE Escuelas P�as (Clece, SA y Col. Lectiu D�sport per a Tothom 10, SL)   www.cdmescuelassananton.com     Superficie  Planta Tercera: 971,29 m2 Planta Cuarta: 976,21 m2 Entreplanta Cuarta: 291,28 m2    EQUIPAMIENTOS       Unidades Deportivas Cubiertas  Piscina (vaso de 25 m y vaso de ense�anza) - Sala musculaci�n - Zona Spa    Accesibilidad:  instalaci�n adaptada, con 1 ascensor y 1 gr�a de piscina    SERVICIOS     Deportes Practicables  Nataci�n   Uso de espacios deportivos  Piscinas - Sala musculaci�n - Zona Spa   Ense�anzas Deportivas Escuelas Pre-infantiles  (de 3 a 5 a�os): Matronataci�n - Nataci�n Peques  Escuelas Infantiles  (de 6 a 14 a�os): Nataci�n   Clases para j�venes  (de 15 a 20 a�os): Acuagim - Nataci�n  Clases para adultos  (de 21 a 65 a�os): Acuagim - Nataci�n - Nataci�n Embarazadas   Actividades para mayores de 65 a�os:  Acuagim - Nataci�n  Actividades para personas con Discapacidad F�sica:  Nataci�n  Actividades para personas con Discapacidad Intelectual:  Nataci�n" .
+
+<http://localhost:3333/mibarrio/District/CENTRO> a admingeo:District ;
+	schema:name "CENTRO" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/CENTRO> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalEscuelasdeSanAnt�n> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalEscuelasdeSanAnt�n> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE FARMACIA, 13" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalEscuelasdeSanAnt�n> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalEscuelasdeSanAnt�n> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalEscuelasdeSanAnt�n> a geo:SpatialThing ;
+	geo:lat "40.42382670120857"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.699010103263697"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalEscuelasdeSanAnt�n> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalEscuelasdeSanAnt�n> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalEstanquedelRetiro> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Estanque del Retiro" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid   Superficie  37.000 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Estanque, Barcas de paseo, Remo   Accesibilidad:  Instalaci�n adaptada    SERVICIOS     Deportes Practicables  Pirag&uuml;ismo - Remo (recreativo y deportivo)   Uso de espacios deportivos  Barcas de recreo - Paseo en barco solar" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalEstanquedelRetiro> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "PASEO COLOMBIA, 2" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalEstanquedelRetiro> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalEstanquedelRetiro> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalEstanquedelRetiro> a geo:SpatialThing ;
+	geo:lat "40.418436005960814"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6845031319515718"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalEstanquedelRetiro> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalEstanquedelRetiro> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalFabi�nRoncero> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Fabi�n Roncero" ;
+	schema:description "Forma de gesti�n:  Indirecta, por medio de concesi�n de la gesti�n de los servicios deportivos a la empresa Enjoy Wellness SL.  www.cdmfabianroncero.es      Superficie   4.400 m2     EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Piscina (vaso de 25 m y vaso de ense�anza) - Sala Multiusos - Sala Multiusos (cardio) - Sala Multiusos (Ciclo Sala) - Sala de Musculaci�n    Accesibilidad:  instalaci�n adaptada, con 1 ascensor y 1 gr�a de piscina     SERVICIOS     Deportes Practicables  Musculaci�n - Nataci�n     Uso de espacios deportivos  Piscina - Sala de Musculaci�n    Ense�anzas Deportivas Escuelas Pre-infantiles  (18 meses a 5 a�os): Matronataci�n - Nataci�n Peques  Escuelas Infantiles  (6 a 14 a�os): Aer�bic - Nataci�n -  Waterpolo  Clases para j�venes ( 15 a 20 a�os): Acuagim - Aer�bic - Nataci�n  Clases para adultos  (21 a 65 a�os): Acondicionamiento F�sico Deportivo - Acuagim - Combinada (acu�tica) -  Fitness Acu�tico - GAP (Gl�teos, Abdomen, Piernas) - Gimnasia Acu�tica - Nataci�n - Nataci�n Embarazadas - Pilates - Tonificaci�n   Actividades para mayores de 65 a�os:  Acuagim - Actividad F�sica - Nataci�n  Actividades para personas con Discapacidad F�sica:  Nataci�n  Actividades para personas con Discapacidad Intelectual:  Nataci�n" .
+
+<http://localhost:3333/mibarrio/District/SANBLAS-CANILLEJAS> a admingeo:District ;
+	schema:name "SAN BLAS-CANILLEJAS" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/SANBLAS-CANILLEJAS> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalFabi�nRoncero> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalFabi�nRoncero> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "AVENIDA SEPTIMA, 68" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalFabi�nRoncero> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalFabi�nRoncero> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalFabi�nRoncero> a geo:SpatialThing ;
+	geo:lat "40.44965684114441"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.597577201182505"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalFabi�nRoncero> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalFabi�nRoncero> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalFernandoMart�n> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Fernando Mart�n" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  11.200 m2    EQUIPAMIENTOS     Unidades Deportivas al aire libre  Pista polideportiva- 2 Pistas de Tenis     Unidades Deportivas Cubiertas  Pabell�n polideportivo - Piscina (vaso de 25 m.)- Sala multiusos - Sala de Musculaci�n    Accesibilidad:  Instalaci�n adaptada, con 1 ascensor, 1 plataforma y 1 gr�a de piscina    SERVICIOS      Deportes practicables  B�dminton - Baloncesto - F�tbol Sala - Musculaci�n - Nataci�n - Voleibol   Uso de espacios deportivos  Pabell�n - Piscina  - Pista de B�dminton - Pista de Tenis - Pista de F�tbol-Sala - Sala de Musculaci�n   Ense�anzas Deportivas Escuelas Pre-Infantiles  (4 a 5 a�os, seg�n modalidades): Nataci�n peques  - Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): Baloncesto - F�tbol Sala - Nataci�n -  Pretenis - Salvamento Acu�tico - Tenis  Clases para J�venes (15 a 20 a�os, seg�n modalidades): Baloncesto   Clases para Adultos (21 a 64 a�os):  Acondicionamiento F�sico Deportivo - Aer�bic - Combinada (Educaci�n F�sica Permanente) - Fitness - Musculaci�n - Nataci�n - Nataci�n embarazadas - Pilates - Tenis  Actividades para Mayores de 65 a�os:  Actividad F�sica - Nataci�n  Actividades para personas con discapacidad f�sica:  Nataci�n (adultos)" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalFernandoMart�n> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "AVENIDA SANTO ANGEL DE LA GUARDA, 6" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalFernandoMart�n> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalFernandoMart�n> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalFernandoMart�n> a geo:SpatialThing ;
+	geo:lat "40.460935404623164"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7121918299288628"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalFernandoMart�n> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalFernandoMart�n> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalFranciscoFern�ndezOchoa> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Francisco Fern�ndez Ochoa" ;
+	schema:description "Forma de gesti�n:  Indirecta, por medio de concesi�n de la gesti�n de los servicios deportivos a Duet Spa &amp; Sports, S.L. - Global Health Consulting, S.L. - Proinosa Promoci�n e Ingenier�a de Obras, S.A. - Uni�n Temporal de Empresas &quot;Centro Deportivo Francisco Fern�ndez Ochoa UTE&quot;  www.duetsports.com     Superficie  7.706,41 m2        EQUIPAMIENTOS:     Unidades Deportivas al Aire Libre  2 Campos de F�tbol 7 (c�sped artificial) - Campo de Hockey Patines y Patinaje - 8 Pistas de P�del - 6 Pistas de Tenis   Unidades Deportivas Cubiertas  Pabell�n Polideportivo - Piscina (Vaso de 50 m.  distribuido en calles de 25 m., y vaso de ense�anza) - 3 Salas Multiusos - Sala de Musculaci�n  -  Zona Termal   Accesibilidad:  instalaci�n adaptada, con 2 ascensores y 2 gr�as de piscina    SERVICIOS:     Deportes Practicables  Baloncesto - Balonmano - F�tbol - F�tbol Sala - Hockey Patines - Nataci�n - Musculaci�n - Patinaje - P�del - Tenis - Voleibol     Uso de espacios deportivos  Campo de F�tbol 7 - Pabell�n - Piscina - Pista de Baloncesto - Pista de Balonmano - Pista de P�del - Pista de Patinaje - Pista de Tenis - Pista de Voleibol - Sala de Musculaci�n - Sala Multiusos - Zona Termal   Ense�anzas Deportivas Escuelas  Preinfantiles  (hasta 5 a�os) :  Matronataci�n - Nataci�n Peques - Educaci�n F�sica de Base  Escuelas Infantiles  (de 6 a 14 a�os): Aer�bic - Baloncesto - Balonmano - F�tbol -  Gimnasia R�tmica -  Judo - Nataci�n - Patinaje - Polideportiva - Tenis - Voleibol  Clases para j�venes  (de 15 a 20): Aer�bic - F�tbol - Musculaci�n - Nataci�n - P�del - Tenis  Clases para adultos  (de 21 a 64 a�os): Acondicionamiento F�sico Deportivo - Acuagim - Aer�bic - Bailes de Sal�n - Ciclo Sala - Combinada - Estiramientos/Relax - Fitness - GAP (Gl�teos, Abdomen y Piernas) - Gimnasia Suave - Musculaci�n - Nataci�n - Nataci�n Embarazadas - P�del - Patinaje - Pilates - Tenis   Actividades para mayores de 65 a�os:  Actividad F�sica - Actividad Acu�tica  Actividades para personas con Discapacidad F�sica:  Nataci�n (Adultos)" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalFranciscoFern�ndezOchoa> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE CATORCE OLIVAS, 1" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalFranciscoFern�ndezOchoa> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalFranciscoFern�ndezOchoa> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalFranciscoFern�ndezOchoa> a geo:SpatialThing ;
+	geo:lat "40.36581776978113"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.740893980533789"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalFranciscoFern�ndezOchoa> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalFranciscoFern�ndezOchoa> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalFrancosRodr�guez> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Francos Rodr�guez" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid   Superficie  11.500 m2    EQUIPAMIENTOS      Unidades Deportivas al Aire Libre  Piscina (vaso de 50 m. y vaso infantil) - Pista de Voley Playa     Accesibilidad:  Instalaci�n practicable     SERVICIOS      Deportes Practicables   Nataci�n - Voley Playa     Uso de espacios deportivos  Piscina - Pista de Voley Playa - Tenis de Mesa" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalFrancosRodr�guez> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE NUMANCIA, 11" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalFrancosRodr�guez> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalFrancosRodr�guez> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalFrancosRodr�guez> a geo:SpatialThing ;
+	geo:lat "40.45358753138912"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.713093094582233"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalFrancosRodr�guez> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalFrancosRodr�guez> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalFuentedelBerro> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Fuente del Berro" ;
+	schema:description "Forma de gesti�n:  Indirecta, por medio de concesi�n de la gesti�n de los servicios deportivos a la empresa Centro Deportivo Fuente del Berro, S.L.   Superficie  2.845,79 m2      EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Piscina (vaso de 25 m.) - Sala Multiusos (Actividades) - Sala Multiusos (Ciclo) - Sala de Musculaci�n    Accesibilidad:  instalaci�n adaptada con 1 ascensor y 1 gr�a de piscina    SERVICIOS     Deportes Practicables  Musculaci�n - Nataci�n   Uso de espacios deportivos  Piscina - Sala de Musculaci�n   Ense�anzas Deportivas Escuelas Pre-Infantiles  (de 4 a 5 a�os): Nataci�n Peques  Escuelas Infantiles  (de 6 a 14 a�os): Aer�bic - Judo - Nataci�n -   Clases para j�venes  (de 15 a 20 a�os): Aer�bic - Aerodance - Judo - Nataci�n - Salvamento  Clases para adultos  (de 21 a 64 a�os): Aer�bic - Step - Gimnasia de Mantenimiento - Body Pump - GAP (Gl�teos Abdominales y Piernas)/Streching - Acondicionamiento F�sico - Pilates - Body Balance - Spinning - Nataci�n - Nataci�n de Compensaci�n - Aquagym - Nataci�n Embarazadas - Nataci�n Postparto  Actividades para mayores de 65 a�os:  Actividad F�sica - Gimnasia Acu�tica - Nataci�n  Actividades para personas con Discapacidad F�sica:  Nataci�n (todos los grupos de edad)  Actividades para personas con Discapacidad Intelectual:  Nataci�n (todos los grupos de edad)" .
+
+<http://localhost:3333/mibarrio/District/SALAMANCA> a admingeo:District ;
+	schema:name "SALAMANCA" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/SALAMANCA> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalFuentedelBerro> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalFuentedelBerro> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE ELVIRA, 36" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalFuentedelBerro> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalFuentedelBerro> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalFuentedelBerro> a geo:SpatialThing ;
+	geo:lat "40.42171956854877"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6652515154670167"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalFuentedelBerro> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalFuentedelBerro> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalF�lixRubio> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal F�lix Rubio" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid   Superficie  8.630 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Bloque de Escalada - Campo de F�tbol (c�sped artificial, convertible en 2 campos de F�tbol 7) - Front�n corto - 2 Pistas de Baloncesto 3 x 3 - 4 Pistas de Frontenis - Pista de F�tbol 5 x 5 - 2 Pistas de F�tbol 1 x 1 (pistas panna)- Pista polideportiva  Unidades Deportivas Cubiertas  Pabell�n polideportivo - Sala de Cardiovascular    Accesibilidad:  instalaci�n adaptada    SERVICIOS     Deportes Practicables  B�dminton - Baloncesto - Baloncesto 3 x 3 - Balonmano - Deportes de Pelota (Frontenis) - Escalada - F�tbol - F�tbol 7 - F�tbol outdoor 5 x 5 - F�tbol 1 x 1 - F�tbol Sala - Voleibol   Uso de espacios deportivos  Bloque de Escalada - Campo de F�tbol - Campo de F�tbol 7 - Frontenis - Front�n corto - Pabell�n - Pista de Baloncesto 3 x 3 - Pista de F�tbol 5 x 5 - Pista de F�tbol 1 x 1 - Pista de F�tbol Sala - Pista polideportiva    Ense�anzas deportivas  Escuelas Pre- infantiles  ( 3 a 5 a�os): F�tbol  Escuelas Infantiles  (6 a 14 a�os, seg�n modalidades): Balonmano - F�tbol - Gimnasia R�tmica - Tenis Mesa   Clases para j�venes  (15 a 20 a�os, seg�n modalidades) :   Balonmano - F�tbol  Clases para adultos  (21 a 64 a�os): Acondicionamiento F�sico - Combinada - Fitness - Pilates  Actividades para Mayores de 65 a�os:  Actividad F�sica" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalF�lixRubio> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE ALIANZA, 4" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalF�lixRubio> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalF�lixRubio> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalF�lixRubio> a geo:SpatialThing ;
+	geo:lat "40.357429678675295"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.691528804696943"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalF�lixRubio> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalF�lixRubio> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalGallur> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Gallur" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  70.000 m2    EQUIPAMIENTOS     Unidades Deportivas al aire libre  Front�n largo - 10 Pistas de Tenis - 12 Pistas de P�del    Unidades Deportivas Cubiertas  Pabell�n polideportivo - Piscina (vaso de 25 m. y vaso de ense�anza) - Sala de Musculaci�n   Accesibilidad:  instalaci�n adaptada, con 2 ascensores y 1 gr�a de piscina    SERVICIOS     Deportes practicables  Baloncesto - Balonmano - F�tbol Sala - Frontenis - Musculaci�n - Nataci�n - Tenis - Voleibol - P�del    Uso de espacios deportivos  Front�n - Pabell�n - Piscina - Pista de Baloncesto - Pista de F�tbol Sala - Pista polideportiva - Pista de Tenis - Pista de P�del - Pista de Voleibol - Sala de Musculaci�n    Ense�anzas Deportivas Escuelas Pre-Infantiles  (4 a 5 a�os): Nataci�n peques  Escuelas infantiles  (6 a 14 a�os, seg�n modalidades):   Aer�bic - Baloncesto - Balonmano -F�tbol - Gimnasia R�tmica - Nataci�n -  Nataci�n Sincronizada - Polideportiva - Salvamento Acu�tico - Tenis   Clases para j�venes  (15 a 20 a�os, seg�n modalidades): Tenis  Clases para adultos  (15 a 64 a�os): Acondicionamiento F�sico Deportivo - Acuagim - Aer�bic - Bailes de Sal�n - Ciclo Sala - Fitness - G.A.P. (Gl�teos, Abdomen y Piernas) - Nataci�n - Nataci�n de Compensaci�n - P�del - Pilates - Tenis    Actividades para Mayores de 65 a�os:  Actividad f�sica - Acuagim - Nataci�n  Actividades para Personas con discapacidad f�sica:  Nataci�n (infantil y adultos) - Polideportiva (infantil) - P�del (adultos)     Actividades para Personas con discapacidad sensorial (sordos):  P�del (adultos)" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalGallur> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE GALLUR, 2" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalGallur> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalGallur> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalGallur> a geo:SpatialThing ;
+	geo:lat "40.398465832065"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7353834506869217"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalGallur> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalGallur> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalGimnasioMoscard�> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Gimnasio Moscard�" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid   Superficie  4.650 m2     EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Pista de P�del (cristal) - Pista de Tenis - 2 Tenis de Mesa   Unidades Deportivas Cubiertas  Pabell�n de Gimnasia - Pabell�n polideportivo -  Piscina (2 vasos de 25 m.) - 2 Salas multiusos - Sala de Fisioterapia - Sala de Musculaci�n    Accesibilidad:  instalaci�n adaptada, con 2 ascensores, 1 plataforma y 1 gr�a de piscina    SERVICIOS     Deportes practicables  B�dminton - Baloncesto - Ciclo Sala - Musculaci�n - Nataci�n - P�del - Tenis - Tenis de Mesa   Uso de espacios deportivos  Pabell�n - Piscina - Pista de B�dminton - Pista de P�del - Pista polideportiva - Pista de Tenis - Sala Gimnasio - Sala de Musculaci�n    Ense�anzas deportivas Escuelas Pre-Infantiles  (4 a 5 a�os): Nataci�n peques  Escuelas Infantiles  (6 a 14 a�os, seg�n modalidades): Aer�bic - Baloncesto - Boxeo - Gimnasia R�tmica - Karate Shyto - Nataci�n - Nataci�n Sincronizada - P�del - Tenis  Clases para J�venes  (15 a 20 a�os, seg�n modalidades): Gimnasia R�tmica - Nataci�n  Clases para adultos  (21 a 64 a�os): Acondicionamiento F�sico Deportivo - Aer�bic - Ciclo Sala - Combinada (Educaci�n F�sica Permanente y Deportes) - Gim Jazz -  Karate Shyto - Nataci�n - Nataci�n de Compensaci�n - Nataci�n Embarazadas - P�del - Pilates - Tenis  Actividades para   Mayores de 65 a�os:  Actividad F�sica - Nataci�n  Actividades para   Personas con discapacidad f�sica:  Nataci�n (adultos)  Actividades para Personas con discapacidad f�sica sensorial (sordos):  Actividad F�sica (mayores) - Nataci�n (adultos y mayores)" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalGimnasioMoscard�> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE PILAR DE ZARAGOZA, 93" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalGimnasioMoscard�> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalGimnasioMoscard�> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalGimnasioMoscard�> a geo:SpatialThing ;
+	geo:lat "40.437945289676996"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.674502029997267"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalGimnasioMoscard�> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalGimnasioMoscard�> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalHortaleza> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Hortaleza" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  107.200 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Campo de F�tbol (de tierra) - Piscina (vaso de 50 m., vaso de ense�anza y vaso infantil) - 4 Pistas de P�del - Pista polideportiva - 2 Pistas de Tenis   Unidades Deportivas Cubiertas  Pabell�n polideportivo - Piscina (vaso de 25 m.)- Sala multiusos (Ciclo-Sala)  - Sala de Musculaci�n   Accesibilidad:  Instalaci�n adaptada, con 2 gr�as de piscina    SERVICIOS     Deportes Practicables  B�dminton - Baloncesto - Balonmano - Ciclo Sala - F�tbol - F�tbol Sala - F�tbol 7 - Musculaci�n - Nataci�n - P�del - Tenis -    Uso de espacios deportivos  Campo de F�tbol - Campo de F�tbol 7 - Pabell�n - Piscina - Pista de B�dminton - Pista de P�del - Pista polideportiva - Pista de Tenis   Ense�anzas Deportivas Escuelas Pre-Infantiles  (4 a 5 a�os):  Nataci�n peques  Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): B�dminton - Gimnasia R�tmica - Karate Shyto - Nataci�n - Pretenis  - Tenis   Clases para j�venes  (15 a 20 a�os, seg�n modalidades): B�dminton - P�del - Karate Shyto - Nataci�n - Tenis  Clases para adultos  (21 a 64 ��os): Acondicionamiento F�sico Deportivo - Aer�bic - B�dminton - Combinada Compensaci�n - Estiramientos/Relax - Fitness - GAP (Gl�teos, Abdomen y  Piernas) - Gimnasia Suave - Karate Shyto - Nataci�n - Nataci�n de Compensaci�n - Nataci�n embarazadas - P�del - Pilates - Tenis  Actividades para mayores de 65 a�os:  Actividad f�sica - Nataci�n Actividades para Personas con discapacidad f�sica: Nataci�n (adultos e infantil)" .
+
+<http://localhost:3333/mibarrio/District/HORTALEZA> a admingeo:District ;
+	schema:name "HORTALEZA" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/HORTALEZA> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalHortaleza> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalHortaleza> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CARRETERA ESTACION DE HORTALEZA, 11" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalHortaleza> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalHortaleza> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalHortaleza> a geo:SpatialThing ;
+	geo:lat "40.47871885134567"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.652730062470741"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalHortaleza> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalHortaleza> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalJos�Mar�aCagigal> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Jos� Mar�a Cagigal" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  18.850 m2    EQUIPAMIENTOS     Unidades Deportivas al aire libre  Piscina (vaso de 50 m., vaso de recreo y vaso infantil)- 5 Pistas de Tenis    Unidades Deportivas Cubiertas  Pabell�n polideportivo - Piscina (vaso de 25 m.) - 2 Salas multiusos (Gimnasios) - Sala de Musculaci�n - 2 Saunas      Unidades auxiliares  Auditorio - Sala de Fisioterapia/Hidroterapia deportiva - 3 Salas de reuniones   Accesibilidad:  Instalaci�n adaptada, con 2 ascensores, 2 plataformas y 1 gr�a de piscina    SERVICIOS     Deportes Practicables  B�dminton - Baloncesto - Balonmano - F�tbol Sala - Musculaci�n - Nataci�n - Tenis - Waterpolo   Uso de espacios deportivos  Pabell�n - Piscina - Pista polideportiva - Pista de Tenis - Sala multiusos (Gimnasio) - Sala de Musculaci�n - Sauna    Ense�anzas Deportivas Escuelas Pre-Infantiles  (2 a 5 a�os):  Nataci�n peques  Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): Baloncesto - Balonmano - Nataci�n - Tenis   Clases para j�venes  (15 a 20 a�os): Baloncesto - Nataci�n - Salvamento Acu�tico  Clases para adultos  (21 a 64 a�os): Acondicionamiento F�sico Deportivo - Acuagim - Combinada (Educaci�n F�sica Permanente) - Fitness - Nataci�n - Nataci�n Compensaci�n - Tenis  Actividades para Mayores de 65 a�os:  Actividad F�sica - Aquagim - Nataci�n   Actividades para Personas con discapacidad f�sica:  Nataci�n    Servicio de Medicina deportiva  Acondicionamiento Cardiovascular - Escuela de Espalda - Fisioterapia del Deporte - Psicomotricidad infantil -  Reconocimientos M�dicos para deportistas       Actividades F�sico Deportivas para centros escolares  Aula Deportiva Municipal" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalJos�Mar�aCagigal> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE SANTA POLA, 22" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalJos�Mar�aCagigal> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalJos�Mar�aCagigal> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalJos�Mar�aCagigal> a geo:SpatialThing ;
+	geo:lat "40.43214955342785"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7369645992831364"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalJos�Mar�aCagigal> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalJos�Mar�aCagigal> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaAlmudena> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal La Almudena" ;
+	schema:description "Forma de gesti�n  Indirecta, por medio de concesi�n de la gesti�n de los servicios deportivos a la empresa ADIP - La Almudena, S.L.   Superficie  6903,80 m2    EQUIPAMIENTOS       Unidades Deportivas Cubiertas  Piscina 25 m (8 calles) - Piscina de aprendizaje - Sala de Fisioterapia    Accesibilidad:  instalaci�n adaptada, con 1 gr�a de piscina    SERVICIOS     Deportes Practicables  Nataci�n   Uso de espacios deportivos  Piscinas   Ense�anzas Deportivas Escuelas Pre-infantiles  (de 18 meses a 5 a�os): Matronataci�n - Nataci�n Peques  Escuelas Infantiles  (de 6 a 14 a�os): Nataci�n - Salvamento Acu�tico - Waterpolo  Clases para j�venes:  Nataci�n - Fitness Acu�tico - Salvamento Acu�tico  Clases para adultos:  Acuagim - Fitness Acu�tico - Gimnasia Acu�tica - Nataci�n - Nataci�n de Compensaci�n - Nataci�n Embarazadas   Actividades para mayores de 65 a�os:  Acuagim - Gimnasia Acu�tica - Nataci�n  Actividades para personas con Discapacidad F�sica:  Nataci�n  Actividades para personas con Discapacidad Intelectual:  Nataci�n" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLaAlmudena> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE NICOLAS SALMER�N, 8" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaAlmudena> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLaAlmudena> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLaAlmudena> a geo:SpatialThing ;
+	geo:lat "40.42060649869604"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6324237307227616"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaAlmudena> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLaAlmudena> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaBombilla> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal La Bombilla" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  9.900 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  2 Pistas de P�del - 2 Pistas de P�del (cristal) - 5 Pistas de Tenis   Accesibilidad:  Instalaci�n convertible    SERVICIOS     Deportes Practicables  P�del - Tenis - Tenis de Mesa   Uso de espacios deportivos  Pista de P�del - Pista de Tenis   Ense�anzas Deportivas Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): P�del - Pretenis - Tenis  Clases para j�venes  (15 a 20 a�os, seg�n modalidades): P�del - Tenis  Clases para adultos  (21 a 64 a�os): P�del - Tenis" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLaBombilla> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE SENDA DEL REY, 8" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaBombilla> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLaBombilla> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLaBombilla> a geo:SpatialThing ;
+	geo:lat "40.43266791217288"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.731947836490648"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaBombilla> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLaBombilla> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaChopera> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal La Chopera" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  13.350 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Campo de F�tbol - 3 Pistas polideportivas - 3 Pistas de Tenis - 3 Pistas de P�del    Unidades Deportivas Cubiertas  Sala multiusos (Gimnasio) - Sala de Musculaci�n   Accesibilidad:  Instalaci�n practicable, con 1 plataforma.    SERVICIOS     Deportes practicables  Balonmano - F�tbol - F�tbol Sala - F�tbol 7 - Musculaci�n - P�del - Tenis - Baloncesto      Uso de espacios deportivos  Campo de F�tbol - Campo de F�tbol 7 -  Pista de P�del - Pista polideportiva - Pista de Tenis  - Sala de Musculaci�n   Ense�anzas Deportivas Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): F�tbol, Tenis  Clases para adultos  (21 a 64 ��os): Acondicionamiento F�sico Deportivo - Gim Jazz - Pilates  Actividades para Mayores de 65 a�os:   Actividad F�sica" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLaChopera> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "PASEO FERNAN NU&Ntilde;EZ, 3" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaChopera> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLaChopera> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLaChopera> a geo:SpatialThing ;
+	geo:lat "40.41166321237764"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6856838249046104"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaChopera> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLaChopera> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaElipa> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal La Elipa" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  159.000 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Bolera Asturiana - Campo de B�isbol -  2 Campos de F�tbol (de c�sped artificial) - 2 Campos de F�tbol 7 (de c�sped artificial) - Campo de S�fbol - 2 Circuitos de Aeromodelismo (Radiocontrol de asfalto / radio control de tierra, con cubierta) - Piscina (vaso de 50 metros, vaso de recreo y vaso infantil) - 4 Pistas de P�del - Pista polideportiva - 10 Pistas de Tenis - 11 Tenis Mesa - Zona Nudista   Unidades Deportivas Cubiertas  Front�n - Pabell�n polideportivo - 2 Salas multiusos (gimnasios) - Sala de Musculaci�n    Accesibilidad:  Instalaci�n convertible, con 1 gr�a de piscina    SERVICIOS     Deportes Practicables  B�dminton - Baloncesto - Balonmano - B�isbol - Bolos Asturianos - Deportes de Pelota - F�tbol - F�tbol Sala - F�tbol 7 - Musculaci�n - Nataci�n - P�del -  Pelota - S�fbol - Tenis - Tenis de Mesa - Voleibol   Uso de espacios deportivos  Bolera Asturiana - Campo de B�isbol - Campo de F�tbol - Campo de F�tbol 7 - Campo de S�fbol - Circuito de Radiocontrol - Front�n - Pabell�n - Piscina - Pista de B�dminton - Pista de P�del - Pista polideportiva - Pista de Tenis - Sala multiusos - Sala de Musculaci�n   Ense�anzas Deportivas Escuelas infantiles ( 6 a 14 a�os, seg�n modalidades): B�isbol y S�fbol - Bateo en T�nel - F�tbol - P�del - Pretenis - Tenis - Tenis de Mesa   Clases para j�venes  (15 a 20 a�os): B�isbol y S�fbol - Bateo en T�nel  Clases para adultos  (21 a 64 a�os): Acondicionamiento F�sico Deportivo - Aer�bic - Combinada y Tonificaci�n -  B�isbol y S�fbol -  Bateo en T�nel - Musculaci�n - P�del - Pilates - Tenis   Actividades para Mayores de 65 a�os:  Actividad F�sica - Frontenis - Pilates - Polideportiva" .
+
+<http://localhost:3333/mibarrio/District/MORATALAZ> a admingeo:District ;
+	schema:name "MORATALAZ" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/MORATALAZ> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaElipa> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLaElipa> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "ACCESO PARQUE DE LA ELIPA, 6" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaElipa> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLaElipa> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLaElipa> a geo:SpatialThing ;
+	geo:lat "40.41659851888246"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.656478733128524"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaElipa> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLaElipa> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaMas�> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal La Mas�" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  44.000 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Campo de F�tbol - Roc�dromo    Unidades Deportivas Cubiertas  Pabell�n polideportivo - Piscina (vaso de 25 m. y vaso de ense�anza) - Sala multiusos - Sala de Musculaci�n     Accesibilidad:  Instalaci�n adaptada, con 1 ascensor y 1 gr�a de piscina    SERVICIOS     Deportes Practicables  Baloncesto - F�tbol - F�tbol Sala - F�tbol 7 - Escalada - Nataci�n - Voleibol - Musculaci�n   Uso de espacios deportivos  Campo de F�tbol - Campo de F�tbol 7 - Pabell�n - Piscina - Pista de Baloncesto - Pista de F�tbol Sala - Pista polideportiva - Pista de Voleibol - Sala multiusos (Aer�bic) - Sala de Musculaci�n -  Roc�dromo   Ense�anzas Deportivas Escuelas Pre-Infantiles  (3 a 5 a�os): Matronataci�n - Nataci�n peques - Polideportiva  Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): Aer�bic - Escalada - F�tbol - Gimnasia R�tmica - Nataci�n - Polideportiva  Clases para j�venes  (15 a 20 a�os, seg�n modalidades): Nataci�n  Clases para adultos  (21 a 64 a�os): Acondicionamiento F�sico Deportivo - Acuarunning - Aer�bic - Ciclo Sala - Combinada  (Educaci�n F�sica Permanente y Deportes) - Fitness - Fitness Acu�tico - Gimnasia Acu�tica - Musculaci�n - Nataci�n - Nataci�n de Compensaci�n - Nataci�n Embarazadas - Nataci�n Oposiciones - Pilates   Actividades para Mayores de 65 a�os:  Actividad F�sica - Gimnasia Acu�tica - Nataci�n  Actividades para Personas con discapacidad f�sica:  Nataci�n" .
+
+<http://localhost:3333/mibarrio/District/FUENCARRAL-ELPARDO> a admingeo:District ;
+	schema:name "FUENCARRAL-EL PARDO" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/FUENCARRAL-ELPARDO> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaMas�> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLaMas�> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE MASO, 80" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaMas�> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLaMas�> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLaMas�> a geo:SpatialThing ;
+	geo:lat "40.48442599932086"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7144222564719858"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaMas�> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLaMas�> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaMina> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal La Mina" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  18.100 m2   EQUIPAMIENTOS     Unidades Deportivas al aire libre  Front�n - Piscina (1 vaso de 50 metros, 1 vaso de recreo y 1 vaso infantil) - 2 Pistas de P�del - 2 Pistas polideportivas    Unidades Deportivas Cubiertas  Pabell�n polideportivo - Piscina (1 vaso de 25 m y 1 vaso de ense�anza) -  4 Pistas de Squash - 1 Sala de Musculaci�n - 2 Salas multiusos   Accesibilidad:  instalaci�n adaptada, con ascensor y gr�a de piscina    SERVICIOS     Deportes practicables  B�dminton - Baloncesto - Balonmano - Deportes de Pelota - F�tbol 7 - F�tbol Sala - Musculaci�n - Nataci�n - P�del -  Squash    Uso de espacios deportivos  Front�n - Pabell�n - Piscina - Pista de P�del - Pista polideportiva - Pista de Squash - Sala de Musculaci�n    Ense�anzas Deportivas Escuelas Pre-Infantiles  (4-6 a�os): Nataci�n peques  Escuelas Infantiles  (6 a 14 a�os): Balonmano - Gimnasia R�tmica - Nataci�n  Clases para J�venes  (15 a 21 a�os): Aer�bic - Nataci�n - Gimnasia R�tmica  Clases para adultos  (21 a 64 a�os): Acondicionamiento F�sico Deportivo - Aer�bic - Combinada - Combinada de Compensaci�n - Fitness - Gimnasia Acu�tica - Gimnasia de Compensaci�n- Nataci�n - Nataci�n de Compensaci�n - Pilates  Mayores de 65 a�os:  Actividad Acu�tica - Actividad F�sica  Personas con discapacidad f�sica:  Actividad Acu�tica (Adultos)" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLaMina> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE MONSE�OR OSCAR ROMERO, 41" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaMina> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLaMina> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLaMina> a geo:SpatialThing ;
+	geo:lat "40.38234955664604"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.746482524823702"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaMina> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLaMina> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaVaguada> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal La Vaguada" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid   Superficie  2.075 m2   EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Piscina (vaso de 25 m. y vaso de ense�anza) - Sala  de Musculaci�n    Accesibilidad:  Instalaci�n adaptada, con 1 gr�a de piscina    SERVICIOS     Deportes practicables  Musculaci�n - Nataci�n   Uso de espacios deportivos  Piscina -  Sala de Musculaci�n    Ense�anzas deportivas: Escuelas Pre-infantiles  (4 a 5 a�os): Nataci�n peques  Escuelas Infantiles  (6 a 14 a�os): Nataci�n  Clases para adultos  (21 a 64 a�os): Gimnasia Acu�tica - Nataci�n - Nataci�n de Compensaci�n - Nataci�n embarazadas   Mayores de 65 a�os:  Nataci�n" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLaVaguada> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "AVENIDA MONFORTE DE LEMOS, 38 A" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaVaguada> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLaVaguada> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLaVaguada> a geo:SpatialThing ;
+	geo:lat "40.47876758357458"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7086993281311904"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLaVaguada> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLaVaguada> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLagoCasadeCampo> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Lago Casa de Campo" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  80.000 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Lago   Accesibilidad:  instalaci�n convertible    SERVICIOS     Deportes practicables  Pesca (s�lo mayores de 65 a�os y personas con discapacidad, con licencia) - Pirag&uuml;ismo - Remo   Uso de espacios deportivos  Barcas de recreo - Paseo en motora   Ense�anzas Deportivas   Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): Pirag&uuml;ismo   Actividades F�sico deportivas para centros escolares:   Aula Deportiva Municipal" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLagoCasadeCampo> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "PASEO EMBARCADERO, 8" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLagoCasadeCampo> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLagoCasadeCampo> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLagoCasadeCampo> a geo:SpatialThing ;
+	geo:lat "40.417013097503705"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7314952685679943"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLagoCasadeCampo> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLagoCasadeCampo> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLasCruces> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Las Cruces" ;
+	schema:description "Forma de gesti�n  Indirecta, por medio de concesi�n de la gesti�n de los servicios deportivos a Eductrade, S.A. e Iberconsulting Sport, S.A. Uni�n Temporal de Empresas (Polideportivo Las Cruces)  http://www.basicosportcenter.com   Superficie  8.612,25 m2      EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  1 Campo de F�tbol (c�sped artificial) - 2 Campos de F�tbol 7  (c�sped artificial) - 5 Pistas de Tenis - 8 Pistas de P�del    Unidades Deportivas Cubiertas  Pabellon Polideportivo - Piscina (vaso de 25 m y vaso de ense�anza) - 2 Salas Multiusos - Sala de Musculaci�n    Accesibilidad:  instalaci�n adaptada, con 1 ascensor y 1 gr�a de piscina    SERVICIOS     Deportes Practicables  Baloncesto - Balonmano - F�tbol - F�tbol Sala - Musculaci�n - Nataci�n - P�del - Tenis - Voleibol   Uso de espacios deportivos  Campo de F�tbol 7 - Campo de F�tbol - Pabell�n - Pista de Baloncesto - Piscina - Pista de Balonmano - Pista de F�tbol Sala -  Pista de P�del - Pista de Tenis - Pista de Voleibol - Sala de Musculaci�n    Ense�anzas Deportivas Escuelas Pre-Infantiles  (de 18 meses a 5 a�os): Matronataci�n - Nataci�n Peques - Educaci�n F�sica de Base  Escuelas Infantiles  (de 6 a 14 a�os): Aer�bic - Baloncesto - Balonmano - F�tbol - F�tbol Sala - Gimnasia R�tmica - Judo - Nataci�n - P�del - Polideportiva - Pretenis - Tenis - Voleibol  Clases para j�venes  (de 15 a 20 a�os): Aer�bic - Baloncesto - Balonmano - Ciclo Sala -  F�tbol - F�tbol Sala - Musculaci�n - Nataci�n - P�del - Tenis - Voleibol  Clases para adultos (de 21 a 64 a�os):  Acondicionamiento F�sico Deportivo - Acuagim - Aer�bic - Bailes de Sal�n - Ciclo Sala - Combinada - Defensa Personal - Fitness - Fitness Acu�tico - F�tbol - GAP (Gl�teos, Abdomen y Piernas) Gimnasia Acu�tica - Nataci�n - Nataci�n de Compensaci�n - Nataci�n Embarazadas - P�del - Pilates - Tenis   Actividades para mayores de 65 a�os:  Acuagim - Actividad F�sica - Actividad Acu�tica - Gimnasia Acu�tica - Gimnasia Suave - Nataci�n  Actividades para personas con Discapacidad F�sica:  Actividad F�sica - Nataci�n - P�del - Tenis" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLasCruces> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "AVENIDA POBLADOS, 72" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLasCruces> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLasCruces> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLasCruces> a geo:SpatialThing ;
+	geo:lat "40.379148937377394"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.756554762411969"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLasCruces> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLasCruces> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLosPrunos> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Los Prunos" ;
+	schema:description "Forma de gesti�n:  Indirecta, por medio de concesi�n de la gesti�n de los servicios   deportivos  AQA los Prunos     Para acceder a este centro deportivo municipal de gesti�n indirecta �nicamente ser�n v�lidos los abonos adquiridos en este centro.   EQUIPAMIENTOS:     Unidades deportivas al aire libre:  Pista polideportiva - 8 pistas de P�del   Unidades deportivas cubiertas:  Piscina (vaso de 25 m. y vaso de ense�anza) - 4 pistas de P�del - Sala multiusos (Ciclo Sala) - Sala multiusos (gimnasio) - 3 salas multiusos - Spa y zona termal   Accesibilidad:  instalaci�n adaptada, con 1 ascensor" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLosPrunos> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE PETUNIAS, 30" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLosPrunos> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLosPrunos> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLosPrunos> a geo:SpatialThing ;
+	geo:lat "40.453257453448046"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6186956428199863"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLosPrunos> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLosPrunos> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLuisAragon�s> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Luis Aragon�s" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  61.500 m2    EQUIPAMIENTOS     Unidades Deportivas al aire libre  2 Campos de F�tbol (de c�sped artificial) - 2 Campos de F�tbol 7 (de c�sped artificial) - Piscinas (vaso 50 m., 2 vasos gemelos y 1 vaso infantil)  - Pista de Voley Playa - 3 Pistas de Tenis - 4 Pistas de P�del - 4 Tenis de Mesa  Unidades Deportivas Cubiertas  Piscina (vaso de 25 m. y vaso de ense�anza) - Sala de Artes Marciales - Sala multiusos (Gimnasio) - Sala de Musculaci�n   Accesibilidad:  Instalaci�n adaptada, con 1 gr�a de piscina    SERVICIOS     Deportes Practicables  F�tbol - F�tbol 7 - Musculaci�n - Nataci�n - P�del - Tenis - Tenis de Mesa - Voley Playa   Uso de espacios deportivos  Campo de F�tbol - Campo de F�tbol 7 - Piscina - Pista de Tenis - Pista de P�del - Pista de Voley Playa - Sala de Artes Marciales - Sala multiusos - Sala de Musculaci�n  Ense�anzas Deportivas Escuelas Pre-Infantiles  (4 a 5 a�os): Matronataci�n, Nataci�n peques  Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): Judo - Karate Kenpo - Nataci�n - Padel - Pretenis - Tenis  Clases para J�venes  (15 a 20 a�os, seg�n modalidades):Salvamento Acu�tico   Clases para adultos  (21 a 64 a�os): Acondicionamiento F�sico Deportivo - Acuagim - Aer�bic - Fitness - Judo - Karate Kenpo - Nataci�n - Nataci�n de Compensaci�n - Nataci�n Embarazadas - P�del - Pilates - Tenis  Actividades para Mayores de 65 a�os:  Nataci�n - Actividad F�sica" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLuisAragon�s> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE EL PROVENCIO, 20" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLuisAragon�s> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalLuisAragon�s> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLuisAragon�s> a geo:SpatialThing ;
+	geo:lat "40.464650948053816"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6275877145025817"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalLuisAragon�s> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalLuisAragon�s> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalMarqu�sdeSamaranch> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Marqu�s de Samaranch" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  37.420 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Campo de F�tbol (c�sped artificial)   Unidades Deportivas Cubiertas  Pabell�n polideportivo - Piscina (vaso de 25 m. y vaso de ense�anza) - Sala de Musculaci�n - 2 Saunas - Sala multiusos (A�robic)   Servicios auxiliares  Sala multiusos (aula)   Accesibilidad:  instalaci�n adaptada, con 2 gr�as de piscina    SERVICIOS      Deportes practicables  B�dminton - Baloncesto - Balonmano -  Ciclo Sala - F�tbol - F�tbol 7 - F�tbol Sala - Musculaci�n - Nataci�n -  Voleibol      Uso de espacios deportivos  Campo de F�tbol (c�sped artifical) - Campo de F�tbol 7 - Pabell�n - Piscina - Pista de B�dminton - Pista de Baloncesto - Pista de F�tbol Sala - Pista de Voleibol -  Sala de Musculaci�n - Sauna     Ense�anzas Deportivas Escuelas Pre-Infantiles  (3 a 5 a�os):  Nataci�n peques - Polideportiva educaci�n f�sica de base  Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): Aer�bic - B�dminton -  K�rate Kempo - Nataci�n - Polideportiva  Clases para J�venes  (15 a 20 a�os, seg�n modalidades): Aer�bic - B�dminton - Nataci�n - Voleibol - Salvamento  Clases para adultos (21 a 64 ��os):  Acondicionamiento F�sico Deportivo - Acuagim - Aer�bic -  Ciclosala - Fitness - Fitness Acu�tico - Gimnasia Acu�tica - Gimnasia de Compensaci�n - Nataci�n - Nataci�n de Compensaci�n - Nataci�n embarazadas - Pilates  Actividades para Mayores de 65 a�os:  Actividad F�sica - Gimnasia Acu�tica - Nataci�n  Actividades para Personas con discapacidad f�sica:  Actividad Acu�tica (adultos)  Actividades para Personas con discapacidad intelectual:  Nataci�n (adultos e infantil)" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalMarqu�sdeSamaranch> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "PASEO IMPERIAL, 20" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalMarqu�sdeSamaranch> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalMarqu�sdeSamaranch> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalMarqu�sdeSamaranch> a geo:SpatialThing ;
+	geo:lat "40.40761501410649"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7173807221939192"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalMarqu�sdeSamaranch> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalMarqu�sdeSamaranch> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalMiguelGuill�nPrim> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Miguel Guill�n Prim" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  9.071 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Campos de f�tbol 7 (c�sped artificial)   Unidades Deportivas Cubiertas  Pabell�n polideportivo - Sala de Musculaci�n   Accesibilidad:  instalaci�n adaptada     SERVICIOS     Deportes practicables  Badmint�n - Baloncesto - Balonmano - F�tbol 7 - F�tbol Sala - Voleibol -  Musculaci�n   Uso de espacios deportivos  Campos de F�tbol 7 - Pista de B�dminton - Pista de Baloncesto - Pista de F�tbol Sala - Pista de Voleibol - Sala de Musculaci�n   Ense�anzas Deportivas   Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): F�tbol Sala - Taekwondo  Clases para adultos  (21 a 64 ��os): Acondicionamiento F�sico Deportivo - Musculaci�n  Actividades para Mayores de 65 a�os:   Actividad F�sica" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalMiguelGuill�nPrim> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE FUENTIDUE�A, 6" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalMiguelGuill�nPrim> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalMiguelGuill�nPrim> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalMiguelGuill�nPrim> a geo:SpatialThing ;
+	geo:lat "40.37381855452167"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.623151468598157"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalMiguelGuill�nPrim> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalMiguelGuill�nPrim> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalMoratalaz> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Moratalaz" ;
+	schema:description "Forma de Gesti�n:  directa, por parte del Ayuntamiento de Madrid    Superficie:  108.300 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre:  campo de f�tbol (de c�sped artificial), 3 pistas de f�tbol sala, campo de tiro con arco, 2 frontones, piscina (3 vasos de 50 m. y una vaso infantil), pista de atletismo, pista de baloncesto, pista de patinaje, 6 pistas de tenis, pista de voley playa   Unidades Deportivas cubiertas:  pabell�n polideportivo, piscina (vaso de 25 m.), sala de musculaci�n, sala de artes marciales, sala multiusos (psicomotricidad), sala multiusos (ciclo sala)   Unidades con servicios auxiliares:  sala de reconocimientos m�dicos     Accesibilidad:  instalaci�n practicable, con 1 ascensor y 2 gr�as de piscina    SERVICIOS      Deportes practicables:  atletismo, baloncesto, balonmano, deportes de pelota, f�tbol, f�tbol sala, f�tbol 7, musculaci�n, nataci�n, patinaje art�stico, tenis, tiro con arco, voley playa   Uso de espacios deportivos:  campo de f�tbol, campo de tiro con arco, front�n, pabell�n, piscina , pista de atletismo, pista de baloncesto, pista de patinaje, pista polideportiva, pista de tenis    Ense�anzas Deportivas     Escuelas pre-Infantiles : nataci�n peques (4 y 5 a�os), psicomotricidad (3 a 8 a�os)   Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): atletismo, baloncesto, f�tbol ,  gimnasia r�tmica, judo, karate shyto, nataci�n , patinaje, polideportiva (educaci�n f�sica de base), tenis, tiro con arco   Clases para J�venes  ( 15 a 20 a�os, seg�n modalidades): atletismo, baloncesto, f�tbol, nataci�n   Clases para adultos  (21 a 64 a�os): acondicionamiento f�sico deportivo, aer�bic, ciclo sala, combinada (educaci�n f�sica permanente y deportes), fitness, gimnasia acu�tica, gimnasia de compensaci�n, gl�teos, abdomen y piernas ( GAP ), judo, karate shyto, nataci�n, nataci�n de compensaci�n, nataci�n embarazadas, patinaje, pilates, tenis, tonificaci�n con pesas   Actividades para mayores de 65 a�os:  actividad f�sica, gimnasia acu�tica, nataci�n  Actividades para personas con discapacidad f�sica:  nataci�n (infantiles)  - Actividades para personas con discapacidad intelectual:   atletismo, nataci�n (adultos)" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalMoratalaz> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE VALDEBERNARDO, 2" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalMoratalaz> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalMoratalaz> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalMoratalaz> a geo:SpatialThing ;
+	geo:lat "40.39885854572339"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.632432290214539"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalMoratalaz> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalMoratalaz> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalMoscard�> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Moscard�" ;
+	schema:description "Naturaleza Centro   P�blico * Gesti�n Club Nataci�n Madrid Moscard� * Ayuntamiento de Madrid * Distrito de Usera   Superficie  13.800 m2     EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Piscina (vaso de 50 m. y vaso infantil) - 2 Pistas de P�del - Pista de Voley Playa   Unidades Deportivas Cubiertas  Piscina (vaso de 25 m. y paso de ense�anza) - 2 Salas multiusos (Gimnasios)   Accesibilidad:  instalaci�n adaptada, con 2 gr�as de piscina    SERVICIOS     Deportes practicables  Nataci�n - P�del - Voley playa   Uso de espacios deportivos  Piscina - Pistas de P�del    Ense�anzas deportivas Escuelas infantiles:   Nataci�n - P�del - Waterpolo  Clases para adultos:  Acuagim - Aer�bic  Bailes de Sal�n - Combinada - Nataci�n - P�del - Pilates  Actividades para Mayores de 65 a�os:  Actividad Acu�tica - Combinada" .
+
+<http://localhost:3333/mibarrio/District/USERA> a admingeo:District ;
+	schema:name "USERA" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/USERA> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalMoscard�> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalMoscard�> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE ANDRES ARTEAGA, 5" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalMoscard�> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalMoscard�> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalMoscard�> a geo:SpatialThing ;
+	geo:lat "40.38942414641932"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7059238918122555"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalMoscard�> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalMoscard�> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalOrcasitas> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Orcasitas" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  100.200 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  3 Campos de F�tbol (de c�sped artificial) - Campo de F�tbol 7 (de c�sped artificial) - Piscina (2 vasos de 50 m. y vaso infantil) - Pista de Atletismo - 5 Pistas de P�del - 2 Pistas Polideportivas - 8 Pistas de Tenis - 1 Pista de Voley Playa    Unidades Deportivas Cubiertas  Pabell�n Jes�s Roll�n - Piscina (vaso 25 m. y vaso de ense�anza)  - 2 Salas de Musculaci�n - Sala multiusos (Aer�bic) - Sala multiusos (Gimnasio) - Sala multiusos    Accesibilidad:  instalaci�n practicable, con 1 ascensor y 1 gr�a de piscina       SERVICIOS     Deportes practicables  Atletismo - Baloncesto - B�dminton - Balonmano - F�tbol - F�tbol Sala - F�tbol 7 - Musculaci�n - Nataci�n - P�del - Tenis - Voleibol - Voley playa - Unihockey   Uso de espacios deportivos  Campo de F�tbol - Campo de F�tbol 7 - Pabell�n - Piscina - Pista de Atletismo - Pista Polideportiva - Pista de P�del - Pista de Tenis - Pista de Voley Playa - Sala multiusos - Sala de Musculaci�n     Ense�anzas Deportivas Escuelas Pre-Infantiles  (3 a 5 a�os): Matronataci�n - Nataci�n peques  Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): Atletismo - Baloncesto -  F�tbol - Gimnasia R�tmica - Nataci�n - Polideportiva   Clases para j�venes  (de 15 a 20 a�os): Baloncesto - Nataci�n - Salvamento Acu�tico   Clases para adultos  (21 a 64 a�os): Acondicionamiento F�sico Deportivo - Acuagim - Aer�bic - Combinada  (Educaci�n F�sica Permanente y Deportes) - Fitness - Gimnasia de Compensaci�in - Nataci�n - Nataci�n de Compensaci�n - Nataci�n embarazadas - P�del - Pilates - Tenis  Actividades para Mayores de 65 a�os:  Actividad F�sica - Nataci�n  Actividades para Personas con discapacidad sensorial (sordos):  Atletismo" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalOrcasitas> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "AVENIDA RAFAELA YBARRA, 52" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalOrcasitas> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalOrcasitas> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalOrcasitas> a geo:SpatialThing ;
+	geo:lat "40.37558213858424"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.71245854352948"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalOrcasitas> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalOrcasitas> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalOrcasur> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Orcasur" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  22.500 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  2 Campos de F�tbol 7 (de c�sped artificial) - Front�n (largo) - 2 Pistas de P�del - Pista de F�tbol Sala - Pista de Tenis    Unidades Deportivas Cubiertas  Pabell�n polideportivo - Piscina (vaso de 25 m.) - Sala de Musculaci�n    Accesibilidad:  instalaci�n adaptada, con 1 gr�a de piscina    SERVICIOS     Deportes practicables  B�dminton - Baloncesto - Deportes de Pelota - F�tbol 7 - F�tbol Sala - Musculaci�n - Nataci�n - P�del - Tenis - Voleibol    Uso de espacios deportivos  Campo de F�tbol 7 - Front�n - Pabell�n - Piscina - Pista de B�dminton - Pista de P�del - Pista polideportiva - Pista de Tenis    Ense�anzas Deportivas Escuelas Pre-Infantiles  (2 a 5 a�os): Matronataci�n - Nataci�n peques  Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): F�tbol - Nataci�n - P�del  Clases para j�venes  (de 15 a 20 a�os): Nataci�n   Clases para adultos  (21 a 64 a�os): Acondicionamiento F�sico Deportivo - Combinada  - Nataci�n - P�del - Pilates   Actividades para Mayores de 65 a�os:  Actividad F�sica - Gimnasia Acu�tica - Nataci�n  Actividades para Personas con discapacidad f�sica:  Nataci�n" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalOrcasur> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE MOREJA, 11" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalOrcasur> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalOrcasur> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalOrcasur> a geo:SpatialThing ;
+	geo:lat "40.37021993373859"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6994689006077444"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalOrcasur> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalOrcasur> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPalomeras> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Palomeras" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  97.300 m2    EQUIPAMIENTOS     Unidades Deportivas al aire libre  2 Campos de F�tbol (c�sped artificial) - Front�n (corto) - Piscinas (1 vaso de 50 m- 2 vasos de recreo y 1 vaso infantil) - Pista de Atletismo - 4 Pistas de P�del - 6 Pistas Polideportivas - 5 Pistas de Tenis- 2 Tenis de mesa   Unidades Deportivas Cubiertas  Pablell�n polideportivo - Piscina ( 1 vaso de 25 m y 1 vaso de ense�anza) - Sala de Armas- Sala de Artes Marciales - Sala multiusos (Ciclo Sala) - Sala multiusos (Gimnasio) - Sala de Musculaci�n   Unidades con Servicios Auxiliares  Aula - Sala de Acondicionamiento Cardiovascular y Reconocimiento M�dico   Accesibilidad : instalaci�n convertible, con 1 ascensor y 2 gr�as de piscina    SERVICIOS     Deportes practicables  Atletismo - B�dminton-Baloncesto - Balonmano - Deportes de Pelota - F�tbol - F�tbol Sala - Musculaci�n - Nataci�n - P�del - Tenis- Tenis de Mesa- Voleibol   Uso de espacios deportivos  Campo de F�tbol (c�sped artificial) - Front�n - Pabell�n - Piscina - Pista de Atletismo - Pista de P�del - Pista polideportiva - Pista de Tenis - Sala de Musculaci�n - Tenis de Mesa   Ense�anzas Deportivas Escuelas Pre-Infantiles  (3 a 5 a�os): Matronataci�n - Nataci�n peques  Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): Atletismo - B�dminton - Baloncesto - Esgrima - F�tbol - Gimnasia R�tmica - Judo - Nataci�n - P�del - Psicomotricidad -Tenis -Voleibol  Clases para J�venes  (15 a 21 a�os ): B�dminton - Baloncesto - Esgrima - F�tbol - Nataci�n - P�del - Tenis - Voleibol     Clases para adultos  (21 a 64 a�os): Acondicionamiento F�sico Deportivo - Acuagim - Aer�bic - Ciclo Sala -Combinada/EFP (Educaci�n F�sica Permanente) - Gl�teos, Abdomen, Piernas (Gl�teos, Abdomen y Piernas - GAP) - Judo - Nataci�n - Nataci�n embarazadas - P�del - Pilates - Tenis  Actividades para Mayores de 65 a�os:  Actividad Acu�tica - Actividad F�sica  Actividades para Personas con discapacidad f�sica:  Nataci�n (adultos)" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalPalomeras> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE TRANVIA DE ARGANDA, 4" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPalomeras> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalPalomeras> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalPalomeras> a geo:SpatialThing ;
+	geo:lat "40.382599021651856"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6337292699561834"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPalomeras> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalPalomeras> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPepuHern�ndez> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Pepu Hern�ndez" ;
+	schema:description "Forma de gesti�n  Indirecta, por medio de concesi�n de la gesti�n de los servicios deportivos a la empresa Serviocio Cultura, Deporte y Recreaci�n, S.L.  http://www.serviocio.es/      Superficie  4.966,29 m2     EQUIPAMIENTOS      Unidades Deportivas al Aire Libre  Campo de F�tbol (c�sped artificial y se�alizado para F�tbol 7) - 3 Pistas de Tenis - 4 Pistas de P�del     Unidades Deportivas Cubiertas  Pabell�n Polideportivo - 5 Salas multiusos - Sala de Musculaci�n - 2 Saunas - Sala de Fisioterapia       Accesibilidad:  instalaci�n adaptada, con 1 ascensor     SERVICIOS      Deportes Practicables  B�dminton - Baloncesto - F�tbol - Musculaci�n - P�del - Tenis     Uso de espacios deportivos  Campo de F�tbol 7 - Campo de F�tbol - Pabell�n - Pista de B�dminton - Pista de Baloncesto - Pista de F�tbol Sala - Pista de P�del - Pista de Tenis - Sauna - Sala de Musculaci�n    Ense�anzas Deportivas Escuelas Infantiles  (de 6 a 14 a�os): Aer�bic - Artes Marciales - Baloncesto - Balonmano - Educaci�n F�sica de Base - F�tbol - F�tbol Sala -  P�del - Pretenis - Tenis  Clases para j�venes  (de 15 a 20 a�os): Aer�bic - Artes Marciales - F�tbol - Musculaci�n - P�del - Tenis  Clases para adultos  (de 21 a 64 a�os): Acondicionamiento F�sico Deportivo - Aer�bic - Artes Marciales - Ciclo Sala - Estiramientos/Relax - - Fitness - Gimnasia Suave - Musculaci�n - P�del - Pilates - Tenis - Tonificaci�n   Actividades para mayores de 65 a�os:  Actividad F�sica  Actividades para personas con Discapacidad F�sica:  Actividad F�sica (todos los grupos de edad)" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalPepuHern�ndez> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "AVENIDA NIZA, 8" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPepuHern�ndez> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalPepuHern�ndez> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalPepuHern�ndez> a geo:SpatialThing ;
+	geo:lat "40.427629273303175"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6063181769844794"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPepuHern�ndez> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalPepuHern�ndez> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPe�uelas> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Pe�uelas" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  7.000 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Piscina (vaso de gemelas, vaso de recreo y vaso infantil)   Accesibilidad:  instalaci�n adaptada, con 1 gr�a de piscina    SERVICIOS     Deportes practicables  Nataci�n   Uso de espacios deportivos  Piscina" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalPe�uelas> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE ARGANDA, 25" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPe�uelas> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalPe�uelas> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalPe�uelas> a geo:SpatialThing ;
+	geo:lat "40.39865532340664"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.704959759845779"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPe�uelas> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalPe�uelas> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPlatayCasta�ar> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Plata y Casta�ar" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  65.000 m2     EQUIPAMIENTOS     Unidades Deportivas al Aire Libre   Campo de F�tbol (c�sped artificial) - Campo de F�tbol 7 (c�sped artificial) - Piscina (vaso de 25 m. - vaso de recreo - vaso infantil) - Pista de Patinaje (con cubierta) -  2 Pistas polideportivas - 6 Pistas de Tenis  - 4 Pistas de P�del   Unidades Deportivas Cubiertas  Pabell�n polideportivo - Piscina (vaso de 25 m. - vaso de ense�anza) - Sala multiusos (aer�bic)   Unidades con Servicios Auxiliares :  Sala de Fisio-Hidroterapia   Accesibilidad : Instalaci�n adaptada, con 1 ascensor y 2 gr�as de piscina    SERVICIOS      Deportes practicables   B�dminton - Baloncesto - Balonmano - F�tbol - F�tbol Sala - F�tbol 7 - Nataci�n - Patinaje - P�del - Tenis Mesa - Tenis - Voleibol   Uso de espacios deportivos  Campo de F�tbol - Campo de F�tbol 7 - Pabell�n - Piscina - Pista de B�dminton - Pista de Baloncesto - Pista de F�tbol Sala - Pista Patinaje - Pista P�del - Pista polideportiva - Pista de Tenis - Tenis Mesa    Ense�anzas Deportivas:   Escuelas Pre-Infantiles  (de 2 a 5 a�os): Matronataci�n - Nataci�n Peques  Escuelas Infantiles  (6 a 14 a�os, seg�n modalidades): F�tbol F�tbol 7 - Freestyle - Nataci�n - P�del - Patinaje Art�stico - Polideportiva- Pre-Tenis - Tenis - Tenis Mesa  Clases para J�venes  (de 15 a 20 a�os, seg�n modalidades): Nataci�n - Salvamento Acu�tico  Clases para Adultos  (de 21 a 64 a�os): Acuagim - Aer�bic - Bailes - Ciclo Sala - Combinada (Educaci�n F�sica Permanente y Deportes) - Fitness - Nataci�n - Nataci�n de Compensaci�n - P�del - Pilates -Tenis   Actividades para Mayores de 65 a�os:  Actividad F�sica - Actividad Acu�tica - Baile  Actividades para personas con discapacidad f�sica:  Actividad Acu�tica (adultos)" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalPlatayCasta�ar> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "PASEO PLATA Y CASTA�AR, 7" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPlatayCasta�ar> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalPlatayCasta�ar> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalPlatayCasta�ar> a geo:SpatialThing ;
+	geo:lat "40.34998997348078"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7178413073202856"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPlatayCasta�ar> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalPlatayCasta�ar> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPlayaVictoria> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Playa Victoria" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid      Superficie  5.750 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Pista de P�del (cristal)   Unidades Deportivas cubiertas  Piscina (vaso de 25 m.) - Sala multiusos (gimnasio) - Sala de Musculaci�n - 2 saunas   Accesibilidad:  instalaci�n adaptada, con 1 ascensor, 2 plataformas y 1 gr�a de piscina    SERVICIOS     Deportes practicables  Musculaci�n - Nataci�n - P�del   Uso de espacios deportivos  Piscina - Sala multiusos (gimnasio) - Sala de Musculaci�n - Sauna - Pista de P�del  Ense�anzas Deportivas Escuelas Pre-Infantiles  (4 a 5 a�os): Nataci�n peques  Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): Karate Shyto - Nataci�n  Clases para j�venes  (15 a 20 a�os): Nataci�n  Clases para adultos  (21 a 64 a�os): Acondicionamiento F�sico Deportivo - Acuagim - Aer�bic -  Karate Shyto - Nataci�n - Nataci�n de Compensaci�n - Nataci�n embarazadas - Pilates  Actividades para Mayores de 65 a�os:  Actividad F�sica - Nataci�n   Actividades para personas con discapacidad f�sica:  Nataci�n (Infantiles y Adultos)   Actividades para Personas con discapacidad intelectual:  Aer�bic - Nataci�n (Adultos)" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalPlayaVictoria> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE HIERBABUENA, 2" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPlayaVictoria> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalPlayaVictoria> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalPlayaVictoria> a geo:SpatialThing ;
+	geo:lat "40.4592763472204"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.7021136988422567"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPlayaVictoria> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalPlayaVictoria> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPradillo> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Pradillo" ;
+	schema:description "Forma de gesti�n  Directa, por parte del Ayuntamiento de Madrid   Superficie  9.800 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Campo de F�tbol 7 - 6 Pistas de P�del - 1 Pista de Tenis - 2 Pistas Polideportivas   Unidades Deportivas Cubiertas   Piscina (1 vaso de 25 m. y 1 vaso de ense�anza) -  Salas Multiusos -  Sala de Musculaci�n - 2 Saunas   Accesibilidad:  Instalaci�n adaptada, con 1 ascensor, 1 plataforma y 1 gr�a de piscina.    SERVICIOS     Deportes practicables    B�dminton - Mini-basket - Musculaci�n - Nataci�n - P�del - Tenis - F�tbol 7 - F�tbol Sala - Gimnasia R�tmica - Ciclo Sala   Uso de espacios deportivos  Piscina - Pista de B�dminton - Campo de F�tbol 7 - Pista de P�del - Pista de Tenis - Sala de Musculaci�n - Sauna - F�tbol Sala   Ense�anzas deportivas - Escuelas Pre-Infantiles  (3 a 5 a�os): Nataci�n peques - Polideportiva (Educaci�n F�sica de Base) -  Escuelas Infantiles  (6 a 14 a�os, seg�n modalidades): B�dminton - F�tbol - Gimnasia R�tmica -  Nataci�n - P�del -  Tenis  -  Clases para J�venes  (15 a 20 a�os, seg�n modalidades): P�del -  Clases para Adultos  (21 a 64 a�os): Acondicionamiento F�sico Deportivo - Acuagim - Aer�bic - Ciclo Sala - Combinada (Educaci�n F�sica Permenente y Deportes) -  Fitness - G.A.P. -  Gimnasia Suave - Musculaci�n - Nataci�n - Nataci�n de Compensaci�n - Nataci�n Embarazadas - P�del - Pilates - Tenis -  Actividades para Mayores de 65 a�os:   Actividad F�sica - Nataci�n -  Actividades para Personas con discapacidad f�sica:  Nataci�n (infantil y adultos)" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalPradillo> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE PRADILLO, 33" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPradillo> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalPradillo> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalPradillo> a geo:SpatialThing ;
+	geo:lat "40.44910622626739"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.671618277009419"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPradillo> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalPradillo> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPuebloNuevo> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Pueblo Nuevo" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  3.300 m2     EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Piscina (1 vaso de 25 m. y 1 vaso de ense�anza) - Sala multiusos - Sala multiusos (gimnasio) - Sala de Musculaci�n - Saunas - 3 Tenis de Mesa   Accesibilidad:  Instalaci�n convertible con 1 gr�a de piscina.    SERVICIOS     Deportes practicables  Musculaci�n - Nataci�n    Uso de espacios deportivos  Piscina - Sala de multiusos - Sala de Musculaci�n - Sauna   Ense�anzas Deportivas Escuelas Pre-Infantiles  (2 a 5 a�os): Matronataci�n - Nataci�n peques  Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): Nataci�n   Clases para J�venes  (15 a 20 a�os, seg�n modalidades): Nataci�n  Clases para adultos  (21 a 64 a�os): Acondicionamiento F�sico Deportivo - Acuagim - Aer�bic - Combinada / Educaci�n F�sica Permanente - Ciclo Sala - Fitness - Gimnasia Suave - Musculaci�n - Nataci�n - Nataci�n de Compensaci�n - Nataci�n de embarazadas - Pilates - Tonificaci�n  Actividades para Mayores de 65 a�os:  Actividad F�sica - Gimnasia Acu�tica - Nataci�n  Actividades para Personas con discapacidad f�sica:  Nataci�n (infantil y adultos)" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalPuebloNuevo> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE FRANCISCO RIOJA, 14" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPuebloNuevo> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalPuebloNuevo> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalPuebloNuevo> a geo:SpatialThing ;
+	geo:lat "40.43003240158625"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.638536354805483"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPuebloNuevo> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalPuebloNuevo> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPuentedeVallecas> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Puente de Vallecas" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  1.565 m2     EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Pabell�n polideportivo - Piscina (1 vaso de 25 m. y 1 vaso de ense�anza) - 4 Pistas de Squash - Sala multiusos - Sala de Musculaci�n   Accesibilidad:  Instalaci�n adaptada, con 1 montacargas y 1 gr�a de piscina.    SERVICIOS     Deportes Practicables  Baloncesto - Balonmano - F�tbol Sala - Musculaci�n - Nataci�n - Squash - Submarinismo - Voleibol   Uso de espacios deportivos  Pabell�n - Piscina - Pista polideportiva - Pista de Squash - Sala multiusos- Sala de Musculaci�n  Ense�anzas Deportivas Escuelas Pre-Infantiles  (4 y 5 a�os): Matronataci�n - Nataci�n peques  Escuelas infantiles (6 a 14 a�os, seg�n modalidades):  Baloncesto - Gimnasia R�tmica - Judo - Nataci�n - Squash - Taekwondo  Clases para j�venes  (15 a 20 seg�n modalidades): Judo - Nataci�n - Salvamento Acu�tico   Clases para adultos  (21 a 64 a�os): Acondicionamiento F�sico Deportivo - Acuagim - Aer�bic - Combinada de Compensaci�n - Combinada (Educaci�n F�sica Permanente y Deportes) - Judo -Nataci�n - Nataci�n de Compensaci�n - Nataci�n de embarazadas - Pilates  Actividades para Mayores de 65 a�os:  Actividad F�sica - Nataci�n  Actividades para Personas con discapacidad f�sica:  Nataci�n (adulto)" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalPuentedeVallecas> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE PAYASO FOFO, 7" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPuentedeVallecas> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalPuentedeVallecas> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalPuentedeVallecas> a geo:SpatialThing ;
+	geo:lat "40.39146194707861"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6598636029775866"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalPuentedeVallecas> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalPuentedeVallecas> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalRa�lGonz�lez> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Ra�l Gonz�lez" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  8.500 m2     EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Pabell�n polideportivo - Piscina (1 vaso de 25 m. y 1 vaso de ense�anza) - 2 Salas multiusos     Accesibilidad:   instalaci�n adaptada, con 1 montacargas y 1 gr�a de piscina.    SERVICIOS     Deportes practicables  Baloncesto - Balonmano - F�tbol Sala - Nataci�n - Voleibol   Uso de espacios deportivos  Pabell�n - Piscina - Sala multiusos    Ense�anzas Deportivas Escuelas Pre-Infantiles  (1 a 5 a�os): Matronataci�n - Nataci�n peques  Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): F�tbol Sala - Nataci�n   Clases para adultos  (21 a 64 a�os): Acondicionamiento F�sico - Aer�bic - Acuagim - Ciclo Sala - GAP (Gl�teos, Abdomen y Piernas) - Nataci�n - Pilates  Actividades para Mayores de 65 a�os:  Gimnasia Acu�tica - Actividad F�sica - Nataci�n  Actividades para Personas con discapacidad f�sica:  Nataci�n (infantil)" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalRa�lGonz�lez> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE BENIMAMET, 137" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalRa�lGonz�lez> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalRa�lGonz�lez> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalRa�lGonz�lez> a geo:SpatialThing ;
+	geo:lat "40.346220026067044"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.684337728806363"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalRa�lGonz�lez> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalRa�lGonz�lez> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalSanBlas> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal San Blas" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  47.000 m2       EQUIPAMIENTOS     Unidades Deportivas al aire libre  Piscina (1 vaso de 50 m. y 1 vaso gemelas y 1 vaso infantil) -  5 Pistas polideportivas - 2 Tenis - 3 Tenis de Mesa   Unidades Deportivas Cubiertas  3 Pabell�n polideportivo - Piscina (1 vaso de 25 m.) - Sala Multiusos - Sala Artes Marciales - Sala Musculaci�n      Accesibilidad:  instalaci�n convertible, con 1 ascensor y 1 gr�a de piscina.       SERVICIOS     Deportes Practicables  Aikido - Baloncesto - Balonmano - F�tbol Sala - Hap Kido - K�rate - Lucha ol�mpica - Musculaci�n - Nataci�n - Taekwondo - Tenis      Uso de espacios deportivos  Pabellones- Piscina - Pistas polideportivas - Pistas de Tenis  Ense�anzas Deportivas Escuelas Pre-Infantiles  (3 a 5 a�os): Matronataci�n - Nataci�n peques  Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): Baloncesto - F�tbol Sala - Gimnasia Art�stica - Gimnasia R�tmica - Hap Kido - Karate - Lucha - Nataci�n - Taekwondo - Tenis  Clases para j�venes  (15 a 20 a�os, seg�n modalidades): Gimnasia R�tmica - Lucha - Nataci�n - Tenis   Clases para adultos  (21 a 64 a�os): Acondicionamiento F�sico Deportivo - Aikido - Combinada (Educaci�n F�sica Permanente) - Gimnasia Suave - Lucha - Musculaci�n - Nataci�n - Tenis  Actividades para Mayores de 65 a�os:   Actividad F�sica - Nataci�n   Actividades para Personas con discapacidad f�sica:  Nataci�n (infantil)" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalSanBlas> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE ARCOS DE JALON, 59" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalSanBlas> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalSanBlas> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalSanBlas> a geo:SpatialThing ;
+	geo:lat "40.428810107016545"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6113273589762334"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalSanBlas> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalSanBlas> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalSanCrist�bal> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal San Crist�bal" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  1000 m2     EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Sala de Artes Marciales - Sala de Musculaci�n - Sala multiusos - Sauna   Accesibilidad:  instalaci�n convertible     SERVICIOS     Deportes practicables  Karate - Musculaci�n - Pilates - Actividad f�sica   Uso de espacios deportivos  Sala de Musculaci�n   Ense�anzas Deportivas   Escuelas   infantiles  (6 a 14 a�os, seg�n modalidades): Kenpo  Clases para adultos  (21 a 64 ��os): Ciclo Sala - GAP (Gl�teos, Abdomen y Piernas) - Kenpo - Pilates   Servicio de Medicina deportiva  Psicomotricidad (infantil, de 3 a 8 a�os)" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalSanCrist�bal> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "PLAZA PINAZO, 9" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalSanCrist�bal> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalSanCrist�bal> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalSanCrist�bal> a geo:SpatialThing ;
+	geo:lat "40.34267317099495"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6914487380508842"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalSanCrist�bal> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalSanCrist�bal> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalSanFerm�n> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal San Ferm�n" ;
+	schema:description "Forma de Gesti�n:  directa, por parte del Ayuntamiento de Madrid    Superficie:  10.000 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre:  piscina (1 vaso de 50 m. y 1 vaso infantil)   Accesibilidad:  instalaci�n adaptada, con 1 gr�a de piscina.    SERVICIOS     Deportes practicables:  nataci�n   Uso de espacios deportivos:  piscina" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalSanFerm�n> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE SAN MARIO, 18" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalSanFerm�n> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalSanFerm�n> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalSanFerm�n> a geo:SpatialThing ;
+	geo:lat "40.37530577421291"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6927010241442946"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalSanFerm�n> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalSanFerm�n> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalSanJuanBautista> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal San Juan Bautista" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  11.000 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  2 Pistas de P�del - 3 Pistas de Tenis    Unidades Deportivas Cubiertas  Piscina (1 vaso de 25 m. y 1 vaso de ense�anza) - Sala multiusos (gimnasio)   Accesibilidad:  instalaci�n practicable, con 1 gr�a de piscina.    SERVICIOS     Deportes Practicables  Nataci�n - P�del - Tenis   Uso de espacios deportivos  Piscina - Pista de P�del - Pista de Tenis - Sala multiusos   Ense�anzas Deportivas Escuelas Pre-Infantiles  (2 a 5 a�os): Matronataci�n S/P - Matronataci�n - Nataci�n peques  Escuelas infantiles  (6 a 14 a�os, seg�n modalidades):  Nataci�n - Pretenis -Tenis  Clases para j�venes  (15 a 20 a�os, seg�n modalidades): Nataci�n  Clases para adultos  (21 a 64 a�os): Acondicionamiento F�sico Deportivo - Acuagim - Aer�bic - Bailes - Combinada (Educaci�n F�sica Permanente y Deportes) - Gimnasia Acu�tica  - Nataci�n - Nataci�n de Compensaci�n - Nataci�n embarazadas - P�del - Pilates - Tenis  Actividades para Mayores de 65 a�os:  Nataci�n -  Actividad F�sica - Acuagim" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalSanJuanBautista> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE TREVIANA, 1-B" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalSanJuanBautista> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalSanJuanBautista> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalSanJuanBautista> a geo:SpatialThing ;
+	geo:lat "40.44860270467461"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6589244965167103"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalSanJuanBautista> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalSanJuanBautista> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalSantaAna> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Santa Ana" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  11.500 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Piscina (1 vaso en L y 1 vaso infantil) - 2 Pistas polideportivas - 4 Tenis de Mesa   Accesibilidad:  instalaci�n adaptada, con 1 gr�a de piscina.       SERVICIOS     Deportes practicables  Baloncesto - Balonmano - F�tbol Sala - Nataci�n - Tenis de Mesa   Uso de espacios deportivos  Piscina - Pista polideportiva" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalSantaAna> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "PASEO ALAMEDILLAS, 5" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalSantaAna> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalSantaAna> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalSantaAna> a geo:SpatialThing ;
+	geo:lat "40.49809469315447"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.696358010199944"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalSantaAna> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalSantaAna> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalTenisCasadeCampo> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Tenis Casa de Campo" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  12.000 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  15 Pistas de Tenis, 7 Tenis Mesa   Accesibilidad:  instalaci�n adaptada    SERVICIOS     Deportes practicables  Tenis   Uso de espacios deportivos  Pistas de Tenis   Ense�anzas Deportivas Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): Tenis   Clases para adultos  (21 a 64 a�os): Tenis" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalTenisCasadeCampo> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CAMINO PRINCIPE, 2" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalTenisCasadeCampo> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalTenisCasadeCampo> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalTenisCasadeCampo> a geo:SpatialThing ;
+	geo:lat "40.421436625700565"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.735739625664774"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalTenisCasadeCampo> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalTenisCasadeCampo> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalTri�ngulodeOro> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Tri�ngulo de Oro" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  4.150 m2     EQUIPAMIENTOS     Unidades Deportivas Cubiertas  Pabell�n polideportivo - Piscina (1 vaso de 25 m.) - Sala de Musculaci�n - Front�n corto - 2 Salas Multiusos   Accesibilidad:  instalaci�n adaptada, con 1 ascensor, 1 plataforma y 1 gr�a de piscina    SERVICIOS     Deportes practicables  Baloncesto - Balonmano - Deportes de Pelota - F�tbol Sala - Musculaci�n - Nataci�n - Voleibol   Uso de espacios deportivos  Front�n - Pabell�n - Piscina - Pista polideportiva - Sala de Musculaci�n - Sala multiusos   Ense�anzas Deportivas Escuelas Pre-Infantiles  (2 a 5 a�os): Nataci�n peques  Escuelas Infantiles  (6 a 14 a�os, seg�n modalidades): Aer�bic - Baloncesto - Karate Shyto - Nataci�n   Clases para j�venes  (15 a 20 a�os, seg�n modalidades): Baloncesto - Nataci�n  Clases para adultos  (21 a 64 a�os): Acondicionamiento F�sico Deportivo - Acuagim - Aer�bic - Ciclo Sala - Fitness - Gimnasia Suave - Karate Shyto - Musculaci�n - Nataci�n - Pilates  Actividades para   Mayores de 65 a�os:  Actividad F�sica - Nataci�n   Actividades para personas con discapacidad f�sica:  Nataci�n (infantil)" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalTri�ngulodeOro> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE BRAVO MURILLO, 376" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalTri�ngulodeOro> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalTri�ngulodeOro> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalTri�ngulodeOro> a geo:SpatialThing ;
+	geo:lat "40.46512519238624"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.6928208378255807"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalTri�ngulodeOro> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalTri�ngulodeOro> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalValdebernardo> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Valdebernardo" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  47.000 m2    EQUIPAMIENTOS     Unidades Deportivas al aire libre  Campo de F�tbol 11 (de c�sped artificial) - 2 Campos de F�tbol 7 (de c�sped artificial) - 9 Pistas de Tenis - 10 Pistas de P�del     Unidades Deportivas Cubiertas  Pabell�n polideportivo - Piscina (1 vaso de 25 m. y 1 vaso de ense�anza) - Sala de Musculaci�n - 2 Salas multiusos   Accesibilidad:  instalaci�n adaptada, con 1 ascensor y 2 gr�as de piscina     SERVICIOS     Deportes practicables  Baloncesto - Balonmano - F�tbol Sala - F�tbol 7 - F�tbol 11 - Musculaci�n - Nataci�n - Voleibol - Tenis - P�del   Uso de espacios deportivos  Campo de F�tbol - Campo de F�tbol 7 - Pabell�n - Piscina - Pista de Baloncesto - Pista de Balonmano - Pista de F�tbol Sala - Pista de P�del - Pista de Tenis - Pista de Voleibol - Sala de Musculaci�n - Sala multiusos   Ense�anzas Deportivas   Escuelas Pre-Infantiles  (2 a 5 a�os): Matronataci�n - Nataci�n peques  Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): Baloncesto - F�tbol - Gimnasia R�tmica - Karate Shyto - Nataci�n - P�del - Polideportiva - Salvamento Acu�tico - Tenis  Clases para J�venes  (de 15 a 20, seg�n modalidades): Aer�bic - Karate Shyto - Nataci�n - P�del - Salvamento Acu�tico - Tenis    Clases para adultos  (21 a 64 a�os): Acondicionamiento F�sico Deportivo - Acuarunning - Aer�bic - Ciclo Sala - Combinada ( Educaci�n F�sica Permanente y Deportes) - Fitness - Gimnasia Acu�tica - Karate Shyto - Nataci�n - Nataci�n de Compensaci�n - Nataci�n embarazadas/Post-parto - P�del - Pilates - Tenis - Tonificaci�n  Actividades para Mayores de 65 a�os:  Actividad F�sica - Nataci�n - Gimnasia acu�tica   Actividades para Personas con discapacidad f�sica:  Nataci�n (infantil y adulto)  Actividades para Personas con discapacidad intelectual:  Nataci�n - P�del (infantil y adulto)  Actividades para Personas con discapacidad sensorial (sordos):  Nataci�n (adulto)" .
+
+<http://localhost:3333/mibarrio/District/VICALVARO> a admingeo:District ;
+	schema:name "VICALVARO" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/VICALVARO> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalValdebernardo> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalValdebernardo> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE LADERA DE LOS ALMENDROS, 2" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalValdebernardo> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalValdebernardo> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalValdebernardo> a geo:SpatialThing ;
+	geo:lat "40.40418961057298"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.622901144863193"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalValdebernardo> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalValdebernardo> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalVallecas> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Vallecas" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid    Superficie  4.500 m2     EQUIPAMIENTOS     Unidades Deportivas al aire libre  Piscina (vaso de recreo y vaso infantil)   Accesibilidad:  instalaci�n convertible, con 1 gr�a de piscina    SERVICIOS     Deportes Practicables  Nataci�n   Uso de espacios deportivos  Piscina" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalVallecas> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "CALLE ARROYO DEL OLIVAR, 51" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalVallecas> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalVallecas> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalVallecas> a geo:SpatialThing ;
+	geo:lat "40.390368919782446"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.657213682860775"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalVallecas> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalVallecas> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalVallehermoso> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Vallehermoso" ;
+	schema:description "Forma de gesti�n  Indirecta, por medio de concesi�n de la gesti�n de los servicios deportivos a la empresa Centro Deportivo Municipal Vallehermoso, S.A.    Superficie  26.724 m2    EQUIPAMIENTOS     Unidades deportivas cubiertas : Pabell�n - Piscina (vaso de 25 metros  y vaso de ense�anza) - Sala Fitness - 5 Salas Multiusos - Zona termal (spa, sauna y ba�o de vapor)   Unidades deportivas al aire libre:  Piscina (vaso de 25 metros) - 3 Pistas de P�del - Zona termal (jacuzzi, spa y solarium)   Accesibilidad:  instalaci�n accesible, con ascensor y gr�a de piscina).   Otros equipamientos : aparcamiento gratuito para 400 plazas    SERVICIOS DEPORTIVOS     Deportes Practicables:   B�dminton - Baloncesto - F�tbol Sala - Judo - Nataci�n   Uso de espacios deportivos:   Pista de Baloncesto -  Pista de F�tbol Sala - Pista de B�dminton - Pista de Voleibol  Piscina - (Tatami) Judo   Ense�anzas deportivas: Escuelas Preinfantiles   (3 a 5 a�os) : Matronataci�n - Nataci�n peques . Educaci�n F�sica de Base (polideportiva)  Infantiles   (de 6 a 14 a�os) : B�dminton - Baloncesto - Boxeo - Gimnasia Art�stica - Gimnasia R�tmica - Judo - Nataci�n - P�del - Polideportiva - Taekwondo - Voleibol  J�venes   (de 15 a 20 a�os) : Aer�bic (Adaptiv Aer�bic) - Baloncesto - Boxeo - Judo - Nataci�n - P�del - Taekwondo - Voleibol  Adultos   (de 21 a 64 a�os) : Acondicionamiento f�sico deportivo (Adaptiv Hit / Kangoo Boot) - Aer�bic (Adaptiv Aer�bic / Adaptiv Box / Adaptiv Step / Kango Power / Latino / Zumba) Acuagim (Adaptiv Aqua) - Boxeo - Capoeira - Ciclo sala (Adaptiv Bike) - Fitness (Corebar) - Judo - Nataci�n - Nataci�n embarazadas - P�del - Pilates (Adaptiv Pilates / Fitball) - Tonificaci�n (Adativ Core / Adaptiv Strength) Yoga  Mayores   (a partir de 65 a�os) : Aer�bic (Adaptiv Aer�bic / Latino) - Aquagim (Adaptiv Aqua) - Ciclo Sala (Adaptiv Bike) - Nataci�n - Pilates (Adaptiv Pilates / Fitball) - Tonificaci�n (Adaptiv Core / Adaptiv Strenght) - Yoga  Personas con Discapacidad : Nataci�n" .
+
+<http://localhost:3333/mibarrio/District/CHAMBERI> a admingeo:District ;
+	schema:name "CHAMBERI" .
+
+<http://localhost:3333/mibarrio/City/MADRID> admingeo:district <http://localhost:3333/mibarrio/District/CHAMBERI> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalVallehermoso> schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalVallehermoso> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "AVENIDA FILIPINAS, 7" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalVallehermoso> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalVallehermoso> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalVallehermoso> a geo:SpatialThing ;
+	geo:lat "40.44064843863945"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.709053489027435"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalVallehermoso> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalVallehermoso> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalVicentedelBosque> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Vicente del Bosque" ;
+	schema:description "Forma de Gesti�n  Directa, por parte del Ayuntamiento de Madrid   Superficie  71.000 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Campo de F�tbol - Piscina ( 2 vasos de 50 m. y 1 vaso infantil) - 2 Pistas de Baloncesto - Pista de Patinaje - 2 Pistas polideportivas - 6 Pistas de Tenis - Pista de Voley Playa - Zona Nudista   Unidades Deportivas Cubiertas  Pabell�n polideportivo - Piscina - Sala de Musculaci�n - Sala de Artes Marciales   Accesibilidad:  Instalaci�n adaptada, con 1 ascensor y 1 gr�a de piscina.     SERVICIOS     Deportes practicables  B�dminton - Baloncesto - Balonmano - F�tbol - F�tbol Sala - F�tbol 7 - Hockey Patines - Musculaci�n - Nataci�n - Patinaje Art�stico - Tenis - Voleibol - Voley Playa   Uso de espacios deportivos  Campo de F�tbol - Pabell�n - Piscina - Pista de Baloncesto - Pista de Balonmano - Pista de Patinaje - Pista polideportiva - Pista de Tenis - Pista de Voley Playa - Sala de Musculaci�n   Ense�anzas deportivas Escuelas Pre-infantiles  (2 a 5 a�os): Matronataci�n - Nataci�n peques  Escuelas Infantiles  (6 a 14 a�os):  Baloncesto - F�tbol - Gimnasia R�tmica - Judo -  Nataci�n - Patinaje - Tenis - Waterpolo   Clases para j�venes  (15 a 20 a�os)  :  Combinada (EF) - F�tbol - Nataci�n    Clases para adultos  (21 a 64 a�os): Acondicionamiento F�sico Deportivo - Aer�bic - Defensa Personal - Fitness - GAP (Gl�teos, Abdomen y Piernas) - Judo - Nataci�n - Nataci�n Compensasi�n - Patinaje - Tenis  Actividades para Mayores de 65 a�os:  Gimnasia Acu�tica - Nataci�n  Actividades para personas con discapacidad f�sica:  Nataci�n (infantil y adultos)   Servicio de Medicina Deportiva  Reconocimientos m�dicos para deportistas" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalVicentedelBosque> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "AVENIDA MONFORTE DE LEMOS, 13" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalVicentedelBosque> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalVicentedelBosque> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalVicentedelBosque> a geo:SpatialThing ;
+	geo:lat "40.4789135943213"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.693540659747283"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalVicentedelBosque> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalVicentedelBosque> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalVic�lvaro> a <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#SportFacility> ;
+	schema:name "Centro Deportivo Municipal Vic�lvaro" ;
+	schema:description "Forma de gesti�n  Directa, por parte del Ayuntamiento de Madrid   Superficie  82.400 m2    EQUIPAMIENTOS     Unidades Deportivas al Aire Libre  Campo de F�tbol 11 (de c�sped artificial) - 2 Campos de F�tbol 7 (de c�sped artificial) - Piscina (1 vaso de 50 m. y 1 vaso infantil) - Pista de Atletismo - 2 Pistas polideportivas - 3 Pistas de Tenis - 4 Pistas de P�del - 4 Tenis Mesa   Unidades Deportivas Cubiertas  Pabell�n polideportivo - Piscina (1 vaso de 25 m. y 1 vaso de ense�anza)    Accesibilidad:  instalaci�n convertible, con 1 gr�a de piscina    SERVICIOS     Deportes practicables  Atletismo -  Baloncesto - Balonmano - F�tbol - F�tbol Sala - F�tbol 7 - Nataci�n - Tenis - P�del - Tenis de Mesa   Uso de espacios deportivos  Campo de F�tbol - Campo de F�tbol 7 - Pabell�n - Piscina - Pista de Atletismo - Pista Polideportiva - Pista de Tenis - Pista de P�del   Ense�anzas Deportivas Escuelas Pre-Infantiles  (4 a 5 a�os): Nataci�n peques  Escuelas infantiles  (6 a 14 a�os, seg�n modalidades): F�tbol - Karate Shyto - Nataci�n - Pretenis - Tenis  Clases para adultos  (21 a 64 a�os): Acondicionamiento F�sico Deportivo - Acuagim - Aer�bic - Combinada (Acondicionamiento F�sico + Nataci�n) - Karate Goju - Nataci�n - Nataci�n embarazadas - Tenis  Actividades para Mayores de 65 a�os:  Actividad F�sica - Gimnasia Acu�tica - Nataci�n" ;
+	schema:containedIn <http://localhost:3333/mibarrio/City/MADRID> .
+
+<http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalVic�lvaro> a schema:PostalAddress ;
+	schema:addressLocality "MADRID" ;
+	schema:streetAddress "PASEO POLIDEPORTIVO, 3" ;
+	schema:addressRegion "MADRID" .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalVic�lvaro> schema:address <http://localhost:3333/mibarrio/PostalAddress/CentroDeportivoMunicipalVic�lvaro> .
+
+<http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalVic�lvaro> a geo:SpatialThing ;
+	geo:lat "40.40914061858403"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	geo:long "-3.603264732850392"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://localhost:3333/mibarrio/SportFacility/CentroDeportivoMunicipalVic�lvaro> <http://www.semanticweb.org/root/ontologies/2014/11/mibarrio#geoCoordinates> <http://localhost:3333/mibarrio/Spatial/CentroDeportivoMunicipalVic�lvaro> .

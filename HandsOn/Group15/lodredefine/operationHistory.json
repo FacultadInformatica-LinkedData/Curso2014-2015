@@ -1,0 +1,438 @@
+[
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TRANSPORTE using expression grel:replace(value, \".\", \"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "grel:replace(value, \".\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TRANSPORTE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Bus: 22 , 79 Metro: Villaverde Alto Renfe: Villaverde Alto "
+        ],
+        "to": " Metro: Villaverde Alto Bus: 22 , 79 Renfe: Villaverde Alto "
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TRANSPORTE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Bus: 39 , 139 Metro: Cuatro Vientos Renfe :  Cuatro Vientos "
+        ],
+        "to": " Metro: Cuatro Vientos Bus: 39 , 139 Renfe :  Cuatro Vientos "
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TRANSPORTE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": true,
+          "query": "BUS",
+          "name": "TRANSPORTE",
+          "type": "text",
+          "columnName": "TRANSPORTE"
+        }
+      ]
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "BUS: 25 , 31 , 119"
+        ],
+        "to": "Bus: 25 , 31 , 119"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TRANSPORTE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "metro :",
+          "name": "TRANSPORTE",
+          "type": "text",
+          "columnName": "TRANSPORTE"
+        }
+      ]
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Metro :  Carpetana Bus: 17, 25 , 55 , 119 "
+        ],
+        "to": " Metro:  Carpetana Bus: 17, 25 , 55 , 119 "
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TRANSPORTE",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "metro :",
+          "name": "TRANSPORTE",
+          "type": "text",
+          "columnName": "TRANSPORTE"
+        }
+      ]
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " Metro :  Lucero , Laguna Bus: 31 , 119 , 138 Renfe: Laguna "
+        ],
+        "to": " Metro:  Lucero , Laguna Bus: 31 , 119 , 138 Renfe: Laguna "
+      }
+    ]
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TRANSPORTE using expression grel:replace(value, \"Bus :\", \"Bus:\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "bus :",
+          "name": "TRANSPORTE",
+          "type": "text",
+          "columnName": "TRANSPORTE"
+        }
+      ]
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "grel:replace(value, \"Bus :\", \"Bus:\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TRANSPORTE using expression grel:replace(value, \"Renfe :\", \"Renfe:\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "Renfe :",
+          "name": "TRANSPORTE",
+          "type": "text",
+          "columnName": "TRANSPORTE"
+        }
+      ]
+    },
+    "columnName": "TRANSPORTE",
+    "expression": "grel:replace(value, \"Renfe :\", \"Renfe:\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column TRANSPORTE by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "mode": "text",
+          "caseSensitive": false,
+          "query": "",
+          "name": "TRANSPORTE",
+          "type": "text",
+          "columnName": "TRANSPORTE"
+        }
+      ]
+    },
+    "columnName": "TRANSPORTE",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "Bus:",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/column-split",
+    "description": "Split column TRANSPORTE 2 by separator",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE 2",
+    "guessCellType": true,
+    "removeOriginalColumn": true,
+    "mode": "separator",
+    "separator": "Renfe:",
+    "regex": false,
+    "maxColumns": 0
+  },
+  {
+    "op": "core/text-transform",
+    "description": "Text transform on cells in column TRANSPORTE 1 using expression grel:replace(value, \"Metro:\", \"\")",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TRANSPORTE 1",
+    "expression": "grel:replace(value, \"Metro:\", \"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TRANSPORTE 1 to METRO",
+    "oldColumnName": "TRANSPORTE 1",
+    "newColumnName": "METRO"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TRANSPORTE 2 1 to BUS",
+    "oldColumnName": "TRANSPORTE 2 1",
+    "newColumnName": "BUS"
+  },
+  {
+    "op": "core/column-rename",
+    "description": "Rename column TRANSPORTE 2 2 to RENFE",
+    "oldColumnName": "TRANSPORTE 2 2",
+    "newColumnName": "RENFE"
+  },
+  {
+    "op": "core/row-removal",
+    "description": "Remove rows",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": [
+        {
+          "omitError": false,
+          "expression": "value",
+          "selectBlank": true,
+          "selection": [],
+          "selectError": false,
+          "invert": false,
+          "name": "NOMBRE",
+          "omitBlank": false,
+          "type": "list",
+          "columnName": "NOMBRE"
+        }
+      ]
+    }
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column Column",
+    "columnName": "Column"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column EMAIL",
+    "columnName": "EMAIL"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column FAX",
+    "columnName": "FAX"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TELEFONO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TELEFONO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "91 531 83 07 -    \n609 98 08 54"
+        ],
+        "to": "91 531 83 07, 609 98 08 54"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TELEFONO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TELEFONO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "91 725 78 41 (información y reservas)."
+        ],
+        "to": "91 725 78 41"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TELEFONO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TELEFONO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "913 288 606 (reservas)&#13;\n912 208 587"
+        ],
+        "to": "913 288 606, 912 208 587"
+      }
+    ]
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column TELEFONO",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "TELEFONO",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "S/T"
+        ],
+        "to": ""
+      }
+    ]
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ESCALERAS",
+    "columnName": "ESCALERAS"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PUERTA",
+    "columnName": "PUERTA"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column PLANTA",
+    "columnName": "PLANTA"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column NUM",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "NUM",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          "S/N",
+          "s/n"
+        ],
+        "to": "S/N"
+      }
+    ]
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column TIPO-NUM",
+    "columnName": "TIPO-NUM"
+  },
+  {
+    "op": "core/column-removal",
+    "description": "Remove column ACCESIBILIDAD",
+    "columnName": "ACCESIBILIDAD"
+  },
+  {
+    "op": "core/mass-edit",
+    "description": "Mass edit cells in column DESCRIPCION",
+    "engineConfig": {
+      "mode": "row-based",
+      "facets": []
+    },
+    "columnName": "DESCRIPCION",
+    "expression": "value",
+    "edits": [
+      {
+        "fromBlank": false,
+        "fromError": false,
+        "from": [
+          " j "
+        ],
+        "to": ""
+      }
+    ]
+  }
+]

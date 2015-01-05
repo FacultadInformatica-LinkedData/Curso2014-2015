@@ -1,0 +1,74 @@
+Graph: http://sandbox.linkeddata.es/graph/accidentes
+
+1. How many accidents were there in Madrid in 2013?
+
+PREFIX property: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT (SUM(?x) AS ?total) WHERE 
+{
+	?obs a qb:Observation ;
+	property:numberOfAccidents ?x .
+}
+
+2. Number of accidents in Usera for each type of accident
+
+PREFIX property: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT ?type ?x WHERE
+{
+?obs a qb:Observation ;
+	property:hasAccidentType ?type ;
+	property:relatedDistrict 'USERA' ;
+	property:numberOfAccidents ?x .
+}
+
+3. Give me the number of multiple collisions for each distric
+
+PREFIX property: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT ?distrito ?nAccidentes WHERE 
+{
+	?obs a qb:Observation ;
+	property:hasAccidentType property:MultipleCollision ; 
+	property:relatedDistrict ?distrito ;
+	property:numberOfAccidents ?nAccidentes .
+}
+
+
+4. Which is the district were number of bicycle falls was higher in 2013?
+
+PREFIX property: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT ?distrito WHERE 
+{
+	?obs a qb:Observation ;
+	property:numberOfAccidents ?nAccidentes ;
+	property:relatedDistrict ?distrito ;
+	property:hasAccidentType property:BicycleFall .
+	{ 
+	SELECT (MAX(?nAccidentes) AS ?nAccidentes) WHERE 
+		{
+			?obs a qb:Observation ;
+			property:relatedDistrict ?distrito ;
+       		property:numberOfAccidents ?nAccidentes ;
+			property:hasAccidentType property:BicycleFall .
+		} 
+	}
+}
+
+5. Give me the districts with more than 500 accidents in 2013
+
+PREFIX property: <http://example.org/myVocabulary#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+SELECT ?distrito ?accidentes WHERE
+{
+	{
+		SELECT ?distrito (SUM(xsd:int(?nAccidentes)) AS ?accidentes) WHERE
+		{
+			?obs a qb:Observation ;
+			property:numberOfAccidents ?nAccidentes ;
+			property:relatedDistrict ?distrito .
+		}
+	}
+	FILTER(?accidentes > 500)	
+}ORDER BY (?accidentes)

@@ -1,0 +1,30 @@
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:owl="http://www.w3.org/2002/07/owl#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:instances="example.linkeddata.es/instances/">
+
+ 
+ 
+<owl:Class rdf:about="http://www.exmple.com/instances/City/">
+<rdfs:label>City</rdfs:label>
+<rdfs:comment>Ciudad</rdfs:comment>
+</owl:Class>
+
+
+
+<owl:Class rdf:about="http://example.linkeddata.es/instances/Country/">
+<rdfs:label>Country</rdfs:label>
+<rdfs:comment>País</rdfs:comment>
+</owl:Class>
+
+<owl:DatatypeProperty rdf:about="http://example.linkeddata.es/instances/City/population"/>
+<owl:DatatypeProperty rdf:about="http://example.linkeddata.es/instances/Country/name"/>
+
+
+<owl:DatatypeProperty rdf:about="http://example.linkeddata.es/instances/Country/name"/>
+<owl:DatatypeProperty rdf:about="http://example.linkeddata.es/instances/Country/id"/>
+
+
+</rdf:RDF>

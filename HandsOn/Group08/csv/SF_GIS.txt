@@ -1,0 +1,9 @@
+
+SF_GIS
+
+ZONE_TYPE . String
+ZONE_NAME . String
+URL . String (URL, blank)
+SHAPE_AREA . Number
+SHAPE_LEN . Number
+geometry . String . (Unique . Geometry - Polygon)

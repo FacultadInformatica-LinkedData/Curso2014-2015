@@ -1,0 +1,223 @@
+Prefix: : <http://www.w3.org/2002/07/owl#>
+Prefix: dc: <http://purl.org/dc/terms/>
+Prefix: ns0: <http://aims.fao.org/aos/agrontology#>
+Prefix: ns1: <http://art.uniroma2.it/ontologies/vocbench#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: purl: <http://purl.org/dc/elements/1.1/>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: skos: <http://www.w3.org/2004/02/skos/core#>
+
+Ontology: <http://world.linkeddata.es/>
+Annotations: 
+    rdfs:label "R2RML Assignment Ontology",
+    purl:title "R2RML Assignment Ontology",
+    versionInfo "1.0.0",
+    purl:creator "Alejandro F. Carrera"
+
+AnnotationProperty: purl:creator
+
+AnnotationProperty: versionInfo
+
+AnnotationProperty: rdfs:label
+
+AnnotationProperty: purl:title
+
+Datatype: rdf:PlainLiteral
+
+Datatype: xsd:string
+
+Datatype: xsd:double
+
+Datatype: xsd:integer
+
+ObjectProperty: <http://world.linkeddata.es/Country#name>
+Domain: 
+        <http://world.linkeddata.es/Country>
+
+ObjectProperty: <http://world.linkeddata.es/CountryLanguage#language>
+Domain: 
+        <http://world.linkeddata.es/CountryLanguage>
+    
+    Range: 
+        <http://world.linkeddata.es/Language>
+
+ObjectProperty: <http://world.linkeddata.es/City#inDistrict>
+Domain: 
+        <http://world.linkeddata.es/City>
+    
+ObjectProperty: <http://world.linkeddata.es/Country#hasSurface>
+Domain: 
+        <http://world.linkeddata.es/Country>
+    
+ObjectProperty: rdfs:label
+Domain: 
+        <http://world.linkeddata.es/City>,
+        <http://world.linkeddata.es/Country>
+    
+    Range: 
+        rdfs:label
+    
+ObjectProperty: <http://world.linkeddata.es/Country#region>
+Domain: 
+        <http://world.linkeddata.es/Country>
+    
+ObjectProperty: <http://world.linkeddata.es/Language#isOfficial>
+Domain: 
+        <http://world.linkeddata.es/Language>
+    
+ObjectProperty: <http://world.linkeddata.es/Country#hadGnpOld>
+Domain: 
+        <http://world.linkeddata.es/Country>
+    
+ObjectProperty: <http://world.linkeddata.es/City#hasPopulation>
+Domain: 
+        <http://world.linkeddata.es/City>
+    
+ObjectProperty: <http://world.linkeddata.es/Country#hasGnp>
+Domain: 
+        <http://world.linkeddata.es/Country>
+    
+ObjectProperty: <http://world.linkeddata.es/Country#hasAnotherCode>
+Domain: 
+        <http://world.linkeddata.es/Country>
+    
+ObjectProperty: <http://world.linkeddata.es/Language#Percentage>
+Domain: 
+        <http://world.linkeddata.es/Language>
+    
+ObjectProperty: <http://world.linkeddata.es/City#inCountry>
+Domain: 
+        <http://world.linkeddata.es/City>
+    
+    Range: 
+        <http://world.linkeddata.es/Country>
+    
+ObjectProperty: <http://world.linkeddata.es/Country#hasLanguage>
+Domain: 
+        <http://world.linkeddata.es/Country>
+    
+    Range: 
+        <http://world.linkeddata.es/CountryLanguage>
+    
+ObjectProperty: <http://world.linkeddata.es/Country#lifeExpectancy>
+Domain: 
+        <http://world.linkeddata.es/Country>
+    
+ObjectProperty: <http://world.linkeddata.es/Country#capital>
+Domain: 
+        <http://world.linkeddata.es/Country>
+    
+    Range: 
+        <http://world.linkeddata.es/City>
+    
+ObjectProperty: <http://world.linkeddata.es/Country#hasPopulation>
+Domain: 
+        <http://world.linkeddata.es/Country>
+    
+ObjectProperty: <http://world.linkeddata.es/Country#inContinent>
+Domain: 
+        <http://world.linkeddata.es/Country>
+    
+ObjectProperty: <http://world.linkeddata.es/Country#independentAt>
+Domain: 
+        <http://world.linkeddata.es/Country>
+    
+ObjectProperty: <http://world.linkeddata.es/Country#governedBy>
+Domain: 
+        <http://world.linkeddata.es/Country>
+    
+    
+DataProperty: <http://world.linkeddata.es/Country#lifeExpectancy>
+Range: 
+        xsd:double
+    
+    
+DataProperty: <http://world.linkeddata.es/Language#isOfficial>
+Range: 
+        xsd:string
+    
+    
+DataProperty: <http://world.linkeddata.es/Country#hasGnp>
+Range: 
+        xsd:double
+    
+    
+DataProperty: <http://world.linkeddata.es/Country#hasSurface>
+Range: 
+        xsd:double
+    
+    
+DataProperty: <http://world.linkeddata.es/Country#governedBy>
+Range: 
+        xsd:string
+    
+    
+DataProperty: <http://world.linkeddata.es/Country#region>
+Range: 
+        xsd:string
+    
+    
+DataProperty: <http://world.linkeddata.es/Country#independentAt>
+Range: 
+        xsd:integer
+    
+    
+DataProperty: <http://world.linkeddata.es/Country#name>
+Range: 
+        xsd:string
+    
+    
+DataProperty: <http://world.linkeddata.es/Language#Percentage>
+Range: 
+        xsd:double
+    
+    
+DataProperty: <http://world.linkeddata.es/City#inDistrict>
+Range: 
+        xsd:string
+    
+    
+DataProperty: <http://world.linkeddata.es/Country#hadGnpOld>
+Range: 
+        xsd:double
+    
+    
+DataProperty: <http://world.linkeddata.es/Country#inContinent>
+Range: 
+        xsd:string
+    
+    
+DataProperty: <http://world.linkeddata.es/Country#hasAnotherCode>
+Range: 
+        xsd:string
+    
+    
+DataProperty: <http://world.linkeddata.es/Country#hasPopulation>
+Range: 
+        xsd:integer
+    
+    
+DataProperty: <http://world.linkeddata.es/City#hasPopulation>
+Range: 
+        xsd:integer
+    
+Class: <http://world.linkeddata.es/City>
+Annotations: 
+        rdfs:label "World City"
+    
+Class: <http://world.linkeddata.es/Language>
+Annotations: 
+        rdfs:label "Language of Country Language"
+    
+Class: rdfs:label
+
+Class: <http://world.linkeddata.es/Country>
+Annotations: 
+        rdfs:label "World Country"
+    
+Class: <http://world.linkeddata.es/CountryLanguage>
+Annotations: 
+        rdfs:label "Country Language"

@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/group9/ontology/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/group9/ontology/"
+     versionIRI="http://www.semanticweb.org/group9/ontology/1.0">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="Biblioteca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Centro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Direccion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Educativo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Localidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Museo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Provincia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="estaLocalizadaEn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="formaParteDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="situadoEn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="CodigoPostal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Comedor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Concertado"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Coordenadas"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="DenominacionGenerica"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Horario"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Internado"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Naturaleza"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Ruta"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Telefono"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="Web"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="Biblioteca"/>
+        <Class IRI="Centro"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Educativo"/>
+        <Class IRI="Centro"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Museo"/>
+        <Class IRI="Centro"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="estaLocalizadaEn"/>
+        <Class IRI="Provincia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="formaParteDe"/>
+        <Class IRI="Direccion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="situadoEn"/>
+        <Class IRI="Centro"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="estaLocalizadaEn"/>
+        <Class IRI="Localidad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="formaParteDe"/>
+        <Class IRI="Localidad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="formaParteDe"/>
+        <Class IRI="Provincia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="situadoEn"/>
+        <Class IRI="Direccion"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="CodigoPostal"/>
+        <Class IRI="Direccion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Comedor"/>
+        <Class IRI="Educativo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Concertado"/>
+        <Class IRI="Educativo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Coordenadas"/>
+        <Class IRI="Direccion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="DenominacionGenerica"/>
+        <Class IRI="Educativo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Email"/>
+        <Class IRI="Centro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Horario"/>
+        <Class IRI="Educativo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Internado"/>
+        <Class IRI="Educativo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Naturaleza"/>
+        <Class IRI="Educativo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Ruta"/>
+        <Class IRI="Educativo"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Telefono"/>
+        <Class IRI="Centro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="Web"/>
+        <Class IRI="Centro"/>
+    </DataPropertyDomain>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Concertado</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Si es concertado o no</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Internado</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Si es internado o no</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>Naturaleza</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Si tiene naturaleza pública o privada</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<rdf:RDF
+			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+			xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+			xmlns:class="http://www.wsld.org/class#"
+			xmlns:sensor="http://www.wsld.org/sensor#"
+			xmlns:computer="http://www.wsld.org/computer#"
+			xmlns:measurement="http://www.wsld.org/measurement#"
+			xmlns:user="http://www.wsld.org/user#">
+
+		<rdf:Property rdf:about="https://www.wsld.org/class#includes"/>
+		<rdf:Property rdf:about="https://www.wsld.org/sensor#hasMeasurement"/>
+		<rdf:Property rdf:about="https://www.wsld.org/measurement#hasTemperature"/>
+		<rdf:Property rdf:about="https://www.wsld.org/measurement#atTime"/>
+		<rdf:Property rdf:about="https://www.wsld.org/computer#hasOwner"/>
+		<rdf:Property rdf:about="https://www.wsld.org/user#hasName"/>
+
+		<rdf:Description rdf:about="#User10A">
+			<user:hasName>Pedro</user:hasName>
+		</rdf:Description>
+
+		<rdf:Description rdf:about="Computer101">
+			<computer:hasOwner rdf:resource="#User10A"/>
+		</rdf:Description>
+
+		<rdf:Description rdf:about="Measurement8401">
+			<measurement:hasTemperature rdf:datatype='xsd:float'>29</measurement:hasTemperature>
+			<measurement:atTime rdf:datatype='xsd:dateTime'>2010-06-12T12:00:12</measurement:atTime>
+		</rdf:Description>
+
+		<rdf:Description rdf:about="#Sensor029">
+			<sensor:hasMeasurement rdf:Resource="#Measurement8401"/>
+		</rdf:Description>
+
+		<rdf:Description rdf:about="#Class01">
+			<class:includes rdf:resource="#Sensor029"/>
+			<class:includes rdf:resource="#Computer101"/>
+		</rdf:Description>
+	</rdf:RDF>

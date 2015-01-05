@@ -1,0 +1,25 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix class:<http://www.rdfpro.org/class#>
+@prefix property:<http://www.rdfpro.org/property#>
+@prefix :<http://www.rdfpro.org>.
+
+
+<class:User10A> 
+property:hasName "Pedro" .
+
+<class:Measurement8401>
+
+
+  property:hasTemperature "29" ;
+  property:atTime "2010-06-12T12:00:12"^^xsd:dateTime .
+
+<class:Computer101> 
+property:hasOwner <class:User10A> .
+
+<class:Sensor029> 
+property:hasMeasurement <class:Measurement8401> .
+
+<class:Class01> 
+property:includes <class:Sensor029>;
+property:includes <class:Computer101> .
