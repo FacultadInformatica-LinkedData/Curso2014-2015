@@ -1,0 +1,645 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://example.world.es/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://example.world.es/">
+    <Prefix name="" IRI="http://www.semanticweb.org/owl/owlapi/turtle#"/>
+    <Prefix name="rr" IRI="http://www.w3.org/ns/r2rml#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="my_instances" IRI="http://example.world.es/instances/"/>
+    <Prefix name="my_vocabulary" IRI="http://example.world.es/my_vocabulary#"/>
+    <ClassAssertion>
+        <Class abbreviatedIRI="rr:TriplesMap"/>
+        <NamedIndividual IRI="TriplesMapCity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="rr:TriplesMap"/>
+        <NamedIndividual IRI="TriplesMapCountry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="rr:TriplesMap"/>
+        <NamedIndividual IRI="TriplesMapCountryLanguage"/>
+    </ClassAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:logicalTable"/>
+        <IRI>TriplesMapCity</IRI>
+        <AnonymousIndividual nodeID="_:genid1"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCity</IRI>
+        <AnonymousIndividual nodeID="_:genid12"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCity</IRI>
+        <AnonymousIndividual nodeID="_:genid3"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCity</IRI>
+        <AnonymousIndividual nodeID="_:genid6"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCity</IRI>
+        <AnonymousIndividual nodeID="_:genid9"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:subjectMap"/>
+        <IRI>TriplesMapCity</IRI>
+        <AnonymousIndividual nodeID="_:genid2"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:logicalTable"/>
+        <IRI>TriplesMapCountry</IRI>
+        <AnonymousIndividual nodeID="_:genid15"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCountry</IRI>
+        <AnonymousIndividual nodeID="_:genid17"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCountry</IRI>
+        <AnonymousIndividual nodeID="_:genid20"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCountry</IRI>
+        <AnonymousIndividual nodeID="_:genid23"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCountry</IRI>
+        <AnonymousIndividual nodeID="_:genid26"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCountry</IRI>
+        <AnonymousIndividual nodeID="_:genid29"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCountry</IRI>
+        <AnonymousIndividual nodeID="_:genid32"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCountry</IRI>
+        <AnonymousIndividual nodeID="_:genid35"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCountry</IRI>
+        <AnonymousIndividual nodeID="_:genid38"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCountry</IRI>
+        <AnonymousIndividual nodeID="_:genid41"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCountry</IRI>
+        <AnonymousIndividual nodeID="_:genid44"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCountry</IRI>
+        <AnonymousIndividual nodeID="_:genid47"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCountry</IRI>
+        <AnonymousIndividual nodeID="_:genid50"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCountry</IRI>
+        <AnonymousIndividual nodeID="_:genid53"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCountry</IRI>
+        <AnonymousIndividual nodeID="_:genid56"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCountry</IRI>
+        <AnonymousIndividual nodeID="_:genid59"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:subjectMap"/>
+        <IRI>TriplesMapCountry</IRI>
+        <AnonymousIndividual nodeID="_:genid16"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:logicalTable"/>
+        <IRI>TriplesMapCountryLanguage</IRI>
+        <AnonymousIndividual nodeID="_:genid62"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCountryLanguage</IRI>
+        <AnonymousIndividual nodeID="_:genid65"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateObjectMap"/>
+        <IRI>TriplesMapCountryLanguage</IRI>
+        <AnonymousIndividual nodeID="_:genid68"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:subjectMap"/>
+        <IRI>TriplesMapCountryLanguage</IRI>
+        <AnonymousIndividual nodeID="_:genid63"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:subjectMap"/>
+        <IRI>TriplesMapCountryLanguage</IRI>
+        <AnonymousIndividual nodeID="_:genid64"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid10"/>
+        <IRI>my_vocabulary#hasDistrict</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid11"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid12"/>
+        <AnonymousIndividual nodeID="_:genid14"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid12"/>
+        <AnonymousIndividual nodeID="_:genid13"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid13"/>
+        <IRI>my_vocabulary#hasPopulation</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid14"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:class"/>
+        <AnonymousIndividual nodeID="_:genid16"/>
+        <IRI>my_vocabulary#Country</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid16"/>
+        <AbbreviatedIRI>rr:IRI</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid17"/>
+        <AnonymousIndividual nodeID="_:genid19"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid17"/>
+        <AnonymousIndividual nodeID="_:genid18"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid18"/>
+        <IRI>my_vocabulary#hasName</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid19"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:class"/>
+        <AnonymousIndividual nodeID="_:genid2"/>
+        <IRI>my_vocabulary#City</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid2"/>
+        <AbbreviatedIRI>rr:IRI</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid20"/>
+        <AnonymousIndividual nodeID="_:genid22"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid20"/>
+        <AnonymousIndividual nodeID="_:genid21"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid21"/>
+        <IRI>my_vocabulary#hasContinent</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid22"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid23"/>
+        <AnonymousIndividual nodeID="_:genid25"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid23"/>
+        <AnonymousIndividual nodeID="_:genid24"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid24"/>
+        <IRI>my_vocabulary#hasRegion</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid25"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid26"/>
+        <AnonymousIndividual nodeID="_:genid28"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid26"/>
+        <AnonymousIndividual nodeID="_:genid27"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid27"/>
+        <IRI>my_vocabulary#hasSurfaceArea</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid28"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid29"/>
+        <AnonymousIndividual nodeID="_:genid31"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid29"/>
+        <AnonymousIndividual nodeID="_:genid30"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid3"/>
+        <AnonymousIndividual nodeID="_:genid5"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid3"/>
+        <AnonymousIndividual nodeID="_:genid4"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid30"/>
+        <IRI>my_vocabulary#hasIndepYear</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid31"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid32"/>
+        <AnonymousIndividual nodeID="_:genid34"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid32"/>
+        <AnonymousIndividual nodeID="_:genid33"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid33"/>
+        <IRI>my_vocabulary#hasPopulation</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid34"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid35"/>
+        <AnonymousIndividual nodeID="_:genid37"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid35"/>
+        <AnonymousIndividual nodeID="_:genid36"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid36"/>
+        <IRI>my_vocabulary#hasRegion</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid37"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid38"/>
+        <AnonymousIndividual nodeID="_:genid40"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid38"/>
+        <AnonymousIndividual nodeID="_:genid39"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid39"/>
+        <IRI>my_vocabulary#hasLifeExpectancy</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid4"/>
+        <IRI>my_vocabulary#hasName</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid40"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid41"/>
+        <AnonymousIndividual nodeID="_:genid43"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid41"/>
+        <AnonymousIndividual nodeID="_:genid42"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid42"/>
+        <IRI>my_vocabulary#hasGNP</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid43"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid44"/>
+        <AnonymousIndividual nodeID="_:genid46"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid44"/>
+        <AnonymousIndividual nodeID="_:genid45"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid45"/>
+        <IRI>my_vocabulary#hasGNPOld</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid46"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid47"/>
+        <AnonymousIndividual nodeID="_:genid49"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid47"/>
+        <AnonymousIndividual nodeID="_:genid48"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid48"/>
+        <IRI>my_vocabulary#hasLocalName</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid49"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid5"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid50"/>
+        <AnonymousIndividual nodeID="_:genid52"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid50"/>
+        <AnonymousIndividual nodeID="_:genid51"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid51"/>
+        <IRI>my_vocabulary#hasGovernmentForm</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid52"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid53"/>
+        <AnonymousIndividual nodeID="_:genid55"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid53"/>
+        <AnonymousIndividual nodeID="_:genid54"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid54"/>
+        <IRI>my_vocabulary#hasHeadOfState</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid55"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid56"/>
+        <AnonymousIndividual nodeID="_:genid58"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid56"/>
+        <AnonymousIndividual nodeID="_:genid57"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid57"/>
+        <IRI>my_vocabulary#hasCapital</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid58"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid59"/>
+        <AnonymousIndividual nodeID="_:genid61"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid59"/>
+        <AnonymousIndividual nodeID="_:genid60"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid6"/>
+        <AnonymousIndividual nodeID="_:genid8"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid6"/>
+        <AnonymousIndividual nodeID="_:genid7"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid60"/>
+        <IRI>my_vocabulary#hasCode2</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid61"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:class"/>
+        <AnonymousIndividual nodeID="_:genid63"/>
+        <IRI>my_vocabulary#CountryLanguage</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid63"/>
+        <AbbreviatedIRI>rr:IRI</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:class"/>
+        <AnonymousIndividual nodeID="_:genid64"/>
+        <IRI>my_vocabulary#CountryLanguage</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid64"/>
+        <AbbreviatedIRI>rr:IRI</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid65"/>
+        <AnonymousIndividual nodeID="_:genid67"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid65"/>
+        <AnonymousIndividual nodeID="_:genid66"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid66"/>
+        <IRI>my_vocabulary#hasIsOfficial</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid67"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid68"/>
+        <AnonymousIndividual nodeID="_:genid70"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid68"/>
+        <AnonymousIndividual nodeID="_:genid69"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid69"/>
+        <IRI>my_vocabulary#hasPercentage</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:constant"/>
+        <AnonymousIndividual nodeID="_:genid7"/>
+        <IRI>my_vocabulary#hasCountryCode</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid70"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:termType"/>
+        <AnonymousIndividual nodeID="_:genid8"/>
+        <AbbreviatedIRI>rr:Literal</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:objectMap"/>
+        <AnonymousIndividual nodeID="_:genid9"/>
+        <AnonymousIndividual nodeID="_:genid11"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rr:predicateMap"/>
+        <AnonymousIndividual nodeID="_:genid9"/>
+        <AnonymousIndividual nodeID="_:genid10"/>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
