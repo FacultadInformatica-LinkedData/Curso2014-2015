@@ -1,0 +1,6 @@
+
+intentando ejecutar con morph me aparece este error
+tambien me pasa con los ejemplos de morph
+
+Error: no se ha encontrado o cargado la clase principal es.upm.fi.dia.oeg.morph.
+r2rml.rdb.engine.MorphRDBRunner
