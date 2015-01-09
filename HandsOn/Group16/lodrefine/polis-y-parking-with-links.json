@@ -1,0 +1,1230 @@
+[
+  {
+    op coretext-transform,
+    description Text transform on cells in column NOMBRE using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName NOMBRE,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column DESCRIPCION-ENTIDAD using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName DESCRIPCION-ENTIDAD,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column HORARIO using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName HORARIO,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column EQUIPAMIENTO using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName EQUIPAMIENTO,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column TRANSPORTE using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName TRANSPORTE,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column DESCRIPCION using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName DESCRIPCION,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column CONTENT-URL using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName CONTENT-URL,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column NOMBRE-VIA using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName NOMBRE-VIA,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column CLASE-VIAL using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName CLASE-VIAL,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coremass-edit,
+    description Mass edit cells in column CLASE-VIAL,
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName CLASE-VIAL,
+    expression value,
+    edits [
+      {
+        fromBlank false,
+        fromError false,
+        from [
+          Carretera
+        ],
+        to CARRETERA
+      }
+    ]
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column PROVINCIA using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName PROVINCIA,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column DISTRITO using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName DISTRITO,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column BARRIO using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName BARRIO,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coremass-edit,
+    description Mass edit cells in column BARRIO,
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName BARRIO,
+    expression value,
+    edits [
+      {
+        fromBlank false,
+        fromError false,
+        from [
+          CIUDAD JARDÍN
+        ],
+        to CIUDAD JARDIN
+      }
+    ]
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column DISTRITO using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName DISTRITO,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column COORDENADA-X using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName COORDENADA-X,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column LATITUD using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName LATITUD,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column TELEFONO using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName TELEFONO,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column FAX using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName FAX,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column EMAIL using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName EMAIL,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column TIPO using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName TIPO,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column Column using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName Column,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op corecolumn-removal,
+    description Remove column Column,
+    columnName Column
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column NOMBRE using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName NOMBRE,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op coretext-transform,
+    description Text transform on cells in column DESCRIPCION using expression value.trim(),
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName DESCRIPCION,
+    expression value.trim(),
+    onError keep-original,
+    repeat false,
+    repeatCount 10
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column LOCALIDAD as Freebase IDs,
+    columnName LOCALIDAD,
+    config {
+      mode strict,
+      match id
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column PROVINCIA as Freebase IDs,
+    columnName PROVINCIA,
+    config {
+      mode strict,
+      match id
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column BARRIO as Freebase IDs,
+    columnName BARRIO,
+    config {
+      mode strict,
+      match id
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column DISTRITO as Freebase IDs,
+    columnName DISTRITO,
+    config {
+      mode strict,
+      match id
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column CONTENT-URL as Freebase IDs,
+    columnName CONTENT-URL,
+    config {
+      mode strict,
+      match id
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column NOMBRE as Freebase IDs,
+    columnName NOMBRE,
+    config {
+      mode strict,
+      match id
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column DESCRIPCION-ENTIDAD as Freebase IDs,
+    columnName DESCRIPCION-ENTIDAD,
+    config {
+      mode strict,
+      match id
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column HORARIO as Freebase IDs,
+    columnName HORARIO,
+    config {
+      mode strict,
+      match id
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column TRANSPORTE as Freebase IDs,
+    columnName TRANSPORTE,
+    config {
+      mode strict,
+      match id
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column EQUIPAMIENTO as Freebase IDs,
+    columnName EQUIPAMIENTO,
+    config {
+      mode strict,
+      match id
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column TELEFONO as Freebase IDs,
+    columnName TELEFONO,
+    config {
+      mode strict,
+      match id
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column EMAIL as Freebase IDs,
+    columnName EMAIL,
+    config {
+      mode strict,
+      match id
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon-judge-similar-cells,
+    description Mark to create one single new topic for all cells containing Horario de uso de las instalaciones deportivas   Para consultar el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro.    Horario de Taquilla   De lunes a domingos de 9 a 21 horas   Cierre completo del Centro Deportivo Municipal durante el mes de agosto y en los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo. in column HORARIO,
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName HORARIO,
+    similarValue Horario de uso de las instalaciones deportivas   Para consultar el horario de apertura de las distintas instalaciones del centro deportivo, les rogamos lo consulten con el propio centro.    Horario de Taquilla   De lunes a domingos de 9 a 21 horas   Cierre completo del Centro Deportivo Municipal durante el mes de agosto y en los días 24, 25 y 31 de diciembre, 1 de enero y 1 de mayo.,
+    judgment new,
+    shareNewTopics true
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column BARRIO to type ,
+    columnName BARRIO,
+    config {
+      mode standard-service,
+      service http127.0.0.13333extensionrdf-extensionservicesdbpedia.es,
+      identifierSpace httpwww.ietf.orgrfcrfc3986,
+      schemaSpace httpwww.ietf.orgrfcrfc3986,
+      type {
+        id ,
+        name 
+      },
+      autoMatch true,
+      columnDetails []
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column DISTRITO to type ,
+    columnName DISTRITO,
+    config {
+      mode standard-service,
+      service http127.0.0.13333extensionrdf-extensionservicesdbpedia.es,
+      identifierSpace httpwww.ietf.orgrfcrfc3986,
+      schemaSpace httpwww.ietf.orgrfcrfc3986,
+      type {
+        id ,
+        name 
+      },
+      autoMatch true,
+      columnDetails []
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column TELEFONO to type ,
+    columnName TELEFONO,
+    config {
+      mode standard-service,
+      service http127.0.0.13333extensionrdf-extensionservicesdbpedia.es,
+      identifierSpace httpwww.ietf.orgrfcrfc3986,
+      schemaSpace httpwww.ietf.orgrfcrfc3986,
+      type {
+        id ,
+        name 
+      },
+      autoMatch true,
+      columnDetails []
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column TIPO to type ,
+    columnName TIPO,
+    config {
+      mode standard-service,
+      service http127.0.0.13333extensionrdf-extensionservicesdbpedia.es,
+      identifierSpace httpwww.ietf.orgrfcrfc3986,
+      schemaSpace httpwww.ietf.orgrfcrfc3986,
+      type {
+        id ,
+        name 
+      },
+      autoMatch true,
+      columnDetails []
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column CODIGO-POSTAL to type ,
+    columnName CODIGO-POSTAL,
+    config {
+      mode standard-service,
+      service http127.0.0.13333extensionrdf-extensionservicesdbpedia.es,
+      identifierSpace httpwww.ietf.orgrfcrfc3986,
+      schemaSpace httpwww.ietf.orgrfcrfc3986,
+      type {
+        id ,
+        name 
+      },
+      autoMatch true,
+      columnDetails []
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column NOMBRE-VIA to type ,
+    columnName NOMBRE-VIA,
+    config {
+      mode standard-service,
+      service http127.0.0.13333extensionrdf-extensionservicesdbpedia.es,
+      identifierSpace httpwww.ietf.orgrfcrfc3986,
+      schemaSpace httpwww.ietf.orgrfcrfc3986,
+      type {
+        id ,
+        name 
+      },
+      autoMatch true,
+      columnDetails []
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column EQUIPAMIENTO to type ,
+    columnName EQUIPAMIENTO,
+    config {
+      mode standard-service,
+      service http127.0.0.13333extensionrdf-extensionservicesdbpedia.es,
+      identifierSpace httpwww.ietf.orgrfcrfc3986,
+      schemaSpace httpwww.ietf.orgrfcrfc3986,
+      type {
+        id ,
+        name 
+      },
+      autoMatch true,
+      columnDetails []
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column EQUIPAMIENTO to type ,
+    columnName EQUIPAMIENTO,
+    config {
+      mode standard-service,
+      service http127.0.0.13333extensionrdf-extensionservicesdbpedia.es,
+      identifierSpace httpwww.ietf.orgrfcrfc3986,
+      schemaSpace httpwww.ietf.orgrfcrfc3986,
+      type {
+        id ,
+        name 
+      },
+      autoMatch true,
+      columnDetails []
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon-judge-similar-cells,
+    description Mark to create one single new topic for all cells containing Bus 160, 161, 685 Renfe   Aravaca in column TRANSPORTE,
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName TRANSPORTE,
+    similarValue Bus 160, 161, 685 Renfe   Aravaca,
+    judgment new,
+    shareNewTopics true
+  },
+  {
+    op corerecon-judge-similar-cells,
+    description Mark to create one single new topic for all cells containing Bus 24, 102, 310 Renfe El Pozo in column TRANSPORTE,
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName TRANSPORTE,
+    similarValue Bus 24, 102, 310 Renfe El Pozo,
+    judgment new,
+    shareNewTopics true
+  },
+  {
+    op corerecon-judge-similar-cells,
+    description Match topic Madrid (enmadrid) for cells containing MADRID in column PROVINCIA,
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName PROVINCIA,
+    similarValue MADRID,
+    judgment matched,
+    match {
+      id enmadrid,
+      name Madrid,
+      score 100,
+      types [
+        CityTownVillage,
+        locationcitytown
+      ]
+    },
+    shareNewTopics false
+  },
+  {
+    op corerecon-judge-similar-cells,
+    description Match topic Madrid (enmadrid) for cells containing MADRID in column LOCALIDAD,
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    columnName LOCALIDAD,
+    similarValue MADRID,
+    judgment matched,
+    match {
+      id enmadrid,
+      name Madrid,
+      score 100,
+      types [
+        CityTownVillage,
+        locationcitytown
+      ]
+    },
+    shareNewTopics false
+  },
+  {
+    op corecolumn-addition,
+    description Create column schemaPlace at index 18 based on column LOCALIDAD using expression grelcell.recon.match.id,
+    engineConfig {
+      mode row-based,
+      facets []
+    },
+    newColumnName schemaPlace,
+    columnInsertIndex 18,
+    baseColumnName LOCALIDAD,
+    expression grelcell.recon.match.id,
+    onError set-to-blank
+  },
+  {
+    op rdf-extensionsave-rdf-schema,
+    description Save RDF schema skeleton,
+    schema {
+      baseUri httpsemanticweb.es,
+      prefixes [
+        {
+          name rdf,
+          uri httpwww.w3.org19990222-rdf-syntax-ns#
+        },
+        {
+          name owl,
+          uri httpwww.w3.org200207owl#
+        },
+        {
+          name rdfs,
+          uri httpwww.w3.org200001rdf-schema#
+        },
+        {
+          name foaf,
+          uri httpxmlns.comfoaf0.1
+        }
+      ],
+      rootNodes [
+        {
+          nodeType cell-as-resource,
+          expression value,
+          isRowNumberCell false,
+          columnName PK,
+          rdfTypes [],
+          links [
+            {
+              uri httpwww.w3.org200207owl#hasKey,
+              curie owlhasKey,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName PK
+              }
+            }
+          ]
+        },
+        {
+          nodeType cell-as-resource,
+          expression value,
+          isRowNumberCell false,
+          columnName NOMBRE,
+          rdfTypes [],
+          links [
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName NOMBRE
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName DESCRIPCION-ENTIDAD
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName HORARIO
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName EQUIPAMIENTO
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName TRANSPORTE
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName ACCESIBILIDAD
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName CONTENT-URL
+              }
+            }
+          ]
+        },
+        {
+          nodeType cell-as-resource,
+          expression value,
+          isRowNumberCell false,
+          columnName NOMBRE-VIA,
+          rdfTypes [],
+          links [
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName NOMBRE-VIA
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName CLASE-VIAL
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName TIPO-NUM
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName NUM
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName PLANTA
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName PUERTA
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName ESCALERAS
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName ORIENTACION
+              }
+            }
+          ]
+        },
+        {
+          nodeType cell-as-resource,
+          expression value,
+          isRowNumberCell false,
+          columnName LOCALIDAD,
+          rdfTypes [],
+          links [
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName LOCALIDAD
+              }
+            },
+            {
+              uri httpwww.w3.org200207owl#sameAs,
+              curie owlsameAs,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName schemaPlace
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName PROVINCIA
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName CODIGO-POSTAL
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName BARRIO
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName DISTRITO
+              }
+            }
+          ]
+        },
+        {
+          nodeType resource,
+          value Posicion,
+          rdfTypes [],
+          links [
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName COORDENADA-X
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName COORDENADA-Y
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName LATITUD
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName LONGITUD
+              }
+            }
+          ]
+        },
+        {
+          nodeType resource,
+          value Informacion,
+          rdfTypes [],
+          links [
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName TELEFONO
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName FAX
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName EMAIL
+              }
+            },
+            {
+              uri httpwww.w3.org200001rdf-schema#label,
+              curie rdfslabel,
+              target {
+                nodeType cell-as-literal,
+                expression value,
+                isRowNumberCell false,
+                columnName TIPO
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column NOMBRE to type ,
+    columnName NOMBRE,
+    config {
+      mode standard-service,
+      service http127.0.0.13333extensionrdf-extensionservicesdbpedia.es,
+      identifierSpace httpwww.ietf.orgrfcrfc3986,
+      schemaSpace httpwww.ietf.orgrfcrfc3986,
+      type {
+        id ,
+        name 
+      },
+      autoMatch true,
+      columnDetails []
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column TRANSPORTE to type ,
+    columnName TRANSPORTE,
+    config {
+      mode standard-service,
+      service http127.0.0.13333extensionrdf-extensionservicesdbpedia.es,
+      identifierSpace httpwww.ietf.orgrfcrfc3986,
+      schemaSpace httpwww.ietf.orgrfcrfc3986,
+      type {
+        id ,
+        name 
+      },
+      autoMatch true,
+      columnDetails []
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column NOMBRE-VIA to type ,
+    columnName NOMBRE-VIA,
+    config {
+      mode standard-service,
+      service http127.0.0.13333extensionrdf-extensionservicesdbpedia.es,
+      identifierSpace httpwww.ietf.orgrfcrfc3986,
+      schemaSpace httpwww.ietf.orgrfcrfc3986,
+      type {
+        id ,
+        name 
+      },
+      autoMatch true,
+      columnDetails []
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column DISTRITO to type ,
+    columnName DISTRITO,
+    config {
+      mode standard-service,
+      service http127.0.0.13333extensionrdf-extensionservicesdbpedia.es,
+      identifierSpace httpwww.ietf.orgrfcrfc3986,
+      schemaSpace httpwww.ietf.orgrfcrfc3986,
+      type {
+        id ,
+        name 
+      },
+      autoMatch true,
+      columnDetails []
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  },
+  {
+    op corerecon,
+    description Reconcile cells in column BARRIO to type ,
+    columnName BARRIO,
+    config {
+      mode standard-service,
+      service http127.0.0.13333extensionrdf-extensionservicesdbpedia.es,
+      identifierSpace httpwww.ietf.orgrfcrfc3986,
+      schemaSpace httpwww.ietf.orgrfcrfc3986,
+      type {
+        id ,
+        name 
+      },
+      autoMatch true,
+      columnDetails []
+    },
+    engineConfig {
+      mode row-based,
+      facets []
+    }
+  }
+]
