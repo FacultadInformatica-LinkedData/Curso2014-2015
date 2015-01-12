@@ -33,8 +33,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |c|
     v.customize ["modifyvm", :id, "--memory", "4096"]
   end
 
-  c.vm.provision :shell, path: "deploy.sh"
-
   c.vm.synced_folder "../rdf/", "/linked-data/ttl", create: true, group: "root", owner: "root"
   c.vm.synced_folder "../ontology/", "/linked-data/ont", create: true, group: "root", owner: "root"
+
+  c.vm.provision :shell, run: "once", privileged: true, preserve_order: true, path: "deploy.sh"
+  c.vm.provision :shell, run: "always", privileged: true, preserve_order: true, inline: "sudo -u vagrant /vagrant/run-tomcat.sh"
 end
