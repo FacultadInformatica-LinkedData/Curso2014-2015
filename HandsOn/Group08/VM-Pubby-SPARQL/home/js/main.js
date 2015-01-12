@@ -45,30 +45,47 @@ function doQuery(query, fnAction) {
 }
 
 function displayResult(data) {
-    $('#resultContainer').append('<div class="panel panel-info"><div class="panel-heading"><h3 class="panel-title">Results</h3></div><table id="result" class="table table-striped"><thead><tr></tr><tbody /></table></div>');
+    $('#resultContainer').append('<div class="panel panel-info" style="display: none;"><div class="panel-heading"><h3 class="panel-title">Results</h3></div><table id="result" class="table table-striped"><thead><tr></tr><tbody /></table></div>');
 
     var header = $('#resultContainer #result thead tr');
     $.each(data.head.vars, function(key, value) {
         header.append('<th>' + value + '</th>');
     });
 
-    $.each(data.results.bindings, function(index, bs) {
-        var row = $('<tr/>');
-        $.each(data.head.vars, function(key, vn) {
-            if (bs[vn].type == "uri") {
-                row.append('<td><a href="' + replaceUri(bs[vn].value) + '">' + bs[vn].value + '</a></td>');
-            } else {
-                row.append('<td>' + bs[vn].value + '</td>');
-            }
-        });
-        $('#resultContainer #result tbody').append(row);
-    });
 
-    $('#loading').hide();
+    if (window.Worker) { /* New browsers: Optimize big json parsing and avoid browser freeze */
+        var worker = new Worker('js/parsedata.worker.js');
+
+        worker.addEventListener('message', function(e) {
+            $('#resultContainer #result tbody').append(e.data);
+            $('#loading').hide();
+	    $('#resultContainer .panel').show();
+        });
+
+        worker.postMessage(data);
+    } else { /* Old browsers */
+	var content = '';
+
+        data.results.bindings.forEach(function(b) {
+            content += '<tr>';
+            data.head.vars.forEach(function(v) {
+                if (b[v].type == "uri") {
+                    content += '<td><a href="' + replaceUri(b[v].value) + '">' + b[v].value + '</a></td>';
+                } else {
+                    content += '<td>' + b[v].value + '</td>';
+                }
+            });
+            content += '</tr>';
+        });
+
+	$('#resultContainer #result tbody').append(content);
+        $('#loading').hide();
+	$('#resultContainer .panel').show();
+    }
 }
 
 function replaceUri(uri) {
-    return uri.replace("http://www.semanticweb.org/group08/", "http://localhost:8080/pubby/");
+    return uri.replace("http://www.semanticweb.org/group08/", "/pubby/");
 }
 
 function displayClass(data) {
