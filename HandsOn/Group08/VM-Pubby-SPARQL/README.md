@@ -16,29 +16,17 @@ pubby running.
 If you want to stop it just run `vagrant halt`, and if you want to destroy the VM just run `vagrant
 destroy`
 
-## Important URIs
+## Homepage
+We've created a homepage where you can run your own querys and lists our classes. The results of the
+query will be link you to its pubby instance.
+
+If the resource is external the link will point to the resource itself.
+
+The homepage is: http://localhost:8080/
+
+## Other URIs
  * SPARQL endpoint: http://localhost:8080/openrdf-sesame/repositories/group08?query=
- * SPARQL graphical endpoint: http://localhost:8080/openrdf-workbench/repositories/group08/query
  * Pubby: http://localhost:8080/pubby/
-
-## Example
-If we do at the SPARQL the following query:
-```
-SELECT ?privSchool {
-    ?privSchool a <http://www.semanticweb.org/group08/School/Private>.
-} LIMIT 3
-```
-
-We get this results:
-
-| privSchool                                                                               |
-|------------------------------------------------------------------------------------------|
-| <http://www.semanticweb.org/group08/School/Private/AddaClevengerJuniorPreparatory>       |
-| <http://www.semanticweb.org/group08/School/Private/BrandeisHillelDaySchool>              |
-| <http://www.semanticweb.org/group08/School/Private/ChildrensDaySchool>                   |
-
-If we want to see the related pubby page we can go to:
-http://localhost:8080/pubby/School/Private/AddaClevengerJuniorPreparatory
 
 ## Problems found
 ### Problem importing some files in Virtuoso
@@ -52,11 +40,3 @@ Sesame.
 
 There is a fork of Virtuoso that seems to solve this issue that is discussed here:
 https://github.com/openlink/virtuoso-opensource/issues/195
-
-## URIs
-When you click in a external resource link at the result set of a query you get redirected to
-http://www.semanticweb.org/group08/... since is the base URI we have chosen. We decided not to take
-action about this (although is wrong).
-
-A propper setup is to change the URI for example to http://localhost:8080/sanfrancisco/ install
-Pubby there too.
