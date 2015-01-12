@@ -72,6 +72,8 @@ run sudo rm $temp_dir/$(basename "$tomcat_url")
 
 echo "Configuring Tomcat..."
 echo "<?xml version='1.0' encoding='utf-8'?><tomcat-users><user username=\"$tomcat_user\" password=\"$tomcat_pass\" roles=\"manager-gui, manager-status, manager-script, manager-jmx\"/></tomcat-users>" | run sudo tee $tomcat_pwd/conf/tomcat-users.xml
+run sudo rm -rf $tomcat_pwd/webapps/docs $tomcat_pwd/webapps/examples $tomcat_pwd/webapps/ROOT
+run sudo ln -s /vagrant/home/ $tomcat_pwd/webapps/ROOT
 
 cat << EOF | run sudo tee -a /etc/crontab
 @reboot vagrant /vagrant/run-tomcat.sh

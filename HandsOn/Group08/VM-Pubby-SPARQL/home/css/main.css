@@ -1,0 +1,11 @@
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+
+#sparqlQuery {
+  max-width: 100%;
+  min-width: 100%;
+  margin-bottom: 10px;
+  min-height: 150px;
+}
