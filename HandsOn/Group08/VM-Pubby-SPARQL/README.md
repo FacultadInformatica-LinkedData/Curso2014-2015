@@ -24,6 +24,8 @@ If the resource is external the link will point to the resource itself.
 
 The homepage is: http://localhost:8080/
 
+![Homepage screenshot](screenshot.png)
+
 ## Other URIs
  * SPARQL endpoint: http://localhost:8080/openrdf-sesame/repositories/group08?query=
  * Pubby: http://localhost:8080/pubby/
