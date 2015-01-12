@@ -1,0 +1,40 @@
+# coding: utf-8
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+#
+# Copyright (C) 2014, 2015 Alejandro Barahona Alvarez, Sergio Conde Gomez, Sandra Saez Raspeño
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, version 3.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |c|
+  c.vm.box = "precise64"
+  c.vm.box_url = "http://files.vagrantup.com/precise64.box"
+
+  c.vm.network :forwarded_port, guest: 8080, host: 8080
+
+  c.vm.provider :virtualbox do |v|
+    v.name = "Linked Data UPM 2014-2015 - Group 08"
+
+    v.customize ["modifyvm", :id, "--ioapic", "on"  ]
+    v.customize ["modifyvm", :id, "--cpus"  , "2"   ]
+    v.customize ["modifyvm", :id, "--memory", "4096"]
+  end
+
+  c.vm.provision :shell, path: "deploy.sh"
+
+  c.vm.synced_folder "../rdf/", "/linked-data/ttl", create: true, group: "root", owner: "root"
+  c.vm.synced_folder "../ontology/", "/linked-data/ont", create: true, group: "root", owner: "root"
+end
