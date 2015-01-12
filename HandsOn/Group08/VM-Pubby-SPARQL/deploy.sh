@@ -75,8 +75,6 @@ echo "<?xml version='1.0' encoding='utf-8'?><tomcat-users><user username=\"$tomc
 run sudo rm -rf $tomcat_pwd/webapps/docs $tomcat_pwd/webapps/examples $tomcat_pwd/webapps/ROOT
 run sudo ln -s /vagrant/home/ $tomcat_pwd/webapps/ROOT
 
-echo "@reboot /vagrant/run-tomcat.sh" | run sudo crontab -u vagrant -
-
 echo "Installing Sesame..."
 run sudo mkdir -p $sesame_pwd
 run sudo curl -L "$sesame_url" -o $temp_dir/$(basename "$sesame_url")
