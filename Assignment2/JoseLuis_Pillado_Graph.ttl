@@ -1,0 +1,10 @@
+@prefix : <http://www.example.org/#>.
+@prefix property: <http://www.example.org/property#>.
+
+:User10A property:hasName "Pedro".
+:Computer101 property:hasOwner :User10A.
+:Measurement8401 property:hasTemperature "29";
+				 property:atTime "2010-06-12T12:00:12".
+:Sensor029 property:hasMeasurement :Measurement8401.
+:Class01 property:includes :Sensor029,
+:Computer101.
