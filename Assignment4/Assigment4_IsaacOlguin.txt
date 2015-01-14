@@ -1,0 +1,179 @@
+----------------------------------------------------BASIC----------------------------------------------------
+
+Provide the SPARQL query and the result for the following queries expressed in natural language.
+----------------------------------------------------
+
+1) Get all the classes
+
+SELECT ?clase as ?Clases
+WHERE {
+    ?clase a rdfs:Class
+}
+
+----------------------------------------------------
+
+2) Get all the subclasses of the class Establishment
+
+PREFIX prefExerc2: <http://GP-onto.fi.upm.es/exercise2#>
+
+SELECT ?subclase as ?Sublases
+WHERE {
+    ?subclase rdfs:subClassOf prefExerc2:Establishment.
+}
+
+----------------------------------------------------
+
+3) Get all instances of the class City
+
+PREFIX prefExerc2: <http://GP-onto.fi.upm.es/exercise2#>
+
+SELECT ?instancia as ?Instancias
+WHERE {
+    ?instancia a prefExerc2:City.
+}
+
+----------------------------------------------------
+
+4) Obtener el número de habitantes de Santiago de Compostela
+
+PREFIX pref: <http://GP-onto.fi.upm.es/exercise2#>
+
+SELECT ?numHabitantes as ?numeroDeHabitantes
+WHERE {
+    pref:Santiago_de_Compostela pref:hasInhabitantNumber ?numHabitantes.
+}
+
+----------------------------------------------------
+
+5) Obtener el número de habitantes de Santiago de Compostela y de Arzua
+
+PREFIX pref: <http://GP-onto.fi.upm.es/exercise2#>
+
+SELECT (?numHabitArzua as ?HabitantesArzua) (?numHabitSant as ?HabitantesSantiagoDeCompostela)
+WHERE {
+    pref:Santiago_de_Compostela pref:hasInhabitantNumber ?numHabitSant.
+    pref:Arzua pref:hasInhabitantNumber ?numHabitArzua.
+}
+
+----------------------------------------------------
+
+6) Obtener distintos lugares con número de habitantes, ordenar los resultados por el nombre del lugar (ascendente)
+
+PREFIX pref: <http://GP-onto.fi.upm.es/exercise2#>
+
+SELECT (?city as ?Ciudad) (?numHabitantes as ?NumeroDeHabitantes)
+WHERE {
+    ?city pref:hasInhabitantNumber ?numHabitantes.
+}ORDER BY ASC(?city)
+
+----------------------------------------------------
+
+7) Obtener todas las instancias de Locality con su número de habitantes (si existe) (http://skos.um.es/TR/rdf-sparql-query/)
+
+PREFIX pref: <http://GP-onto.fi.upm.es/exercise2#>
+
+SELECT DISTINCT ?instLoc ?numHabitantes
+WHERE {
+    ?instLoc a pref:Locality.	
+    OPTIONAL
+    {    
+        ?instLoc pref:hasInhabitantNumber ?numHabitantes.
+    }
+}
+
+----------------------------------------------------
+
+8) Obtener todos los lugares con más de 200.000 habitantes
+
+PREFIX pref: <http://GP-onto.fi.upm.es/exercise2#>
+
+SELECT DISTINCT ?lugar as ?LugaresConMasDe200000Habit
+WHERE {  
+    ?lugar pref:hasInhabitantNumber ?numHabitantes.
+    FILTER (?numHabitantes>200000)
+}
+
+----------------------------------------------------
+
+9) Obtener los datos postales de Pazo_Breogan (calle, número, localidad, provincia)
+
+PREFIX pref: <http://GP-onto.fi.upm.es/exercise2#>
+
+SELECT ?street ?number ?codigoPostal ?localidad ?provincia
+WHERE {
+    pref:Pazo_Breogan pref:hasAddress ?address.
+    pref:Pazo_Breogan pref:isPlacedIn ?localidad.
+    ?address pref:hasStreet ?street.
+    ?address pref:hasNumber ?number.
+    ?localidad pref:inProvince ?provincia.
+    OPTIONAL { ?address pref:hasPostalCode ?codigoPostal.}
+}
+
+----------------------------------------------------
+
+10) Obtener las subclases de la clase Location
+
+PREFIX pref: <http://GP-onto.fi.upm.es/exercise2#>
+
+SELECT ?subclases
+WHERE {
+    ?subclases rdfs:subClassOf pref:Location.
+}
+
+----------------------------------------------------
+
+11) Obtener las instancias de la clase Locality
+
+PREFIX pref: <http://GP-onto.fi.upm.es/exercise2#>
+
+select ?instancias
+where {
+    ?instancias a pref:Location.
+}
+
+----------------------------------------------------
+
+12) Describir el recurso con rdfs:label "Madrid”
+
+PREFIX pref: <http://GP-onto.fi.upm.es/exercise2#>
+
+DESCRIBE ?recurso
+WHERE{
+   ?recurso rdfs:label "Madrid"
+}
+
+----------------------------------------------------
+
+13) Construir el grafo RDF(S) que relaciona directamente todos los lugares turísticos con sus respectivas provincias, usando una nueva propiedad llamada ”isIn” (http://skos.um.es/TR/rdf-sparql-query/#constructGraph)
+
+PREFIX pref: <http://GP-onto.fi.upm.es/exercise2#>
+
+CONSTRUCT {?placeTur pref:isIn ?provincia}
+WHERE{
+    ?placeTur pref:isPlacedIn ?localidad.
+    ?localidad pref:inProvince ?provincia.
+}
+
+----------------------------------------------------
+
+14) Preguntar si hay alguna instancia de Town (http://skos.um.es/TR/rdf-sparql-query/#ask)
+
+PREFIX pref: <http://GP-onto.fi.upm.es/exercise2#>
+
+ASK {?instancia a pref:Town}
+
+----------------------------------------------------
+
+----------------------------------------------------ADVANCED----------------------------------------------------
+
+
+1) Dame todas las propiedades aplicables a las instancias de la clase Politician (<http://dbpedia.org/ontology/Politician>)
+
+SELECT ?prop
+WHERE
+{
+    ?rec a <http://dbpedia.org/ontology/Politician>.
+    ?prop a rdf:Property.
+}
+
+2) Dame todas las propiedades, exceptuando rdf:type, aplicables a las instancias de la clase Politician (<http://dbpedia.org/ontology/Politician>)
